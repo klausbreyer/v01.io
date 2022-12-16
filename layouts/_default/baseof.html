@@ -8,6 +8,12 @@
         {{ .Site.Title }}
         {{ end }}
     </title>
+    {{ $style := resources.Get "sass/main.scss" | resources.ToCSS |
+    resources.Minify
+    | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+
 </head>
 
 <body>
