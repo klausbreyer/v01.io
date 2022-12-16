@@ -1,6 +1,7 @@
 <!-- sidebar start -->
 <aside>
     <ul>
+        {{ $categories := .Site.Taxonomies.categories }}
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
@@ -18,6 +19,7 @@
                 <a href="{{ .URL }}">{{ .Name }}</a>
             </li>
             {{ end }}
+
         </ul>
         {{ else }}
         <li>
@@ -26,13 +28,17 @@
                 <span>{{ .Name }}</span>
             </a>
         </li>
+        {{ if eq .Name "Blog" }}
+        <ul>
+            {{ range $categories }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count
+                }}
+            </li>
+            {{ end }}
+        </ul>
         {{ end }}
         {{ end }}
-        <li>
-            <a href="#" target="_blank">Hardcoded Link 1</a>
-        </li>
-        <li>
-            <a href="#" target="_blank">Hardcoded Link 2</a>
-        </li>
+        {{ end }}
+
     </ul>
 </aside>

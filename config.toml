@@ -2,27 +2,20 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 sectionPagesMenu = "main"
-
+preserveTaxonomyNames = true
 
 [menu]
 [[menu.main]]
-  identifier = 'blog'
-  name = 'This is the blog section'
-  title = 'blog section'
-  url = '/blog/'
-  weight = -110
+  identifier = 'Home'
+  name = 'Home'
+#   title = 'Home'
+  url = '/'
+  weight = -1000
 
-[[menu.main]]
-  identifier = 'asdf'
-  name = 'This is the asdf section'
-  title = 'asdf section'
-  url = '/asdf/'
-  weight = -110
-
-[[menu.main]]
-  identifier = 'qwer'
-  name = 'This is the qwer section'
-  title = 'qwer section'
-  url = '/qwer/'
-  weight = -110
-  parent = "main"
+# [[menu.main]]
+#   identifier = 'qwer'
+#   name = 'This is the qwer section'
+#   title = 'qwer section'
+#   url = '/qwer/'
+#   weight = -110
+#   parent = "asdf"
