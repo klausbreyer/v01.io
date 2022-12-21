@@ -11,11 +11,14 @@ preserveTaxonomyNames = true
 
 [menu]
 # [[menu.main]]
-#   identifier = 'Home'
-#   name = 'Home'
-# #   title = 'Home'
-#   url = '/'
-#   weight = -1000
+#   name = 'Open Source'
+#   url = '/categories/open-source/'
+#   weight = 40
+
+# [[menu.main]]
+#   name = 'unixtime.app'
+#   url = '/categories/unixtime.app/'
+#   weight = 50
 
 # [[menu.main]]
 #   identifier = 'qwer'

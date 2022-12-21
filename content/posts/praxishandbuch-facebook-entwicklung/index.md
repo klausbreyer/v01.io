@@ -6,7 +6,7 @@ publishdate: 2015-01-11T14:13:28+01:00
 lastmod: 2022-08-02T13:48:12+02:00
 draft: false
 description: 'Praxishandbuch Facebook Entwicklung'
-categories: ['Uncategorized']
+categories: ['Business']
 ---
 
 ![](9783955617943.jpg)

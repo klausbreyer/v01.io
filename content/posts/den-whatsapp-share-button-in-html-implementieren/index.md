@@ -7,7 +7,7 @@ lastmod: 2021-06-29T10:40:30+02:00
 draft: false
 description: 'Den WhatsApp Share Button in HTML implementieren'
 tags: ['facebook', 'whatsapp']
-categories: ['Engineering']
+categories: ['Code']
 ---
 
 

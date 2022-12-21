@@ -7,7 +7,7 @@ lastmod: 2021-06-29T10:40:28+02:00
 draft: false
 description: 'Wie man unter Zeitdruck ein Software-Projekt mit einer völlig fremden Codebase übernimmt und am Laufen hält.'
 tags: ['projektmanagement', 'cronjobs', 'deployment', 'testing']
-categories: ['Engineering']
+categories: ['Code']
 ---
 
 Wer ein größeres Software Projekt übernimmt, dessen Codebase er nicht kennt, hat erst einmal mit viel Komplexität und Unsicherheiten zu kämpfen. Ein Rewrite kommt selten in Frage. Mal davon abgesehen, [dass Rewrites meist ohnehin Todesmärsche sind](http://chadfowler.com/2006/12/27/the-big-rewrite.html) , muss ja auch noch die laufende Plattform maintained werden. Meist sind auch die vorherigen Entwickler nicht sonderlich kooperativ.
@@ -61,4 +61,4 @@ Diese Tipps beziehen sich vor allem auf mittlere bis komplexe Projekte mit klein
 
 Das Hilft einem noch nicht, sämtliche Effekte welche unter besonderen Datenkonstellationen passieren, komplett abzutesten. Und es ersetzt auch keine Testabdeckung. Aber diese parallelen Systeme bringen einen schon mal gehörigen Schritt bei einem unbekannten System weiter, wenn es total unklar ist welchen Weg Daten durch ein System nehmen.
 
-Nach und nach sollte der Code natürlich auf ein Niveau gehieft werden, indem es deterministischer ist, was bei welchen Daten passiert.
+Nach und nach sollte der Code natürlich auf ein Niveau gehieft werden, indem es deterministischer ist, was bei welchen Daten passiert.d

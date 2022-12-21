@@ -3,7 +3,7 @@ title: "Reel"
 date: 2022-12-19
 menu:
   main:
-    weight: 30
+    weight: 20
 
 ---
 ## Introduction

@@ -7,7 +7,7 @@ lastmod: 2021-06-29T10:40:28+02:00
 draft: false
 description: 'Entwickler Sourcing mit Stack Overflow'
 tags: ['hr', 'bewerbungsprozess', 'frontend', 'sourcing', 'stack overflow', 'stellenanzeige']
-categories: ['Engineering']
+categories: ['Code']
 ---
 
 ![](stackoverflow.png)

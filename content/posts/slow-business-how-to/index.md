@@ -6,7 +6,7 @@ publishdate: 2020-05-15T10:59:09+02:00
 lastmod: 2022-09-23T13:34:59+02:00
 draft: false
 description: 'Slow Business: How to?'
-categories: ['Uncategorized']
+categories: ['Business']
 tags: ['business model', 'slowbusiness']
 ---
 

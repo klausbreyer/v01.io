@@ -8,6 +8,8 @@ menu:
     weight: 5
 ---
 
-I decided to start learning Go in March 2017.
+I have been blogging since 2006, business-wise 2011.
 
-Follow my journey through this new blog.
+But I deleted older / irrelevant articles only to keep relevant things for my dear reader.
+
+If you want to give feedback to me, don't hesitate to send me a message.

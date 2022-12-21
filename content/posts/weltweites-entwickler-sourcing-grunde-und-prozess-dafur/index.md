@@ -7,7 +7,7 @@ lastmod: 2021-06-29T10:40:29+02:00
 draft: false
 description: 'Weltweites Entwickler Sourcing: Gründe und Prozess dafür'
 tags: ['engineer', 'hr', 'sourcing']
-categories: ['Engineering']
+categories: ['Code']
 ---
 
 Aufgrund von akutem Fachkräftemangel in Berlin führe ich ja gerade Bewerbungsgespräche mit Javascript-Entwicklern aus der ganzen Welt. Mir fallen nur noch wenige Gründe ein, warum man lediglich in der eigenen Stadt suchen sollte und noch weniger Gründe, warum man sämtliches Personal bei sich im Büro sitzen haben will.

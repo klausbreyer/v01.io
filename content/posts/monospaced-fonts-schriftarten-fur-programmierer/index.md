@@ -7,7 +7,7 @@ lastmod: 2021-06-29T10:40:27+02:00
 draft: false
 description: 'Monospaced Fonts: Schriftarten für Programmierer'
 tags: ['workflow', 'editor', 'ide']
-categories: ['Engineering']
+categories: ['Code']
 ---
 
 ![](2017-01-16-source-code-pro.png)

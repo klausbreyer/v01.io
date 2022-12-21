@@ -75,6 +75,9 @@ header {
   nav.menu {
     font-size: 1.5rem;
   }
+  nav.menu {
+    font-style: italic;
+  }
   nav.categories {
     font-size: 1.3rem;
   }
@@ -105,6 +108,7 @@ header {
       font-weight: bold;
       letter-spacing: -1px;
       font-family: "Share Tech";
+      font-style: italic;
       color: $text;
     }
 

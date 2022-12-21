@@ -7,7 +7,7 @@ lastmod: 2021-06-29T10:40:26+02:00
 draft: false
 description: 'Interview-Leitfaden für Software Engineer / Developer Bewerbungsgespräche'
 tags: ['interview', 'hr', 'bewerbungsgespräch', 'frontend', 'job interview']
-categories: ['Engineering']
+categories: ['Code']
 ---
 ![](2017-01-18-bewerbungsfragen.jpg)
 

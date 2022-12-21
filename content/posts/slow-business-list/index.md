@@ -6,7 +6,7 @@ publishdate: 2021-01-13T09:57:14+01:00
 lastmod: 2022-09-23T13:35:03+02:00
 draft: false
 description: 'Slow Business List'
-categories: ['Uncategorized']
+categories: ['Business']
 tags: ['slowbusiness']
 ---
 
