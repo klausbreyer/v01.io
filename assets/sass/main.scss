@@ -60,6 +60,11 @@ main a {
   font-family: "Share Tech";
   font-weight: bold;
 }
+main img {
+  max-width: calc(1024px - 2rem);
+  padding: 1rem;
+  border: 1px solid $text;
+}
 
 //header
 header {
