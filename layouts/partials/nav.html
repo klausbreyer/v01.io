@@ -1,7 +1,6 @@
 <!-- sidebar start -->
 <nav>
     <ul>
-        {{ $categories := .Site.Taxonomies.categories }}
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
@@ -28,15 +27,7 @@
                 <span>{{ .Name }}</span>
             </a>
         </li>
-        {{ if eq .Name "Blog" }}
-        <ul>
-            {{ range $categories }}
-            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count
-                }}
-            </li>
-            {{ end }}
-        </ul>
-        {{ end }}
+
         {{ end }}
         {{ end }}
 

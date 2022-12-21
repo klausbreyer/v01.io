@@ -4,8 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ block "title" . }}
-        <!-- Blocks may include default content. -->
-        {{ .Site.Title }}
+
         {{ end }}
     </title>
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS |
@@ -18,6 +17,8 @@
 
 <body>
     <header>
+        <span class="author">{{ $.Site.Params.author }}</span>
+        <span class="description">, {{ $.Site.Params.description }}</span>
         {{ partial "nav.html" . }}
     </header>
     <!-- Code that all your templates share, like a header -->

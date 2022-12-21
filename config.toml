@@ -1,8 +1,13 @@
 baseURL = 'https://www.v01.io/'
 languageCode = 'en-us'
-title = 'Klaus Breyer – Independent CTO / Code, Architecture & Engineering Org'
-sectionPagesMenu = "main"
+title = 'Klaus Breyer, independent CTO / Code, Architecture & Engineering Org'
+copyright = 'Klaus Breyer'
+
+sectionPagesMenu = 'main'
 preserveTaxonomyNames = true
+[params]
+  author = 'Klaus Breyer'
+  description = "independent CTO / Code, Architecture & Engineering Org"
 
 [menu]
 [[menu.main]]

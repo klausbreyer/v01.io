@@ -1,0 +1,18 @@
+<!-- sidebar start -->
+{{ if eq .Name "Blog" }}
+<nav>
+    <ul>
+        {{ $categories := .Site.Taxonomies.categories }}
+
+        <ul>
+            {{ range $categories }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count
+                }}
+            </li>
+            {{ end }}
+        </ul>
+
+
+    </ul>
+    {{ end }}
+</nav>

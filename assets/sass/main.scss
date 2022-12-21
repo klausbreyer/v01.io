@@ -1,10 +1,13 @@
 $primary: #cf0e0e;
+$text: #000;
+$text-light: #666;
 @import "roboto", "sharetech", "sharetechmono";
 body {
   background: #eee;
   font-family: "Roboto";
+  color: $text;
   p {
-    font-size: 10px;
+    // font-size: 10px;d
   }
 }
 
@@ -23,7 +26,35 @@ h5,
 h6 {
   font-family: "Share Tech";
 }
+header {
+  font-family: "Share Tech";
+  font-size: 1.3rem;
+}
 
 a {
   color: $primary;
+}
+a:hover {
+  text-decoration: none;
+}
+span.author {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Share Tech Mono";
+}
+
+span.description {
+  font-size: 1.3rem;
+  color: $text-light;
+}
+
+nav {
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
 }
