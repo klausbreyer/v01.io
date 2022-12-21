@@ -1,0 +1,68 @@
+<footer>
+    <h3>About</h3>
+    <p>Hi, I am Klaus Breyer – an independent CTO and software creator from
+        Berlin.
+        I am responsible for technology, teams, and processes since I founded my
+        first company in 2010 – from fast-moving independent startup projects to
+        Progressive Web Apps on top of brownfield microservice environments.</p>
+    <h3>Subscribe to my Mailing List</h3>
+    <div id="mc_embed_signup" class="mailchimp">
+        <div>
+            {{/* <h3>Newsletter</h3> */}}
+            <form
+                action="
+            https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0"
+                method="post" id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form" class="validate"
+                target="_self">
+
+                <input type="email" value="" name="EMAIL" class="required email"
+                    id="mce-EMAIL" required="">&nbsp;
+                <input type="submit" value="Subscribe" name="subscribe"
+                    id="mc-embedded-subscribe" class="button">
+
+            </form>
+
+        </div>
+    </div>
+    <p>If you want to be informed about something significant happening here,
+        please
+        subscribe to my Mailing List.</p>
+    <p>Right now, I plan to not send newsletters very often – only for essential
+        topics.<br>For all the minor updates, feel free to subscribe via RSS.
+    </p>
+    <p>(After clicking subscribe your email address is submitted to
+        MailChimp, the provider I use for my mailinglist. Your email
+        address is never sold or shared).</p>
+    <hr />
+    <div class="spacebetween">
+        <div>
+            <h4>v01.io</h4>
+            Klaus Breyer<br />
+            Erich-Nehlhans-Str. 27<br />
+            D-10247 Berlin<br />
+            <br />
+            <a href="/contact">Contact</a>
+        </div>
+        <nav class="categories">
+            <h4>Blog categories</h4>
+            <ul>
+                {{ $categories := .Site.Taxonomies.categories }}
+                {{ range $categories }}
+                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{
+                    .Count
+                    }})
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+        <nav class="tags">
+            <h4>Blog Tags</h4>
+            {{ range .Site.Taxonomies.tags }}
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{
+            .Count
+            }});
+            {{ end }}
+        </nav>
+    </div>
+</footer>

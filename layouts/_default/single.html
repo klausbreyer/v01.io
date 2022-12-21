@@ -5,12 +5,12 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
-tags
-<ul>
-    {{ range (.GetTerms "tags") }}
-    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-</ul>
+<h4>Tags</h4>
+
+{{ range (.GetTerms "tags") }}
+<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+{{ end }}
+
 
 
 

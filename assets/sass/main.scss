@@ -1,23 +1,33 @@
 $primary: #cf0e0e;
 $text: #000;
 $text-light: #666;
-@import "roboto", "sharetech", "sharetechmono";
+@import "sharetech";
+
 body {
   background: #eee;
-  font-family: "Roboto";
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+    Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol;
   color: $text;
-  p {
-    // font-size: 10px;d
-  }
+}
+p,
+li {
+  line-height: 1.75;
+  font-weight: 400;
+  letter-spacing: -0.1px;
 }
 
 header,
 main,
 footer {
-  max-width: 1280px;
+  max-width: 1024px;
   margin: auto;
 }
 
+input,
+select {
+  font-family: "Share Tech";
+}
 h1,
 h2,
 h3,
@@ -25,36 +35,106 @@ h4,
 h5,
 h6 {
   font-family: "Share Tech";
-}
-header {
-  font-family: "Share Tech";
-  font-size: 1.3rem;
+  margin: 0;
+  margin-bottom: 0.25em;
 }
 
 a {
   color: $primary;
-}
-a:hover {
   text-decoration: none;
 }
-span.author {
-  font-size: 1.5rem;
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.spacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+// main
+main a {
+  font-family: "Share Tech";
   font-weight: bold;
-  font-family: "Share Tech Mono";
 }
 
-span.description {
-  font-size: 1.3rem;
-  color: $text-light;
-}
+//header
+header {
+  font-family: "Share Tech";
+  margin-top: 2rem;
 
-nav {
+  nav.title,
+  nav.menu {
+    font-size: 1.5rem;
+  }
+  nav.categories {
+    font-size: 1.3rem;
+  }
+
+  nav.title,
+  nav.categories {
+    margin-bottom: 0.5rem;
+  }
+
   ul {
-    padding: 0;
-    margin: 0;
     display: flex;
     list-style: none;
     gap: 0.5rem;
     flex-wrap: wrap;
+    align-items: baseline;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  a.active {
+    font-weight: bold;
+  }
+
+  nav.title {
+    a.author {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: -1px;
+      font-family: "Share Tech";
+      color: $text;
+    }
+
+    span.description {
+      font-size: 1.3rem;
+      color: $text-light;
+    }
+  }
+}
+
+//footer
+footer {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+  ul {
+    margin: 0;
+    padding: 0 1em;
+  }
+}
+
+div.mailchimp {
+  max-width: 512px;
+  width: 100%;
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    input[type="email"] {
+      font-size: 1.5rem;
+      flex: 1;
+    }
+    input[type="submit"] {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
   }
 }

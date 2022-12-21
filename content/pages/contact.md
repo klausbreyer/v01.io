@@ -2,7 +2,7 @@
 title: "Contact"
 date: 2022-12-19
 menu:
-  main:
+  footer:
     weight: 130
 
 ---

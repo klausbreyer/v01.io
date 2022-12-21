@@ -3,45 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ block "title" . }}
-
-        {{ end }}
-    </title>
+    <title>{{ block "title" . }}{{ end }}</title>
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS |
     resources.Minify
     | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="{{ $style.Permalink }}" rel="preload"
+        as="style">
 
 
 </head>
 
 <body>
     <header>
-        <span class="author">{{ $.Site.Params.author }}</span>
-        <span class="description">, {{ $.Site.Params.description }}</span>
-        {{ partial "nav.html" . }}
+        {{ partial "title.html" . }}
+        {{ partial "menu.html" . }}
+        {{ partial "categories.html" . }}
     </header>
-    <!-- Code that all your templates share, like a header -->
     <main>
+        <hr />
         {{ block "main" . }}
-        <!-- The part of the page that begins to differ between templates -->
         {{ end }}
+        <hr />
     </main>
-    <footer>
-        site tags:
-        {{ block "footer" . }}
-        <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-
-        {{ end }}
-        <ul>
-            {{ range .Site.Taxonomies.tags }}
-            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count
-                }}
-            </li>
-            {{ end }}
-        </ul>
-
-    </footer>
+    {{ partial "footer.html" . }}
 
 
 
