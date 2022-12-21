@@ -17,23 +17,31 @@
 </head>
 
 <body>
-    {{ partial "menu.html" . }}
-
+    <header>
+        {{ partial "nav.html" . }}
+    </header>
     <!-- Code that all your templates share, like a header -->
-    {{ block "main" . }}
-    <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
-    {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-    {{ end }}
-    site tags:
-
-    <ul>
-        {{ range .Site.Taxonomies.tags }}
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}
-        </li>
+    <main>
+        {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
         {{ end }}
-    </ul>
+    </main>
+    <footer>
+        site tags:
+        {{ block "footer" . }}
+        <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+
+        {{ end }}
+        <ul>
+            {{ range .Site.Taxonomies.tags }}
+            <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count
+                }}
+            </li>
+            {{ end }}
+        </ul>
+
+    </footer>
+
 
 
 </body>

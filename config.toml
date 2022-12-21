@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://www.v01.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Klaus Breyer – Independent CTO / Code, Architecture & Engineering Org'
 sectionPagesMenu = "main"
 preserveTaxonomyNames = true
 

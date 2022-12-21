@@ -1,6 +1,29 @@
+$primary: #cf0e0e;
+@import "roboto", "sharetech", "sharetechmono";
 body {
   background: #eee;
+  font-family: "Roboto";
   p {
     font-size: 10px;
   }
+}
+
+header,
+main,
+footer {
+  max-width: 1280px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Share Tech";
+}
+
+a {
+  color: $primary;
 }
