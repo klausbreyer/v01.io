@@ -16,6 +16,9 @@ li {
   font-weight: 400;
   letter-spacing: -0.1px;
 }
+p.small {
+  font-size: 0.8rem;
+}
 
 header,
 main,
@@ -23,7 +26,10 @@ footer {
   max-width: 1024px;
   margin: auto;
 }
-
+time {
+  font-family: "Share Tech";
+  font-weight: bold;
+}
 input,
 select {
   font-family: "Share Tech";
@@ -37,6 +43,18 @@ h6 {
   font-family: "Share Tech";
   margin: 0;
   margin-bottom: 0.25em;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.33rem;
 }
 
 a {
@@ -53,6 +71,54 @@ div.spacebetween {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+//header
+header {
+  font-family: "Share Tech";
+  margin-top: 2rem;
+}
+
+header nav.title {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  a.author {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: -0.2rem;
+    font-family: "Share Tech";
+    font-style: italic;
+    color: $text;
+  }
+
+  span.description {
+    color: $text-light;
+  }
+}
+
+header nav.menu {
+  font-size: 1.33rem;
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    column-gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    a {
+      font-weight: bold;
+    }
+    a.active,
+    a:hover {
+      text-decoration: none;
+      border-bottom: 0.2rem solid $primary;
+    }
+  }
 }
 
 // main
@@ -63,74 +129,38 @@ main a {
 main img {
   max-width: calc(1024px - 2rem);
   padding: 1rem;
-  border: 1px solid $text;
 }
-
-//header
-header {
+main nav.categories {
+  font-size: 1.33rem;
+}
+main aside {
+  margin-bottom: 1rem;
   font-family: "Share Tech";
-  margin-top: 2rem;
-
-  nav.title,
-  nav.menu {
-    font-size: 1.5rem;
-  }
-  nav.menu {
-    font-style: italic;
-  }
-  nav.categories {
-    font-size: 1.3rem;
-  }
-
-  nav.title,
-  nav.categories {
-    margin-bottom: 0.5rem;
-  }
-
-  ul {
-    display: flex;
-    list-style: none;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    align-items: baseline;
-
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  a.active {
-    font-weight: bold;
-  }
-
-  nav.title {
-    a.author {
-      font-size: 3rem;
-      font-weight: bold;
-      letter-spacing: -1px;
-      font-family: "Share Tech";
-      font-style: italic;
-      color: $text;
-    }
-
-    span.description {
-      font-size: 1.3rem;
-      color: $text-light;
-    }
-  }
+  font-weight: bold;
 }
 
 //footer
 footer {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif;
-  ul {
-    margin: 0;
-    padding: 0 1em;
-  }
+  margin-bottom: 2rem;
+  // font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+  //   helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+  //   sans-serif;
+}
+footer a {
+  font-family: "Share Tech";
+  font-weight: bold;
 }
 
-div.mailchimp {
+footer nav.tags {
+  margin-bottom: 0.5rem;
+}
+
+footer div.about {
+  flex: 1;
+}
+
+footer div.mailchimp {
+  flex: 1;
   max-width: 512px;
   width: 100%;
   form {
@@ -146,4 +176,9 @@ div.mailchimp {
       font-size: 1.5rem;
     }
   }
+}
+
+footer div.copyright {
+  text-align: center;
+  font-family: "Share Tech";
 }

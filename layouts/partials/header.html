@@ -1,0 +1,27 @@
+<header>
+    <nav class="title">
+        <a class="author" href="/">{{ $.Site.Copyright }}</a>
+        {{/* <span class="description">–</span> */}}
+        <br />
+        <span class="description">A CTO, writing about <a
+                href="/categories/code/">Code</a>, <a
+                href="/categories/business/">Business</a>, <a
+                href="/categories/org/">Product</a> & <a href="">Engineering
+                Orgs</a>.</span>
+    </nav>
+
+    {{$section_heading := .Site.GetPage "section" .Section }}
+    <nav class="menu">
+        <ul>
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <li>
+                &gt;<a href="{{ .URL }}" {{ if or (eq $.Page.Name .Name) (and
+                    (eq $section_heading.Title "Blog" ) (eq .Name "Blog" )) (and
+                    (eq $section_heading.Title "Categories" ) (eq .Name "Blog"
+                    )) }}class="active" {{end}}>{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>

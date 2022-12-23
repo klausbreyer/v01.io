@@ -13,12 +13,12 @@ preserveTaxonomyNames = true
 # [[menu.main]]
 #   name = 'Open Source'
 #   url = '/categories/open-source/'
-#   weight = 40
+#   weight = 100
 
 # [[menu.main]]
 #   name = 'unixtime.app'
 #   url = '/categories/unixtime.app/'
-#   weight = 50
+#   weight = 110
 
 # [[menu.main]]
 #   identifier = 'qwer'

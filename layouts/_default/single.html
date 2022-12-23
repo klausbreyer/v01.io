@@ -2,16 +2,65 @@
 {{ .Title }} &ndash; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-
-<h4>Tags</h4>
-
+{{/* twitter hashtags calculation */}}
+{{ $twitterhashtags := "" }}
 {{ range (.GetTerms "tags") }}
-<a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+{{if eq (len $twitterhashtags) 0}}
+{{ $twitterhashtags = .LinkTitle }}
+{{ else }}
+{{ $twitterhashtags = printf "%s,%s" $twitterhashtags .LinkTitle }}
+{{ end }}
 {{ end }}
 
+<article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</article>
+<aside>
 
-
-
+    <h4>Sharing this article</h4>
+    <a target="_blank"
+        href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $twitterhashtags}}">Twitter</a>;
+    <a target="_blank"
+        href="https://www.linkedin.com/shareArticle?url={{.Permalink}}&title={{.Title}}">LinkedIn</a>;
+    <a target="_blank"
+        href="https://reddit.com/submit?url={{.Permalink}}&title={{.Title}}">Reddit</a>;
+    <a target="_blank"
+        href="https://www.facebook.com/sharer.php?u={{.Permalink}}">Facebook</a>;
+    <a target="_blank"
+        href="https://api.whatsapp.com/send?text={{.Title}} {{.Permalink}}">WhatsApp</a>;
+    <a target="_blank"
+        href="https://wordpress.com/press-this.php?u={{.Permalink}}&t={{.Title}}&s=[post-desc]">Wordpress</a>;
+    <a target="_blank"
+        href="https://getpocket.com/save?url={{.Permalink}}&title={{.Title}}">Pocket</a>;
+    <a target="_blank"
+        href="https://bufferapp.com/add?text={{.Title}}&url={{.Permalink}}">Buffer</a>;
+    <a target="_blank"
+        href="https://www.evernote.com/clip.action?url={{.Permalink}}&title={{.Title}}">Evernote</a>;
+    <a target="_blank"
+        href="https://delicious.com/save?v=5&provider={{.Site.Copyright}}&noui&jump=close&url={{.Permalink}}&title={{.Title}}">Delicious</a>;
+</aside>
+<aside>
+    <h4>Meta</h4>
+    <div>
+        <b>In:</b>
+        {{ range (.GetTerms "categories") }}
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+        {{ end }}
+    </div>
+    <div>
+        <b>On:</b>
+        <time datetime="{{ .Date.Format " 2017-03-03T14:15:59-06:00"}}">
+            {{.Date}};
+        </time>
+    </div>
+    {{if gt (.GetTerms "tags") 0}}
+    <div>
+        <b>About: </b>
+        {{ range (.GetTerms "tags") }}
+        <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+        {{ end }}
+    </div>
+    {{ end }}
+</aside>
 {{ end }}
