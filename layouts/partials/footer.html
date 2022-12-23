@@ -58,14 +58,6 @@
                 address is never sold or shared).</p>
         </div>
     </div>
-    <nav class="tags">
-        <h3>Blog Tags</h3>
-        {{ range .Site.Taxonomies.tags }}
-        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{
-        .Count
-        }});
-        {{ end }}
-    </nav>
 
     <nav class="categories">
         <h3>Blog categories</h3>
@@ -77,7 +69,21 @@
         }});
         {{ end }}
     </nav>
+
+    <nav class="tags">
+        <h3>Blog Tags</h3>
+        {{ range .Site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{
+        .Count
+        }});
+        {{ end }}
+    </nav>
+
     <hr />
-    <div class="copyright"><b>&copy; {{$.Site.Copyright }}</b> – <a
-            href="/pages/contact/">Contact</a></div>
+    <div class="copyright">
+        <b>&copy; {{$.Site.Copyright }}</b>
+        &gt;<a href="{{ .Site.BaseURL }}posts/index.xml" target="_blank">RSS
+            Feed</a>
+        &gt;<a href="/pages/contact/">Contact</a>
+    </div>
 </footer>

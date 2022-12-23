@@ -22,6 +22,9 @@
     <meta property="og:image"
         content="{{.Site.BaseURL}}{{.Site.Params.image}}" />
     {{ end }}
+    <link rel="alternate" type="application/rss+xml"
+        href="{{ .Site.BaseURL }}posts/index.xml"
+        title="Klaus Breyer, a CTO writing about Code, Business, Product & Engineering Orgs" />
 </head>
 
 <body>

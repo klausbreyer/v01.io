@@ -6,6 +6,9 @@ copyright = 'Klaus Breyer'
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 
+[author]
+  name = 'Klaus Breyer'
+
 [sitemap]
   changefreq = 'monthly'
 

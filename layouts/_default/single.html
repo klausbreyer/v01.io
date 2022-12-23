@@ -24,11 +24,13 @@
 <aside>
     <h4>Article Meta Data</h4>
     <ul>
+        {{if gt (.GetTerms "categories") 0}}
         <li><b>In:</b>
             {{ range (.GetTerms "categories") }}
             <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
         </li>
+        {{ end }}
         <li>
             <b>On:</b>
             <time datetime="{{ .Date.Format " 2017-03-03T14:15:59-06:00"}}">
