@@ -8,8 +8,6 @@ draft: false
 description: 'ist die Straße des 17. Juni gesperrt .de'
 categories: ['Open Source']
 ---
-
-
 ![](og-1024x541.png)
 
 Update: Das Projekt ist derzeit offline. Mehr dazu: unten.

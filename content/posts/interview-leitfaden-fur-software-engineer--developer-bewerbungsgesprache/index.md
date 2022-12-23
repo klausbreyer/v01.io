@@ -1,5 +1,5 @@
 ---
-title: 'Interview-Leitfaden für Software Engineer / Developer Bewerbungsgespräche'
+title: 'Interview-Leitfaden für Engineer und Developer Job Interviews'
 author: Klaus Breyer
 date: 2017-01-18T08:58:10+01:00
 publishdate: 2017-01-18T08:58:10+01:00

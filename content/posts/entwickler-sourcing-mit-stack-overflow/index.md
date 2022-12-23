@@ -9,7 +9,6 @@ description: 'Entwickler Sourcing mit Stack Overflow'
 tags: ['hr', 'bewerbungsprozess', 'frontend', 'sourcing', 'stack overflow', 'stellenanzeige']
 categories: ['Code']
 ---
-
 ![](stackoverflow.png)
 
 Bei dem überwältigenden Feedback auf meinen letzten Artikel [Weltweites Entwickler Sourcing: Gründe und Prozess dafür](https://klaus-breyer.de/blog/software-engineering/weltweites-entwickler-sourcing-gruende-dafuer-und-der-prozess/1692) ist eine Frage besonders herausgestochen: Wie generiere ich weltweit Bewerbungen?

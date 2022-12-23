@@ -124,7 +124,7 @@ main a {
   font-weight: bold;
 }
 main img {
-  max-width: calc(1024px - 2rem);
+  max-width: calc(100% - 2rem);
   padding: 1rem;
 }
 main nav.categories {

@@ -1,14 +1,38 @@
 {{ define "title" }}
 {{ .Title }} &ndash; {{ .Site.Title }}
 {{ end }}
+
+{{ define "head" }}
+{{/* twitter hashtags calculation */}}
+{{ $keywords := "" }}
+{{ range (.GetTerms "tags") }}
+{{if eq (len $keywords) 0}}
+{{ $keywords = .LinkTitle }}
+{{ else }}
+{{ $keywords = printf "%s, %s" $keywords .LinkTitle }}
+{{ end }}
+{{ end }}
+<meta name="keywords" content="{{ $keywords }}">
+
+{{if .Params.Ogimage}}
+<meta property="og:image"
+    content="{{$.Site.BaseURL}}{{$.File.Dir}}{{.Params.Ogimage}}" />
+{{ else }}
+{{ range first 1 (.Resources.ByType "image") }}
+<meta property="og:image" content="{{ .Permalink }}" />
+{{ end }}
+
+{{ end }}
+{{ end }}
+
 {{ define "main" }}
 {{/* twitter hashtags calculation */}}
-{{ $twitterhashtags := "" }}
+{{ $keywords := "" }}
 {{ range (.GetTerms "tags") }}
-{{if eq (len $twitterhashtags) 0}}
-{{ $twitterhashtags = .LinkTitle }}
+{{if eq (len $keywords) 0}}
+{{ $keywords = .LinkTitle }}
 {{ else }}
-{{ $twitterhashtags = printf "%s,%s" $twitterhashtags .LinkTitle }}
+{{ $keywords = printf "%s,%s" $keywords .LinkTitle }}
 {{ end }}
 {{ end }}
 
@@ -61,7 +85,7 @@
             <a target="_blank"
                 href="mailto:?subject={{.Title}}&body={{.Permalink}}">Email</a>;
             <a target="_blank"
-                href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $twitterhashtags}}">Twitter</a>;
+                href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $keywords}}">Twitter</a>;
             <a target="_blank"
                 href="https://www.linkedin.com/shareArticle?url={{.Permalink}}&title={{.Title}}">LinkedIn</a>;
             <a target="_blank"

@@ -10,9 +10,7 @@ tags: ['facebook', 'whatsapp']
 categories: ['Code']
 ---
 
-
-
-Wie ihr oben seht, bietet WhatsApp neuerdings (Dieser Artikel wurde 2014 geschrieben) einen Share Button. Buzzfeed testet ihn schon seit Anfang an, hatte ihn jetzt aber jüngst wieder entfernt. Der Button bietet die sehr praktische Möglichkeit, einen Artikel über WhatsApp zu teilen. Das hat mich natürlich sehr interessiert und ich habe mir den Button mal etwas genauer angeschaut. :)
+WhatsApp bietet neuerdings (Dieser Artikel wurde 2014 geschrieben) einen Share Button. Buzzfeed testet ihn schon seit Anfang an, hatte ihn jetzt aber jüngst wieder entfernt. Der Button bietet die sehr praktische Möglichkeit, einen Artikel über WhatsApp zu teilen. Das hat mich natürlich sehr interessiert und ich habe mir den Button mal etwas genauer angeschaut. :)
   ## Wie geht das?
 Hinter dem whatsapp Button liegt ein einfacher Link, welcher einen sogenannten native Deeplink direkt in die WhatsApp App hinein erzeugt und so der App einen Text übergibt. Ähnlich wie einen mailto:-Link kann diesen Link jeder in seine eigenen Website einbauen. Und zwar so:
 
