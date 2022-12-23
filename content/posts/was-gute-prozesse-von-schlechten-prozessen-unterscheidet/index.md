@@ -6,7 +6,7 @@ publishdate: 2014-01-15T09:24:58+01:00
 lastmod: 2021-06-29T10:37:44+02:00
 draft: false
 description: 'Was gute Prozesse von schlechten Prozessen unterscheidet'
-categories: ['Org']
+categories: ['Engineering Org']
 tags: ['prozesse', 'workflow', 'ziele']
 ---
 

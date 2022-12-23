@@ -7,7 +7,7 @@ lastmod: 2021-06-29T10:40:25+02:00
 draft: false
 description: 'Was macht eigentlich ein Startup CTO?'
 tags: ['startup', 'cto', 'seed']
-categories: ['Org']
+categories: ['Engineering Org']
 ---
 
 

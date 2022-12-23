@@ -6,7 +6,7 @@ publishdate: 2022-12-16T10:39:57+01:00
 lastmod: 2022-12-16T16:24:38+01:00
 draft: false
 description: 'Shape Up staffing and process patterns'
-categories: ['Org']
+categories: ['Engineering Org']
 tags: ['scrum', 'shapeup', 'org', 'engineeringorg']
 ---
 
