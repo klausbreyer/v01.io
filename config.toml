@@ -4,10 +4,13 @@ title = 'Klaus Breyer, a CTO writing about Code, Architecture & Engineering Orgs
 copyright = 'Klaus Breyer'
 # sectionPagesMenu = 'main'
 preserveTaxonomyNames = true
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = 'monthly'
 
 [params]
-  author = 'Klaus Breyer'
-  description = "A CTO writing about Code, Architecture & Engineering Orgs"
+  repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
 
 [menu]
 # [[menu.main]]
