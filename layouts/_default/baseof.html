@@ -23,22 +23,27 @@
         content="{{.Site.BaseURL}}{{.Site.Params.image}}" />
     {{ end }}
     <link rel="alternate" type="application/rss+xml"
-        href="{{ .Site.BaseURL }}posts/index.xml"
-        title="Klaus Breyer, a CTO writing about Code, Business, Product & Engineering Orgs" />
+        href="{{ .Site.BaseURL }}posts/index.xml" title="{{.Site.Title}}" />
 </head>
 
 <body>
-
-    {{ partial "header.html" . }}
-
+    <header>
+        <div class="container">
+            {{ partial "header.html" . }}
+        </div>
+    </header>
     <main>
-        <hr />
-        {{ block "main" . }}
-        {{ end }}
-        <hr />
+        <div class="container">
+            {{ block "main" . }}
+            {{ end }}
+        </div>
     </main>
-    {{ partial "footer.html" . }}
+    <footer>
+        <div class="container">
+            {{ partial "footer.html" . }}
+        </div>
 
+    </footer>
 </body>
 
 </html>

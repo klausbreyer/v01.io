@@ -18,7 +18,7 @@ We tried nonetheless and approached it as an experiment: Test and prove that som
 
 As a result, we realized that Scrum and [Shape Up](https://basecamp.com/shapeup) are not mutually exclusive but complement each other perfectly.
 
-Update, 2022-11-16: Since I first released this post, a lot happened. I gained some more insights on my own, while other friendly Shape Up practitioners from USA to New Zeeland approached me for sparring. So I decided to add/update some sections. Those sections are highlighted.
+Update, 2022-11-16: Since I first released this post, a lot happened. I gained some more insights on my own, while other friendly Shape Up practitioners from USA to New Zeeland approached me for sparring. So I decided to add/update some sections. ==Those sections are highlighted==.
 
 Update, 2022-12-16: [A follow-up article on the Shape Up migration for Scrum teams is now talking about more abstract patterns](../20221216shape-up-staffing-and-process-patterns).
   ## Problem Space
