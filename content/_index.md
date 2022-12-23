@@ -30,7 +30,7 @@ Articles from others that I have read/highlighted via pocket [are published onli
 ## The v0.1 Manifest
 > Good software is always used but never finished.
 
-Thats
+Thats all.
 
 [1]: https://v01.io/consulting/
 [2]: https://v01.io/shape-up/
