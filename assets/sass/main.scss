@@ -1,15 +1,19 @@
 $primary: #cf0e0e;
 $text: #000;
-$background: #fff;
+$background: #eee;
 $text-light: #666;
 @import "sharetech";
 
+// $text: #ddd;
+// $background: #222;
+
 body {
-  background: #fff;
+  background: $background;
   font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
     Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol;
   color: $text;
+  font-size: 20px;
 }
 p,
 li {
@@ -18,7 +22,7 @@ li {
   letter-spacing: -0.1px;
 }
 p.small {
-  font-size: 0.8rem;
+  font-size: 0.75em;
 }
 
 header,
@@ -65,14 +69,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-div.spacebetween {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 0.5rem;
 }
 
 //header
@@ -143,10 +139,20 @@ main aside {
 //footer
 footer {
   margin-bottom: 2rem;
-  // font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-  //   helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-  //   sans-serif;
+  font-size: 0.9rem;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
 }
+
+footer div.spacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 footer a {
   font-family: "Share Tech";
   font-weight: bold;
@@ -165,6 +171,7 @@ footer div.mailchimp {
   max-width: 512px;
   width: 100%;
   form {
+    padding-top: 1.2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
