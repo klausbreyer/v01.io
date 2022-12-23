@@ -1,0 +1,59 @@
+{{/* twitter hashtags calculation */}}
+{{ $keywords := "" }}
+{{ range (.GetTerms "tags") }}
+{{if eq (len $keywords) 0}}
+{{ $keywords = .LinkTitle }}
+{{ else }}
+{{ $keywords = printf "%s, %s" $keywords .LinkTitle }}
+{{ end }}
+{{ end }}
+
+{{/* default - what is configured sitewide */}}
+{{ $image := printf "%s%s" .Site.BaseURL .Site.Params.image}}
+
+{{/* next best: take the first image of the article, if any */}}
+{{ range first 1 (.Resources.ByType "image") }}
+{{ $image = .Permalink}}
+{{ end }}
+
+{{/* if in the post is something defined, this overwrites everything. */}}
+{{if .Params.image}}
+{{ $image = printf "%s%s%s" .Site.BaseURL .File.Dir .Params.image}}
+{{ end }}
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+
+<meta name="keywords" content="{{ $keywords }}">
+<meta name="author" content="{{.Site.Copyright}}">
+<meta name="description" content="{{.Site.Params.Description}}">
+
+<meta property="og:title" content="{{.Title}}" />
+<meta property="og:description" content="{{.Summary}}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{.Permalink}}" />
+<meta property="og:image" content="{{$image}}" />
+
+<meta property="article:section" content="posts" />
+<meta itemprop="article:published_time" {{ .PublishDate.Format $iso8601 |
+    printf "content=%q" | safeHTMLAttr }} />
+{{/*
+<meta itemprop="article:modified_time" {{ $Page.LastMod.Format $iso8601 | */}}
+    {{/* printf "content=%q" | safeHTMLAttr }} /> */}}
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+
+<meta itemprop="name" content="{{.Title}}">
+<meta itemprop="description" content="{{.Summary}}">
+
+<meta itemprop="datePublished" {{ .PublishDate.Format $iso8601 |
+    printf "content=%q" | safeHTMLAttr }} />
+
+{{/*
+<meta itemprop="dateModified" content="2022-08-02T13:48:12+02:00" /> */}}
+<meta itemprop="wordCount" content="{{.WordCount}}">
+<meta itemprop="image" content="{{$image}}" />
+<meta itemprop="keywords" content="{{ $keywords }}" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{{$image}}" />
+<meta name="twitter:title" content="{{.Title}}" />
+<meta name="twitter:description" content="{{.Summary}}" />
+<meta name="twitter:site" content="@klausbreyer" />
