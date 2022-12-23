@@ -5,6 +5,7 @@
   // --primary: #cf0e0e; // old ferrari red, used on white.
   --primary: #c586c0;
   --footer: #f3f3f3;
+  --highlight: #d7ba7d;
   --bg: #fff;
 }
 
@@ -27,6 +28,11 @@ body {
   font-size: 20px;
   margin: 0;
 }
+
+mark {
+  background: var(--highlight);
+}
+
 p,
 li {
   line-height: 1.75;

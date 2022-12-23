@@ -18,7 +18,8 @@ We tried nonetheless and approached it as an experiment: Test and prove that som
 
 As a result, we realized that Scrum and [Shape Up](https://basecamp.com/shapeup) are not mutually exclusive but complement each other perfectly.
 
-Update, 2022-11-16: Since I first released this post, a lot happened. I gained some more insights on my own, while other friendly Shape Up practitioners from USA to New Zeeland approached me for sparring. So I decided to add/update some sections. ==Those sections are highlighted==.
+Update, 2022-11-16: Since I first released this post, a lot happened. I gained some more insights on my own, while other friendly Shape Up practitioners from USA to New Zeeland approached me for sparring. So I decided to add/update some sections.
+{{< highlight >}}Those sections are highlighted{{< /highlight >}}.
 
 Update, 2022-12-16: [A follow-up article on the Shape Up migration for Scrum teams is now talking about more abstract patterns](../20221216shape-up-staffing-and-process-patterns).
   ## Problem Space
@@ -76,20 +77,20 @@ Our Shape Up working mode:
 
 While I am writing this article during the shaping phase for the second Shape Up sprint, for me, some first general patterns start to emerge:
 
-- Product Owner: There is an extensive phase of collaboration between the PO and the whole team during the shaping, led by UX. In return, almost a lot lesser obligations during the implementation because no formalities require a PO presence, like sessions for refinement, planning, or estimations. Communication with PO and the team moves from Push to Pull.
+- Product Owner: There is an extensive phase of collaboration between the PO and the whole team during the shaping, led by UX. In return, almost a lot lesser obligations during the implementation because no formalities require a PO presence, like sessions for refinement, planning, or estimations. {{< highlight >}}Communication with PO and the team moves from Push to Pull.{{< /highlight >}}
 - User Experience: A UX designer was part of the Shape Up team for ongoing product decisions as they were used to working very closely with UI Designers. In practice, this designer kept a lot of the meta picture in mind and owned the test cases.
-- User Interface: Would have preferred to deliver the work as "1 piece", but instead was led to some part by engineering, by what's possible. So designers needed to make some compromises, which they otherwise would not have allowed. But all in all, I think they spend significantly less time on the project.
-- Engineering: Engineers loved the meeting-free time to tackle some challenging problems of a very technical feature. Besides the coding, it is worth mentioning that they came up with many of the final product's bells and whistles. Also, they were more involved in testing the feature directly with the beta customers. But it is essential to stay connected to the rest of the team via a bi-weekly developers huddle to discuss technical architecture and how new features are integrated into the codebase.
+- User Interface: {{< highlight >}}Would have preferred to deliver the work as "1 piece",{{< /highlight >}} but instead was led to some part by engineering, by what's possible. So designers needed to make some compromises, which they otherwise would not have allowed. But all in all, I think they spend significantly less time on the project.
+- Engineering: Engineers loved the meeting-free time to tackle some challenging problems of a very technical feature. Besides the coding, it is worth mentioning that they came up with many of the final product's bells and whistles. Also, they were more involved in testing the feature directly with the beta customers. {{< highlight >}}But it is essential to stay connected to the rest of the team via a bi-weekly developers huddle to discuss technical architecture and how new features are integrated into the codebase.{{< /highlight >}}
 - Business: Knows precisely how much (time) budget they want to allocate to tackle a specific problem.
-- Collaboration: We only had one larger daily for the whole team (PO optional), where we showed work and drove decisions. And those discussions were magical: Designers and Developers working at the same thing, at the same time, bringing their perspective - without the need to constantly context switch (like in Scrumfall).
+- {{< highlight >}}Collaboration: We only had one larger daily for the whole team (PO optional), where we showed work and drove decisions. And those discussions were magical: Designers and Developers working at the same thing, at the same time, bringing their perspective - without the need to constantly context switch (like in Scrumfall).{{< /highlight >}}
 
 
-The builders formed what I would call a "temporary squad": Working focused on one thing while still being in exchange with their peers so that the overall architecture and visual esthetics do not suffer.
+{{< highlight >}}The builders formed what I would call a "temporary squad": Working focused on one thing while still being in exchange with their peers so that the overall architecture and visual esthetics do not suffer.{{< /highlight >}}
 
    ![](2022-11-16-shape-up-teamsetup-squad.svg)
 
 An exciting aspect emerged for the rest of the team (working within a regular Scrum track): Communication for them was also much more efficient when there were no longer 4 developers but only 2 developers who had to coordinate. ([Remember: communication increases exponentially](https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/).)
-This avoids situations where in backlog refinement/grooming, there are sometimes discussions that only concern some attendees: If 1 UI + 1 dev argues about a particular detail, it doesn't help that 2 UI designers (and sometimes even the other developers) are present for this time.
+{{< highlight >}}This avoids situations where in backlog refinement/grooming, there are sometimes discussions that only concern some attendees: If 1 UI + 1 dev argues about a particular detail, it doesn't help that 2 UI designers (and sometimes even the other developers) are present for this time.{{< /highlight >}}
 
 Our Learnings:
 
@@ -98,10 +99,10 @@ Our Learnings:
 - Collaborative shaping workshops are better in the real world (not remote)!
 - Cycles can vary in length, depending on the feature and other circumstances.
 - When the scrum team is stretched thin, it is crucial not to create additional pressure on them with too many new features when they are already busy onboarding customers and fixing bugs.
-- Unscoped work for the first week works surprisingly well, and everybody is just starting with what's within reach, finding out what the real work is that needs to be done
-- We underestimated how much work needs to go into the Pitch. So in the end it was probably overshaped in some parts, while it was undershaped in others. [It seems, that the "perfect pitch" would need a lot more technical / codebase knowledge involved during shaping.](https://www.youtube.com/watch?v=jnW0fAIpLbo)
-- This mixture of too much and too little detail simultaneously created much pressure on the team.
-- While on the other hand, when the technical unknowns are not really covered, but just "assumptions it is very hard to discuss the appetite.
+- {{< highlight >}}Unscoped work for the first week works surprisingly well, and everybody is just starting with what's within reach, finding out what the real work is that needs to be done{{< /highlight >}}
+- {{< highlight >}}We underestimated how much work needs to go into the Pitch. So in the end it was probably overshaped in some parts, while it was undershaped in others. [It seems, that the "perfect pitch" would need a lot more technical / codebase knowledge involved during shaping.](https://www.youtube.com/watch?v=jnW0fAIpLbo){{< /highlight >}}
+- {{< highlight >}}This mixture of too much and too little detail simultaneously created much pressure on the team.{{< /highlight >}}
+- {{< highlight >}}While on the other hand, when the technical unknowns are not really covered, but just "assumptions it is very hard to discuss the appetite.{{< /highlight >}}
 
 
 Things that we have not implemented from Shape Up:
@@ -111,25 +112,25 @@ Things that we have not implemented from Shape Up:
 - We didn't use [Hill charts](https://basecamp.com/shapeup/3.4-chapter-13#work-is-like-a-hill) for progress but integrated the Shape up Team into our Scrum reviews.
 
  ### Bigger Picture
-To scale up Shape Up for larger Orgs, UX must end up in a position where it only provides sparring to the builders while already leading the pitches for the next feature together with the PO.
+{{< highlight >}}To scale up Shape Up for larger Orgs, UX must end up in a position where it only provides sparring to the builders while already leading the pitches for the next feature together with the PO.{{< /highlight >}}
 
    ![](2022-11-16-processes-scrum-vs.-shapeup-v3-compare.svg)
 
-But because our pitch could have been at a better altitude, we needed to make some decisions during the sprint. So we ended up in an "RND Mode".
-This will scale poorly for a larger product/dev org. But in the end, it was a fundamental agile approach because we could show real things to actual customers, making important decisions on the way.
+{{< highlight >}}But because our pitch could have been at a better altitude, we needed to make some decisions during the sprint. So we ended up in an "RND Mode".
+This will scale poorly for a larger product/dev org. But in the end, it was a fundamental agile approach because we could show real things to actual customers, making important decisions on the way.{{< /highlight >}}
 
    ![](2022-11-16-processes-scrum-vs.-shapeup-v3-corporate-rnd-mode.svg)
 
 ## Whats next?
-This particular team's next step is to decide its future process. But not by a rash decision to throw Scrum entirely overboard. First, the other engineers and designers need to gather some experience with Shape up. Only then a well-informed (and advocated!) decision for the future process is possible for the whole team.
+This particular team's next step is to decide its future process. But not by a rash decision to throw Scrum entirely overboard. First, the other engineers and designers need to gather some experience with Shape up. Only then a well-informed ({{< highlight >}}and advocated!{{< /highlight >}}) decision for the future process is possible for the whole team.
 
-Ultimately, it is not just about Scrum vs. Shape Up. [It is essential to know the methods (in their purity) and to have applied them. Only then can you properly assess and use the tradeoffs.](https://changelog.com/gotime/247)
+{{< highlight >}}Ultimately, it is not just about Scrum vs. Shape Up. [It is essential to know the methods (in their purity) and to have applied them. Only then can you properly assess and use the tradeoffs.](https://changelog.com/gotime/247){{< /highlight >}}
 
 So, if you (as the reader) will only take away one thing: You can have both. You can try something out without sacrificing what works.
 
 It is the scientific method - just for processes.
 
-But somebody needs to own the process of improving the process ([as Cal Newport wrote in his book](https://www.calnewport.com/books/a-world-without-email/)).
+{{< highlight >}}But somebody needs to own the process of improving the process ([as Cal Newport wrote in his book](https://www.calnewport.com/books/a-world-without-email/)).{{< /highlight >}}
 
 If there are any questions, inspirations, or other thoughts: feel free to contact me via [email](mailto:kb@v01.io). I am happy to chat about this topic and Shape Up in general - because this brings an exciting new aspect to my 12-year-long journey: teams working happy, focused, and collaboratively on problems that are worth it.
 
