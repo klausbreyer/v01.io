@@ -24,6 +24,12 @@
     {{ end }}
     <link rel="alternate" type="application/rss+xml"
         href="{{ .Site.BaseURL }}posts/index.xml" title="{{.Site.Title}}" />
+    {{ if .Page.Store.Get "hasMermaid" }}
+    <script src="/js/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    {{ end }}
 </head>
 
 <body>

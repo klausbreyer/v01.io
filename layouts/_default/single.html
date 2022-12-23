@@ -20,26 +20,26 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 </article>
-
+<hr />
 <aside>
     <h4>Article Meta Data</h4>
     <ul>
         {{if gt (.GetTerms "categories") 0}}
-        <li><b>In:</b>
+        <li><b>Categories:</b>
             {{ range (.GetTerms "categories") }}
             <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
         </li>
         {{ end }}
         <li>
-            <b>On:</b>
+            <b>Published On:</b>
             <time datetime="{{ .Date.Format " 2017-03-03T14:15:59-06:00"}}">
                 {{.Date}};
             </time>
         </li>
         {{if gt (.GetTerms "tags") 0}}
         <li>
-            <b>About: </b>
+            <b>Tags: </b>
             {{ range (.GetTerms "tags") }}
             <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
