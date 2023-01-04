@@ -8,7 +8,7 @@ menu:
 ---
 ## Book
 
-- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)][1].
+- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]([[{{< ref "/posts/praxishandbuch-facebook-entwicklung">}}]]).
 
 ## Podcasts
 
@@ -31,7 +31,6 @@ menu:
 - 2011: 🇩🇪 [Fixing Facebook API – Die schönsten Workarounds][14]
 
 
-[1]: https://v01.io/2015/01/11/praxishandbuch-facebook-entwicklung/
 [2]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
 [3]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
 [4]: https://www.youtube.com/watch?v=XEnrFbR2qso

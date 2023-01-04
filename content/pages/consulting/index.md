@@ -57,7 +57,7 @@ We had noticed that most photo printing vendors always send their customers to u
 
 ### 2016 – 2019 [Native Studios UG][5]: Technical Evangelist – SaaS
 
-I built [several iterations of a prototype][6] for the founders in 2016 and 2017 until they could convince backers and first customers with it.
+I built [several iterations of a prototype]([{{< ref "/posts/projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release" >}}]) for the founders in 2016 and 2017 until they could convince backers and first customers with it.
 
 1. Afterward, I was Tech Lead for product development and Technical Evangelist to convince customers of the startup’s technology and capabilities.
 
@@ -66,4 +66,3 @@ I built [several iterations of a prototype][6] for the founders in 2016 and 2017
 [3]: https://buddybrand.com/
 [4]: https://www.buzzbird.de/
 [5]: https://www.native-studios.com/
-[6]: https://v01.io/2016/08/29/projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release/

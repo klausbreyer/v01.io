@@ -7,7 +7,7 @@ menu:
 
 ---
 
-I am a big believer in [Shape Up][1], the up-and-coming method for agile software development. [In my current gig as a tech lead for an IIot product, I implemented this by hacking the established scrum process.][2]
+I am a big believer in [Shape Up]({{< ref "/shape-up" >}}), the up-and-coming method for agile software development. [In my current gig as a tech lead for an IIot product, I implemented this by hacking the established scrum process.]({{< ref "/posts/shape-up-track-for-scrum-how-to-hack-a-process" >}})
 
 There are substantial possible gains in developer/product/designer collaboration. This a topic close to my heart since starting my first company in 2010. With Shape Up on the horizon, it is the first time in ages that I see the light at the end of the tunnel to deliver on promises made by the agile manifesto in its original manifestation.
 
@@ -100,8 +100,6 @@ After a short briefing talk, I will put together slides and give a presentation 
 
 This also goes to: [consulting@v01.io][13].
 
-[1]: https://v01.io/2022/09/23/shape-up-track-for-scrum-or-how-to-experiment-with-the-process/
-[2]: https://v01.io/2022/09/23/shape-up-track-for-scrum-or-how-to-experiment-with-the-process/
 [3]: https://youtu.be/h_8M23wVjXk
 [4]: https://basecamp.com/shapeup
 [5]: https://superdev.club/podcasts/shape-up/
