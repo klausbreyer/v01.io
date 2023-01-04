@@ -1,4 +1,4 @@
-baseURL = 'https://v01-hugo.pages.dev/'
+baseURL = 'https://www.v01.io/'
 languageCode = 'en-us'
 title = 'Klaus Breyer; CTO writing about Code, Business, Product & Engineering Orgs.'
 copyright = 'Klaus Breyer'
