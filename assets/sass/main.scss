@@ -1,24 +1,24 @@
 @import "sharetech";
 @import "sharetechmono";
 
-:root {
-  --text: #000;
-  // --primary: #cf0e0e; // old ferrari red, used on white.
-  --primary: #c586c0;
-  --footer: #f3f3f3;
-  --highlight: #d7ba7d;
-  --bg: #fff;
-}
+// :root {
+//   --text: #000;
+//   // --primary: #cf0e0e; // old ferrari red, used on white.
+//   --primary: #c586c0;
+//   --footer: #f3f3f3;
+//   --highlight: #d7ba7d;
+//   --bg: #fff;
+// }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #d4d4d4;
-    --primary: #ce9178;
-    --highlight: #d7ba7d;
-    --bg: #1e1e1e;
-    --footer: #252526;
-  }
+// @media (prefers-color-scheme: dark) {
+:root {
+  --text: #d4d4d4;
+  --primary: #ce9178;
+  --highlight: #d7ba7d;
+  --bg: #1e1e1e;
+  --footer: #252526;
 }
+// }
 
 body {
   background: var(--bg);
