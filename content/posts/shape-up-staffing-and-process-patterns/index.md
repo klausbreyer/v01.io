@@ -8,6 +8,7 @@ draft: false
 description: 'Shape Up staffing and process patterns'
 categories: ['Engineering Org']
 tags: ['scrum', 'shapeup', 'org', 'engineeringorg']
+social: 'https://www.linkedin.com/posts/klaus-breyer_shape-up-staffing-and-process-patterns-activity-7009455007359979520-8ekP'
 ---
 
 

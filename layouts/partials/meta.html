@@ -20,6 +20,8 @@
 {{if .Params.image}}
 {{ $image = printf "%s%s%s" .Site.BaseURL .File.Dir .Params.image}}
 {{ end }}
+
+
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 
 <meta name="keywords" content="{{ $keywords }}">

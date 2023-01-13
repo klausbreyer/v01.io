@@ -8,6 +8,7 @@ draft: false
 description: 'Shape Up Track for Scrum - how to hack a process'
 categories: ['Engineering Org']
 tags: ['agile', 'scrum', 'process', 'shapeup']
+Social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-track-for-scrum-how-to-hack-a-activity-7004381835472318464-EtFX"
 ---
 
 

@@ -49,19 +49,23 @@
 </aside>
 <aside>
     <h4>Call to Action</h4>
+
     <ul>
         <li>Personal feedback or booking inquery? <a target="_blank"
                 href="mailto:kb@v01.io?subject=About {{.Title}}&body={{.Permalink}}">Drop
                 me a line.</a></li>
+        {{if .Params.Social }}
+        <li>Want to leave a public comment? <a href="{{.Params.Social}}"
+                target="_blank">Join the discussion.</a>
+        </li>
+        {{ end }}
 
         <li>Found a typo? <a target="_blank"
                 href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">I
                 would greatly appreciate a pull
                 request.</a>
         </li>
-
-        </li>
-        <li>Spark a public discussion?
+        <li>Share this page:
             <a target="_blank"
                 href="mailto:?subject={{.Title}}&body={{.Permalink}}">Email</a>;
             <a target="_blank"
