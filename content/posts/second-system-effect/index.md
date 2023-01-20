@@ -9,32 +9,33 @@ description: 'Second-system effect'
 categories: ['Product']
 tags: ['product', 'product management']
 ---
+## Second-system effect
 
+I regularly see the [Second-system effect](https://en.wikipedia.org/wiki/Second-system_effect) when building products and introducing new technology. A simple, well-functioning system reaches its limits and is replaced by a much too large, bloated system due to over-expectations and over-confidence - and everyone is unhappy. :)
 
+Maybe you know this. In my practice, for example, a small, hip social media agency is handed agency software designed for venerable, large, classic advertising agencies with print processes. Or, even more blatantly, an eCommerce startup introduces Microsoft's Navision and subsequently uses only 20% of the initially introduced functionality at the end of the day and has replaced or supplemented 80% of it with its customizations.
 
-Beim Bau von Produkten und Einführung neuer Technologie sehe ich regelmäßig den [Second-system effect](https://en.wikipedia.org/wiki/Second-system_effect): Ein einfaches, gut funktionierendes System kommt an seine Grenzen und wird daraufhin aufgrund überzogener Erwartungen und übertriebenen Selbstvertrauens durch ein viel zu großes, aufgeblähtes Systeme ersetzt - und alle sind unglücklich. :)
+## Branch by Abstraction ¶
 
-Kennt ihr vielleicht. In meiner Praxis sah das zum Beispiel so aus, dass zum Beispiel einer kleine hippen Social Media Agentur eine Agenturosftware übergeholfen wird welche für altehrwürdige, große, klassische Werbeagenturen mit Print-Prozessen angelegt ist. Oder, noch krasser, dass ein eCommerce Startup Microsofts Navision einführt, und anschließend nur 20% der ursprünglich eingeführten Funktionalität am Ende des Tages nutzt und sie zu 80% mit eigenen Anpassungen ersetzt oder ergänzt hat.
-  ## Branch by Abstraction
-Beim der Software Entwicklung gibt es das Prinzip von [Branch by Abstraction.](https://martinfowler.com/bliki/BranchByAbstraction.html) Das lässt sich aber auch auf die Entwicklung von Produkten und Einführung von Software im Unternehmen anwenden.
-  ### In a Nutshell
-Niemals gleichzeitig ein System wechseln und den Funktionsumfang dabei erhöhen!!11
+In software development, there is the principle of [Branch by Abstraction.](https://martinfowler.com/bliki/BranchByAbstraction.html). However, this principle can also be applied to developing products and introducing software in the company.
 
-Neue Features oder andere Prozesse erst einführen,nachdem ein neues System (mit altem Umfang) etabliert ist!
-  ### Step by Step
-Erst einmal Bestandsaufnahme. Was wird derzeit verwendet, was funktioniert? Basiert alles auf einem Excel / Spreadsheet? Welche Workarounds werden gerade gemacht?
+## In a Nutshell ¶
 
-Darauf aufbauend kann eine schlanke Software gebaut oder eingeführt werden, welche vom Featureset her aber in Version 1.0 erst einmal exakt die derzeitige Nutzung abbildet und die die derzeitigen Daten importiert. Nicht mehr und nicht weniger. Das ist vermutlich relativ schnell umgesetzt. Dann können die bisherigen Prozesse und Abläufe sich auf der neuen Software erst einmal eingrooven.
+Never change a system at the same time and increase the range of functions!11
 
-Anschließend dann in kurzen Sprints das System für den tatsächlichen Bedarf anpassen. Es empfiehlt sich hier ein Zweiklang:
-  <!-- wp:list {"ordered":true} -->
-1. Welche Prozesse können denn grundsätzlich optimiert werden (In der Abteilung, Synchronisierung mit anderen Systemen, etc. )
-1. Wie kann das im System abgebildet werden?
+Introduce new features or other processes only after a new system (with old scope) is established!
 
+## Step by Step ¶
 
-Zum Schluss möchte ich noch einmal empatisieren, dass man hier mehr vom Nutzer als von der Technik aus denken sollte:
+First, take stock. What is currently used, and what works? Is everything based on an Excel/spreadsheet? What are workarounds presently being done?
 
-Denn ein schlechter Prozess, der digitalisiert wurde, ist ja immer noch ein schlechter Prozess
-Binsenweisheit von Digitalisierungs-Beratern.
-(Dieser Eintrag basiert auf einer realen E-Mail, die ich in dieser Woche an ein Startup geschrieben habe, welches gerade aus seinem Spreadsheet heraus wächst).
+Based on this, lean software can be built or introduced, which, in terms of the feature set, but in version 1.0, first of all, precisely reflects the current use and which imports the current data. No more and no less. This can be implemented quickly. Then the existing processes and workflows can first get used to the new software.
 
+Then, in short, sprints adapt the system to actual needs. A dual approach is recommended here:
+
+- Which processes can be optimized in principle (in the department, synchronization with other systems, etc.)?
+- How can this be mapped in the system?
+
+Finally, I would like to empathize once again that one should think here more from the user than from the technology:
+
+After all, a flawed process that has been digitized is still a lousy process truism from digitization consultants. (This entry is based on an email I wrote this week to a startup growing out of its spreadsheet).
