@@ -14,7 +14,7 @@
 :root {
   --text: #d4d4d4;
   --primary: #ce9178;
-  --highlight: #d7ba7d;
+  --highlight: #3d3e3d;
   --bg: #1e1e1e;
   --footer: #252526;
 }
@@ -33,8 +33,9 @@ body {
 blockquote {
   font-family: "Share Tech Mono";
 }
-mark {
+em {
   background: var(--highlight);
+  font-style: normal;
 }
 
 p,
