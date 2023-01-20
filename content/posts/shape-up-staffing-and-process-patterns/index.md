@@ -1,109 +1,134 @@
 ---
-title: 'Shape Up staffing and process patterns'
+title: 'Shape Up staffing and process patterns v2'
 author: Klaus Breyer
 date: 2022-12-16T10:39:57+01:00
 publishdate: 2022-12-16T10:39:57+01:00
-lastmod: 2022-12-16T16:24:38+01:00
+lastmod: 2023-01-20T14:44:00+01:00
 draft: false
-description: 'Shape Up staffing and process patterns'
+description: 'Shape Up staffing and process patterns v2'
 categories: ['Engineering Org']
 tags: ['scrum', 'shapeup', 'org', 'engineeringorg']
 social: 'https://www.linkedin.com/posts/klaus-breyer_shape-up-staffing-and-process-patterns-activity-7009455007359979520-8ekP'
+image: '2023-01-20-pattern-alternated-shaping.png'
 ---
+# pattern
 
+## Shape Up staffing and process patterns
 
-One thing that should be discussed more in detail in Shape up is how to implement it for smaller teams, like migrating an unhappy Scrum team. Many of the cases addressed publicly are for the entire company. But with the correct pattern, even smaller teams can benefit from the principles of [appetite](https://basecamp.com/shapeup/1.2-chapter-03#setting-the-appetite) and [small, autonomous teams](https://basecamp.com/shapeup/0.3-chapter-01#making-teams-responsible).
+One thing that should be discussed more in detail in Shape up is how to implement it for smaller teams, like migrating an unhappy Scrum team. Many of the cases addressed publicly are for the entire company. But with the correct Pattern, even smaller teams can benefit from the principles of [appetite][1] and [small, autonomous teams][2].
 
-A single scrum team is a smaller unit than an entire company; however, for many companies migrating to Shape Up, it could be an excellent first step to experiment and create advocates. ([I did so by myself - read this article, why it makes sense to migrate from Scrum to Shape Up in the first place.](../20220923shape-up-track-for-scrum-or-how-to-experiment-with-the-process))
+*Update: This is an updated version of this article. So, besides the theoretical patterns, there is also a reality check - besides some other clarifications. I also made the graphics easier to understand. Find the changes highlighted*.
 
-Compared to larger, company-wide setups, small teams have one key difference: each developer knows the entire codebase well. And the overall codebase is small enough, in most cases, for everybody to work on everything. So everyone can help with technical shaping and try things out. (Nevertheless, continuous integration/deployment and feature flags are necessary, even for small teams to work with Shape Up so that everyone can work on different features in parallel)
-  <!-- wp:html --> .wp-image-3099 {display:none !important;} <!-- /wp:html --> ## Setting
+## Why are small teams special?
+
+A single (Scrum) team is a smaller unit than an entire company; however, for many companies migrating to Shape Up, it could be an excellent first step to experiment with an isolated team and create advocates. ([This article is a follow-up to the first steps I did with a particular team 6 months ago.][3])
+
+*Often even small teams are already introducing a lot of bureaucratic overhead (that we hope to remove by implementing Shape Up.)*
+
+Compared to larger, company-wide setups, small teams have those key differences:
+
+- Each developer knows the entire codebase well.
+- In most cases, the overall codebase is small enough for everybody to work on everything.
+- So everyone can help with technical shaping and try things out.
+
+Nevertheless, continuous integration/deployment and feature flags are necessary, even for small teams to work with Shape Up so that everyone can work on different features in parallel.
+
+## Setting
+
 But let's get specific. In this particular case, we have this team setup:
 
 - 4 (Fullstack) Engineers
--  2 UX Designer
--  2 UI Designer
--  1 Product Owner (previously called this)
+- 2 UX Designer
+- 2 UI Designer
+- 1 Product Person (previously called Product Owner)
 
-
-It is important to note that the Product Owner in this specific case was more of a management role with other responsibilities than a hands-on conceptional Product Manager. So much of the strategic/conceptual work falls to UX.
+It is important to note that the Product Owner, in this specific case, is more of a management role with other responsibilities than a hands-on conceptional Product Manager. So much of the strategic/conceptual work falls to UX.
 
 Furthermore, there is one more aspect that makes the roles of UX in the real world (as compared to 37signals) even more special:
 
-- At 37signals, it seems that no specialized person or separate trade is responsible for the user experience. On the one side, there is a lot of UX knowledge during shaping from their CEO, [Jason](https://world.hey.com/jason), and their Strategist, [Ryan](https://feltpresence.com/) (back then). But according to their podcasts, the (Product) Designers also have much UX knowledge when implementing designs during the cycle.
-- Outside of 37sSignals, there is often a specialist UX trade, working on the one hand very high level on a product level, but also closely hands-on with UI in the real world.
+- At 37signals, no specialized person or separate trade is responsible for the user experience. On the one side, there is a lot of UX knowledge during shaping from their CEO, [Jason][4], and their Strategist, [Ryan][5] (back then). But according to their podcasts, the (Product) Designers also have much UX knowledge when implementing designs during the cycle.
+- Outside of 37sSignals, there is often a specialist UX trade, working on the one hand very high level on a product level but also closely hands-on with UI in the real world.
 
+That makes it difficult to draw a sharp line here. But one thing is sure: **UX is relevant for shaping and building.**
 
-That makes it difficult to draw a sharp line here. But one thing is sure: UX is relevant for shaping and building.
+But also, other roles have other/shared responsibilities at specific points during the timeline.
 
-But also, other roles have other / shared responsibilities at specific points during the timeline.
-  ## The Patterns
-In the following, I would like to share with you a few patterns that would have been helpful for me when I was new to implementing Shape up.
+## The Patterns
+
+In the following, I would like to share with you a few theoretical patterns that would have been helpful for me when I was new to implementing Shape up within this team.
 
 Color coding:
 
-- Orange: Conceptual/strategic "uphill" work. Lead by experts with product/strategy and UX skills — complemented by engineers who know the codebase and designers with the foresight to participate in shaping and prototyping actively.
+- Orange: Conceptual/strategic "uphill" work. Lead by experts with product/strategy and UX skills — complemented by engineers who know the codebase and designers with the foresight to actively participate in shaping and prototyping.
 - Red represents the "downhill" work to build new features. The designers design, the engineers write the code, and UX / Product gives sparring alongside.
 - Purple is for baseline work. For developers, this is customer onboarding, evolving architecture, fixing bugs, and refactoring code. For designers, this is: making sure the visual big-picture of the application is coherent, building the design system, and polishing.
-- Blue: Cooldown time between Sprints, [as defined in Shape Up](https://basecamp.com/shapeup/2.2-chapter-08#cool-down). Here the teams are reshuffled, dependent on what the next cycle needs.
-
+- Blue: Cooldown time between Sprints, [as defined in Shape Up][6]. Here the teams are reshuffled, dependent on what the next cycle needs.
 
 What all possible patterns have in common: The implementing (small) team does their work autonomously - as long as possible in a timebox.
-  ## Company Wide Shape Up
 
-![](2022-12-09-working-modes-company-wide.svg)
+## Company Wide Shape Up
 
-Shape Up is/will be rolled out company-wide in this situation. With many development teams and enough Slack in the system, there are resources to take care of the baseline.
+![](2023-01-20-pattern-company-wide.svg)
+Shape Up is/will be rolled out company-wide in this situation. With many development teams and enough slack in the system, enough resources are left to take care of the baseline work.
 
-For the shaping part, this model is based roughly [on what Chris Spiek and Justin Dickow shared](https://www.youtube.com/watch?v=cZF_zV2iby4)when they took Product (minded) Engineers out of their development team and put them into the Product department.
+For the shaping part, this model is based roughly [on what Chris Spiek and Justin Dickow shared][7] when they took Product (minded) Engineers out of their development team and put them into the Product department.
 
-[If the shapers can bring a pitch to the builders at the right altitude](https://basecamp.com/shapeup/1.5-chapter-06), then they are freed up to be already working on framing and shaping the following things during a build cycle.
+[If the shapers can bring a pitch to the builders at the right altitude][8], then they are freed up to be already working on framing and shaping the following things during a build cycle.
 
 With a track for baseline work, the rest of the developers are free to focus on actual features without being disturbed.
-  ## Scrum Team Migration Pattern A: Flip-flopped Shaping
 
-  ![](2022-12-09-working-modes-flipflop.svg)
+## Migration Pattern A: Flip-flopped Shaping
 
-In this alternative approach, a team works divided into 2 parts most of the time.
+![](2023-01-20-pattern-flip-flopped-shaping.svg)
 
-[With this pattern, I currently migrate a Scrum team (as mentioned above).](../20220923shape-up-track-for-scrum-or-how-to-experiment-with-the-process)
+In this alternative approach, a team works divided into two parts most of the time.
 
-One-half of the team can fully concentrate on building. Depending on the maturity and point in time during the cycle, UX + Product can already start with other obligations, like [framing the following features](https://world.hey.com/rjs/20-framing-2f64ddca).
-
-The other half of the team takes care of the baseline work and keeps the builders free while spending time on (technical) shaping.
-
-Product and UX have 6 weeks to focus on shaping. Enough time to test prototypes with real customers and conduct interviews.
+- One-half of the team can fully concentrate on building.
+- Depending on the maturity and point in time during the cycle, UX + Product can already start with other obligations, like [framing the following features][9].
+- The other half of the team takes care of the baseline work and keeps the builders free while spending time on (technical) shaping.
+- Product and UX have 6 weeks to focus on shaping. Enough time to test prototypes with real customers and conduct interviews.
 
 You can run this model with fixed teams or rotate them regularly. To ensure a healthy mix, 2 people from a 4-person team can always change (on average) depending on how the feature needs it.
-  ## Scrum-Team Migration Pattern B: Interleaved Shaping
 
-  ![](2022-12-09-working-modes-interleaved.svg)
+## Migration Pattern B: Interleaved Shaping
 
-Everyone is constantly building or shaping during this entirely different pattern for small teams.
+![](2023-01-20-pattern-interleaved-shaping.svg)
 
-The first thing to notice is that there is no fixed responsibility for the baseline work. The developers inside the cycle need to take care, for example, with fixed days for it ("[Bugfix Mondays](https://www.youtube.com/watch?v=CtcSwlvIIuo)") or on-call rotations.
+The first thing to notice is that there is no fixed responsibility for the baseline work. The developers inside the cycle need to take care, for example, with designated days for it ("[Bugfix Mondays][10]") or on-call rotations.
 
-Considering this exception, all developers and UI designers can concentrate on building.
+- Everyone is constantly building or shaping during this entirely different Pattern for small teams.
+- Considering this exception, all developers and UI designers can concentrate on building.
+- The cooldown phase is extended and used (partly) for shaping. Also, it is possible to remix the teams at this stage.
+- Shaping is the absolute focus of the UX and product people during the Cooldown phase. During the cycles, they are sparring partners for the current topic while already framing a couple of upcoming topics.
 
-The cooldown phase is extended and used (partly) for shaping. Also, it is possible to remix the teams at this stage.
+## Real-life Pattern: alternated shaping and building
 
-Shaping is the absolute focus of the UX and product people during the Cooldown phase. During the cycles, they are sparring partners for the current topic while already framing a couple of upcoming topics.
-  ## One more thing: The shaping must have the right attitude.
-It doesn't matter if it's a small team or if the whole company is doing Shape Up: The pitch must always have the right altitude.
+![](2023-01-20-pattern-alternated-shaping.svg)
+*This article has only talked about theoretical patterns in a perfect world where everyone is full-time on the project and has few other commitments.*
 
-If the pitch has the right altitude, it will free up the UX and Product resources to do their actual work.
+*Since the first version, intending to implement one of those patterns, the following things have happened:*
 
-What is the right altitude of a pitch? It comes down to the fact that the team working on it can implement it without clarifying open questions with the shapers (UX / product). [The book is more extensive on this](https://basecamp.com/shapeup/1.1-chapter-02).
+- *We have a large amount of baseline work to do: Creation of marketing materials and because we wanted to set the quality bar higher.*
+- *Especially the designers, unfortunately, don't have as many resources as we would like.*
 
-Otherwise, this little checklist from my current team might also help:
+*We have therefore decided on another model. Now there is less parallelization: Shaping and feature-building phases are alternating. It gives the whole system more slack and thus stability.*
 
-- Is the pitch de-risked enough from the [demand (user) and supply (tech) side](https://therewiredgroup.com/what-do-we-mean-by-demand-side-and-supply-side/)?
-- Are all questions answered - no rabbit holes.
-- Backed by actual data and calculations
-- Prototypes in the existing codebase
-- Maybe user-feedbacked
-- Breadboarding and Fat Marker Sketches instead of wireframes.
+- *The division into roughly two teams remains.*
+- *One permanently assigned engineer accompanies the shaping while still involved a little in the baseline work.*
+- *Almost nothing is expected from the UI designer during shaping except to stay "in the loop" and provide sparring/spiking when necessary.*
+- *We reserve the right to start shaping when the resources are ready and available during the running cycle.*
+- *Shaping takes at long as it needs. We have a complex product and do not want to risk starting with half-thought ideas ([like I reported in my Shape Up Practitioners Remote Meetup session][11])*
+- *If the pitch is at a point where it makes sense, there is an announcement (which can be 0.5 - 2 weeks in the future) when the next cycle starts.*
+- *We can shorten the cooldown because there is, otherwise, enough time and slack in the system. After all, we cover the baseline work with enough resources.*
 
-
-Note: This is an advanced article about implementing Shape Up. If you don't know the basics of Shape Up yet, [look at my page on Shape Up with the related resources.](../shape-up)
-
+[1]: https://basecamp.com/shapeup/1.2-chapter-03#setting-the-appetite
+[2]: https://basecamp.com/shapeup/0.3-chapter-01#making-teams-responsible
+[3]: https://v01.io/2022/09/23/shape-up-track-for-scrum-or-how-to-experiment-with-the-process/
+[4]: https://world.hey.com/jason
+[5]: https://feltpresence.com/
+[6]: https://basecamp.com/shapeup/2.2-chapter-08#cool-down
+[7]: https://www.youtube.com/watch?v=cZF_zV2iby4
+[8]: https://basecamp.com/shapeup/1.5-chapter-06
+[9]: https://world.hey.com/rjs/20-framing-2f64ddca
+[10]: https://www.youtube.com/watch?v=CtcSwlvIIuo
+[11]: https://www.youtube.com/watch?v=XEnrFbR2qso
