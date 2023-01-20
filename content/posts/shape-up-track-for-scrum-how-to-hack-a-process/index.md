@@ -1,5 +1,5 @@
 ---
-title: 'Shape Up Track for Scrum - how to hack a process'
+title: 'Shape Up Track for Scrum - how to hack a process v2'
 author: Klaus Breyer
 date: 2022-09-23T14:02:47+02:00
 publishdate: 2022-09-23T14:02:47+02:00
