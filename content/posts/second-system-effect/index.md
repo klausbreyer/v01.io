@@ -17,13 +17,13 @@ Maybe you know this. In my practice, for example, a small, hip social media agen
 
 ## Branch by Abstraction ¶
 
-In software development, there is the principle of [Branch by Abstraction.](https://martinfowler.com/bliki/BranchByAbstraction.html). However, this principle can also be applied to developing products and introducing software in the company.
+In software development, there is the principle of [Branch by Abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html). However, this principle can also be applied to developing products and introducing software in the company.
 
 ## In a Nutshell ¶
 
-Never change a system at the same time and increase the range of functions!11
+> Never change a system at the same time and increase the range of functions!
 
-Introduce new features or other processes only after a new system (with old scope) is established!
+> Introduce new features or other processes only after a new system (with old scope) is established!
 
 ## Step by Step ¶
 
@@ -38,4 +38,6 @@ Then, in short, sprints adapt the system to actual needs. A dual approach is rec
 
 Finally, I would like to empathize once again that one should think here more from the user than from the technology:
 
-After all, a flawed process that has been digitized is still a lousy process truism from digitization consultants. (This entry is based on an email I wrote this week to a startup growing out of its spreadsheet).
+After all, a flawed process that has been digitized is still a lousy process truism from digitization consultants.
+
+(This entry is based on an email I wrote this week to a startup that was growing out of its spreadsheet).
