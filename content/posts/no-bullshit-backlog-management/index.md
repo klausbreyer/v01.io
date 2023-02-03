@@ -3,7 +3,7 @@ title: 'No bullshit backlog management'
 author: Klaus Breyer
 date: 2023-02-03T15:36:00+01:00
 draft: false
-# description: 'A crucial distinction for sane backlog management'
+categories: ['Engineering Org']
 tags: ['scrum', 'shapeup', 'org', 'engineeringorg', "agile", "backlog"]
 ---
 
