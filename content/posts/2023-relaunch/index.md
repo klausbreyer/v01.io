@@ -1,7 +1,7 @@
 ---
 title: '2023 Relaunch'
 author: Klaus Breyer
-date: 2023-01-13
+date: 2023-01-13T17:26:22+01:00
 draft: false
 description: '2023 Website Relaunch'
 categories: ['Meta']
