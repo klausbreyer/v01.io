@@ -5,6 +5,7 @@ date: 2023-02-03T15:36:00+01:00
 draft: false
 categories: ['Engineering Org']
 tags: ['scrum', 'shapeup', 'org', 'engineeringorg', "agile", "backlog"]
+social: "https://www.linkedin.com/posts/klaus-breyer_no-bullshit-backlog-management-klaus-breyer-activity-7028349826597560320-kAlb"
 ---
 
 None of the teams I ever worked with had the courage to remove (currently) irrelevant tickets from the backlog. Too often, there was the fear of forgetting something. So the teams end up with a very long backlog of things that are neither important nor urgent, but where the implicit expectation is that they are getting done - sometimes. But sometimes never comes - and I'm not particularly eager to sweep such tickets under the carpet.
