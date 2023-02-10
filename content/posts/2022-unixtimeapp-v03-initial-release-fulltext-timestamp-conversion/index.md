@@ -7,6 +7,8 @@ lastmod: 2022-08-29T17:06:56+02:00
 draft: false
 description: 'unixtime.app - v0.3 initial release: fulltext timestamp conversion'
 categories: ['unixtime.app']
+aliases:
+    - "/posts/unixtimeapp-v03-initial-release-fulltext-timestamp-conversion/"
 ---
 
 This is an unix epoch timestamp conversion tool to convert and highlight complete texts, whole API responses, and lists with timestampsEverything that looks like a timestamp since a certain year will just be replaced - simple and easy.

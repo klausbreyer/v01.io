@@ -7,11 +7,9 @@ lastmod: 2022-08-29T17:06:36+02:00
 draft: false
 description: 'unixtime.app - v4.0.6 Release'
 categories: ['unixtime.app']
+aliases:
+    - "/posts/unixtimeapp-v406-release/"
 ---
-
-
-
-
 
 Today I released v4.0.6 of the unixtime.app and prepared a little bit for a round of activation I want to do next week in my closest community circles.
 
