@@ -9,6 +9,8 @@ description: 'Second-system effect'
 categories: ['Product']
 tags: ['product', 'product management']
 social: 'https://www.linkedin.com/posts/klaus-breyer_second-system-effect-klaus-breyer-cto-activity-7026098934729048064-zxtt'
+aliases:
+    - /posts/second-system-effect/
 ---
 ## Second-system effect
 

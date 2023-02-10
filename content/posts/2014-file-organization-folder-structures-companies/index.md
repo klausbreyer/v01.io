@@ -7,6 +7,8 @@ lastmod: 2023-02-10T14:45:52+01:00
 draft: false
 categories: ['Engineering Org']
 image: "folder-structure.png"
+aliases:
+    - /posts/dateiorganisation-und-ordnerstrukturen-in-unternehmen/
 ---
 Anyone discussing the typical folder structure in a company must ask how much needs to be specified.
 
