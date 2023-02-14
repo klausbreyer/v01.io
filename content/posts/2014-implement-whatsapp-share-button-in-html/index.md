@@ -7,6 +7,7 @@ lastmod: 2023-02-10T14:17:00+01:00
 draft: false
 tags: ['facebook', 'whatsapp']
 categories: ['Code']
+social: "https://www.linkedin.com/posts/klaus-breyer_implement-the-whatsapp-share-button-in-html-activity-7031170679047663616-ui0i"
 aliases:
     - /posts/den-whatsapp-share-button-in-html-implementieren/
 ---
