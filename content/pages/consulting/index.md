@@ -1,10 +1,6 @@
 ---
 title: "Consulting"
 date: 2022-12-21
-# linktitle: Consulting
-menu:
-  main:
-    weight: 40
 
 ---
 
@@ -57,7 +53,7 @@ We had noticed that most photo printing vendors always send their customers to u
 
 ### 2016 – 2019 [Native Studios UG][5]: Technical Evangelist – SaaS
 
-I built [several iterations of a prototype]([{{< ref "/posts/projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release" >}}]) for the founders in 2016 and 2017 until they could convince backers and first customers with it.
+I built [several iterations of a prototype]({{< relref path="projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release" lang="de" >}}) for the founders in 2016 and 2017 until they could convince backers and first customers with it.
 
 1. Afterward, I was Tech Lead for product development and Technical Evangelist to convince customers of the startup’s technology and capabilities.
 

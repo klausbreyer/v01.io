@@ -1,6 +1,6 @@
 ---
 
-title: Blog
+title: Deutsche Beiträge
 date: 2017-03-23
 
 ---

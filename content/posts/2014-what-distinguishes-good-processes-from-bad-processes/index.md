@@ -9,7 +9,6 @@ categories: ['Engineering Org']
 tags: ['prozesse', 'workflow', 'ziele']
 social: "https://www.linkedin.com/posts/klaus-breyer_what-distinguishes-good-processes-from-bad-activity-7028634417619197952-4Odo"
 aliases:
-    - /posts/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/
     - /posts/what-distinguishes-good-processes-from-bad-processes/
 ---
 

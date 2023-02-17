@@ -1,14 +1,11 @@
 ---
 title: "Talks"
 date: 2022-12-19
-menu:
-  main:
-    weight: 20
 
 ---
 ## Book
 
-- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< ref "/posts/praxishandbuch-facebook-entwicklung">}}).
+- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="praxishandbuch-facebook-entwicklung" lang="de">}}).
 
 ## Podcasts
 

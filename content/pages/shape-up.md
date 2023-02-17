@@ -1,9 +1,6 @@
 ---
 title: "Shape Up"
 date: 2022-12-21
-menu:
-  main:
-    weight: 30
 
 ---
 
