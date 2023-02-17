@@ -23,7 +23,7 @@ I am a big believer in **Shape Up**, an up-and-coming Method for agile software 
 
 On the side, I also develop and market some [projects]({{< ref "/categories/unixtime.app" >}}) of my own, publish [open source]({{< ref "/categories/open-source" >}}), and invest time or money in startups through a [small fund]({{< ref "/pages/funding" >}}).
 
-Besides [my own book,]({{< ref "/de/posts/praxishandbuch-facebook-entwicklung" >}}) I also wrote many guest articles for other blogs, and I am used to standing on a conference stage, giving [talks]({{< ref "/pages/talks" >}}) in front of a developer crowd.
+Besides [my own book,]({{< relref path="praxishandbuch-facebook-entwicklung" lang="de" >}}) I also wrote many guest articles for other blogs, and I am used to standing on a conference stage, giving [talks]({{< ref "/pages/talks" >}}) in front of a developer crowd.
 
 Articles from others that I have read/highlighted via pocket [are published online.](https://pocket.v01.io/)
 

@@ -8,7 +8,7 @@ menu:
 ---
 ## Book
 
-- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< ref "/de/posts/praxishandbuch-facebook-entwicklung">}}).
+- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="praxishandbuch-facebook-entwicklung" lang="de">}}).
 
 ## Podcasts
 

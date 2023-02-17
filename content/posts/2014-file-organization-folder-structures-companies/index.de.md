@@ -57,7 +57,7 @@ Ein paar wenige Privilegierte versuchen für andere mitzudenken und versuchen de
 
 So sahen bei uns früher Projekte aus, bevor sie überhaupt gestartet sind. Auch wenn ich an der Entstehung dieses Konstrukts beteiligt war, bin ich überhaupt kein großer Freund mehr von solch leeren Ordnergerüsten. Leere Ordnergerüste sind nicht nur erhöhter Aufwand beim beim Erstellen, da jemand die Ordner kopieren muss, sondern zugleich auch noch ein höherer Aufwand beim Suchen, wenn Inhalte eben noch nicht vorhanden sind und ich mich durch 3 leere Ordner klicken muss, nur um zu sehen, dass noch nichts geschehen ist. Gleichzeitig zwingt die leere Hülle dem ganzen Projekt auch noch einen Prozess über, den es vielleicht gar nicht hat und der sich ohnehin ständig optimiert.
  Analyse
-Die grundsätzliche Intension war eine Gute - es sollten Fehler vermieden werden. [Aber noch viel wichtiger ist es, Produktivität freizusetzen.](../20140115was-gute-prozesse-von-schlechten-prozessen-unterscheidet)
+Die grundsätzliche Intension war eine Gute - es sollten Fehler vermieden werden. [Aber noch viel wichtiger ist es, Produktivität freizusetzen.]({{< relref "2014-what-distinguishes-good-processes-from-bad-processes" >}})
 
 Eine Ordnerstruktur lebt von den Menschen die sie benutzen. Jeder kann sie jeden Tag durch abgelegte Dateien beeinflussen. Dafür braucht es keinen Account Manager, der in Sisyphusarbeit überprüft, ob alle Dateien vorhanden sind. Jeder einzelne fragt sich, ob alles da ist, was er benötigt, während er in - und mit - der Struktur arbeitet.
 
