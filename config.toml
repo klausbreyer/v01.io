@@ -30,11 +30,27 @@ defaultContentLanguage = 'en'
   title = 'Klaus Breyer > CTO writing about Code, Business, Product & Engineering Orgs.'
 
 
-# [menu]
-# [[menu.main]]
-#   name = 'Open Source'
-#   url = '/categories/open-source/'
-#   weight = 100
+[menu]
+[[menu.main]]
+  name = 'Blog'
+  url = '/posts/'
+  weight = 10
+[[menu.main]]
+  name = 'Talks'
+  url = '/pages/talks/'
+  weight = 20
+[[menu.main]]
+  name = 'Shape Up'
+  url = '/pages/shape-up/'
+  weight = 30
+[[menu.main]]
+  name = 'Consulting'
+  url = '/pages/consulting/'
+  weight = 40
+[[menu.main]]
+  name = 'Funding'
+  url = '/pages/funding/'
+  weight = 50
 
 # [[menu.main]]
 #   name = 'unixtime.app'

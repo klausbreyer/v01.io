@@ -34,7 +34,7 @@
         {{if gt (.GetTerms "categories") 0}}
         <li><b>Categories:</b>
             {{ range (.GetTerms "categories") }}
-            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+            <a lang="{{.Lang}}" href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
         </li>
         {{ end }}

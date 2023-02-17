@@ -3,9 +3,6 @@
 title: Deutsche Beiträge
 date: 2017-03-23
 
-menu:
-  main:
-    weight: 5
 ---
 
 <!-- I have been blogging since 2006, business-wise 2011.

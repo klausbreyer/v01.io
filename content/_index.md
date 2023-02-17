@@ -3,9 +3,7 @@
 title: Home
 date: 2021-12-21
 summary: I have been responsible for technology and teams since I founded my first startup in 2010, right after graduating in Software Engineering. Since then, I have been actively or consultatively involved in several other companies as CTO and CPO. I have built, managed, and launched many individual technical projects in (a constantly changing) modern web stack: From fast-moving independent startup projects to brownfield microservice environments.
-# menu:
-#   main:
-#     weight: -1
+
 ---
 # Hi, I am Klaus Breyer
 
