@@ -1,7 +1,8 @@
 ---
 title: "Talks"
 date: 2022-12-19
-
+aliases:
+ - "talks"
 ---
 ## Book
 

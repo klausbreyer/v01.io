@@ -275,3 +275,19 @@ footer div.copyright {
   text-align: center;
   font-family: "Share Tech";
 }
+
+/**
+ * Conditional markup for special articles.
+ */
+article.pages\/bookshelf\/ {
+  h2 {
+    clear: both;
+    padding-top: 2rem;
+  }
+  img[src$="#small"] {
+    float: left;
+    max-width: 200px !important;
+    margin: 0 !important;
+    margin-right: 2rem !important;
+  }
+}

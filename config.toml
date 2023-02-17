@@ -36,21 +36,26 @@ defaultContentLanguage = 'en'
   url = '/posts/'
   weight = 10
 [[menu.main]]
-  name = 'Talks'
-  url = '/pages/talks/'
-  weight = 20
+  name = 'Bookshelf'
+  url = '/pages/bookshelf/'
+  weight = 11
 [[menu.main]]
   name = 'Shape Up'
   url = '/pages/shape-up/'
-  weight = 30
+  weight = 40
 [[menu.main]]
   name = 'Consulting'
   url = '/pages/consulting/'
-  weight = 40
+  weight = 30
 [[menu.main]]
   name = 'Funding'
   url = '/pages/funding/'
   weight = 50
+
+[[menu.main]]
+  name = 'Appearances'
+  url = '/pages/appearances/'
+  weight = 100
 
 # [[menu.main]]
 #   name = 'unixtime.app'

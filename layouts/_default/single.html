@@ -16,7 +16,7 @@
 {{ $keywords = printf "%s,%s" $keywords .LinkTitle }}
 {{ end }}
 {{ end }}
-<article>
+<article class="{{.File.Dir }}">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 </article>
