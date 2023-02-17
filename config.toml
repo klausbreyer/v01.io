@@ -1,10 +1,17 @@
 baseURL = 'https://www.v01.io/'
-languageCode = 'en-us'
 title = 'Klaus Breyer > CTO writing about Code, Business, Product & Engineering Orgs.'
 copyright = 'Klaus Breyer'
 # sectionPagesMenu = 'main'
 preserveTaxonomyNames = true
 enableRobotsTXT = true
+
+languageCode = 'en'
+defaultContentLanguage = 'en'
+[languages]
+  [languages.de]
+  [languages.en]
+
+
 
 [author]
   name = 'Klaus Breyer'

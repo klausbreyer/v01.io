@@ -7,8 +7,9 @@ lastmod: 2021-06-29T10:37:31+02:00
 draft: false
 description: 'Dateiorganisation und Ordnerstrukturen in Unternehmen'
 categories: ['Engineering Org']
+aliases:
+    - /posts/dateiorganisation-und-ordnerstrukturen-in-unternehmen/
 ---
-![](Screen-Shot-2017-01-05-at-14.58.20.png)
 Wer über die gemeinsame Ordnerstruktur in einem Unternehmen diskutiert, muss sich fragen, wie viel wirklich vorgegeben werden muss.
  Wie es geht..
 Meine Empfehlung ist es, sich auf den kleinsten gemeinsamen Nenner zu einigen. Im Agenturkontext bei uns ist das:
@@ -27,7 +28,7 @@ Das hört sich jetzt sehr einfach an, aber wir hatten das auch schon anders. Und
 
 Ein paar wenige Privilegierte versuchen für andere mitzudenken und versuchen deren Fehler zu vermeiden. Man sitzt dann in einem Meeting zusammen und überlegt sich bis ins letzte Detail, wie die Prozesse sind und welche Dateien für alle möglichen Projekte und alle möglichen Gewerke anfallen. Anschließend werden Konstrukte von leeren Ordnern erstellt, welche immer in neue Projekte kopiert werden. Herauskommen kann dann so etwas:
 
-```
+```text
  00001_Kunde
  └── 103_Projekt_3
  ├── 00_Material

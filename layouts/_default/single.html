@@ -21,6 +21,13 @@
     {{ .Content }}
 </article>
 <hr />
+
+{{ if .IsTranslated }}
+<aside>
+    {{ partial "translations.html" . }}
+</aside>
+{{ end }}
+
 <aside>
     <h4>Article Meta Data</h4>
     <ul>
@@ -47,6 +54,7 @@
         {{ end }}
     </ul>
 </aside>
+
 <aside>
     <h4>Call to Action</h4>
 

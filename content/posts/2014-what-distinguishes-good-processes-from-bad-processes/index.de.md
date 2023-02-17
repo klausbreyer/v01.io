@@ -8,6 +8,8 @@ draft: false
 description: 'Was gute Prozesse von schlechten Prozessen unterscheidet'
 categories: ['Engineering Org']
 tags: ['prozesse', 'workflow', 'ziele']
+aliases:
+    - /posts/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/
 ---
 
 Viel zu oft werden Prozesse aufgesetzt, um Fehler zu vermeiden. Meiner Meinung nach ist das kein gutes Vorgehen. Dabei hat der Initiator eines Prozesses vermutlich gar nichts böses im Sinn. Er möchte die Qualität oder Produktivität steigern, aber möchte dies tun, indem er für andere mitdenkt. Dann werden lange Checklisten erstellt, definiert was bis wann mit wem alles abgesprochen werden muss.. man kennt es ja.
