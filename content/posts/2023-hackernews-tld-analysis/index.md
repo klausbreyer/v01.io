@@ -10,7 +10,7 @@ categories: ['Code']
 ---
 {{< hackernewsstats >}}
 
-## Motivation
+## About this Analysis
 
 ## Method
 

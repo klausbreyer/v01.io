@@ -1,59 +1,53 @@
 <script src='/js/plotly-2.18.0.min.js'></script>
-<div id='hackernewsstats'></div>
 
+<aside>
+    <b>Aggregate everything by:</b>
+    <select id="hackernewsstats-groupnorm">
+        <option value="percent">percentage</option>
+        <option value="">absolute number</option>
+    </select>
+    <select id="hackernewsstats-aggregation">
+        <option value="counts">of yearly submitted links</option>
+        <option value="scores">of yearly achieved scores</option>
+    </select>
+</aside>
+<div id='hackernewsstats-categories'></div><br />
+<div id='hackernewsstats-endings'></div><br />
+<div id='hackernewsstats-recent'></div>
 <aside>
     <b>Filter:</b>
 
     <label for="original"> <input class="hackernews-categories" type="checkbox"
-            value="original" name="original" id="original" checked />original
+            id="original" checked />original
     </label>
     <label for="generic"> <input class="hackernews-categories" type="checkbox"
-            value="generic" name="generic" id="generic" checked />generic
+            id="generic" checked />generic
     </label>
-    <label for="sponsored"> <input class="hackernews-categories" type="checkbox"
-            value="sponsored" name="sponsored" id="sponsored"
-            checked />sponsored </label>
     <label for="country"> <input class="hackernews-categories" type="checkbox"
-            value="country" name="country" id="country" checked />country
+            id="country" checked />country
     </label>
     <label for="geographic"> <input class="hackernews-categories"
-            type="checkbox" value="geographic" name="geographic" id="geographic"
-            checked />geographic </label>
+            type="checkbox" id="geographic" checked />geographic </label>
     <label for="brand"> <input class="hackernews-categories" type="checkbox"
-            value="brand" name="brand" id="brand" checked />brand </label>
-    <label for="special"> <input class="hackernews-categories" type="checkbox"
-            value="special" name="special" id="special" checked />special
+            id="brand" checked />brand </label>
     </label>
 
-</aside>
-<aside>
-    <b>Aggregate: </b>
-    <select id="hackernewsstats-groupnorm">
-        <option value="percent">Percentage</option>
-        <option value="">Absolute number</option>
-    </select>
-    <select id="hackernewsstats-aggregation">
-        <option value="counts">of yearly Counts</option>
-        <option value="scores">of yearly Scores</option>
-    </select>
 </aside>
 
 <script>
-
-
-    const x = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]
-    const threshold = 1000;
+    const x = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018]
 
     let categories = getCategories();
     document.querySelectorAll('.hackernews-categories').forEach(item => {
         item.addEventListener('change', event => {
             categories = getCategories();
             paint();
+
         })
     })
     function getCategories() {
         const checked = Array.from(document.querySelectorAll('.hackernews-categories')).filter(item => item.checked)
-        return checked.map(item => item.value)
+        return checked.map(item => item.id)
     }
 
     let aggregation = document.querySelector('#hackernewsstats-aggregation').value
@@ -68,29 +62,17 @@
         paint();
     });
 
+    let data = null;
     async function fetchJson() {
+        if (data) {
+            return data
+        }
         const response = await fetch('/js/hackernewsstats.json');
-        const data = await response.json();
+        data = await response.json();
         return data;
     }
 
-    function transform(data) {
-        function sortBySum(a, b) {
-            if (sum(a.y) < sum(b.y)) {
-                return -1;
-            }
-            if (sum(a.y) > sum(b.y)) {
-                return 1;
-            }
-            // a must be equal to b
-            return 0;
-        }
-        function sum(arr) {
-            return arr.reduce((a, b) => {
-                return a + b;
-            }, 0);
-        }
-
+    function transformEnding(data) {
         const filtered = data.filter(r => categories.find(c => c === r.category))
         console.log(filtered)
         const traces = filtered.map(r => ({
@@ -100,38 +82,148 @@
             groupnorm,
             y: aggregation === "scores" ? r.scores : r.counts
         }))
-        const cleaned = traces.filter(t => sum(t.y) > 1)
+        const cleaned = traces.filter(t => sumArrayEntries(t.y) > 1)
         const ordered = cleaned.slice().sort(sortBySum)
         return ordered
     }
 
-    const text = getComputedStyle(document.documentElement)
-        .getPropertyValue('--text');
-    const bg = getComputedStyle(document.documentElement)
-        .getPropertyValue('--bg');
-    const highlight = getComputedStyle(document.documentElement)
-        .getPropertyValue('--highlight');
-    const layout = {
-        paper_bgcolor: bg,
-        plot_bgcolor: bg,
-        font: {
-            color: text,
-            family: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,Ubuntu, roboto, noto, arial, sans- serif;"
-        },
-        xaxis: {
-            gridcolor: highlight
-        },
-        yaxis: {
-            gridcolor: highlight
-        },
-    };
+    function transformCategories(data) {
+        const allCategories = Array.from(document.querySelectorAll('.hackernews-categories')).map(c => c.id)
+        const traces = allCategories.map(c => {
+            const category = data.filter(d => d.category === c);
+            const aggr = aggregation === "scores" ? "scores" : "counts"
+            return {
+                name: c,
+                stackgroup: "one",
+                x,
+                groupnorm,
+                y: sumScores(category, aggr),
+            }
+        })
+
+        const cleaned = traces.filter(t => sumArrayEntries(t.y) > 1)
+        const ordered = cleaned.slice().sort(sortBySum)
+        return ordered
+    }
+
+    function transformRecent(data) {
+        const filtered = data.filter(r => categories.find(c => c === r.category))
+
+        const pairs = filtered.map(r => ({
+            x: r.ending,
+            y: aggregation === "scores" ? last(r.scores) : last(r.counts)
+        }))
+
+        const cleaned = pairs.filter(p => p.y > 1)
+        const ordered = cleaned.slice().sort(sortByY).reverse().slice(0, 50)
+        const trace = [{
+            x: ordered.map(p => p.x),
+            y: ordered.map(p => p.y),
+            type: "bar"
+        }]
+        console.log(trace)
+        return trace
+    }
+
+    async function paintEndings() {
+        const transformed = transformEnding(data)
+        const config = getConfig()
+        const layout = getLayout();
+        layout.title = "Top Level Domains"
+
+        Plotly.newPlot('hackernewsstats-endings', transformed, layout, config);
+    }
+
+    async function paintCategories() {
+        const transformed = transformCategories(data)
+        const config = getConfig()
+        const layout = getLayout();
+        layout.title = "Categories"
+
+        Plotly.newPlot('hackernewsstats-categories', transformed, layout, config);
+    }
+
+    async function paintRecent() {
+        const transformed = transformRecent(data)
+        const config = getConfig()
+        const layout = getLayout();
+        layout.title = "Recent year (2022)"
+        layout.yaxis.type = "log"
+
+        Plotly.newPlot('hackernewsstats-recent', transformed, layout, config);
+    }
 
     async function paint() {
-        const data = await fetchJson();
-        const transformed = transform(data)
-        Plotly.newPlot('hackernewsstats', transformed, getLayout());
+        await fetchJson()
+        paintEndings()
+        //paintCategories()
+        paintRecent()
     }
-    paint()
+    paint();
+
+    function sortBySum(a, b) {
+        if (sumArrayEntries(a.y) < sumArrayEntries(b.y)) {
+            return -1;
+        }
+        if (sumArrayEntries(a.y) > sumArrayEntries(b.y)) {
+            return 1;
+        }
+        // a must be equal to b
+        return 0;
+    }
+
+    function sortByLast(a, b) {
+        if (last(a).y < last(b).y) {
+            return -1;
+        }
+        if (last(a).y > last(b).y) {
+            return 1;
+        }
+        // a must be equal to b
+        return 0;
+    }
+
+
+    function sortByY(a, b) {
+        if (a.y < b.y) {
+            return -1;
+        }
+        if (a.y > b.y) {
+            return 1;
+        }
+        // a must be equal to b
+        return 0;
+    }
+
+    function last(arr) {
+        return arr[arr.length - 1]
+    }
+
+    function sumArrayEntries(arr) {
+        return arr.reduce((a, b) => {
+            return a + b;
+        }, 0);
+    }
+
+    function sumScores(arr, aggr) {
+        return arr.reduce((a, b) => {
+            b[aggr].forEach((v, i) => {
+                if (!a[i]) {
+                    console.log("init")
+                    a[i] = 0
+                }
+                a[i] += v
+            })
+            return a
+        }, [])
+    }
+
+    function getConfig() {
+        const config = {
+            displayModeBar: false,
+        };
+        return config;
+    }
 
     function getLayout() {
         const text = getComputedStyle(document.documentElement)
@@ -141,6 +233,8 @@
         const highlight = getComputedStyle(document.documentElement)
             .getPropertyValue('--highlight');
         const layout = {
+
+            margin: { t: 30, l: 30, r: 0, b: 40, pad: 0 },
             paper_bgcolor: bg,
             plot_bgcolor: bg,
             font: {
@@ -148,13 +242,12 @@
                 family: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,Ubuntu, roboto, noto, arial, sans- serif;"
             },
             xaxis: {
-                gridcolor: highlight
+                gridcolor: highlight,
             },
             yaxis: {
-                gridcolor: highlight
+                gridcolor: highlight,
             },
         };
         return layout
     }
 </script>
-<hr />
