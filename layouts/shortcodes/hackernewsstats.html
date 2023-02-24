@@ -1,0 +1,120 @@
+<script src='/js/plotly-2.18.0.min.js'></script>
+<div id='hackernewsstats'></div>
+
+<aside>
+    <input class="hackernews-categories" type="checkbox" value="original"
+        name="original" id="original" checked />
+    <label for="original">original</label>
+    <input class="hackernews-categories" type="checkbox" value="generic"
+        name="generic" id="generic" checked />
+    <label for="generic">generic</label>
+    <input class="hackernews-categories" type="checkbox" value="sponsored"
+        name="sponsored" id="sponsored" checked />
+    <label for="sponsored">sponsored</label>
+    <input class="hackernews-categories" type="checkbox" value="country"
+        name="country" id="country" checked />
+    <label for="country">country</label>
+    <input class="hackernews-categories" type="checkbox" value="geographic"
+        name="geographic" id="geographic" checked />
+    <label for="geographic">geographic</label>
+    <input class="hackernews-categories" type="checkbox" value="brand"
+        name="brand" id="brand" checked />
+    <label for="brand">brand</label>
+    <input class="hackernews-categories" type="checkbox" value="special"
+        name="special" id="special" checked />
+    <label for="special">special</label>
+</aside>
+
+<aside>
+    <select id="hackernewsstats-groupnorm">
+        <option value="percent">percentage of</option>
+        <option value="">absolute number</option>
+    </select>
+    <select id="hackernewsstats-aggregation">
+        <option value="counts">Counts</option>
+        <option value="scores">Scores</option>
+    </select>
+</aside>
+
+<script>
+    const x = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]
+    const threshold = 1000;
+
+    let categories = ["original"];
+    document.querySelectorAll('.hackernews-categories').forEach(item => {
+        item.addEventListener('change', event => {
+            getCategories();
+            paint();
+        })
+    })
+
+    function getCategories() {
+        const checked = Array.from(document.querySelectorAll('.hackernews-categories')).filter(item => item.checked)
+        categories = checked.map(item => item.value)
+        console.log(categories)
+    }
+    getCategories();
+
+    let aggregation = document.querySelector('#hackernewsstats-aggregation').value
+    document.querySelector('#hackernewsstats-aggregation').addEventListener('change', (event) => {
+        aggregation = event.target.value
+        paint();
+    });
+
+    let groupnorm = document.querySelector('#hackernewsstats-groupnorm').value
+    document.querySelector('#hackernewsstats-groupnorm').addEventListener('change', (event) => {
+        groupnorm = event.target.value
+        paint();
+    });
+
+    async function fetchJson() {
+        const response = await fetch('/js/hackernewsstats.json');
+        const data = await response.json();
+        return data;
+    }
+
+    function transform(data) {
+        const filtered = data.filter(r => categories.find(c => c === r.category))
+        console.log(filtered)
+        const traces = filtered.map(r => ({
+            name: r.ending,
+            stackgroup: "one",
+            x,
+            groupnorm,
+            y: aggregation === "scores" ? r.scores : r.counts
+        }))
+
+        const cleaned = traces.filter(t => sum(t.y) > threshold)
+
+        const ordered = cleaned.slice().sort(sortBySum)
+        return ordered
+    }
+
+    var layout = { title: 'Normalized stacked and filled line chart' };
+
+    async function paint() {
+        const data = await fetchJson();
+        console.log(data);
+        const transformed = transform(data)
+        Plotly.newPlot('hackernewsstats', transformed, layout);
+    }
+    paint()
+
+    function sortBySum(a, b) {
+        if (sum(a.y) < sum(b.y)) {
+            return -1;
+        }
+        if (sum(a.y) > sum(b.y)) {
+            return 1;
+        }
+        // a must be equal to b
+        return 0;
+    }
+    function sum(arr) {
+        return arr.reduce((a, b) => {
+            return a + b;
+        }, 0);
+    }
+
+
+</script>
