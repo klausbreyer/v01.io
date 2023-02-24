@@ -2,58 +2,59 @@
 <div id='hackernewsstats'></div>
 
 <aside>
-    <input class="hackernews-categories" type="checkbox" value="original"
-        name="original" id="original" checked />
-    <label for="original">original</label>
-    <input class="hackernews-categories" type="checkbox" value="generic"
-        name="generic" id="generic" checked />
-    <label for="generic">generic</label>
-    <input class="hackernews-categories" type="checkbox" value="sponsored"
-        name="sponsored" id="sponsored" checked />
-    <label for="sponsored">sponsored</label>
-    <input class="hackernews-categories" type="checkbox" value="country"
-        name="country" id="country" checked />
-    <label for="country">country</label>
-    <input class="hackernews-categories" type="checkbox" value="geographic"
-        name="geographic" id="geographic" checked />
-    <label for="geographic">geographic</label>
-    <input class="hackernews-categories" type="checkbox" value="brand"
-        name="brand" id="brand" checked />
-    <label for="brand">brand</label>
-    <input class="hackernews-categories" type="checkbox" value="special"
-        name="special" id="special" checked />
-    <label for="special">special</label>
-</aside>
+    <b>Filter:</b>
 
+    <label for="original"> <input class="hackernews-categories" type="checkbox"
+            value="original" name="original" id="original" checked />original
+    </label>
+    <label for="generic"> <input class="hackernews-categories" type="checkbox"
+            value="generic" name="generic" id="generic" checked />generic
+    </label>
+    <label for="sponsored"> <input class="hackernews-categories" type="checkbox"
+            value="sponsored" name="sponsored" id="sponsored"
+            checked />sponsored </label>
+    <label for="country"> <input class="hackernews-categories" type="checkbox"
+            value="country" name="country" id="country" checked />country
+    </label>
+    <label for="geographic"> <input class="hackernews-categories"
+            type="checkbox" value="geographic" name="geographic" id="geographic"
+            checked />geographic </label>
+    <label for="brand"> <input class="hackernews-categories" type="checkbox"
+            value="brand" name="brand" id="brand" checked />brand </label>
+    <label for="special"> <input class="hackernews-categories" type="checkbox"
+            value="special" name="special" id="special" checked />special
+    </label>
+
+</aside>
 <aside>
+    <b>Aggregate: </b>
     <select id="hackernewsstats-groupnorm">
-        <option value="percent">percentage of</option>
-        <option value="">absolute number</option>
+        <option value="percent">Percentage</option>
+        <option value="">Absolute number</option>
     </select>
     <select id="hackernewsstats-aggregation">
-        <option value="counts">Counts</option>
-        <option value="scores">Scores</option>
+        <option value="counts">of yearly Counts</option>
+        <option value="scores">of yearly Scores</option>
     </select>
 </aside>
 
 <script>
+
+
     const x = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014]
     const threshold = 1000;
 
-    let categories = ["original"];
+    let categories = getCategories();
     document.querySelectorAll('.hackernews-categories').forEach(item => {
         item.addEventListener('change', event => {
-            getCategories();
+            categories = getCategories();
             paint();
         })
     })
-
     function getCategories() {
         const checked = Array.from(document.querySelectorAll('.hackernews-categories')).filter(item => item.checked)
-        categories = checked.map(item => item.value)
-        console.log(categories)
+        return checked.map(item => item.value)
     }
-    getCategories();
 
     let aggregation = document.querySelector('#hackernewsstats-aggregation').value
     document.querySelector('#hackernewsstats-aggregation').addEventListener('change', (event) => {
@@ -74,6 +75,22 @@
     }
 
     function transform(data) {
+        function sortBySum(a, b) {
+            if (sum(a.y) < sum(b.y)) {
+                return -1;
+            }
+            if (sum(a.y) > sum(b.y)) {
+                return 1;
+            }
+            // a must be equal to b
+            return 0;
+        }
+        function sum(arr) {
+            return arr.reduce((a, b) => {
+                return a + b;
+            }, 0);
+        }
+
         const filtered = data.filter(r => categories.find(c => c === r.category))
         console.log(filtered)
         const traces = filtered.map(r => ({
@@ -83,38 +100,61 @@
             groupnorm,
             y: aggregation === "scores" ? r.scores : r.counts
         }))
-
-        const cleaned = traces.filter(t => sum(t.y) > threshold)
-
+        const cleaned = traces.filter(t => sum(t.y) > 1)
         const ordered = cleaned.slice().sort(sortBySum)
         return ordered
     }
 
-    var layout = { title: 'Normalized stacked and filled line chart' };
+    const text = getComputedStyle(document.documentElement)
+        .getPropertyValue('--text');
+    const bg = getComputedStyle(document.documentElement)
+        .getPropertyValue('--bg');
+    const highlight = getComputedStyle(document.documentElement)
+        .getPropertyValue('--highlight');
+    const layout = {
+        paper_bgcolor: bg,
+        plot_bgcolor: bg,
+        font: {
+            color: text,
+            family: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,Ubuntu, roboto, noto, arial, sans- serif;"
+        },
+        xaxis: {
+            gridcolor: highlight
+        },
+        yaxis: {
+            gridcolor: highlight
+        },
+    };
 
     async function paint() {
         const data = await fetchJson();
-        console.log(data);
         const transformed = transform(data)
-        Plotly.newPlot('hackernewsstats', transformed, layout);
+        Plotly.newPlot('hackernewsstats', transformed, getLayout());
     }
     paint()
 
-    function sortBySum(a, b) {
-        if (sum(a.y) < sum(b.y)) {
-            return -1;
-        }
-        if (sum(a.y) > sum(b.y)) {
-            return 1;
-        }
-        // a must be equal to b
-        return 0;
+    function getLayout() {
+        const text = getComputedStyle(document.documentElement)
+            .getPropertyValue('--text');
+        const bg = getComputedStyle(document.documentElement)
+            .getPropertyValue('--bg');
+        const highlight = getComputedStyle(document.documentElement)
+            .getPropertyValue('--highlight');
+        const layout = {
+            paper_bgcolor: bg,
+            plot_bgcolor: bg,
+            font: {
+                color: text,
+                family: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,Ubuntu, roboto, noto, arial, sans- serif;"
+            },
+            xaxis: {
+                gridcolor: highlight
+            },
+            yaxis: {
+                gridcolor: highlight
+            },
+        };
+        return layout
     }
-    function sum(arr) {
-        return arr.reduce((a, b) => {
-            return a + b;
-        }, 0);
-    }
-
-
 </script>
+<hr />

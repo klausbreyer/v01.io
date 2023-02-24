@@ -8,12 +8,10 @@ draft: false
 tags: ['hackernews', 'go', 'mysql', 'domains', 'tld']
 categories: ['Code']
 ---
-
-# hi
-
-## asdf
-
-
-hi
-
 {{< hackernewsstats >}}
+
+## Motivation
+
+## Method
+
+## Code
