@@ -35,27 +35,31 @@ defaultContentLanguage = 'en'
   name = 'Blog'
   url = '/posts/'
   weight = 10
-[[menu.main]]
-  name = 'Bookshelf'
-  url = '/pages/bookshelf/'
-  weight = 11
-[[menu.main]]
-  name = 'Shape Up'
-  url = '/pages/shape-up/'
-  weight = 40
-[[menu.main]]
-  name = 'Consulting'
-  url = '/pages/consulting/'
-  weight = 30
-[[menu.main]]
-  name = 'Funding'
-  url = '/pages/funding/'
-  weight = 50
 
 [[menu.main]]
   name = 'Appearances'
   url = '/pages/appearances/'
-  weight = 100
+  weight = 20
+
+[[menu.main]]
+  name = 'Bookshelf'
+  url = '/pages/bookshelf/'
+  weight = 30
+
+[[menu.main]]
+  name = 'Consulting'
+  url = '/pages/consulting/'
+  weight = 40
+
+[[menu.main]]
+  name = 'Shape Up'
+  url = '/pages/shape-up/'
+  weight = 50
+
+[[menu.main]]
+  name = 'Funding'
+  url = '/pages/funding/'
+  weight = 60
 
 # [[menu.main]]
 #   name = 'unixtime.app'

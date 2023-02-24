@@ -55,7 +55,7 @@ We had noticed that most photo printing vendors always send their customers to u
 
 I built [several iterations of a prototype]({{< relref path="projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release" lang="de" >}}) for the founders in 2016 and 2017 until they could convince backers and first customers with it.
 
-1. Afterward, I was Tech Lead for product development and Technical Evangelist to convince customers of the startup’s technology and capabilities.
+Afterward, I was Tech Lead for product development and Technical Evangelist to convince customers of the startup’s technology and capabilities.
 
 [1]: mailto:consulting@v01.io
 [2]: https://www.raysono.com/
