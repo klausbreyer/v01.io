@@ -6,16 +6,21 @@ date: 2023-02-17
 
 In 2023 I aim to post every week a new book recommendation [on linkedin](https://www.linkedin.com/in/klaus-breyer/). This is the summary of them.
 
+## The Zen of Steve Jobs
+
+[![](jobs.png#small)](https://amzn.to/3ZChPaM "Buy it on Amazon")
+
+It tells not only the story of Steve Jobs, but also his connection to Buddhism and explains some of his values that still influence the products we all use today.
 ## Thinking in Systems: A Primer
 
-[![](system.png#small)](https://amzn.to/3lZmQf0 "Buy it on Amazon")
+[![](systems.png#small)](https://amzn.to/3lZmQf0 "Buy it on Amazon")
 
-"My book recommendation for this week is about System Thinking.
+My book recommendation for this week is about System Thinking.
 Why is it relevant? Feedback loops are everywhere. --> It's not about who is at fault. It's about understanding the system.
 Dynamic systems cannot be understood via statistical correlations. (This can only ever be used to map the past but cannot produce strong statements about the future. )
 Systems cannot be mastered or wholly understood. -> You have to ""dance"" with them, and you can shape your sphere of influence correctly.
 
-In the end, there is no single truth. On the one hand, the world is not linear, but on the other hand, system boundaries are also messy. "
+In the end, there is no single truth. On the one hand, the world is not linear, but on the other hand, system boundaries are also messy.
 
 ## Are Your Lights On?: How to Figure Out What the Problem Really is
 
