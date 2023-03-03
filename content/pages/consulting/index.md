@@ -6,24 +6,19 @@ date: 2022-12-21
 
 # Consulting
 
-I play to my strengths when it is unclear at the beginning what the result will look like: Providing a **prototyping foundation optimized for iterative improvement** while working closely with the management on the product and business model.
+As a highly experienced consultant and interim CTO, I excel at providing strategic guidance and technical expertise to help businesses achieve their goals. With a focus on prototyping foundations that optimize through iterative improvement and close collaboration with management, I have a proven track record of success in building and refining products and business models.
 
 {{< figure src="venn.png" class="half center" >}}
 
-
-I am often hired either as a consultant/tech lead (for agencies and SMEs) or as an interim CTO (for startups).
-
-Scopes:
+My scopes of work include:
 
 1. Development of the technical vision and pitch it to investors and stakeholders.
-2. If necessary, I build a product’s first version and initial architecture by myself.
-3. Staffing the team, onboarding the team members, and ensuring they can work happily and productively in a modern development environment.
-4. Owning the process that optimizes the (technical) processes: Up to product engineering org.
-5. Finding a successor and handing over the team to someone permanent at a certain point.
+1. Building a product's first version and initial architecture by myself, if necessary.
+1. Staffing the team, onboarding the team members, and ensuring they can work happily and productively in a modern development environment.
+1. Owning the process that optimizes the (technical) processes: Up to product engineering org.
+1. Finding a successor and handing over the team to someone permanent at a certain point.
 
-Non-functionally, my goal is to establish a good social connection with the non-technical parts of the company.
-
-Interested? Please drop me a line at [consulting@v01.io][1]
+Whether you're an agency, SME, or startup, I can help you achieve your goals by providing a range of services that are tailored to your specific needs. My ultimate goal is to establish a strong social connection with the non-technical parts of the company, ensuring that everyone is aligned and working towards a shared vision of success. If you're interested in learning more, please don't hesitate to reach out to me at [consulting@v01.io][1].
 
 ## Now: what am I currently doing?
 
