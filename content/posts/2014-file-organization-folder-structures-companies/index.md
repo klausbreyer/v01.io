@@ -7,6 +7,7 @@ lastmod: 2023-02-10T14:45:52+01:00
 draft: false
 categories: ['Engineering Org']
 image: "folder-structure.png"
+social: "https://www.linkedin.com/posts/klaus-breyer_file-organization-and-folder-structures-for-activity-7038781261212971008-sj0Y"
 ---
 Anyone discussing the typical folder structure in a company must ask how much needs to be specified.
 
