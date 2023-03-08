@@ -74,7 +74,6 @@
 
     function transformEnding(data) {
         const filtered = data.filter(r => categories.find(c => c === r.category))
-        console.log(filtered)
         const traces = filtered.map(r => ({
             name: r.ending,
             stackgroup: "one",
@@ -83,7 +82,7 @@
             y: aggregation === "scores" ? r.scores : r.counts
         }))
         const cleaned = traces.filter(t => sumArrayEntries(t.y) > 1)
-        const ordered = cleaned.slice().sort(sortBySum)
+        const ordered = cleaned.slice().sort(sortByLastEntry)
         return ordered
     }
 
@@ -92,7 +91,7 @@
 
         const pairs = filtered.map(r => ({
             x: r.ending,
-            y: aggregation === "scores" ? last(r.scores) : last(r.counts)
+            y: aggregation === "scores" ? lastEntry(r.scores) : lastEntry(r.counts)
         }))
 
         const cleaned = pairs.filter(p => p.y > 1)
@@ -102,7 +101,6 @@
             y: ordered.map(p => p.y),
             type: "bar"
         }]
-        console.log(trace)
         return trace
     }
 
@@ -132,7 +130,7 @@
     }
     paint();
 
-    function sortBySum(a, b) {
+    function sortByEntrySum(a, b) {
         if (sumArrayEntries(a.y) < sumArrayEntries(b.y)) {
             return -1;
         }
@@ -143,11 +141,15 @@
         return 0;
     }
 
-    function sortByLast(a, b) {
-        if (last(a).y < last(b).y) {
+    function lastEntry(arr) {
+        return arr[arr.length - 1]
+    }
+
+    function sortByLastEntry(a, b) {
+        if (lastEntry(a.y) < lastEntry(b.y)) {
             return -1;
         }
-        if (last(a).y > last(b).y) {
+        if (lastEntry(a.y) > lastEntry(b.y)) {
             return 1;
         }
         // a must be equal to b
@@ -164,10 +166,6 @@
         }
         // a must be equal to b
         return 0;
-    }
-
-    function last(arr) {
-        return arr[arr.length - 1]
     }
 
     function sumArrayEntries(arr) {
