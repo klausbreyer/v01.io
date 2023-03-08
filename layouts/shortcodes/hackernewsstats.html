@@ -87,25 +87,6 @@
         return ordered
     }
 
-    function transformCategories(data) {
-        const allCategories = Array.from(document.querySelectorAll('.hackernews-categories')).map(c => c.id)
-        const traces = allCategories.map(c => {
-            const category = data.filter(d => d.category === c);
-            const aggr = aggregation === "scores" ? "scores" : "counts"
-            return {
-                name: c,
-                stackgroup: "one",
-                x,
-                groupnorm,
-                y: sumScores(category, aggr),
-            }
-        })
-
-        const cleaned = traces.filter(t => sumArrayEntries(t.y) > 1)
-        const ordered = cleaned.slice().sort(sortBySum)
-        return ordered
-    }
-
     function transformRecent(data) {
         const filtered = data.filter(r => categories.find(c => c === r.category))
 
@@ -134,17 +115,6 @@
         Plotly.newPlot('hackernewsstats-endings', transformed, layout, config);
     }
 
-    {
-        {/*  async function paintCategories() {
-        const transformed = transformCategories(data)
-        const config = getConfig()
-        const layout = getLayout();
-        layout.title = "Categories"
-
-        Plotly.newPlot('hackernewsstats-categories', transformed, layout, config);
-    }  */}
-    }
-
     async function paintRecent() {
         const transformed = transformRecent(data)
         const config = getConfig()
@@ -158,7 +128,6 @@
     async function paint() {
         await fetchJson()
         paintEndings()
-        //paintCategories()
         paintRecent()
     }
     paint();
@@ -205,19 +174,6 @@
         return arr.reduce((a, b) => {
             return a + b;
         }, 0);
-    }
-
-    function sumScores(arr, aggr) {
-        return arr.reduce((a, b) => {
-            b[aggr].forEach((v, i) => {
-                if (!a[i]) {
-                    console.log("init")
-                    a[i] = 0
-                }
-                a[i] += v
-            })
-            return a
-        }, [])
     }
 
     function getConfig() {
