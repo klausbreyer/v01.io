@@ -2,13 +2,14 @@
 title: 'Hidden Treasures of TLDs: How I Scraped Hackernews for Domain Names'
 author: Klaus Breyer
 #todo: update
-publishdate: 2023-02-24T09:25:00+02:00
-lastmod: 2023-02-24T17:06:36+02:00
+publishdate: 2023-03-10T08:35:00+01:00
+lastmod: 2023-03-10T08:35:00+01:00
 draft: false
 tags: ['hackernews', 'go', 'mysql', 'domains', 'tld']
 categories: ['Code']
+image: "hns.png"
 ---
-{{< hackernewsstats >}}
+{{< hackernewsstats >}}# hackernewsstats
 ## Background Story
 
 As somebody who often starts new projects, I often need to think about project names and domain names.
@@ -59,7 +60,7 @@ The entries were inserted in a single table MySQL DB. Why MySQL and not PostgreS
 
 I created a JSON file from the database with another Go binary to ship it with the Frontend. The most exciting part here is [how I queried the data for specific years and how I substring-ed the column of URLs to group it by the top-level domai][12]n. By the way: [A huge shout-out to this Stackoverflow thread that teaches me how to do it!][13]
 
-In the Frontend, it is vanilla Javascript leveraging [Plotly][14]. I implemented this into a shortcode that I added to my Hugo template.
+In the Frontend, it is vanilla Javascript leveraging [Plotly][14]. I implemented this into [a shortcode that I added to my Hugo template][15].
 
 The data gathering and transformation code must be better documented, but it is undoubtedly open source.
 
@@ -77,3 +78,4 @@ The data gathering and transformation code must be better documented, but it is 
 [12]: https://github.com/klausbreyer/hackernewsstats/blob/main/queries/count-years.sql
 [13]: https://stackoverflow.com/questions/9280336/mysql-query-to-extract-domains-from-urls
 [14]: https://github.com/plotly/plotly.js
+[15]: https://github.com/klausbreyer/v01.io/blob/main/layouts/shortcodes/hackernewsstats.html
