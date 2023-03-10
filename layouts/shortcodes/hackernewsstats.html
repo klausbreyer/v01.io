@@ -1,0 +1,210 @@
+<script src='/js/plotly-2.18.0.min.js'></script>
+
+<aside>
+    <b>Aggregate by:</b>
+    <select id="hackernewsstats-groupnorm">
+        <option value="percent">percentage</option>
+        <option value="">absolute number</option>
+    </select>
+    <select id="hackernewsstats-aggregation">
+        <option value="counts">of yearly submitted links</option>
+        <option value="scores">of yearly achieved scores</option>
+    </select>
+</aside>
+<aside>
+    <b>Filter:</b>
+
+    <label for="original"> <input class="hackernews-categories" type="checkbox"
+            id="original" checked />original
+    </label>
+    <label for="generic"> <input class="hackernews-categories" type="checkbox"
+            id="generic" checked />generic
+    </label>
+    <label for="country"> <input class="hackernews-categories" type="checkbox"
+            id="country" checked />country
+    </label>
+    <label for="geographic"> <input class="hackernews-categories"
+            type="checkbox" id="geographic" checked />geographic </label>
+    <label for="brand"> <input class="hackernews-categories" type="checkbox"
+            id="brand" checked />brand </label>
+    </label>
+</aside>
+
+<div id='hackernewsstats-endings'></div><br />
+<div id='hackernewsstats-recent'></div>
+
+
+<br /><br />
+<script>
+    const x = [2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
+
+    let categories = getCategories();
+    document.querySelectorAll('.hackernews-categories').forEach(item => {
+        item.addEventListener('change', event => {
+            categories = getCategories();
+            paint();
+
+        })
+    })
+    function getCategories() {
+        const checked = Array.from(document.querySelectorAll('.hackernews-categories')).filter(item => item.checked)
+        return checked.map(item => item.id)
+    }
+
+    let aggregation = document.querySelector('#hackernewsstats-aggregation').value
+    document.querySelector('#hackernewsstats-aggregation').addEventListener('change', (event) => {
+        aggregation = event.target.value
+        paint();
+    });
+
+    let groupnorm = document.querySelector('#hackernewsstats-groupnorm').value
+    document.querySelector('#hackernewsstats-groupnorm').addEventListener('change', (event) => {
+        groupnorm = event.target.value
+        paint();
+    });
+
+    let data = null;
+    async function fetchJson() {
+        if (data) {
+            return data
+        }
+        const response = await fetch('/js/hackernewsstats.json');
+        data = await response.json();
+        return data;
+    }
+
+    function transformEnding(data) {
+        const filtered = data.filter(r => categories.find(c => c === r.category))
+        const traces = filtered.map(r => ({
+            name: r.ending,
+            stackgroup: "one",
+            x,
+            groupnorm,
+            y: aggregation === "scores" ? r.scores : r.counts
+        }))
+        const cleaned = traces.filter(t => sumArrayEntries(t.y) > 1)
+        const ordered = cleaned.slice().sort(sortByLastEntry)
+        return ordered
+    }
+
+    function transformRecent(data) {
+        const filtered = data.filter(r => categories.find(c => c === r.category))
+
+        const pairs = filtered.map(r => ({
+            x: r.ending,
+            y: aggregation === "scores" ? lastEntry(r.scores) : lastEntry(r.counts)
+        }))
+
+        const cleaned = pairs.filter(p => p.y > 1)
+        const ordered = cleaned.slice().sort(sortByY).reverse().slice(0, 50)
+        const trace = [{
+            x: ordered.map(p => p.x),
+            y: ordered.map(p => p.y),
+            type: "bar"
+        }]
+        return trace
+    }
+
+    async function paintEndings() {
+        const transformed = transformEnding(data)
+        const config = getConfig()
+        const layout = getLayout();
+        layout.title = "Top Level Domains"
+
+        Plotly.newPlot('hackernewsstats-endings', transformed, layout, config);
+    }
+
+    async function paintRecent() {
+        const transformed = transformRecent(data)
+        const config = getConfig()
+        const layout = getLayout();
+        layout.title = "2022 on a logarithmic scale"
+        layout.yaxis.type = "log"
+
+        Plotly.newPlot('hackernewsstats-recent', transformed, layout, config);
+    }
+
+    async function paint() {
+        await fetchJson()
+        paintEndings()
+        paintRecent()
+    }
+    paint();
+
+    function sortByEntrySum(a, b) {
+        if (sumArrayEntries(a.y) < sumArrayEntries(b.y)) {
+            return -1;
+        }
+        if (sumArrayEntries(a.y) > sumArrayEntries(b.y)) {
+            return 1;
+        }
+        // a must be equal to b
+        return 0;
+    }
+
+    function lastEntry(arr) {
+        return arr[arr.length - 1]
+    }
+
+    function sortByLastEntry(a, b) {
+        if (lastEntry(a.y) < lastEntry(b.y)) {
+            return -1;
+        }
+        if (lastEntry(a.y) > lastEntry(b.y)) {
+            return 1;
+        }
+        // a must be equal to b
+        return 0;
+    }
+
+
+    function sortByY(a, b) {
+        if (a.y < b.y) {
+            return -1;
+        }
+        if (a.y > b.y) {
+            return 1;
+        }
+        // a must be equal to b
+        return 0;
+    }
+
+    function sumArrayEntries(arr) {
+        return arr.reduce((a, b) => {
+            return a + b;
+        }, 0);
+    }
+
+    function getConfig() {
+        const config = {
+            displayModeBar: false,
+        };
+        return config;
+    }
+
+    function getLayout() {
+        const text = getComputedStyle(document.documentElement)
+            .getPropertyValue('--text');
+        const bg = getComputedStyle(document.documentElement)
+            .getPropertyValue('--bg');
+        const highlight = getComputedStyle(document.documentElement)
+            .getPropertyValue('--highlight');
+        const layout = {
+
+            margin: { t: 30, l: 30, r: 0, b: 40, pad: 0 },
+            paper_bgcolor: bg,
+            plot_bgcolor: bg,
+            font: {
+                color: text,
+                family: "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,Ubuntu, roboto, noto, arial, sans- serif;"
+            },
+            xaxis: {
+                gridcolor: highlight,
+            },
+            yaxis: {
+                gridcolor: highlight,
+            },
+        };
+        return layout
+    }
+</script>
