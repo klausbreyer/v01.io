@@ -8,6 +8,7 @@ draft: false
 tags: ['hackernews', 'go', 'mysql', 'domains', 'tld']
 categories: ['Code']
 image: "hns.png"
+social: "https://www.linkedin.com/posts/klaus-breyer_hidden-treasures-of-tlds-how-i-scraped-hackernews-activity-7040995326916206592-m8R6"
 ---
 {{< hackernewsstats >}}# hackernewsstats
 ## Background Story

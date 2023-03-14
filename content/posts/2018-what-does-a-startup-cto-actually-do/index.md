@@ -9,6 +9,7 @@ description: 'What does a startup CTO actually do?'
 tags: ['startup', 'cto', 'seed']
 categories: ['Engineering Org']
 image: '2018-01-05-CTO.png'
+social: "https://www.linkedin.com/posts/klaus-breyer_what-does-a-startup-cto-actually-do-klaus-activity-7041324585870327811-lFix"
 ---
 
 ![](2018-01-05-CTO.svg)

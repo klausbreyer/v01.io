@@ -11,6 +11,7 @@ categories: ['Engineering Org']
 image: '2018-01-05-CTO.png'
 aliases:
     - /posts/was-macht-eigentlich-ein-startup-cto/
+social: "https://www.linkedin.com/posts/klaus-breyer_what-does-a-startup-cto-actually-do-klaus-activity-7041324585870327811-lFix"
 ---
 
 
