@@ -8,10 +8,10 @@ draft: false
 description: 'What does a startup CTO actually do?'
 tags: ['startup', 'cto', 'seed']
 categories: ['Engineering Org']
-image: '2017-01-05-CTO.png'
+image: '2018-01-05-CTO.png'
 ---
 
-![](2017-01-05-CTO.svg)
+![](2018-01-05-CTO.svg)
 
 First, a CTO is neither the best programmer nor the best manager. Why not the best programmer? Because it is not his only task, he usually needs more time. Instead of implementing technology himself, it is more important to be able to communicate technology. This means being on par with your own (implementing) team and being able to relate to less technically savvy stakeholders (such as investors or salespeople).
 

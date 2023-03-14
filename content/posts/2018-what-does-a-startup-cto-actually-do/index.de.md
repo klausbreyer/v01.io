@@ -8,11 +8,13 @@ draft: false
 description: 'Was macht eigentlich ein Startup CTO?'
 tags: ['startup', 'cto', 'seed']
 categories: ['Engineering Org']
-image: '2017-01-05-CTO.png'
+image: '2018-01-05-CTO.png'
+aliases:
+    - /posts/was-macht-eigentlich-ein-startup-cto/
 ---
 
 
-![](2017-01-05-CTO.svg)
+![](2018-01-05-CTO.svg)
 
 Vorneweg: Ein CTO ist weder der beste Programmierer noch der beste Manager. Warum nicht der beste Programmierer?
 Weil es nicht seine einzige Aufgabe ist und ihm dafür meistens die Zeit fehlt. Anstelle selbst Technologie zu implementieren, ist es wichtiger Technologie kommunizieren zu können. Dies bedeutet: Auf Augenhöhe sowohl mit dem eigenen (implementierenden) Team zu sein, als auch sich auf technisch weniger versierte Stakeholder (wie z.B. Investoren oder Sales-Mitarbeitern) einstellen zu können.
