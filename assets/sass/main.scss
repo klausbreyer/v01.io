@@ -38,6 +38,14 @@ em {
   font-style: normal;
 }
 
+strong {
+  font-weight: 600;
+}
+
+ul {
+  margin: 0;
+}
+
 p,
 li {
   line-height: 32px;
@@ -45,6 +53,8 @@ li {
   overflow-wrap: break-word;
   font-weight: 200;
   letter-spacing: -0.003em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 p.small {
   font-size: 0.75em;
@@ -86,12 +96,15 @@ h6 {
 }
 h1 {
   font-size: 3rem;
+  margin-top: 0;
 }
 h2 {
   font-size: 2rem;
+  margin-top: 1em;
 }
 h3 {
   font-size: 1.5rem;
+  margin-top: 1em;
 }
 h4 {
   font-size: 1.33rem;
@@ -178,19 +191,25 @@ header nav.menu {
 main {
   min-height: 950px;
 }
+
+main article {
+  margin-bottom: 3rem;
+}
+
 main a {
   font-family: "Share Tech";
   font-weight: bold;
   font-size: 1.05em;
 }
+
 main div.mermaid a {
   font-weight: normal;
   font-size: 1em;
 }
 
 main img.markdown-image {
-  max-width: calc(100% - 4rem);
-  margin: 2rem;
+  max-width: calc(100% - 0rem);
+  margin: 0rem 0rem;
   background: white;
 }
 

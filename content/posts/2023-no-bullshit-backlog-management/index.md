@@ -3,7 +3,7 @@ title: 'No bullshit backlog management'
 author: Klaus Breyer
 date: 2023-02-03T15:36:00+01:00
 draft: false
-categories: ['Engineering Org']
+categories: ['Product']
 tags: ['scrum', 'shapeup', 'org', 'engineeringorg', "agile", "backlog"]
 social: "https://www.linkedin.com/posts/klaus-breyer_no-bullshit-backlog-management-klaus-breyer-activity-7028349826597560320-kAlb"
 aliases:
