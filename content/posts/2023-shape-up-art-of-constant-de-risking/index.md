@@ -2,7 +2,7 @@
 title: 'The Art of Constant De-Risking: How Shape Up Revolutionizes Agile Software Development '
 author: Klaus Breyer
 publishdate: 2023-03-15T09:22:00+01:00
-lastmod: 2023-03-15T09:22:00+01:00
+lastmod: 2023-03-17T08:17:00+01:00
 draft: false
 tags: ['shapeup','scrum', 'process', 'engineering', 'product', 'org', ]
 categories: ['Engineering Org']
@@ -33,11 +33,11 @@ The Beautify of Shape Up is the fact that it **involves decisions from all trade
 
 As opposed to Scrum: Where a PO makes product decisions, maybe consulting with technical people, but without the full buy-in throughout the creative process.
 
-In Shape Up, involving technical people in the entire decision-making process with the goal that they do actual research or prototypes within the real codebase very early on is an essential factor in de-risking a feature.
+In Shape Up, involving **technical people in the entire decision-making process with the goal that they do research, think about how to lay out the architecture, or write code for prototypes within the actual codebase very early on** is an essential factor in de-risking a feature.
 
 By collaborating closely throughout the Framing and Shaping phase, the team can make more informed decisions and minimize technical and design issues that could arise later in development.
 
-It is crucial to emphasize that in the early stages of a project, decision-making should be led by experienced individuals well-aligned with the company's strategy. On the other hand, as the process progresses, it is essential to grant greater autonomy to the delivery team as their decisions become more pertinent to their specific tasks. Furthermore, later in the project, it becomes easier to onboard junior team members into these autonomous teams, providing them with valuable learning opportunities and contributing to the project's overall success.
+It is crucial to emphasize that in the early stages of a project, decision-making should be led by experienced individuals well-aligned with the company's strategy. On the other hand, as the process progresses, it is essential to grant greater autonomy to the delivery team as their decisions become more pertinent to their specific tasks. Furthermore, later in the project, onboarding junior team members into these autonomous teams becomes easier, providing them with valuable learning opportunities and contributing to the project's overall success.
 
 ## Conclusion
 
