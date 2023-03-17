@@ -7,6 +7,7 @@ draft: false
 tags: ['shapeup','scrum', 'process', 'engineering', 'product', 'org', ]
 categories: ['Engineering Org']
 image: "2023-03-15-shape-up-shaping-process-v2.png"
+social: "https://www.linkedin.com/posts/klaus-breyer_the-art-of-constant-de-risking-how-shape-activity-7042398219149963264-23Xv"
 ---
 
 Shape Up emphasizes the importance of constantly de-risking a feature idea from its origins until implementation by making technical, design, and product decisions with all professions represented.
