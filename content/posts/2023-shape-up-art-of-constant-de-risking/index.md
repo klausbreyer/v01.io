@@ -6,7 +6,7 @@ lastmod: 2023-03-17T08:17:00+01:00
 draft: false
 tags: ['shapeup','scrum', 'process', 'engineering', 'product', 'org', ]
 categories: ['Engineering Org']
-image: "2023-03-15-shape-up-shaping-process.png"
+image: "2023-03-15-shape-up-shaping-process-v2.png"
 ---
 
 Shape Up emphasizes the importance of constantly de-risking a feature idea from its origins until implementation by making technical, design, and product decisions with all professions represented.
@@ -19,7 +19,7 @@ Let us unpack.
 
 One could imagine the Shape Up Process to de-risk a feature idea constantly. From the first origin until the final implementation, it is about **continually assessing and evaluating risks associated with each feature without pouring too much concrete too early.**
 
-![](2023-03-15-shape-up-shaping-process.svg)
+![](2023-03-15-shape-up-shaping-process-v2.svg)
 
 - Unshaped: The idea (as in the picture) is wobbly and fuzzy initially. So the de-risking must be done with broad strokes during [Framing][1] for a clear scope.
 - Shaped: During the [Shaping][2], supported through Spikes, it gets more precise what the scope will be.
