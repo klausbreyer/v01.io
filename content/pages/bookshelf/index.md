@@ -6,7 +6,17 @@ date: 2023-02-17
 
 In 2023 I aim to post every week a new book recommendation [on linkedin](https://www.linkedin.com/in/klaus-breyer/). This is the summary of them.
 
-## The Zen of Steve Jobs
+## Effective Remote Work: For Yourself, Your Team, and Your Company
+
+[![](remote.png#small)](https://amzn.to/3z5WxqO "Buy it on Amazon")
+
+I had the pleasure of hearing [James Stanier](https://www.theengineeringmanager.com/) speak at a conference, and his insights on remote work stuck with me. That's why I highly recommend his book "Effective Remote Work." In it, Stanier argues that remote work without an emphasis on asynchronous work modes is just like working in a physical office, but with all the downsides amplified.
+
+To truly thrive in a remote work environment, we must embrace methods promoting autonomy and allowing for flexible schedules. Stanier's book contains practical tips for making remote work successful and enjoyable, even facing challenges like time zones and communication barriers.
+
+(It is focused on engineers, but my wife also took a lot out of it for their job to digitally transform government work.)
+
+## Range: Why Generalists Triumph in a Specialized World
 
 [![](range.png#small)](https://amzn.to/3LgttE7 "Buy it on Amazon")
 
@@ -15,6 +25,7 @@ In 2023 I aim to post every week a new book recommendation [on linkedin](https:/
 One of the key takeaways from this book is that only through taking action can we truly learn who we are, rather than just thinking about an ideal "should be" future. The author argues that it's about more than just working towards a specific goal but moving forward from promising situations.
 
 I highly recommend "Range" to anyone grappling with the idea of being a generalist in a specialized world. It's a refreshing and inspiring read that challenges conventional thinking about career paths and success
+
 ## The Zen of Steve Jobs
 
 [![](jobs.png#small)](https://amzn.to/3ZChPaM "Buy it on Amazon")
