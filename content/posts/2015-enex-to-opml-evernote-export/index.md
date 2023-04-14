@@ -7,6 +7,10 @@ lastmod: 2020-05-15T12:00:59+02:00
 draft: false
 description: 'enex-to-opml - Evernote Export'
 categories: ['Open Source']
+aliases:
+    - /de/posts/enex-to-opml-evernote-export/
+    - /posts/enex-to-opml-evernote-export/
+
 ---
 Whoever (like me) is currently migrating from [Evernote](https://evernote.com/intl/de/) to [Workflowy](https://workflowy.com/invite/2ede5294.lnx)* would like to take their notes with them. Unfortunately Evernote is quite closed about that. So I wrote a small command line tool in Node to convert the unspeakable XML of the .enex files into cleaner .ompl for Workflowy.
   ## Features

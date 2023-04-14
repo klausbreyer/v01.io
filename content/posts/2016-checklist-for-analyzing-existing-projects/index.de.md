@@ -8,11 +8,15 @@ draft: false
 description: 'Checkliste zur Analyse bestehender Projekte'
 categories: ['Code']
 tags: ['architektur', 'code', 'cto', 'freelance', 'hosting', 'stack']
+aliases:
+    - /de/posts/checkliste-zur-analyse-bestehender-projekte/
+    - /posts/checkliste-zur-analyse-bestehender-projekte/
 ---
 
 In meiner Eigenschaft als Freelance CTO habe ich in der Vergangenheit auch regelmäßig mit komplett neuen Projekten und Codebases zu tun. Manchmal muss ich mich ganz reinabeiten, manchmal muss ich nur die Struktur erst mal bewerten. Im folgenden möchte ich einmal mit euch meine Checkliste dafür teilen mit welcher ich bei einem neuen Projekt aufschlage.
 
 ## Team
+
 - Teamlead?
 - Teamstruktur?
 - Background der Teammitglieder
@@ -20,9 +24,8 @@ In meiner Eigenschaft als Freelance CTO habe ich in der Vergangenheit auch regel
 - Berufserfahrung
 - Interessante vorherige Arbeitgeber=
 
+## Stack
 
-
- ## Stack
 - Programmiersprache?
 - Backend Framework?
 - Frontend Framework?
@@ -52,7 +55,7 @@ In meiner Eigenschaft als Freelance CTO habe ich in der Vergangenheit auch regel
 
 ## Security
 
-- https:// ?
+- <https://> ?
 - Code Audits?
 - Gab es bereits Angriffe?
 - Ist das System Mehrmandantenfähig?
