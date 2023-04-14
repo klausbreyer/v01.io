@@ -6,6 +6,13 @@ date: 2023-02-17
 
 In 2023 I aim to post every week a new book recommendation [on linkedin](https://www.linkedin.com/in/klaus-breyer/). This is the summary of them.
 
+## Plays Well with Others: The Surprising Science Behind Why Everything You Know About Relationships Is (Mostly) Wrong
+
+[![](plays.png#small)](https://amzn.to/3L0VDCo "Buy it on Amazon")
+
+I highly recommend "Plays Well with Others," a captivating non-fiction book that provides a fresh perspective on why much of what we know about relationships is (mostly) wrong, including commonly held beliefs like "don't judge a book by its cover" and "love conquers all." The author meticulously examines these notions through scientific studies, offering invaluable insights for personal and professional growth.
+Takeaway: The biggest problem with communication is the illusion that it has occurred.
+
 ## Effective Remote Work: For Yourself, Your Team, and Your Company
 
 [![](remote.png#small)](https://amzn.to/3z5WxqO "Buy it on Amazon")

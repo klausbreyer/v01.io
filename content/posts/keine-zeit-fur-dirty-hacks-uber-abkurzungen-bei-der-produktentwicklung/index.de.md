@@ -4,8 +4,6 @@ author: Klaus Breyer
 date: 2016-09-22T09:26:52+02:00
 publishdate: 2016-09-22T09:26:52+02:00
 lastmod: 2022-12-02T16:47:09+01:00
-draft: true
-description: 'Keine Zeit für Dirty Hacks: Über Abkürzungen bei der Produktentwicklung'
 categories: ['Product']
 tags: ['agentur', 'produktentwicklung', 'software engineering']
 ---
