@@ -4,18 +4,10 @@ date: 2022-12-19
 aliases:
  - "talks"
 ---
-## Book
-
-- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="praxishandbuch-facebook-entwicklung" lang="de">}}).
-
-## Podcasts
-
-- 2022: 🇩🇪 [Shape Up – Für alle, die Scrum nicht mögen – mit Klaus Breyer][2]
-- 2015: 🇩🇪 [WhatsApp für Unternehmen – Macht das Sinn?][3]
-
 ## Talks
 
-- 2022: 🇺🇸 [Shape Up Practitioners Remote Meetup – S2E2: Klaus Breyer: From Scrum to Shape Up – Grey Areas Dring Transit][4]
+- 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-die-kunst-staendiger-risikominimierung-in-agiler-softwareentwicklung-talk" lang="de">}})
+- 2022: 🇺🇸 [From Scrum to Shape Up – Grey Areas Dring Transit (Shape Up Practitioners Remote Meetup S2E2)][4]
 - 2022: 🇺🇸 [CTO Craft Con Winter 2022 – Shape Up Experiments for a Scrum Team][15]
 - 2015: 🇩🇪 [Prototyping digitaler Geschäftsmodelle – Übertragen auf Marketing / PR][5]
 - 2015: 🇩🇪 [„Was bringt mir das eigentlich?“ – Ansätze zur Bestimmung des Social-Media-ROI v0.1][6]
@@ -28,6 +20,14 @@ aliases:
 - 2012: 🇩🇪 [GET statt POST: Daten aus dem Open Graph lesen][13]
 - 2011: 🇩🇪 [Fixing Facebook API – Die schönsten Workarounds][14]
 
+## Podcasts
+
+- 2022: 🇩🇪 [Shape Up – Für alle, die Scrum nicht mögen – mit Klaus Breyer][2]
+- 2015: 🇩🇪 [WhatsApp für Unternehmen – Macht das Sinn?][3]
+
+## Book
+
+- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="praxishandbuch-facebook-entwicklung" lang="de">}}).
 
 [2]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
 [3]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/

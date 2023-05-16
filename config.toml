@@ -29,6 +29,10 @@ defaultContentLanguage = 'en'
   image = 'images/klaus-breyer.jpg'
   title = 'Klaus Breyer > CTO writing about Code, Business, Product & Engineering Orgs.'
 
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
+
 
 [menu]
 [[menu.main]]
