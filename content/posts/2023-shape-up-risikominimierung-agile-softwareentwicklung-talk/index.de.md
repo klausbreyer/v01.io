@@ -4,13 +4,14 @@ date: 2023-04-25
 tags: ["Shape Up", "Risikominimierung", "Agile", "Talk"]
 author: Klaus Breyer
 draft: false
-categories: ['Product']
-image: "shape-up-die-kunst-staendiger-risikominimierung-in-agiler-softwareentwicklung-talk.png"
+categories: ['Engineering Org']
+image: "preview.png"
+social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-die-kunst-st%C3%A4ndiger-risikominimierung-activity-7064498077511868416-_t9i"
 ---
 
-Am 25.04.2023 hatte ich das Privileg, im Kontext der [Lean Coffee Veranstaltungen in Karlsruhe und Frankfurt eine Online-Session über Shape Up zu leiten](https://www.meetup.com/de-DE/lean-coffee-karlsruhe-frankfurt/events/292382816/). In Anbetracht der derzeitigen Knappheit an Ressourcen zu diesem Thema in deutscher Sprache war es mir ein besonderes Anliegen, diese Session durchzuführen und die Aufzeichnung der Allgemeinheit verfügbar zu machen.
+Am 25.04.2023 hatte ich das Privileg, im Kontext der [Lean Coffee Veranstaltungen in Karlsruhe und Frankfurt eine Online-Session über Shape Up zu leiten.](https://www.meetup.com/de-DE/lean-coffee-karlsruhe-frankfurt/events/292382816/) In Anbetracht der derzeitigen Knappheit an Ressourcen zu diesem Thema in deutscher Sprache war es mir ein besonderes Anliegen, diese Session durchzuführen und die Aufzeichnung der Allgemeinheit verfügbar zu machen.
 
-Die Session stellt eine einfache und verständliche Einführung in Shape Up für Einsteiger dar und beantwortet viele häufig gestellte Fragen zu diesem Thema.
+Die Session stellt eine einfache und verständliche Einführung in Shape Up für Einsteiger dar und beantwortet viele häufig gestellte Fragen.
 
 {{< youtube yapfh3sP66Y >}}
 

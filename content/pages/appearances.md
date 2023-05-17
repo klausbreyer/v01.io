@@ -6,7 +6,7 @@ aliases:
 ---
 ## Talks
 
-- 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-die-kunst-staendiger-risikominimierung-in-agiler-softwareentwicklung-talk" lang="de">}})
+- 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})
 - 2022: 🇺🇸 [From Scrum to Shape Up – Grey Areas Dring Transit (Shape Up Practitioners Remote Meetup S2E2)][4]
 - 2022: 🇺🇸 [CTO Craft Con Winter 2022 – Shape Up Experiments for a Scrum Team][15]
 - 2015: 🇩🇪 [Prototyping digitaler Geschäftsmodelle – Übertragen auf Marketing / PR][5]
