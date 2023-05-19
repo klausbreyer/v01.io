@@ -2,8 +2,9 @@
 title: "Talks"
 date: 2022-12-19
 aliases:
- - "talks"
+  - "talks"
 ---
+
 ## Talks
 
 - 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})
@@ -27,7 +28,7 @@ aliases:
 
 ## Book
 
-- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="praxishandbuch-facebook-entwicklung" lang="de">}}).
+- 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="2015-practical-guide-facebook-development">}}).
 
 [2]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
 [3]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
