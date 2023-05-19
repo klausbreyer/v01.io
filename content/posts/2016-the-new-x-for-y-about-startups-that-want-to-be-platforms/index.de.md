@@ -1,14 +1,16 @@
 ---
-title: 'Das neue X für Y - über Startups, die Plattformen sein wollen.'
+title: "Das neue X für Y - über Startups, die Plattformen sein wollen."
 author: Klaus Breyer
 date: 2016-12-20T08:56:00+01:00
 publishdate: 2016-12-20T08:56:00+01:00
 lastmod: 2021-06-29T10:42:57+02:00
 draft: false
-description: 'Das neue X für Y - über Startups, die Plattformen sein wollen.'
-categories: ['Product']
-tags: ['facebook', 'startup', 'geschäftsidee', 'uber']
+categories: ["Product"]
+tags: ["facebook", "startup", "business idea", "uber"]
+aliases:
+  - /posts/das-neue-x-fur-y-startups-die-plattformen-sein-wollen/
 ---
+
 ![](2016-12-20-Plattformen-1.png)
 
 Im Schnitt wird mir 1x wöchentlich eine Geschäftsidee gepitched. Entweder um mich im Team zu haben, um mich als Berater zu buchen oder einfach so - “müsste man doch mal” um Feedback zu bekommen.
@@ -52,4 +54,3 @@ Tipp für Erstgründer
 Das sind alles keine unlösbaren Probleme. Hauptproblem ist vor allem der erhöhte Kapitalbedarf schon in einer frühen Phase des Unternehmens. Trotzdem muss ständig zwischen beiden Seiten priorisiert und abgewägt werden. Selten fühlt sich eine Lösung 100% richtig an. Na gut, aber wann tut sie das denn überhaupt schon mal?
 
 Mein Tipp für Erstgründer: Löst ein einziges Problem für eine einzige Zielgruppe und lasst euch direkt dafür bezahlen. Das ein deutlich einfacheres Geschäftsmodell als Plattformen, zahlt sich viel kurzfristiger aus und ist angenehmer für die Nerven.
-

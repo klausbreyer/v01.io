@@ -1,20 +1,17 @@
 ---
-title: 'Prototyping Case Study:  Fillter.me'
+title: "Prototyping Case Study:  Fillter.me"
 author: Klaus Breyer
 date: 2022-09-27T10:13:38+02:00
 publishdate: 2022-09-27T10:13:38+02:00
 lastmod: 2022-10-07T16:10:30+02:00
 draft: false
-description: 'Prototyping Case Study:  Fillter.me'
-categories: ['Product']
-tags: ['agile', 'startup', 'Prototyping', 'casestudy', 'fillter.me']
+categories: ["Product"]
+tags: ["agile", "startup", "Prototyping", "casestudy", "fillter.me"]
 ---
-
-
 
 This is a short case study regarding the prototyping mindset of one of my projects. It is called [Fillter.me](http://fillter.me) (currently only available in German).
 
-   ![](Screenshot-2022-09-27-at-10.11.34-1024x505.png)
+![](Screenshot-2022-09-27-at-10.11.34-1024x505.png)
 
 Felix and Oğuz were victims of their success and drowned in many (poorly written!!) inquiries from brands and agencies with their Creator Management [YilmazHummel](http://yilmazhummel.com).
 
@@ -29,4 +26,3 @@ Since February, this has been used at [YilmazHummel](http://yilmazhummel.com) an
 Now we feel ready to open the circle of beta testers a bit more.
 
 [So if you are a creator yourself and are tired of working your way through many (unpromising) copy & paste requests from brands every day, feel free to watch Felix's video on the homepage and then join our waiting list.](http://fillter.me)
-

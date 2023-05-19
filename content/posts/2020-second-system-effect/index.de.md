@@ -1,16 +1,13 @@
 ---
-title: 'Second-system effect'
+title: "Second-system effect"
 author: Klaus Breyer
 date: 2020-05-04T09:34:43+02:00
 publishdate: 2020-05-04T09:34:43+02:00
 lastmod: 2020-09-18T14:07:09+02:00
 draft: false
-description: 'Second-system effect'
-categories: ['Product']
-tags: ['product', 'product management']
+categories: ["Product"]
+tags: ["product", "product management"]
 ---
-
-
 
 Beim Bau von Produkten und Einführung neuer Technologie sehe ich regelmäßig den [Second-system effect](https://en.wikipedia.org/wiki/Second-system_effect): Ein einfaches, gut funktionierendes System kommt an seine Grenzen und wird daraufhin aufgrund überzogener Erwartungen und übertriebenen Selbstvertrauens durch ein viel zu großes, aufgeblähtes Systeme ersetzt - und alle sind unglücklich. :)
 
@@ -33,6 +30,7 @@ Erst einmal Bestandsaufnahme. Was wird derzeit verwendet, was funktioniert? Basi
 Darauf aufbauend kann eine schlanke Software gebaut oder eingeführt werden, welche vom Featureset her aber in Version 1.0 erst einmal exakt die derzeitige Nutzung abbildet und die die derzeitigen Daten importiert. Nicht mehr und nicht weniger. Das ist vermutlich relativ schnell umgesetzt. Dann können die bisherigen Prozesse und Abläufe sich auf der neuen Software erst einmal eingrooven.
 
 Anschließend dann in kurzen Sprints das System für den tatsächlichen Bedarf anpassen. Es empfiehlt sich hier ein Zweiklang:
+
 1. Welche Prozesse können denn grundsätzlich optimiert werden (In der Abteilung, Synchronisierung mit anderen Systemen, etc. )
 1. Wie kann das im System abgebildet werden?
 

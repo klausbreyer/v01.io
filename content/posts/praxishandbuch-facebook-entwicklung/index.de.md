@@ -1,12 +1,11 @@
 ---
-title: 'Praxishandbuch Facebook Entwicklung'
+title: "Praxishandbuch Facebook Entwicklung"
 author: Klaus Breyer
 date: 2015-01-11T14:13:28+01:00
 publishdate: 2015-01-11T14:13:28+01:00
 lastmod: 2022-08-02T13:48:12+02:00
 draft: false
-description: 'Praxishandbuch Facebook Entwicklung'
-categories: ['Business']
+categories: ["Business"]
 ---
 
 ![](9783955617943.jpg)
@@ -26,4 +25,3 @@ Praxishandbuch Facebook-Programmierung zeigt, dass man keine außergewöhnlichen
 Autoren: Stephan Alber, Klaus Breyer, Kornelius Nägele
 
 Ich würde mich freuen, wenn ihr das Buch über [genau diesen Affiliate- Link](http://amzn.to/2AmXw59) bei Amazon kauft.
-

@@ -1,14 +1,13 @@
 ---
-title: 'What does a startup CTO actually do?'
+title: "What does a startup CTO actually do?"
 author: Klaus Breyer
 date: 2018-01-12T09:09:44+01:00
 publishdate: 2018-01-12T09:09:44+01:00
 lastmod: 2023-01-20T16:40:00+01:00
 draft: false
-description: 'What does a startup CTO actually do?'
-tags: ['startup', 'cto', 'seed']
-categories: ['Engineering Org']
-image: '2018-01-05-CTO.png'
+tags: ["startup", "cto", "seed"]
+categories: ["Engineering Org"]
+image: "2018-01-05-CTO.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_what-does-a-startup-cto-actually-do-klaus-activity-7041324585870327811-lFix"
 ---
 

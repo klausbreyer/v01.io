@@ -1,14 +1,24 @@
 ---
-title: 'Entwickler Sourcing mit Stack Overflow'
+title: "Entwickler Sourcing mit Stack Overflow"
 author: Klaus Breyer
 date: 2016-08-09T09:32:00+02:00
 publishdate: 2016-08-09T09:32:00+02:00
 lastmod: 2021-06-29T10:40:28+02:00
 draft: false
-description: 'Entwickler Sourcing mit Stack Overflow'
-tags: ['hr', 'bewerbungsprozess', 'frontend', 'sourcing', 'stack overflow', 'stellenanzeige']
-categories: ['Code']
+tags:
+  [
+    "hr",
+    "application process",
+    "frontend",
+    "sourcing",
+    "stack overflow",
+    "job advertisement",
+  ]
+categories: ["Code"]
+aliases:
+  - "/posts/entwickler-sourcing-mit-stack-overflow/"
 ---
+
 ![](stackoverflow.png)
 
 Bei dem überwältigenden Feedback auf meinen letzten Artikel [Weltweites Entwickler Sourcing: Gründe und Prozess dafür](https://klaus-breyer.de/blog/software-engineering/weltweites-entwickler-sourcing-gruende-dafuer-und-der-prozess/1692) ist eine Frage besonders herausgestochen: Wie generiere ich weltweit Bewerbungen?
@@ -24,17 +34,6 @@ Ich allerdings habe Fachtkenntnis. Und ganz spezielle Anforderungen. Im Startup 
 Ich brauche dafür nur eine genügend große Anzahl an Bewerbungen. Deshalb fällt meine Wahl regelmäßig auch auf Stellenanzeigen. Heute wollte ich mal eine Alternative vorstellen, die in Deutschland noch nicht so bekannt ist: Stellenanzeigen bei Stack Overflow.
 
 ## Stack Overflow
-
-try{
-// Try something wrong here
-
-}
-catch(e){
-var xcb="<http://stackoverflow.com/search?q=[js>]+"+e.message;
-window.open(xcb, '_blank');
-}
-
-Klassiker. ([Quelle](https://github.com/gautamkrishnar/tcso/blob/master/javascript/tcso.js))
 
 Mit etwas Marketing Background liegt es natürlich auf der Hand: Man muss die Zielgruppe da abholen, wo sie sich aufhält. Und wo halten Entwickler sich auf? Richtig: Auf Stack Overflow. Den ganzen Tag. Und oft auch, wenn sie von ihrem aktuellen Job frustriert sind, weil sie ein Problem lösen müssen, welches sie ohne den Job vielleicht nicht hätten.
 

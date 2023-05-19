@@ -1,31 +1,31 @@
 ---
-title: 'Shape Up staffing and process patterns v2'
+title: "Shape Up staffing and process patterns v2"
 author: Klaus Breyer
 date: 2022-12-16T10:39:57+01:00
 publishdate: 2022-12-16T10:39:57+01:00
 lastmod: 2023-01-20T14:44:00+01:00
 draft: false
-description: 'Shape Up staffing and process patterns v2'
-categories: ['Engineering Org']
-tags: ['scrum', 'shapeup', 'org', 'engineeringorg']
-social: 'https://www.linkedin.com/posts/klaus-breyer_shape-up-staffing-and-process-patterns-activity-7009455007359979520-8ekP'
-image: '2023-01-20-pattern-alternated-shaping.png'
+categories: ["Engineering Org"]
+tags: ["scrum", "shapeup", "org", "engineeringorg"]
+social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-staffing-and-process-patterns-activity-7009455007359979520-8ekP"
+image: "2023-01-20-pattern-alternated-shaping.png"
 aliases:
-    - "/posts/shape-up-staffing-and-process-patterns/"
+  - "/posts/shape-up-staffing-and-process-patterns/"
 ---
+
 # pattern
 
 ## Shape Up staffing and process patterns
 
 One thing that should be discussed more in detail in Shape up is how to implement it for smaller teams, like migrating an unhappy Scrum team. Many of the cases addressed publicly are for the entire company. But with the correct Pattern, even smaller teams can benefit from the principles of [appetite][1] and [small, autonomous teams][2].
 
-*Update: This is an updated version of this article. So, besides the theoretical patterns, there is also a reality check - besides some other clarifications. I also made the graphics easier to understand. Find the changes highlighted*.
+_Update: This is an updated version of this article. So, besides the theoretical patterns, there is also a reality check - besides some other clarifications. I also made the graphics easier to understand. Find the changes highlighted_.
 
 ## Why are small teams special?
 
 A single (Scrum) team is a smaller unit than an entire company; however, for many companies migrating to Shape Up, it could be an excellent first step to experiment with an isolated team and create advocates. ([This article is a follow-up to the first steps I did with a particular team 6 months ago.][3])
 
-*Often even small teams are already introducing a lot of bureaucratic overhead (that we hope to remove by implementing Shape Up.)*
+_Often even small teams are already introducing a lot of bureaucratic overhead (that we hope to remove by implementing Shape Up.)_
 
 Compared to larger, company-wide setups, small teams have those key differences:
 
@@ -106,22 +106,22 @@ The first thing to notice is that there is no fixed responsibility for the basel
 ## Real-life Pattern: alternated shaping and building
 
 ![](2023-01-20-pattern-alternated-shaping.svg)
-*This article has only talked about theoretical patterns in a perfect world where everyone is full-time on the project and has few other commitments.*
+_This article has only talked about theoretical patterns in a perfect world where everyone is full-time on the project and has few other commitments._
 
-*Since the first version, intending to implement one of those patterns, the following things have happened:*
+_Since the first version, intending to implement one of those patterns, the following things have happened:_
 
-- *We have a large amount of baseline work to do: Creation of marketing materials and because we wanted to set the quality bar higher.*
-- *Especially the designers, unfortunately, don't have as many resources as we would like.*
+- _We have a large amount of baseline work to do: Creation of marketing materials and because we wanted to set the quality bar higher._
+- _Especially the designers, unfortunately, don't have as many resources as we would like._
 
-*We have therefore decided on another model. Now there is less parallelization: Shaping and feature-building phases are alternating. It gives the whole system more slack and thus stability.*
+_We have therefore decided on another model. Now there is less parallelization: Shaping and feature-building phases are alternating. It gives the whole system more slack and thus stability._
 
-- *The division into roughly two teams remains.*
-- *One permanently assigned engineer accompanies the shaping while still involved a little in the baseline work.*
-- *Almost nothing is expected from the UI designer during shaping except to stay "in the loop" and provide sparring/spiking when necessary.*
-- *We reserve the right to start shaping when the resources are ready and available during the running cycle.*
-- *Shaping takes at long as it needs. We have a complex product and do not want to risk starting with half-thought ideas ([like I reported in my Shape Up Practitioners Remote Meetup session][11])*
-- *If the pitch is at a point where it makes sense, there is an announcement (which can be 0.5 - 2 weeks in the future) when the next cycle starts.*
-- *We can shorten the cooldown because there is, otherwise, enough time and slack in the system. After all, we cover the baseline work with enough resources.*
+- _The division into roughly two teams remains._
+- _One permanently assigned engineer accompanies the shaping while still involved a little in the baseline work._
+- _Almost nothing is expected from the UI designer during shaping except to stay "in the loop" and provide sparring/spiking when necessary._
+- _We reserve the right to start shaping when the resources are ready and available during the running cycle._
+- _Shaping takes at long as it needs. We have a complex product and do not want to risk starting with half-thought ideas ([like I reported in my Shape Up Practitioners Remote Meetup session][11])_
+- _If the pitch is at a point where it makes sense, there is an announcement (which can be 0.5 - 2 weeks in the future) when the next cycle starts._
+- _We can shorten the cooldown because there is, otherwise, enough time and slack in the system. After all, we cover the baseline work with enough resources._
 
 [1]: https://basecamp.com/shapeup/1.2-chapter-03#setting-the-appetite
 [2]: https://basecamp.com/shapeup/0.3-chapter-01#making-teams-responsible

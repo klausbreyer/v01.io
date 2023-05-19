@@ -1,16 +1,15 @@
 ---
-title: 'Checkliste zur Analyse bestehender Projekte'
+title: "Checkliste zur Analyse bestehender Projekte"
 author: Klaus Breyer
 date: 2016-02-21T11:22:55+01:00
 publishdate: 2016-02-21T11:22:55+01:00
 lastmod: 2021-06-29T10:40:29+02:00
 draft: false
-description: 'Checkliste zur Analyse bestehender Projekte'
-categories: ['Code']
-tags: ['architektur', 'code', 'cto', 'freelance', 'hosting', 'stack']
+categories: ["Code"]
+tags: ["architektur", "code", "cto", "freelance", "hosting", "stack"]
 aliases:
-    - /de/posts/checkliste-zur-analyse-bestehender-projekte/
-    - /posts/checkliste-zur-analyse-bestehender-projekte/
+  - /de/posts/checkliste-zur-analyse-bestehender-projekte/
+  - /posts/checkliste-zur-analyse-bestehender-projekte/
 ---
 
 In meiner Eigenschaft als Freelance CTO habe ich in der Vergangenheit auch regelmäßig mit komplett neuen Projekten und Codebases zu tun. Manchmal muss ich mich ganz reinabeiten, manchmal muss ich nur die Struktur erst mal bewerten. Im folgenden möchte ich einmal mit euch meine Checkliste dafür teilen mit welcher ich bei einem neuen Projekt aufschlage.
@@ -86,4 +85,4 @@ In meiner Eigenschaft als Freelance CTO habe ich in der Vergangenheit auch regel
 - Deployment Prozess? Continous Integration?
 - Behaviour Driven Development?
 
- Feedback auf meine Checkliste ist ausdrücklich erwünscht. :)
+Feedback auf meine Checkliste ist ausdrücklich erwünscht. :)

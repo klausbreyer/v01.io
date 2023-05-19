@@ -1,14 +1,12 @@
 ---
-title: 'trello-changelog'
+title: "trello-changelog"
 author: Klaus Breyer
 date: 2017-12-23T13:31:53+01:00
 publishdate: 2017-12-23T13:31:53+01:00
 lastmod: 2020-05-15T12:01:18+02:00
 draft: false
-description: 'trello-changelog'
-categories: ['Open Source']
+categories: ["Open Source"]
 ---
-
 
 ![](Screen-Shot-2017-12-23-at-15.58.02-1024x802.png)
 
@@ -21,4 +19,3 @@ After that you will be asked for a board and a list of the board. As a result yo
 Get it here: [https://www.npmjs.com/package/trello-changelog](https://www.npmjs.com/package/trello-changelog)
 
 Contribute: [https://github.com/klausbreyer/trello-changelog](https://github.com/klausbreyer/trello-changelog)
-

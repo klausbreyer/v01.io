@@ -1,15 +1,23 @@
 ---
-title: 'Die Sache mit den Feature Requests bei schlechtem Produkt Management'
+title: "Die Sache mit den Feature Requests bei schlechtem Produkt Management"
 author: Klaus Breyer
 date: 2017-01-11T09:44:18+01:00
 publishdate: 2017-01-11T09:44:18+01:00
 lastmod: 2021-06-29T10:39:17+02:00
 draft: false
-description: 'Die Sache mit den Feature Requests bei schlechtem Produkt Management'
-categories: ['Product']
-tags: ['facebook', 'agile', 'deployment', 'feature request', 'product management', 'roadmap']
+categories: ["Product"]
+tags:
+  [
+    "facebook",
+    "agile",
+    "deployment",
+    "feature request",
+    "product management",
+    "roadmap",
+  ]
+aliases:
+  - "/posts/die-sache-mit-den-feature-requests-bei-schlechtem-produkt-management/"
 ---
-
 
 ![](2017-01-11-feature-requests.png)
 

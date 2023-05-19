@@ -1,22 +1,20 @@
 ---
-title: 'Von der Idee zur Vision: Der eigene Handlungsspielraum als Sliding Window'
+title: "Von der Idee zur Vision: Der eigene Handlungsspielraum als Sliding Window"
 author: Klaus Breyer
 date: 2016-12-21T08:41:12+01:00
 publishdate: 2016-12-21T08:41:12+01:00
 lastmod: 2021-06-29T10:39:18+02:00
 draft: false
-description: 'Von der Idee zur Vision: Der eigene Handlungsspielraum als Sliding Window'
-categories: ['Product']
-tags: ['markt', 'mvp', 'roadmap']
+categories: ["Product"]
+tags: ["markt", "mvp", "roadmap"]
 ---
-
 
 <!-- wp:image {"id":2038} -->![](2016-12-20-Sliding-Window-2.png)
 
 Viele Menschen haben Geschäftsideen. Oft sind es schlechte. Viel zu oft allerdings sind es utopische. [Es soll das nächste Uber für X werden. Oder noch besser: das nächste Instagram.](https://klaus-breyer.de/blog/entrepreneurship/das-neue-x-fuer-y-ueber-startups-die-plattformen-sein-wollen/1810)
 
 Dazu erst mal: Es ist super unrealistisch, ein solches Plattform-Geschäftsmodell wie Instagram mit dem Luxus mehrerer Millionen Venture Kapital für Reichweite aufzubauen, bevor Geld verdient werden muss. In Deutschland erst recht.
- Die Idee kondensieren
+Die Idee kondensieren
 Grundsätzlich gilt: Es existiert ein Problem, für dessen Lösung ein Kunde zu Bezahlen bereit ist.
 
 Ziel ist möglichst wenig Zeit in die Produktentwicklung zu stecken, bis erstes Geld verdient wird. Oder bis zumindest theoretisch Geld verdient werden kann. Wenn nämlich der erste Wurf kein Geld einbringt, stehen die Prioritäten ganz schnell anders.
@@ -30,9 +28,7 @@ Mögliche Fragen:
 - Was ist das kleinstmögliche Produkt, um diesen Wert zu generieren?
 - Wie erreichen wir die Menschen, die dafür zu Zahlen bereit sind?
 
-
-
- Die Vision aufbauen
+Die Vision aufbauen
 Wenn das Unternehmen erst einmal läuft und das erste Geld verdient ist, fallen einem selbst und den Kunden plötzlich 100te tolle Features ein. Jetzt ist Ruhe gefragt.
 
 (Darüber, dass Feature-Requests von Kunden am besten erst mal komplett ignoriert werden, sondern es sich viel eher darauf fokusiert werden sollte das zugrunde liegende Problem zu verstehen, könnte ich nochmal einen ganz eigenen Blogeintrag verfassen. Mache ich euch bestimmt bald)
@@ -49,9 +45,7 @@ Mögliche Fragen:
 - Welche potentiellen Partner gibt es, die in großem Maßstab von unserem System profitieren können?
 - Nach welchen Mitarbeitern müssen wir Ausschau halten?
 
-
-
- Den eigenen Handlungsspielraum als [Sliding Window](https://de.wikipedia.org/wiki/Sliding_Window) verstehen
+Den eigenen Handlungsspielraum als [Sliding Window](https://de.wikipedia.org/wiki/Sliding_Window) verstehen
 Wenn das eigene Unternehmen als Zeitstrahl verstanden wird, dessen Ursprung die Idee und dessen Ziel die Vision ist, so existiert immer eine gewisser Handlungsspielraum, in dem agieren werden kann.
 
 Der Handlungsspielraum ist so zu verstehen: Es muss nicht immer alles heute implementiert werden, aber nächstes Jahr könnte es schon zu spät sein.
@@ -73,10 +67,7 @@ Mögliche Fragen:
 - Welche Mitarbeiter stelle ich heute ein? Was decke ich lieber erst mal über Freelance ab?
 - Lohnt sich dieses und jenes überhaupt noch?
 
-
-
- Im Einklang
+Im Einklang
 Ziel ist es das eigene Handeln im Einklang mit allen externen Faktoren zu verstehen. Es muss einem bewusst sein, dass sich ständig neue Möglichkeiten ergeben und es muss einem bewusst sein, dass man nicht vergangenen Chancen nachjagen sollte.
 
 Mir hilft eine solche Einordnung in ein großes Ganzes immer sehr gut, um Prioritäten festzulegen.
-

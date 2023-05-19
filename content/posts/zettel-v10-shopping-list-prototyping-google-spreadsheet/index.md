@@ -1,12 +1,11 @@
 ---
-title: 'Zettel v1.0 - Shopping list prototyping - Google Spreadsheet'
+title: "Zettel v1.0 - Shopping list prototyping - Google Spreadsheet"
 author: Klaus Breyer
 date: 2018-04-28T13:30:56+02:00
 publishdate: 2018-04-28T13:30:56+02:00
 lastmod: 2020-05-15T12:01:19+02:00
 draft: false
-description: 'Zettel v1.0 - Shopping list prototyping - Google Spreadsheet'
-categories: ['Open Source']
+categories: ["Open Source"]
 ---
 
 ![](2018-04-28-Zettel.png)

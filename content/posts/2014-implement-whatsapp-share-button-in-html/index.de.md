@@ -1,15 +1,14 @@
 ---
-title: 'Den WhatsApp Share Button in HTML implementieren'
+title: "Den WhatsApp Share Button in HTML implementieren"
 author: Klaus Breyer
 date: 2014-02-21T18:18:00+01:00
 publishdate: 2014-02-21T18:18:00+01:00
 lastmod: 2021-06-29T10:40:30+02:00
 draft: false
-description: 'Den WhatsApp Share Button in HTML implementieren'
-tags: ['facebook', 'whatsapp']
-categories: ['Code']
+tags: ["facebook", "whatsapp"]
+categories: ["Code"]
 aliases:
-    - /posts/den-whatsapp-share-button-in-html-implementieren/
+  - /posts/den-whatsapp-share-button-in-html-implementieren/
 ---
 
 WhatsApp bietet neuerdings (Dieser Artikel wurde 2014 geschrieben) einen Share Button. Buzzfeed testet ihn schon seit Anfang an, hatte ihn jetzt aber jüngst wieder entfernt. Der Button bietet die sehr praktische Möglichkeit, einen Artikel über WhatsApp zu teilen. Das hat mich natürlich sehr interessiert und ich habe mir den Button mal etwas genauer angeschaut. :)
@@ -23,9 +22,9 @@ Hinter dem whatsapp Button liegt ein einfacher Link, welcher einen sogenannten n
 ```
 
 {{< rawhtml >}}
-  <a href="whatsapp://send?text=Text durch native Deeplink">
-    Bist du mobil auf der Seite? Dann kannst du den Code direkt hier testen.
-  </a>
+<a href="whatsapp://send?text=Text durch native Deeplink">
+Bist du mobil auf der Seite? Dann kannst du den Code direkt hier testen.
+</a>
 {{< /rawhtml >}}
 
 .

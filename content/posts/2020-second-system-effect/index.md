@@ -1,17 +1,17 @@
 ---
-title: 'Second-system effect'
+title: "Second-system effect"
 author: Klaus Breyer
 date: 2020-05-04T09:34:43+02:00
 publishdate: 2020-05-04T09:34:43+02:00
 lastmod: 2023-01-20T14:07:09+02:00
 draft: false
-description: 'Second-system effect'
-categories: ['Product']
-tags: ['product', 'product management']
-social: 'https://www.linkedin.com/posts/klaus-breyer_second-system-effect-klaus-breyer-cto-activity-7026098934729048064-zxtt'
+categories: ["Product"]
+tags: ["product", "product management"]
+social: "https://www.linkedin.com/posts/klaus-breyer_second-system-effect-klaus-breyer-cto-activity-7026098934729048064-zxtt"
 aliases:
-    - /posts/second-system-effect/
+  - /posts/second-system-effect/
 ---
+
 ## Second-system effect
 
 I regularly see the [Second-system effect](https://en.wikipedia.org/wiki/Second-system_effect) when building products and introducing new technology. A simple, well-functioning system reaches its limits and is replaced by a much too large, bloated system due to over-expectations and over-confidence - and everyone is unhappy. :)

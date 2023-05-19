@@ -1,13 +1,19 @@
 ---
-title: 'Bug Triage'
+title: "Bug Triage"
 author: Klaus Breyer
 date: 2021-12-23T09:17:20+01:00
 publishdate: 2021-12-23T09:17:20+01:00
 lastmod: 2023-04-14T17:43:22+02:00
 draft: false
-description: 'Bug Triage'
-categories: ['Product']
-tags: ['bug triage', 'prioritization', 'backlog', 'technical debt', 'project management']
+categories: ["Product"]
+tags:
+  [
+    "bug triage",
+    "prioritization",
+    "backlog",
+    "technical debt",
+    "project management",
+  ]
 ---
 
 In every project, the question of prioritizing the backlog comes up again and again. In the end, in my experience, it is not a single criterion, and also not a two-dimensional matrix that can be used to classify a bug as Trivial / Minor / Major / Critical. Instead, there are many different aspects, not all of which fit every ticket type. Because: Visual bugs are different from Technical Debt, and a product close to release is a different situation than at the start of development.
