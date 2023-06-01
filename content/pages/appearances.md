@@ -31,7 +31,7 @@ aliases:
 - 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="2015-practical-guide-facebook-development">}}).
 
 [2]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
-[3]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
+[3]: https://superdev.club/podcasts/shape-up/
 [4]: https://www.youtube.com/watch?v=XEnrFbR2qso
 [5]: http://de.slideshare.net/klausbreyer/prototyping-digitaler-geschftsmodelle-bertragen-auf-marketing-pr
 [6]: http://de.slideshare.net/klausbreyer/2015-0609-webinale-was-bringt-mir-das-eigentlich-ansatze-zur-bestimmung-des-socialmediaroi-v01

@@ -83,6 +83,9 @@ select {
 }
 
 hr {
+  @media print {
+    display: none;
+  }
   border: none;
   border-bottom: 1px dashed var(--primary);
 }
@@ -96,17 +99,28 @@ h6 {
   font-family: "Share Tech";
   margin: 0;
   margin-bottom: 0.25em;
+  clear: both;
+  page-break-before: auto;
 }
 h1 {
   font-size: 3rem;
+  @media print {
+    font-size: 2.1rem;
+  }
   margin-top: 0;
 }
 h2 {
   font-size: 2rem;
+  @media print {
+    font-size: 1.4rem;
+  }
   margin-top: 1em;
 }
 h3 {
   font-size: 1.5rem;
+  @media print {
+    font-size: 1.1rem;
+  }
   margin-top: 1em;
 }
 h4 {
@@ -116,6 +130,11 @@ h4 {
 a {
   color: var(--primary);
   text-decoration: none;
+}
+a[href^="#"] {
+  @media print {
+    display: none;
+  }
 }
 
 a:hover {
@@ -314,6 +333,13 @@ footer div.copyright {
 /**
  * Conditional markup for special articles.
  */
+img[src$="#small"] {
+  float: left;
+  max-width: 200px !important;
+  margin: 0 !important;
+  margin-right: 2rem !important;
+}
+
 article.pages\/bookshelf\/ {
   h2 {
     clear: both;

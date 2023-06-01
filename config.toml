@@ -25,7 +25,7 @@ defaultContentLanguage = 'en'
 
 [params]
   repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
-  description = "I'm Klaus Breyer, a seasoned technology leader and entrepreneur with a degree in Software Engineering. Over the past decade, I've led high-performing teams, founded multiple startups, and played pivotal roles in the success of several other companies as their CTO and CPO. I'm a big believer in Shape Up and have led numerous cutting-edge projects. My leadership philosophy is centered around building strong technical and organizational infrastructures that empower individuals to do their best work."
+  description = "I'm Klaus Breyer, a seasoned technology leader and entrepreneur with a degree in Software Engineering. Over the past decade, I've led high-performing teams, founded multiple startups, and played pivotal roles in the success of several other companies as their CTO or CPTO. I'm a big believer in Shape Up and have led numerous cutting-edge projects. My leadership philosophy is centered around building strong technical and organizational infrastructures that empower individuals to do their best work."
   image = 'images/klaus-breyer.jpg'
   title = 'Klaus Breyer > CTO writing about Code, Business, Product & Engineering Orgs.'
 
