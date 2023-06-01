@@ -3,24 +3,22 @@ title:
 date: 2023-06-01
 ---
 
-![Klaus Breyer](/images/klaus-breyer.jpg#small)
+{{< figure src="/images/klaus-breyer.jpg" class="cv" >}}
 
-Hello! I'm Klaus Breyer, a seasoned technology leader with over a decade of experience in building and managing high-performing teams. With a degree in **Software Engineering** and a passion for innovation, I founded my first startup in 2010 and have since played a pivotal role in the success of several other companies as their CTO or CPTO.
+Hello, I'm Klaus Breyer, a technology leader with a strong entrepreneurial spirit and over a decade of experience in building and managing effective teams. Holding a degree in **Software Engineering**, I successfully founded my first startup in 2010, subsequently lending my expertise as CTO or CPTO to several other companies.
 
-I'm also a big believer in [Shape Up]({{< ref "shape-up" >}}), an up-and-coming method for agile software development.
+I strongly advocate [Shape Up]({{< ref "shape-up" >}}), a fresh approach to agile software development, and am committed to nurturing robust technical and organizational infrastructures that inspire teams to excel. In a rapidly evolving technology landscape, I constantly seek to foster innovation and maintain a competitive edge.
 
-At the heart of my leadership philosophy is a commitment to building **strong technical and organizational infrastructures** that empower individuals to do their best work. Whether consulting or leading internal teams, I'm always looking for ways to nurture innovation and stay ahead of the curve in a rapidly evolving technology landscape.
+As a seasoned CTO, I provide strategic direction and technical know-how to help businesses meet their objectives. My focus lies in laying strong prototyping foundations through iterative improvement and close collaboration with management.
 
-As a highly experienced CTO, I excel at providing strategic guidance and technical expertise to help businesses achieve their goals. With a focus on prototyping foundations that optimize through iterative improvement and close collaboration with management, I have a proven track record of success in building and refining products and business models.
+I thrive at the nexus of tech, product, and business, with core competencies including:
 
-My sweet spot is on the intersection of tech, product and business and the scope of my work includes:
+1. Crafting and presenting the technical vision to investors and stakeholders.
+1. Independently building the initial version and architecture of a product, if required.
+1. Building, onboarding, and creating a conducive environment for a productive development team.
+1. Streamlining technical processes up to the level of product engineering.
 
-1. Development of the technical vision and pitch it to investors and stakeholders.
-1. Building a product's first version and initial architecture by myself, if necessary.
-1. Staffing the team, onboarding the team members, and ensuring they can work happily and productively in a modern development environment.
-1. Owning the process that optimizes the (technical) processes: Up to product engineering org.
-
-If you're looking for a dynamic, results-driven leader who can help drive your company's technical strategy forward and bring the benefits of Shape Up to your organization, I'd love to connect and explore how I can contribute to your success.
+If you need a proactive, outcome-oriented leader to propel your company's technical strategy and incorporate the benefits of Shape Up, I welcome the opportunity to explore how I can contribute to your success.
 
 ## My Manifest
 
@@ -28,17 +26,15 @@ If you're looking for a dynamic, results-driven leader who can help drive your c
 
 Thats all.
 
-{{< figure src="white.png" >}}
-
 ## Founding & Management Experience
 
 Throughout my career, I've led the development and launch of numerous cutting-edge projects in **modern web stacks**, ranging from fast-moving startups to complex microservice environments. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
 
 ### 2019 – Now [Ray Sono AG][2]: Technology Principal & Tech Lead for IIot products (freelance)
 
-Ray Sono is a digital product development agency. Working with Ray Sono, I especially like strategic understanding and user-centric thinking. What exactly do I do there? As a Technology Principal, I am involved in projects from the initial conceptual brainstorming to the eventual implementation (with internal or external resources). In larger projects, I lead a development team as Tech Lead. I do this on-site with the Berlin team or remotely with an international team of developers.
+Ray Sono is a digital product development agency. Working with Ray Sono, I especially like strategic understanding and user-centric thinking. As a Technology Principal, I am involved in projects from the initial conceptual brainstorming to the eventual implementation (with internal or external resources). In larger projects, I lead a development team as Tech Lead. I do this on-site with the Berlin team or remotely with an international team of developers.
 
-As Technical Lead at Hydro Pocket, the first end-customer product of the industrial company Voith, I introduced the [Shape Up]({{< ref "shape-up" >}}) method to effectively manage the technical team. Hydro Pocket is a leading provider of solutions for hydropower plants, offering innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
+As Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company Voith, I built up the team from scratch and introduced the [Shape Up]({{< ref "shape-up" >}}) method. Hydro Pocket is a leading provider of solutions for hydropower plants, offering innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
 
 ### 2018 – 2019 Fotando GmbH : Founder and Chief Prototyping Officer – E-commerce
 

@@ -250,6 +250,13 @@ main figure {
       // margin: auto;
     }
   }
+  &.cv {
+    margin: 1rem 0;
+    display: block;
+    img {
+      width: 35%;
+    }
+  }
   &.center {
     justify-content: center;
   }
