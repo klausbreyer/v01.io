@@ -34,13 +34,13 @@ Thats all.
 
 Throughout my career, I've led the development and launch of numerous cutting-edge projects in **modern web stacks**, ranging from fast-moving startups to complex microservice environments. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
 
-Here are some of the highlights of my 12year+ track record.
+### 2019 – Now [Ray Sono AG][2]: Technology Principal & Tech Lead for IIot products (freelance)
 
-### 2019 – Now [Ray Sono AG][2]: Technology Principal & Tech Lead for IIot products
+Ray Sono is a digital product development agency. Working with Ray Sono, I especially like strategic understanding and user-centric thinking. What exactly do I do there? As a Technology Principal, I am involved in projects from the initial conceptual brainstorming to the eventual implementation (with internal or external resources). In larger projects, I lead a development team as Tech Lead. I do this on-site with the Berlin team or remotely with an international team of developers.
 
-Ray Sono is a digital product development agency. Working with Ray Sono, I especially like strategic understanding and user-centric thinking. What exactly do I do there? As a Technology Principal, I am involved in projects from the initial conceptual brainstorming to the eventual implementation (with internal or external resources). In larger projects, I lead the development team as Tech Lead. I do this on-site with the Berlin team or remotely with an international team of developers.
+As Technical Lead at Hydro Pocket, the first end-customer product of the industrial company Voith, I introduced the [Shape Up]({{< ref "shape-up" >}}) method to effectively manage the technical team. Hydro Pocket is a leading provider of solutions for hydropower plants, offering innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
 
-### 2018 – 2019 Fotando GmbH: Founder and Chief Prototyping Officer – E-commerce
+### 2018 – 2019 Fotando GmbH : Founder and Chief Prototyping Officer – E-commerce
 
 We had noticed that most photo printing vendors always send their customers to ugly, bloated, slow native apps, which in turn also always had ugly ad conversions as they sent users to the AppStore. So the challenge was clear: we need a customer journey where the user can upload, crop, and edit their photo in the mobile browser and then (after delivery) hang it on the wall (claim: from hand to the wall!). Technically, it worked great that way, too. However, at that time, the company slid into the first Corona wave shortly before it was financed. In retrospect: Pretty stupid – for all parties.
 
@@ -56,23 +56,21 @@ Right out of university, I started building Facebook apps as a freelancer with m
 
 (bootstrapped, 40 FTE)
 
-{{< figure src="white.png" >}}
-
 ## Consulting, Advisory & Side Projects
 
 In addition to my professional experience, I'm also a dedicated entrepreneur and startup investor. I develop and market [projects]({{< ref "/categories/unixtime.app" >}}) on the side and support early-stage companies through a small fund. I'm also committed to giving back to the [open-source]({{< ref "/categories/open-source" >}}) community and have contributed to several projects.
 
-### 2022 – 2023 [unixtime.app](https://www.unixtime.app): bulk timestamp conversion that enhances API developers' workflow
+### 2022 – 2023 [unixtime.app](https://www.unixtime.app): Bulk timestamp conversion for API developer workflows
 
 A tool designed for API developers to facilitate bulk timestamp conversion. The idea was born out of my work as a Tech Lead in an IIoT microservice context where data, coded as Unix timestamps, was plentiful. I sought to streamline my workflow, crafting a tool that let me bypass the laborious task of individually selecting timestamps for conversion in external services. Now, I can simply copy entire API requests into unixtime.app and view all timestamps directly within their context. The tool also allows me to capture screenshots of the conversions, useful for sharing in collaborative spaces like Slack or JIRA. What started as a straightforward HTML file has evolved into a full-fledged application for Mac and Windows and is now open source.
 
-### 2021 – 2023 [Fillter][6]: personal inbound assistant for social media creators
+### 2021 – 2023 [Fillter][6]: Personal inbound assistant for social media creators
 
 Fillter is a form for all social media creator requests. They link Fillter in their link tree, Instagram bio, or website. Through a unique questioning technique, the requests come as usual via email – only in good.
 
 The tool is a joint venture with [Felix and Oğuz][7]. We all work hands-on as equal cofounders, with our individual skills, to bring the project to the world.
 
-### 2019 – Now [touch361][8]: business intelligence software for marketing touchpoint analysis
+### 2019 – Now [touch361][8]: Business intelligence software for marketing touchpoint analysis
 
 I am a technical sparring partner for founders with marketing and business intelligence as their focus. The challenges we tackle here focus on data protection / DSGVO and the product development process with the technical service provider.
 
