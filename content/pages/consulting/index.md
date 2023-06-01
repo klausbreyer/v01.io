@@ -3,9 +3,7 @@ title: "Consulting"
 date: 2022-12-21
 ---
 
-# Consulting
-
-As a highly experienced consultant and interim CTO, I excel at providing strategic guidance and technical expertise to help businesses achieve their goals. With a focus on prototyping foundations that optimize through iterative improvement and close collaboration with management, I have a proven track record of success in building and refining products and business models.
+As a highly experienced consultant and CTO, I excel at providing strategic guidance and technical expertise to help businesses achieve their goals. With a focus on prototyping foundations that optimize through iterative improvement and close collaboration with management, I have a proven track record of success in building and refining products and business models.
 
 {{< figure src="venn.png" class="half center" >}}
 

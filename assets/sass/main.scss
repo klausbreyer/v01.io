@@ -28,6 +28,9 @@ body {
   color: var(--text);
   font-size: 20px;
   margin: 0;
+  @media print {
+    font-size: 14px;
+  }
 }
 
 blockquote {
@@ -48,7 +51,7 @@ ul {
 
 p,
 li {
-  line-height: 32px;
+  line-height: 1.6;
   word-break: break-word;
   overflow-wrap: break-word;
   font-weight: 200;
@@ -157,12 +160,18 @@ header nav.title {
   }
 
   span.description {
+    @media print {
+      display: none;
+    }
     font-size: 1.33rem;
     color: var(--text);
   }
 }
 
 header nav.menu {
+  @media print {
+    display: none;
+  }
   font-size: 1.33rem;
   display: flex;
   ul {
@@ -232,6 +241,9 @@ main nav.categories {
 }
 
 main aside {
+  @media print {
+    display: none;
+  }
   margin-bottom: 1rem;
   font-family: "Share Tech";
   font-weight: bold;
@@ -239,6 +251,9 @@ main aside {
 
 //footer
 footer {
+  @media print {
+    display: none;
+  }
   background: var(--footer);
   font-size: 0.9rem;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,

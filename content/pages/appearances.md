@@ -1,5 +1,5 @@
 ---
-title: "Talks"
+title: "Appearances"
 date: 2022-12-19
 aliases:
   - "talks"
