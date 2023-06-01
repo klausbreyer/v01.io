@@ -3,6 +3,11 @@ title:
 date: 2023-06-01
 ---
 
+{{< center >}}
+&bull; [v01.io](/) &bull; kb@v01.io &bull; [+49 160 71 72 777](tel:+491607172777) &bull; [linkedin.com/in/klausbreyer](https://www.linkedin.com/in/klaus-breyer/) &bull;
+
+{{< /center >}}
+
 {{< figure src="/images/klaus-breyer.jpg" class="cv" >}}
 
 Hello, I'm Klaus Breyer, a technology leader with a strong entrepreneurial spirit and over a decade of experience in building and managing effective teams. Holding a degree in **Software Engineering**, I successfully founded my first startup in 2010, subsequently lending my expertise as CTO or CPTO to several other companies.
@@ -54,7 +59,7 @@ Right out of university, I started building Facebook apps as a freelancer with m
 
 ## Consulting, Advisory & Side Projects
 
-In addition to my professional experience, I'm also a dedicated entrepreneur and startup investor. I develop and market [projects]({{< ref "/categories/unixtime.app" >}}) on the side and support early-stage companies through a small fund. I'm also committed to giving back to the [open-source]({{< ref "/categories/open-source" >}}) community and have contributed to several projects.
+In addition to my professional experience, I'm also a dedicated entrepreneur and startup investor. I develop and market projects on the side and support early-stage companies through money or time. I'm also committed to giving back to the [open-source]({{< ref "/categories/open-source" >}}) community and have contributed to several projects.
 
 ### 2022 – 2023 [unixtime.app](https://www.unixtime.app): Bulk timestamp conversion for API developer workflows
 

@@ -69,6 +69,9 @@ footer {
     max-width: 1024px;
     margin: auto;
     padding: 2rem;
+    @media print {
+      padding: 0 2rem;
+    }
   }
 }
 
@@ -145,7 +148,12 @@ a:hover {
 header {
   border-bottom: 0.1rem solid var(--primary);
   font-family: "Share Tech";
-  padding: 0.25rem 1rem 0.25rem 1rem;
+
+  padding: 0.25rem 2rem 0.25rem 2rem;
+  @media print {
+    margin: 0 2rem;
+    padding: 0;
+  }
 }
 header div.container {
   display: flex;
@@ -154,9 +162,11 @@ header div.container {
   width: 100%;
   max-width: 1600px;
   justify-content: space-between;
+  @media print {
+    justify-content: center;
+  }
   align-items: baseline;
   flex-wrap: wrap;
-
   row-gap: 1rem;
 }
 
@@ -241,9 +251,21 @@ main img.markdown-image {
   background: white;
 }
 
+article.pages\/bookshelf\/ {
+  h2 {
+    clear: both;
+    padding-top: 2rem;
+  }
+  img[src$="#small"] {
+    float: left;
+    max-width: 200px !important;
+    margin: 0 !important;
+    margin-right: 2rem !important;
+  }
+}
+
 main figure {
   display: flex;
-
   &.half {
     img {
       width: 50%;
@@ -253,7 +275,13 @@ main figure {
   &.cv {
     margin: 1rem 0;
     display: block;
+    // text-align: center;
     img {
+      // float: left;
+      // max-width: 200px !important;
+      // margin: 0 !important;
+      // margin-right: 2rem !important;
+      margin: auto;
       width: 35%;
     }
   }
@@ -335,27 +363,4 @@ footer div.mailchimp {
 footer div.copyright {
   text-align: center;
   font-family: "Share Tech";
-}
-
-/**
- * Conditional markup for special articles.
- */
-img[src$="#small"] {
-  float: left;
-  max-width: 200px !important;
-  margin: 0 !important;
-  margin-right: 2rem !important;
-}
-
-article.pages\/bookshelf\/ {
-  h2 {
-    clear: both;
-    padding-top: 2rem;
-  }
-  img[src$="#small"] {
-    float: left;
-    max-width: 200px !important;
-    margin: 0 !important;
-    margin-right: 2rem !important;
-  }
 }
