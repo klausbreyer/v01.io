@@ -1,14 +1,23 @@
 ---
-title: 'File organization and folder structures for companies'
+title: "File organization and folder structures for companies"
 author: Klaus Breyer
 date: 2014-04-01T21:13:34+02:00
 publishdate: 2014-04-01T21:13:34+02:00
 lastmod: 2023-02-10T14:45:52+01:00
 draft: false
-categories: ['Engineering Org']
+categories: ["Engineering Org"]
+tags:
+  [
+    "File Organization",
+    "Folder Structures",
+    "Business Processes",
+    "Productivity",
+  ]
+
 image: "folder-structure.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_file-organization-and-folder-structures-for-activity-7038781261212971008-sj0Y"
 ---
+
 Anyone discussing the typical folder structure in a company must ask how much needs to be specified.
 
 I recommend agreeing on the lowest common denominator. In the agency context at our company, that is:
@@ -63,4 +72,3 @@ This is what projects used to look like in our company before they even started.
 A folder structure lives from the people who use it. Everybody can influence it every day by depositing files. This does not require an account manager who checks in Sisyphus's work whether all files are present. Each individual asks himself if everything he needs is there while he works in - and with - the structure.
 
 The files may then not be stored in such a fine-granular way, but in the grand scheme of things, everything is more in order since maintenance involves fewer hurdles.
-

@@ -1,15 +1,15 @@
 ---
-title: 'What distinguishes good processes from bad processes'
+title: "What distinguishes good processes from bad processes"
 author: Klaus Breyer
 date: 2014-01-15T09:24:58+01:00
 publishdate: 2014-01-15T09:24:58+01:00
 lastmod: 2021-06-29T10:37:44+02:00
 draft: false
-categories: ['Engineering Org']
-tags: ['prozesse', 'workflow', 'ziele']
+categories: ["Engineering Org"]
+tags: ["processes", "workflow", "goals"]
 social: "https://www.linkedin.com/posts/klaus-breyer_what-distinguishes-good-processes-from-bad-activity-7028634417619197952-4Odo"
 aliases:
-    - /posts/what-distinguishes-good-processes-from-bad-processes/
+  - /posts/what-distinguishes-good-processes-from-bad-processes/
 ---
 
 Far too often, processes are set up to avoid mistakes - not a good approach. The initiator of a process probably has nothing wrong in mind. He wants to increase quality or productivity but wants to do this by thinking for others. Then long checklists are created, defining what has to be agreed with whom and by when... you know the drill.

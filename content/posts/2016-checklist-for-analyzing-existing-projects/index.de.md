@@ -6,7 +6,17 @@ publishdate: 2016-02-21T11:22:55+01:00
 lastmod: 2021-06-29T10:40:29+02:00
 draft: false
 categories: ["Code"]
-tags: ["architektur", "code", "cto", "freelance", "hosting", "stack"]
+tags:
+  [
+    "Project Analysis",
+    "CTO",
+    "Freelance",
+    "Code Evaluation",
+    "Software Architecture",
+    "Hosting",
+    "Tech Stack",
+  ]
+
 aliases:
   - /de/posts/checkliste-zur-analyse-bestehender-projekte/
   - /posts/checkliste-zur-analyse-bestehender-projekte/

@@ -6,6 +6,21 @@ publishdate: 2015-04-30T14:39:56+02:00
 lastmod: 2022-12-02T16:47:49+01:00
 draft: true
 categories: ["Product"]
+tags:
+  [
+    "Apple Watch",
+    "Push Notifications",
+    "Communication",
+    "Technology",
+    "Trends",
+    "Messenger",
+    "Facebook",
+    "Google",
+    "Android",
+    "WhatsApp",
+    "Future",
+  ]
+
 aliases:
   - "/posts/push-okosystem-implikationen-der-apple-watch"
 ---

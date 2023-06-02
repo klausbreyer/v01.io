@@ -6,7 +6,17 @@ publishdate: 2016-12-21T08:41:12+01:00
 lastmod: 2021-06-29T10:39:18+02:00
 draft: false
 categories: ["Product"]
-tags: ["markt", "mvp", "roadmap"]
+tags:
+  [
+    "Business Ideas",
+    "Vision",
+    "MVP",
+    "Roadmap",
+    "Market Analysis",
+    "Entrepreneurship",
+    "Strategic Planning",
+    "Product Development",
+  ]
 ---
 
 Many people have business ideas. Often they are bad. Far too often, however, they are utopian. [It is supposed to become the next Uber for X. Or even better: the next Instagram.](https://klaus-breyer.de/blog/entrepreneurship/das-neue-x-fuer-y-ueber-startups-die-plattformen-sein-wollen/1810)

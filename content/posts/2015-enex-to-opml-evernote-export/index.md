@@ -6,6 +6,17 @@ publishdate: 2015-08-18T13:50:38+02:00
 lastmod: 2020-05-15T12:00:59+02:00
 draft: false
 categories: ["Open Source"]
+tags:
+  [
+    "Evernote",
+    "Workflowy",
+    "Node.js",
+    "npm",
+    "migration",
+    "command line tool",
+    "XML",
+    "OPML",
+  ]
 aliases:
   - /de/posts/enex-to-opml-evernote-export/
   - /posts/enex-to-opml-evernote-export/

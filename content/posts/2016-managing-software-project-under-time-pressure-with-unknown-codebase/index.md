@@ -5,7 +5,16 @@ date: 2016-08-23T09:20:28+02:00
 publishdate: 2016-08-23T09:20:28+02:00
 lastmod: 2021-06-29T10:40:28+02:00
 draft: false
-tags: ["project management", "cronjobs", "deployment", "testing"]
+tags:
+  [
+    "software project",
+    "codebase",
+    "maintenance",
+    "deployment",
+    "testing",
+    "staging environment",
+  ]
+
 categories: ["Code"]
 ---
 

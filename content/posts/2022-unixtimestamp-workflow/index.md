@@ -1,9 +1,18 @@
 ---
-title: 'How I developed my own unix timestamp conversion tool to improve API developer workflows'
+title: "How I developed my own unix timestamp conversion tool to improve API developer workflows"
 author: Klaus Breyer
 publishdate: 2022-08-26T11:23:00+02:00
 draft: false
-categories: ['unixtime.app']
+categories: ["unixtime.app"]
+tags:
+  - unixtime.app
+  - API-development
+  - timestamp-conversion
+  - IIoT
+  - Postman
+  - workflow-optimization
+  - collaboration
+  - prototyping
 ---
 
 Hi, Iam Klaus Breyer. And I am the author of unixtime.app: An API developers tool for bulk timestamp conversion.

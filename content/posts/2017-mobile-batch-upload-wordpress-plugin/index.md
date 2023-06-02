@@ -6,6 +6,21 @@ publishdate: 2017-11-04T13:32:43+01:00
 lastmod: 2020-05-15T12:01:15+02:00
 draft: false
 categories: ["Open Source"]
+tags:
+  [
+    "mobile",
+    "batch upload",
+    "WordPress",
+    "plugin",
+    "image upload",
+    "admin interface",
+    "rotated images",
+    "bug",
+    "mobile safari",
+    "mobile editor",
+    "Open Source",
+    "feedback",
+  ]
 aliases:
   - "/posts/mobile-batch-upload-wordpress-plugin/"
 ---

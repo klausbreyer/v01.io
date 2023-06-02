@@ -1,10 +1,19 @@
 ---
-title: 'unixtime.app Goes Open Source: Now Available for Free!'
+title: "unixtime.app Goes Open Source: Now Available for Free!"
 author: Klaus Breyer
 publishdate: 2023-03-24T14:20:00+02:00
 draft: false
-categories: ['unixtime.app']
-tags: ["open source"]
+categories: ["unixtime.app"]
+tags:
+  - Unix Timestamp
+  - Timestamp Conversion
+  - Time Conversion
+  - Open Source
+  - Web App
+  - Developer Tools
+  - Product Announcement
+  - Free Software
+  - Community Feedback
 ---
 
 ![unixtime.app](unixtime.app.png)

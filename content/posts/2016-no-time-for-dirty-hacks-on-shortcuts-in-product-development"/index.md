@@ -5,7 +5,7 @@ date: 2016-09-22T09:26:52+02:00
 publishdate: 2016-09-22T09:26:52+02:00
 lastmod: 2022-12-02T16:47:09+01:00
 categories: ["Product"]
-tags: ["agentur", "produktentwicklung", "software engineering"]
+tags: ["agency", "product development", "software engineering"]
 ---
 
 Ich war 6 Jahre CTO der Social Media Agentur [buddybrand](http://buddybrand.com) und bin nun fast ein Jahr CTO des SaaS Startups [BuzzBird](https://www.buzzbird.de).

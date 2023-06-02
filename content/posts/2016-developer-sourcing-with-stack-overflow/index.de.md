@@ -7,13 +7,15 @@ lastmod: 2021-06-29T10:40:28+02:00
 draft: false
 tags:
   [
-    "hr",
-    "application process",
-    "frontend",
-    "sourcing",
-    "stack overflow",
-    "job advertisement",
+    "Developer Sourcing",
+    "HR",
+    "Recruitment",
+    "Stack Overflow",
+    "Job Advertisement",
+    "Tech Recruitment",
+    "Startup",
   ]
+
 categories: ["Code"]
 aliases:
   - "/posts/entwickler-sourcing-mit-stack-overflow/"

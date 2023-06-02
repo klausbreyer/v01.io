@@ -6,6 +6,14 @@ publishdate: 2014-04-01T21:13:34+02:00
 lastmod: 2021-06-29T10:37:31+02:00
 draft: false
 categories: ["Engineering Org"]
+tags:
+  [
+    "File Organization",
+    "Folder Structures",
+    "Business Processes",
+    "Productivity",
+  ]
+
 aliases:
   - /posts/dateiorganisation-und-ordnerstrukturen-in-unternehmen/
 ---

@@ -5,6 +5,17 @@ date: 2015-01-11T14:13:28+01:00
 publishdate: 2015-01-11T14:13:28+01:00
 lastmod: 2022-08-02T13:48:12+02:00
 draft: false
+tags:
+  [
+    "Facebook",
+    "API",
+    "Development",
+    "Book",
+    "JavaScript",
+    "PHP",
+    "Web Technologies",
+    "Affiliate",
+  ]
 categories: ["Business"]
 ---
 

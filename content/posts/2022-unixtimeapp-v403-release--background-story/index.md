@@ -6,6 +6,14 @@ publishdate: 2022-08-15T17:06:19+02:00
 lastmod: 2022-08-29T17:06:40+02:00
 draft: false
 categories: ["unixtime.app"]
+tags:
+  - unixtime.app
+  - release
+  - version-4.0.3
+  - Microsoft-Partner-Portal
+  - windows-version
+  - app-development
+
 aliases:
   - "/posts/unixtimeapp-v403-release--background-story/"
 ---

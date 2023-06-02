@@ -1,11 +1,17 @@
 ---
-title: 'The Art of Constant De-Risking: How Shape Up Revolutionizes Agile Software Development '
+title: "The Art of Constant De-Risking: How Shape Up Revolutionizes Agile Software Development "
 author: Klaus Breyer
 publishdate: 2023-03-15T09:22:00+01:00
 lastmod: 2023-03-17T08:17:00+01:00
 draft: false
-tags: ['shapeup','scrum', 'process', 'engineering', 'product', 'org', ]
-categories: ['Engineering Org']
+tags:
+  - shapeup
+  - scrum
+  - process
+  - engineering
+  - product
+  - org
+categories: ["Engineering Org"]
 image: "2023-03-15-shape-up-shaping-process-v2.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_the-art-of-constant-de-risking-how-shape-activity-7042398219149963264-23Xv"
 ---

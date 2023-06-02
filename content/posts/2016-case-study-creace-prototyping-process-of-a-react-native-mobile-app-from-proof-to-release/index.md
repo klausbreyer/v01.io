@@ -8,16 +8,16 @@ draft: false
 categories: ["Product"]
 tags:
   [
-    "process",
-    "project management",
-    "prototyping",
-    "javascript",
-    "js",
-    "node",
-    "php",
-    "react",
-    "react native",
-    "ux",
+    "React Native",
+    "Mobile App Development",
+    "Prototyping",
+    "Process Management",
+    "JavaScript",
+    "Node.js",
+    "PHP",
+    "UX",
+    "Video Production",
+    "App Release",
   ]
 ---
 

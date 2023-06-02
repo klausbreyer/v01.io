@@ -6,7 +6,17 @@ publishdate: 2017-01-05T08:47:46+01:00
 lastmod: 2021-06-29T10:39:17+02:00
 draft: false
 categories: ["Product"]
-tags: ["startup", "business model", "entrepreneurship", "roadmap", "strategie"]
+tags:
+  [
+    "Roadmap",
+    "Startups",
+    "Business Model",
+    "Entrepreneurship",
+    "Strategy",
+    "Vision",
+    "Flexibility",
+    "Investment",
+  ]
 ---
 
 ![](2016-12-21-Roadmap.png)

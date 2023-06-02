@@ -6,7 +6,22 @@ publishdate: 2015-12-08T13:49:17+01:00
 lastmod: 2022-08-02T13:47:55+02:00
 draft: false
 categories: ["Open Source"]
-tags: ["project", "real-time", "road closure"]
+tags:
+  [
+    "Open Source",
+    "project",
+    "real-time",
+    "road closure",
+    "VIZ",
+    "PHP Symfony",
+    "Google Maps Distance Matrix API",
+    "Node.js",
+    "Go",
+    "serverless",
+    "API",
+    "Berlin",
+  ]
+
 aliases:
   - "/posts/is-the-street-of-june-17th-closed-de/"
 ---

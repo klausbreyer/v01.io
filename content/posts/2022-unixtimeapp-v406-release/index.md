@@ -6,6 +6,16 @@ publishdate: 2022-08-19T09:25:00+02:00
 lastmod: 2022-08-29T17:06:36+02:00
 draft: false
 categories: ["unixtime.app"]
+tags:
+  - unixtime.app
+  - release
+  - version-4.0.6
+  - PWA
+  - caching-strategy
+  - web-development
+  - parcel
+  - posthtml
+
 aliases:
   - "/posts/unixtimeapp-v406-release/"
 ---

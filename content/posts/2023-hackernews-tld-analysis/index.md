@@ -1,16 +1,24 @@
 ---
-title: 'Hidden Treasures of TLDs: How I Scraped Hackernews for Domain Names'
+title: "Hidden Treasures of TLDs: How I Scraped Hackernews for Domain Names"
 author: Klaus Breyer
 publishdate: 2023-03-10T08:35:00+01:00
 lastmod: 2023-03-10T08:35:00+01:00
 draft: false
-tags: ['hackernews', 'go', 'mysql', 'domains', 'tld']
-categories: ['Code']
+tags:
+  - hackernews
+  - go
+  - mysql
+  - domains
+  - tld
+categories:
+  - Code
 image: "hns.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_hidden-treasures-of-tlds-how-i-scraped-hackernews-activity-7040995326916206592-m8R6"
 #views: 4,2k in 24h (HN)
 ---
+
 {{< hackernewsstats >}}# hackernewsstats
+
 ## Background Story
 
 As somebody who often starts new projects, I often need to think about project names and domain names.

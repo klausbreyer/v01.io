@@ -8,17 +8,18 @@ draft: false
 categories: ["Product"]
 tags:
   [
-    "prozess",
-    "projektmanagement",
+    "React Native",
+    "Mobile App Development",
     "Prototyping",
-    "javascript",
-    "js",
-    "node",
-    "php",
-    "react",
-    "react native",
-    "ux",
+    "Process Management",
+    "JavaScript",
+    "Node.js",
+    "PHP",
+    "UX",
+    "Video Production",
+    "App Release",
   ]
+
 aliases:
   - "/posts/projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release/"
 ---

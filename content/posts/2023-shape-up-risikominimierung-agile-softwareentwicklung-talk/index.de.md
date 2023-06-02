@@ -1,10 +1,21 @@
 ---
 title: "Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung (Talk)"
 date: 2023-04-25
-tags: ["Shape Up", "Risikominimierung", "Agile", "Talk"]
+tags:
+  - Software Development
+  - Agile Methodology
+  - Product Development
+  - Project Management
+  - Risk Management
+  - Software Engineering
+  - Lean Development
+  - Team Collaboration
+  - Decision-making
+  - Product Strategy
+
 author: Klaus Breyer
 draft: false
-categories: ['Engineering Org']
+categories: ["Engineering Org"]
 image: "preview.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-die-kunst-st%C3%A4ndiger-risikominimierung-activity-7064498077511868416-_t9i"
 ---
@@ -19,7 +30,7 @@ Um die Verständlichkeit zu gewährleisten, wurden die Fragen und Antworten sorg
 
 Die behandelten Themen sind:
 
-- Einleitung  (0:00)
+- Einleitung (0:00)
 - Teil1 - Shape Up - die Methode (3:18)
 - Welchen Vorteil bietet Shape Up im Vergleich zu Scrum? (32:06)
 - Inwiefern unterscheidet sich Shape-Up von anderen Prototyp-basierten Methoden? (33:51)
@@ -42,7 +53,7 @@ Die behandelten Themen sind:
 - Wie wird bei Shape Up sichergestellt, dass nach sechs Wochen kein "Überarbeiten" passiert? (1:06:49 )
 - Ist das Epicenter vergleichbar mit einem MVP? (1:08:25 )
 - Wie handhabt man die Einführung neuer Begriffe und Erwartungen in Teams? (1:09:02 )
-- Teil 3 - De-risking  (1:11:10 )
+- Teil 3 - De-risking (1:11:10 )
 - Wie geht Shape Up mit Ressourcenverschiebungen und Portfolio-Management um? (1:15:13 )
 - Wo und wann wird der Kunde in den Produktentwicklungsprozess eingebunden? (1:16:02 )
 - Existiert die Business Model Validation Ebene aktuell? (1:17:41 )

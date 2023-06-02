@@ -5,7 +5,15 @@ date: 2018-01-12T09:09:44+01:00
 publishdate: 2018-01-12T09:09:44+01:00
 lastmod: 2021-06-29T10:40:25+02:00
 draft: false
-tags: ["startup", "cto", "seed"]
+tags:
+  [
+    "startup",
+    "CTO",
+    "seed",
+    "leadership",
+    "product development",
+    "business decisions",
+  ]
 categories: ["Engineering Org"]
 image: "2018-01-05-CTO.png"
 aliases:

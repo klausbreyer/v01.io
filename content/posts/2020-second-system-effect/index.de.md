@@ -6,7 +6,16 @@ publishdate: 2020-05-04T09:34:43+02:00
 lastmod: 2020-09-18T14:07:09+02:00
 draft: false
 categories: ["Product"]
-tags: ["product", "product management"]
+tags:
+  [
+    "Second-system effect",
+    "product",
+    "product management",
+    "Branch by Abstraction",
+    "software development",
+    "process optimization",
+    "digitalization",
+  ]
 ---
 
 Beim Bau von Produkten und Einführung neuer Technologie sehe ich regelmäßig den [Second-system effect](https://en.wikipedia.org/wiki/Second-system_effect): Ein einfaches, gut funktionierendes System kommt an seine Grenzen und wird daraufhin aufgrund überzogener Erwartungen und übertriebenen Selbstvertrauens durch ein viel zu großes, aufgeblähtes Systeme ersetzt - und alle sind unglücklich. :)

@@ -1,11 +1,20 @@
 ---
-title: 'Billing and contract types in agile software projects'
+title: "Billing and contract types in agile software projects"
 author: Klaus Breyer
 date: 2014-03-01T11:26:47+01:00
 publishdate: 2014-03-01T11:26:47+01:00
 lastmod: 2023-01-10T14:58:38+01:00
 draft: false
-categories: ['Engineering Org']
+categories: ["Engineering Org"]
+tags:
+  [
+    "Agile",
+    "Contracts",
+    "Billing",
+    "Software Development",
+    "Project Management",
+  ]
+
 social: "https://www.linkedin.com/posts/klaus-breyer_billing-and-contract-types-in-agile-software-activity-7036240860795019264-VPK7"
 ---
 

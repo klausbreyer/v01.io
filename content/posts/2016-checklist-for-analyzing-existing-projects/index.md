@@ -6,7 +6,16 @@ publishdate: 2016-02-21T11:22:55+01:00
 lastmod: 2023-04-14T17:46:29+02:00
 draft: false
 categories: ["Code"]
-tags: ["architecture", "code", "cto", "freelance", "hosting", "stack"]
+tags:
+  [
+    "Project Analysis",
+    "CTO",
+    "Freelance",
+    "Code Evaluation",
+    "Software Architecture",
+    "Hosting",
+    "Tech Stack",
+  ]
 ---
 
 As a freelance CTO, I regularly deal with completely new projects and codebases. Sometimes I have to dive deep into them, and sometimes I just need to evaluate the structure first. In the following, I would like to share with you my checklist, which I use when starting a new project.

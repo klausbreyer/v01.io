@@ -13,6 +13,10 @@ tags:
     "backlog",
     "technical debt",
     "project management",
+    "correctness",
+    "urgency",
+    "technical",
+    "impact",
   ]
 ---
 
