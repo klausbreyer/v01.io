@@ -1,10 +1,21 @@
 ---
 title: "Bookshelf"
 date: 2023-02-17
-
 ---
 
 In 2023 I aim to post every week a new book recommendation [on linkedin](https://www.linkedin.com/in/klaus-breyer/). This is the summary of them.
+
+## Safe Haven: Investing for Financial Storm
+
+[![](haven.png#small)](https://amzn.to/3MWq38X "Buy it on Amazon")
+
+In "Safe Haven: Investing for Financial Storms", Mark Spitznagel skillfully marries philosophical wisdom with the practicalities of investing. Spitznagel's distinctive perspective on risk management underlines the essentiality of minimizing losses.
+
+His philosophy-driven approach to investment is compelling: in the quantum realm of Schrödinger, where all potentialities exist simultaneously until the final moment, one might instinctively rely on the arithmetic mean of investment returns. However, by invoking Nietzsche's concept of eternal recurrence - living as if destined to repeat our lives innumerable times - Spitznagel invites us to reconsider the significance of sequence and order in our decisions. This is dramatically exemplified when considering that a stock needing to rebound by 100% after a 50% fall just to restore its original position.
+
+The book further equips the reader with insightful strategies on asset allocation and the use of insurance to lever returns during unforeseen market crashes.
+
+Due to the complex mathematics involved, I highly recommend digesting this work as a book rather than an audiobook. Some of the concepts demand contemplation and the mathematics can be challenging, but the core principles remain accessible and resonate long after reading.
 
 ## Plays Well with Others: The Surprising Science Behind Why Everything You Know About Relationships Is (Mostly) Wrong
 
@@ -60,6 +71,7 @@ In this "problem-space" (pun intended) is my recent book recommendation (from 19
 It is about working with problems. Because in the end, that is what we all do, day in and day out, when hacking code, developing products for customers, or managing people.
 
 Favorite Takeaways:
+
 - If you can't think of at least three things that might be wrong with your understanding of the problem, you need help understanding the problem.
 - Each solution is the source of the next problem.
 - The source of the problem is most often within you.
