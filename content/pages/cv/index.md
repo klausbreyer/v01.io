@@ -35,11 +35,11 @@ Thats all.
 
 Throughout my career, I've led the development and launch of numerous cutting-edge projects in **modern web stacks**, ranging from fast-moving startups to complex microservice environments. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
 
-### 2019 – Now [Ray Sono AG][2]: Technology Principal & Tech Lead for IIot products (freelance)
+### 2019 – Now [Ray Sono AG][2]: Tech Lead for IIot business unit & Technology Principal (freelance)
 
-Ray Sono is a digital product development agency. Working with Ray Sono, I especially like strategic understanding and user-centric thinking. As a Technology Principal, I am involved in projects from the initial conceptual brainstorming to the eventual implementation (with internal or external resources). In larger projects, I lead a development team as Tech Lead. I do this on-site with the Berlin team or remotely with an international team of developers.
+As a Technology Principal, I am involved in projects from the initial conceptual brainstorming stage to the eventual implementation, using either internal or external resources. In larger projects, I take on the role of Tech Lead, overseeing a development team. I perform these duties on-site with the Berlin team or remotely with an international team of developers.
 
-As Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company Voith, I built up the team from scratch and introduced the [Shape Up]({{< ref "shape-up" >}}) method. Hydro Pocket is a leading provider of solutions for hydropower plants, offering innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
+As the Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company Voith, I built the tech team from scratch within this new business unit and introduced the [Shape Up](https://basecamp.com/shapeup) method. Hydro Pocket is a leading provider of solutions for hydropower plants. We offer innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
 
 ### 2018 – 2019 Fotando GmbH : Founder and Chief Prototyping Officer – E-commerce
 

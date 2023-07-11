@@ -19,11 +19,11 @@ Whether you're an agency, SME, or startup, I can help you achieve your goals by 
 
 ## Now: what am I currently doing?
 
-### 2019 – Now [Ray Sono AG][2]: Technology Principal & Tech Lead for IIot products (freelance)
+### 2019 – Now [Ray Sono AG][2]: Tech Lead for IIot business unit & Technology Principal (freelance)
 
-Ray Sono is a digital product development agency. Working with Ray Sono, I especially like strategic understanding and user-centric thinking. What exactly do I do there? As a Technology Principal, I am involved in projects from the initial conceptual brainstorming to the eventual implementation (with internal or external resources). In larger projects, I lead a development team as Tech Lead. I do this on-site with the Berlin team or remotely with an international team of developers.
+As a Technology Principal, I am involved in projects from the initial conceptual brainstorming stage to the eventual implementation, using either internal or external resources. In larger projects, I take on the role of Tech Lead, overseeing a development team. I perform these duties on-site with the Berlin team or remotely with an international team of developers.
 
-As Technical Lead at Hydro Pocket, the first end-customer product of the industrial company Voith, I introduced the [Shape Up]({{< ref "shape-up" >}}) method to effectively manage the technical team. Hydro Pocket is a leading provider of solutions for hydropower plants, offering innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
+As the Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company Voith, I built the tech team from scratch within this new business unit and introduced the [Shape Up](https://basecamp.com/shapeup) method. Hydro Pocket is a leading provider of solutions for hydropower plants. We offer innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
 
 ## Past: What have I already done?
 
