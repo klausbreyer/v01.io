@@ -47,7 +47,7 @@ We had noticed that most photo printing vendors always send their customers to u
 
 ### 2016 – 2018 [BuzzBird GmbH][4]: Founder and Chief Technology & Product Officer – Influencer Marketplace
 
-We started with the goal of making social media influencers bookable programmatically – like Google Ads. However, we underestimated how many sensitivities and non-deterministic requirements are imposed by both Supply and Demand. Now the developed software is mainly used internally to map the influencer process smoothly and fully digitized – an “Influencer Agency on Steroids.”
+With an innovative goal to make social media influencers programmatically bookable, akin to Google Ads, we developed sophisticated software. Primarily used internally, this "Influencer Agency on Steroids" digitalizes the influencer process. It includes a billing system, a matching algorithm, influencer inventory management, and promotes transparency by enabling creators to share their statistics.
 
 (venture-backed, 25 FTE)
 

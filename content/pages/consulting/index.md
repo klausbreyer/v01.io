@@ -37,7 +37,9 @@ Right out of university, I started building Facebook apps as a freelancer with m
 
 ### 2016 – 2018 [BuzzBird GmbH][4]: Founder and Chief Technology & Product Officer – Influencer Marketplace
 
-We started with the goal of making social media influencers bookable programmatically – like Google Ads. However, we underestimated how many sensitivities and non-deterministic requirements are imposed by both Supply and Demand. Now the developed software is mainly used internally to map the influencer process smoothly and fully digitized – an “Influencer Agency on Steroids.”
+We embarked on an exciting journey with the goal of making social media influencers programmatically bookable - similar to Google Ads. This challenge sparked innovation, leading to the development of sophisticated software, which is now primarily used internally. This software effectively digitalizes the influencer process, acting as an "Influencer Agency on Steroids."
+
+Key features of our system include a billing system, a matching algorithm, and an influencer inventory management module. Furthermore, it encourages transparency and data-driven decisions by enabling social media creators to share their statistics.
 
 (venture-backed, 25 FTE)
 
