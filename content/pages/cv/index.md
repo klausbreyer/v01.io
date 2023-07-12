@@ -39,7 +39,7 @@ Throughout my career, I've led the development and launch of numerous cutting-ed
 
 As a Technology Principal, I am involved in projects from the initial conceptual brainstorming stage to the eventual implementation, using either internal or external resources. In larger projects, I take on the role of Tech Lead, overseeing a development team. I perform these duties on-site with the Berlin team or remotely with an international team of developers.
 
-As the Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company Voith, I built the tech team from scratch within this new business unit and introduced the [Shape Up](https://basecamp.com/shapeup) method. Hydro Pocket is a leading provider of solutions for hydropower plants. We offer innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
+As the Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company GmbH & Co. KGaA, I built the tech team from scratch within this new business unit and introduced the [Shape Up](https://basecamp.com/shapeup) method. Hydro Pocket is a leading provider of solutions for hydropower plants. It offers innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
 
 ### 2018 – 2019 Fotando GmbH : Founder and Chief Prototyping Officer – E-commerce
 
