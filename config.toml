@@ -1,6 +1,6 @@
 baseURL = 'https://www.v01.io/'
-title = 'Klaus Breyer > CTO writing about Code, Business, Product & Engineering Orgs.'
-copyright = 'Klaus Breyer'
+title = 'KLAUS BREYER - CTPO - Startup Strategy, Product Execution & Tech Leadership'
+copyright = 'KLAUS BREYER'
 # sectionPagesMenu = 'main'
 preserveTaxonomyNames = true
 enableRobotsTXT = true
@@ -27,7 +27,7 @@ defaultContentLanguage = 'en'
   repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
   description = "I'm Klaus Breyer, a seasoned technology leader and entrepreneur with a degree in Software Engineering. Over the past decade, I've led high-performing teams, founded multiple startups, and played pivotal roles in the success of several companies and new business units as a technical leader, product leader, or advisor. I'm a big believer in the Shape Up methodology and have spearheaded numerous cutting-edge projects. My leadership philosophy centers around building robust technical and organizational infrastructures that empower individuals to excel in small, autonomous teams."
   image = 'images/klaus-breyer.jpg'
-  title = 'Klaus Breyer > CTO writing about Code, Business, Product & Engineering Orgs.'
+  title = 'KLAUS BREYER - CTPO - Startup Strategy, Product Execution & Tech Leadership'
 
 [privacy]
   [privacy.youtube]

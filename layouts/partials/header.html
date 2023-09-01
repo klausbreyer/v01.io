@@ -1,12 +1,7 @@
 <nav class="title">
     <a lang="en" class="author" href="/">{{ $.Site.Copyright }}</a>
     {{/* <span class="description">–</span> */}}
-    <span class="description">＞ CTO writing about <a lang="en"
-            href="/categories/code/">Code</a>, <a lang="en"
-            href="/categories/business/">Business</a>, <a lang="en"
-            href="/categories/product/">Product</a> & <a lang="en"
-            href="/categories/engineering-org/">Engineering
-            Orgs</a>.</span>
+    <span class="description">- CTPO - <a lang="en" href="/categories/business/">Startup Strategy</a>, <a lang="en" href="/categories/product/">Product Execution</a> & <a lang="en" href="/categories/engineering-org/">Tech Leadership</a></span>
 </nav>
 
 {{$section_heading := .Site.GetPage "section" .Section }}
@@ -15,10 +10,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li>
-            &gt;<a lang="en" href="{{ .URL }}" {{ if or (eq $.Page.Name .Name)
-                (and (eq $section_heading.Title "Blog" ) (eq .Name "Blog" ))
-                (and (eq $section_heading.Title "Categories" ) (eq .Name "Blog"
-                )) }}class="active" {{end}}>{{ .Name }}</a>
+            &gt;<a lang="en" href="{{ .URL }}" {{ if or (eq $.Page.Name .Name) (and (eq $section_heading.Title "Blog" ) (eq .Name "Blog" )) (and (eq $section_heading.Title "Categories" ) (eq .Name "Blog" )) }}class="active" {{end}}>{{ .Name }}</a>
         </li>
         {{ end }}
     </ul>

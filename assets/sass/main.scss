@@ -149,7 +149,7 @@ header {
   border-bottom: 0.1rem solid var(--primary);
   font-family: "Share Tech";
 
-  padding: 0.25rem 2rem 0.25rem 2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   @media print {
     margin: 0 2rem;
     padding: 0;
@@ -165,24 +165,25 @@ header div.container {
   @media print {
     justify-content: center;
   }
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
   row-gap: 1rem;
 }
 
 header nav.title {
-  flex-wrap: nowrap;
+  // flex-wrap: nowrap;
   // margin-bottom: 0.5rem;
-  display: flex;
-  align-items: baseline;
-  column-gap: 1rem;
-  flex-wrap: wrap;
+  // display: flex;
+  // align-items: baseline;
+  // column-gap: 1rem;
+  // flex-wrap: wrap;
 
+  font-size: 1.33rem;
   a.author {
-    display: flex;
-    font-size: 3rem;
+    // display: flex;
+    // font-size: 3rem;
     font-weight: bold;
-    letter-spacing: -0.2rem;
+    // letter-spacing: -0.2rem;
     font-family: "Share Tech";
     font-style: italic;
     color: var(--text);
@@ -192,7 +193,6 @@ header nav.title {
     @media print {
       display: none;
     }
-    font-size: 1.33rem;
     color: var(--text);
   }
 }
@@ -202,7 +202,7 @@ header nav.menu {
     display: none;
   }
   font-size: 1.33rem;
-  display: flex;
+  // display: flex;
   ul {
     display: flex;
     // justify-content: center;
@@ -214,8 +214,11 @@ header nav.menu {
     margin: 0;
     padding: 0;
     list-style: none;
+    li {
+      margin: 0;
+    }
     a {
-      font-weight: bold;
+      // font-weight: bold;
     }
     a.active,
     a:hover {
