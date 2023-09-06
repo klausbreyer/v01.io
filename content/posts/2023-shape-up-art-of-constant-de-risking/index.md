@@ -11,7 +11,7 @@ tags:
   - engineering
   - product
   - org
-categories: ["Engineering Org"]
+categories: ["Product"]
 image: "2023-03-15-shape-up-shaping-process-v2.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_the-art-of-constant-de-risking-how-shape-activity-7042398219149963264-23Xv"
 ---

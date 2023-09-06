@@ -5,6 +5,8 @@ aliases:
   - "talks"
 ---
 
+As an accomplished writer and public speaker, I'm always eager to share my insights and expertise with others. In addition to my own book, I've written numerous guest articles for top blogs and am a frequent conference speaker, comfortable addressing audiences of all sizes and backgrounds.
+
 ## Talks
 
 - 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})

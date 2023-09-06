@@ -19,8 +19,6 @@ aliases:
   - "/posts/shape-up-staffing-and-process-patterns/"
 ---
 
-# pattern
-
 ## Shape Up staffing and process patterns
 
 One thing that should be discussed more in detail in Shape up is how to implement it for smaller teams, like migrating an unhappy Scrum team. Many of the cases addressed publicly are for the entire company. But with the correct Pattern, even smaller teams can benefit from the principles of [appetite][1] and [small, autonomous teams][2].
@@ -55,7 +53,7 @@ It is important to note that the Product Owner, in this specific case, is more o
 Furthermore, there is one more aspect that makes the roles of UX in the real world (as compared to 37signals) even more special:
 
 - At 37signals, no specialized person or separate trade is responsible for the user experience. On the one side, there is a lot of UX knowledge during shaping from their CEO, [Jason][4], and their Strategist, [Ryan][5] (back then). But according to their podcasts, the (Product) Designers also have much UX knowledge when implementing designs during the cycle.
-- Outside of 37sSignals, there is often a specialist UX trade, working on the one hand very high level on a product level but also closely hands-on with UI in the real world.
+- Outside of 37Signals, there is often a specialist UX trade, working on the one hand very high level on a product level but also closely hands-on with UI in the real world.
 
 That makes it difficult to draw a sharp line here. But one thing is sure: **UX is relevant for shaping and building.**
 

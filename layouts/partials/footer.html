@@ -2,17 +2,12 @@
     <div class="about">
         <h3>About</h3>
         <p>{{.Site.Params.Description}}</p>
-        <p>Reach me via: <a href="mailto:kb@v01.io?subject=v01.io">E-Mail</a>,
-            <a href="https://www.linkedin.com/in/klaus-breyer/"
-                target="_blank">LinkedIn</a>, <a
-                href="https://twitter.com/klausbreyer"
-                target="_blank">Twitter</a> and <a
-                href="https://facebook.com/klausbreyer"
-                target="_blank">Facebook</a> (sorted by preference).
+        <p>Reach me via: <a href="mailto:kb@v01.io?subject=v01.io">E-Mail</a> or follow me on
+            <a href="https://www.linkedin.com/in/klaus-breyer/" target="_blank">LinkedIn</a> & <a href="https://twitter.com/klausbreyer" target="_blank">Twitter</a>.
         </p>
     </div>
     <div class="mailchimp">
-        <h3>Subscribe to my Mailing List</h3>
+        <h3>Mailing List</h3>
         <p>If you want to be informed about something significant happening
             here,
             please
@@ -27,17 +22,11 @@
         <div id="mc_embed_signup">
 
             {{/* <h3>Newsletter</h3> */}}
-            <form
-                action="
-            https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0"
-                method="post" id="mc-embedded-subscribe-form"
-                name="mc-embedded-subscribe-form" class="validate"
-                target="_self">
+            <form action="
+            https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
 
-                <input type="email" value="" name="EMAIL" class="required email"
-                    id="mce-EMAIL" required="">&nbsp;
-                <input type="submit" value="Subscribe" name="subscribe"
-                    id="mc-embedded-subscribe" class="button">
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="">&nbsp;
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 
             </form>
 
@@ -61,22 +50,11 @@
     {{ end }}
 </nav>
 
-<nav class="tags">
+{{/* <nav class="tags">
     <h3>Blog Tags</h3>
     {{ range .Site.Taxonomies.tags }}
     <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{
     .Count
     }});
     {{ end }}
-</nav>
-
-<hr />
-<div class="copyright">
-    <b>&copy; {{$.Site.Copyright }}</b>
-    &gt;<a href="{{ .Page.Permalink }}" target="_blank">Permalink</a>
-    &gt;<a href="{{ .Site.BaseURL }}posts/index.xml" target="_blank">RSS
-        Feed</a>
-
-    &gt;<a href="https://www.iubenda.com/privacy-policy/96468474/full-legal"
-        target="_blank">Imprint</a>
-</div>
+</nav> */}}

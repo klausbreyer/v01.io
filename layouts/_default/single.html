@@ -18,6 +18,7 @@
 {{ end }}
 <article class="{{.File.Dir }}">
     <h1>{{ .Title }}</h1>
+    <hr />
     {{ .Content }}
 </article>
 <hr />
@@ -59,41 +60,28 @@
     <h4>Call to Action</h4>
 
     <ul>
-        <li>Personal feedback or booking inquiry? <a target="_blank"
-                href="mailto:kb@v01.io?subject=About {{.Title}}&body={{.Permalink}}">Drop
+        <li>Personal feedback or booking inquiry? <a target="_blank" href="mailto:kb@v01.io?subject=About {{.Title}}&body={{.Permalink}}">Drop
                 me a line.</a></li>
         {{if .Params.Social }}
-        <li>Want to leave a public comment? <a href="{{.Params.Social}}"
-                target="_blank">Join the discussion on LinkedIn.</a>
+        <li>Want to leave a public comment? <a href="{{.Params.Social}}" target="_blank">Join the discussion on LinkedIn.</a>
         </li>
         {{ end }}
 
-        <li>Found a typo? <a target="_blank"
-                href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">I
+        <li>Found a typo? <a target="_blank" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">I
                 would greatly appreciate a pull
                 request.</a>
         </li>
         <li>Share this page:
-            <a target="_blank"
-                href="mailto:?subject={{.Title}}&body={{.Permalink}}">Email</a>;
-            <a target="_blank"
-                href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $keywords}}">Twitter</a>;
-            <a target="_blank"
-                href="https://www.linkedin.com/shareArticle?url={{.Permalink}}&title={{.Title}}">LinkedIn</a>;
-            <a target="_blank"
-                href="https://reddit.com/submit?url={{.Permalink}}&title={{.Title}}">Reddit</a>;
-            <a target="_blank"
-                href="https://www.facebook.com/sharer.php?u={{.Permalink}}">Facebook</a>;
-            <a target="_blank"
-                href="https://api.whatsapp.com/send?text={{.Title}} {{.Permalink}}">WhatsApp</a>;
-            <a target="_blank"
-                href="https://wordpress.com/press-this.php?u={{.Permalink}}&t={{.Title}}&s=[post-desc]">Wordpress</a>;
-            <a target="_blank"
-                href="https://getpocket.com/save?url={{.Permalink}}&title={{.Title}}">Pocket</a>;
-            <a target="_blank"
-                href="https://bufferapp.com/add?text={{.Title}}&url={{.Permalink}}">Buffer</a>;
-            <a target="_blank"
-                href="https://www.evernote.com/clip.action?url={{.Permalink}}&title={{.Title}}">Evernote</a>;
+            <a target="_blank" href="mailto:?subject={{.Title}}&body={{.Permalink}}">Email</a>;
+            <a target="_blank" href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $keywords}}">Twitter</a>;
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?url={{.Permalink}}&title={{.Title}}">LinkedIn</a>;
+            <a target="_blank" href="https://reddit.com/submit?url={{.Permalink}}&title={{.Title}}">Reddit</a>;
+            <a target="_blank" href="https://www.facebook.com/sharer.php?u={{.Permalink}}">Facebook</a>;
+            <a target="_blank" href="https://api.whatsapp.com/send?text={{.Title}} {{.Permalink}}">WhatsApp</a>;
+            <a target="_blank" href="https://wordpress.com/press-this.php?u={{.Permalink}}&t={{.Title}}&s=[post-desc]">Wordpress</a>;
+            <a target="_blank" href="https://getpocket.com/save?url={{.Permalink}}&title={{.Title}}">Pocket</a>;
+            <a target="_blank" href="https://bufferapp.com/add?text={{.Title}}&url={{.Permalink}}">Buffer</a>;
+            <a target="_blank" href="https://www.evernote.com/clip.action?url={{.Permalink}}&title={{.Title}}">Evernote</a>;
 
         </li>
     </ul>

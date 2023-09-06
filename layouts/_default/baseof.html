@@ -12,18 +12,15 @@
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS |
     resources.Minify
     | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" rel="preload"
-        as="style">
+    <link rel="stylesheet" href="{{ $style.Permalink }}" rel="preload" as="style">
     <link rel="icon" href="{{.Site.BaseURL}}images/favicon.png" />
     <link rel="apple-touch-icon" href="{{.Site.BaseURL}}images/favicon.png" />
     {{ block "head" . }}
     <meta name="author" content="{{.Site.Copyright}}">
     <meta name="description" content="{{.Site.Params.Description}}">
-    <meta property="og:image"
-        content="{{.Site.BaseURL}}{{.Site.Params.image}}" />
+    <meta property="og:image" content="{{.Site.BaseURL}}{{.Site.Params.image}}" />
     {{ end }}
-    <link rel="alternate" type="application/rss+xml"
-        href="{{ .Site.BaseURL }}posts/index.xml" title="{{.Site.Title}}" />
+    <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}posts/index.xml" title="{{.Site.Title}}" />
     {{ if .Page.Store.Get "hasMermaid" }}
     <script src="/js/mermaid.min.js"></script>
     <script>
@@ -48,6 +45,10 @@
         <div class="container">
             {{ partial "footer.html" . }}
         </div>
+
+    </footer>
+    <footer>
+        {{partial "copyright.html" .}}
 
     </footer>
 </body>

@@ -1,20 +1,13 @@
 @import "sharetech";
 @import "sharetechmono";
 
-// :root {
-//   --text: #000;
-//   // --primary: #cf0e0e; // old ferrari red, used on white.
-//   --primary: #c586c0;
-//   --footer: #f3f3f3;
-//   --highlight: #d7ba7d;
-//   --bg: #fff;
-// }
-
 // @media (prefers-color-scheme: dark) {
 :root {
   --text: #d4d4d4;
-  --primary: #ce9178;
-  --highlight: #3d3e3d;
+  // --text: #ccc;
+  // --primary: #ce9178;
+  --primary: #e11d48; //pink-600 https://tailwindcss.com/docs/customizing-colors
+  --footer2: #3d3e3d;
   --bg: #1e1e1e;
   --footer: #252526;
 }
@@ -22,11 +15,12 @@
 
 body {
   background: var(--bg);
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif;
+  // https://github.com/system-fonts/modern-font-stacks#transitional
+  font-family: Charter, "Bitstream Charter", "Sitka Text", Cambria, serif;
+  font-family: "Iowan Old Style", "Palatino Linotype", "URW Palladio L", P052,
+    serif;
   color: var(--text);
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
   @media print {
     font-size: 14px;
@@ -37,12 +31,25 @@ blockquote {
   font-family: "Share Tech Mono";
 }
 em {
-  background: var(--highlight);
+  // background: var(--highlight);
   font-style: normal;
+
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(136, 19, 55, 0.1),
+    rgba(136, 19, 55, 0.7) 4%,
+    rgba(136, 19, 55, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 900;
 }
 
 ul {
@@ -51,7 +58,7 @@ ul {
 
 p,
 li {
-  line-height: 1.6;
+  line-height: 1.55;
   word-break: break-word;
   overflow-wrap: break-word;
   font-weight: 200;
@@ -66,7 +73,7 @@ p.small {
 main,
 footer {
   div.container {
-    max-width: 1024px;
+    max-width: 880px;
     margin: auto;
     padding: 2rem;
     @media print {
@@ -99,35 +106,37 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Share Tech";
+  font-family: "Share Tech Mono";
   margin: 0;
   margin-bottom: 0.25em;
   clear: both;
+  line-height: 1;
   page-break-before: auto;
 }
 h1 {
-  font-size: 3rem;
+  padding-bottom: 0.5rem;
+  font-size: 3.052rem;
   @media print {
     font-size: 2.1rem;
   }
   margin-top: 0;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.441rem;
   @media print {
     font-size: 1.4rem;
   }
   margin-top: 1em;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.953rem;
   @media print {
     font-size: 1.1rem;
   }
   margin-top: 1em;
 }
 h4 {
-  font-size: 1.33rem;
+  font-size: 1.563rem;
 }
 
 a {
@@ -138,6 +147,7 @@ a[href^="#"] {
   @media print {
     display: none;
   }
+  opacity: 0.2;
 }
 
 a:hover {
@@ -146,7 +156,8 @@ a:hover {
 
 //header
 header {
-  border-bottom: 0.1rem solid var(--primary);
+  background: var(--footer);
+  border-bottom: 10px solid var(--primary);
   font-family: "Share Tech";
 
   padding: 0.5rem 2rem 0.5rem 2rem;
@@ -159,34 +170,29 @@ header div.container {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 100%;
-  max-width: 1600px;
+  // width: 100%;
+  max-width: 880px;
   justify-content: space-between;
   @media print {
     justify-content: center;
   }
-  align-items: center;
+  align-items: last baseline;
   flex-wrap: wrap;
   row-gap: 1rem;
 }
 
 header nav.title {
-  // flex-wrap: nowrap;
-  // margin-bottom: 0.5rem;
-  // display: flex;
-  // align-items: baseline;
-  // column-gap: 1rem;
-  // flex-wrap: wrap;
-
   font-size: 1.33rem;
   a.author {
-    // display: flex;
-    // font-size: 3rem;
     font-weight: bold;
-    // letter-spacing: -0.2rem;
-    font-family: "Share Tech";
+    font-family: "Share Tech Mono";
     font-style: italic;
     color: var(--text);
+    font-size: 4.3rem;
+    letter-spacing: -0.1rem;
+    @media (max-width: 480px) {
+      font-size: 3rem;
+    }
   }
 
   span.description {
@@ -198,27 +204,22 @@ header nav.title {
 }
 
 header nav.menu {
+  width: 100%;
   @media print {
     display: none;
   }
   font-size: 1.33rem;
-  // display: flex;
   ul {
     display: flex;
-    // justify-content: center;
     list-style: none;
     column-gap: 0.5rem;
     flex-wrap: wrap;
     align-items: baseline;
-
     margin: 0;
     padding: 0;
     list-style: none;
     li {
       margin: 0;
-    }
-    a {
-      // font-weight: bold;
     }
     a.active,
     a:hover {
@@ -272,20 +273,14 @@ main figure {
   &.half {
     img {
       width: 50%;
-      // margin: auto;
     }
   }
   &.cv {
     margin: 1rem 0;
-    display: block;
-    // text-align: center;
+    display: inline;
     img {
-      // float: left;
-      // max-width: 200px !important;
-      // margin: 0 !important;
-      // margin-right: 2rem !important;
       margin: auto;
-      width: 35%;
+      max-width: 35%;
     }
   }
   &.center {
@@ -366,4 +361,9 @@ footer div.mailchimp {
 footer div.copyright {
   text-align: center;
   font-family: "Share Tech";
+  background: var(--footer2);
+  padding: 1rem;
+  b {
+    font-style: italic;
+  }
 }

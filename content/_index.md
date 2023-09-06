@@ -1,29 +1,64 @@
 ---
 title: Home
-date: 2021-12-21
-summary: I have been responsible for technology and teams since I founded my first startup in 2010, right after graduating in Software Engineering. Since then, I have been actively or consultatively involved in several other companies as CTO or CPTO. I have built, managed, and launched many individual technical projects in (a constantly changing) modern web stack: From fast-moving independent startup projects to brownfield microservice environments.
+date: 2023-09-01
+summary: I'm Klaus Breyer. With a lifetime in tech, a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others.
 ---
 
-# Welcome
+# Crafting Technological Futures
 
-Hello! I'm Klaus Breyer, a seasoned technology leader with over a decade of experience in building and managing high-performing teams. With a degree in **Software Engineering** and a passion for innovation, I founded my first startup in 2010 and have since played a pivotal role in the success of several other companies as their CTO or CPTO.
+{{< rawhtml >}}
+<a href="/images/klaus-breyer-a-full.jpg"><img src="/images/klaus-breyer-a-small.jpg" alt="Klaus Breyer" /></a>
+<a href="/images/klaus-breyer-b-full.jpg"><img src="/images/klaus-breyer-b-small.jpg" alt="Klaus Breyer" /></a>
+{{< /rawhtml >}}
 
-In addition to my professional experience, I'm also a dedicated entrepreneur and startup investor. I develop and market [projects]({{< ref "/categories/unixtime.app" >}}) on the side and support early-stage companies through a small fund. I'm also committed to giving back to the [open-source]({{< ref "/categories/open-source" >}}) community and have contributed to several projects.
+## Decade in Tech
 
-As an [accomplished writer]({{< relref path="2015-practical-guide-facebook-development" >}}) and [public speaker]({{< ref "/pages/appearances" >}}), I'm always eager to share my insights and expertise with others. In addition to my own book, I've written numerous guest articles for top blogs and am a frequent conference speaker, comfortable addressing audiences of all sizes and backgrounds.
+I'm Klaus Breyer. With [a lifetime in tech]({{< relref "/pages/cv" >}}), a degree in _Software Engineering_, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as _CTO/CTPO_ in many others.
 
-I'm also a big believer in [Shape Up]({{< ref "shape-up" >}}), an up-and-coming method for agile software development. I offer free 1-hour sparring sessions around this topic or paid hands-on help to implement the method in organizations of various sizes.
+## Shape Up
 
-Throughout my career, I've led the development and launch of numerous cutting-edge projects in **modern web stacks**, ranging from fast-moving startups to complex microservice environments. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
+I'm all in on [Shape Up]({{< relref "/tags/shapeup/" >}}) - Agile's got a new face, and it's thrilling: _Fixed time, variable scope_. The only way to deliver quality - on time.
 
-At the heart of my leadership philosophy is a commitment to building **strong technical and organizational infrastructures** that empower individuals to do their best work. Whether consulting or leading internal teams, I'm always looking for ways to nurture innovation and stay ahead of the curve in a rapidly evolving technology landscape.
+It is all about the people: Developers, designers, product managers – all on the same page, sculpting ideas into reality.
 
-If you're looking for a dynamic, results-driven leader who can help drive your company's technical strategy forward and bring the benefits of Shape Up to your organization, [I'd love to connect and explore how I can contribute to your success]({{< ref "/consulting" >}}).
+Want to spar about it? I offer free 1-hour sessions. Need a deep dive? I'm here for hands-on guidance.
 
-![Klaus Breyer](/images/klaus-breyer.jpg)
+## Modern Web Stacks & Leadership
+
+From startup _monoliths_ to large _microservice_ environments, I've led and launched.
+
+But beyond the tech, I build infrastructures that empower.
+
+Teams that innovate.
+
+Projects that matter.
+
+## Proven Impact and Expertise
+
+What do I bring to the table? Strategy and technical prowess. It’s not about coding; it’s about laying the foundation for products that make a mark. And doing it in sync with the business side of things.
+
+1. _Startup strategy_ – turning ideas into impactful ventures.
+1. Selling the _tech vision_ – whether it's to investors or stakeholders.
+1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
+1. Assembling and nurturing _a killer team_.
+1. Bringing _product & engineering processes_ up to speed.
+
+## Writer & Speaker
+
+I've penned down my thoughts in [articles]({{< ref "/posts/">}}) and shared them out loud at [conferences]({{< relref "appearances">}}). Whether it's a page or a stage, I'm there.
 
 ## My v0.1 Manifest
 
 > Good software is always used but never finished.
 
-Thats all.
+That's it.
+
+## Connect with Me
+
+Tech, product, business – that's where I thrive.
+
+More than code, it's about weaving the tech fabric into the company's culture.
+
+For agencies, SME or fledgling startups.
+
+Interested? Drop me a line at [kb@v01.io](mailto:kb@v01.io).

@@ -1,5 +1,5 @@
 baseURL = 'https://www.v01.io/'
-title = 'KLAUS BREYER - CTPO - Startup Strategy, Product Execution & Tech Leadership'
+title = 'KLAUS BREYER - CTPO > Startup Strategy, Product Execution & Tech Leadership'
 copyright = 'KLAUS BREYER'
 # sectionPagesMenu = 'main'
 preserveTaxonomyNames = true
@@ -25,9 +25,9 @@ defaultContentLanguage = 'en'
 
 [params]
   repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
-  description = "I'm Klaus Breyer, a seasoned technology leader and entrepreneur with a degree in Software Engineering. Over the past decade, I've led high-performing teams, founded multiple startups, and played pivotal roles in the success of several companies and new business units as a technical leader, product leader, or advisor. I'm a big believer in the Shape Up methodology and have spearheaded numerous cutting-edge projects. My leadership philosophy centers around building robust technical and organizational infrastructures that empower individuals to excel in small, autonomous teams."
+  description = "I’m Klaus Breyer. With a lifetime in tech, a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others."
   image = 'images/klaus-breyer.jpg'
-  title = 'KLAUS BREYER - CTPO - Startup Strategy, Product Execution & Tech Leadership'
+  title = 'KLAUS BREYER - CTPO > Startup Strategy, Product Execution & Tech Leadership'
 
 [privacy]
   [privacy.youtube]
@@ -35,35 +35,39 @@ defaultContentLanguage = 'en'
 
 
 [menu]
-[[menu.main]]
-  name = 'Blog'
-  url = '/posts/'
-  weight = 10
 
 [[menu.main]]
-  name = 'Appearances'
-  url = '/pages/appearances/'
-  weight = 20
+  name = 'Home'
+  url = '/'
+  weight = 5
+
+
+[[menu.main]]
+  name = 'CV'
+  url = '/pages/cv/'
+  weight = 30
+
 
 [[menu.main]]
   name = 'Bookshelf'
   url = '/pages/bookshelf/'
-  weight = 30
+  weight = 45
 
 [[menu.main]]
-  name = 'Consulting'
-  url = '/pages/consulting/'
-  weight = 40
-
-[[menu.main]]
-  name = 'Shape Up'
-  url = '/pages/shape-up/'
+  name = 'Appearances'
+  url = '/pages/appearances/'
   weight = 50
 
 [[menu.main]]
-  name = 'Funding'
-  url = '/pages/funding/'
+  name = 'Blog'
+  url = '/posts/'
   weight = 60
+
+
+# [[menu.main]]
+#   name = 'Funding'
+#   url = '/pages/funding/'
+#   weight = 60
 
 # [[menu.main]]
 #   name = 'unixtime.app'

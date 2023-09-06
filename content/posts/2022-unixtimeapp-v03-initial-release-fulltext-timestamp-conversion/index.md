@@ -12,7 +12,7 @@ tags:
   - text-conversion
   - tool
   - API
-categories: ["unixtime.app"]
+categories: ["Open Source"]
 aliases:
   - "/posts/unixtimeapp-v03-initial-release-fulltext-timestamp-conversion/"
 ---

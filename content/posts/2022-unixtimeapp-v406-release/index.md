@@ -5,7 +5,7 @@ date: 2022-08-19T09:25:00+02:00
 publishdate: 2022-08-19T09:25:00+02:00
 lastmod: 2022-08-29T17:06:36+02:00
 draft: false
-categories: ["unixtime.app"]
+categories: ["Open Source"]
 tags:
   - unixtime.app
   - release
