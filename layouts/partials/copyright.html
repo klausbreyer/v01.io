@@ -1,8 +1,13 @@
 <div class="copyright">
-	<b>&copy; {{$.Site.Copyright }}</b>
-	&gt;<a href="{{ .Page.Permalink }}" target="_blank">Permalink</a>
-	&gt;<a href="{{ .Site.BaseURL }}posts/index.xml" target="_blank">RSS
-		Feed</a>
+	<div class="container between">
+		<b>&copy; {{$.Site.Copyright }}</b>
+		<span>
+			&gt;<a href="{{ .Page.Permalink }}" target="_blank">Permalink</a>
+			&gt;<a href="{{ .Site.BaseURL }}posts/index.xml" target="_blank">RSS
+				Feed</a>
 
-	&gt;<a href="https://www.iubenda.com/privacy-policy/96468474/full-legal" target="_blank">Imprint</a>
+			&gt;<a href="https://www.iubenda.com/privacy-policy/96468474/full-legal" target="_blank">Imprint</a>
+		</span>
+	</div>
+
 </div>

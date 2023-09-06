@@ -7,8 +7,11 @@ summary: I'm Klaus Breyer. With a lifetime in tech, a degree in Software Enginee
 # Crafting Technological Futures
 
 {{< rawhtml >}}
+
+<div class="home">
 <a href="/images/klaus-breyer-a-full.jpg"><img src="/images/klaus-breyer-a-small.jpg" alt="Klaus Breyer" /></a>
 <a href="/images/klaus-breyer-b-full.jpg"><img src="/images/klaus-breyer-b-small.jpg" alt="Klaus Breyer" /></a>
+</div>
 {{< /rawhtml >}}
 
 ## Decade in Tech
