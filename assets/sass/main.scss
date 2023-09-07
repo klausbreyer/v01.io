@@ -267,10 +267,13 @@ article.pages\/bookshelf\/ {
   }
 }
 
-main div.home img {
-  //mobile breakpoint
-  @media (max-width: 600px) {
-    height: 140px;
+main div.home {
+  margin-bottom: 1rem;
+  img {
+    //mobile breakpoint
+    @media (max-width: 600px) {
+      height: 140px;
+    }
   }
 }
 main figure {
@@ -355,13 +358,18 @@ footer div.mailchimp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 0.25rem;
     input[type="email"] {
       font-size: 1.5rem;
       flex: 1;
     }
     input[type="submit"] {
+      color: var(--text);
+      background-color: var(--primary);
       font-weight: bold;
+      border-radius: 0;
       font-size: 1.5rem;
+      padding: 0 0.5rem;
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Home
 date: 2023-09-01
 summary: I'm Klaus Breyer. With a lifetime in tech, a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others.
+image: /images/preview.png
 ---
 
 # Crafting Technological Futures
@@ -14,9 +15,20 @@ summary: I'm Klaus Breyer. With a lifetime in tech, a degree in Software Enginee
 </div>
 {{< /rawhtml >}}
 
-## Decade in Tech
+I'm Klaus Breyer. With [a lifetime in tech]({{< relref "/pages/cv" >}}), a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as _CTO/CTPO_ in many others.
 
-I'm Klaus Breyer. With [a lifetime in tech]({{< relref "/pages/cv" >}}), a degree in _Software Engineering_, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as _CTO/CTPO_ in many others.
+As I bootstrap my next startup idea, I'm _available for consulting and interim leadership gigs_, leveraging my extensive experience.
+
+## Proven Impact and Expertise
+
+I turn visionary business goals into concrete results, with focused expertise at the _intersection of product and tech organization_.
+It's not merely about coding; it's about crafting standout products that make a mark and drive business forward.
+
+1. _Startup strategy_ – turning ideas into impactful ventures.
+1. Selling the _tech vision_ – whether it's to investors or stakeholders.
+1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
+1. Assembling and nurturing _a killer team_.
+1. Bringing _product & engineering processes_ up to speed.
 
 ## Shape Up
 
@@ -32,19 +44,9 @@ From startup _monoliths_ to large _microservice_ environments, I've led and laun
 
 But beyond the tech, I build infrastructures that empower.
 
-Teams that innovate.
+_Teams that innovate._
 
-Projects that matter.
-
-## Proven Impact and Expertise
-
-What do I bring to the table? Strategy and technical prowess. It’s not about coding; it’s about laying the foundation for products that make a mark. And doing it in sync with the business side of things.
-
-1. _Startup strategy_ – turning ideas into impactful ventures.
-1. Selling the _tech vision_ – whether it's to investors or stakeholders.
-1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
-1. Assembling and nurturing _a killer team_.
-1. Bringing _product & engineering processes_ up to speed.
+_Projects that matter._
 
 ## Writer & Speaker
 
@@ -60,7 +62,7 @@ That's it.
 
 Tech, product, business – that's where I thrive.
 
-More than code, it's about weaving the tech fabric into the company's culture.
+More than code, it's about _weaving the tech fabric into the company's culture_.
 
 For agencies, SME or fledgling startups.
 

@@ -9,12 +9,13 @@ Hello, I'm Klaus Breyer, a _technology leader_ with a strong entrepreneurial spi
 
 I've anchored my beliefs in [Shape Up]({{< relref "/tags/shapeup/" >}}), the next wave of agile.
 
-What do I bring to the table? _Strategy and technical prowess_. It’s not about coding; it’s about laying the foundation for products that make a mark. And doing it in sync with the business side of things.
+I turn visionary business goals into concrete results, with focused expertise at the _intersection of product and tech organization_.
+It's not merely about coding; it's about crafting standout products that make a mark and drive business forward.
 
 1. _Startup strategy_ – turning ideas into impactful ventures.
 1. Selling the _tech vision_ – whether it's to investors or stakeholders.
-1. _Prototyping & crafting_ the first version of a product from scratch, if need be.
-1. Assembling and nurturing a _killer team_.
+1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
+1. Assembling and nurturing _a killer team_.
 1. Bringing _product & engineering processes_ up to speed.
 
 From startup _monoliths_ to large _microservice_ environments, I've led and launched.
@@ -24,6 +25,7 @@ But beyond the tech, I build infrastructures that empower.
 Teams that innovate.
 
 Projects that matter.
+
 I've penned down my thoughts in [articles]({{< ref "/posts/" >}}) and shared them out loud at [conferences]({{< relref "appearances" >}}). Whether it's a page or a stage, I'm there. With a voice in the tech community, I am more than just a leader; I am an influencer, continually _bridging the gap between technology, product, and business_.
 
 > &raquo; Good software is always used but never finished.&laquo;
