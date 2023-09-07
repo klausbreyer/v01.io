@@ -27,8 +27,8 @@ It's not merely about coding; it's about crafting standout products that make a 
 1. _Startup strategy_ – turning ideas into impactful ventures.
 1. Selling the _tech vision_ – whether it's to investors or stakeholders.
 1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
-1. Assembling and nurturing _a killer team_.
-1. Bringing _product & engineering processes_ up to speed.
+1. Assembling and Nurturing _a Killer Team_ – Remote or in Berlin.
+1. Bringing _product & engineering processes_ up to speed - fostering _asynchronous collaboration_.
 
 ## Shape Up
 
