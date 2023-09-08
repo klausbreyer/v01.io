@@ -13,7 +13,7 @@ tags:
   - Org
 categories: ["Product"]
 image: "2023-09-09-ai-enhanced-product-development.png"
-social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
+# social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
 ---
 
 ![](2023-09-09-ai-enhanced-product-development.png)
