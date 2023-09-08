@@ -32,6 +32,7 @@ blockquote {
 em {
   // background: var(--highlight);
   font-style: normal;
+  color: var(--text);
 
   margin: 0 -0.4em;
   padding: 0.1em 0.4em;
@@ -182,6 +183,13 @@ header div.container {
 
 header nav.title {
   font-size: 1.33rem;
+  width: 100%;
+  position: relative;
+  em {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
   a.author {
     font-weight: bold;
     font-family: "Share Tech Mono";
