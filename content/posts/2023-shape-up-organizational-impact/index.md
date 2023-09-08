@@ -13,7 +13,7 @@ tags:
   - org
 categories: ["Engineering Org"]
 image: "2023-09-08-shaping-building-cycle.png"
-# social: "https://www.linkedin.com/posts/klaus-breyer_the-art-of-constant-de-risking-how-shape-activity-7042398219149963264-23Xv"
+social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
 ---
 
 Shape Up, at its core, is a method for software development. However, its influence doesn't stop there. Today, I want to delve into the broader organizational implications that this methodology brings along, beyond its direct application in development.
