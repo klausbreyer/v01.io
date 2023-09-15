@@ -1,7 +1,7 @@
 ---
 title: "Ripples of Shape Up: An Organizational Deep Dive"
 author: Klaus Breyer
-date: 2023-09-08T10:56:00+02:00
+date: 2023-09-15T10:56:00+02:00
 lastmod: 2023-09-14T08:31:00+02:00
 
 draft: false
@@ -12,7 +12,7 @@ tags:
   - product
   - org
 categories: ["Engineering Org"]
-image: "2023-09-08-shaping-building-cycle.png"
+image: "2023-09-15-shaping-building-cycle.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
 ---
 
@@ -26,7 +26,7 @@ Shape Up, at its core, is a method for software development. However, its influe
 
 ## Foundational Principles
 
-![](2023-09-08-shaping-building-cycle.svg)
+![](2023-09-15-shaping-building-cycle.svg)
 
 - **Synchronized Productivity**: Shape Up emphasizes the need for parallel workflows, especially as teams expand. This requires well-defined Presprictions for the building team and a strategic approach to feature planning (called Framing and Shaping)
 - **Not Just Another Method**: Beyond its tools, Shape Up represents a paradigm shift in work culture and approach.
