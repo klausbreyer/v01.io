@@ -1,10 +1,8 @@
 ---
 title: "Redefining Client Work - The Agency's Guide to Shape Up."
 author: Klaus Breyer
-date: 2023-09-20T14:28:00+02:00
+date: 2023-09-22T10:58:00+02:00
 # lastmod: 2023-09-14T08:31:00+02:00
-
-draft: true
 tags:
   - shapeup
   - process
@@ -28,14 +26,13 @@ Shape Up emerges as a beacon in a landscape of product development. Its main emp
 
 - **Trust the Team**: Clients must trust the capabilities of designers and developers.
 - **Project Scale**: For Shape Up's effectiveness, projects should be at least 2 weeks in duration.
-- **Versatile Designers**: Seek well-rounded designers instead of isolated UX and UI specialists.
-- **Full Stack Designers**: Those proficient in HTML and CSS to a production-grade, though not necessarily JavaScript.
 - **Dynamic Duos**: Ideally, projects should be handled by teams of two.
+- **Versatile Designers**: Seek well-rounded designers instead of isolated UX and UI specialists. Ideally proficient in HTML and CSS to a production-grade (, though not necessarily JavaScript).
 - **Robust Product Teams**: Essential during shaping. Otherwise, clients might inadvertently steer the project without appropriate de-risking.
-- **Leadership Buy-In**: Given its cross-functional nature, adopting Shape Up requires top-level support.
-- **Continuous Learning and Application**: Mastery and consistent application of the methodology are crucial.
+- **Leadership Buy-In**: Given its cross-functional nature, adopting Shape Up requires top-level support from the client sie.
+- **Continuous Learning and Application**: Mastery and consistent application of the methodology are crucial. It will not be perfect on the first try.
 
-### Key Insights into the Client-Agency Relationship with Shape Up
+### Client-Agency Relationship with Shape Up
 
 **Client Involvement in Shaping**: Engaging clients in the shaping process enhances their buy-in and fosters trust.
 
