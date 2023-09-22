@@ -10,7 +10,7 @@ tags:
   - product
   - org
 categories: ["Business"]
-image: "2023-09-20-shape-up-agency.png"
+image: "2023-09-20-shape-up-agency.png?"
 #social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
 ---
 
