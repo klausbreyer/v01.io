@@ -430,3 +430,11 @@ footer div.copyright {
   display: flex;
   justify-content: space-between;
 }
+
+.printspacer {
+  height: 100px;
+  display: none;
+  @media print {
+    display: block;
+  }
+}
