@@ -29,7 +29,7 @@ Shape Up emerges as a beacon in a landscape of product development. Its main emp
 - **Dynamic Duos**: Ideally, projects should be handled by teams of two.
 - **Versatile Designers**: Seek well-rounded designers instead of isolated UX and UI specialists. Ideally proficient in HTML and CSS to a production-grade (, though not necessarily JavaScript).
 - **Robust Product Teams**: Essential during shaping. Otherwise, clients might inadvertently steer the project without appropriate de-risking.
-- **Leadership Buy-In**: Given its cross-functional nature, adopting Shape Up requires top-level support from the client sie.
+- **Leadership Buy-In**: Given its cross-functional nature, adopting Shape Up requires top-level support from the client side.
 - **Continuous Learning and Application**: Mastery and consistent application of the methodology are crucial. It will not be perfect on the first try.
 
 ### Client-Agency Relationship with Shape Up
