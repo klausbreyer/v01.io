@@ -15,10 +15,16 @@
 
 body {
   background: var(--bg);
+  @media print {
+    background: none;
+  }
   // https://github.com/system-fonts/modern-font-stacks
   font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
     source-sans-pro, sans-serif;
   color: var(--text);
+  @media print {
+    color: var(--bg);
+  }
   font-size: 1.33rem;
   margin: 0;
   @media print {
@@ -30,10 +36,11 @@ blockquote {
   font-family: "Share Tech Mono";
 }
 em {
-  // background: var(--highlight);
   font-style: normal;
   color: var(--text);
-
+  @media print {
+    color: var(--bg);
+  }
   margin: 0 -0.4em;
   padding: 0.1em 0.4em;
   border-radius: 0.8em 0.3em;
@@ -100,6 +107,18 @@ hr {
   border-bottom: 1px dashed var(--primary);
 }
 
+.cv h1 {
+  @media print {
+    display: none;
+  }
+}
+
+.cv img {
+  @media print {
+    height: 200px;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -154,10 +173,21 @@ a:hover {
   text-decoration: underline;
 }
 
+a.open {
+  @media print {
+    display: none;
+  }
+}
 //header
 header {
   background: var(--footer);
+  @media print {
+    background: none;
+  }
   border-bottom: 10px solid var(--primary);
+  @media print {
+    border-bottom: 0px;
+  }
   font-family: "Share Tech";
 
   padding: 0.5rem 2rem 0.5rem 2rem;
@@ -195,10 +225,16 @@ header nav.title {
     font-family: "Share Tech Mono";
     font-style: italic;
     color: var(--text);
+    @media print {
+      color: var(--bg);
+    }
     font-size: 4.3rem;
+    @media print {
+      font-size: 3.5rem;
+    }
     letter-spacing: -0.1rem;
     @media (max-width: 480px) {
-      font-size: 3rem;
+      font-size: 2rem;
     }
   }
 
