@@ -2,7 +2,7 @@
 title: "Redefining Client Work - The Agency's Guide to Shape Up."
 author: Klaus Breyer
 date: 2023-09-22T10:58:00+02:00
-# lastmod: 2023-09-14T08:31:00+02:00
+lastmod: 2023-09-29T16:23:00+02:00
 tags:
   - shapeup
   - process
@@ -22,39 +22,32 @@ The difference? The latter agency has embraced the Shape Up methodology. Origina
 
 Shape Up emerges as a beacon in a landscape of product development. Its main emphasis is on continuous de-risking, aligning projects with the client's vision, and efficient resource utilization. By integrating clients into the process, it fosters _transparency, collaboration, and synchronization_. The allure of Shape Up lies in its _commitment_: although the exact nature of the outcome might evolve, the _promise of a tangible deliverable remains constant_.
 
+### The Critical Role of Client Involvement
+
+The Shape Up methodology, while potent, is not a catch-all solution. Its success hinges heavily on the relationship between the agency and its client. Here's a candid breakdown:
+
+- **Active Participation, Not Passive Observance**: Clients can't be mere bystanders in the Shape Up journey. Their hands-on involvement during shaping and at key checkpoints ensures that projects align with their vision.
+
+- **Trust or Bust**: Here's the blunt truth— if the agency-client relationship is fraught with distrust, incessant arguments, and undue pressure, then implementing Shape Up is an exercise in futility. In fact, it raises a bigger question: is it even worth having such a client? Agencies need to evaluate if the monetary gain is worth the mental strain and potential damage to the team's morale.
+
+- **Educate to Elevate**: The onus is on agencies to guide clients through the Shape Up maze. By helping them navigate its intricacies, clients can appreciate the rationale behind decisions, ensuring they're more than just passive beneficiaries.
+
+- **Transparency is the Best Policy**: By looping clients in at pivotal stages, agencies can cultivate a culture of openness. This not only builds trust but ensures there's mutual agreement on expectations and outcomes.
+
 ### Crafting the Perfect Setup
 
-- **Trust the Team**: Clients must trust the capabilities of designers and developers.
-- **Project Scale**: For Shape Up's effectiveness, projects should be at least 2 weeks in duration.
-- **Dynamic Duos**: Ideally, projects should be handled by teams of two.
-- **Versatile Designers**: Seek well-rounded designers instead of isolated UX and UI specialists. Ideally proficient in HTML and CSS to a production-grade (, though not necessarily JavaScript).
-- **Robust Product Teams**: Essential during shaping. Otherwise, clients might inadvertently steer the project without appropriate de-risking.
-- **Leadership Buy-In**: Given its cross-functional nature, adopting Shape Up requires top-level support from the client sie.
-- **Continuous Learning and Application**: Mastery and consistent application of the methodology are crucial. It will not be perfect on the first try.
-
-### Client-Agency Relationship with Shape Up
-
-**Client Involvement in Shaping**: Engaging clients in the shaping process enhances their buy-in and fosters trust.
-
-**Setting Expectations**: Collaborating with clients heightens the need to set clear expectations, because there are on a fixed budget. A sincere "no" can often be more beneficial, building trust by avoiding overcommitment.
-
-**Product Managers over Project Managers**: It's pivotal to have product managers guiding the vision instead of merely managing tasks.
-
-**Focused Leadership Teams**: A fixed team responsible for shaping a client's project should comprise a developer (technical shaper) and product specialist, continually refining client objectives.
-
-**Outcome Guarantee**: If timelines extend, the agency bears the extra costs, ensuring clients always receive the promised outcome.
-
-**Time Pressure and Trade-offs**: Fixed deadlines ensure essential trade-offs are made.
-
-**Pitch as Part of the Contract**: The initial pitch becomes a component of the agreement, integrating the client's vision from the onset.
-
-**Shaping as Negotiation**: With client involvement, shaping becomes a negotiation about what's feasible within a set timeframe, fostering mutual understanding and respect. And thats a good thing.
-
-**New Ideas During Shaping**: Instead of expanding the scope of the current cycle when new ideas arise, the agency might suggest pitching a new concept, albeit at a cost.
-
-**Visual Design at the End**: Finalizing the visual design at the project's conclusion ensures optimal time utilization and guarantees a functional project with a superior user experience.
-
-**Backlog Management**: It's essential to gather what the client wishes to have, but also to agree on how available hours will be spent before commencing the work.
+- **Scale**: Projects need at least 2 weeks.
+- **Strong Product Guidance**: They keep clients from unknowingly derailing projects. A developer and product specialist together, refining client objectives.
+- **Product over Project**: It's pivotal to have product managers guiding the vision instead of merely managing tasks.
+- **Leadership**: Top-level client support is a must.
+- **Expectations**: Be clear, especially with fixed budgets. Sometimes, "no" is the only answer.
+- **Deadlines Matter**: They force essential decisions.
+- **Guaranteed Outcome**: If it takes longer, the agency foots the bill.
+- **Pitch as Part of the Contract**: The initial pitch becomes a component of the agreement, integrating the client's vision from the onset.
+- **Shaping as Negotiation**: With client involvement, shaping becomes a negotiation about what's feasible within a set timeframe, fostering mutual understanding and respect. And thats a good thing.
+- **UI Design at the End**: It ensures a functional project with a great user experience.
+- **Backlog Management**: It's essential to gather what the client wishes to have, but also to agree on how available hours will be spent before commencing the work.
+- **Continuous Learning**: It gets better with each try.
 
 ### A Practical Example
 
