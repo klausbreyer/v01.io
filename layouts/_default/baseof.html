@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         {{ block "title" . }}
-        {{ .Title }} &ndash; {{ .Site.Title }}
+        {{ if eq .Type "tags" }}
+        Entries for Tag {{ .Title }}
+        {{ else }}
+        {{ .Title }}{{ if eq .Lang "de" }} (Deutsch) {{ end }}
+        {{ end }}
+        &ndash; {{ .Site.Title }}
         {{ end }}
     </title>
+
+
     {{ $style := resources.Get "sass/main.scss" | resources.ToCSS |
     resources.Minify
     | resources.Fingerprint }}
@@ -28,6 +35,7 @@
     </script>
     {{ end }}
 </head>
+
 
 <body>
     <header>

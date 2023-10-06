@@ -4,11 +4,11 @@ author: Klaus Breyer
 date: 2023-10-06T13:29:00+02:00
 # lastmod: 2023-09-29T16:23:00+02:00
 tags:
-  - shapeup
-  - process
-  - engineering
-  - product
-  - org
+  - Clarity
+  - Focus
+  - Minimalism
+  - Cooperation
+  - Decisions
 categories: ["Product"]
 # image: "2023-09-20-shape-up-agency.png?"
 # social: "https://www.linkedin.com/posts/klaus-breyer_redefining-client-work-the-agencys-guide-activity-7110913038588760064-pMSy"

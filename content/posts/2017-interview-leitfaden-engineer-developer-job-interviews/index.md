@@ -9,7 +9,7 @@ tags: ["interview", "hr", "job interview"]
 categories: ["Code"]
 ---
 
-![](2017-01-18-application-questions.jpg)
+![](2017-01-18-bewerbungsfragen.jpg)
 
 In general, my goal in a job interview is to get the candidate talking. Only then can I get a clear impression of whether there is energy coming from the interviewee during the conversation or if I have to invest a lot of energy myself (if the conversation is dragging).
 
