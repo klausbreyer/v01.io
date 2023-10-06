@@ -1,5 +1,5 @@
 baseURL = 'https://www.v01.io/'
-title = 'Klaus Breyer - CTPO: Startup Strategy, Product Execution & Tech Leadership'
+title = 'Klaus Breyer'
 copyright = 'KLAUS BREYER'
 # sectionPagesMenu = 'main'
 preserveTaxonomyNames = true
@@ -27,7 +27,6 @@ defaultContentLanguage = 'en'
   repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
   description = "I’m Klaus Breyer. With a lifetime in tech, a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others."
   image = 'images/klaus-breyer.jpg'
-  title = 'Klaus Breyer - CTPO: Startup Strategy, Product Execution & Tech Leadership'
 
 [privacy]
   [privacy.youtube]
