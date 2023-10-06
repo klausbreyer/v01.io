@@ -52,6 +52,14 @@ Throughout my career, I've led the development and launch of numerous cutting-ed
 
 As the Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company GmbH & Co. KGaA, I built the tech team from scratch within this new business unit and introduced the [Shape Up]({{< relref "/tags/shapeup/" >}}) method. Hydro Pocket is a leading provider of solutions for hydropower plants. It offers innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
 
+Gustavo Major Arantes, Global Product Manager at Voith Hydro:
+
+> Klaus is strongly recommended! We worked together the last couple of years and I am proud of what we achieved together!
+
+Andreas Puffert, Division Lead Strategic Experience Design at Ray Sono:
+
+> Klaus is a fire starter and absolute rockstar as CTO and CPO. Love to work with him!
+
 ### [BuzzBird GmbH](https://www.buzzbird.de/)
 
 **Role:** _Founder and Chief Technology & Product Officer_

@@ -52,15 +52,6 @@ _Projects that matter._
 
 I've penned down my thoughts in [articles]({{< ref "/posts/">}}) and shared them out loud at [conferences]({{< relref "appearances">}}). Whether it's a page or a stage, I'm there.
 
-## Mentoring
-
-I like to mentor and coach software engineers and first-time founders:
-
-- [Berlin Geekettes](http://www.geekettes.io/)
-- [REAKTOR.BERLIN](https://reaktor.berlin/portfolio/mentors/)
-- [next media accelerator](http://nma.vc/)
-- [APX](https://apx.ac/)
-
 ## My v0.1 Manifest
 
 > Good software is always used but never finished.
