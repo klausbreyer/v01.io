@@ -30,7 +30,7 @@
 
 <meta name="keywords" content="{{ $keywords }}">
 <meta name="author" content="{{.Site.Copyright}}">
-<meta name="description" content="{{.Site.Params.Description}}">
+<meta name="description" content="{{.Summary}}">
 
 <meta property="og:title" content="{{ .Title }} &ndash; {{ .Site.Title }}" />
 <meta property="og:description" content="{{.Summary}}" />
@@ -39,19 +39,15 @@
 <meta property="og:image" content="{{$image}}" />
 
 <meta property="article:section" content="posts" />
-<meta itemprop="article:published_time" {{ .PublishDate.Format $iso8601 |
-    printf "content=%q" | safeHTMLAttr }} />
-<meta itemprop="article:modified_time" {{ .Lastmod.Format $iso8601 |
-    printf "content=%q" | safeHTMLAttr }} />
+<meta itemprop="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+<meta itemprop="article:modified_time" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 
 <meta itemprop="name" content="{{ .Title }} &ndash; {{ .Site.Title }}">
 <meta itemprop="description" content="{{.Summary}}">
 
-<meta itemprop="datePublished" {{ .PublishDate.Format $iso8601 |
-    printf "content=%q" | safeHTMLAttr }} />
-<meta itemprop="dateModified" {{ .Lastmod.Format $iso8601 | printf "content=%q"
-    | safeHTMLAttr }} />
+<meta itemprop="datePublished" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
+<meta itemprop="dateModified" {{ .Lastmod.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
 <meta itemprop="wordCount" content="{{.WordCount}}">
 <meta itemprop="image" content="{{$image}}" />
 <meta itemprop="keywords" content="{{ $keywords }}" />
