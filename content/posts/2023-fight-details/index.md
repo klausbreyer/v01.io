@@ -11,7 +11,7 @@ tags:
   - Decisions
 categories: ["Product"]
 # image: "2023-09-20-shape-up-agency.png?"
-# social: "https://www.linkedin.com/posts/klaus-breyer_redefining-client-work-the-agencys-guide-activity-7110913038588760064-pMSy"
+social: "https://www.linkedin.com/posts/klaus-breyer_nobody-owes-you-simplicity-you-must-fight-activity-7117115148988731393-j67S"
 ---
 
 Product development isn't about cramming every detail from the get-go. It's about clarity and purpose.
