@@ -19,21 +19,103 @@ body {
     background: none;
   }
   // https://github.com/system-fonts/modern-font-stacks
-  font-family: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
-    source-sans-pro, sans-serif;
+  font-family: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif",
+    "Sitka Small", serif;
   color: var(--text);
   @media print {
     color: var(--bg);
   }
-  font-size: 1.33rem;
+  font-size: 1rem;
   margin: 0;
   @media print {
     font-size: 14px;
   }
 }
 
+p,
+li {
+  // text-indent: 1em;
+  line-height: 1.7;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-weight: 200;
+  letter-spacing: 0.03em;
+  word-spacing: 0.1em;
+  margin-top: 0;
+  font-feature-settings: "onum";
+  margin-bottom: 0.5em;
+}
+p.small {
+  font-size: 0.69em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Share Tech";
+  margin: 0;
+  margin-bottom: 0.25em;
+  clear: both;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  page-break-before: auto;
+}
+h1 {
+  padding-bottom: 0.5rem;
+  font-size: 3.052rem;
+  @media print, (max-width: 600px) {
+    font-size: 2.441rem;
+  }
+  margin-top: 0;
+}
+h2 {
+  font-size: 2.441rem;
+  @media print, (max-width: 600px) {
+    font-size: 1.953rem;
+  }
+  margin-top: 1em;
+}
+h3 {
+  font-size: 1.953rem;
+  @media print, (max-width: 600px) {
+    font-size: 1.563rem;
+  }
+  margin-top: 1em;
+}
+h4 {
+  font-size: 1.563rem;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+
+  font-family: "Share Tech";
+  font-weight: bold;
+  font-size: 1.1em;
+}
+a[href^="#"] {
+  @media print {
+    display: none;
+  }
+  opacity: 0.2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.open {
+  @media print {
+    display: none;
+  }
+}
+
 blockquote {
-  font-family: "Share Tech Mono";
+  font-family: "Share Tech";
 }
 em {
   font-style: normal;
@@ -56,31 +138,18 @@ em {
 }
 
 strong {
-  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
 }
 
 ul {
   margin: 0;
 }
 
-p,
-li {
-  line-height: 1.65;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  font-weight: 200;
-  letter-spacing: -0.003em;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-p.small {
-  font-size: 0.75em;
-}
-
 main,
 footer {
   div.container {
-    max-width: 880px;
+    max-width: 700px;
     margin: auto;
     padding: 2rem;
     @media print {
@@ -119,65 +188,6 @@ hr {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Share Tech Mono";
-  margin: 0;
-  margin-bottom: 0.25em;
-  clear: both;
-  line-height: 1;
-  page-break-before: auto;
-}
-h1 {
-  padding-bottom: 0.5rem;
-  font-size: 3.052rem;
-  @media print, (max-width: 600px) {
-    font-size: 2.441rem;
-  }
-  margin-top: 0;
-}
-h2 {
-  font-size: 2.441rem;
-  @media print, (max-width: 600px) {
-    font-size: 1.953rem;
-  }
-  margin-top: 1em;
-}
-h3 {
-  font-size: 1.953rem;
-  @media print, (max-width: 600px) {
-    font-size: 1.563rem;
-  }
-  margin-top: 1em;
-}
-h4 {
-  font-size: 1.563rem;
-}
-
-a {
-  color: var(--primary);
-  text-decoration: none;
-}
-a[href^="#"] {
-  @media print {
-    display: none;
-  }
-  opacity: 0.2;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a.open {
-  @media print {
-    display: none;
-  }
-}
 //header
 header {
   background: var(--footer);
@@ -200,8 +210,7 @@ header div.container {
   display: flex;
   flex-direction: row;
   margin: auto;
-  // width: 100%;
-  max-width: 880px;
+  max-width: 700px;
   justify-content: space-between;
   @media print {
     justify-content: center;
@@ -222,7 +231,7 @@ header nav.title {
   }
   a.author {
     font-weight: bold;
-    font-family: "Share Tech Mono";
+    font-family: "Share Tech";
     font-style: italic;
     color: var(--text);
     @media print {
@@ -232,7 +241,6 @@ header nav.title {
     @media print {
       font-size: 3.5rem;
     }
-    letter-spacing: -0.1rem;
     @media (max-width: 480px) {
       font-size: 2rem;
     }
@@ -263,6 +271,10 @@ header nav.menu {
     list-style: none;
     li {
       margin: 0;
+      margin-right: 0.5em;
+    }
+    a {
+      letter-spacing: -0.015em;
     }
     a.active,
     a:hover {
@@ -279,12 +291,6 @@ main {
 
 main article {
   margin-bottom: 3rem;
-}
-
-main a {
-  font-family: "Share Tech";
-  font-weight: bold;
-  font-size: 1.05em;
 }
 
 main div.mermaid a {
@@ -359,10 +365,6 @@ footer {
     display: none;
   }
   background: var(--footer);
-  font-size: 1.1rem;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif;
 }
 
 footer div.spacebetween {
@@ -403,6 +405,7 @@ footer div.mailchimp {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 0.25rem;
+    margin-bottom: 1rem;
     input[type="email"] {
       font-size: 1.5rem;
       flex: 1;

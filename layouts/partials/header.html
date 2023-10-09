@@ -3,7 +3,7 @@
     <a lang="en" class="author" href="/">{{ $.Site.Copyright }}</a>
     {{/* <span class="description">–</span> */}}
     {{/* <span class="description">- CTPO > <a lang="en" href="/categories/business/">Startup Strategy</a>, <a lang="en" href="/categories/product/">Product Execution</a> & <a lang="en" href="/categories/engineering-org/">Tech Leadership</a></span> */}}
-    <div class="description">CTPO: Startup Strategy, Product Execution & Tech Leadership <br /><br /></div>
+    <div class="description">A CTO/CTPO about Startup Strategy, Product Execution & Tech Leadership <br /><br /></div>
 
 </nav>
 
@@ -13,7 +13,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li>
-            &gt;<a lang="en" href="{{ .URL }}" {{ if or (eq $.Page.Name .Name) (and (eq $section_heading.Title "Blog" ) (eq .Name "Blog" )) (and (eq $section_heading.Title "Categories" ) (eq .Name "Blog" )) }}class="active" {{end}}>{{ .Name }}</a>
+            <a lang="en" href="{{ .URL }}" {{ if or (eq $.Page.Name .Name) (and (eq $section_heading.Title "Blog" ) (eq .Name "Blog" )) (and (eq $section_heading.Title "Categories" ) (eq .Name "Blog" )) }}class="active" {{end}}>{{ .Name }}</a>
         </li>
         {{ end }}
 
