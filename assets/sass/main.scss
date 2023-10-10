@@ -121,7 +121,7 @@ em {
   font-style: normal;
   color: var(--text);
   @media print {
-    color: var(--bg);
+    // color: var(--bg);
   }
   margin: 0 -0.4em;
   padding: 0.1em 0.4em;

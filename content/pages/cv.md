@@ -28,9 +28,7 @@ From startup _monoliths_ to large _microservice_ environments, I've led and laun
 
 But beyond the tech, I build infrastructures that empower.
 
-Teams that innovate.
-
-Projects that matter.
+Teams that innovate - Projects that matter.
 
 I've penned down my thoughts in [articles]({{< ref "/posts/" >}}) and shared them out loud at [conferences]({{< relref "appearances" >}}). Whether it's a page or a stage, I'm there. With a voice in the tech community, I am more than just a leader; I am an influencer, continually _bridging the gap between technology, product, and business_.
 
@@ -82,11 +80,6 @@ Key features of our system include a billing system, a matching algorithm, and a
 
 Right out of university, I started building Facebook apps as a freelancer with my co-founders – just at the right time. Even before I could hand in my bachelor thesis, we had earned enough money to start a GmbH. In the next 3 years alone, we built several hundred Facebook apps and grew from cash flow to 30+ employees. Nowadays, buddybrand is a full-service digital creative agency these days.
 
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
-
 ## Consulting, Startup Advisory & Side Projects
 
 In addition to my professional experience, I'm also a dedicated entrepreneur and startup investor. I develop and market projects on the side and support early-stage companies through money or time. I'm also committed to giving back to the [open-source]({{< ref "/categories/open-source" >}}) community and have contributed to several projects.
@@ -110,6 +103,10 @@ As a Technology Principal, I am involved in projects from the initial conceptual
 **Period:** 2019 – Now
 
 I am a technical sparring partner for founders with marketing and business intelligence as their focus. The challenges we tackle here focus on data protection / DSGVO and the product development process with the technical service provider.
+{{< rawhtml >}}
+
+<div class="printspacer"></div>
+{{< /rawhtml >}}
 
 ### [vitalfunktion GmbH](https://www.whatsinmymeds.de/)
 
@@ -122,11 +119,6 @@ I am a technical sparring partner for founders with marketing and business intel
 The startup’s main product is a really smooth-to-use app for medication intolerances. I am sparring with the founder Maximilian (pharmacist), weekly for product development and monetization. Currently, we have a solid number of several thousand MAU (Monthly Active Users) and refinance the app through fixed advertising cooperations in the pharmaceutical industry.
 
 In addition, there is also a B2B variant (planned initially as a pivot) aimed at doctors and pharmacists. I developed the prototype in Material UI and still maintain the product today.
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
 
 ### [Fillter](https://www.fillter.me/)
 
@@ -181,41 +173,6 @@ We had noticed that most photo printing vendors always send their customers to u
 I built [several iterations of a prototype](https://your-link-to-the-case-study-here.com) for the founders in 2016 and 2017 until they could convince backers and first customers with it.
 
 Afterward, I was Tech Lead for product development and Technical Evangelist to convince customers of the startup’s technology and capabilities.
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
 
 ## Mentoring
 
