@@ -5,6 +5,7 @@
     {{$section_heading := .Site.GetPage "section" .Section }}
     {{ if eq $section_heading.Title "Blog" }}
     <nav class="categories">
+        <strong>Categories: </strong>
         {{ $categories := .Site.Taxonomies.categories }}
         {{ range $categories }}
         <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{ .Count}});

@@ -59,7 +59,7 @@ h6 {
   margin: 0;
   margin-bottom: 0.25em;
   clear: both;
-  letter-spacing: -0.05em;
+  // letter-spacing: -0.05em;
   line-height: 1;
   page-break-before: auto;
 }
@@ -92,10 +92,6 @@ h4 {
 a {
   color: var(--primary);
   text-decoration: none;
-
-  font-family: "Share Tech";
-  font-weight: bold;
-  font-size: 1.1em;
 }
 a[href^="#"] {
   @media print {
@@ -159,8 +155,6 @@ footer {
 }
 
 time {
-  font-family: "Share Tech";
-  font-weight: bold;
 }
 input,
 select {
@@ -231,7 +225,6 @@ header nav.title {
   }
   a.author {
     font-weight: bold;
-    font-family: "Share Tech";
     font-style: italic;
     color: var(--text);
     @media print {
@@ -346,17 +339,11 @@ main figure {
   }
 }
 
-main nav.categories {
-  font-size: 1.5rem;
-}
-
 main aside {
   @media print {
     display: none;
   }
   margin-bottom: 1rem;
-  font-family: "Share Tech";
-  font-weight: bold;
 }
 
 //footer
@@ -376,12 +363,6 @@ footer div.spacebetween {
   @media (max-width: 600px) {
     flex-direction: column;
   }
-}
-
-footer a {
-  font-family: "Share Tech";
-  font-weight: bold;
-  font-size: 1.05em;
 }
 
 footer nav.categories {

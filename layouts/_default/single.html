@@ -28,21 +28,21 @@
     <h4>Article Meta Data</h4>
     <ul>
         {{if gt (.GetTerms "categories") 0}}
-        <li><b>Categories:</b>
+        <li><strong>Categories:</strong>
             {{ range (.GetTerms "categories") }}
             <a lang="{{.Lang}}" href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
         </li>
         {{ end }}
         <li>
-            <b>Published On:</b>
+            <strong>Published On:</strong>
             <time datetime="{{ .Date.Format " 2017-03-03T14:15:59-06:00"}}">
                 {{.Date}};
             </time>
         </li>
         {{if gt (.GetTerms "tags") 0}}
         <li>
-            <b>Tags: </b>
+            <strong>Tags: </strong>
             {{ range (.GetTerms "tags") }}
             <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
@@ -55,18 +55,18 @@
     <h4>Call to Action</h4>
 
     <ul>
-        <li>Personal feedback or booking inquiry? <a target="_blank" href="mailto:kb@v01.io?subject=About {{.Title}}&body={{.Permalink}}">Drop
+        <li><strong>Personal feedback or booking inquiry?</strong> <a target="_blank" href="mailto:kb@v01.io?subject=About {{.Title}}&body={{.Permalink}}">Drop
                 me a line.</a></li>
         {{if .Params.Social }}
-        <li>Want to leave a public comment? <a href="{{.Params.Social}}" target="_blank">Join the discussion on LinkedIn.</a>
+        <li><strong>Want to leave a public comment?</strong> <a href="{{.Params.Social}}" target="_blank">Join the discussion on LinkedIn.</a>
         </li>
         {{ end }}
 
-        <li>Found a typo? <a target="_blank" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">I
+        <li><strong>Found a typo?</strong> <a target="_blank" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">I
                 would greatly appreciate a pull
                 request.</a>
         </li>
-        <li>Share this page:
+        <li><strong>Share this page:</strong>
             <a target="_blank" href="mailto:?subject={{.Title}}&body={{.Permalink}}">Email</a>;
             <a target="_blank" href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $keywords}}">Twitter</a>;
             <a target="_blank" href="https://www.linkedin.com/shareArticle?url={{.Permalink}}&title={{.Title}}">LinkedIn</a>;
