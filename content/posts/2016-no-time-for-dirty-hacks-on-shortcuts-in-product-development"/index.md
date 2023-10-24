@@ -1,5 +1,5 @@
 ---
-title: "Keine Zeit für Dirty Hacks: Über Abkürzungen bei der Produktentwicklung"
+title: "No Time for Dirty Hacks: On Shortcuts in Product Development"
 author: Klaus Breyer
 date: 2016-09-22T09:26:52+02:00
 publishdate: 2016-09-22T09:26:52+02:00
@@ -8,30 +8,30 @@ categories: ["Product"]
 tags: ["agency", "product development", "software engineering"]
 ---
 
-Ich war 6 Jahre CTO der Social Media Agentur [buddybrand](http://buddybrand.com) und bin nun fast ein Jahr CTO des SaaS Startups [BuzzBird](https://www.buzzbird.de).
+I was CTO of the social media agency [buddybrand](http://buddybrand.com) for 6 years and have now been CTO of the SaaS startup [BuzzBird](https://www.buzzbird.de) for almost a year.
 
-Auch wenn der Themenbereich mit Social Media / Ad Tech sehr ähnlich ist, unterscheidet es sich doch fundamental, ob für (mehrere) Kunden ein Projekt abgewickelt, oder ein eigenes Produkt immer weiterentwickelt und besser gemacht wird.
-Agentur-Dienstleistung
-Der Vorteil einer Agentur ist sicherlich auch ihr Nachteil: Man hat da so Projekte am laufen. Und zwar eine ganze Menge Projekte. Bei buddybrand hatten wir in 3 Jahren 500 Apps geshipped.
+Even though the subject area with social media / ad tech is very similar, it differs fundamentally whether a project is processed for (several) customers, or an own product is continuously developed and improved.
+Agency Services
+The advantage of an agency is certainly also its disadvantage: It has ongoing projects. And quite a lot of projects. At buddybrand we shipped 500 apps in 3 years.
 
-Das bringt eine schnelle Lernkurve mit sich - für alle Beteiligten. Wenn ein Projekt mal eher so mittelmäßig lief, finden Learnings daraus direkt im nächsten Projekt Anwendung. Das Betrifft die Entwicklung genauso wie das Projektmanagement und die Zusammenarbeit sämtlicher Gewerke.
+This brings with it a fast learning curve - for all involved. If a project was rather mediocre, learnings from it are applied directly in the next project. This affects the development as well as the project management and the cooperation of all trades.
 
-Gerade in der Entwicklung kann super mit neue Frameworks experimentiert werden. Wir hatten in all den Agentur-Jahren sicherlich 5 verschiedene Frameworks sowohl im Backend als auch im Frontend. Diese Erfahrung macht auch für die absurdesten Kundenwünsche unglaublich flexibel.
+Especially in development, new frameworks can be experimented with superbly. In all the agency years we certainly had 5 different frameworks in the backend as well as in the frontend. This experience makes incredibly flexible for the most absurd customer wishes.
 
-Leider existiert ein hoher Zeit- und Budget-Druck, so dass man oft hinter seinen Möglichkeiten zurück bleibt. Andererseits ist das ja auch irgendwie egal, da die Projekte selten für die Ewigkeit sind.
-Produktentwicklung
-Bei der Produktentwicklung gibt es keine Abkürzungen. Dinge müssen ordentlich gemacht werden. Alles, was einmal live ist, wird verwendet und beeinflusst zukünftige Entscheidungen.
+Unfortunately, there is a high time and budget pressure, so that one often falls behind one's possibilities. On the other hand, that's also somehow irrelevant, as the projects are rarely for eternity.
+Product Development
+In product development, there are no shortcuts. Things have to be done properly. Everything that is live once is used and influences future decisions.
 
-Die Anwendungs-Architektur muss dabei so sauber wie möglich aufgesetzt sein,um sowohl Stabil zu sein als auch Handlungsspielraum zu gewähren. Dabei immer im Hinterkopf: Jede Stelle Code, die einmal geschrieben wurde, wird irgendwann auch noch einmal refactored.
+The application architecture must be set up as cleanly as possible to be both stable and offer room for manoeuvre. Always keep in mind: Every piece of code that was written once will also be refactored at some point.
 
-Bei der Datenhaltung gibt es absolut keinen Toleranz für unsauber modellierte Daten. Jede Entscheidung zieht immer einen langen Rattenschwanz nach sich. Sei es das Format der Daten oder nur die Benennung von Datenbankspalten.
+In data storage, there is absolutely no tolerance for poorly modelled data. Every decision always has a long tail. Be it the format of the data or just the naming of database columns.
 
-Es geht nicht mehr nur darum, ob rechtzeitig die Deadline geschafft wird, sondern wie aufwendig zukünftige Änderungen sind. Jedes Release erfordert bereits bestehende Daten zu migrieren und sehr aufwendig zu testen.
+It is no longer just about meeting the deadline on time, but how expensive future changes are. Every release requires migrating existing data and testing it very thoroughly.
 
-Das macht die Entwicklung von neuen Features deutlich langsamer, als die Freiheit bei jedem Release frisch zu starten.
-Es gibt keine Abkürzungen
-Jede Abkürzung oder jeder “Dirty Hack” kostet auf lange Sicht das doppelt davon, was er ursprünglich eingespart hat. Das heißt nicht, dass Produkt nicht schlank entwickeln werden sollten - aber sauber müssen sie sein. Es geht selten darum, ein neues Feature zwei Wochen früher zu shippen - sondern wo man nächstes Jahr ist und wie flexibel man dabei bleibt.
+This makes the development of new features significantly slower than the freedom to start fresh with each release.
+There are no shortcuts
+Every shortcut or "dirty hack" costs twice as much in the long run as it originally saved. This doesn't mean that products shouldn't be developed lean - but they must be clean. It's rarely about shipping a new feature two weeks earlier - but where you'll be next year and how flexible you remain.
 
-Auf der anderen Seite: Wer in einer Agentur arbeitet, sollte bitteschön auch immer den neusten heissen Scheiss nutzen und von der krassen Lernkurve profitieren.
+On the other hand: Those who work in an agency should always use the latest hot stuff and benefit from the steep learning curve.
 
-Im Optimalfall kann während einem Berufsleben auch mehrfach die Seite gewechselt werden. Jede Seite profitiert von den Erfahrungen der anderen. Aktuell wechselt auch im Rahmen eines Mentorings meinerseits jemand “die Seite” - was mich bewogen hatte mal meine Gedanken dazu aufzuschreiben.
+Ideally, you can switch sides several times during a career. Each side benefits from the experiences of the other. Currently, someone is "switching sides" in the context of mentoring by me - which prompted me to write down my thoughts on this.
