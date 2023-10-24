@@ -16,15 +16,21 @@
     <article>
         {{.Content}}
     </article>
+
+    {{ with .Params.Pure}}
+    {{ else }}
+    <h2>Entries</h2>
     <ul>
         <!-- Ranges through content/posts/*.md -->
         {{ range .Pages }}
         <li>
-            <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} |
+            <a href="{{.Permalink}}">
+                {{/* {{.Date.Format "2006-01-02"}} | */}}
                 {{.Title}}</a>
         </li>
         {{ end }}
     </ul>
+    {{ end }}
     {{ partial "translations.html" . }}
 </main>
 

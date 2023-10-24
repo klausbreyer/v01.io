@@ -1,4 +1,4 @@
-<h4>Translations</h4>
+{{ if .Translations }}<h4>Translations</h4>
 <ul>
     {{ range .Translations }}
     <li>
@@ -8,3 +8,4 @@
     </li>
     {{ end }}
 </ul>
+{{ end }}

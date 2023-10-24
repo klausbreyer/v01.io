@@ -12,11 +12,25 @@
 {{ $keywords = printf "%s,%s" $keywords .LinkTitle }}
 {{ end }}
 {{ end }}
+
+{{ if or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
+<div class="breadcrump">
+    <a href="/shape-up">Shape Up</a> &gt; <a class="text" href="{{.Permalink}}">{{ .Title }}</a>
+</div>
+{{ end }} 
+
+
 <article class="{{.File.Dir }} {{.File.BaseFileName}}">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 </article>
-<hr />
+
+{{ if or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
+<div class="breadcrump">
+    <a href="/shape-up">Shape Up</a> &gt; <a class="text" href="{{.Permalink}}">{{ .Title }}</a>
+</div>
+{{ end }} 
+
 
 {{ if .IsTranslated }}
 <aside>
@@ -24,6 +38,8 @@
 </aside>
 {{ end }}
 
+{{ with .Params.Pure}}
+{{ else }}
 <aside>
     <h4>Article Meta Data</h4>
     <ul>
@@ -36,9 +52,10 @@
         {{ end }}
         <li>
             <strong>Published On:</strong>
-            <time datetime="{{ .Date.Format " 2017-03-03T14:15:59-06:00"}}">
-                {{.Date}};
+            <time datetime="{{ .Date.Format " 2006-01-02" }}">
+                {{ .Date.Format "2006-01-02" }}
             </time>
+
         </li>
         {{if gt (.GetTerms "tags") 0}}
         <li>
@@ -50,7 +67,6 @@
         {{ end }}
     </ul>
 </aside>
-
 <aside>
     <h4>Call to Action</h4>
 
@@ -81,4 +97,5 @@
         </li>
     </ul>
 </aside>
+{{ end }}
 {{ end }}

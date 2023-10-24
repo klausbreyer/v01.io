@@ -66,4 +66,4 @@ More than code, it's about _weaving the tech fabric into the company's culture_.
 
 For agencies, SME or fledgling startups.
 
-Interested? Drop me a line at [kb@v01.io](mailto:kb@v01.io).
+Interested? Drop me a line at [kb@v01.io](mailto:kb@v01.io)!
