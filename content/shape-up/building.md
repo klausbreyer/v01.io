@@ -4,7 +4,10 @@ title: "Shape Up Workshop: Building with a Fixed Time Mindset"
 date: 2023-10-24T11:31:00+02:00
 draft: false
 pure: true
+image: "2023-10-24-shape-up-offering-educate.png"
 ---
+
+![](../2023-10-24-shape-up-offering-educate.svg)
 
 ## Target Audience
 

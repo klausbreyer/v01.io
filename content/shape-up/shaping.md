@@ -4,7 +4,11 @@ date: 2023-10-24T11:37:00+02:00
 summary: "This workshop introduces 'Shaping' for projects with a variable scope, emphasizing its significance in fixed time budgets. Topics include collaborative de-risking, essential shaping tools, and strategies for team connectivity. Participants will gain hands-on experience and a deeper understanding of this approach."
 draft: false
 pure: true
+
+image: "2023-10-24-shape-up-offering-educate.png"
 ---
+
+![](../2023-10-24-shape-up-offering-educate.svg)
 
 ## Target Audience
 

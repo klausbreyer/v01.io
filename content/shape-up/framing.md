@@ -4,42 +4,46 @@ summary: "This workshop delves into 'Framing' as a foundational step in product 
 date: 2023-10-24T11:39:00+02:00
 draft: false
 pure: true
+
+image: "2023-10-24-shape-up-offering-educate.png"
 ---
 
-## Target Audience:
+![](../2023-10-24-shape-up-offering-educate.svg)
+
+## Target Audience
 
 - **Primary:** Business Owners, Managers, Product Managers, Concept Developers, Strategists
 - **Secondary:** Designers, Developers
 
-## Duration:
+## Duration
 
 4 hours
 
-## Content:
+## Content
 
-### Introduction to Framing:
+### Introduction to Framing
 
 - Explore the significance of Framing as the foundational step in the product development process.
 - How it differentiates and complements techniques like "Jobs To Be Done" and User Research.
 
-### Deep Dive into Framing Techniques:
+### Deep Dive into Framing Techniques
 
 - Learn to pinpoint and truly understand the core of a business problem.
 - Grasp the relationship between Framing, customer needs (Jobs To Be Done), and insights gathered from User Research.
 - Recognize the importance of inter-departmental communication during the Framing process.
 
-### Hands-on Role-play:
+### Hands-on Role-play
 
 - Step into real-world scenarios where you'll present project ideas.
 - Experience firsthand how Framing can lead to clearer project goals and better results.
 - Reflect on the role-play, discussing insights and key takeaways.
 
-### Conclusion and Feedback:
+### Conclusion and Feedback
 
 - Summarize key learning points and share experiences.
 - Open Q&A session to clarify any doubts.
 
-## Benefits of Attending:
+## Benefits of Attending
 
 - Experience a unique role-play exercise demonstrating the power of Framing in action.
 - Develop skills to critically evaluate and refine project briefings, leading to clearer project outcomes.
