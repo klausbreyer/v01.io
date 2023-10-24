@@ -8,7 +8,7 @@ pure: true
 image: "2023-10-24-shape-up-offering-educate.png"
 ---
 
-![](../2023-10-24-shape-up-offering-educate.svg)
+![Shape Up Offering](../2023-10-24-shape-up-offering-educate.svg)
 
 ## Target Audience
 

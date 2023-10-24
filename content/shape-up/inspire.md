@@ -7,7 +7,7 @@ summary: "Explore the world beyond traditional Scrum methodologies with Shape Up
 image: "2023-10-24-shape-up-offering-inspire.png"
 ---
 
-![](../2023-10-24-shape-up-offering-inspire.svg)
+![Shape Up Offering](../2023-10-24-shape-up-offering-inspire.svg)
 
 Inspire and Transform: Dive Beyond Scrum with Shape Up! In this enlightening session that will expand the horizons of the attendees beyond traditional methodologies. Attendees will not only grasp the foundational principles of Shape Up but also learn its practical application, paving the way for a more streamlined and efficient product development journey.
 

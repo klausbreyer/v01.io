@@ -7,7 +7,7 @@ pure: true
 image: "2023-10-24-shape-up-offering-index.png"
 ---
 
-![](2023-10-24-shape-up-offering-index.svg)
+![Shape Up Offering](2023-10-24-shape-up-offering-index.svg)
 
 Dive into the world of Shape Up – the next evolution in agile development. With its groundbreaking approach of "Fixed time, variable scope," Shape Up is revolutionizing how modern teams build and deliver products.
 
