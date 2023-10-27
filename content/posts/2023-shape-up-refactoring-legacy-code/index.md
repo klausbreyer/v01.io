@@ -47,7 +47,7 @@ Shaping takes on a dual role here, and the tech lead must ensure engineers are d
 
 ## Here's Where It Gets Tricky
 
-A dedicated tech sprint is a tech purist's dream—clean code, no scope creep. But the reality check: refactored code needs to be checked in old and new verwendungen. Post-refactoring, bugs often slip through the cracks due to inadequate testing.
+A dedicated tech sprint is a tech purist's dream—clean code, no scope creep. But the reality check: refactored code needs to be checked in both old and new use cases. Post-refactoring, bugs often slip through the cracks due to inadequate testing.
 
 ## The Answer?
 
