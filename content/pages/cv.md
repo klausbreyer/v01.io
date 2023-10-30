@@ -69,6 +69,7 @@ Andreas Puffert, Division Lead Strategic Experience Design at Ray Sono:
 We embarked on an exciting journey with the goal of making social media influencers programmatically bookable - similar to Google Ads. This challenge sparked innovation, leading to the development of sophisticated software, which is now primarily used internally. This software effectively digitalizes the influencer process, acting as an "Influencer Agency on Steroids."
 
 Key features of our system include a billing system, a matching algorithm, and an influencer inventory management module. Furthermore, it encourages transparency and data-driven decisions by enabling social media creators to share their statistics.
+{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ### [buddybrand GmbH](https://buddybrand.com/)
 
@@ -103,10 +104,6 @@ As a Technology Principal, I am involved in projects from the initial conceptual
 **Period:** 2019 – Now
 
 I am a technical sparring partner for founders with marketing and business intelligence as their focus. The challenges we tackle here focus on data protection / DSGVO and the product development process with the technical service provider.
-{{< rawhtml >}}
-
-<div class="printspacer"></div>
-{{< /rawhtml >}}
 
 ### [vitalfunktion GmbH](https://www.whatsinmymeds.de/)
 
@@ -182,6 +179,9 @@ I like to mentor and coach software engineers and first-time founders:
 - [REAKTOR.BERLIN](https://reaktor.berlin/portfolio/mentors/)
 - [next media accelerator](http://nma.vc/)
 - [APX](https://apx.ac/)
+  {{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
+  {{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
+  {{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ## Appearances
 
