@@ -36,6 +36,8 @@ I've penned down my thoughts in [articles]({{< ref "/posts/" >}}) and shared the
 
 That's all.
 
+{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
+
 ## Founding & Management Experience
 
 Throughout my career, I've led the development and launch of numerous cutting-edge projects in _modern web stacks_. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
@@ -179,9 +181,6 @@ I like to mentor and coach software engineers and first-time founders:
 - [REAKTOR.BERLIN](https://reaktor.berlin/portfolio/mentors/)
 - [next media accelerator](http://nma.vc/)
 - [APX](https://apx.ac/)
-  {{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
-  {{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
-  {{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ## Appearances
 
