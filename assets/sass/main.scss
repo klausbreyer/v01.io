@@ -21,13 +21,12 @@ body {
     background: none;
   }
   // https://github.com/system-fonts/modern-font-stacks
-  font-family: Rockwell, "Rockwell Nova", "Roboto Slab", "DejaVu Serif",
-    "Sitka Small", serif;
+  font-family: system-ui, sans-serif;
   color: var(--text);
   @media print {
     color: var(--bg);
   }
-  font-size: 1rem;
+  font-size: 20px;
   margin: 0;
   @media print {
     font-size: 14px;
@@ -37,12 +36,12 @@ body {
 p,
 li {
   // text-indent: 1em;
-  line-height: 1.7;
   word-break: break-word;
   overflow-wrap: break-word;
   font-weight: 200;
-  letter-spacing: 0.03em;
-  word-spacing: 0.1em;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  word-spacing: 0.05em;
   margin-top: 0;
   font-feature-settings: "onum";
   margin-bottom: 0.5em;
@@ -135,6 +134,7 @@ em {
 strong {
   font-variant: small-caps;
   letter-spacing: 0.05em;
+  font-weight: 800;
 }
 
 ul {
@@ -143,6 +143,7 @@ ul {
 div.breadcrump {
   font-size: 0.85em;
 }
+
 main,
 footer {
   div.container {
