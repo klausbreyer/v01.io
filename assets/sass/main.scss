@@ -103,8 +103,14 @@ a:hover {
 }
 
 a.open {
+  text-align: right;
+  display: block;
+  width: 100%;
   @media print {
     display: none;
+  }
+  &:hover {
+    text-decoration: none;
   }
 }
 
@@ -220,11 +226,7 @@ header nav.title {
   font-size: 1.33rem;
   width: 100%;
   position: relative;
-  em {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
+
   a.author {
     font-weight: bold;
     font-style: italic;
