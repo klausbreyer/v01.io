@@ -3,6 +3,7 @@ title: "Innovating Product Process Cadence: Shape Up Beyond 6+2"
 date: 2023-11-10
 
 image: "2023-10-27-shape-up-cadences.png"
+social: "https://www.v01.io/posts/2023-shape-up-cadences/"
 ---
 
 While I am currently bootstrapping a startup idea centered on Shape Up tooling, I've gathered multi-faceted insights: from interviewing 10 successful Shape Up teams to personal experiences and consulting roles. The Classic 6+2 model is prevalent, but intriguing variations exist, often featuring on-call or enablement teams.
