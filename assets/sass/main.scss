@@ -39,7 +39,7 @@ li {
   word-break: break-word;
   overflow-wrap: break-word;
   font-weight: 200;
-  line-height: 1.6;
+  line-height: 1.56;
   letter-spacing: 0.02em;
   word-spacing: 0.05em;
   margin-top: 0;
@@ -68,12 +68,12 @@ h1 {
   padding-bottom: 0.5rem;
   font-size: 2.5rem;
   @media print, (max-width: 600px) {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   margin-top: 0;
 }
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   @media print, (max-width: 600px) {
     font-size: 1.3rem;
   }
@@ -134,7 +134,7 @@ em {
 strong {
   font-variant: small-caps;
   letter-spacing: 0.05em;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 ul {
