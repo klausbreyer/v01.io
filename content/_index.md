@@ -24,10 +24,10 @@ As I bootstrap my next startup idea, I'm _available for consulting and interim l
 I turn visionary business goals into concrete results, with focused expertise at the _intersection of product and tech organization_.
 It's not merely about coding; it's about crafting standout products that make a mark and drive business forward.
 
-1. _Startup strategy_ – turning ideas into impactful ventures.
+1. Startup strategy & _product-market fit_ – turning ideas into impactful ventures.
 1. Selling the _tech vision_ – whether it's to investors or stakeholders.
 1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
-1. Assembling and Nurturing _a Killer Team_ – Remote or in Berlin.
+1. Assembling and Nurturing _a Killer Team_ – Remote or in Berlin, transitioning from chaotic ad-hoc development to structured _product delivery cadence_.
 1. Bringing _product & engineering processes_ up to speed - fostering _asynchronous collaboration_.
 
 ## Shape Up
