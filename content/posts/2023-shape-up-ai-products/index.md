@@ -6,7 +6,10 @@ categories: ["Product"]
 tags: ["AI Development", "Project Management", "Shape Up", "Prototyping"]
 ---
 
-AI product development, known for its complexities and uncertainties, calls for a robust yet adaptable management approach. Shape Up, with its emphasis on shaping the solution space complemented by prototyping, provides a seamless blend of structure and flexibility. This dual process is pivotal in navigating the unpredictable terrain of AI projects, enhancing the likelihood of success.
+In software, outcomes can never be guaranteed. This is why Shape Up excels with its fixed-time, variable-scope approach.
+
+But, outcomes can be even harder to guarantee when you build products on top of some form of AI like LLMs.
+This is why de-risking projects with a structured yet flexible approach like Shape Up is even more important.
 
 ## Framing - Laying the Foundation
 
@@ -40,6 +43,6 @@ Prototyping is not about creating a polished product; it's about learning, exper
 
 ## Conclusion: A Strategic Approach for AI Projects
 
-Employing Shape Up's methodology of shaping the solution space while prototyping before building a concrete project offers a strategic pathway in AI development. This approach provides a structured yet flexible approach ideal for the dynamic field of AI.
+That you need to prototype to build an AI product is clear.
 
-It's a method that doesn't just manage risk; it turns it into an opportunity for innovation and breakthrough.
+But combining Prototyping with Shaping unlocks even more: both the Shaping and the Prototyping of the tech are more efficient.
