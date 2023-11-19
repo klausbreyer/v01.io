@@ -1,7 +1,9 @@
 ---
-title: "How I developed my own unix timestamp conversion tool to improve API developer workflows"
+title: "unixtime.app - How I developed my own unix timestamp conversion tool to improve API developer workflows"
 author: Klaus Breyer
-publishdate: 2022-08-26T11:23:00+02:00
+
+date: 2022-06-10T11:37:27+02:00
+lastmod: 2023-03-24T14:20:00+02:00
 draft: false
 categories: ["Open Source"]
 tags:
@@ -13,6 +15,14 @@ tags:
   - workflow-optimization
   - collaboration
   - prototyping
+
+image: "unixtime.app-workflow.png"
+
+aliases:
+  - /posts/2022-unixtimeapp-v03-initial-release-fulltext-timestamp-conversion/
+  - /posts/2022-unixtimeapp-v403-release--background-story/
+  - /posts/2022-unixtimeapp-v406-release/
+  - /posts/2023-unixtimestamp-open-source/
 ---
 
 Hi, Iam Klaus Breyer. And I am the author of unixtime.app: An API developers tool for bulk timestamp conversion.
@@ -71,3 +81,15 @@ As a fellow developer, you probably guessed that what this tool does is no rocke
 - At some point, I decided to add syntax highlighting for JSON because I guessed this is what most of the payload would be.
 - After everything was proven to work, I decided to release the product as a proper application for Mac and Windows.
 - After downloads were not picking up and the price was too low for advertising, I decided to make it Open Source.
+
+## Update: Open Source
+
+I am excited to announce that my app, [unixtime.app](https://www.unixtime.app), is now (2023-03-24) fully available for free in the web! This means that anyone can use it without any cost. I have made this decision because since the app was launched in the app stores, it did not generate enough revenue to cover the cost of the Apple Developer account.
+
+Although the app has a small but smart feature set, it cannot be priced high enough to justify a marketing campaign. Therefore, I decided to make the best of the situation and offer the tool to everyone for free. This way, everyone can use it without any limitations, and I hope it can help people in their work and daily lives.
+
+Additionally, I believe that offering [unixtime.app](https://www.unixtime.app) for free will allow me to receive valuable feedback and suggestions from the community. This feedback will help me make the app even better in the future.
+
+I want to thank everyone who has already downloaded and used the app, and I look forward to seeing how the community can help improve it.
+
+[Thank you for your support and happy contributing!](https://github.com/klausbreyer/unixtime.app)
