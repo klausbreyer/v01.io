@@ -3,7 +3,6 @@ title: "Folder Feeder: Personal Adhoc Podcast Hosting"
 author: Klaus Breyer
 date: 2023-08-03
 
-draft: true
 tags:
   - podcast
   - PHP
@@ -16,7 +15,10 @@ Imagine this: your favorite YouTube content creators have just uploaded a series
 
 ## Bridging the Gap: From Visual to Audio
 
-Recognizing this gap, I've crafted a straightforward yet powerful PHP script: [Folder Feeder](https://github.com/klausbreyer/folder-feeder). This tool is a bridge, transforming any collection of audio files into a podcast feed. It's particularly effective for converting YouTube videos into podcast episodes, enabling seamless enjoyment of these videos, akin to traditional podcasts in your personal playlist.
+Ever since I started using ChatGPT for coding, I've been spotting GPT-4 sized holes everywhere that I swiftly patch up.
+Recognizing this gap I just described above, I've crafted a straightforward yet powerful PHP script: [Folder Feeder](https://github.com/klausbreyer/folder-feeder). This tool is a bridge, transforming any collection of audio files into a podcast feed. It's particularly effective for converting YouTube videos into podcast episodes, enabling seamless enjoyment of these videos, akin to traditional podcasts in your personal playlist.
+
+![](folder-feeder.png)
 
 ### Key Features
 
