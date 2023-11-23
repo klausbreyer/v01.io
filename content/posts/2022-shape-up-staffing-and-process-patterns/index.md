@@ -17,6 +17,7 @@ social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-staffing-and-proce
 image: "2023-01-20-pattern-alternated-shaping.png"
 aliases:
   - "/posts/shape-up-staffing-and-process-patterns/"
+  - /posts/20221216shape-up-staffing-and-process-patterns
 ---
 
 ## Shape Up staffing and process patterns

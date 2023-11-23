@@ -36,7 +36,7 @@ Of course, this only works if the team is designed for it. Such a decision to ke
 You must also be aware that a lot of candidates apply for such an open application. That's why I have very clear guidelines. Here is a small excerpt from one of my job advertisements:
 
 **How to proceed**
-If the stack and the circumstances work for you, you can apply directly by sending your application to klaus@buzzbird.de.
+If the stack and the circumstances work for you, you can apply directly by sending your application to e@ma.il.
 Application Checklist:
 
 - Brief résumé: Who are you? What have you worked on so far? Using which technology?

@@ -5,6 +5,8 @@ summary: Explore the revolutionary Shape Up methodology with Klaus Breyer. From 
 pure: true
 
 image: "2023-10-24-shape-up-offering-index.png"
+aliases:
+  - /pages/shape-up/
 ---
 
 ![Shape Up Offering](2023-10-24-shape-up-offering-index.svg)

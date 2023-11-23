@@ -9,6 +9,7 @@ tags:
   - YouTube
   - technology
 categories: ["Open Source"]
+social: "https://www.linkedin.com/posts/klaus-breyer_folder-feeder-personal-adhoc-podcast-hosting-activity-7133364167738040322-Uvzu?"
 ---
 
 Imagine this: your favorite YouTube content creators have just uploaded a series of insightful podcasts. But there's a catch – they're all in video format. This is a familiar scenario in our digital age, where engaging audio content is often locked within visual media, posing a challenge for those with limited screen time or a preference for audio.
