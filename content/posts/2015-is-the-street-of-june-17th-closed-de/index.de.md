@@ -42,7 +42,7 @@ Ich kann nicht sagen, ob dieses Projekt der Auslöser war, jedenfalls wurde das 
 Ich jedenfalls habe mein Projekt angepasst und beziehe die Daten nun nicht mehr von dieser öffentlichen Stelle. Nun stelle ich eine Anfrage an die [Google Maps Distance Matrix API](https://developers.google.com/maps/documentation/distance-matrix/intro?hl=de) und rufe in Echtzeit ab, ob die kürzeste Route zwischen Brandenburger Tor und Ernst-Reuter-Platz kürzer als 5km ist und man sie in weniger als 15 min zurücklegen kann.
 
 Die Aussagen sind damit also noch akkurater. In Zukunft plane ich auch, dass ich dies noch um eine "history" API erweitere, die die historischen Daten dafür erfasst.
-Desweiteren habe ich das Open Source Projekt auf eine serverless Infrastruktur gebracht, es skaliert nun beliebig - auch bei der größten Großveranstaltung. Die wird es vermutlich dieses Jahr nicht geben, aber für die nächste Welt-Olympia-Sylvester-Meisterschaft bin ich vorbereitet.
+Des Weiteren habe ich das Open Source Projekt auf eine serverless Infrastruktur gebracht, es skaliert nun beliebig - auch bei der größten Großveranstaltung. Die wird es vermutlich dieses Jahr nicht geben, aber für die nächste Welt-Olympia-Sylvester-Meisterschaft bin ich vorbereitet.
 Spoiler Alert: gerade ist es (corona bedingt) natürlich nicht gesperrt.
 
 ## April 2021: Rewrite in Go
@@ -59,7 +59,7 @@ Noch gibt es immer noch keine Anzeichen von bald anstehenden Veranstaltungen - a
 
 ## April 2022: Vorläufiges Ende
 
-Ich habe das Projekt erst mal offline genommen. Google Maps wurde immer besser und ich brauche mehr Zeit, um mich auf andere Projekte zu fokusieren. Deshalb werde ich erst einmal nicht weiter Zeit in den Betrieb stecken. Aber: Stay tuned!
+Ich habe das Projekt erst mal offline genommen. Google Maps wurde immer besser und ich brauche mehr Zeit, um mich auf andere Projekte zu fokussieren. Deshalb werde ich erst einmal nicht weiter Zeit in den Betrieb stecken. Aber: Stay tuned!
 
 ## Medien-Erwähnungen <!-- wp:audio {"id":2283} --> Interview mit mir bei den Sonntagsfahrern auf radioeins[](https://www.radioeins.de/programm/sendungen/die_sonntagsfahrer/_/ist-die-strasse-des-17--juni-gesperrt-.html) <!-- /wp:audio -->
 

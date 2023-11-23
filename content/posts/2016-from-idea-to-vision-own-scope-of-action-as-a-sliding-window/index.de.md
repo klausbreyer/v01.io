@@ -43,7 +43,7 @@ Die Vision aufbauen
 
 Wenn das Unternehmen erst einmal läuft und das erste Geld verdient ist, fallen einem selbst und den Kunden plötzlich 100te tolle Features ein. Jetzt ist Ruhe gefragt.
 
-(Darüber, dass Feature-Requests von Kunden am besten erst mal komplett ignoriert werden, sondern es sich viel eher darauf fokusiert werden sollte das zugrunde liegende Problem zu verstehen, könnte ich nochmal einen ganz eigenen Blogeintrag verfassen. Mache ich euch bestimmt bald)
+(Darüber, dass Feature-Requests von Kunden am besten erst mal komplett ignoriert werden, sondern es sich viel eher darauf fokussiert werden sollte das zugrunde liegende Problem zu verstehen, könnte ich nochmal einen ganz eigenen Blogeintrag verfassen. Mache ich euch bestimmt bald)
 
 Wirklich wichtig ist allerdings, dass ein Gefühl dafür entwickelt werden muss, wo der Markt und das eigene Unternehmen in 5 Jahren sein wird. Dann (und erst dann!) können Features richtig priorisiert werden.
 
