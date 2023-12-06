@@ -7,6 +7,12 @@ aliases:
 
 As an accomplished writer and public speaker, I'm always eager to share my insights and expertise with others. In addition to my own book, I've written numerous guest articles for top blogs and am a frequent conference speaker, comfortable addressing audiences of all sizes and backgrounds.
 
+## Podcasts
+
+- 2023: 🇺🇸 [Building Tools for Shape Up – Klaus Breyer & Matt Lane, Co-founders of Dumplink)][16]
+- 2022: 🇩🇪 [Shape Up – Für alle, die Scrum nicht mögen – mit Klaus Breyer][2]
+- 2015: 🇩🇪 [WhatsApp für Unternehmen – Macht das Sinn?][3]
+
 ## Talks
 
 - 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})
@@ -22,11 +28,6 @@ As an accomplished writer and public speaker, I'm always eager to share my insig
 - 2013: 🇩🇪 [Wie effektiv sind mobile Social Media Kampagnen?][12]
 - 2012: 🇩🇪 [GET statt POST: Daten aus dem Open Graph lesen][13]
 - 2011: 🇩🇪 [Fixing Facebook API – Die schönsten Workarounds][14]
-
-## Podcasts
-
-- 2022: 🇩🇪 [Shape Up – Für alle, die Scrum nicht mögen – mit Klaus Breyer][2]
-- 2015: 🇩🇪 [WhatsApp für Unternehmen – Macht das Sinn?][3]
 
 ## Book
 
@@ -46,3 +47,4 @@ As an accomplished writer and public speaker, I'm always eager to share my insig
 [13]: http://de.slideshare.net/fbmarket/get-statt-post-daten-aus-dem-open-graph-lesen-allfacebook-developer-conference
 [14]: http://de.slideshare.net/klausbreyer/fixing-facebook-api
 [15]: https://www.youtube.com/watch?v=cUTvxNkUQrg
+[16]: https://shapersbuilders.transistor.fm/episodes/building-tools-for-shape-up-klaus-breyer-matt-lane-co-founders-of-dumplink
