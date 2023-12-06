@@ -1,6 +1,6 @@
 ---
 title: "Entwickler Sourcing mit Stack Overflow"
-author: Klaus Breyer
+
 date: 2016-08-09T09:32:00+02:00
 publishdate: 2016-08-09T09:32:00+02:00
 lastmod: 2021-06-29T10:40:28+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Nobody Owes You Simplicity. YOU Must Fight Details Early On."
-author: Klaus Breyer
+
 date: 2023-10-06T13:29:00+02:00
 # lastmod: 2023-09-29T16:23:00+02:00
 tags:

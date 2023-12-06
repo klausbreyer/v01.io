@@ -1,6 +1,6 @@
 ---
 title: "mobile batch upload - Wordpress Plugin"
-author: Klaus Breyer
+
 date: 2017-11-04T13:32:43+01:00
 publishdate: 2017-11-04T13:32:43+01:00
 lastmod: 2020-05-15T12:01:15+02:00

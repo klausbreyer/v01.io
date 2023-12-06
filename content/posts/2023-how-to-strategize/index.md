@@ -1,6 +1,6 @@
 ---
 title: "How to Strategize"
-author: Klaus Breyer
+
 date: 2023-12-05
 
 draft: true

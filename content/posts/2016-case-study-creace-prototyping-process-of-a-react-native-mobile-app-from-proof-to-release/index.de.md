@@ -1,6 +1,6 @@
 ---
 title: "Projektstudie: creAce - Prototyping-Prozess einer React Native Mobile App von Proof bis Release"
-author: Klaus Breyer
+
 date: 2016-08-29T18:30:16+02:00
 publishdate: 2016-08-29T18:30:16+02:00
 lastmod: 2021-07-21T16:36:45+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Das neue X für Y - über Startups, die Plattformen sein wollen."
-author: Klaus Breyer
+
 date: 2016-12-20T08:56:00+01:00
 publishdate: 2016-12-20T08:56:00+01:00
 lastmod: 2021-06-29T10:42:57+02:00

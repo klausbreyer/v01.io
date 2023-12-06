@@ -1,6 +1,6 @@
 ---
 title: "Pocket-Highlights"
-author: Klaus Breyer
+
 date: 2020-12-31T17:26:22+01:00
 publishdate: 2020-12-31T17:26:22+01:00
 lastmod: 2021-01-02T13:56:48+01:00

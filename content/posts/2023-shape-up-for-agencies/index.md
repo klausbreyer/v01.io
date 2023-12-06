@@ -1,6 +1,6 @@
 ---
 title: "Redefining Client Work - The Agency's Guide to Shape Up."
-author: Klaus Breyer
+
 date: 2023-09-22T10:58:00+02:00
 lastmod: 2023-09-29T16:23:00+02:00
 tags:

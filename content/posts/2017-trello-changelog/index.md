@@ -1,6 +1,6 @@
 ---
 title: "trello-changelog"
-author: Klaus Breyer
+
 date: 2017-12-23T13:31:53+01:00
 publishdate: 2017-12-23T13:31:53+01:00
 lastmod: 2020-05-15T12:01:18+02:00

@@ -1,6 +1,6 @@
 ---
 title: "2023 Homepage Relaunch"
-author: Klaus Breyer
+
 date: 2023-01-13T17:26:22+01:00
 draft: false
 categories: ["Code"]

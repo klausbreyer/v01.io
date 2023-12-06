@@ -1,6 +1,6 @@
 ---
 title: "Abrechnung und Vertragsarten bei agilen Softwareprojekten"
-author: Klaus Breyer
+
 date: 2014-03-01T11:26:47+01:00
 publishdate: 2014-03-01T11:26:47+01:00
 lastmod: 2021-06-29T10:37:38+02:00

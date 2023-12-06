@@ -1,6 +1,6 @@
 ---
 title: "Hidden Treasures of TLDs: How I Scraped Hackernews for Domain Names"
-author: Klaus Breyer
+
 publishdate: 2023-03-10T08:35:00+01:00
 lastmod: 2023-03-10T08:35:00+01:00
 draft: false

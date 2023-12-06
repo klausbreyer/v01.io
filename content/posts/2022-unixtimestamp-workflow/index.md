@@ -1,6 +1,5 @@
 ---
 title: "unixtime.app - How I developed my own unix timestamp conversion tool to improve API developer workflows"
-author: Klaus Breyer
 
 date: 2022-06-10T11:37:27+02:00
 lastmod: 2023-03-24T14:20:00+02:00

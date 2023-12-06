@@ -1,6 +1,6 @@
 ---
 title: "ist die Straße des 17. Juni gesperrt .de"
-author: Klaus Breyer
+
 date: 2015-12-08T13:49:17+01:00
 publishdate: 2015-12-08T13:49:17+01:00
 lastmod: 2022-08-02T13:47:55+02:00

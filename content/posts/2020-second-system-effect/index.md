@@ -1,6 +1,6 @@
 ---
 title: "Second-system effect"
-author: Klaus Breyer
+
 date: 2020-05-04T09:34:43+02:00
 publishdate: 2020-05-04T09:34:43+02:00
 lastmod: 2023-01-20T14:07:09+02:00

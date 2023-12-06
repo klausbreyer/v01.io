@@ -1,6 +1,6 @@
 ---
 title: "Unbundling Shape Up: Principles for Product Teams"
-author: Klaus Breyer
+
 date: 2023-12-05
 
 draft: false

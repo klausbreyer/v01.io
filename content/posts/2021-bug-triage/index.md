@@ -1,6 +1,6 @@
 ---
 title: "Bug Triage"
-author: Klaus Breyer
+
 date: 2021-12-23T09:17:20+01:00
 publishdate: 2021-12-23T09:17:20+01:00
 lastmod: 2023-04-14T17:43:22+02:00

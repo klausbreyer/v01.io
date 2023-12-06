@@ -1,6 +1,6 @@
 ---
 title: "Monospaced Fonts: Typefaces for Programmers"
-author: Klaus Breyer
+
 date: 2017-01-16T09:08:10+01:00
 publishdate: 2017-01-16T09:08:10+01:00
 lastmod: 2021-06-29T10:40:27+02:00

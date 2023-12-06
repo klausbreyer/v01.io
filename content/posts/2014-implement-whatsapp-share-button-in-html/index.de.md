@@ -1,6 +1,6 @@
 ---
 title: "Den WhatsApp Share Button in HTML implementieren"
-author: Klaus Breyer
+
 date: 2014-02-21T18:18:00+01:00
 publishdate: 2014-02-21T18:18:00+01:00
 lastmod: 2021-06-29T10:40:30+02:00

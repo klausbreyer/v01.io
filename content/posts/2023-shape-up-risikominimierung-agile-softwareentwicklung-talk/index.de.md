@@ -13,7 +13,6 @@ tags:
   - Decision-making
   - Product Strategy
 
-author: Klaus Breyer
 draft: false
 categories: ["Engineering Org"]
 image: "preview.png"

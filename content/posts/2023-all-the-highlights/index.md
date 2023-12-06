@@ -1,6 +1,6 @@
 ---
 title: "All The Highlights: Centralizing Readwise Highlights"
-author: Klaus Breyer
+
 date: 2023-07-26
 tags:
   - open source

@@ -1,12 +1,12 @@
 ---
-title: 'Implement the WhatsApp Share Button in HTML'
-author: Klaus Breyer
+title: "Implement the WhatsApp Share Button in HTML"
+
 date: 2014-02-21T18:18:00+01:00
 publishdate: 2014-02-21T18:18:00+01:00
 lastmod: 2023-02-10T14:17:00+01:00
 draft: false
-tags: ['facebook', 'whatsapp']
-categories: ['Code']
+tags: ["facebook", "whatsapp"]
+categories: ["Code"]
 social: "https://www.linkedin.com/posts/klaus-breyer_implement-the-whatsapp-share-button-in-html-activity-7031170679047663616-ui0i"
 ---
 
@@ -14,16 +14,16 @@ Recently, WhatsApp added a share button (I wrote this article in 2014). Buzzfeed
 
 ## How does it work?
 
-Behind the WhatsApp-Button is a simple link, which creates a so-called native deep link directly into the WhatsApp app and thus passes a text to the app.  And this is how it works:
+Behind the WhatsApp-Button is a simple link, which creates a so-called native deep link directly into the WhatsApp app and thus passes a text to the app. And this is how it works:
 
 ```html
 <a href="whatsapp://send?text=text by native deep link!">Send</a>
 ```
 
 {{< rawhtml >}}
-  <a href="whatsapp://send?text=Text durch native Deeplink">
-    Are you mobile on the site? Then you can test the code right here.
-  </a>
+<a href="whatsapp://send?text=Text durch native Deeplink">
+Are you mobile on the site? Then you can test the code right here.
+</a>
 {{< /rawhtml >}}
 
 Like a mailto: link, anyone can include this link on their website.

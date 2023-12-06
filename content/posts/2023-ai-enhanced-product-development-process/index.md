@@ -1,6 +1,6 @@
 ---
 title: "The Product Development Process in the Age of AI-Enhanced Developers"
-author: Klaus Breyer
+
 # date: 2023-09-08T10:56:00+02:00
 # lastmod: 2023-03-17T08:17:00+01:00
 

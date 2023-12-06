@@ -1,6 +1,6 @@
 ---
 title: "Weltweites Entwickler Sourcing: Gründe und Prozess dafür"
-author: Klaus Breyer
+
 date: 2016-08-02T08:21:37+02:00
 publishdate: 2016-08-02T08:21:37+02:00
 lastmod: 2023-11-23T08:21:37+02:00

@@ -1,6 +1,6 @@
 ---
 title: "Praxishandbuch Facebook Entwicklung"
-author: Klaus Breyer
+
 date: 2015-01-11T14:13:28+01:00
 publishdate: 2015-01-11T14:13:28+01:00
 lastmod: 2022-08-02T13:48:12+02:00

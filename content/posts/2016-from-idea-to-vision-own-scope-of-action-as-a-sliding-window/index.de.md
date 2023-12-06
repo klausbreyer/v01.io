@@ -1,6 +1,6 @@
 ---
 title: "Von der Idee zur Vision: Der eigene Handlungsspielraum als Sliding Window"
-author: Klaus Breyer
+
 date: 2016-12-21T08:41:12+01:00
 publishdate: 2016-12-21T08:41:12+01:00
 lastmod: 2021-06-29T10:39:18+02:00

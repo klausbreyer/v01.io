@@ -1,6 +1,6 @@
 ---
 title: "The thing with feature requests and poor product management"
-author: Klaus Breyer
+
 date: 2017-01-11T09:44:18+01:00
 publishdate: 2017-01-11T09:44:18+01:00
 lastmod: 2021-06-29T10:39:17+02:00

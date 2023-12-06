@@ -1,6 +1,6 @@
 ---
 title: "Global Developer Sourcing: Reasons and Process"
-author: Klaus Breyer
+
 date: 2016-08-02T08:21:37+02:00
 publishdate: 2016-08-02T08:21:37+02:00
 lastmod: 2021-06-29T10:40:29+02:00

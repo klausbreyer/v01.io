@@ -12,10 +12,6 @@ defaultContentLanguage = 'en'
   [languages.en]
 
 
-
-[author]
-  name = 'Klaus Breyer'
-
 [sitemap]
   changefreq = 'monthly'
 

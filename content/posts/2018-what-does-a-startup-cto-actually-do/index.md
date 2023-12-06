@@ -1,6 +1,6 @@
 ---
 title: "What does a startup CTO actually do?"
-author: Klaus Breyer
+
 date: 2018-01-12T09:09:44+01:00
 publishdate: 2018-01-12T09:09:44+01:00
 lastmod: 2023-01-20T16:40:00+01:00

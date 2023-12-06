@@ -1,6 +1,6 @@
 ---
 title: "Folder Feeder: Personal Adhoc Podcast Hosting"
-author: Klaus Breyer
+
 date: 2023-08-03
 
 tags:

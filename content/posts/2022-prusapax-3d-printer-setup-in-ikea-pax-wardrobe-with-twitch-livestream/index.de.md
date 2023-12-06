@@ -1,6 +1,6 @@
 ---
 title: "PrusaPax"
-author: Klaus Breyer
+
 date: 2022-03-15T08:07:07+01:00
 publishdate: 2022-03-15T08:07:07+01:00
 lastmod: 2022-08-02T14:50:43+02:00
