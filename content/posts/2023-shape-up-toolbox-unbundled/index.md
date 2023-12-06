@@ -37,15 +37,15 @@ This means the complete (small, autonomous) team is working on one scope of the 
 
 Use ticket systems primarily for operational, reactive tasks. For strategic work, such as feature development, assign problems and let teams self-organize around solutions.
 
-### Framing and Shaping with Clear Delineation
+## Framing and Shaping with Clear Delineation
 
 When approaching Framing and Shaping, [maintain a clear separation between discussing the problem to be solved and the solution itself.](https://www.feltpresence.com/framing/) This clarity ensures a focused and effective approach to project planning and execution.
 
-#### Framing
+### Framing
 
 This involves defining the high-level concept of a project. Understanding the problem or opportunity is key, along with establishing boundaries and objectives for the project.
 
-#### Shaping
+### Shaping
 
 Following framing, shaping provides detailed guidance without micromanaging. Techniques like breadboarding and fat marker sketches offer direction while preserving the team's creative and problem-solving autonomy.
 
