@@ -14,7 +14,7 @@ image: "guiding-star.webp"
 
 ![](guiding-star.webp)
 
-Earning my living as a CTO or CTPO, I recently launched [a new Software Tool](https://www.v01.io/posts/2023-dumplink-launch/) in a crowded market: how teams build software. Entering an established market with a different approach needs a sound foundation for why the new solution is contrarian to what others are already doing. Today I want to share the core principles guiding me for the last couple of years together with the thought leaders that inspired me here.
+Earning my living as a CTO or CTPO, I recently launched [a new Software Tool](https://www.v01.io/posts/2023-dumplink-launch/) in a crowded market: a tool to help teams build software. Entering an established market with a different approach needs a sound foundation for why the new solution is contrarian to what others are already doing while also still providing value. Today I want to share the core principles and the thought leaders that inspired me here.
 
 ## Cal Newport and the End of the Hyperactive Hive Mind
 
@@ -28,9 +28,9 @@ He also introduces the principle of Slow Productivity: _focus on one task at a t
 
 ## Shape Up and Variable Scope
 
-[Ryan Singer](https://www.feltpresence.com/) authored [a book about Basecamp's product process](https://basecamp.com/shapeup), which I implemented in my last Scrum team. This approach resolved longstanding issues in designer-developer collaboration: It's not about tooling or process optimization; it's about breaking down work so small, autonomous, cross-functional teams can tackle it effectively, [one of the core principle of Shape Up](https://www.v01.io/posts/2023-shape-up-toolbox-unbundled/).
+[Ryan Singer](https://www.feltpresence.com/) authored [a book about Basecamp's product process](https://basecamp.com/shapeup), which I implemented in my last team. This approach resolved longstanding issues in designer-developer collaboration: It's not about tooling or process optimization; it's about breaking down work so small, autonomous, cross-functional teams can tackle it effectively, [one of the core principle of Shape Up](https://www.v01.io/posts/2023-shape-up-toolbox-unbundled/).
 
-Another key principle is "appetite" (how much we're willing to spend) versus "estimates" (how long we think it will take). Shape Up champions projects with fixed time and variable scope.
+Another key principle is "appetite" (how much time we're willing to spend) versus "estimates" (how long we think it will take). Shape Up champions projects with fixed time and variable scope.
 This not only helps with strategic resource allocation, but when the scope is flexible, timing, costs, and above all, quality can be guaranteed.
 
 This method aligns perfectly with Slow Productivity. It's a natural development approach, akin to a startup environment, but scalable. [The world's top tech corporations came naturally roughly the same set of principles.](https://blog.pragmaticengineer.com/project-management-at-big-tech/).
