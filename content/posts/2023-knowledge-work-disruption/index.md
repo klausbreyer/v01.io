@@ -59,6 +59,6 @@ Async work avoids the hyperactive hive mind trap. While Shape Up, originating fr
 
 Back to where we started, with Cal Newport's insights. He's hitting the nail on the head with the Attention Capital Principle: _Think of the brain as your prime asset. It's all about how you deploy this capital_. Remember Ford? He didn't have more resources; he just used what he had differently, kickstarting an industrial revolution. We're on the brink of a similar upheaval in knowledge work.
 
-But here's the kicker: this time, it's not about optimizing standardized processes. It is more about being able to do a vast range of different and interesting projects. All while working at a natural pace and keeping our sanity intact.
+But here's the kicker: this time, it's about something other than optimizing standardized processes. It is just about knowledge workers being able to finish what they started while working at a natural pace and keeping their sanity intact.
 
-Optimize the processes, not the people!
+Optimize the environment, not the people!
