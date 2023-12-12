@@ -71,7 +71,7 @@ Andreas Puffert, Division Lead Strategic Experience Design at Ray Sono:
 We embarked on an exciting journey with the goal of making social media influencers programmatically bookable - similar to Google Ads. This challenge sparked innovation, leading to the development of sophisticated software, which is now primarily used internally. This software effectively digitalizes the influencer process, acting as an "Influencer Agency on Steroids."
 
 Key features of our system include a billing system, a matching algorithm, and an influencer inventory management module. Furthermore, it encourages transparency and data-driven decisions by enabling social media creators to share their statistics.
-{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
+{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ### [buddybrand GmbH](https://buddybrand.com/)
 
@@ -97,16 +97,6 @@ In addition to my professional experience, I'm also a dedicated entrepreneur and
 
 As a Technology Principal, I am involved in projects from the initial conceptual brainstorming stage to the eventual implementation, using either internal or external resources. In larger projects, I take on the role of Tech Lead, overseeing a development team. I perform these duties on-site with the Berlin team or remotely with an international team of developers.
 
-### [touch361](https://touch361.org/)
-
-**Role:** Startup Advisor
-
-**Industry:** Business Intelligence Software
-
-**Period:** 2019 – Now
-
-I am a technical sparring partner for founders with marketing and business intelligence as their focus. The challenges we tackle here focus on data protection / DSGVO and the product development process with the technical service provider.
-
 ### [vitalfunktion GmbH](https://www.whatsinmymeds.de/)
 
 **Role:** Startup Adivsor
@@ -118,6 +108,18 @@ I am a technical sparring partner for founders with marketing and business intel
 The startup’s main product is a really smooth-to-use app for medication intolerances. I am sparring with the founder Maximilian (pharmacist), weekly for product development and monetization. Currently, we have a solid number of several thousand MAU (Monthly Active Users) and refinance the app through fixed advertising cooperations in the pharmaceutical industry.
 
 In addition, there is also a B2B variant (planned initially as a pivot) aimed at doctors and pharmacists. I developed the prototype in Material UI and still maintain the product today.
+
+{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
+
+### [touch361](https://touch361.org/)
+
+**Role:** Startup Advisor
+
+**Industry:** Business Intelligence Software
+
+**Period:** 2019 – 2023
+
+I was a technical sparring partner for founders with marketing and business intelligence as their focus. The challenges we tackled focused on data protection / DSGVO and the product development process with the technical service provider.
 
 ### [Fillter](https://www.fillter.me/)
 
@@ -137,7 +139,7 @@ The tool is a joint venture with [Felix and Oğuz](https://yilmazhummel.com/). W
 
 **Industry:** Developer Tools
 
-**Period:** 2022 – 2023
+**Period:** 2022 – now
 
 A tool designed for API developers to facilitate bulk timestamp conversion. The idea was born out of my work as a Tech Lead in an IIoT microservice context where data, coded as Unix timestamps, was plentiful. I sought to streamline my workflow, crafting a tool that let me bypass the laborious task of individually selecting timestamps for conversion in external services. Now, I can simply copy entire API requests into unixtime.app and view all timestamps directly within their context. The tool also allows me to capture screenshots of the conversions, useful for sharing in collaborative spaces like Slack or JIRA. What started as a straightforward HTML file has evolved into a full-fledged application for Mac and Windows and is now open source.
 
@@ -150,6 +152,8 @@ A tool designed for API developers to facilitate bulk timestamp conversion. The 
 **Period:** 2020 – 2021
 
 Remote times necessitate remote tools. Cloudlog.dev is a tool designed for frontend developers. It allows them to stream the `console.log` output from any remote browser in real-time directly into their own developer console.
+
+{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ### Fotando GmbH
 
@@ -172,15 +176,6 @@ We had noticed that most photo printing vendors always send their customers to u
 I built [several iterations of a prototype](https://your-link-to-the-case-study-here.com) for the founders in 2016 and 2017 until they could convince backers and first customers with it.
 
 Afterward, I was Tech Lead for product development and Technical Evangelist to convince customers of the startup’s technology and capabilities.
-
-## Mentoring
-
-I like to mentor and coach software engineers and first-time founders:
-
-- [Berlin Geekettes](http://www.geekettes.io/)
-- [REAKTOR.BERLIN](https://reaktor.berlin/portfolio/mentors/)
-- [next media accelerator](http://nma.vc/)
-- [APX](https://apx.ac/)
 
 ## Appearances
 
@@ -210,6 +205,15 @@ As an accomplished writer and public speaker, I'm always eager to share my insig
 ### Book
 
 - 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="2015-practical-guide-facebook-development">}}).
+
+## Mentoring
+
+I like to mentor and coach software engineers and first-time founders:
+
+- [Berlin Geekettes](http://www.geekettes.io/)
+- [REAKTOR.BERLIN](https://reaktor.berlin/portfolio/mentors/)
+- [next media accelerator](http://nma.vc/)
+- [APX](https://apx.ac/)
 
 [2]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
 [3]: https://superdev.club/podcasts/shape-up/
