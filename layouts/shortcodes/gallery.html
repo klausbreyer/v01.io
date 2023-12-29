@@ -1,0 +1,6 @@
+<div class="gallery">
+	{{ range (split (.Get 0) "|") }}
+	{{ $imageParts := split . "," }}
+	<a href="{{ index $imageParts 0 }}" target="_blank"><img src="{{ index $imageParts 1 }}" /></a>
+	{{ end }}
+</div>
