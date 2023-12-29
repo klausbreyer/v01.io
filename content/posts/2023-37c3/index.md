@@ -20,7 +20,7 @@ Having followed the Chaos Communication Club activities since around 2008, and h
 
 {{< gallery "outside.jpg,outside.jpg|" >}}
 
-### The Assembly's: A Grand Nerd Wonderland
+### The Assemblies: A Grand Nerd Wonderland
 
 37C3 transcends a mere conference; it epitomizes the celebration of hacker ethos. Structured around Assemblies and Talks, the event unfolds a kaleidoscope of hacker culture, from binary adding machines and fake ticket vending machines to homemade submarines. These sessions navigate through a spectrum from the intricacies of cutting-edge technology to the socio-political reverberations of digital activism, offering a panorama that is as diverse as it is profound.
 
@@ -28,7 +28,7 @@ Having followed the Chaos Communication Club activities since around 2008, and h
 
 ### A Landscape Adorned with Cat Ears
 
-One striking feature of 37C3, which unfortunately I couldn't capture in photographs due to the event's strict no-photography policy regarding people, was the prevalence of cat ears. This whimsical yet potent symbol of the hacker community's spirit was ubiquitous. These were not just any cat ears – they were a vibrant mix of 3D printed pieces and handcrafted ones, each pair as unique as its wearer, reflecting the blend of technology and personal expression that defines the community.
+One striking feature of 37C3, which unfortunately I couldn't capture in photographs due to the event's strict no-photography policy regarding people, was the prevalence of cat ears. These were not just any cat ears – they were a vibrant mix of 3D printed pieces and handcrafted ones, each pair as unique as its wearer, reflecting the blend of technology and personal expression that defines the community.
 
 {{< gallery "unicorn.jpg,unicorn.jpg|unicorns.jpg,unicorns.jpg|" >}}
 
@@ -66,4 +66,4 @@ Despite its free-spirited nature, 37C3 was a model of order and respect. Attende
 
 37C3, in many ways, was a prototype of a future society. A place where possessions could be left unattended without fear, reflecting a high level of trust and mutual respect within the community.
 
-In conclusion, the 37C3 experience was a profound insight into a world where technology, creativity, and community converge to create a unique cultural phenomenon. It's a testament to the potential of what can be achieved when boundaries are pushed, and minds are open. As I reflect on my journey through this hacker wonderland, I'm left with a renewed sense of optimism for the future of technology and its role in shaping society.
+In conclusion, the 37C3 experience was a quick trip into a desirable future, where technology, creativity, and community converge to create a unique cultural phenomenon. It's a testament to the potential of what can be achieved when boundaries are pushed, and minds are open. As I reflect on my journey through this hacker wonderland, I'm strenghed in my optimism for the future of technology and its role in shaping society.
