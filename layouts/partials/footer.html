@@ -1,60 +1,38 @@
-<div class="spacebetween">
-    <div class="about">
-        <h3>About</h3>
-        <p>{{.Site.Params.Description}}</p>
-        <p>Reach me via: <a href="mailto:kb@v01.io?subject=v01.io">E-Mail</a> or follow me on
-            <a href="https://www.linkedin.com/in/klaus-breyer/" target="_blank">LinkedIn</a> & <a href="https://twitter.com/klausbreyer" target="_blank">Twitter</a>.
-        </p>
-    </div>
-    <div class="mailchimp">
-        <h3>Mailing List</h3>
-        <p>If you want to be informed about something significant happening
-            here,
-            please
-            subscribe to my Mailing List.</p>
-
-        {{/* <p>Right now, I plan to not send newsletters very often – only
-            for
-            essential
-            topics.<br>For all the minor updates, feel free to subscribe via
-            RSS.
-        </p> */}}
-        <div id="mc_embed_signup">
-
-            {{/* <h3>Newsletter</h3> */}}
-            <form action="
-            https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
-
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="">&nbsp;
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-
-            </form>
-
+<div class="container p-4 mx-auto lg:p-8">
+    <div class="grid grid-cols-1 gap-4 mb-8 sm:grid-cols-2">
+        <div class="border-t-4 about">
+            <h3 class="mb-2 text-xl ">About</h3>
+            <p>{{.Site.Params.Description}}</p>
+            <p>Reach me via: <a href="mailto:kb@v01.io?subject=v01.io" class="text-primary hover:underline">E-Mail</a> or follow me on
+                <a href="https://www.linkedin.com/in/klaus-breyer/" class="text-primary hover:underline" target="_blank">LinkedIn</a> & <a href="https://twitter.com/klausbreyer" class="text-primary hover:underline" target="_blank">Twitter</a>.
+            </p>
         </div>
+        <div class="border-t-4 ">
+            <h3 class="mb-2 text-xl ">Mailing List</h3>
+            <p class="mb-2">If you want to be informed about something significant happening here, please subscribe to my Mailing List.</p>
 
-        <p class="small">(After clicking subscribe your email address is
-            submitted to
-            MailChimp, the provider I use for my mailinglist. Your email
-            address is never sold or shared).</p>
+            <div id="mc_embed_signup" class="mb-2">
+                <form action="https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="">&nbsp;
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="px-4 py-2 font-bold text-white rounded cursor-pointer bg-primary button hover:opacity-90">
+                </form>
+            </div>
+
+            <p class="text-xs">(After clicking subscribe your email address is submitted to MailChimp, the provider I use for my mailinglist. Your email address is never sold or shared).</p>
+        </div>
     </div>
+
+    <nav class="mb-8">
+        <ul class="flex flex-wrap gap-4 justify-stretch">
+
+
+            {{ $categories := .Site.Taxonomies.categories }}
+            {{ range $categories }}
+
+            <li class="border-t-4 grow">
+                <a href="{{ .Page.Permalink }}" class=" text-primary hover:underline">{{ .Page.Title }}</a> ({{ .Count }} Posts)
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
 </div>
-
-<nav class="categories">
-    <h3>Blog categories</h3>
-
-    {{ $categories := .Site.Taxonomies.categories }}
-    {{ range $categories }}
-    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{
-    .Count
-    }});
-    {{ end }}
-</nav>
-
-{{/* <nav class="tags">
-    <h3>Blog Tags</h3>
-    {{ range .Site.Taxonomies.tags }}
-    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{
-    .Count
-    }});
-    {{ end }}
-</nav> */}}

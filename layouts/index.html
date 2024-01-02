@@ -3,8 +3,9 @@
 {{ end }}
 
 {{ define "main" }}
-<main>
-    {{/* <h1>{{.Title}}</h1> */}}
-    <article>{{.Content}}</article>
+<main class="container mx-auto">
+    <article class='{{partial "prose.html"}}'>
+        {{.Content}}
+    </article>
 </main>
 {{ end }}

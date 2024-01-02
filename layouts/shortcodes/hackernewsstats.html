@@ -1,38 +1,36 @@
 <script src='/js/plotly-2.18.0.min.js'></script>
 
-<aside>
-    <b>Aggregate by:</b>
-    <select id="hackernewsstats-groupnorm">
+<aside class="p-4 border-b border-gray-200">
+    <b class="font-semibold">Aggregate by:</b>
+    <select id="hackernewsstats-groupnorm" class="p-2 mt-2 border border-gray-300 rounded bg-gray-50">
         <option value="percent">percentage</option>
         <option value="">absolute number</option>
     </select>
-    <select id="hackernewsstats-aggregation">
+    <select id="hackernewsstats-aggregation" class="p-2 mt-2 border border-gray-300 rounded bg-gray-50">
         <option value="counts">of yearly submitted links</option>
         <option value="scores">of yearly achieved scores</option>
     </select>
 </aside>
-<aside>
-    <b>Filter:</b>
-
-    <label for="original"> <input class="hackernews-categories" type="checkbox"
-            id="original" checked />original
-    </label>
-    <label for="generic"> <input class="hackernews-categories" type="checkbox"
-            id="generic" checked />generic
-    </label>
-    <label for="country"> <input class="hackernews-categories" type="checkbox"
-            id="country" checked />country
-    </label>
-    <label for="geographic"> <input class="hackernews-categories"
-            type="checkbox" id="geographic" checked />geographic </label>
-    <label for="brand"> <input class="hackernews-categories" type="checkbox"
-            id="brand" checked />brand </label>
-    </label>
+<aside class="p-4 border-b border-gray-200">
+    <b class="font-semibold">Filter:</b>
+    <div class="mt-2">
+        <label for="original" class="block cursor-pointer">
+            <input class="mr-2 rounded hackernews-categories form-checkbox text-primary" type="checkbox" id="original" checked />original
+        </label>
+        <label for="generic" class="block cursor-pointer">
+            <input class="mr-2 rounded hackernews-categories form-checkbox text-primary" type="checkbox" id="generic" checked />generic
+        </label>
+        <label for="country" class="block cursor-pointer">
+            <input class="mr-2 rounded hackernews-categories form-checkbox text-primary" type="checkbox" id="country" checked />country
+        </label>
+        <label for="geographic" class="block cursor-pointer">
+            <input class="mr-2 rounded hackernews-categories form-checkbox text-primary" type="checkbox" id="geographic" checked />geographic
+        </label>
+        <label for="brand" class="block cursor-pointer">
+            <input class="mr-2 rounded hackernews-categories form-checkbox text-primary" type="checkbox" id="brand" checked />brand
+        </label>
+    </div>
 </aside>
-
-<div id='hackernewsstats-endings'></div><br />
-<div id='hackernewsstats-recent'></div>
-
 
 <br /><br />
 <script>

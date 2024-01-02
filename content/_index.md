@@ -7,13 +7,7 @@ image: /images/preview.png
 
 # Crafting Technological Futures
 
-{{< rawhtml >}}
-
-<div class="home">
-<a href="/images/klaus-breyer-a-full.jpg"><img src="/images/klaus-breyer-a-small.jpg" alt="Klaus Breyer" /></a>
-<a href="/images/klaus-breyer-b-full.jpg"><img src="/images/klaus-breyer-b-small.jpg" alt="Klaus Breyer" /></a>
-</div>
-{{< /rawhtml >}}
+{{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg" >}}
 
 I'm Klaus Breyer. With [a lifetime in tech]({{< relref "/pages/cv" >}}), a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as _CTO/CTPO_ in many others.
 
@@ -21,18 +15,18 @@ As I bootstrap my next startup idea, I'm _available for consulting and interim l
 
 ## Proven Impact and Expertise
 
-I turn visionary business goals into concrete results, with focused expertise at the _intersection of product and tech organization_.
+I turn visionary business goals into concrete results, with focused expertise at the intersection of product and tech organization.
 It's not merely about coding; it's about crafting standout products that make a mark and drive business forward.
 
-1. Startup strategy & _product-market fit_ – turning ideas into impactful ventures.
-1. Selling the _tech vision_ – whether it's to investors or stakeholders.
-1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
-1. Assembling and Nurturing _a Killer Team_ – Remote or in Berlin, transitioning from chaotic ad-hoc development to structured _product delivery cadence_.
-1. Bringing _product & engineering processes_ up to speed - fostering _asynchronous collaboration_.
+1. Startup strategy & product-market fit – turning ideas into impactful ventures.
+1. Selling the tech vision – whether it's to investors or stakeholders.
+1. Prototyping & Crafting the first version of a product from scratch, if need be.
+1. Assembling and Nurturing a Killer Team – Remote or in Berlin, transitioning from chaotic ad-hoc development to structured product delivery cadence.
+1. Bringing product & engineering processes up to speed - fostering asynchronous collaboration.
 
 ## Shape Up
 
-I'm all in on [Shape Up]({{< relref "/tags/shapeup/" >}}) - Agile's got a new face, and it's thrilling: _Fixed time, variable scope_. The only way to deliver quality - on time.
+I'm all in on [Shape Up]({{< relref "/tags/shapeup/" >}}) - Agile's got a new face, and it's thrilling: Fixed time, variable scope. The only way to deliver quality - on time.
 
 It is all about the people: Developers, designers, product managers – all on the same page, sculpting ideas into reality.
 
@@ -40,13 +34,11 @@ Want to spar about it? I offer free 1-hour sessions. Need a deep dive? I'm here 
 
 ## Modern Web Stacks & Leadership
 
-From startup _monoliths_ to large _microservice_ environments, I've led and launched.
+From startup monoliths to large microservice environments, I've led and launched.
 
 But beyond the tech, I build infrastructures that empower.
 
-_Teams that innovate._
-
-_Projects that matter._
+[Teams that innovate and Projects that matter]({{< relref "cv" >}}).
 
 ## Writer & Speaker
 
@@ -62,7 +54,7 @@ That's it.
 
 Tech, product, business – that's where I thrive.
 
-More than code, it's about _weaving the tech fabric into the company's culture_.
+For me it is not about code, it's about weaving the tech fabric into the company's culture.
 
 For agencies, SME or fledgling startups.
 

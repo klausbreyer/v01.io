@@ -1,6 +1,8 @@
-<div class="gallery">
+<div class="flex flex-wrap justify-center gap-4">
 	{{ range (split (.Get 0) "|") }}
 	{{ $imageParts := split . "," }}
-	<a href="{{ index $imageParts 0 }}" target="_blank"><img src="{{ index $imageParts 1 }}" /></a>
+	<a href="{{ index $imageParts 0 }}" target="_blank" class="block">
+		<img src="{{ index $imageParts 1 }}" class="h-64 max-w-xs transition-shadow duration-300 rounded shadow-lg hover:shadow-2xl" />
+	</a>
 	{{ end }}
 </div>

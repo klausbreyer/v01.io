@@ -1,7 +1,3 @@
-{{ define "head" }}
-{{ partial "meta.html" . }}
-{{ end }}
-
 {{ define "main" }}
 {{/* twitter hashtags calculation */}}
 {{ $keywords := "" }}
@@ -14,85 +10,80 @@
 {{ end }}
 
 {{ if or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
-<div class="breadcrump">
-    <a href="/shape-up">Shape Up</a> &gt; <a class="text" href="{{.Permalink}}">{{ .Title }}</a>
+<div class="mb-4 text-sm breadcrump">
+    <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt; <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
 </div>
-{{ end }} 
+{{ end }}
 
-
-<article class="{{.File.Dir }} {{.File.BaseFileName}}">
-    <h1>{{ .Title }}</h1>
+<article class='{{.File.Dir }} {{.File.BaseFileName}} my-6 {{partial "prose.html"}}'>
+    <h1 class="">{{ .Title }}</h1>
     {{ .Content }}
 </article>
 
-{{ if or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
-<div class="breadcrump">
-    <a href="/shape-up">Shape Up</a> &gt; <a class="text" href="{{.Permalink}}">{{ .Title }}</a>
+{{ if or (eq .Section " shape-up") (in (split .File.Dir "/" ) "shape-up" ) }} <div class="mb-4 text-sm breadcrump">
+    <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt; <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
 </div>
-{{ end }} 
-
+{{ end }}
 
 {{ if .IsTranslated }}
-<aside>
+<aside class="mt-6">
     {{ partial "translations.html" . }}
 </aside>
 {{ end }}
 
 {{ with .Params.Pure}}
 {{ else }}
-<aside>
-    <h4>Article Meta Data</h4>
-    <ul>
+<aside class="mt-6">
+    <h4 class="text-xl font-semibold">Article Meta Data</h4>
+    <ul class="list-disc list-inside">
         {{if gt (.GetTerms "categories") 0}}
         <li><strong>Categories:</strong>
             {{ range (.GetTerms "categories") }}
-            <a lang="{{.Lang}}" href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+            <a lang="{{.Lang}}" class="text-primary hover:underline" href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
         </li>
         {{ end }}
         <li>
             <strong>Published On:</strong>
-            <time datetime="{{ .Date.Format " 2006-01-02" }}">
+            <time datetime='{{ .Date.Format "2006-01-02" }}'>
                 {{ .Date.Format "2006-01-02" }}
             </time>
-
         </li>
         {{if gt (.GetTerms "tags") 0}}
         <li>
             <strong>Tags: </strong>
             {{ range (.GetTerms "tags") }}
-            <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
+            <a class="text-primary hover:underline" href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
             {{ end }}
         </li>
         {{ end }}
     </ul>
 </aside>
-<aside>
-    <h4>Call to Action</h4>
-
-    <ul>
-        <li><strong>Personal feedback or booking inquiry?</strong> <a target="_blank" href="mailto:kb@v01.io?subject=About {{.Title}}&body={{.Permalink}}">Drop
+<aside class="mt-6">
+    <h4 class="text-xl font-semibold">Call to Action</h4>
+    <ul class="list-disc list-inside">
+        <li><strong>Personal feedback or booking inquiry?</strong> <a target="_blank" class="text-primary hover:underline" href="mailto:kb@v01.io?subject=About {{.Title}}&body={{.Permalink}}">Drop
                 me a line.</a></li>
         {{if .Params.Social }}
-        <li><strong>Want to leave a public comment?</strong> <a href="{{.Params.Social}}" target="_blank">Join the discussion on LinkedIn.</a>
+        <li><strong>Want to leave a public comment?</strong> <a href="{{.Params.Social}}" class="text-primary hover:underline" target="_blank">Join the discussion on LinkedIn.</a>
         </li>
         {{ end }}
 
-        <li><strong>Found a typo?</strong> <a target="_blank" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">I
+        <li><strong>Found a typo?</strong> <a target="_blank" class="text-primary hover:underline" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">I
                 would greatly appreciate a pull
                 request.</a>
         </li>
         <li><strong>Share this page:</strong>
-            <a target="_blank" href="mailto:?subject={{.Title}}&body={{.Permalink}}">Email</a>;
-            <a target="_blank" href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $keywords}}">Twitter</a>;
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?url={{.Permalink}}&title={{.Title}}">LinkedIn</a>;
-            <a target="_blank" href="https://reddit.com/submit?url={{.Permalink}}&title={{.Title}}">Reddit</a>;
-            <a target="_blank" href="https://www.facebook.com/sharer.php?u={{.Permalink}}">Facebook</a>;
-            <a target="_blank" href="https://api.whatsapp.com/send?text={{.Title}} {{.Permalink}}">WhatsApp</a>;
-            <a target="_blank" href="https://wordpress.com/press-this.php?u={{.Permalink}}&t={{.Title}}&s=[post-desc]">Wordpress</a>;
-            <a target="_blank" href="https://getpocket.com/save?url={{.Permalink}}&title={{.Title}}">Pocket</a>;
-            <a target="_blank" href="https://bufferapp.com/add?text={{.Title}}&url={{.Permalink}}">Buffer</a>;
-            <a target="_blank" href="https://www.evernote.com/clip.action?url={{.Permalink}}&title={{.Title}}">Evernote</a>;
+            <a target="_blank" class="text-primary hover:underline" href="mailto:?subject={{.Title}}&body={{.Permalink}}">Email</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://twitter.com/share?url={{.Permalink}}&text={{.Title}}&via=klausbreyer&hashtags={{ $keywords}}">Twitter</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://www.linkedin.com/shareArticle?url={{.Permalink}}&title={{.Title}}">LinkedIn</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://reddit.com/submit?url={{.Permalink}}&title={{.Title}}">Reddit</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://www.facebook.com/sharer.php?u={{.Permalink}}">Facebook</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://api.whatsapp.com/send?text={{.Title}} {{.Permalink}}">WhatsApp</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://wordpress.com/press-this.php?u={{.Permalink}}&t={{.Title}}&s=[post-desc]">Wordpress</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://getpocket.com/save?url={{.Permalink}}&title={{.Title}}">Pocket</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://bufferapp.com/add?text={{.Title}}&url={{.Permalink}}">Buffer</a>;
+            <a target="_blank" class="text-primary hover:underline" href="https://www.evernote.com/clip.action?url={{.Permalink}}&title={{.Title}}">Evernote</a>;
 
         </li>
     </ul>

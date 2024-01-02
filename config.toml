@@ -1,6 +1,6 @@
 baseURL = 'https://www.v01.io/'
 title = 'Klaus Breyer'
-copyright = 'KLAUS BREYER'
+copyright = 'Klaus Breyer'
 # sectionPagesMenu = 'main'
 preserveTaxonomyNames = true
 enableRobotsTXT = true
@@ -31,29 +31,35 @@ defaultContentLanguage = 'en'
 
 [menu]
 
-[[menu.main]]
-  name = 'Home'
-  url = '/'
-  weight = 5
+# [[menu.main]]
+#   name = 'Home'
+#   url = '/'
+#   weight = 5
 
 
 [[menu.main]]
-  name = 'CV'
+  name = 'About: Now'
+  url = '/pages/now/'
+  weight = 20
+
+[[menu.main]]
+  name = 'About: Past (CV)'
   url = '/pages/cv/'
   weight = 30
 
 
 [[menu.main]]
+  name = 'Public Speaking'
+  url = '/pages/appearances/'
+  weight = 50
+
+[[menu.side]]
   name = 'Bookshelf'
   url = '/pages/bookshelf/'
   weight = 45
 
-[[menu.main]]
-  name = 'Appearances'
-  url = '/pages/appearances/'
-  weight = 50
 
-[[menu.main]]
+[[menu.side]]
   name = 'Blog'
   url = '/posts/'
   weight = 60
