@@ -1,5 +1,5 @@
 start:
-	make watch & hugo server --buildDrafts
+	hugo server --buildDrafts & ./tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --watch
 
 build:
 	make tailwind-build

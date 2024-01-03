@@ -24,9 +24,9 @@
         {{ range .Pages }}
         <li class="list-inside ">
             <a href="{{.Permalink}}" class="text-primary hover:text-primary-dark hover:underline">
-                <time datetime='{{ .Date.Format "2006-01-02" }}' class="inline-block w-24"> {{.Date.Format "2006-01-02"}}</span>
-                    |
-                    {{.Title}}</a>
+                <time datetime='{{ .Date.Format "2006-01-02" }}' class="inline-block w-24"> {{.Date.Format "2006-01-02"}}</time>
+                |
+                {{.Title}}</a>
         </li>
         {{ end }}
     </ul>

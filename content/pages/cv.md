@@ -3,7 +3,7 @@ title: CV
 date: 2023-09-01
 ---
 
-{{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|" >}}
+{{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg" "[&&]:justify-start" >}}
 
 Hello, I'm Klaus Breyer, a _technology leader_ with a strong entrepreneurial spirit and over a decade of experience in building and managing effective teams. From kickstarting my entrepreneurial journey in 2010 with my first startup to taking on the _CTO/CTPO_ roles in numerous ventures, I've been instrumental in driving technological innovation and excellence.
 

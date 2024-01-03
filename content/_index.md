@@ -7,7 +7,7 @@ image: /images/preview.png
 
 # Crafting Technological Futures
 
-{{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg" >}}
+{{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg" "[&&]:justify-start" >}}
 
 I'm Klaus Breyer. With [a lifetime in tech]({{< relref "/pages/cv" >}}), a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as _CTO/CTPO_ in many others.
 

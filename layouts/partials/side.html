@@ -1,7 +1,13 @@
 <ul class="flex flex-col gap-4">
-	<li class="font-bold border-t-4 group hover:border-primary">
-		<a class=" group-hover:text-primary" href="/posts/">Blogposts</a>
+	{{ range .Site.Menus.side }}
+
+	<li class="border-t-2 grow group hover:border-primary">
+		<a href="{{ .URL }}" class="font-bold text-text group-hover:text-primary">{{ .Name }}</a>
 	</li>
+	{{ end }}
+
+
+
 	{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
 
 	<li class=" group hover:border-primary">

@@ -31,54 +31,30 @@ defaultContentLanguage = 'en'
 
 [menu]
 
-# [[menu.main]]
-#   name = 'Home'
-#   url = '/'
-#   weight = 5
 
 
-[[menu.main]]
+[[menu.header]]
   name = 'About: Now'
   url = '/pages/now/'
   weight = 20
 
-[[menu.main]]
+[[menu.header]]
   name = 'About: Past (CV)'
   url = '/pages/cv/'
   weight = 30
 
-
-[[menu.main]]
+[[menu.header]]
   name = 'Public Speaking'
   url = '/pages/appearances/'
   weight = 50
 
-[[menu.side]]
-  name = 'Bookshelf'
+[[menu.footer]]
+  name = 'My Bookshelf'
   url = '/pages/bookshelf/'
   weight = 45
 
-
 [[menu.side]]
-  name = 'Blog'
+  name = 'Blogposts'
   url = '/posts/'
   weight = 60
 
-
-# [[menu.main]]
-#   name = 'Funding'
-#   url = '/pages/funding/'
-#   weight = 60
-
-# [[menu.main]]
-#   name = 'unixtime.app'
-#   url = '/categories/unixtime.app/'
-#   weight = 110
-
-# [[menu.main]]
-#   identifier = 'qwer'
-#   name = 'This is the qwer section'
-#   title = 'qwer section'
-#   url = '/qwer/'
-#   weight = -110
-#   parent = "asdf"

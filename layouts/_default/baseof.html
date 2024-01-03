@@ -34,28 +34,26 @@
 
 <body class="font-sans bg-bg text-text print:bg-none">
 
-    <!-- Ihr Header-Partial -->
     {{ partial "header.html" . }}
 
     <main>
         <div class="container grid grid-cols-1 gap-4 p-4 mx-auto lg:p-8 sm:grid-cols-4">
-            <!-- Ihr Main-Content -->
-            <div class="border-t-4 sm:col-span-3 ">
+            <div class="border-t-2 sm:col-span-3 ">
                 {{ block "main" . }}
                 {{ end }}
             </div>
 
             <div>
-                {{ partial "latest.html" . }}
+                {{ partial "side.html" . }}
             </div>
         </div>
     </main>
+
+
     <footer class="bg-footer">
-        <!-- Ihr Footer-Partial -->
         {{ partial "footer.html" . }}
     </footer>
     <footer class="bg-footer2">
-        <!-- Ihr Copyright-Partial -->
         {{ partial "copyright.html" . }}
     </footer>
 </body>

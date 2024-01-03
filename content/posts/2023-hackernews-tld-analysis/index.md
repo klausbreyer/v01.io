@@ -17,7 +17,7 @@ social: "https://www.linkedin.com/posts/klaus-breyer_hidden-treasures-of-tlds-ho
 #views: 4,2k in 24h (HN)
 ---
 
-{{< hackernewsstats >}}# hackernewsstats
+{{< hackernewsstats >}}
 
 ## Background Story
 
