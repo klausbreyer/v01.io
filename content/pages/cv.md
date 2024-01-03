@@ -1,6 +1,7 @@
 ---
 title: CV
 date: 2023-09-01
+lastmod: 2024-01-03
 ---
 
 {{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg" "[&&]:justify-start" >}}
