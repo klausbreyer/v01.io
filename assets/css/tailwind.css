@@ -33,3 +33,9 @@ a[href^="#"] {
     display: none;
   }
 }
+
+@media print {
+  .cv h1 {
+    display: none;
+  }
+}

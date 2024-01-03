@@ -12,7 +12,7 @@
     </nav>
     {{ end }}
 
-    <article class="my-6">
+    <article class='{{.File.Dir }} {{.File.BaseFileName}} my-6  print:my-0 {{partial "prose.html"}}'>
         {{.Content}}
     </article>
 

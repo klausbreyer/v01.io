@@ -32,18 +32,20 @@
 </head>
 
 
-<body class="font-sans bg-bg text-text print:bg-none">
+<body class="font-sans bg-bg text-text print:bg-transparent print:text-black">
 
     {{ partial "header.html" . }}
-
     <main>
-        <div class="container grid grid-cols-1 gap-4 p-4 mx-auto lg:p-8 sm:grid-cols-4">
-            <div class="border-t-2 sm:col-span-3 ">
+        <div class="container grid grid-cols-1 gap-4 p-4 mx-auto print:p-0 lg:p-8 sm:grid-cols-4 print:grid-cols-1">
+
+            <div class="border-t-2 sm:col-span-3 print:border-t-0 ">
+
+                {{ partial "print_header.html" . }}
                 {{ block "main" . }}
                 {{ end }}
             </div>
 
-            <div>
+            <div class="print:hidden">
                 {{ partial "side.html" . }}
             </div>
         </div>

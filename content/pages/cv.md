@@ -5,36 +5,34 @@ date: 2023-09-01
 
 {{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg" "[&&]:justify-start" >}}
 
-Hello, I'm Klaus Breyer, a _technology leader_ with a strong entrepreneurial spirit and over a decade of experience in building and managing effective teams. From kickstarting my entrepreneurial journey in 2010 with my first startup to taking on the _CTO/CTPO_ roles in numerous ventures, I've been instrumental in driving technological innovation and excellence.
+I'm Klaus Breyer. With [a lifetime in tech]({{< relref "/pages/cv" >}}), a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others.
 
 I've anchored my beliefs in [Shape Up]({{< relref "/tags/shapeup/" >}}), the next wave of agile.
 
-I turn visionary business goals into concrete results, with focused expertise at the _intersection of product and tech organization_.
+I turn visionary business goals into concrete results, with focused expertise at the intersection of product and tech organization.
 It's not merely about coding; it's about crafting standout products that make a mark and drive business forward.
 
-1. _Startup strategy_ – turning ideas into impactful ventures.
-1. Selling the _tech vision_ – whether it's to investors or stakeholders.
-1. _Prototyping & Crafting_ the first version of a product from scratch, if need be.
-1. Assembling and nurturing _a killer team_.
-1. Bringing _product & engineering processes_ up to speed.
+1. Startup strategy & product-market fit – turning ideas into impactful ventures.
+1. Selling the tech vision – whether it's to investors or stakeholders.
+1. Prototyping & Crafting the first version of a product from scratch, if need be.
+1. Assembling and Nurturing a Killer Team – Remote or in Berlin, transitioning from chaotic ad-hoc development to structured product delivery cadence.
+1. Bringing product & engineering processes up to speed - fostering asynchronous collaboration.
 
-From startup _monoliths_ to large _microservice_ environments, I've led and launched.
+From startup monoliths to large microservice environments, I've led and launched.
 
 But beyond the tech, I build infrastructures that empower.
 
-Teams that innovate - Projects that matter.
+Teams that innovate and Projects that matter.
 
-I've penned down my thoughts in [articles]({{< ref "/posts/" >}}) and shared them out loud at [conferences]({{< relref "appearances" >}}). Whether it's a page or a stage, I'm there. With a voice in the tech community, I am more than just a leader; I am an influencer, continually _bridging the gap between technology, product, and business_.
+I've penned down my thoughts in [articles]({{< ref "/posts/">}}) and shared them out loud at [conferences]({{< relref "appearances">}}). Whether it's a page or a stage, I'm there.
 
-> &raquo; Good software is always used but never finished.&laquo;
+> Good software is always used but never finished.
 
 That's all.
 
-{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
-
 ## Founding & Management Experience
 
-Throughout my career, I've led the development and launch of numerous cutting-edge projects in _modern web stacks_. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
+Throughout my career, I've led the development and launch of numerous cutting-edge projects in modern web stacks. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
 
 ### [Hydro Pocket](https://hydropocket.com/)
 
@@ -65,7 +63,6 @@ Andreas Puffert, Division Lead Strategic Experience Design at Ray Sono:
 We embarked on an exciting journey with the goal of making social media influencers programmatically bookable - similar to Google Ads. This challenge sparked innovation, leading to the development of sophisticated software, which is now primarily used internally. This software effectively digitalizes the influencer process, acting as an "Influencer Agency on Steroids."
 
 Key features of our system include a billing system, a matching algorithm, and an influencer inventory management module. Furthermore, it encourages transparency and data-driven decisions by enabling social media creators to share their statistics.
-{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ### [buddybrand GmbH](https://buddybrand.com/)
 
@@ -102,8 +99,6 @@ As a Technology Principal, I am involved in projects from the initial conceptual
 The startup’s main product is a really smooth-to-use app for medication intolerances. I am sparring with the founder Maximilian (pharmacist), weekly for product development and monetization. Currently, we have a solid number of several thousand MAU (Monthly Active Users) and refinance the app through fixed advertising cooperations in the pharmaceutical industry.
 
 In addition, there is also a B2B variant (planned initially as a pivot) aimed at doctors and pharmacists. I developed the prototype in Material UI and still maintain the product today.
-
-{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ### [touch361](https://touch361.org/)
 
@@ -146,8 +141,6 @@ A tool designed for API developers to facilitate bulk timestamp conversion. The 
 **Period:** 2020 – 2021
 
 Remote times necessitate remote tools. Cloudlog.dev is a tool designed for frontend developers. It allows them to stream the `console.log` output from any remote browser in real-time directly into their own developer console.
-
-{{< rawhtml >}}<div class="printspacer"></div>{{< /rawhtml >}}
 
 ### Fotando GmbH
 
