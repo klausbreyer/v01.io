@@ -34,6 +34,4 @@ I'm all in on Shape Up. It's not just about delivering on time; it's about ensur
 
 Whether you're looking for an introduction, a deep dive, or hands-on guidance, I'm here to help. Let's shape the future of product development together.
 
----
-
 Interested? Questions? Don't hesitate to [drop me a line](mailto:kb@v01.io)!

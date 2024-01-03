@@ -1,34 +1,31 @@
-{{ define "head" }}
-{{ partial "meta.html" . }}
-{{ end }}
-
 {{ define "main" }}
-<main>
-    <h1>{{.Title}}</h1>
+<main class="min-h-screen">
+    <h1 class="my-4 text-4xl font-bold">{{.Title}}</h1>
     {{$section_heading := .Site.GetPage "section" .Section }}
     {{ if eq $section_heading.Title "Blog" }}
-    <nav class="categories">
-        <strong>Categories: </strong>
+    <nav class="mb-4 categories">
+        <strong class="font-semibold">Categories: </strong>
         {{ $categories := .Site.Taxonomies.categories }}
         {{ range $categories }}
-        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>({{ .Count}});
+        <a href="{{ .Page.Permalink }}" class="text-primary hover:text-primary-dark hover:underline">{{ .Page.Title }}</a>({{ .Count }});
         {{ end }}
     </nav>
     {{ end }}
 
-    <article>
+    <article class='{{.File.Dir }} {{.File.BaseFileName}}   print:my-0 {{partial "prose.html"}}'>
         {{.Content}}
     </article>
 
     {{ with .Params.Pure}}
     {{ else }}
-    <h2>Entries</h2>
-    <ul>
+    <h2 class="mt-8 mb-4 text-3xl font-semibold">Entries</h2>
+    <ul class="mb-4 space-y-2">
         <!-- Ranges through content/posts/*.md -->
         {{ range .Pages }}
-        <li>
-            <a href="{{.Permalink}}">
-                {{.Date.Format "2006-01-02"}} |
+        <li class="list-inside ">
+            <a href="{{.Permalink}}" class="text-primary hover:text-primary-dark hover:underline">
+                <time datetime='{{ .Date.Format "2006-01-02" }}' class="inline-block w-24"> {{.Date.Format "2006-01-02"}}</time>
+                |
                 {{.Title}}</a>
         </li>
         {{ end }}
@@ -36,5 +33,4 @@
     {{ end }}
     {{ partial "translations.html" . }}
 </main>
-
 {{ end }}

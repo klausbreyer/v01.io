@@ -1,0 +1,18 @@
+<ul class="flex flex-col gap-4">
+	{{ range .Site.Menus.side }}
+
+	<li class="border-t-2 grow group hover:border-primary">
+		<a href="{{ .URL }}" class="font-bold text-text group-hover:text-primary">{{ .Name }}</a>
+	</li>
+	{{ end }}
+
+
+
+	{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+
+	<li class=" group hover:border-primary">
+		<a class=" group-hover:text-primary" href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
+	</li>
+
+	{{ end }}
+</ul>

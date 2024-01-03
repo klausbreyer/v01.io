@@ -1,22 +1,32 @@
-<nav class="title">
-    <a class="open" href="/#connect-with-me"><em>Available for projects as Tech & Product Leader!</em></a>
-
-    <a lang="en" class="author" href="/">{{ $.Site.Copyright }}</a>
-    {{/* <span class="description">–</span> */}}
-    {{/* <span class="description">- CTPO > <a lang="en" href="/categories/business/">Startup Strategy</a>, <a lang="en" href="/categories/product/">Product Execution</a> & <a lang="en" href="/categories/engineering-org/">Tech Leadership</a></span> */}}
-    <div class="description">CTO/CTPO - Startup Strategy, Product Execution & Tech Leadership <br /><br /></div>
-
-</nav>
-
 {{$section_heading := .Site.GetPage "section" .Section }}
-<nav class="menu">
-    <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
-        <li>
-            <a lang="en" href="{{ .URL }}" {{ if or (eq $.Page.Name .Name) (and (eq $section_heading.Title "Blog" ) (eq .Name "Blog" )) (and (eq $section_heading.Title "Categories" ) (eq .Name "Blog" )) }}class="active" {{end}}>{{ .Name }}</a>
-        </li>
-        {{ end }}
 
-    </ul>
-</nav>
+<header class="print:hidden">
+    <div class="container px-4 py-2 mx-auto lg:px-8">
+        <div class="mb-2 text-right">
+            <a class="px-1 py-0.5 text-lg italic text-white open hover:underline bg-dark" href="/#connect-with-me">
+                Available for Tech & Product Leadership Gigs!
+            </a>
+        </div>
+        <nav class="grid grid-cols-1 gap-4 title sm:grid-cols-4">
+            <div class="grid grid-cols-2 gap-4 colspan-1 sm:col-span-3">
+                <a lang="en" class="text-4xl italic font-bold uppercase border-t-2 sm:text-6xl hover:border-primary hover:text-primary text-text colspan author font-share-tech border-text font-sharetech" href="/">
+                    Klaus<br />
+                    Breyer
+                </a>
+                <div class="text-xl border-t-2 sm:text-3xl md:text-4xl description text-text font-sharetech">
+                    Startup Strategy, <br />Product Execution <br />& Tech Leadership
+                </div>
+            </div>
+            <ul class="grid grid-cols-3 gap-4 sm:grid-cols-1 ">
+                {{ range .Site.Menus.header }}
+                <li class="flex w-full">
+                    <a lang="en" class="block w-full font-bold border-t-2 group hover:border-primary text-xlfont-sharetech hover:text-primary colspan author font-share-tech" href="{{ .URL }}">
+                        {{.Name}}
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+
+    </div>
+</header>

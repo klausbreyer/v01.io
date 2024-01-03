@@ -14,10 +14,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Download Tailwind
+        run: make tailwind-download
+
+      - name: Build Tailwind
+        run: make tailwind-build
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: "latest"
           extended: true
 
       - name: Build
@@ -28,6 +34,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: v01-hugo  # e.g. 'my-project'
+          projectName: v01-hugo # e.g. 'my-project'
           directory: public # e.g. 'dist'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
