@@ -4,7 +4,7 @@ date: 2023-09-01
 lastmod: 2024-01-03
 ---
 
-{{< gallery "/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg|/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg" "[&&]:justify-start" >}}
+{{< gallery "/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg" "[&&]:justify-start" >}}
 
 I'm Klaus Breyer. With [a lifetime in tech]({{< relref "/pages/cv" >}}), a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others.
 
