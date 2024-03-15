@@ -12,9 +12,10 @@
     </nav>
     {{ end }}
 
-    <article class='{{.File.Dir }} {{.File.BaseFileName}}   print:my-0 {{partial "prose.html"}}'>
+    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}   print:my-0 {{partial "prose.html"}}'>
         {{.Content}}
     </article>
+
 
     {{ with .Params.Pure}}
     {{ else }}

@@ -35,7 +35,9 @@
             {{ range $categories }}
 
             <li class="border-t-2 grow group hover:border-primary">
-                <a href="{{ .Page.Permalink }}" class=" text-text group-hover:text-primary"> {{ .Count }} Posts in {{ .Page.Title }}</a>
+                <a href="{{ .Page.Permalink }}" class=" text-text group-hover:text-primary">
+                    Posts in {{ .Page.Title }} ({{ .Count }})
+                </a>
             </li>
             {{ end }}
         </ul>
