@@ -1,4 +1,12 @@
-<ul class="flex flex-col gap-4">
+<ul class="grid grid-cols-3 gap-4 sm:grid-cols-1 ">
+	{{ range .Site.Menus.header }}
+	<li class="flex w-full">
+		<a lang="en" class="block w-full font-bold border-t-2 group hover:border-primary text-xlfont-sharetech hover:text-primary colspan author font-share-tech" href="{{ .URL }}">
+			{{.Name}}
+		</a>
+	</li>
+	{{ end }}
+
 	{{ range .Site.Menus.side }}
 
 	<li class="border-t-2 grow group hover:border-primary">
