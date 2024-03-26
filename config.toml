@@ -34,7 +34,7 @@ defaultContentLanguage = 'en'
 
 
 [[menu.header]]
-  name = 'Now / Present'
+  name = 'Present / Now'
   url = '/pages/now/'
   weight = 20
 

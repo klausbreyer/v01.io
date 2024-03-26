@@ -1,22 +1,12 @@
-<ul class="grid grid-cols-3 gap-4 sm:grid-cols-1 ">
-	{{ range .Site.Menus.header }}
-	<li class="flex w-full">
-		<a lang="en" class="block w-full font-bold border-t-2 group hover:border-primary text-xlfont-sharetech hover:text-primary colspan author font-share-tech" href="{{ .URL }}">
-			&rsaquo; {{.Name}}
-		</a>
-	</li>
-	{{ end }}
-
+<ul class="grid gap-3 border-t-2">
 	{{ range .Site.Menus.side }}
 
-	<li class="border-t-2 grow group hover:border-primary">
+	<li class="grow group hover:border-primary">
 		<a href="{{ .URL }}" class="font-bold text-text group-hover:text-primary">
-			&rsaquo; {{ .Name }}
+			<span class="text-primary">&rsaquo;</span> {{ .Name }}
 		</a>
 	</li>
 	{{ end }}
-
-
 
 	{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
 
@@ -27,4 +17,5 @@
 	</li>
 
 	{{ end }}
+
 </ul>
