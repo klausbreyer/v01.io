@@ -50,7 +50,7 @@ defaultContentLanguage = 'en'
 
 [[menu.header]]
   name = 'My Bookshelf'
-  url = '/pages/bookshelf/'
+  url = '/categories/bookshelf/'
   weight = 66
 
 [[menu.side]]
