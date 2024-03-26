@@ -1,7 +1,7 @@
 ---
 title: CV
 date: 2023-09-01
-lastmod: 2024-01-03
+lastmod: 2024-03-26
 ---
 
 {{< gallery "/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg" "[&&]:justify-start" >}}
@@ -37,133 +37,55 @@ Throughout my career, I've led the development and launch of numerous cutting-ed
 
 ### [Hydro Pocket](https://hydropocket.com/)
 
-**Role:** _Tech Lead_ (freelance)
+**Tech Lead in Industrial IoT (2019–2023)**
 
-**Industry:** Industrial Internet of Things
-
-**Period:** 2019 – 2023
-
-As the Technical Lead at [Hydro Pocket](https://hydropocket.com/), the first end-customer product of the industrial company GmbH & Co. KGaA, I built the tech team from scratch within this new business unit and introduced the [Shape Up]({{< relref "/tags/shapeup/" >}}) method. Hydro Pocket is a leading provider of solutions for hydropower plants. It offers innovative technologies to prevent outages and optimize the performance of hydropower plants through actionable real-time data.
-
-Gustavo Major Arantes, Global Product Manager at Voith Hydro:
-
-> Klaus is strongly recommended! We worked together the last couple of years and I am proud of what we achieved together!
-
-Andreas Puffert, Division Lead Strategic Experience Design at Ray Sono:
-
-> Klaus is a fire starter and absolute rockstar as CTO and CPO. Love to work with him!
+Led the tech division for Voith GmbH's Hydro Pocket, establishing a team and implementing the [Shape Up method]({{< relref "/tags/shapeup/" >}}). Focused on enhancing hydropower plant efficiency and reliability with actionable data. Praised for achievements by industry leaders.
 
 ### [BuzzBird GmbH](https://www.buzzbird.de/)
 
-**Role:** _Founder and Chief Technology & Product Officer_
+**Founder and CTO/CPO in Influencer Marketplace (2016–2018)**
 
-**Industry:** Influencer Marketplace
+Launched a platform for programmatically booking social media influencers, akin to Google Ads. Developed key software features including a billing system, a matching algorithm, and inventory management, promoting transparency and data-driven insights.
 
-**Period:** 2016 – 2018
+### [Buddybrand GmbH](https://buddybrand.com/)
 
-We embarked on an exciting journey with the goal of making social media influencers programmatically bookable - similar to Google Ads. This challenge sparked innovation, leading to the development of sophisticated software, which is now primarily used internally. This software effectively digitalizes the influencer process, acting as an "Influencer Agency on Steroids."
+**Founder and Technical Director in Digital Agency (2010–2015)**
 
-Key features of our system include a billing system, a matching algorithm, and an influencer inventory management module. Furthermore, it encourages transparency and data-driven decisions by enabling social media creators to share their statistics.
-
-### [buddybrand GmbH](https://buddybrand.com/)
-
-**Role:** _Founder and managing technical director_
-
-**Industry:** digital agency
-
-**Period:** 2010 – 2015
-
-Right out of university, I started building Facebook apps as a freelancer with my co-founders – just at the right time. Even before I could hand in my bachelor thesis, we had earned enough money to start a GmbH. In the next 3 years alone, we built several hundred Facebook apps and grew from cash flow to 30+ employees. Nowadays, buddybrand is a full-service digital creative agency these days.
+Started post-university; spearheaded the creation of Facebook apps, evolving from freelancer to managing a GmbH. Grew the company significantly, contributing to its current status as a renowned full-service digital agency.
 
 ## Consulting, Startup Advisory & Side Projects
 
-In addition to my professional experience, I'm also a dedicated entrepreneur and startup investor. I develop and market projects on the side and support early-stage companies through money or time. I'm also committed to giving back to the [open-source]({{< ref "/categories/open-source" >}}) community and have contributed to several projects.
+Beyond my main roles, I engage as an entrepreneur and startup investor, developing side projects and aiding early-stage firms with investments and expertise.
 
-### [Ray Sono AG](https://www.raysono.com/)
+### [Vitalfunktion GmbH](https://www.whatsinmymeds.de/)
 
-**Role:** _Technology Principal_ (freelance)
+**Startup Advisor in Pharma Tech (2018–Now)**
 
-**Industry:** Technology and Industrial Solutions
+Ongoing sparring with the founder for an app on medication intolerances, managing thousands of MAUs and a B2B version for healthcare professionals, which I developed and maintain.
 
-**Period:** 2019 – Now
+### [Touch361](https://touch361.org/)
 
-As a Technology Principal, I am involved in projects from the initial conceptual brainstorming stage to the eventual implementation, using either internal or external resources. In larger projects, I take on the role of Tech Lead, overseeing a development team. I perform these duties on-site with the Berlin team or remotely with an international team of developers.
+**Startup Advisor in Business Intelligence Software (2019–2023)**
 
-### [vitalfunktion GmbH](https://www.whatsinmymeds.de/)
-
-**Role:** Startup Adivsor
-
-**Industry:** Pharma Tech
-
-**Period:** 2018 – Now
-
-The startup’s main product is a really smooth-to-use app for medication intolerances. I am sparring with the founder Maximilian (pharmacist), weekly for product development and monetization. Currently, we have a solid number of several thousand MAU (Monthly Active Users) and refinance the app through fixed advertising cooperations in the pharmaceutical industry.
-
-In addition, there is also a B2B variant (planned initially as a pivot) aimed at doctors and pharmacists. I developed the prototype in Material UI and still maintain the product today.
-
-### [touch361](https://touch361.org/)
-
-**Role:** Startup Advisor
-
-**Industry:** Business Intelligence Software
-
-**Period:** 2019 – 2023
-
-I was a technical sparring partner for founders with marketing and business intelligence as their focus. The challenges we tackled focused on data protection / DSGVO and the product development process with the technical service provider.
+Provided technical advice on data protection and product development, focusing on marketing and business intelligence challenges.
 
 ### [Fillter](https://www.fillter.me/)
 
-**Role:** Co-founder & CTPO
+**Co-founder & CTPO in Social Media Tools (2021–2023)**
 
-**Industry:** Social Media Tools
+Developed Fillter to streamline social media creators' communication, actively participating in its development and strategic direction.
 
-**Period:** 2021 – 2023
+### [Unixtime.app](https://www.unixtime.app)
 
-Fillter is a form for all social media creator requests. They link Fillter in their link tree, Instagram bio, or website. Through a unique questioning technique, the requests come as usual via email – only in good.
+**Founder of Developer Tools (2022–Now)**
 
-The tool is a joint venture with [Felix and Oğuz](https://yilmazhummel.com/). We all work hands-on as equal co-founders, with our individual skills, to bring the project to the world.
-
-### [unixtime.app](https://www.unixtime.app)
-
-**Role:** Founder
-
-**Industry:** Developer Tools
-
-**Period:** 2022 – now
-
-A tool designed for API developers to facilitate bulk timestamp conversion. The idea was born out of my work as a Tech Lead in an IIoT microservice context where data, coded as Unix timestamps, was plentiful. I sought to streamline my workflow, crafting a tool that let me bypass the laborious task of individually selecting timestamps for conversion in external services. Now, I can simply copy entire API requests into unixtime.app and view all timestamps directly within their context. The tool also allows me to capture screenshots of the conversions, useful for sharing in collaborative spaces like Slack or JIRA. What started as a straightforward HTML file has evolved into a full-fledged application for Mac and Windows and is now open source.
-
-### cloudlog
-
-**Role:** Solopreneuer Project
-
-**Industry:** Developer Tools
-
-**Period:** 2020 – 2021
-
-Remote times necessitate remote tools. Cloudlog.dev is a tool designed for frontend developers. It allows them to stream the `console.log` output from any remote browser in real-time directly into their own developer console.
-
-### Fotando GmbH
-
-**Role:** Founder and Chief Prototyping Officer
-
-**Industry:** E-commerce
-
-**Period:** 2018 – 2019
-
-We had noticed that most photo printing vendors always send their customers to ugly, bloated, slow native apps, which in turn also always had ugly ad conversions as they sent users to the AppStore. So the challenge was clear: we need a customer journey where the user can upload, crop, and edit their photo in the mobile browser and then (after delivery) hang it on the wall (claim: from hand to the wall!). Technically, it worked great that way, too. However, at that time, the company slid into the first Corona wave shortly before it was financed. In retrospect: Pretty stupid – for all parties.
+Created and evolved a tool for easy bulk timestamp conversion to aid API developers, making it fully available across platforms and open source.
 
 ### [Native Studios UG](https://www.native-studios.com/)
 
-**Role:** _Technical Evangelist & Tech Lead_ (interim)
+**Tech Lead & Technical Evangelist in SaaS (2016–2019)**
 
-**Industry:** SaaS
-
-**Period:** 2016 – 2019
-
-I built [several iterations of a prototype](https://your-link-to-the-case-study-here.com) for the founders in 2016 and 2017 until they could convince backers and first customers with it.
-
-Afterward, I was Tech Lead for product development and Technical Evangelist to convince customers of the startup’s technology and capabilities.
+Developed initial prototypes to secure investors and customers, later leading product development and technology advocacy.
 
 ## Appearances
 
