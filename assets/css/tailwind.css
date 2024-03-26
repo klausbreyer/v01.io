@@ -40,3 +40,12 @@ a[href^="#"] {
     display: none;
   }
 }
+
+.pages\/bookshelf\/ img {
+  height: 200px;
+  float: left;
+  padding-right: 1em;
+}
+.pages\/bookshelf\/ h2 {
+  clear: both;
+}

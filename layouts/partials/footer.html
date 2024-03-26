@@ -23,19 +23,15 @@
     </div>
 
     <nav class="mb-8">
-        <ul class="flex flex-wrap gap-4 justify-stretch">
-
-            {{ range .Site.Menus.footer }}<li class="border-t-2 grow group hover:border-primary">
-                <a href="{{ .URL }}" class=" text-text group-hover:text-primary">{{ .Name }}</a>
-            </li>
-            {{ end }}
-
+        <h3 class="mb-2 text-xl ">Categories</h3>
+        <ul class="flex flex-wrap gap-x-5 justify-stretch">
 
             {{ $categories := .Site.Taxonomies.categories }}
             {{ range $categories }}
 
-            <li class="border-t-2 grow group hover:border-primary">
+            <li class=" grow group hover:border-primary">
                 <a href="{{ .Page.Permalink }}" class=" text-text group-hover:text-primary">
+                    <span class="text-primary">&rsaquo;</span>
                     Posts in {{ .Page.Title }} ({{ .Count }})
                 </a>
             </li>

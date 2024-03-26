@@ -48,10 +48,10 @@ defaultContentLanguage = 'en'
   url = '/pages/appearances/'
   weight = 50
 
-[[menu.footer]]
+[[menu.header]]
   name = 'My Bookshelf'
   url = '/pages/bookshelf/'
-  weight = 45
+  weight = 66
 
 [[menu.side]]
   name = 'Blogposts'
