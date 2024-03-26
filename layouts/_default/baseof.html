@@ -23,6 +23,7 @@
     <meta property="og:image" content="{{.Site.BaseURL}}{{.Site.Params.image}}" />
     {{ end }}
     <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}posts/index.xml" title="{{.Site.Title}}" />
+
     {{ if .Page.Store.Get "hasMermaid" }}
     <script src="/js/mermaid.min.js"></script>
     <script>
@@ -44,7 +45,7 @@
                 {{ end }}
             </div>
 
-            <div class="hidden  print:hidden sm:block">
+            <div class="hidden print:hidden sm:block">
                 {{ partial "side.html" . }}
             </div>
         </div>
@@ -54,9 +55,7 @@
     <footer class="bg-footer">
         {{ partial "footer.html" . }}
     </footer>
-    <footer class="bg-footer2">
-        {{ partial "copyright.html" . }}
-    </footer>
+
 </body>
 
 
