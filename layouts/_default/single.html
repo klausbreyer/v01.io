@@ -10,7 +10,7 @@
 {{ end }}
 
 {{ if or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
-<div class="mb-4 text-sm breadcrump">
+<div class="mb-4 breadcrump">
     <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt; <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
 </div>
 {{ end }}

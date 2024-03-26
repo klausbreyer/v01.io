@@ -1,0 +1,13 @@
+<!-- entries-list.html -->
+<ul class="mb-4 space-y-2">
+	{{ range .Pages }}
+	<li class="flex items-center space-x-3">
+		<time datetime='{{ .Date.Format "2006-01-02" }}' class="inline-block w-32 px-3 py-1 text-white rounded-lg shadow-sm bg-primary">
+			{{ .Date.Format "Jan 02, 2006" }}
+		</time>
+		<a href="{{ .Permalink }}" class="flex-grow text-primary hover:text-primary-dark hover:underline">
+			{{ .Title }}
+		</a>
+	</li>
+	{{ end }}
+</ul>

@@ -1,6 +1,10 @@
 {{ define "main" }}
-<article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}  min-h-screen print:my-0 pt-4 {{partial "prose.html"}}'>
-    <h1 class="">{{.Title}}</h1>
+<div class="container p-4 mx-auto">
+    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}  print:my-0 pt-4 {{ partial "prose.html" }}'>
+        <h1 class="">{{.Title}}</h1>
+        {{ .Content }}
+    </article>
+
     {{$section_heading := .Site.GetPage "section" .Section }}
     {{ if eq $section_heading.Title "Blog" }}
     <nav class="my-4 categories">
@@ -13,24 +17,12 @@
     {{ end }}
 
 
-    {{.Content}}
-
-
-    {{ with .Params.Pure}}
-    {{ else }}
+    {{ if not .Params.Pure }}
     <h2 class="mt-8 mb-4 text-3xl font-semibold">Entries</h2>
-    <ul class="mb-4 space-y-2">
-        <!-- Ranges through content/posts/*.md -->
-        {{ range .Pages }}
-        <li class="list-inside ">
-            <a href="{{.Permalink}}" class="text-primary hover:text-primary-dark hover:underline">
-                <time datetime='{{ .Date.Format "2006-01-02" }}' class="inline-block w-32"> {{.Date.Format "2006-01-02"}}</time>
-                |
-                {{.Title}}</a>
-        </li>
-        {{ end }}
-    </ul>
+    {{ partial "entries-list.html" . }}
     {{ end }}
+
     {{ partial "translations.html" . }}
-</article>
+    </article>
+</div>
 {{ end }}

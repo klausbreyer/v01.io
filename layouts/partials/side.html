@@ -2,7 +2,7 @@
 	{{ range .Site.Menus.header }}
 	<li class="flex w-full">
 		<a lang="en" class="block w-full font-bold border-t-2 group hover:border-primary text-xlfont-sharetech hover:text-primary colspan author font-share-tech" href="{{ .URL }}">
-			{{.Name}}
+			&rsaquo; {{.Name}}
 		</a>
 	</li>
 	{{ end }}
@@ -10,7 +10,9 @@
 	{{ range .Site.Menus.side }}
 
 	<li class="border-t-2 grow group hover:border-primary">
-		<a href="{{ .URL }}" class="font-bold text-text group-hover:text-primary">{{ .Name }}</a>
+		<a href="{{ .URL }}" class="font-bold text-text group-hover:text-primary">
+			&rsaquo; {{ .Name }}
+		</a>
 	</li>
 	{{ end }}
 
@@ -19,7 +21,9 @@
 	{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
 
 	<li class=" group hover:border-primary">
-		<a class=" group-hover:text-primary" href="{{ .Permalink }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a>
+		<a class=" group-hover:text-primary" href="{{ .Permalink }}">
+			{{/* {{ .Date.Format "2006-01-02" }} | */}}
+			{{ .Title }}</a>
 	</li>
 
 	{{ end }}

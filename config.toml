@@ -34,12 +34,12 @@ defaultContentLanguage = 'en'
 
 
 [[menu.header]]
-  name = 'About: Now'
+  name = 'Now / Present'
   url = '/pages/now/'
   weight = 20
 
 [[menu.header]]
-  name = 'About: Past (CV)'
+  name = 'Past / CV'
   url = '/pages/cv/'
   weight = 30
 
