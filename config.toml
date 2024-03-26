@@ -53,6 +53,13 @@ defaultContentLanguage = 'en'
   url = '/categories/bookshelf/'
   weight = 66
 
+[[menu.header]]
+  name = 'Blogposts'
+  url = '/posts/'
+  weight = 77
+
+
+
 [[menu.side]]
   name = 'Blogposts'
   url = '/posts/'
