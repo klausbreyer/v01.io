@@ -14,7 +14,8 @@
         &ndash; {{ .Site.Title }}
         {{ end }}
     </title>
-    <link rel="stylesheet" href="/css/tailwind.css" rel="preload" as="style">
+    <link rel="preload" href="/css/tailwind.css" as="style">
+    <link rel="stylesheet" href="/css/tailwind.css">
     <link rel="icon" href="{{.Site.BaseURL}}images/favicon.jpg" />
     <link rel="apple-touch-icon" href="{{.Site.BaseURL}}images/favicon.jpg" />
     {{ block "head" . }}
