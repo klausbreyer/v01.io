@@ -1,17 +1,17 @@
 ---
 title: "How to Strategize"
 
-date: 2023-12-05
+date: 2024-03-27
 
-draft: true
 tags:
   - strategy
   - blueocean
   - startups
 categories: ["Business"]
+image: "2023-12-05-how-to-strategize.jpg"
 ---
 
-![](2023-12-05-how-to-strategize.webp)
+![](2023-12-05-how-to-strategize.jpg)
 
 Rejecting the normative constraints of static PowerPoint presentations and the rigid frameworks reminiscent of ancient temples, my approach to startup strategy embraces clarity and divergence. It's not just about standing out; it's about being _contrarian_!
 
