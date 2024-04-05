@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container p-4 mx-auto">
-    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}  print:my-0 pt-4 {{ partial "prose.html" }}'>
+    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}  print:my-0 pt-10 {{ partial "prose.html" }}'>
         <h1 class="">{{.Title}}</h1>
         {{ .Content }}
     </article>

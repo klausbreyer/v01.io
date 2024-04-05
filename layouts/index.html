@@ -4,7 +4,7 @@
 
 {{ define "main" }}
 <main class="container mx-auto">
-    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}    {{partial "prose.html"}} prose-h1:pt-4 '>
+    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}    {{partial "prose.html"}} prose-h1:pt-10 '>
 
         {{.Content}}
     </article>
