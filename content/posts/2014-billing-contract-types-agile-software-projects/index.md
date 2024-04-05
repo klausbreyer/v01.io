@@ -5,7 +5,7 @@ date: 2014-03-01T11:26:47+01:00
 publishdate: 2014-03-01T11:26:47+01:00
 lastmod: 2023-01-10T14:58:38+01:00
 draft: false
-categories: ["Engineering Org"]
+categories: ["Management"]
 tags:
   [
     "Agile",

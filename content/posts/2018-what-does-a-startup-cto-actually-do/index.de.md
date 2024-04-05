@@ -14,7 +14,7 @@ tags:
     "product development",
     "business decisions",
   ]
-categories: ["Engineering Org"]
+categories: ["Management"]
 image: "2018-01-05-CTO.png"
 aliases:
   - /posts/was-macht-eigentlich-ein-startup-cto/

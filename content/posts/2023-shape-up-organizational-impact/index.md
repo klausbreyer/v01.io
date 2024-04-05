@@ -11,7 +11,7 @@ tags:
   - engineering
   - product
   - org
-categories: ["Engineering Org"]
+categories: ["Management"]
 image: "2023-09-15-shaping-building-cycle.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
 ---

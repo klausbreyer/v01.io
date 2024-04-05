@@ -5,7 +5,7 @@ date: 2014-04-01T21:13:34+02:00
 publishdate: 2014-04-01T21:13:34+02:00
 lastmod: 2021-06-29T10:37:31+02:00
 draft: false
-categories: ["Engineering Org"]
+categories: ["Management"]
 tags:
   [
     "File Organization",

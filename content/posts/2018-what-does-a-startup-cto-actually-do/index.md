@@ -14,7 +14,7 @@ tags:
     "product development",
     "business decisions",
   ]
-categories: ["Engineering Org"]
+categories: ["Management"]
 image: "2018-01-05-CTO.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_what-does-a-startup-cto-actually-do-klaus-activity-7041324585870327811-lFix"
 ---
