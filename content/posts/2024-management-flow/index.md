@@ -8,7 +8,7 @@ image: "2024-04-05-flow-reflection.png"
 ---
 
 ![](2024-04-05-flow-reflection.svg)
-Over the years, I've honed a management approach that is both effective and adaptable, particularly in leading remote teams. As the Head of Product & Technology at [edding AG](https://www.edding.com), I have the privilege of directly managing the diverse and interdisciplinary team at [easycheck](https://easycheck-by-edding.com/) in a hands-on manner. This approach works not just for one team but also when you're managing managers and reporting to C-Level colleagues.
+Over the years, I have refined a management approach that is both effective and adaptable, especially in leading remote teams. As Head of Product & Technology at [edding AG](https://www.edding.com), I am currently hands-on managing the interdisciplinary team at [easycheck](https://easycheck-by-edding.com/). But the underlying pattern is not limited to direct team management but also extends to managing managers and reporting to C-Level colleagues.
 
 ## Team Check-in (Async)
 
