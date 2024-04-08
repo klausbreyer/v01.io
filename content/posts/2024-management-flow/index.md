@@ -4,7 +4,7 @@ categories: ["Management"]
 title: "Flow & Reflection: My Approach to Team Management"
 date: 2024-04-05
 author: "Klaus Breyer"
-image: "2024-04-05-flow-reflection.png"
+image: "2024-04-05-flow-reflection-social.png"
 ---
 
 ![](2024-04-05-flow-reflection.svg)
