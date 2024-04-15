@@ -5,6 +5,7 @@ title: "Flow & Reflection: My Approach to Team Management"
 date: 2024-04-05
 author: "Klaus Breyer"
 image: "2024-04-05-flow-reflection-social.png"
+social: "https://www.linkedin.com/feed/update/urn:li:activity:7182998963174658048/"
 ---
 
 ![](2024-04-05-flow-reflection.svg)
