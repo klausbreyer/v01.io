@@ -1,5 +1,5 @@
 ---
-title: "Plays Well with Others"
+title: "Plays Well with Others, Eric Barker, 2022"
 categories: ["Bookshelf"]
 date: 2023-04-14
 ---

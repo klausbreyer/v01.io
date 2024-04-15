@@ -1,5 +1,5 @@
 ---
-title: "The Zen of Steve Jobs"
+title: "The Zen of Steve Jobs, 2011"
 categories: ["Bookshelf"]
 date: 2023-03-03
 ---

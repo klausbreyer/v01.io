@@ -1,5 +1,5 @@
 ---
-title: "Are Your Lights On?: How to Figure Out What the Problem Really is"
+title: "Are Your Lights On?, Donald C. Gause & Gerald M. Weinberg, 1990"
 categories: ["Bookshelf"]
 date: 2023-02-17
 ---

@@ -1,5 +1,5 @@
 ---
-title: "The Dip"
+title: "The Dip, Seth Godin, 2007"
 categories: ["Bookshelf"]
 date: 2023-02-17
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Slow Productivity"
+title: "Slow Productivity, Cal Newport, 2024"
 categories: ["Bookshelf"]
 date: 2024-04-08
 ---

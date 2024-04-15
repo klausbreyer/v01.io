@@ -1,5 +1,5 @@
 ---
-title: "Effective Remote Work: For Yourself, Your Team, and Your Company"
+title: "Effective Remote Work, James Stanier, 2022"
 categories: ["Bookshelf"]
 date: 2023-03-24
 ---

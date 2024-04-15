@@ -1,5 +1,5 @@
 ---
-title: "Thinking in Systems: A Primer"
+title: "Thinking in Systems: A Primer, Donella H. Meadows, 2008"
 categories: ["Bookshelf"]
 date: 2023-02-24
 ---

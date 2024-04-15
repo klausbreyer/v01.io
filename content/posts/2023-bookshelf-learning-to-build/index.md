@@ -1,5 +1,5 @@
 ---
-title: "Learning to Build: The 5 Bedrock Skills of Innovators and Entrepreneurs"
+title: "Learning to Build, Bob Moesta, 2022"
 categories: ["Bookshelf"]
 date: 2023-02-17
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Demand-Side Sales 101: Stop Selling and Help Your Customers Make Progress"
+title: "Demand-Side Sales 101, Bob Moesta, 2020"
 categories: ["Bookshelf"]
 date: 2023-02-17
 ---
