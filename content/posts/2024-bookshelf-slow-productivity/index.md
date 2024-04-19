@@ -2,6 +2,8 @@
 title: "Slow Productivity, Cal Newport, 2024"
 categories: ["Bookshelf"]
 date: 2024-04-08
+aliases:
+  - /posts/2024-slow-productivity/
 ---
 
 In today's fast-paced world, the concept of productivity has become synonymous with busyness and constant activity. However, Cal Newport, in his book "Slow Productivity," challenges this notion and presents a compelling alternative. Newport argues that true productivity in knowledge work is not about doing more things faster, but rather about focusing on fewer things, working at a natural pace, and obsessing over the quality of the work produced. This approach stands in stark contrast to the prevalent "pseudo-productivity" mindset, which emphasizes visible activity as a proxy for actual productive effort.
