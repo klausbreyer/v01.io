@@ -1,7 +1,7 @@
 ---
 title: CV
 date: 2023-09-01
-lastmod: 2024-03-26
+lastmod: 2024-04-22
 ---
 
 {{< gallery "/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg" "[&&]:justify-start" >}}
@@ -19,21 +19,27 @@ It's not merely about coding; it's about crafting standout products that make a 
 1. Assembling and Nurturing a Killer Team – Remote or in Berlin, transitioning from chaotic ad-hoc development to structured product delivery cadence.
 1. Bringing product & engineering processes up to speed - fostering asynchronous collaboration.
 
-From startup monoliths to large microservice environments, I've led and launched.
+Tech, product, business – that's where I thrive.
 
-But beyond the tech, I build infrastructures that empower.
+For me it is not about code, it's about weaving the tech fabric into the company's culture.
 
-Teams that innovate and Projects that matter.
+For agencies, SME or fledgling startups - Teams that innovate and Projects that matter.
 
-I've penned down my thoughts in [articles]({{< ref "/posts/">}}) and shared them out loud at [conferences]({{< relref "appearances">}}). Whether it's a page or a stage, I'm there.
+> Start, Iterate, Fight Bullshit.
 
-> Good software is always used but never finished.
+That is my Motto and I've penned down my thoughts in [articles]({{< ref "/posts/">}}) and shared them out loud at [conferences]({{< relref "appearances">}}). Whether it's a page or a stage, I'm there.
 
 That's all.
 
 ## Founding & Management Experience
 
 Throughout my career, I've led the development and launch of numerous cutting-edge projects in modern web stacks. I pride myself on my ability to balance technical excellence with a strategic vision, enabling my teams to focus on solving problems that truly matter and delivering value to users.
+
+### [edding AG](https://edding.com.com/)
+
+**Head of Product & Technology (2023-now)**
+
+My primary focus is steering the innovative **easycheck product**, a cutting-edge solution for digital driver's license control, towards greater heights by transforming it from a corporate project to an empowered product team.
 
 ### [Hydro Pocket](https://hydropocket.com/)
 

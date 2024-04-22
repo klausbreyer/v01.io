@@ -1,6 +1,7 @@
 ---
-title: "Appearances"
+title: "Public Speaking"
 date: 2022-12-19
+lastmod:
 aliases:
   - "talks"
 ---

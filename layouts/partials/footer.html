@@ -1,36 +1,34 @@
-<div class="container p-4 mx-auto lg:p-8 print:hidden">
-    <div class="grid grid-cols-1 gap-4 mb-8 sm:grid-cols-2">
+<div class="container max-w-screen-xl p-4 mx-auto lg:p-8 print:hidden">
+    <div class="grid grid-cols-1 gap-8 mb-8 sm:grid-cols-2">
         <div class=" about">
-            <h3 class="mb-2 text-xl ">About</h3>
-            <p class="leading-7 ">{{.Site.Params.Description}}</p>
-            <p class="leading-7">Reach me via: <a href="mailto:kb@v01.io?subject=v01.io" class="text-primary hover:underline">E-Mail</a> or follow me on
+            <h3 class="mb-2 text-xl font-bold ">About</h3>
+            <p class="mb-2 leading-6 ">15 years of product and tech leadership, with a track record of building startups and business units. Currently transforming a corporate digital project into an empowered product team.
+            </p>
+            <p class="mb-2 leading-6 ">Focused on breaking down silos and building holistic, interdisciplinary, diverse teams. Passionate about the tooling, methods, and leadership of remote teams and committed to creating effective solutions that provide customer value and work for the business.</p>
+
+            <p class="mb-2 leading-6">Reach me via: <a href="mailto:kb@v01.io?subject=v01.io" class="text-primary hover:underline">E-Mail</a> or follow me on
                 <a href="https://www.linkedin.com/in/klaus-breyer/" class="text-primary hover:underline" target="_blank">LinkedIn</a> & <a href="https://twitter.com/klausbreyer" class="text-primary hover:underline" target="_blank">Twitter</a>.
             </p>
         </div>
         <div class="">
-            <h3 class="mb-2 text-xl ">Mailing List</h3>
-            <p class="mb-2 leading-7">If you want to be informed about something significant happening here, please subscribe to my Mailing List.</p>
+            <h3 class="mb-2 text-xl font-bold ">Mailing List</h3>
+            <p class="mb-2 leading-7">Subscribe to my newsletter for insights as they emerge — straight from the frontline and always with the v01 mindset: <span class="text-text bg-dark">start, iterate, fight bullshit</span>.</p>
 
-            <div id="mc_embed_signup" class="mb-2">
-                <form action="https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required="">&nbsp;
-                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="px-4 py-2 font-bold text-white rounded cursor-pointer bg-primary button hover:opacity-90">
-                </form>
-            </div>
+            {{ partial "newsletter.html"}}
 
             <p class="text-xs">(After clicking subscribe your email address is submitted to MailChimp, the provider I use for my mailinglist. Your email address is never sold or shared).</p>
         </div>
     </div>
 
     <nav class="mb-8">
-        <h3 class="mb-2 text-xl ">Categories</h3>
-        <ul class="flex flex-wrap gap-x-5 justify-stretch">
+        <h3 class="mb-2 text-xl font-bold ">Categories</h3>
+        <ul class="flex flex-wrap gap-x-5 ">
 
             {{ $categories := .Site.Taxonomies.categories }}
             {{ range $categories }}
 
-            <li class=" grow group hover:border-primary">
-                <a href="{{ .Page.Permalink }}" class=" text-text group-hover:text-primary">
+            <li class="">
+                <a href="{{ .Page.Permalink }}" class=" text-text hover:text-primary">
                     <span class="text-primary">&rsaquo;</span>
                     Posts in {{ .Page.Title }} ({{ .Count }})
                 </a>
@@ -41,9 +39,9 @@
 </div>
 
 <div class="text-white copyright bg-footer print:hidden">
-    <div class="container flex items-center justify-between p-4 mx-auto lg:p-8">
+    <div class="container flex items-center justify-between max-w-screen-xl p-4 mx-auto lg:p-8">
         <a class="p-1 border-t-2 hover:text-primary hover:border-primary" href="/">{{$.Site.Copyright }}</a>
-        <span class="flex gap-4">
+        <span class="flex gap-8">
             <a href="{{ .Page.Permalink }}" class="p-1 border-t-2 hover:text-primary hover:border-primary" target="_blank">Permalink</a>
             <a href="{{ .Site.BaseURL }}posts/index.xml" class="p-1 border-t-2 hover:text-primary hover:border-primary" target="_blank">RSS Feed</a>
             <a href="https://www.iubenda.com/privacy-policy/96468474/full-legal" class="p-1 border-t-2 hover:text-primary hover:border-primary" target="_blank">Imprint</a>

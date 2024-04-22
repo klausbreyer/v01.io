@@ -21,7 +21,7 @@ defaultContentLanguage = 'en'
 
 [params]
   repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
-  description = "I’m Klaus Breyer. With a lifetime in tech, a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others."
+  description = "15 years of product and tech leadership, with a track record of building startups and a corporate business units. Insights and strategies shared from the frontline, always with the v01 mindset: start, iterate, fight bullshit."
   image = 'images/klaus-breyer.jpg'
 
 [privacy]
@@ -34,22 +34,22 @@ defaultContentLanguage = 'en'
 
 
 [[menu.header]]
-  name = 'Present / Now'
+  name = 'Now'
   url = '/pages/now/'
   weight = 20
 
 [[menu.header]]
-  name = 'Past / CV'
+  name = 'Past'
   url = '/pages/cv/'
   weight = 30
 
 [[menu.header]]
-  name = 'Public Speaking'
+  name = 'Speaking'
   url = '/pages/appearances/'
   weight = 50
 
 [[menu.header]]
-  name = 'My Bookshelf'
+  name = 'Bookshelf'
   url = '/categories/bookshelf/'
   weight = 66
 

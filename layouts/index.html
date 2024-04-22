@@ -3,9 +3,8 @@
 {{ end }}
 
 {{ define "main" }}
-<main class="container mx-auto">
+<main class="container mx-auto mb-20">
     <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}    {{partial "prose.html"}} prose-h1:pt-10 '>
-
         {{.Content}}
     </article>
 </main>
