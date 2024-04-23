@@ -4,6 +4,7 @@ categories: ["Code"]
 title: "Dear Samsung Internet: Please Fix Your Forced Dark Mode!"
 date: 2024-04-22
 image: "darkmode-example.png"
+social: "https://www.linkedin.com/feed/update/urn:li:activity:7188183981824094208/"
 ---
 
 **TL;DR:** Samsung Internet's dark mode ignores CSS for `prefers-color-scheme: dark`, instead renders light theme CSS and applies a proprietary transformation algorithm to simulate dark mode. This leads to unintended visual outcomes on websites, disrupting carefully designed user interfaces.

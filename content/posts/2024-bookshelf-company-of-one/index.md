@@ -2,6 +2,7 @@
 title: "Company of One, Jeff Jarvis, 2020"
 categories: ["Bookshelf"]
 date: 2024-04-19
+social: "https://www.linkedin.com/feed/update/urn:li:activity:7188071594987073536/"
 ---
 
 In an era dominated by start-ups striving for exponential growth, the concept of staying small as a 'Company of One' offers a refreshing paradigm shift. My exploration into Paul Jarvis's compelling book, alongside insightful tangents from Cal Newport and David Epstein, has led to profound realizations about business growth and personal fulfillment in the tech and product space.
