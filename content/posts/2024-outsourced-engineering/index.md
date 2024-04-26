@@ -3,6 +3,7 @@ title: "Outsourced Engineering: Painting By Numbers Kills Product Innovation"
 
 categories: ["Product"]
 date: 2024-04-26T09:42:44+02:00
+social: "https://www.linkedin.com/feed/update/urn:li:share:7189534698568642562/"
 draft: false
 ---
 
