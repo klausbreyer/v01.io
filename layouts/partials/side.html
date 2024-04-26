@@ -1,22 +1,25 @@
-<ul class="grid gap-3 pl-3 border-l-2">
+<div class="pl-4 border-l-2 border-primary">
+	<div class="h-1"> &nbsp;</div>
+	<ul class="-mt-2 space-y-3 ">
 
-	{{ range .Site.Menus.side }}
+		{{ range .Site.Menus.side }}
 
-	<li class="grow group hover:border-primary">
-		<a href="{{ .URL }}" class="font-bold text-text group-hover:text-primary">
-			<span class="text-primary">&rsaquo;</span> {{ .Name }}
-		</a>
-	</li>
-	{{ end }}
+		<li class="">
+			<a href="{{ .URL }}" class="font-bold text-text hover:text-primary">
+				<span class="text-primary">&rsaquo;</span> {{ .Name }}
+			</a>
+		</li>
+		{{ end }}
 
-	{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+		{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
 
-	<li class=" group hover:border-primary">
-		<a class=" group-hover:text-primary" href="{{ .Permalink }}">
-			{{/* {{ .Date.Format "2006-01-02" }} | */}}
-			{{ .Title }}</a>
-	</li>
+		<li class="">
+			<a class=" hover:text-primary" href="{{ .Permalink }}">
+				{{/* {{ .Date.Format "2006-01-02" }} | */}}
+				{{ .Title }}</a>
+		</li>
 
-	{{ end }}
+		{{ end }}
 
-</ul>
+	</ul>
+</div>

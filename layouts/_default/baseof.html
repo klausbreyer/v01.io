@@ -32,9 +32,9 @@
 
     {{ partial "header.html" . }}
     <main>
-        <div class="container grid max-w-screen-xl grid-cols-1 gap-8 px-4 pb-4 mx-auto print:p-0 lg:px-8 sm:grid-cols-4 print:grid-cols-1">
+        <div class="container grid max-w-screen-xl grid-cols-1 gap-4 px-4 pb-4 mx-auto print:p-0 lg:px-8 sm:grid-cols-4 print:grid-cols-1">
 
-            <div class="border-t-2 sm:col-span-3 print:border-t-0 ">
+            <div class="border-t-2 sm:col-span-3 print:border-t-0 border-primary ">
                 {{ partial "print_header.html" . }}
                 {{ block "main" . }}
                 {{ end }}
