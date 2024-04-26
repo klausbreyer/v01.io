@@ -19,6 +19,8 @@ They are closest to the tech and, therefore, to the tech solution.
 When coding becomes a task divorced from the broader vision, it's no more innovative than painting by numbers. You don't need an artist for that.
 Even worse, engineers who work too long in a "just give me my tickets with acceptance criteria" mindset eventually stop thinking. For them, it becomes more important to have hourlong refinement sessions to discuss and complain than to solve a customer's problem.
 
-If you remove the engineer's proximity to the problem space, you remove their lever. You remove any chance of building a successful product team.
+Insourced engineers pay for themself, manifold.
 
-Not even "agile" can help you, then.
+If the engineers' proximity to the problem space is removed, their lever is removed. Even worse, any chance of building a successful product team is removed.
+
+Not even "agile" can help then.
