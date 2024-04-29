@@ -5,7 +5,9 @@ categories: ["Bookshelf"]
 draft: false
 ---
 
-In Nir Eyal's book "Indistractable: How to Control Your Attention and Choose Your Life," he argues that technology isn't to blame for our distractions. Rather, it's our internal desire to escape discomfort that leads us astray. Here are some key takeaways:
+Nir Eyal, the same author who wrote "Hooked" on creating addictive products, now explores how we can fortify ourselves against such hooks and take control of our lives - again.
+
+In his book "Indistractable: How to Control Your Attention and Choose Your Life," he argues that technology isn't to blame for our distractions. Rather, our internal desire to escape discomfort leads us astray. Here are some key takeaways:
 
 1. **Distraction as an Internal Struggle:** Distraction stems from our inability to manage discomfort, be it boredom, anxiety, or stress.
 2. **Planned Time to Waste is Not Wasted Time:** Allocating specific times to let your mind wander isn't necessarily unproductive—it's a form of recharging.
