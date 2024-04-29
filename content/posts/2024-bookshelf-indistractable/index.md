@@ -3,6 +3,7 @@ title: "Indistractable, Nir Eyal, 2020"
 date: 2024-04-29
 categories: ["Bookshelf"]
 draft: false
+social: "https://www.linkedin.com/posts/klaus-breyer_indistractable-nir-eyal-2020-klaus-breyer-activity-7190608289976475648-Loh3"
 ---
 
 Nir Eyal, the same author who wrote "Hooked" on creating addictive products, now explores how we can fortify ourselves against such hooks and take control of our lives - again.
