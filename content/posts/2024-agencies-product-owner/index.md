@@ -5,7 +5,7 @@ categories: ["Prodcut"]
 draft: true
 ---
 
-A client-side Product Owner isn't necessary for successful digital products—I even consider it harmful. What's crucial is proper and effective Product Management by the agency.
+A client-side Product Owner isn't necessary for successful digital products — I even consider it harmful. What's crucial is proper and effective Product Management by the agency.
 
 (The beloved "PO per proxy" won't cut it, either.)
 

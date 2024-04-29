@@ -29,17 +29,17 @@ AI code generation is still very weak with respect to code architecture.
 
 Good architecture occurs when a new product idea is shaped—at the very beginning. *It is too late when there is a list of requirements or acceptance criteria*.
 
-So (Senior) engineers need to have a seat at the table while a feature is shaped, and *they need to be willing to participate* by building fast AI-enhanced prototypes during discovery.
+So (Senior) engineers need to have a seat at the table while a feature is shaped, and they need to be willing to participate by building fast AI-enhanced prototypes during discovery.
 
 Methodologies like [Shape Up](https://www.feltpresence.com/) that embrace such working styles will be even more critical.
 
 ## Team Topologies:  Loosely coupled, highly aligned.
 
-The smaller the team, the less communication. This fact boosts productivity even more (besides the fact that much of the code is now AI-generated).
-
 ![](lines.webp)
 
 ([Lines Of Communication and Team Size: Applying Brooks' Law](https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/))
+
+The smaller the team, the less communication. This fact boosts productivity even more (besides the fact that much of the code is now AI-generated).
 
 So, smaller teams are a good thing. I estimate that we go down from a typical team size of 5-7 developers to 2-3 developers. A solo developer is undoubtedly possible, but some redundancy is essential for sick leave and vacations.
 
