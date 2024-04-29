@@ -2,7 +2,7 @@
 title: "Indistractable, Nir Eyal, 2020"
 date: 2024-04-29
 categories: ["Bookshelf"]
-draft: true
+draft: false
 ---
 
 In Nir Eyal's book "Indistractable: How to Control Your Attention and Choose Your Life," he argues that technology isn't to blame for our distractions. Rather, it's our internal desire to escape discomfort that leads us astray. Here are some key takeaways:
