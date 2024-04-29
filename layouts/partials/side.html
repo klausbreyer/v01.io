@@ -1,12 +1,22 @@
+<div class="pl-4 mb-4 border-l-2 border-primary">
+	<h3 class="mb-2 text-xl font-bold ">Mailing List</h3>
+
+	<p class="mb-2 leading-6">Subscribe for insights on leading product teams: Starting, iterating, and fighting bullshit.</p>
+
+	{{ partial "newsletter.html"}}
+	<p class="text-xs">(I use MailChimp. Your data is never sold or shared.)</p>
+
+</div>
+
 <div class="pl-4 border-l-2 border-primary">
 	<div class="h-1"> &nbsp;</div>
-	<ul class="-mt-2 space-y-3 ">
+	<ul class="space-y-3 ">
 
 		{{ range .Site.Menus.side }}
 
 		<li class="">
-			<a href="{{ .URL }}" class="font-bold text-text hover:text-primary">
-				<span class="text-primary">&rsaquo;</span> {{ .Name }}
+			<a href="{{ .URL }}" class="font-bold uppercase text-primary hover:underline">
+				<span class="text-text">&rsaquo;</span> {{ .Name }}
 			</a>
 		</li>
 		{{ end }}
@@ -14,7 +24,7 @@
 		{{ range first 10 (where .Site.RegularPages "Type" "posts") }}
 
 		<li class="">
-			<a class=" hover:text-primary" href="{{ .Permalink }}">
+			<a class=" text-primary hover:underline" href="{{ .Permalink }}">
 				{{/* {{ .Date.Format "2006-01-02" }} | */}}
 				{{ .Title }}</a>
 		</li>

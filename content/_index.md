@@ -12,14 +12,6 @@ I'm Klaus Breyer and I bring [15 years of product and tech leadership]({{< relre
 
 Focused on breaking down silos and building holistic, interdisciplinary, diverse teams. Passionate about the tooling, methods, and leadership of remote teams and committed to creating effective solutions that provide customer value and work for the business.
 
-## Mailing List
-
-Subscribe to my newsletter for insights as they emerge — straight from the frontline and always with the v01 mindset: start, iterate, fight bullshit.
-
-{{< newsletter >}}
-
-(After clicking subscribe your email address is submitted to MailChimp, the provider I use for my mailinglist. Your email address is never sold or shared).
-
 ## Welcome Guide
 
 If this is your first visit, here's a guide to what you'll find on this site:
