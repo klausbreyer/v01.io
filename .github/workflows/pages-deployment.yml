@@ -27,13 +27,13 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: make build
 
       - name: Publish Page
-        uses: cloudflare/pages-action@1 # https://github.com/cloudflare/pages-action
+        uses: cloudflare/pages-action@v1 # https://github.com/cloudflare/pages-action
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: v01-hugo # e.g. 'my-project'
-          directory: public # e.g. 'dist'
+          projectName: v01-hugo
+          directory: public
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}

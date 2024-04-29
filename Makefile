@@ -2,7 +2,7 @@ start:
 	hugo server --buildDrafts & ./tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --watch
 
 build:
-	hugo --minify
+	HUGO_ENVIRONMENT=production hugo --minify
 
 tailwind-download:
 ifeq ($(shell uname -s), Darwin)
