@@ -1,15 +1,15 @@
 ---
-title: "Dear digital agencies, stop asking your customers for a Product Owner."
-date: 2024-04-26T12:15:43+02:00
-categories: ["Prodcut"]
-draft: true
+title: "Dear Digital Agencies, Stop Asking Your Customers for a Product Owner."
+date: 2024-04-30
+categories: ["Product"]
+draft: false
 ---
 
 A client-side Product Owner isn't necessary for successful digital products — I even consider it harmful. What's crucial is proper and effective Product Management by the agency.
 
 (The beloved "PO per proxy" won't cut it, either.)
 
-Having experience with both sides, I would like to share some fictional letters.
+Having experience with both sides, I wrote some fictional letters to them.
 
 ## The biggest mistake clients of digital agencies can make is writing tickets.
 
