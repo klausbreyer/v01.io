@@ -34,17 +34,12 @@ defaultContentLanguage = 'en'
 
 
 [[menu.header]]
-  name = 'Now'
-  url = '/pages/now/'
+  name = 'Services'
+  url = '/pages/services/'
   weight = 20
 
 [[menu.header]]
-  name = 'Past'
-  url = '/pages/cv/'
-  weight = 30
-
-[[menu.header]]
-  name = 'Speaking'
+  name = 'Media'
   url = '/pages/appearances/'
   weight = 50
 
