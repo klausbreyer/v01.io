@@ -2,9 +2,10 @@
 title: "Becoming a technical Leader, Gerald M. Weinberg, 1986"
 categories: ["Bookshelf"]
 date: 2024-05-03
+social: "https://www.linkedin.com/posts/klaus-breyer_becoming-a-technical-leader-gerald-m-weinberg-activity-7192097399408869376-E0gp?"
 ---
 
-You Are What You Read, Even If You Don't Always Remember It, says [Jim Nielsen](https://blog.jim-nielsen.com/2024/you-are-what-you-read/). Some books I read just to contemplate my current situation, not because I see an immediate deficit. So, I can also read a book from 1986 (the year of my birth!) written by the legendary Gerald Weinberg while being constantly humbled by its timeless wisdom: The essence of leadership lies in fostering an environment that empowers people. Yes, exactly this.
+You Are What You Read, Even If You Don't Always Remember It, says [Jim Nielsen](https://blog.jim-nielsen.com/2024/you-are-what-you-read/). Some books I read just to contemplate my current situation, not because I see an immediate deficit. So, I can also read a book from 1986 (the year of my birth!) written by the legendary Gerald Weinberg while being constantly humbled by its timeless wisdom: The essence of leadership lies in fostering an environment that empowers people. Yes, exactly this!
 
 But there is also so much more that this book offers.
 
