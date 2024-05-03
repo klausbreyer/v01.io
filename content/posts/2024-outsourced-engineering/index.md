@@ -2,7 +2,8 @@
 title: "Outsourced Engineering: Painting By Numbers Kills Product Innovation"
 
 categories: ["Product"]
-date: 2024-04-26T09:42:44+02:00
+date: 2024-04-26
+lastmod: 2024-05-03
 social: "https://www.linkedin.com/feed/update/urn:li:share:7189534698568642562/"
 draft: false
 ---
@@ -24,3 +25,7 @@ Insourced engineers pay for themself, manifold.
 If the engineers' proximity to the problem space is removed, their lever is removed. Even worse, any chance of building a successful product team is removed.
 
 Not even "agile" can help then.
+
+---
+
+Update, 2024-05-03: In the [LinkedIn discussion](https://www.linkedin.com/feed/update/urn:li:activity:7189534699298406400?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7189534699298406400%2C7191879273324953600%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287191879273324953600%2Curn%3Ali%3Aactivity%3A7189534699298406400%29) for this blog post, a fascinating Swedish neologism came to light: "närkodat." It stems from the term "närodlat," used in grocery stores to describe locally grown products. So, "närkodat" refers to local or close software developers, emphasizing the value of proximity in engineering just as it is in agriculture.
