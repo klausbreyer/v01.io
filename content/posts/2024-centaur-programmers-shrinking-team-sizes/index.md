@@ -1,6 +1,7 @@
 ---
 title: "Centaur Programmers Shrink Team Sizes and This Has Implications for Staffing, Architecture, and Team Topology"
 date: 2024-05-06
+draft: true
 categories: ["Management"]
 image: "centaur.jpg"
 # social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
@@ -18,9 +19,9 @@ Let's discuss the implications for product teams.
 
 AI is Lowering entry barriers and reducing dependency on years of accumulated knowledge. So, covering multiple domains becomes easier. However, the full-stack debate might pivot to two key roles:
 
-1. **Full-Stack-Crossovers**: Professionals with a vast range of knowledge and understanding of technical implementation and product requirements. They will write the requirements in the AI chat prompts
+1. **Product Minded Full-Stack Developers**: The generalists need to be even more general. Not just coming with a vast range of knowledge and understanding of technical implementation, as well as product requirements. Basically, they will write the requirements in the AI chat prompts.
 
-2. **Specialized Experts**: These experts handle tasks that AI hasn't yet mastered. However, with AI's exponential learning curve, even these roles are not immune to obsolescence. They are the spearheads of their respective industry.
+2. **Specialized Experts**: These experts are the ones that actually still write a lot of novel code, handle tasks that AI hasn't yet mastered. (Including building AI systems, itself). They are the spearheads of their respective programming ecosystem. However, with AI's exponential learning curve, even these roles are not immune to obsolescence.
 
 ## Architecture and Feasibility while Shaping
 
