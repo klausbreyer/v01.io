@@ -1,7 +1,6 @@
 ---
 title: "Centaur Programmers Shrink Team Sizes and This Has Implications for Staffing, Architecture, and Team Topology"
-date: 2024-05-03
-draft: true
+date: 2024-05-06
 categories: ["Management"]
 image: "centaur.jpg"
 # social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
