@@ -1,6 +1,6 @@
 ---
 title: "Centaur Programmers Shrink Team Sizes and This Has Implications for Staffing, Architecture, and Team Topology"
-date: 2024-04-29
+date: 2024-05-03
 draft: true
 categories: ["Management"]
 image: "centaur.jpg"

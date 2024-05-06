@@ -12,6 +12,18 @@ I'm Klaus Breyer and I bring [15 years of product and tech leadership]({{< relre
 
 Focused on breaking down silos and building holistic, interdisciplinary, diverse teams. Passionate about the tooling, methods, and leadership of remote teams and committed to creating effective solutions that provide customer value and work for the business.
 
+## What I stand for
+
+No trivial quotes. Fundamental, non-negotiable values.
+
+- [Only insourced teams can deliver real innovation.]({{< relref "/posts/2024-outsourced-engineering" >}})
+- [A digital agency should own the product - not just implement features.]({{< relref "/posts/2024-agencies-product-owner" >}})
+- [The way to really figure out what needs to be done is to start doing real work.](https://basecamp.com/shapeup/3.1-chapter-10#imagined-vs-discovered-tasks)
+- [Effective remote work requires more than just technological tools; it demands intentional asynchronous culture.]({{< relref "/posts/2023-bookshelf-effective-remote-work" >}})
+- [Do fewer things. Work at a natural pace. Obsess about quality.]({{< relref "/posts/2024-bookshelf-slow-productivity" >}})
+
+- [Dont't work for assholes. Don't work with assholes.](https://shop.p98a.com/products/p98a-don-t-work-for-assholes-don-t-work-with-assholes-6th-edition-day-glo)
+
 ## Welcome Guide
 
 If this is your first visit, here's a guide to what you'll find on this site:
