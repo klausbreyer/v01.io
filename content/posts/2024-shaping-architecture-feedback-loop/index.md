@@ -4,12 +4,12 @@ date: 2024-05-14
 draft: false
 categories: ["Code"]
 image: "shaping-architecture-feedback-loop.png"
-# social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
+social: "https://www.linkedin.com/posts/klaus-breyer_architectural-feedback-loops-while-shaping-activity-7196091918395543553-ovxW?"
 ---
 
 I often discuss how and when to address software architecture while building a new feature. I answer this here with the terminology of Shape Up, but the answer is not specific to Shape Up but applies generally (however you call this stage your process).
 
-TLDR: Architecture needs to be addressed during the shaping of an feature. Only then can the implementing team work autonomously during the delivery cycle. It would be unfair to throw things at the team, without even remotely clarifying how to implement them.
+TLDR: Architecture needs to be addressed during the shaping of a feature. Only then can the implementing team work autonomously during the delivery cycle. It would be unfair to throw things at the team, without even remotely clarifying how to implement them.
 
 ![Framing → Shaping → Packaging → Delivery](shaping-architecture-feedback-loop.png)
 
