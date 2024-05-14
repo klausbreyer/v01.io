@@ -1,5 +1,5 @@
 ---
-title: "Architectural Feedback Loops While Shaping a Feature"
+title: "Iterative Architecture During Feature Shaping with Feedback Loops"
 date: 2024-05-14
 draft: false
 categories: ["Code"]
