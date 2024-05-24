@@ -6,6 +6,8 @@ draft: false
 social: "https://www.linkedin.com/posts/klaus-breyer_indistractable-nir-eyal-2020-klaus-breyer-activity-7190608289976475648-Loh3"
 ---
 
+{{< gallery "https://amzn.to/3xVjDmF,indistractable.png" >}}
+
 Nir Eyal, the same author who wrote "Hooked" on creating addictive products, now explores how we can fortify ourselves against such hooks and take control of our lives - again.
 
 In his book "Indistractable: How to Control Your Attention and Choose Your Life," he argues that technology isn't to blame for our distractions. Rather, our internal desire to escape discomfort leads us astray. Here are some key takeaways:
@@ -28,5 +30,3 @@ In his book "Indistractable: How to Control Your Attention and Choose Your Life,
 10. **Managing Team Dynamics:** Effective teams prioritize psychological safety and structure. Problems should be framed as learning opportunities to foster growth.
 
 Eyal's insights reveal that mastering distractions is less about eliminating them and more about understanding and managing our responses to discomfort. This understanding can lead to a more focused and fulfilling life.
-
-{{< gallery "https://amzn.to/3xVjDmF,indistractable.png" >}}

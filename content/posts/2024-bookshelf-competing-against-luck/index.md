@@ -7,6 +7,8 @@ aliases:
   - /posts/2024-competing-against-luck/
 ---
 
+{{< gallery "https://amzn.to/3xCsf1i,against-luck.png" >}}
+
 Amid the overwhelming sea of apps on a smartphone, a user decides to download a new productivity tool. This decision, seemingly trivial in the vast digital marketplace, is deeply rooted in their current struggles with managing tasks efficiently—a classic scenario that underscores the essence of Clayton M. Christensen's Competing Against Luck. The theory of Jobs to be Done (JTBD) offers a transformative perspective on innovation, focusing not on the product itself but on the underlying reasons for a customer's choice, reshaping my approach to product development and consulting.
 
 ## Rethinking Innovation
@@ -26,5 +28,3 @@ Christensen stresses that while products are easily duplicated, unique user expe
 Reflecting on the principles of Competing Against Luck, the path to innovation is seen as an ongoing cycle of learning and adaptation. Each project and consultation offers fresh insights into the complex 'jobs' that users need to complete with the aid of technology. From the digital realm to the concrete world, the most successful innovations are those that truly understand and fulfill the unspoken, often complex needs of users.
 
 Looking ahead, the strategies outlined by Christensen will continue to inspire and guide future product development, ensuring that innovation is not just about technological advancement, but about making meaningful impacts on users' lives.
-
-{{< gallery "https://amzn.to/3xCsf1i,against-luck.png" >}}

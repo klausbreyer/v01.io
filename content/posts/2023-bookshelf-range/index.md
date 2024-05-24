@@ -4,6 +4,8 @@ categories: ["Bookshelf"]
 date: 2023-03-10
 ---
 
+{{< gallery "https://amzn.to/3LgttE7,range.png" >}}
+
 In the professional world, the debate between specializing early versus diversifying experiences rages on. David Epstein's "Range: Why Generalists Triumph in a Specialized World," offers compelling insights into this ongoing discussion, suggesting that a broad array of experiences can be more advantageous than early specialization in many fields.
 
 ## Broad Foundation vs. Early Specialization
@@ -25,5 +27,3 @@ For professionals pondering their career trajectories or organizations designing
 In conclusion, while the allure of becoming an ultra-specialized expert in one's field is strong, Epstein’s "Range" champions the versatility and adaptive potential of generalists. In an ever-changing world, this flexibility may well be the key to both personal and professional triumph.
 
 Reflecting on the arguments laid out in "Range," it becomes clear that the journey of broad exploration, rather than narrow focus, might just be the most effective path to discovering and shaping one's true potential. As we navigate our own careers and personal growth, let us consider the power of range—not just as a concept but as a practical approach to living and learning.
-
-{{< gallery "https://amzn.to/3LgttE7,range.png" >}}

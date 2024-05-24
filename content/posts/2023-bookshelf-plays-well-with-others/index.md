@@ -4,6 +4,8 @@ categories: ["Bookshelf"]
 date: 2023-04-14
 ---
 
+{{< gallery "https://amzn.to/3L0VDCo,plays.png" >}}
+
 ## The Challenge of Effective Listening
 
 When a crisis unfolds, like a hostage situation, active listening emerges as a vital skill. It can defuse the immediate tension, offering a path to temporary stability. However, outside of these high-stress scenarios, the technique's efficacy diminishes, particularly in enduring personal relationships where emotions deeply intertwine.
@@ -42,5 +44,3 @@ A healthy relationship dynamic maintains a balance of positive to negative inter
 ## Conclusion: Human Connection and Technological Fears
 
 As we navigate a world increasingly mediated by technology, maintaining genuine connections and collaborative spirits becomes crucial. The essence of life, according to Barker, revolves around belonging and collaboration, which are fundamental to human success and satisfaction.
-
-{{< gallery "https://amzn.to/3L0VDCo,plays.png" >}}

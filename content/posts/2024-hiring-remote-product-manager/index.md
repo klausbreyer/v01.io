@@ -4,6 +4,7 @@ date: 2024-05-24
 draft: false
 categories: ["Product"]
 image: "homework-assignment.png"
+social: "https://www.linkedin.com/feed/update/urn:li:activity:7199742454575579136/"
 ---
 
 I am currently transforming a team within Eedding into an empowered product team.

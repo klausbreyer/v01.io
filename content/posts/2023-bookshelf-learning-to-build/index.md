@@ -4,6 +4,8 @@ categories: ["Bookshelf"]
 date: 2023-02-17
 ---
 
+{{< gallery "https://amzn.to/3lJ6Nll,learning-build.png" >}}
+
 In the dynamic world of product development, mastering the art of customer interviews is crucial for unearthing genuine needs and fostering innovation. Bob Moesta's book, _Learning to Build_, serves as an indispensable guide, packed with nuanced strategies that enhance our understanding of what customers truly desire, beyond mere surface-level interactions.
 
 ## A Dive into Moesta's Methods
@@ -19,5 +21,3 @@ Moesta encourages a shift from convincing others of our viewpoints to understand
 ## Conclusion: The Ripple Effects of Deep Understanding
 
 In wrapping up, the insights from _Learning to Build_ remind us of the profound impact that thorough, empathetic customer understanding can have—not just on the products we build, but on the very fabric of our organizations. It's about setting the stage for continual learning and adaptation, ensuring that our products remain relevant and our methods stay sharp in an ever-changing world. Moesta’s teachings thus not only refine our approach to customer interviews but also redefine our entire strategic outlook. By fostering a deeper connection with our customers' needs, we pave the way for innovations that resonate and endure.
-
-{{< gallery "https://amzn.to/3lJ6Nll,learning-build.png" >}}

@@ -4,6 +4,8 @@ categories: ["Bookshelf"]
 date: 2023-02-24
 ---
 
+{{< gallery "https://amzn.to/3lZmQf0,systems.png" >}}
+
 In the labyrinth of modern business operations, it's often the unseen forces that dictate the flow of progress and setbacks alike. Just as the natural world thrives on the interconnectedness of its myriad components, so too do organizations operate within the framework of systems—both subtle and overt. The book "Thinking in Systems: A Primer" by Donella H. Meadows provides profound insights into this phenomenon, challenging us to look beyond individual elements to the connections and purposes that bind them.
 Systems in Design and Application
 
@@ -34,5 +36,3 @@ The principles laid out in Meadows' work echo in various aspects of organization
 Conclusion: Systems Thinking in Practice
 
 Reflecting on systems thinking within the context of organizational structure and business strategy offers a fresh perspective on old challenges. By understanding and manipulating the intricate web of system interactions, businesses can foster environments that not only survive but thrive amidst the complexities of modern markets. Thus, embracing systems thinking is less about mastering control and more about dancing with the dynamic forces at play—a dance where the music never stops, and the steps are ever-evolving.
-
-{{< gallery "https://amzn.to/3lZmQf0,systems.png" >}}

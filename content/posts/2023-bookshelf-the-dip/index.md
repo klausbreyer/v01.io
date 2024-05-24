@@ -4,6 +4,8 @@ categories: ["Bookshelf"]
 date: 2023-02-17
 ---
 
+{{< gallery "https://amzn.to/40uteL1,dip.png" >}}
+
 Imagine you're running a marathon. The beginning is exhilarating, the crowd's energy is infectious, and your adrenaline is pumping. But soon, you hit "the wall," a point where every fiber of your being screams for you to stop. This is your Dip — a test of perseverance and commitment.
 
 ## Why We Face The Dip
@@ -27,5 +29,3 @@ In my own career, from founding startups to leading as CTO, embracing the Dip ha
 Returning to our marathon analogy, just as a runner might push through the wall knowing the satisfaction and potential victory that lies beyond, so too must entrepreneurs, leaders, and individuals push through their professional Dips. Yet, they must also be wise to recognize when a particular race is not theirs to finish. It's this combination of perseverance in the right areas and strategic quitting in others that leads to true success.
 
 "The Dip" teaches us that the biggest rewards come to those who can both endure and judiciously withdraw. As we face our professional and personal challenges, let's carry forward this dual strategy of commitment and discernment.
-
-{{< gallery "https://amzn.to/40uteL1,dip.png" >}}

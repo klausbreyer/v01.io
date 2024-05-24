@@ -8,6 +8,8 @@ aliases:
   - "/posts/2024-transformed/"
 ---
 
+{{< gallery "https://amzn.to/4awern7,transformed.png" >}}
+
 Imagine a tech company that, at its surface, seems like any other, selling products and maintaining a market presence. Yet, underneath this facade, it operates not as a conventional business but as a forward-thinking, technology-driven powerhouse. This scenario isn't just a theoretical framework—it's the core argument Marty Cagan presents in his 2024 book, "Transformed." Cagan posits that the essence of a modern tech company lies not in what it sells but in how it operates.
 
 ### Unveiling a New Paradigm
@@ -35,4 +37,3 @@ Cagan stresses the importance of a customer-centric product vision and an insigh
 Central to Cagan's philosophy is the empowerment of product teams. These teams are not simply executors of pre-defined tasks; they are problem solvers who are given the autonomy to discover and implement solutions that delight customers while aligning with business objectives. This empowerment fosters innovation, a critical ingredient for staying competitive in today’s fast-paced tech landscape.
 
 In conclusion, "Transformed" serves as a manual for companies aspiring to lead in the digital age. By advocating for a shift from a rigid IT-centric approach to a dynamic, product-oriented framework, Marty Cagan outlines a path for companies to not only survive but thrive by becoming truly tech-driven. This book is a call to action for all leaders seeking to harness the full potential of their organizations through the power of product thinking.
-{{< gallery "https://amzn.to/4awern7,transformed.png" >}}

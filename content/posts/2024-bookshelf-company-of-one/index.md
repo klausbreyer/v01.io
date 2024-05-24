@@ -5,6 +5,8 @@ date: 2024-04-19
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7188071594987073536/"
 ---
 
+{{< gallery "https://amzn.to/4d4Z7zP,company-of-one.png" >}}
+
 In an era dominated by start-ups striving for exponential growth, the concept of staying small as a 'Company of One' offers a refreshing paradigm shift. My exploration into Paul Jarvis's compelling book, alongside insightful tangents from Cal Newport and David Epstein, has led to profound realizations about business growth and personal fulfillment in the tech and product space.
 
 ## Why Remain Small?
@@ -30,5 +32,3 @@ Looking ahead, the principles extracted from 'Company of One' guide my future in
 ## Conclusion
 
 As I continue to sculpt my path in the tech industry, the lessons from 'Company of One' serve as a beacon, guiding my decisions towards sustainable practices that emphasize quality, autonomy, and the true essence of value creation. This journey is not just about maintaining size but about maximizing impact, where less is indeed more.
-
-{{< gallery "https://amzn.to/4d4Z7zP,company-of-one.png" >}}

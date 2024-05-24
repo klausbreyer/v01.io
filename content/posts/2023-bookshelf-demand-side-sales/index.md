@@ -4,6 +4,8 @@ categories: ["Bookshelf"]
 date: 2023-02-17
 ---
 
+{{< gallery "https://amzn.to/3kIZj0V,demand-sales.png" >}}
+
 Imagine you're walking through a bookstore, browsing the shelves without a clear idea of what you want. You aren't actively looking for anything specific, but you're open to finding something that could address an unspoken need or curiosity. This is the essence of passive looking in sales, a concept explored in Bob Moesta's "Demand-Side Sales 101." This book challenges the traditional approach to sales, advocating for understanding customer struggles as opportunities for progress rather than mere transactions.
 
 ## A New Perspective on Sales
@@ -27,5 +29,3 @@ Integrating these insights into product strategy involves more than understandin
 In conclusion, "Demand-Side Sales 101" not only provides a blueprint for rethinking sales but also serves as a crucial reminder of the need to align product development with genuine customer needs. This book has reinforced my approach to building and selling products that are not just useful but necessary, by clarifying the often-overlooked nuances of customer motivation and decision-making processes.
 
 If you're involved in sales or product development, or if you're merely curious about a fresh perspective on how to approach customers, Moesta's insights are invaluable.
-
-{{< gallery "https://amzn.to/3kIZj0V,demand-sales.png" >}}
