@@ -1,6 +1,12 @@
 {{ define "main" }}
-<div class="container p-4 mx-auto">
-    <h1 class="my-4 text-3xl font-bold">All posts for {{ .Type | singularize }} "{{ .Title }}"</h1>
+<div class="container mx-auto">
+    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}  print:my-0 pt-10 {{ partial "prose.html" }}'>
+        <h1 class="my-4">All posts for {{ .Type | singularize }} "{{ .Title }}"</h1>
+
+    </article>
+
+    <div class="mb-8"></div>
     {{ partial "entries-list.html" .Data }}
+
 </div>
 {{ end }}
