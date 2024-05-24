@@ -2,6 +2,8 @@
 title: "Freeing My Mind from Work Thoughts on the Go with the Apple Watch"
 date: 2024-05-16T15:39:19+02:00
 draft: false
+
+categories: ["Management"]
 ---
 
 I often find myself out and about with just my Apple Watch (either because I’m running or playing with the kids in the garden) when that one important work thought hits me. Unfortunately (or fortunately!), the Apple Watch doesn’t have a notes app or a mail client.
