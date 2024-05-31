@@ -14,7 +14,7 @@ social: "https://www.linkedin.com/posts/klaus-breyer_knowledge-works-disruption-
 
 ![](2023-12-11-henry-ford.jpg)
 
-Earning my living as a CTO or CTPO, I recently launched [a new Software Tool]({{< relref "2023-dumplink-launch">}}) in a crowded market: a tool to help teams build software. Entering an established market with a different approach needs a sound foundation for why the new solution is contrarian to what others are already doing while also still providing value. Today I want to share the core principles and the thought leaders that inspired me here.
+Earning my living as a CTO or CTPO, I recently launched [a new Software Tool]({{< relref "2024-dumplink-open-source">}}) in a crowded market: a tool to help teams build software. Entering an established market with a different approach needs a sound foundation for why the new solution is contrarian to what others are already doing while also still providing value. Today I want to share the core principles and the thought leaders that inspired me here.
 
 ## Cal Newport and the End of the Hyperactive Hive Mind
 
