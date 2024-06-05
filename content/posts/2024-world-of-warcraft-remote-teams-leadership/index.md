@@ -1,19 +1,21 @@
 ---
-title: "What World of Warcraft taught me about remote team leadership"
-date: 2024-04-26T14:11:49+02:00
+title: "What World of Warcraft Taught Me About Remote Team Leadership"
+date: 2024-06-05
 categories: ["Management"]
-draft: true
+social: "https://www.linkedin.com/posts/klaus-breyer_what-world-of-warcraft-taught-me-about-remote-activity-7204006775707037697-VqVO?"
 ---
 
-I often state (half-jokingly) that I have over 20 years of experience leading remote teams. I've been at it since I was 16, playing World of Warcraft.
+I often state that I have over 20 years of experience leading remote teams, which, if you do the math, means since 2004.
 
-Without this spoiler, you would probably have been impressed.
+The catch: I’ve been at it since I was 16, but I was leading remote teams while playing World of Warcraft.
 
-But even with this spoiler, remember that this is a serious affair. For the players, being the first of a realm to kill a boss meant something.
+Without this spoiler, you would have been impressed.
+
+While I know the title sounds cheezy, especially since the ‘[I proposed [and] here’s what I learned about B2B sales’](https://cheezburger.com/25743109/i-proposed-and-heres-what-i-learned-about-b2b-sales-linkedin-lunatic-uses-a-marriage-proposal-as-a) incident, playing World of Warcraft was a serious affair for me back then. And not just for me, but for a lot of players who took this game more seriously than their job (or school).
 
 I was in the leadership of the guild and had led numerous raids. I played it quite successfully back then, and it was not less competitive than establishing a digital product in a market.
 
-We had to coordinate 40 people, not just during the scheduled raid times, which occurred several times a week. In between them, everyone needed to do their homework, prepare the in-game character with necessary potions, or be informed about strategies.
+We had to coordinate 40 people, not just during the scheduled raid times, which occurred several times a week. In between them, everyone needed to do their homework, prepare the in-game character with necessarypotions, or be informed about strategies.
 
 Here are the lessons learned:
 
@@ -30,4 +32,4 @@ If I could choose who would join one of my product teams nowadays, I would alway
 
 ![](raid.jpg)
 
-**Fun Fact:** This experience runs so deep that I must bring it up every decade. In 2014, I also wrote a reflective article on this [on my private Blog](https://klaus-breyer.de/in-eigener-sache/generation-schlachtzug-was-vom-raiden-im-kinderzimmer-blieb/942) (in German).
+(In case you are wondering, I was a (human) priest.)
