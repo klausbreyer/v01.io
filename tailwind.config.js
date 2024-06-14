@@ -21,7 +21,6 @@ module.exports = {
       },
       fontFamily: {
         sharetech: ["Share Tech", "sans-serif"],
-        body: ["system-ui", "sans-serif"],
       },
     },
   },

@@ -8,6 +8,7 @@ image: /images/preview.png
 # Start, Iterate, Fight Bullshit.
 
 ![That's me!](/images/klaus-breyer-a-landscape.jpg)
+
 I'm Klaus Breyer and I bring [15 years of product and tech leadership]({{< relref "/pages/services" >}}), with a track record of building startups and a corporate business units. Currently transforming a corporate digital project into an empowered product team.
 
 Focused on breaking down silos and building holistic, interdisciplinary, diverse teams. Passionate about the tooling, methods, and leadership of remote teams and committed to creating effective solutions that provide customer value and work for the business.
