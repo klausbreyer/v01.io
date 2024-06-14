@@ -1,11 +1,10 @@
 ---
 title: "All The Requests"
-date: 2024-06-11
+date: 2024-06-14
 categories: ["Open Source"]
-draft: true
 ---
 
-I've just released a new open-source project called [All The Requests](https://github.com/klausbreyer/all-the-requests). It's a simple HTTP server built in Go that logs every incoming request. This tool captures details like timestamp, path, headers, and payload, making it great for debugging callbacks and webhooks.
+Out of my daily work during testing callbacks locally, I have created and released a new open-source project called [All The Requests](https://github.com/klausbreyer/all-the-requests). A simple HTTP server (built in Go) logs every incoming request. This tool captures details like timestamps, paths, headers, and payloads, making it great for debugging callbacks and webhooks.
 
 ![Example](example.png)
 
