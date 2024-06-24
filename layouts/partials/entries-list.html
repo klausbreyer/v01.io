@@ -1,7 +1,7 @@
 <!-- entries-list.html -->
 <ul class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
 	{{ range .Pages }}
-	<li class="flex flex-col overflow-hidden text-lg rounded-lg shadow-lg">
+	<li class="flex flex-col overflow-hidden text-lg">
 		<a href="{{ .Permalink }}" class="flex flex-col h-full hover:opacity-75">
 			<!-- Bild einfügen -->
 			{{/* default - what is configured sitewide */}}
@@ -21,18 +21,16 @@
 			{{ $image = printf "%s%s%s%s" .Site.BaseURL $langPath .File.Dir .Params.image }}
 			{{ end }}
 
-			<div class="h-48">
+			<div class="relative h-48">
 				<img src="{{ $image }}" alt="{{ .Title }}" class="object-cover w-full h-full">
+				<time datetime='{{ .Date.Format "2006-01-02" }}' class="absolute px-3 py-1 text-base text-white rounded shadow-sm bg-footer top-2 right-2">
+					{{ .Date.Format "Jan 02, 2006" }}
+				</time>
 			</div>
 			<div class="flex flex-col justify-between flex-grow p-4 bg-footer2">
-				<div>
-					<time datetime='{{ .Date.Format "2006-01-02" }}' class="px-3 py-1 mb-2 text-base text-white rounded-lg shadow-sm bg-footer">
-						{{ .Date.Format "Jan 02, 2006" }}
-					</time>
-					<h3 class="text-base font-semibold text-primary">
-						{{ .Title }}
-					</h3>
-				</div>
+				<h3 class="text-base font-semibold text-primary">
+					{{ .Title }}
+				</h3>
 			</div>
 		</a>
 	</li>
