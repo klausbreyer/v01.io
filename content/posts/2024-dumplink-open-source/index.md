@@ -8,7 +8,7 @@ tags:
   - technology
   - dumplink
 categories: ["Product"]
-image: "dumplinnk.png"
+image: "dumplink.png"
 aliases:
   - "/posts/2023-dumplink-launch/"
 ---
