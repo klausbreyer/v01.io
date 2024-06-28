@@ -19,6 +19,8 @@ tags:
   ]
 ---
 
+![](2016-12-20-Sliding-Window-2.png)
+
 Many people have business ideas. Often they are bad. Far too often, however, they are utopian. [It is supposed to become the next Uber for X. Or even better: the next Instagram.](https://klaus-breyer.de/blog/entrepreneurship/das-neue-x-fuer-y-ueber-startups-die-plattformen-sein-wollen/1810)
 
 First of all, it's incredibly unrealistic to build a platform business model like Instagram with the luxury of several million venture capital for reach before having to make money. Even more so in Germany.

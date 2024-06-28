@@ -48,7 +48,7 @@ So, the reasons for Shape Up are plenty. But furthermost, the implications for e
 
 Our Experiment: Augmenting a stable Scrum process with a [Shape Up](https://basecamp.com/shapeup) track to have the benefits of Shape Up without making a frightening "all-in" decision to ditch Scrum.
 
-![](2022-09-23-processes-scrum-vs.-shapeup-v2-process1.svg)
+![](2022-09-23-processes-scrum-vs.-shapeup-v2-process1.png)
 
 Before we get into more details, first, a bit of context: I am currently in the role of Tech Lead of a remote international team to develop a PWA product in the IIoT context.
 
@@ -64,7 +64,7 @@ Scrum working mode:
 
 It is not precisely [dual-track Scrum](https://www.agile-academy.com/de/product-owner/dual-track-scrum/), but a formal method was not necessary: We have excellent communication between the trades, and things are ready when the engineers need them.
 
-![](2022-11-16-processes-scrum-mini-waterfall.svg)
+![](2022-11-16-processes-scrum-mini-waterfall.png)
 
 Still, there was always more pre-work than Engineering could implement cleanly. And that always came with pressure in every engineer's mind. Also, in planning, tickets with medium priority were pushed to the next sprint, again and again.
 
@@ -95,7 +95,7 @@ While I am writing this article during the shaping phase for the second Shape Up
 
 _The builders formed what I would call a "temporary squad": Working focused on one thing while still being in exchange with their peers so that the overall architecture and visual esthetics do not suffer._
 
-![](2022-11-16-shape-up-teamsetup-squad.svg)
+![](2022-11-16-shape-up-teamsetup-squad.png)
 
 An exciting aspect emerged for the rest of the team (working within a regular Scrum track): Communication for them was also much more efficient when there were no longer 4 developers but only 2 developers who had to coordinate. ([Remember: communication increases exponentially](https://www.leadingagile.com/2018/02/lines-of-communication-team-size-applying-brooks-law/).)
 _This avoids situations where in backlog refinement/grooming, there are sometimes discussions that only concern some attendees: If 1 UI + 1 dev argues about a particular detail, it doesn't help that 2 UI designers (and sometimes even the other developers) are present for this time._
@@ -122,12 +122,12 @@ Things that we have not implemented from Shape Up:
 
 _To scale up Shape Up for larger Orgs, UX must end up in a position where it only provides sparring to the builders while already leading the pitches for the next feature together with the PO._
 
-![](2022-11-16-processes-scrum-vs.-shapeup-v3-compare.svg)
+![](2022-11-16-processes-scrum-vs.-shapeup-v3-compare.png)
 
 _But because our pitch could have been at a better altitude, we needed to make some decisions during the sprint. So we ended up in an "RND Mode".
 This will scale poorly for a larger product/dev org. But in the end, it was a fundamental agile approach because we could show real things to actual customers, making important decisions on the way._
 
-![](2022-11-16-processes-scrum-vs.-shapeup-v3-corporate-rnd-mode.svg)
+![](2022-11-16-processes-scrum-vs.-shapeup-v3-corporate-rnd-mode.png)
 
 ## Whats next?
 

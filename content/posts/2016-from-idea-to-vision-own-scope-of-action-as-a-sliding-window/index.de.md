@@ -22,6 +22,8 @@ aliases:
   - "/posts/von-der-idee-zur-vision-der-eigene-handlungsspielraum-als-sliding-window/"
 ---
 
+![](2016-12-20-Sliding-Window-2.png)
+
 Viele Menschen haben Geschäftsideen. Oft sind es schlechte. Viel zu oft allerdings sind es utopische. [Es soll das nächste Uber für X werden. Oder noch besser: das nächste Instagram.](https://klaus-breyer.de/blog/entrepreneurship/das-neue-x-fuer-y-ueber-startups-die-plattformen-sein-wollen/1810)
 
 Dazu erst mal: Es ist super unrealistisch, ein solches Plattform-Geschäftsmodell wie Instagram mit dem Luxus mehrerer Millionen Venture Kapital für Reichweite aufzubauen, bevor Geld verdient werden muss. In Deutschland erst recht.
