@@ -1,0 +1,17 @@
+{{ $image := printf "%s%s" .Site.BaseURL .Site.Params.image }}
+
+{{/* next best: take the first image of the article, if any */}}
+{{ range first 1 (.Resources.ByType "image") }}
+{{ $image = .Permalink }}
+{{ end }}
+
+{{/* if in the post is something defined, this overwrites everything. */}}
+{{ if .Params.image }}
+{{ $langPath := print .Lang "/" }}
+{{ if eq .Lang "en" }}
+{{ $langPath = "" }}
+{{ end }}
+{{ $image = printf "%s%s%s%s" .Site.BaseURL $langPath .File.Dir .Params.image }}
+{{ end }}
+
+{{ $image }}
