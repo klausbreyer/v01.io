@@ -33,8 +33,8 @@ I transform innovative ideas into successful ventures through strategic planning
 
 I assemble and manage interdisciplinary product and tech teams, including senior leaders, to excel in remote settings. I address critical challenges and deliver substantial user value by accelerating the transition from chaotic ad-hoc development to structured product and engineering processes.
 
-- [edding AG](https://edding.com.com/) - **Head of Product & Technology:** My primary focus is steering the innovative easycheck product, a cutting-edge digital driver's license control solution, towards greater heights by transforming it from a corporate project to an empowered product team. (2023-now)
-- [Hydro Pocket](https://hydropocket.com/) - **Tech Lead in Industrial IoT:** I led Voith GmbH's Hydro Pocket's tech division, establishing a team and implementing the [Shape Up method](http://localhost:1313/tags/shapeup/). I focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards praised my achievements. (2019–2023)
+- [edding AG](https://edding.com.com/) - **Head of Product & Technology:** My primary focus is steering the innovative easycheck product, a cutting-edge digital driver's license control solution, towards greater heights by transforming it from a corporate feature factory to an empowered product team. (2023-now)
+- [Voith Hydro Pocket](https://hydropocket.com/) - **Tech Lead in Industrial IoT:** I led Voith GmbH's Hydro Pocket's tech division, establishing a team and implementing the [Shape Up method](http://localhost:1313/tags/shapeup/). I focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards praised my achievements. (2019–2023)
 
 - [Native Studios UG](https://www.native-studios.com/) - **Tech Lead & Technical Evangelist in SaaS:** Developed initial prototypes to secure investors and customers, later led product development and technology advocacy, led the initial product development, and secured early investors. (2016–2019)
 

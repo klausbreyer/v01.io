@@ -1,12 +1,12 @@
 ---
-title: "Public Speaking"
+title: "Speaking"
 date: 2022-12-19
+lastmod: 2024-06-28
 lastmod:
 aliases:
   - "talks"
+  - "appearances"
 ---
-
-As an accomplished writer and public speaker, I'm always eager to share my insights and expertise with others. In addition to my own book, I've written numerous guest articles for top blogs and am a frequent conference speaker, comfortable addressing audiences of all sizes and backgrounds.
 
 ## Podcasts
 
@@ -33,6 +33,44 @@ As an accomplished writer and public speaker, I'm always eager to share my insig
 ## Book
 
 - 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="2015-practical-guide-facebook-development">}}).
+
+## Bio for Event Organizers
+
+### Full Bio
+
+Klaus Breyer is a developer/founder/advisor who primarily starts, leads, and transforms software products and their teams. He is also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
+
+Based in Berlin, he has extensive experience working with remote, international, and interdisciplinary organizations.
+
+In [15 years of product and tech leadership]({{< relref "services" >}}), Klaus founded and led startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace) and corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
+
+His philosophy: Start, Iterate, Fight Bullshit.
+
+### Short Bio
+
+Klaus Breyer is a developer, founder, and advisor with 15 years of experience in product and tech leadership. Based in Berlin, he has led startups like [Buddybrand](https://www.buddybrand.com/) and [BuzzBird](https://www.buzzbird.de/) and corporate business units for [Voith](https://voith.com) and [edding](https://www.edding.com/de-de/). Klaus specializes in remote, international, and interdisciplinary teams and is also a speaker, blogger, and book author.
+
+### Socials
+
+**[v01.io](https://www.v01.io/?nl)** | **[LinkedIn](https://www.linkedin.com/in/klaus-breyer/)** |**[Twitter](https://twitter.com/klausbreyer)**
+
+### Images
+
+Pictures of me you can use without asking:
+
+- Headshot
+  - [400 × 400](/images/klaus-breyer-headshot-small.jpg)
+  - [2287 × 2287](/images/klaus-breyer-headshot.jpg)
+- Full A
+  - [280 × 280](/images/klaus-breyer-a-small.jpg)
+  - [4370 × 4370](/images/klaus-breyer-a-full.jpg)
+- Full B
+  - [204 × 280](/images/klaus-breyer-b-small.jpg)
+  - [3761 × 5163](/images/klaus-breyer-b-full.jpg)
+- Speaking A
+  - [1200 × 1600](/images/SpeakingA.jpg)
+- Speaking B
+  - [1600 × 1200](/images/SpeakingB.jpg)
 
 [2]: http://www.socialgenius.de/whatsapp-unternehmen-marketing-support/
 [3]: https://superdev.club/podcasts/shape-up/

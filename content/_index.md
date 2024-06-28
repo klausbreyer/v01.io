@@ -1,7 +1,7 @@
 ---
 title: Home
 date: 2023-09-01
-summary: I'm Klaus Breyer. With a lifetime in tech, a degree in Software Engineering, and a passion for innovation, I went from founding my first startup in 2010 to playing key roles as CTO/CTPO in many others.
+summary: I am a developer/founder/advisor who starts, leads, and transforms software products and their teams. I am also a Speaker, Blogger, and Book Author. In 15 years of product and tech leadership, I founded and led startups Buddybrand (digital agency) and BuzzBird (marketplace) and corporate business units for Voith (IoT) and edding (SaaS).
 image: /images/preview.png
 ---
 
@@ -9,9 +9,11 @@ image: /images/preview.png
 
 ![That's me!](/images/klaus-breyer-a-landscape.jpg)
 
-I'm Klaus Breyer and I bring [15 years of product and tech leadership]({{< relref "/pages/services" >}}), with a track record of building startups and a corporate business units. Currently transforming a corporate digital project into an empowered product team.
+I am a developer/founder/advisor who starts, leads, and transforms software products and their teams. I am also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
 
-Focused on breaking down silos and building holistic, interdisciplinary, diverse teams. Passionate about the tooling, methods, and leadership of remote teams and committed to creating effective solutions that provide customer value and work for the business.
+While based in Berlin, I have extensive experience and prefer to work with remote, international, and, most of all, interdisciplinarity orgs.
+
+In [15 years of product and tech leadership]({{< relref "services" >}}), I founded and led startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace) and corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
 
 ## What I stand for
 
@@ -29,12 +31,8 @@ No trivial quotes. Fundamental, non-negotiable values.
 
 If this is your first visit, here's a guide to what you'll find on this site:
 
-- **[Now](/pages/now/)** - Discover what I am currently focusing on. This page is regularly updated.
+- **[Speaking](/pages/appearances/)** - Bio for Event Organizers and a summary of past talks.
 
-- **[Past](/pages/cv/)** - Take a look at my curriculum vitae and explore my past experiences and achievements.
+- **[Reading](/categories/bookshelf/)** - My virtual bookshelf, where I share summaries and insights from the books I've read.
 
-- **[Speaking](/pages/appearances/)** - A summary of events where I have shared my insights and expertise.
-
-- **[Bookshelf](/categories/bookshelf/)** - My virtual bookshelf, where I share summaries and insights from the books I've read.
-
-- **[Blogposts](/posts/)** - Explore my blog posts categorized under Business, Code, Management, Meta, Open Source, and Product.
+- **[Writing](/posts/)** - Explore my blog posts categorized under Business, Code, Management, Meta, Open Source, and Product.

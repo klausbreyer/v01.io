@@ -45,17 +45,17 @@ defaultContentLanguage = 'en'
   weight = 20
 
 [[menu.header]]
-  name = 'Media'
+  name = 'Speaking'
   url = '/pages/appearances/'
   weight = 50
 
 [[menu.header]]
-  name = 'Bookshelf'
+  name = 'Reading'
   url = '/categories/bookshelf/'
   weight = 66
 
 [[menu.header]]
-  name = 'Blogposts'
+  name = 'Writing'
   url = '/posts/'
   weight = 77
 
