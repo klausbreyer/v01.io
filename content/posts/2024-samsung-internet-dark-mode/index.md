@@ -1,8 +1,9 @@
 ---
 draft: false
 categories: ["Code"]
-title: "Dear Samsung Internet: Please Fix Your Forced Dark Mode!"
+title: "Dear Samsung Internet: Please Fix Your Forced Dark Mode! (Update!)"
 date: 2024-04-22
+lastmod: 2024-07-09
 image: "darkmode-example.png"
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7188183981824094208/"
 ---
@@ -55,3 +56,16 @@ This letter calls Samsung to urgently address and rectify their browser's forced
 I encourage everyone to try this out and visit the product they are responsible for in a Samsung internet browser (it can be downloaded for every Android phone, not just Samsung).
 
 Also, Please challenge my [code](https://github.com/klausbreyer/samsung-internet-dark-mode). Perhaps I have made an error, and there is a way to make it work correctly after all?
+
+## Update, 2024-07-09:
+
+After this article, I investigated who could be responsible for this. After a couple of relays, I was able to contact the lead developer of the Samsung browser and exchange some mail (and, most importantly, a support ticket) with him.
+
+The good news:
+They now offer an experimental flag for an "Enable Adaptive Force Dark". **This adaptive Dark mode respects the preferred color scheme!**
+
+Everybody can activate it via [internet://flags/#enable-adaptive-force-dark](internet://flags/#enable-adaptive-force-dark) in the beta v26 or newer.
+
+They have not provided a release timeframe for the feature. However, based on my experience with browser feature flags, I expect it to be generally available in 1-2 years, possibly by 2026.
+
+![](experimental.png)
