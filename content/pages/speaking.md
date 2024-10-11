@@ -2,7 +2,6 @@
 title: "Speaking"
 date: 2022-12-19
 lastmod: 2024-06-28
-lastmod:
 aliases:
   - "talks"
   - "appearances"
