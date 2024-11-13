@@ -1,5 +1,5 @@
 ---
-title: "select-original-photos-based-on-file-names-because-Apple-s-shared-photo-albums-reduce-resolution"
+title: "Select Original Photos Based on Filenames Because Apple's Shared Photo Albums Reduce Resolution"
 date: 2024-08-31
 categories: ["Open Source"]
 ---
