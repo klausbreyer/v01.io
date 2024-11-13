@@ -31,7 +31,7 @@ Shifting the focus from "how long will it take?" to "how much are we willing to 
 
 ### Scope-Based Working (Full Stack + Design )
 
-This means the complete (small, autonomous) team is working on one scope of the project at a time, creating shippable increments. This sidesteps the waterfall trap—like preparing exhaustive wireframes and Figma screens before development—preventing last-minute developer trade-offs and fostering a more fluid, efficient project progression. I am currently building [dumplink](https://dump.link/) to help teams with this.
+This means the complete (small, autonomous) team is working on one scope of the project at a time, creating shippable increments. This sidesteps the waterfall trap—like preparing exhaustive wireframes and Figma screens before development—preventing last-minute developer trade-offs and fostering a more fluid, efficient project progression. I am currently building [dumplink](https://github.com/klausbreyer/dump.link) to help teams with this.
 
 ### Distinguish between strategic and reactive work
 

@@ -43,7 +43,7 @@ In Chess, neither pure human players nor pure AI dominates; instead, "centaurs" 
 
 Additionally, with ChatGPT, designers are now more capable than ever of coding, and developers can [draw a UI and make it real](https://github.com/tldraw/make-real) - so [the lines between them begin to blur](https://prodsense.substack.com/p/bridging-the-gap).
 
-I built the first version of [dumplink](https://dump.link) single-handedly in weeks, incorporating robust web socket functionality for collaborative updates I never did before full-stack completely on my own, facilitated by ChatGPT and GitHub Copilot.
+I built the first version of [dumplink](https://github.com/klausbreyer/dump.link) single-handedly in weeks, incorporating robust web socket functionality for collaborative updates I never did before full-stack completely on my own, facilitated by ChatGPT and GitHub Copilot.
 
 According to [Brooks Law](https://deviq.com/laws/brooks-law), smaller teams have less communication overhead, so if you divide, it makes them exponentially more productive than just augmenting an existing team of the same size.
 
