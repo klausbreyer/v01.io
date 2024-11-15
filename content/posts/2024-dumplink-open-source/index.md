@@ -7,7 +7,7 @@ tags:
   - product
   - technology
   - dumplink
-categories: ["Product"]
+categories: ["Open Source"]
 image: "dumplink.png"
 aliases:
   - "/posts/2023-dumplink-launch/"
