@@ -5,6 +5,9 @@ copyright = 'Klaus Breyer'
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 
+[markup.goldmark.renderer]
+unsafe= true
+
 languageCode = 'en'
 defaultContentLanguage = 'en'
 [languages]
