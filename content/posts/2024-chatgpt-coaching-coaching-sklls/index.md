@@ -1,5 +1,5 @@
 ---
-title: ChatGPT as Coach for Coaching transforms Leadership Skills
+title: ChatGPT as Coach for Coaching
 date: 2024-11-14T09:26:37+01:00
 categories: ["Management"]
 social: https://www.linkedin.com/posts/klaus-breyer_chatgpt-as-coach-for-coaching-transforms-activity-7263093532851154944-stsj
