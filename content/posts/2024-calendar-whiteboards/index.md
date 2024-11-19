@@ -19,4 +19,9 @@ This tool is entirely client-side, requiring no server-side code, making it easy
 
 👉 [Try the Live Demo](https://klausbreyer.github.io/whole-year-calendar-for-online-whiteboards/) to see it in action!
 
+You can customize the calendar view using URL parameters:
+
+- `year`: Set the year (e.g., `?year=2024`)
+- `quarter`: Choose the quarter (1-4)
+
 For more details and to access the source code, visit the [GitHub repository](https://github.com/klausbreyer/whole-year-calendar-for-online-whiteboards).
