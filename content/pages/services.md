@@ -11,17 +11,15 @@ aliases:
 
 I love to work on interesting problems. Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
-The intersection of tech, product, and business – that's where I thrive.
+I am a startup founder and experienced CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
 
-For me, it is not about code; it's about weaving the tech fabric into the company's culture — for agencies, SMEs, or fledgling startups.
+For me, it’s not about code; it’s about weaving the tech fabric into the company’s culture — whether for agencies, SMEs, or fledgling startups. Over the last 15 years, I have built a proven track record in product and tech leadership, founding startups, and building business units.
 
-Over the last 15 years, I have built quite a track record of product and tech leadership and building startups and business units.
+Below, I’ve categorized some of the things I’ve done: Teams that innovate and Projects that matter.
 
-Below, I tried to categorize some of the things I have done: Teams that innovate and Projects that matter.
+Move Fast And Break Silos!
 
-Start, Iterate, Fight Bullshit!
-
-## Startup Founding and Strategy
+## Startup Founding and Company Strategy
 
 I transform innovative ideas into successful ventures through strategic planning and pragmatic execution. This involves selling the product & tech vision to stakeholders, achieving product-market fit, and scaling it way beyond.
 

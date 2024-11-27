@@ -37,17 +37,17 @@ aliases:
 
 ### Full Bio
 
-Klaus Breyer is a developer/founder/advisor who primarily starts, leads, and transforms software products and their teams. He is also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
+Klaus is a startup founder and experienced CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, he helps companies bridge the gap between technical excellence, agile product development, and impactful leadership.
 
-Based in Berlin, he has extensive experience working with remote, international, and interdisciplinary organizations.
+He has founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace) and has built corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
 
-In [15 years of product and tech leadership]({{< relref "services" >}}), Klaus founded and led startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace) and corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
+Based in Berlin, Klaus has extensive experience and prefers to work with international organizations – mostly but not limited to remote environments. He is also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
 
-His philosophy: Start, Iterate, Fight Bullshit.
+His philosophy: Move Fast And Break Silos.
 
 ### Short Bio
 
-Klaus Breyer is a developer, founder, and advisor with 15 years of experience in product and tech leadership. Based in Berlin, he has led startups like [Buddybrand](https://www.buddybrand.com/) and [BuzzBird](https://www.buzzbird.de/) and corporate business units for [Voith](https://voith.com) and [edding](https://www.edding.com/de-de/). Klaus specializes in remote, international, and interdisciplinary teams and is also a speaker, blogger, and book author.
+Klaus is a startup founder and experienced CPTO with a track record in product and tech leadership. By breaking silos, he empowers organizations to seamlessly integrate product and technology while helping leadership teams cultivate a culture of interdisciplinary collaboration.
 
 ### Socials
 

@@ -24,7 +24,7 @@ defaultContentLanguage = 'en'
 
 [params]
   repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
-  description = "15 years of product and tech leadership, with a track record of building startups and a corporate business units. Insights and strategies shared from the frontline, always with the v01 mindset: start, iterate, fight bullshit."
+  description = "I am a startup founder and experienced CPTO with a track record in product and tech leadership. Breaking silos, I empower organizations to seamlessly integrate product and technology while helping leadership teams cultivate a culture of interdisciplinary collaboration."
   image = 'images/klaus-breyer.jpg'
 
 [privacy]

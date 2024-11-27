@@ -1,19 +1,21 @@
 ---
 title: Home
 date: 2023-09-01
-summary: I am a developer/founder/advisor who starts, leads, and transforms software products and their teams. I am also a Speaker, Blogger, and Book Author. In 15 years of product and tech leadership, I founded and led startups Buddybrand (digital agency) and BuzzBird (marketplace) and corporate business units for Voith (IoT) and edding (SaaS).
+lastmod: 2024-11-27
+summary: As a startup founder and experienced CPTO, I break silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
+
 image: /images/preview.png
 ---
 
-# Start, Iterate, Fight Bullshit.
+# Move Fast And Break Silos.
 
 ![That's me!](/images/klaus-breyer-a-landscape.jpg)
 
-I am a startup founder and experienced CPTO, dedicated to building empowered product teams. I do this by advising on corporate development or leading teams on an interim basis, working with both startups and business units. I am also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
+As a startup founder and experienced CPTO, I break silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
 
-While based in Berlin, I have extensive experience and prefer to work with remote, international, and, most of all, interdisciplinarity orgs.
+I have founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace) and have built corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
 
-With 15 years of experience in product and tech leadership, I founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace), as well as built corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
+Based in Berlin, I have extensive experience and prefer to work with international organizations – mostly but not limited to remote environments. I am also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
 
 ## What I stand for
 
