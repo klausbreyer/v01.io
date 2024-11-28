@@ -3,8 +3,6 @@ title: Home
 date: 2023-09-01
 lastmod: 2024-11-27
 summary: As a startup founder and experienced CPTO, I break silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
-
-image: /images/preview.png
 ---
 
 # Move Fast And Break Silos.
