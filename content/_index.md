@@ -17,18 +17,6 @@ I have founded and led the startups [Buddybrand](https://www.buddybrand.com/) (d
 
 Based in Berlin, I have extensive experience and prefer to work with international organizations – mostly but not limited to remote environments. I am also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
 
-## What I stand for
-
-No trivial quotes. Fundamental, non-negotiable values.
-
-- [Only insourced teams can deliver real innovation.]({{< relref "/posts/2024-outsourced-engineering" >}})
-- [A digital agency should own the product - not just implement features.]({{< relref "/posts/2024-agencies-product-owner" >}})
-- [The way to really figure out what needs to be done is to start doing real work.](https://basecamp.com/shapeup/3.1-chapter-10#imagined-vs-discovered-tasks)
-- [Effective remote work requires more than just technological tools; it demands intentional asynchronous culture.]({{< relref "/posts/2023-bookshelf-effective-remote-work" >}})
-- [Do fewer things. Work at a natural pace. Obsess about quality.]({{< relref "/posts/2024-bookshelf-slow-productivity" >}})
-
-- [Dont't work for assholes. Don't work with assholes.](https://shop.p98a.com/products/p98a-don-t-work-for-assholes-don-t-work-with-assholes-6th-edition-day-glo)
-
 ## Welcome Guide
 
 If this is your first visit, here's a guide to what you'll find on this site:
