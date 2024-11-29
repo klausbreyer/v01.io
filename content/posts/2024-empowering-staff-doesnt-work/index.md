@@ -34,7 +34,7 @@ Then, let them take responsibility for the choice—and follow through.
 
 It sounds simple, but it’s transformative. You might wince if they choose a path you wouldn’t have, but remember: the goal isn’t perfection. It’s to help them grow through their own experiences.
 
-If their decision doesn’t work out, avoid jumping in to fix it. Instead, debrief together using more coaching techniques: `What worked well in your approach?` `What would you try differently next time?` Let them lead the reflection.
+If their decision doesn’t work out, avoid jumping in to fix it. Instead, debrief together using more [coaching techniques](/posts/2024-bookshelf-advice-trap): `What worked well in your approach?` `What would you try differently next time?` Let them lead the reflection.
 
 ## Why This Matters
 
