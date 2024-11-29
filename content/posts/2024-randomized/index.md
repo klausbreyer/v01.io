@@ -3,6 +3,7 @@ title: randomized - Random Name Shuffler for Workshops and Group Activities
 date: 2024-09-11
 image: "randomized.png"
 categories: ["Open Source"]
+social: "https://www.linkedin.com/posts/klaus-breyer_randomized-random-name-shuffler-for-workshops-activity-7268182898703323137-9aMT?"
 ---
 
 ![randomized](randomized.png)
