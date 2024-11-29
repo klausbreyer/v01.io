@@ -38,7 +38,7 @@ If their decision doesn’t work out, avoid jumping in to fix it. Instead, debri
 
 ## Why This Matters
 
-As David Marquet explains in Turn the Ship Around!, truly emancipated staff operates independently because they own their authority and accountability. The leader’s role is to foster the systems and culture that make this possible.
+[As David Marquet explains in Turn the Ship Around!](/posts/2024-bookshelf-turn-the-ship-around), truly emancipated staff operates independently because they own their authority and accountability. The leader’s role is to foster the systems and culture that make this possible.
 
 So I want you to leave with a new word in your leadership vocabulary: _emancipated_. Think about what that means in your world. Start small. Let them make one decision without you.
 
