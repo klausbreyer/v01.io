@@ -1,7 +1,7 @@
 ---
 title: ChatGPT as Coach for Coaching
 date: 2024-11-14T09:26:37+01:00
-categories: ["Management"]
+categories: ["Leadership"]
 social: https://www.linkedin.com/posts/klaus-breyer_chatgpt-as-coach-for-coaching-transforms-activity-7263093532851154944-stsj
 ---
 
@@ -12,9 +12,10 @@ Sometimes, it's tough to translate my intentions into practical coaching questio
 So, I decided to try something new: I turned to ChatGPT for support in refining my coaching approach, which I mostly learned from Michael Bungay Stanier's books The Coaching Habit and The Advice Trap.
 
 My Prompt:
-> I work with these coaching principles from The Advice Trap by Michael Bungay Stanier, 2020<br />
-> <br />
+
+> I work with these coaching principles from The Advice Trap by Michael Bungay Stanier, 2020<br /> > <br />
 > What questions to ask:
+>
 > - Kickstart: What's on your mind?
 > - AWE: And What else?
 > - Focus: What's the real challenge here for you?
@@ -26,6 +27,7 @@ My Prompt:
 > <br />
 >
 > Ask Questions well:
+>
 > - Ask one question at a time
 > - Cut the Interruptions
 > - No rhetorical questions / advice as questions
@@ -37,10 +39,7 @@ My Prompt:
 >
 > <br />
 >
-> Now I have something that frustrates me in my current team. Transform it into questions I can use to coach the team member effectively:<br />
-> <br />
-> [ Some blurp of complaints .. ]
-
+> Now I have something that frustrates me in my current team. Transform it into questions I can use to coach the team member effectively:<br /> > <br /> > [ Some blurp of complaints .. ]
 
 Then ChatGpt responds with:
 

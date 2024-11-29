@@ -1,8 +1,7 @@
 ---
-
 title: Deutsche Beiträge
 date: 2017-03-23
-
+categories: ["Meta"]
 ---
 
 <!-- I have been blogging since 2006, business-wise 2011.

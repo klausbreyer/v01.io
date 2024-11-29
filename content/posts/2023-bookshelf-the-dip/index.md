@@ -1,7 +1,7 @@
 ---
 title: "The Dip, Seth Godin, 2007"
-categories: ["Bookshelf"]
 date: 2023-02-17
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/40uteL1,dip.png" >}}

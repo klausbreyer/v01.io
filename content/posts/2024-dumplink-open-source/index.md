@@ -7,10 +7,10 @@ tags:
   - product
   - technology
   - dumplink
-categories: ["Open Source"]
 image: "dumplink.png"
 aliases:
   - "/posts/2023-dumplink-launch/"
+categories: ["Open Source"]
 ---
 
 News! We decided to open source [dumplink](https://github.com/klausbreyer/dump.link), the tool for Shape Up Teams. This means it is free for the whole Shape Up community to use, and we also invite everybody with ideas to collaborate with us. The GitHub repository also contains all our ideas and concepts in the pipeline.

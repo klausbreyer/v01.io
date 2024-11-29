@@ -15,9 +15,9 @@ tags:
     "staging environment",
   ]
 
-categories: ["Code"]
 aliases:
   - "/posts/wie-man-unter-zeitdruck-ein-software-projekt-mit-einer-vollig-fremden-codebase-ubernimmt-und-am-laufen-halt/"
+categories: ["Engineering"]
 ---
 
 Wer ein größeres Software Projekt übernimmt, dessen Codebase er nicht kennt, hat erst einmal mit viel Komplexität und Unsicherheiten zu kämpfen. Ein Rewrite kommt selten in Frage. Mal davon abgesehen, [dass Rewrites meist ohnehin Todesmärsche sind](http://chadfowler.com/2006/12/27/the-big-rewrite.html) , muss ja auch noch die laufende Plattform maintained werden. Meist sind auch die vorherigen Entwickler nicht sonderlich kooperativ.

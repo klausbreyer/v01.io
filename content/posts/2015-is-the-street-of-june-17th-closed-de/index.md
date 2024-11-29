@@ -5,7 +5,6 @@ date: 2015-12-08T13:49:17+01:00
 publishdate: 2015-12-08T13:49:17+01:00
 lastmod: 2022-08-02T13:47:55+02:00
 draft: false
-categories: ["Open Source"]
 tags:
   [
     "Open Source",
@@ -24,6 +23,7 @@ tags:
 
 aliases:
   - "/posts/is-the-street-of-june-17th-closed-de/"
+categories: ["Open Source"]
 ---
 
 ![](og-1024x541.png)

@@ -8,5 +8,4 @@ Google Photos often alters the original file timestamp during uploads, making it
 
 [rename-all-your-photos-based-on-exif-because-google-fotos-destroys-the-file-timestamp](https://github.com/klausbreyer/rename-all-your-photos-based-on-exif-because-google-fotos-destroys-the-file-timestamp) ensures that even if file timestamps are altered, your photos remain in the correct order by relying on EXIF data for accurate dating.
 
-
 For more details and to access the source code, visit the [GitHub repository](https://github.com/klausbreyer/rename-all-your-photos-based-on-exif-because-google-fotos-destroys-the-file-timestamp).

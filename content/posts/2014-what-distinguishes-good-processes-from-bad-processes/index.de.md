@@ -5,10 +5,10 @@ date: 2014-01-15T09:24:58+01:00
 publishdate: 2014-01-15T09:24:58+01:00
 lastmod: 2021-06-29T10:37:44+02:00
 draft: false
-categories: ["Management"]
 tags: ["processes", "workflow", "goals"]
 aliases:
   - /posts/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/
+categories: ["Productivity"]
 ---
 
 Viel zu oft werden Prozesse aufgesetzt, um Fehler zu vermeiden. Meiner Meinung nach ist das kein gutes Vorgehen. Dabei hat der Initiator eines Prozesses vermutlich gar nichts böses im Sinn. Er möchte die Qualität oder Produktivität steigern, aber möchte dies tun, indem er für andere mitdenkt. Dann werden lange Checklisten erstellt, definiert was bis wann mit wem alles abgesprochen werden muss.. man kennt es ja.

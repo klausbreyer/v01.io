@@ -1,9 +1,9 @@
 ---
 title: "Dear Digital Agencies, Stop Asking Your Customers for a Product Owner."
 date: 2024-04-30
-categories: ["Product"]
 image: "customer-agency-linkedin-square.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_dear-digital-agencies-stop-asking-your-customers-activity-7190965065666187264-ETo9"
+categories: ["Product"]
 ---
 
 A client-side Product Owner isn't necessary for successful digital products — I even consider it harmful in some cases. What's crucial is proper and effective Product Management by the agency.

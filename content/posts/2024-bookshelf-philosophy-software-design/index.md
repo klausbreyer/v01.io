@@ -1,8 +1,8 @@
 ---
 title: "A Philosophy of Software Design, John Ousterhout, 2021"
-categories: ["Bookshelf"]
 date: 2024-06-21
 social: "https://www.linkedin.com/posts/klaus-breyer_a-philosophy-of-software-design-john-ousterhout-activity-7209854295003877376-gbiQ?"
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3VCsS3h,title.jpg" >}}

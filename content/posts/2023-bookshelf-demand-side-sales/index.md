@@ -1,7 +1,7 @@
 ---
 title: "Demand-Side Sales 101, Bob Moesta, 2020"
-categories: ["Bookshelf"]
 date: 2023-02-17
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3kIZj0V,demand-sales.png" >}}

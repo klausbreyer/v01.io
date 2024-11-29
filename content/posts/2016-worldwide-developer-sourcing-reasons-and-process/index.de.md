@@ -6,9 +6,9 @@ publishdate: 2016-08-02T08:21:37+02:00
 lastmod: 2023-11-23T08:21:37+02:00
 draft: false
 tags: ["developer sourcing", "remote work", "global talent", "hiring process"]
-categories: ["Code"]
 aliases:
   - "/posts/weltweites-entwickler-sourcing-grunde-und-prozess-dafur/"
+categories: ["Engineering"]
 ---
 
 ## Globale Talentakquise: Ein Muss in der heutigen Zeit

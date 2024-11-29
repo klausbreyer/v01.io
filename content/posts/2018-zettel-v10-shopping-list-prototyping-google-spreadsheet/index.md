@@ -5,10 +5,10 @@ date: 2018-04-28T13:30:56+02:00
 publishdate: 2018-04-28T13:30:56+02:00
 lastmod: 2020-05-15T12:01:19+02:00
 draft: false
-categories: ["Open Source"]
 tags: ["shopping list", "prototyping", "Google Spreadsheet", "grocery shopping"]
 aliases:
   - "/posts/zettel-v10-shopping-list-prototyping-google-spreadsheet/"
+categories: ["Open Source"]
 ---
 
 ![](2018-04-28-Zettel.png)

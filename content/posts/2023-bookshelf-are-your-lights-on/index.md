@@ -1,7 +1,7 @@
 ---
 title: "Are Your Lights On?, Donald C. Gause & Gerald M. Weinberg, 1990"
-categories: ["Bookshelf"]
 date: 2023-02-17
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3Xn9g1Y,lights-on.png" >}}

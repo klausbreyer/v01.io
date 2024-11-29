@@ -1,8 +1,8 @@
 ---
 title: "Algorithms to Live By, Christian & Griffiths, 2017"
-categories: ["Bookshelf"]
 date: 2024-07-09
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7216345857518899200/"
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3VUmvIQ,title.jpg" >}}

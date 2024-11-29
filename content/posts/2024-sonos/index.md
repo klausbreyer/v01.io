@@ -1,8 +1,8 @@
 ---
 title: "The New SONOS App: A Dumpster Fire That Shows How Not to Relaunch an App"
-categories: ["Product"]
 date: 2024-05-21
 # social: "https://www.linkedin.com/posts/klaus-breyer_becoming-a-technical-leader-gerald-m-weinberg-activity-7192097399408869376-E0gp?"
+categories: ["Product"]
 ---
 
 I have been a loyal Sonos customer for years, with several thousand euros of Sonos hardware in my home. For years, there have been big complaints about the Sonos app quality: too slow, poor search functionality, etc.

@@ -1,7 +1,7 @@
 ---
 title: "The Zen of Steve Jobs, 2011"
-categories: ["Bookshelf"]
 date: 2023-03-03
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3ZChPaM,jobs.png" >}}

@@ -1,8 +1,8 @@
 ---
 title: How Shape Up enables Remote Empowered Product Teams (and Why I Disagree with Marty Cagan)
 date: 2024-11-18T09:29:24+01:00
-categories: ["Management"]
 social: https://www.linkedin.com/posts/klaus-breyer_how-shape-up-enables-remote-empowered-product-activity-7264195790175186946-y-8T?
+categories: ["Remote"]
 ---
 
 Marty Cagan has been vocal in his books and [online](https://www.svpg.com/discovery-when-working-remotely/) about his belief in co-locating empowered product teams. While I respect him and am fundamentally thankful for everything he shares on empowered product teams, I disagree with him on this precise aspect.

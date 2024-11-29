@@ -1,10 +1,10 @@
 ---
 draft: false
-categories: ["Management"]
 title: "Bicycle for my Mind - How I Organize Myself and My Knowledge"
 date: 2024-04-15
 image: "obsidian-linkedin.png"
 # social: "https://www.linkedin.com/feed/update/urn:li:activity:7182998963174658048/"
+categories: ["Productivity"]
 ---
 
 Peter Drucker said in 1967: _"The knowledge worker cannot be supervised closely or in detail. He can only be helped. But he must direct himself.”_

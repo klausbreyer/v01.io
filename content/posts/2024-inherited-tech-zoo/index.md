@@ -1,8 +1,8 @@
 ---
 title: "The only way to fix a tech zoo is by focusing on stability first"
 date: 2024-06-24
-categories: ["Code"]
 social: "https://www.linkedin.com/posts/klaus-breyer_the-only-way-to-fix-a-tech-zoo-is-by-focusing-activity-7210908612347518976-k1bU?"
+categories: ["Engineering"]
 ---
 
 When I read inspiring stuff like Stephan's [radicalsimpli.city](https://www.radicalsimpli.city/), I always think about all the situations where wrong decisions have already been made, some of them from my past—stuck with a zoo of tech and frameworks that are either unsuited or unmaintained or facing significant version changes close to a rewrite.

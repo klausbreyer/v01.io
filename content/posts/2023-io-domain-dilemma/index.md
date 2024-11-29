@@ -3,7 +3,6 @@ title: "The .io Dilemma: Navigating Ethical Concerns in Domain Choice"
 
 date: 2023-04-14T6:49:22+02:00
 draft: false
-categories: ["Business"]
 tags:
   [
     "EthicalConcerns",
@@ -17,6 +16,7 @@ tags:
     "OnlinePresence",
     "ResponsibleTech",
   ]
+categories: ["Engineering"]
 ---
 
 As someone involved in tech and startups for a while now, I've had my fair share of experiences with domain names. Choosing a suitable TLD (top-level domain) can be a daunting task, and it's something that many people need to give more thought to.

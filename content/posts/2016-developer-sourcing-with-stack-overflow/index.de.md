@@ -16,9 +16,9 @@ tags:
     "Startup",
   ]
 
-categories: ["Code"]
 aliases:
   - "/posts/entwickler-sourcing-mit-stack-overflow/"
+categories: ["Engineering"]
 ---
 
 ![](stackoverflow.png)

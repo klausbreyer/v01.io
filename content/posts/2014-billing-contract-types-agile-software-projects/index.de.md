@@ -5,7 +5,6 @@ date: 2014-03-01T11:26:47+01:00
 publishdate: 2014-03-01T11:26:47+01:00
 lastmod: 2021-06-29T10:37:38+02:00
 draft: false
-categories: ["Management"]
 tags:
   [
     "Agile",
@@ -17,6 +16,7 @@ tags:
 
 aliases:
   - /posts/abrechnung-und-vertragsarten-bei-agilen-softwareprojekten/
+categories: ["Agile"]
 ---
 
 Ein Thema, über das man ungerne redet: Verträge und Abrechnung. Denn wie rechnet man agile Softwareprojekte am sinnvollsten ab? Vor allem wenn der Aufwand 100 oder mehr Abrechnungstage beträgt, ist es fast unmöglich einen fairen Preis zu finden. Im schlimmsten Fall versucht man dann, ein ohnehin schon sehr komplexes Projekt, noch komplexer zu planen und geht massiv mit Konzeption in die Vorleistung. Aber dabei gibt es doch schon einige Standardsituationen, an denen man sich orientieren kann. Zielsetzung -

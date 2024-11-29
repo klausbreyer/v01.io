@@ -1,7 +1,7 @@
 ---
 title: "Learning to Build, Bob Moesta, 2022"
-categories: ["Bookshelf"]
 date: 2023-02-17
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3lJ6Nll,learning-build.png" >}}
