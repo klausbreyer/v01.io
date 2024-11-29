@@ -1,11 +1,11 @@
 ---
 title: "Transformed, Marty Cagan, 2024"
-categories: ["Bookshelf"]
 date: 2024-04-02
 social: "https://www.linkedin.com/posts/klaus-breyer_transformed-klaus-breyer-activity-7180834102890131457-nnbN"
 
 aliases:
   - "/posts/2024-transformed/"
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/4awern7,transformed.png" >}}

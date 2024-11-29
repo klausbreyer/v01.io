@@ -1,8 +1,8 @@
 ---
 title: randomized - Random Name Shuffler for Workshops and Group Activities
 date: 2024-09-11
-categories: ["Open Source"]
 image: "randomized.png"
+categories: ["Open Source"]
 ---
 
 ![randomized](randomized.png)

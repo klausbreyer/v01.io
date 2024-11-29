@@ -2,9 +2,9 @@
 title: "Iterative Architecture During Feature Shaping with Feedback Loops"
 date: 2024-05-14
 draft: false
-categories: ["Code"]
 image: "shaping-architecture-feedback-loop.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_architectural-feedback-loops-while-shaping-activity-7196091918395543553-ovxW?"
+categories: ["Engineering"]
 ---
 
 I often discuss how and when to address software architecture while building a new feature. I answer this here with the terminology of Shape Up, but the answer is not specific to Shape Up but applies generally (however you call this stage your process).

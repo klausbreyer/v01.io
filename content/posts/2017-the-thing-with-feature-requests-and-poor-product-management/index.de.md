@@ -5,7 +5,6 @@ date: 2017-01-11T09:44:18+01:00
 publishdate: 2017-01-11T09:44:18+01:00
 lastmod: 2021-06-29T10:39:17+02:00
 draft: false
-categories: ["Product"]
 tags:
   [
     "facebook",
@@ -17,6 +16,7 @@ tags:
   ]
 aliases:
   - "/posts/die-sache-mit-den-feature-requests-bei-schlechtem-produkt-management/"
+categories: ["Product"]
 ---
 
 ![](2017-01-11-feature-requests.png)

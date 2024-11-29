@@ -6,7 +6,7 @@ publishdate: 2017-01-18T08:58:10+01:00
 lastmod: 2021-06-29T10:40:26+02:00
 draft: false
 tags: ["interview", "hr", "job interview"]
-categories: ["Code"]
+categories: ["Engineering"]
 ---
 
 ![](2017-01-18-bewerbungsfragen.jpg)

@@ -2,7 +2,7 @@
 title: "One question that changes everything in Shape Up – How to Discuss Appetite"
 date: 2024-11-13T15:32:04+01:00
 social: https://www.linkedin.com/posts/klaus-breyer_one-question-that-changes-everything-in-shape-activity-7262476423909490688-i8k9
-categories: ["Product"]
+categories: ["Agile"]
 ---
 
 Let me share a recent story from a real project.
@@ -48,7 +48,6 @@ Because initial estimates are just that: estimates and estimates are almost alwa
 Shape Up's Appetite is not only about setting boundaries. It is a communication technique!
 
 And how impactful an open question can be instead of a reassuring question, showing how essential coaching skills are for a leader.
-
 
 [1]: https://www.feltpresence.com/discovery-how-to-decide/
 [2]: https://basecamp.com/shapeup/1.2-chapter-03

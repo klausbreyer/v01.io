@@ -1,8 +1,8 @@
 ---
 title: "Timelessness of Human Perception and Good Ideas"
 date: 2024-11-08
-categories: ["Meta"]
 social: "https://www.linkedin.com/posts/klaus-breyer_timelessness-of-human-perception-and-good-activity-7260550347297845249-P9d5"
+categories: ["Meta"]
 ---
 
 I am always amazed to think that people 6,000 years ago were not so much less intelligent than we are today. We simply build on such a vast body of knowledge accumulated over time. Biologically, we are almost the same humans. Only a minimal evolutionary selection could have taken place since then if we consider the relatively few generations since civilization began. But the people 6,000 years ago likely had the same emotions we experience today.

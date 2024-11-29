@@ -6,8 +6,8 @@ tags:
   - open source
   - readwise
   - knowledge management
-categories: ["Open Source"]
 image: "all-the-highlights.png"
+categories: ["Open Source"]
 ---
 
 ![](all-the-highlights.png)

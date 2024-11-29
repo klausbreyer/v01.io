@@ -5,7 +5,6 @@ date: 2014-04-01T21:13:34+02:00
 publishdate: 2014-04-01T21:13:34+02:00
 lastmod: 2021-06-29T10:37:31+02:00
 draft: false
-categories: ["Management"]
 tags:
   [
     "File Organization",
@@ -16,6 +15,7 @@ tags:
 
 aliases:
   - /posts/dateiorganisation-und-ordnerstrukturen-in-unternehmen/
+categories: ["Productivity"]
 ---
 
 Wer über die gemeinsame Ordnerstruktur in einem Unternehmen diskutiert, muss sich fragen, wie viel wirklich vorgegeben werden muss.

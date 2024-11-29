@@ -5,7 +5,6 @@ date: 2022-09-23T14:02:47+02:00
 publishdate: 2022-09-23T14:02:47+02:00
 lastmod: 2022-12-16T10:54:01+01:00
 draft: false
-categories: ["Management"]
 tags:
   - agile
   - scrum
@@ -17,6 +16,7 @@ tags:
 Social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-track-for-scrum-how-to-hack-a-activity-7004381835472318464-EtFX"
 aliases:
   - "/posts/shape-up-track-for-scrum-how-to-hack-a-process/"
+categories: ["Agile"]
 ---
 
 Not everybody on our team was happy with the overhead of Scrum. But it isn't easy to change a development process for an (otherwise) stable team.

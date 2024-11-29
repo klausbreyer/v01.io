@@ -7,9 +7,9 @@ tags:
   - strategy
   - blueocean
   - startups
-categories: ["Business"]
 image: "2023-12-05-how-to-strategize.jpg"
 social: "https://www.linkedin.com/posts/klaus-breyer_how-to-strategize-klaus-breyer-activity-7178754005597102080-s-mZ"
+categories: ["Leadership"]
 ---
 
 ![](2023-12-05-how-to-strategize.jpg)

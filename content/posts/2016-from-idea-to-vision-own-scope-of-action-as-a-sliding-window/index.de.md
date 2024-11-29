@@ -5,7 +5,6 @@ date: 2016-12-21T08:41:12+01:00
 publishdate: 2016-12-21T08:41:12+01:00
 lastmod: 2021-06-29T10:39:18+02:00
 draft: false
-categories: ["Product"]
 tags:
   [
     "Business Ideas",
@@ -20,6 +19,7 @@ tags:
 
 aliases:
   - "/posts/von-der-idee-zur-vision-der-eigene-handlungsspielraum-als-sliding-window/"
+categories: ["Product"]
 ---
 
 ![](2016-12-20-Sliding-Window-2.png)

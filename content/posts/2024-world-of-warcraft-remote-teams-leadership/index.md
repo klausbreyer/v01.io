@@ -1,8 +1,8 @@
 ---
 title: "What World of Warcraft Taught Me About Remote Team Leadership"
 date: 2024-06-05
-categories: ["Management"]
 social: "https://www.linkedin.com/posts/klaus-breyer_what-world-of-warcraft-taught-me-about-remote-activity-7204006775707037697-VqVO?"
+categories: ["Leadership"]
 ---
 
 I often state that I have over 20 years of experience leading remote teams, which, if you do the math, means since 2004.

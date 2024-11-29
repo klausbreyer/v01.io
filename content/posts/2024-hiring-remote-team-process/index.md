@@ -2,8 +2,8 @@
 title: "The Biggest Hiring Mistake: Not Involving The Team"
 date: 2024-06-11
 draft: false
-categories: ["Management"]
 social: "https://www.linkedin.com/posts/klaus-breyer_the-biggest-hiring-mistake-not-involving-activity-7206197253588275201-oEUg?"
+categories: ["Leadership"]
 ---
 
 Regularly, I encounter team members who are surprised that they got to meet the candidates before I made the decision. They weren't used to this from their past experiences.

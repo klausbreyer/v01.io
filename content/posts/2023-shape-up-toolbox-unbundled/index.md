@@ -9,8 +9,8 @@ tags:
   - risk management
   - team autonomy
   - project management
-categories: ["Product"]
 social: "https://www.linkedin.com/posts/klaus-breyer_unbundling-shape-up-principles-for-product-activity-7137786972751695873-XGpM"
+categories: ["Agile"]
 ---
 
 Understanding Shape Up's flexibility as a set of guiding principles rather than a rigid process is instrumental in managing projects in today's varied organizational landscapes.

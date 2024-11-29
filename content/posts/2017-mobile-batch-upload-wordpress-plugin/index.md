@@ -5,7 +5,6 @@ date: 2017-11-04T13:32:43+01:00
 publishdate: 2017-11-04T13:32:43+01:00
 lastmod: 2020-05-15T12:01:15+02:00
 draft: false
-categories: ["Open Source"]
 tags:
   [
     "mobile",
@@ -23,6 +22,7 @@ tags:
   ]
 aliases:
   - "/posts/mobile-batch-upload-wordpress-plugin/"
+categories: ["Open Source"]
 ---
 
 ![](Artboard-1024x606.png)

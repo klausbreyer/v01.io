@@ -1,9 +1,9 @@
 ---
 title: "Self Documenting Code Is Bullshit"
-categories: ["Code"]
 date: 2024-07-09
 image: "self-documenting-linkedin.png"
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7216431564308541440/"
+categories: ["Engineering"]
 ---
 
 Hopefully, every development team reaches a point where they discuss their guidelines and policies. Part of this discussion, hopefully, includes expectations around documentation.

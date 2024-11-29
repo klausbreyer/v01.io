@@ -1,6 +1,6 @@
 ---
 draft: false
-categories: ["Code"]
+categories: ["Engineering"]
 title: "Dear Samsung Internet: Please Fix Your Forced Dark Mode! (Update!)"
 date: 2024-04-22
 lastmod: 2024-07-09

@@ -15,8 +15,7 @@ tags:
     "Tech Recruitment",
     "Startup",
   ]
-
-categories: ["Code"]
+categories: ["Engineering"]
 ---
 
 ![](stackoverflow.png)

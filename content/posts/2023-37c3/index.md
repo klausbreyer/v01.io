@@ -7,9 +7,9 @@ tags:
   - technology
   - community
 draft: false
-categories: ["Meta"]
 image: "castle.jpg"
 # social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-die-kunst-st%C3%A4ndiger-risikominimierung-activity-7064498077511868416-_t9i"
+categories: ["Open Source"]
 ---
 
 Imagine a realm where the curious and the ingenious converge, creating a microcosm of radical acceptance and innovation. This was the setting of the 37th Chaos Communication Congress (37C3) in Hamburg, an event I had the privilege of experiencing firsthand on its third day.

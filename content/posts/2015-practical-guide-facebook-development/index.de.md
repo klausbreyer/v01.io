@@ -5,7 +5,6 @@ date: 2015-01-11T14:13:28+01:00
 publishdate: 2015-01-11T14:13:28+01:00
 lastmod: 2022-08-02T13:48:12+02:00
 draft: false
-categories: ["Code"]
 tags:
   [
     "Facebook",
@@ -19,6 +18,7 @@ tags:
   ]
 aliases:
   - "/posts/praxishandbuch-facebook-entwicklung/"
+categories: ["Product"]
 ---
 
 ![](9783955617943.jpg)

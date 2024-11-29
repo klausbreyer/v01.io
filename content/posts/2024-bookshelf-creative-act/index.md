@@ -1,8 +1,8 @@
 ---
 title: "The Creative Act, Rick Rubin, 2023"
-categories: ["Bookshelf"]
 date: 2024-05-24
 # social: "https://www.linkedin.com/posts/klaus-breyer> transformed-klaus-breyer-activity-7180834102890131457-nnbN"
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3KgyAm8,title.jpg" >}}

@@ -1,9 +1,8 @@
 ---
 title: "Whole Year Calendar For Online Whiteboards"
 date: 2024-10-07
-categories: ["Open Source"]
-
 image: "screenshot.png"
+categories: ["Open Source"]
 ---
 
 ![screenshot](./screenshot.png)

@@ -6,9 +6,9 @@ publishdate: 2020-12-31T17:26:22+01:00
 lastmod: 2021-01-02T13:56:48+01:00
 draft: false
 tags: ["Pocket", "Roam Research", "note-taking", "open source"]
-categories: ["Open Source"]
 aliases:
   - "/posts/pocket-highlights/"
+categories: ["Open Source"]
 ---
 
 I did manage to do a little christmas project this year, scratching my own itch. (Remember: the best projects come from an actual need.. ;) ).

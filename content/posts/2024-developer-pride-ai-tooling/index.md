@@ -1,7 +1,7 @@
 ---
 title: "A Rant About Neglected AI Tooling and Developer Pride"
 date: 2024-06-13
-categories: ["Code"]
+categories: ["Engineering"]
 ---
 
 I am currently hiring senior developers, and I assumed that AI would be used to "cheat" during coding tests. So, I made it part of the task that they should explain afterward how and for what they used AI.

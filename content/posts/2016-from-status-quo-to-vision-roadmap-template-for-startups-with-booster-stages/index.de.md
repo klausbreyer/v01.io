@@ -5,7 +5,6 @@ date: 2017-01-05T08:47:46+01:00
 publishdate: 2017-01-05T08:47:46+01:00
 lastmod: 2021-06-29T10:39:17+02:00
 draft: false
-categories: ["Product"]
 tags:
   [
     "Roadmap",
@@ -20,6 +19,7 @@ tags:
 
 aliases:
   - "/posts/vom-status-quo-zur-vision-roadmap-vorlage-fur-startups-mit-booster-stages/"
+categories: ["Product"]
 ---
 
 ![](2016-12-21-Roadmap.png)

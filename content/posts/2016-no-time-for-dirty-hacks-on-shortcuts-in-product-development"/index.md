@@ -4,8 +4,8 @@ title: "No Time for Dirty Hacks: On Shortcuts in Product Development"
 date: 2016-09-22T09:26:52+02:00
 publishdate: 2016-09-22T09:26:52+02:00
 lastmod: 2022-12-02T16:47:09+01:00
-categories: ["Product"]
 tags: ["agency", "product development", "software engineering"]
+categories: ["Product"]
 ---
 
 I was CTO of the social media agency [buddybrand](http://buddybrand.com) for 6 years and have now been CTO of the SaaS startup [BuzzBird](https://www.buzzbird.de) for almost a year.

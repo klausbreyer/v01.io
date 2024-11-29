@@ -14,8 +14,7 @@ tags:
     "testing",
     "staging environment",
   ]
-
-categories: ["Code"]
+categories: ["Engineering"]
 ---
 
 When you take over a larger software project whose codebase you are unfamiliar with, you initially have to grapple with a lot of complexity and uncertainties. A rewrite is rarely an option. Apart from the fact that [rewrites are usually death marches](http://chadfowler.com/2006/12/27/the-big-rewrite.html), the existing platform must also be maintained. Previous developers are often not particularly cooperative.

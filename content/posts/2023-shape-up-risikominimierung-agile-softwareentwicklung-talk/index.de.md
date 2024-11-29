@@ -14,9 +14,9 @@ tags:
   - Product Strategy
 
 draft: false
-categories: ["Management"]
 image: "preview.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-die-kunst-st%C3%A4ndiger-risikominimierung-activity-7064498077511868416-_t9i"
+categories: ["Agile"]
 ---
 
 Am 25.04.2023 hatte ich das Privileg, im Kontext der [Lean Coffee Veranstaltungen in Karlsruhe und Frankfurt eine Online-Session über Shape Up zu leiten.](https://www.meetup.com/de-DE/lean-coffee-karlsruhe-frankfurt/events/292382816/) In Anbetracht der derzeitigen Knappheit an Ressourcen zu diesem Thema in deutscher Sprache war es mir ein besonderes Anliegen, diese Session durchzuführen und die Aufzeichnung der Allgemeinheit verfügbar zu machen.

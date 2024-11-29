@@ -15,9 +15,9 @@ tags:
     "Sublime Text",
     "iTerm",
   ]
-categories: ["Code"]
 aliases:
   - "/posts/monospaced-fonts-schriftarten-fur-programmierer/"
+categories: ["Open Source"]
 ---
 
 ![](2017-01-16-source-code-pro.png)

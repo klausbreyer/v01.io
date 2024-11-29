@@ -5,7 +5,6 @@ date: 2020-05-04T09:34:43+02:00
 publishdate: 2020-05-04T09:34:43+02:00
 lastmod: 2023-01-20T14:07:09+02:00
 draft: false
-categories: ["Product"]
 tags:
   [
     "Second-system effect",
@@ -19,6 +18,7 @@ tags:
 social: "https://www.linkedin.com/posts/klaus-breyer_second-system-effect-klaus-breyer-cto-activity-7026098934729048064-zxtt"
 aliases:
   - /posts/second-system-effect/
+categories: ["Product"]
 ---
 
 ## Second-system effect

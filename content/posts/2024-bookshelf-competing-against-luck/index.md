@@ -1,10 +1,10 @@
 ---
 title: "Competing Against Luck, Clayton M. Christensen, 2016"
-categories: ["Bookshelf"]
 date: 2024-04-15
 
 aliases:
   - /posts/2024-competing-against-luck/
+categories: ["Bookshelf"]
 ---
 
 {{< gallery "https://amzn.to/3xCsf1i,against-luck.png" >}}

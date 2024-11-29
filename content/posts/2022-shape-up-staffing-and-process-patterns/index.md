@@ -5,7 +5,6 @@ date: 2022-12-16T10:39:57+01:00
 publishdate: 2022-12-16T10:39:57+01:00
 lastmod: 2023-01-20T14:44:00+01:00
 draft: false
-categories: ["Management"]
 tags:
   - scrum
   - shapeup
@@ -18,6 +17,7 @@ image: "2023-01-20-pattern-alternated-shaping.png"
 aliases:
   - "/posts/shape-up-staffing-and-process-patterns/"
   - /posts/20221216shape-up-staffing-and-process-patterns
+categories: ["Agile"]
 ---
 
 ## Shape Up staffing and process patterns
