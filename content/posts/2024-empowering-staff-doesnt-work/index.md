@@ -38,8 +38,10 @@ If their decision doesn’t work out, avoid jumping in to fix it. Instead, debri
 
 ## Why This Matters
 
-I want you to leave with a new word in your vocabulary: _emancipated_. Think about what that means in your world. Start small. Let them make one decision without you. Watch them grow as they trust their genius, energy, and creativity.
+As David Marquet explains in Turn the Ship Around!, truly emancipated staff operates independently because they own their authority and accountability. The leader’s role is to foster the systems and culture that make this possible.
 
-And let go of the need to control. That’s where real growth starts — for you!
+So I want you to leave with a new word in your leadership vocabulary: _emancipated_. Think about what that means in your world. Start small. Let them make one decision without you.
 
-PS: This has nothing to do with [Marty Cagan's concept of empowered product teams](/posts/2024-bookshelf-transformed)—I fully stand behind that approach. My focus here is on the everyday use of the word "empowering" for individuals. It can be limiting when we could be aiming for something more significant: emancipation.
+And then let go of the control. That’s where real growth starts — for you!
+
+PS: This has nothing to do with [Marty Cagan's concept of empowered product teams](/posts/2024-bookshelf-transformed) — I am fully behind that approach. My focus here is on the everyday use of the word "empowering" for individuals. It can be limiting when we could be aiming for something more significant: emancipation.
