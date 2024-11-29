@@ -2,6 +2,7 @@
 title: "Empowering Your Staff Doesn’t Work. Here’s What Does."
 date: 2024-11-29T11:13:06+01:00
 categories: ["Leadership"]
+social: https://www.linkedin.com/posts/klaus-breyer_empowering-your-staff-doesnt-work-here-activity-7268212528718000128-aBLR?
 ---
 
 There was a time when I managed some individuals who weren’t particularly independent. They were talented, no doubt, but hesitant to take action without my input. My solution? Empower them. Or so I thought.
