@@ -1,6 +1,6 @@
 ---
 title: "Template: Impact-Appetite-Tierlist"
-date: 2024-12-06T14:07:45+01:00
+date: 2024-12-09T14:12:45+01:00
 image: matrix-full@1x.png
 ---
 
@@ -65,11 +65,9 @@ How much are we willing to commit to this?
 ### Create a short-term timeline, not a roadmap.
 
 ![](matrix-mapping@1x.png)
-After identifying high-impact problems and setting an initial appetite, the next step is to see how these priorities fit into the next 8–10 weeks. (You don't need to do more because further planning is obsolete anyway - this is just the reality)
+After identifying high-impact problems and setting an initial appetite, the next step was to see how these priorities fit into the next 8–10 weeks. (We don't do more than this, because further planning is obsolete anyway - Shape Up Principles.)
 
-The only other task we have is to define specific milestones to ensure the following topics are framed and shaped accordingly to meet the timeline.
-
-Only with [framing](https://www.feltpresence.com/framing/) and [shaping](https://basecamp.com/shapeup/1.1-chapter-02) at the right altitude is it possible to work with a fixed timebox.
+The only other task we have is to define specific milestones to ensure the following topics are [framed](https://www.feltpresence.com/framing/) and [shaped](https://basecamp.com/shapeup/1.1-chapter-02) accordingly to meet the timeline.
 
 ### Try it today: Use appetite instead of estimates for your roadmap.
 
