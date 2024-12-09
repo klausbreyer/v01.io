@@ -1,7 +1,8 @@
 ---
-title: "Template: Impact-Appetite-Tierlist"
+title: "Template: Impact-Appetite-Tierlist - Roadmapping for Empowered Product Teams"
 date: 2024-12-09T14:12:45+01:00
 image: matrix-full@1x.png
+social: https://www.linkedin.com/posts/klaus-breyer_template-impact-appetite-tierlist-klaus-activity-7271907996408905728-oixw?
 ---
 
 It was just the usual mess: The product team had merged a couple of months before, inheriting a codebase from an agency working on a shoestring budget. Technical debt loomed, basic foundations were missing, and product management had many interesting problems.
