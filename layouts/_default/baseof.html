@@ -35,12 +35,18 @@
 
 <body class="font-sans bg-bg text-text print:bg-transparent print:text-black ">
 
-    {{ partial "header.html" . }}
+    <div class="block print:hidden">
+        {{ partial "header.html" . }}
+    </div>
+
     <main>
         <div class="container grid max-w-screen-xl grid-cols-1 gap-4 px-4 pb-4 mx-auto print:p-0 lg:px-8 sm:grid-cols-4 print:grid-cols-1">
 
             <div class="border-t-2 sm:col-span-3 print:border-t-0 border-primary ">
-                {{ partial "print_header.html" . }}
+                <div class="hidden print:block">
+                    {{ partial "header.html" . }}
+                </div>
+
                 {{ block "main" . }}
                 {{ end }}
             </div>

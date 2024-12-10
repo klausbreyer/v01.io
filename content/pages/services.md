@@ -1,15 +1,13 @@
 ---
-title: Services
+title: CV
 date: 2023-09-01
-lastmod: 2024-05-03
+lastmod: 2024-12-10
 aliases:
   - "cv"
   - "now"
 ---
 
 {{< gallery "/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg" "[&&]:justify-start" >}}
-
-I love to work on interesting problems. Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
 I am a startup founder and experienced CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
 
@@ -18,6 +16,8 @@ For me, it’s not about code; it’s about weaving the tech fabric into the com
 Below, I’ve categorized some of the things I’ve done: Teams that innovate and Projects that matter.
 
 Move Fast And Break Silos!
+
+Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
 ## Startup Founding and Company Strategy
 

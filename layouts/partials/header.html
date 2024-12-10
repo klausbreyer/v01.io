@@ -1,6 +1,6 @@
 {{$section_heading := .Site.GetPage "section" .Section }}
 
-<header class="container grid max-w-screen-xl grid-cols-1 gap-4 px-4 pt-2 mx-auto mb-4 print:hidden lg:px-8">
+<header class="container grid max-w-screen-xl grid-cols-1 gap-4 px-4 pt-2 mx-auto mb-4 lg:px-8">
 
     <a lang="en" class="text-5xl italic font-bold uppercase sm:text-6xl hover:border-primary hover:text-primary author font-share-tech border-primary text-primary font-sharetech" href="/">
         Klaus
@@ -14,7 +14,7 @@
             <span>Product & Tech Leadership</span>
         </div>
     </a>
-    <ul class="flex flex-wrap gap-x-5 justify-stretch">
+    <ul class="flex flex-wrap gap-x-5 justify-stretch print:hidden">
 
         {{ range .Site.Menus.header }}
         <li class="">
