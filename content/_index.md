@@ -7,9 +7,9 @@ summary: As a startup founder and experienced CPTO, I break silos by empowering 
 
 ![That's me!](/images/klaus-breyer-a-landscape.jpg)
 
-As a startup founder and experienced CPTO, I break silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
+As a startup founder and experienced CPTO focusing on B2B SaaS, I break silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between engineering excellence, agile product development, and impactful leadership.
 
-I have founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace) and have built corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
+I have founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and have built corporate business units for [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
 
 Based in Berlin, I have extensive experience and prefer to work with international organizations – mostly but not limited to remote environments. I am also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
 

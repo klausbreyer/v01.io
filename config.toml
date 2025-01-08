@@ -24,7 +24,7 @@ defaultContentLanguage = 'en'
 
 [params]
   repo = "https://github.com/klausbreyer/v01.io/blob/main/content/"
-  description = "I am a startup founder and experienced CPTO with a track record in product and tech leadership. Breaking silos, I empower organizations to seamlessly integrate product and technology while helping leadership teams cultivate a culture of interdisciplinary collaboration."
+  description = "Startup founder & experienced CPTO, breaking silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. Focusing on B2B SaaS, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership as an interim manager or advisor."
   image = 'images/klaus-breyer.jpg'
 
 [privacy]
