@@ -37,9 +37,9 @@ aliases:
 
 ### Full Bio
 
-Klaus is a startup founder and experienced CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, he helps companies bridge the gap between technical excellence, agile product development, and impactful leadership.
+Klaus is a startup founder and experienced B2B SaaS CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, he helps companies bridge the gap between technical excellence, agile product development, and impactful leadership.
 
-He has founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (marketplace) and has built corporate business units for [Voith](https://voith.com) (IoT) and [edding](https://www.edding.com/de-de/) (SaaS).
+He has founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and have built corporate startup business units for [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
 
 Based in Berlin, Klaus has extensive experience and prefers to work with international organizations – mostly but not limited to remote environments. He is also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
 
@@ -47,7 +47,7 @@ His philosophy: Move Fast And Break Silos.
 
 ### Short Bio
 
-Klaus is a startup founder and experienced CPTO with a track record in product and tech leadership. By breaking silos, he empowers organizations to seamlessly integrate product and technology while helping leadership teams cultivate a culture of interdisciplinary collaboration.
+Klaus is a startup founder and experienced B2B SaaS CPTO with a track record in product and tech leadership. By breaking silos, he empowers organizations to seamlessly integrate product and technology while helping leadership teams cultivate a culture of interdisciplinary collaboration.
 
 ### Socials
 
