@@ -9,7 +9,7 @@ aliases:
 
 {{< gallery "/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg" "[&&]:justify-start" >}}
 
-I am a startup founder and experienced CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
+I am a startup founder and experienced B2B SaaS CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
 
 For me, it’s not about code; it’s about weaving the tech fabric into the company’s culture — whether for agencies, SMEs, or fledgling startups. Over the last 15 years, I have built a proven track record in product and tech leadership, founding startups, and building business units.
 
