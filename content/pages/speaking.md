@@ -19,7 +19,7 @@ aliases:
 - 2022: 🇺🇸 [From Scrum to Shape Up – Grey Areas Dring Transit (Shape Up Practitioners Remote Meetup S2E2)][4]
 - 2022: 🇺🇸 [CTO Craft Con Winter 2022 – Shape Up Experiments for a Scrum Team][15]
 - 2015: 🇩🇪 [Prototyping digitaler Geschäftsmodelle – Übertragen auf Marketing / PR][5]
-- 2015: 🇩🇪 [„Was bringt mir das eigentlich?“ – Ansätze zur Bestimmung des Social-Media-ROI v0.1][6]
+- 2015: 🇩🇪 [„Was bringt mir das eigentlich?" – Ansätze zur Bestimmung des Social-Media-ROI v0.1][6]
 - 2015: 🇩🇪 [The Secret of ROI – Was der Marketing Manager 2015 hören will][7]
 - 2014: 🇩🇪 [What’s Up, WhatsApp? Wie man die strategische Nuss WhatsApp knacken kann.][8]
 - 2014: 🇩🇪 [Das Ende der Homepage, wie wir sie kennen.][9]
@@ -33,25 +33,42 @@ aliases:
 
 - 2014: 🇩🇪 [Praxishandbuch Facebook Programmierung(O’Reilly)]({{< relref path="2015-practical-guide-facebook-development">}}).
 
-## Bio for Event Organizers
+## 🇺🇸 Bio for Event Organizers
 
 ### Full Bio
 
-Klaus is a startup founder and experienced B2B SaaS CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, he helps companies bridge the gap between technical excellence, agile product development, and impactful leadership.
+Klaus is an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder, interim manager, and advisor, he bridges the gap between technical scalability and agile product strategy and helps leadership teams achieve this integration themselves.
 
 He has founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and have built corporate startup business units for [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
 
-Based in Berlin, Klaus has extensive experience and prefers to work with international organizations – mostly but not limited to remote environments. He is also a [speaker](pages/speaking), [blogger](posts), and [book author](]({{< relref path="2015-practical-guide-facebook-development">}})).
+Based in Berlin, Klaus brings extensive international experience and enjoys working with diverse teams—mostly, but not exclusively, in remote environments. He is also a [speaker](pages/speaking), [blogger](posts), and [book author]({{< relref path="2015-practical-guide-facebook-development">}}).
 
 His philosophy: Move Fast And Break Silos.
 
 ### Short Bio
 
-Klaus is a startup founder and experienced B2B SaaS CPTO with a track record in product and tech leadership. By breaking silos, he empowers organizations to seamlessly integrate product and technology while helping leadership teams cultivate a culture of interdisciplinary collaboration.
+Klaus is an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder, interim manager, and advisor, he bridges the gap between technical scalability and agile product strategy and helps leadership teams achieve this integration themselves.
 
-### Socials
+His philosophy: Move Fast And Break Silos.
 
-**[v01.io](https://www.v01.io/?nl)** | **[LinkedIn](https://www.linkedin.com/in/klaus-breyer/)** |**[Twitter](https://twitter.com/klausbreyer)**
+## 🇩🇪 Bio for Event Organizers
+
+### Full Bio
+
+Klaus ist ein erfahrener B2B SaaS CPTO mit einer Leidenschaft dafür, Silos aufzubrechen. Als Startup-Gründer, Interim-Manager und Advisor überbrückt er die Kluft zwischen technischer Skalierung und agiler Produktstrategie und unterstützt Führungsteams dabei, diese Integration selbst erfolgreich umzusetzen.
+
+Sein Motto: Move Fast and Break Silos.
+
+Er hat die Startups [Buddybrand](https://www.buddybrand.com/) (Digitalagentur) und [BuzzBird](https://www.buzzbird.de/) (Influencer/B2B-Marktplatz) gegründet und geleitet sowie Corporate-Startups und Business Units für [Voith](https://voith.com) (IoT/B2B SaaS) und [edding](https://www.edding.com/de-de/) (B2B SaaS) aufgebaut.
+
+Klaus lebt in Berlin, verfügt über umfangreiche internationale Erfahrung und arbeitet bevorzugt mit diversen Teams – meist, aber nicht ausschließlich, in Remote-Umgebungen. Zudem ist er [Speaker](pages/speaking), [Blogger](posts) und [Buchautor]({{< relref path="2015-practical-guide-facebook-development">}}).
+
+### Short Bio
+
+Klaus ist ein erfahrener B2B SaaS CPTO mit einer Leidenschaft dafür, Silos aufzubrechen. Als Startup-Gründer, Interim-Manager und Advisor überbrückt er die Kluft zwischen technischer Skalierung und agiler Produktstrategie und unterstützt Führungsteams dabei, diese Integration selbst erfolgreich umzusetzen.
+
+Sein Motto: Move Fast and Break Silos.
+
 
 ### Images
 

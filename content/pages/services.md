@@ -9,17 +9,17 @@ aliases:
 
 {{< gallery "/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg" "[&&]:justify-start" >}}
 
-I am a startup founder and experienced B2B SaaS CPTO who breaks silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
+I am an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder, interim manager, and advisor, I bridge the gap between technical scalability and agile product strategy and support leadership teams in achieving this integration themselves.
 
-For me, it’s not about code; it’s about weaving the tech fabric into the company’s culture — whether for agencies, SMEs, or fledgling startups. Over the last 15 years, I have built a proven track record in product and tech leadership, founding startups, and building business units.
+I founded and led the startups[Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and built corporate startups and business units for Voith [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
 
-Below, I’ve categorized some of the things I’ve done: Teams that innovate and Projects that matter.
+Based in Berlin, I have extensive experience and prefer to work with diverse teams – mostly but not limited to remote environments. I am also a [speaker](pages/speaking), [blogger](posts), and [book author]({{< relref path="2015-practical-guide-facebook-development">}}).
 
 Move Fast And Break Silos!
 
 Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
-## Startup Founding and Company Strategy
+## Startup Exits
 
 I transform innovative ideas into successful ventures through strategic planning and pragmatic execution. This involves selling the product & tech vision to stakeholders, achieving product-market fit, and scaling it way beyond.
 
@@ -27,7 +27,7 @@ I transform innovative ideas into successful ventures through strategic planning
 
 - [Buddybrand GmbH](https://buddybrand.com/) - **Founder & CTO / Digital Agency:** Started post-university; spearheaded the creation of Facebook apps in Germany as the first "Facebook Agency." Grew the company significantly to 35 FTE, contributing to its current status as a renowned full-service digital agency. (2010–2015)
 
-## Interim Management and Team Building
+## Interim Management
 
 I assemble and manage interdisciplinary product and tech teams, including senior leaders, to excel in remote settings. I address critical challenges and deliver substantial user value by accelerating the transition from chaotic ad-hoc development to structured product and engineering processes.
 
