@@ -3,7 +3,7 @@
 	{{ range (split (.Get 0) "|") }}
 	{{ $imageParts := split . "," }}
 	<a href="{{ index $imageParts 0 }}" target="_blank" class="block">
-		<img src="{{ index $imageParts 1 }}" class="h-64 max-w-xs transition-shadow duration-300 rounded shadow-lg hover:shadow-2xl" />
+		<img src="{{ index $imageParts 1 }}" class="h-64 max-w-xs transition-shadow duration-300 rounded print:shadow-none shadow-lg hover:shadow-2xl" />
 	</a>
 	{{ end }}
 </p>

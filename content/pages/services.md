@@ -19,6 +19,8 @@ Move Fast And Break Silos!
 
 Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
+{{< breakbefore >}}
+
 ## Startup Exits
 
 I transform innovative ideas into successful ventures through strategic planning and pragmatic execution. This involves selling the product & tech vision to stakeholders, achieving product-market fit, and scaling it way beyond.
