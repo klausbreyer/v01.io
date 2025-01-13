@@ -23,9 +23,9 @@ Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [Li
 
 I transform innovative ideas into successful ventures through strategic planning and pragmatic execution. This involves selling the product & tech vision to stakeholders, achieving product-market fit, and scaling it way beyond.
 
-- [BuzzBird GmbH](https://www.buzzbird.de/) - **Founder & CPTO / Influencer B2B Marketplace:** We launched with the vision of creating a platform for programmatically booking social media influencers, similar to Google Ads. With a team of 25 FTE, our ML-driven matching algorithm promoted transparency and data-driven insights. Successfully exited to ProSiebenSat.1. (2016–2018)
+- [BuzzBird GmbH](https://www.buzzbird.de/) - **Founder & CPTO / B2B Marketplace / Social Media:** We launched with the vision of creating a platform for programmatically booking social media influencers, similar to Google Ads. With a team of 25 FTE, our ML-driven matching algorithm promoted transparency and data-driven insights. Successfully exited to ProSiebenSat.1. (2016–2018)
 
-- [Buddybrand GmbH](https://buddybrand.com/) - **Founder & CTO / Digital Agency:** Started post-university; spearheaded the creation of Facebook apps in Germany as the first "Facebook Agency." Grew the company significantly to 35 FTE, contributing to its current status as a renowned full-service digital agency. (2010–2015)
+- [Buddybrand GmbH](https://buddybrand.com/) - **Founder & CTO / Digital Agency / Social Media:** Started post-university; spearheaded the creation of Facebook apps in Germany as the first "Facebook Agency." Grew the company significantly to 35 FTE, contributing to its current status as a renowned full-service digital agency. (2010–2015)
 
 ## Interim Management
 
