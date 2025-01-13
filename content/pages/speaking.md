@@ -69,6 +69,9 @@ Klaus ist ein erfahrener B2B SaaS CPTO mit einer Leidenschaft dafür, Silos aufz
 
 Sein Motto: Move Fast and Break Silos.
 
+### Socials
+
+**[v01.io](https://www.v01.io/?nl)** | **[LinkedIn](https://www.linkedin.com/in/klaus-breyer/)** |**[Twitter](https://twitter.com/klausbreyer)**
 
 ### Images
 
