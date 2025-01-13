@@ -8,7 +8,7 @@ aliases:
 ---
 
 ## Podcasts
-
+- 2025: 🇩🇪 [CONNECT && GROW #5 Empowered Product Teams bei edding mit Klaus Breyer](https://www.youtube.com/watch?v=TioXYWRmZZI)
 - 2023: 🇺🇸 [Building Tools for Shape Up – Klaus Breyer & Matt Lane, Co-founders of Dumplink][16]
 - 2022: 🇩🇪 [Shape Up – Für alle, die Scrum nicht mögen – mit Klaus Breyer][2]
 - 2015: 🇩🇪 [WhatsApp für Unternehmen – Macht das Sinn?][3]
