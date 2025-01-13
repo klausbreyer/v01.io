@@ -25,17 +25,17 @@ Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [Li
 
 I transform innovative ideas into successful ventures through strategic planning and pragmatic execution. This involves selling the product & tech vision to stakeholders, achieving product-market fit, and scaling it way beyond.
 
-- [BuzzBird GmbH](https://www.buzzbird.de/) - **Founder & CPTO / B2B Marketplace / Social Media:** We launched with the vision of creating a platform for programmatically booking social media influencers, similar to Google Ads. With a team of 25 FTE, our ML-driven matching algorithm promoted transparency and data-driven insights. Successfully exited to ProSiebenSat.1. (2016–2018)
+- [BuzzBird GmbH](https://www.buzzbird.de/) - **Founder & CPTO / B2B Marketplace / Social Media:** We launched with the vision of creating a platform for programmatically booking social media influencers, similar to Google Ads. With a unit of 25 FTE, our ML-driven matching algorithm promoted transparency and data-driven insights. Successfully exited to ProSiebenSat.1. (2016–2018)
 
 - [Buddybrand GmbH](https://buddybrand.com/) - **Founder & CTO / Digital Agency / Social Media:** Started post-university; spearheaded the creation of Facebook apps in Germany as the first "Facebook Agency." Grew the company significantly to 35 FTE, contributing to its current status as a renowned full-service digital agency. (2010–2015)
 
 ## Interim Management
 
-I assemble and manage interdisciplinary product and tech teams, including senior leaders, to excel in remote settings. I address critical challenges and deliver substantial user value by structuring product and engineering processes, aligning with product strategy, and managing stakeholders effectively.
+I assemble and manage interdisciplinary product and tech units, including senior leaders, to excel in remote settings. I address critical challenges and deliver substantial user value by structuring product and engineering processes, aligning with product strategy, and managing stakeholders effectively.
 
 - [edding AG](https://edding.com.com/) - **Head of Product & Technology / B2B SaaS / Mobility:** edding’s digital focus is on the innovative easycheck product, a cutting-edge digital driver’s license control solution with ML at its core. I am establishing B2B SaaS standards in a traditionally non-digital company while transforming easycheck from a corporate feature factory to an empowered product team, all in a fully remote setting. (2023–now)
 
-- [Voith Hydro Pocket](https://hydropocket.com/) - **Tech Lead / B2B SaaS / IIoT:** I led the tech team for Voith GmbH's Hydro Pocket, establishing the team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2019–2023)
+- [Voith Hydro Pocket](https://hydropocket.com/) - **Tech Lead / B2B SaaS / IIoT:** I led the tech unit for Voith GmbH's Hydro Pocket, establishing the team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2019–2023)
 
 - [Native Studios UG](https://www.native-studios.com/) - **Tech Lead & Evangelist / B2B SaaS / Video:** Developed initial prototypes to secure investors and customers for a B2B solution focused on user-generated content, bridging social media and the corporate world. Later led product development and technology advocacy, driving the initial product roadmap and securing early investors. (2016–2019)
 
