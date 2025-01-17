@@ -33,35 +33,36 @@
 </head>
 
 
-<body class="font-sans bg-bg text-text print:bg-transparent print:text-black ">
+<body>
+    <div class="font-sans bg-bg text-text print:bg-transparent print:text-black">
 
-    <div class="block print:hidden">
-        {{ partial "header.html" . }}
-    </div>
+        <div class="block print:hidden">
+            {{ partial "header.html" . }}
+        </div>
 
-    <main>
-        <div class="container grid max-w-screen-xl grid-cols-1 gap-4 px-4 pb-4 mx-auto print:p-0 lg:px-8 sm:grid-cols-4 print:grid-cols-1">
+        <main>
+            <div class="container grid max-w-screen-xl grid-cols-1 gap-4 px-4 pb-4 mx-auto print:p-0 lg:px-8 sm:grid-cols-4 print:grid-cols-1">
 
-            <div class="border-t-2 sm:col-span-3 print:border-t-0 border-primary ">
-                <div class="hidden print:block">
-                    {{ partial "header.html" . }}
+                <div class="border-t-2 sm:col-span-3 print:border-t-0 border-primary ">
+                    <div class="hidden print:block">
+                        {{ partial "header.html" . }}
+                    </div>
+
+                    {{ block "main" . }}
+                    {{ end }}
                 </div>
 
-                {{ block "main" . }}
-                {{ end }}
+                <div class="hidden print:hidden sm:block">
+                    {{ partial "side.html" . }}
+                </div>
             </div>
-
-            <div class="hidden print:hidden sm:block">
-                {{ partial "side.html" . }}
-            </div>
-        </div>
-    </main>
+        </main>
 
 
-    <footer class="bg-footer">
-        {{ partial "footer.html" . }}
-    </footer>
-
+        <footer class="bg-footer">
+            {{ partial "footer.html" . }}
+        </footer>
+    </div>
 </body>
 
 
