@@ -9,13 +9,7 @@ aliases:
 
 {{< gallery "/images/klaus-breyer-b-full.jpg,/images/klaus-breyer-b-small.jpg|/images/klaus-breyer-a-full.jpg,/images/klaus-breyer-a-small.jpg" "[&&]:justify-start" >}}
 
-I am an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder, interim manager, and advisor, I bridge the gap between technical scalability and agile product strategy and support leadership teams in achieving this integration themselves.
-
-I founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and built corporate startups and business units for Voith [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
-
-Based in Berlin, I have extensive experience and prefer to work with diverse teams – mostly but not limited to remote environments. I am also a [speaker]({{< relref path="/pages/speaking" >}}), [blogger]({{< relref path="/posts" >}}), and [book author]({{< relref path="2015-practical-guide-facebook-development">}}).
-
-Move Fast And Break Silos!
+{{% include file="content/snippets/cv.md" %}}
 
 Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
@@ -38,7 +32,6 @@ I assemble and manage interdisciplinary product and tech units, including senior
 - [Voith Hydro Pocket](https://hydropocket.com/) - **Tech Lead / B2B SaaS / IIoT:** I led the tech unit for Voith GmbH's Hydro Pocket, establishing the team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2019–2023)
 
 - [Native Studios UG](https://www.native-studios.com/) - **Tech Lead & Evangelist / B2B SaaS / Video:** Developed initial prototypes to secure investors and customers for a B2B solution focused on user-generated content, bridging social media and the corporate world. Later led product development and technology advocacy, driving the initial product roadmap and securing early investors. (2016–2019)
-
 
 ## Advisory and Investing 
 
