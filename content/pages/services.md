@@ -65,3 +65,5 @@ I like to mentor and coach software engineers and first-time founders in those c
 - [REAKTOR.BERLIN](https://reaktor.berlin/portfolio/mentors/)
 - [next media accelerator](http://nma.vc/)
 - [APX](https://apx.ac/)
+
+{{% include file="content/snippets/reel.md" %}}
