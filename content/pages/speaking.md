@@ -13,7 +13,7 @@ aliases:
 
 ### Full Bio
 
-Klaus is an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder, interim manager, and advisor, he bridges the gap between technical scalability and agile product strategy and helps leadership teams achieve this integration themselves.
+Klaus is an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder and business unit lead, he bridges the gap between technical delivery and agile product strategy. Sometimes, he invests or advises, helping leadership teams build interdisciplinary teams themselves.
 
 He has founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and have built corporate startup business units for [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
 
@@ -23,7 +23,7 @@ His philosophy: Move Fast And Break Silos.
 
 ### Short Bio
 
-Klaus is an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder, interim manager, and advisor, he bridges the gap between technical scalability and agile product strategy and helps leadership teams achieve this integration themselves.
+Klaus is an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder and business unit lead, he bridges the gap between technical delivery and agile product strategy. Sometimes, he invests or advises, helping leadership teams build interdisciplinary teams themselves.
 
 His philosophy: Move Fast And Break Silos.
 
@@ -31,7 +31,7 @@ His philosophy: Move Fast And Break Silos.
 
 ### Full Bio
 
-Klaus ist ein erfahrener B2B SaaS CPTO mit einer Leidenschaft dafür, Silos aufzubrechen. Als Startup-Gründer, Interim-Manager und Advisor überbrückt er die Kluft zwischen technischer Skalierung und agiler Produktstrategie und unterstützt Führungsteams dabei, diese Integration selbst erfolgreich umzusetzen.
+Klaus ist ein erfahrener B2B SaaS CPTO mit einer Leidenschaft dafür, Silos aufzubrechen. Als Startup-Gründer und Business Unit Lead schlägt er die Brücke zwischen technischer Delivery und agiler Produktstrategie. Gelegentlich investiert oder berät er und unterstützt Führungsteams beim Aufbau interdisziplinärer Teams.
 
 Sein Motto: Move Fast and Break Silos.
 
@@ -41,7 +41,7 @@ Klaus lebt in Berlin, verfügt über umfangreiche internationale Erfahrung und a
 
 ### Short Bio
 
-Klaus ist ein erfahrener B2B SaaS CPTO mit einer Leidenschaft dafür, Silos aufzubrechen. Als Startup-Gründer, Interim-Manager und Advisor überbrückt er die Kluft zwischen technischer Skalierung und agiler Produktstrategie und unterstützt Führungsteams dabei, diese Integration selbst erfolgreich umzusetzen.
+Klaus ist ein erfahrener B2B SaaS CPTO mit einer Leidenschaft dafür, Silos aufzubrechen. Als Startup-Gründer und Business Unit Lead schlägt er die Brücke zwischen technischer Delivery und agiler Produktstrategie. Gelegentlich investiert oder berät er und unterstützt Führungsteams beim Aufbau interdisziplinärer Teams.
 
 Sein Motto: Move Fast and Break Silos.
 

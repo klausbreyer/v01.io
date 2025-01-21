@@ -1,4 +1,4 @@
-I am an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder, interim manager, and advisor, I bridge the gap between technical scalability and agile product strategy and support leadership teams in achieving this integration themselves.
+I am an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder and business unit lead, I bridge the gap between technical delivery and agile product strategy. Sometimes, I invest or advise, helping leadership teams build interdisciplinary teams themselves.
 
 I founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and built corporate startups and business units for Voith [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
 
