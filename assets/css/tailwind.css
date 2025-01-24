@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+@plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/forms';
+
+@theme {
+  --color-primary: var(--color-rose-600);
+  --color-dark: var(--color-rose-900);
+  --color-footer: #252526;
+  --color-footer2: #3d3e3d;
+  --color-bg: #1e1e1e;
+  --color-text: #d4d4d4;
+}
 @font-face {
   font-family: "Share Tech";
   font-style: normal;
