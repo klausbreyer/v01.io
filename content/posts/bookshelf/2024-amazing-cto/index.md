@@ -1,6 +1,6 @@
 ---
 title: "Amazing CTO, Stephan Schmidt, 2024"
-date: 2024-06-14
+date: 2024-01-01
 social: "https://www.linkedin.com/posts/klaus-breyer_transformed-klaus-breyer-activity-7180834102890131457-nnbN"
 categories: ["Bookshelf"]
 aliases:

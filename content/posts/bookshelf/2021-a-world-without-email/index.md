@@ -1,6 +1,6 @@
 ---
 title: "A World Without Email, Cal Newport, 2021"
-date: 2023-03-10
+date: 2021-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

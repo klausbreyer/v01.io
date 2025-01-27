@@ -1,6 +1,6 @@
 ---
 title: "Designing Products People Love, Scott Hurf, 2016"
-date: 2025-01-20
+date: 2016-01-01
 categories: ["Bookshelf"]
 ---
 

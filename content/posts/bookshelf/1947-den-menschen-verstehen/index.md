@@ -1,6 +1,6 @@
 ---
 title: "Den Menschen verstehen, Erich Fromm, 1947"
-date: 2023-03-10
+date: 1947-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

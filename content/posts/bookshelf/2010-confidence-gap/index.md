@@ -1,6 +1,6 @@
 ---
 title: "The Confidence Gap, Russ Harris, 2010"
-date: 2024-06-10
+date: 2010-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

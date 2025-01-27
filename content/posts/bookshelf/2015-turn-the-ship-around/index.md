@@ -1,6 +1,6 @@
 ---
 title: "Turn The Ship Around!, David Marquet, 2015"
-date: 2024-11-29
+date: 2015-01-01
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2024-bookshelf-turn-the-ship-around/"

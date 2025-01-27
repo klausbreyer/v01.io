@@ -1,6 +1,6 @@
 ---
 title: "The Meditations, Marcus Aurelius (Sam Torode), 2017"
-date: 2023-03-10
+date: 2017-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

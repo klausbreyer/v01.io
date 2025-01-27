@@ -1,6 +1,6 @@
 ---
 title: "So Good They Can't Ignore You, Cal Newport, 2012"
-date: 2023-03-10
+date: 2012-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

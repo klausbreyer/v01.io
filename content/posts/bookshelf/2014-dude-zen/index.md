@@ -1,6 +1,6 @@
 ---
 title: "The Dude and the Zen Master, Jeff Bridges & Bernie Glassman, 2014"
-date: 2023-03-10
+date: 2014-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

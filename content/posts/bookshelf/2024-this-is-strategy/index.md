@@ -1,6 +1,6 @@
 ---
 title: "This is Strategy, Seth Godin, 2024"
-date: 2024-06-10
+date: 2024-01-01
 categories: ["Bookshelf"]
 draft: true
 ---
