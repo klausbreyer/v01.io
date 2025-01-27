@@ -3,6 +3,8 @@ title: "Radical Candor, Kim Scott, 2019"
 date: 2024-06-10
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7205824112785539073/"
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2023-bookshelf-are-your-lights-on/"
 ---
 
 {{< gallery "https://amzn.to/4aTZCKX,title.jpg" >}}

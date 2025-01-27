@@ -2,6 +2,8 @@
 title: "Safe Haven: Investing for Financial Storm, Mark Spitznagel, 2023"
 date: 2023-06-08
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2023-bookshelf-save-haven/"
 ---
 
 {{< gallery "https://amzn.to/3MWq38X,haven.png" >}}

@@ -4,6 +4,8 @@ date: 2024-04-08
 aliases:
   - /posts/2024-slow-productivity/
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2024-bookshelf-slow-productivity/"
 ---
 
 {{< gallery "https://amzn.to/3vLpJFu,slow-productivity.png" >}}

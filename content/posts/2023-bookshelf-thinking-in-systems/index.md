@@ -2,6 +2,8 @@
 title: "Thinking in Systems: A Primer, Donella H. Meadows, 2008"
 date: 2023-02-24
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2023-bookshelf-thinking-in-systems/"
 ---
 
 {{< gallery "https://amzn.to/3lZmQf0,systems.png" >}}
