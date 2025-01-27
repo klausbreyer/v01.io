@@ -5,6 +5,8 @@ date: 2024-04-15
 aliases:
   - /posts/2024-competing-against-luck/
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2024-bookshelf-competing-against-luck/"
 ---
 
 {{< gallery "https://amzn.to/3xCsf1i,against-luck.png" >}}

@@ -3,6 +3,8 @@ title: "Amazing CTO, Stephan Schmidt, 2024"
 date: 2024-06-14
 social: "https://www.linkedin.com/posts/klaus-breyer_transformed-klaus-breyer-activity-7180834102890131457-nnbN"
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2024-bookshelf-amazing-cto/"
 ---
 
 {{< gallery "https://www.amazingcto.com/cto-book/,title.jpg" >}}

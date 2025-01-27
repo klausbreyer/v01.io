@@ -4,6 +4,8 @@ date: 2024-04-29
 draft: false
 social: "https://www.linkedin.com/posts/klaus-breyer_indistractable-nir-eyal-2020-klaus-breyer-activity-7190608289976475648-Loh3"
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2024-bookshelf-indistractable/"
 ---
 
 {{< gallery "https://amzn.to/3xVjDmF,indistractable.png" >}}

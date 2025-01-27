@@ -3,6 +3,8 @@ title: "How to Get Rich, Felix Dennis, 2007"
 date: 2024-09-09
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7238853569817325569/"
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2024-bookshelf-how-to-get-rich/"
 ---
 
 {{< gallery "https://amzn.to/3ZhywLv,title.jpg" >}}

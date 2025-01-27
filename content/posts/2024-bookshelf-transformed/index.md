@@ -5,6 +5,7 @@ social: "https://www.linkedin.com/posts/klaus-breyer_transformed-klaus-breyer-ac
 
 aliases:
   - "/posts/2024-transformed/"
+  - "/posts/2024-bookshelf-transformed/"
 categories: ["Bookshelf"]
 ---
 

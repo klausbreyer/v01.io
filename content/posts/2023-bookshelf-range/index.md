@@ -2,6 +2,8 @@
 title: "Range: Why Generalists Triumph in a Specialized World, David Epstein, 2020"
 date: 2023-03-10
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2023-bookshelf-range/"
 ---
 
 {{< gallery "https://amzn.to/3LgttE7,range.png" >}}

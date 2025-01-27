@@ -2,6 +2,8 @@
 title: "Effective Remote Work, James Stanier, 2022"
 date: 2023-03-24
 categories: ["Bookshelf"]
+aliases:
+  - "/posts/2023-bookshelf-effective-remote-work/"
 ---
 
 I had the pleasure of hearing [James Stanier](https://www.theengineeringmanager.com/) speak at a conference, and his insights on remote work stuck with me.
