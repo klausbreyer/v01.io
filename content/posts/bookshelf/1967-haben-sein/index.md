@@ -1,6 +1,6 @@
 ---
 title: "Haben oder Sein, Erich Fromm, 1967"
-date: 2023-03-10
+date: 1967-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Die Angst vor der Bedeutungslosigkeit, Carlo Strenger, 2016"
-date: 2023-03-10
+date: 2016-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

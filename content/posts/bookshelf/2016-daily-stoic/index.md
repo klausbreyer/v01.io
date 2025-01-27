@@ -1,6 +1,6 @@
 ---
 title: "The Daily Stoic, Ryan Holiday, 2016"
-date: 2023-03-10
+date: 2016-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

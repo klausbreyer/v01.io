@@ -1,6 +1,6 @@
 ---
 title: "Forever Employable, Jeff Gothelf, 2020"
-date: 2023-03-10
+date: 2020-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

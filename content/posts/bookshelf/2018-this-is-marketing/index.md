@@ -1,6 +1,6 @@
 ---
 title: "This is Marketing, Seth Godin, 2018"
-date: 2024-06-10
+date: 2018-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Transformed, Marty Cagan, 2024"
-date: 2024-04-02
+date: 2024-01-01
 social: "https://www.linkedin.com/posts/klaus-breyer_transformed-klaus-breyer-activity-7180834102890131457-nnbN"
 
 aliases:

@@ -1,6 +1,6 @@
 ---
 title: "Several Short Sentences About Writing, Verlyn Klinkenborg, 2012"
-date: 2024-05-22
+date: 2012-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

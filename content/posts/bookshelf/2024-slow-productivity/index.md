@@ -1,6 +1,6 @@
 ---
 title: "Slow Productivity, Cal Newport, 2024"
-date: 2024-04-08
+date: 2024-01-01
 aliases:
   - /posts/2024-slow-productivity/
 categories: ["Bookshelf"]

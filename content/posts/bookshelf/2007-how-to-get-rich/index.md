@@ -1,6 +1,6 @@
 ---
 title: "How to Get Rich, Felix Dennis, 2007"
-date: 2024-09-09
+date: 2007-01-01
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7238853569817325569/"
 categories: ["Bookshelf"]
 aliases:

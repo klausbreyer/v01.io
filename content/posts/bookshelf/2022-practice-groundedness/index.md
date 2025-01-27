@@ -1,6 +1,6 @@
 ---
 title: "The Practice of Groundedness, Brad Stulberg, 2022"
-date: 2024-06-10
+date: 2022-01-01
 categories: ["Bookshelf"]
 draft: true
 ---

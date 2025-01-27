@@ -1,6 +1,6 @@
 ---
 title: "The End of Average, Todd Rose, 2015"
-date: 2023-03-10
+date: 2015-01-01
 categories: ["Bookshelf"]
 draft: true
 ---
