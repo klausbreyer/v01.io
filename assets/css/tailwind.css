@@ -10,6 +10,8 @@
   --color-footer2: #3d3e3d;
   --color-bg: #1e1e1e;
   --color-text: #d4d4d4;
+
+  --font-sharetech: "Share Tech", sans-serif;
 }
 @font-face {
   font-family: "Share Tech";
