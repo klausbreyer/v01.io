@@ -5,7 +5,7 @@ categories: ["Leadership"]
 social: https://www.linkedin.com/events/warumnicht-digitalefirmenkeined7287516741629321216/comments/
 ---
 
-![Product Masterclass](template.png)
+{{< figure src="preview.png" alt="Preview Image" caption="Eine Vorschau der Product Masterclass" class="img-responsive" >}}
 
 Bei einer LinkedIn Live-Session von [Product Masterclass](https://www.product-masterclass.com/de) erzählte ich gemeinsam mit **Boontham Temaismithi (CDO)**, wie wir **B2B SaaS bei edding** aufsetzen.
 
