@@ -1,5 +1,5 @@
 start:
-	hugo server --buildDrafts & ./tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --watch
+	hugo server & ./tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --watch
 
 build:
 	HUGO_ENVIRONMENT=production hugo --minify
