@@ -7,6 +7,7 @@
 
 ## Talks
 
+- 2025: 🇩🇪 [Product Masterclass: B2B SaaS bei edding – mit interdisziplinären Teams]({{< relref path="2025-product-masterclass-edding" lang="de">}})
 - 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})
 - 2022: 🇺🇸 [From Scrum to Shape Up – Grey Areas Dring Transit (Shape Up Practitioners Meetup)](https://www.youtube.com/watch?v=XEnrFbR2qso)
 - 2022: 🇺🇸 [Shape Up Experiments for a Scrum Team (CTO Craft Conference)](https://www.youtube.com/watch?v=cUTvxNkUQrg)
