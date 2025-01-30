@@ -1,6 +1,6 @@
 ---
 title: "Product Masterclass: B2B SaaS bei edding – mit interdisziplinären Teams "
-date: 2025-01-30
+date: 2025-01-29
 categories: ["Leadership"]
 image: preview.de.jpg
 social: https://www.linkedin.com/events/warumnicht-digitalefirmenkeined7287516741629321216/comments/
