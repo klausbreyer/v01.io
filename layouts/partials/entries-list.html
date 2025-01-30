@@ -18,7 +18,7 @@
 			{{ if eq .Lang "en" }}
 			{{ $langPath = "" }}
 			{{ end }}
-			{{ $image = printf "%s%s%s%s" .Site.BaseURL $langPath .File.Dir .Params.image }}
+			{{ $image = printf "%s%s%s" .Site.BaseURL .File.Dir .Params.image }}
 			{{ end }}
 
 			<div class="relative h-48">

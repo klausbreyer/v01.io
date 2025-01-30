@@ -5,7 +5,7 @@ categories: ["Leadership"]
 social: https://www.linkedin.com/events/warumnicht-digitalefirmenkeined7287516741629321216/comments/
 ---
 
-{{< figure src="preview.png" alt="Preview Image" >}}
+![](preview.de.jpg)
 
 Bei einer LinkedIn Live-Session von [Product Masterclass](https://www.product-masterclass.com/de) erzählte ich gemeinsam mit **Boontham Temaismithi (CDO)**, wie wir **B2B SaaS bei edding** aufsetzen.
 
@@ -18,4 +18,4 @@ Worüber wir sprechen, ist nicht nur für den Mittelstand relevant – auch Star
 - Schlüsselmomente aus der Transformation bei edding
 - Praktische Beispiele, wie digitale Innovation bei edding operativ umgesetzt wird
 
-**Hier geht’s zur Aufzeichnung:** [LinkedIn Live Recording](https://www.linkedin.com/events/7287516741629321216/about/)
+{{< youtube aYgwPgEceBs >}}
