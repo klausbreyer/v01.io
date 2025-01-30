@@ -2,6 +2,7 @@
 title: "Design Systems Aren't Meant to Be Component Libraries"
 date: 2024-12-10T08:08:16+01:00
 draft: false
+categories: ["Engineering"]
 image: design-system-component-library.png
 ---
 

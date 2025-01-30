@@ -2,6 +2,7 @@
 title: "Template: Impact-Appetite-Tierlist - Roadmapping for Empowered Product Teams"
 date: 2024-12-09T14:12:45+01:00
 image: matrix-full@1x.png
+categories: ["Remote"]
 social: https://www.linkedin.com/posts/klaus-breyer_template-impact-appetite-tierlist-klaus-activity-7271907996408905728-oixw?
 ---
 
@@ -28,6 +29,7 @@ We developed the impact-appetite tier list to address this challenge. It is a cu
 Here's how we adapted it to suit our strategic needs and why it works.
 
 ## Appetite instead of effort sparks the proper discussions.
+
 ![](matrix-empty@1x.png)
 Traditional effort estimates often derail projects. They start with good intentions but quickly spiral as scope creeps in or unforeseen complexities arise. To counter this, [Shape Up uses appetite instead of estimates]({{< relref "2024-shape-up-remote-empowered-product-teams" >}}). So, instead of asking,
 
@@ -77,4 +79,3 @@ Next time you discuss a high-level topic on your roadmap, shift the conversation
 Start small. Pick one topic and apply the appetite mindset. Watch how it transforms the way your team approaches planning and decision-making.
 
 This simple reframing will lead to vastly different conversations. You'll move from vague estimations and only high priorities to clear, focused discussions about focus and appetite.
-
