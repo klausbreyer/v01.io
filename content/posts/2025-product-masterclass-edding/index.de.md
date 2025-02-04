@@ -1,5 +1,5 @@
 ---
-title: "Product Masterclass: B2B SaaS bei edding – mit interdisziplinären Teams "
+title: "Product Masterclass: B2B SaaS bei edding – mit interdisziplinären Teams"
 date: 2025-01-29
 categories: ["Leadership"]
 image: preview.de.jpg
