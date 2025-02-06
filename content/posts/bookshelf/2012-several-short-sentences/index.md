@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/40HcMrA,title.jpg" >}}
 
 The book provides a refreshing perspective on writing, emphasizing clarity, rhythm, and the importance of thinking before composing. Klinkenborg advocates for concise, independent sentences and the elimination of unnecessary elements like transitions and clichés. Writing is presented as a deliberate, thoughtful process, where revision plays an integral role from the outset.
 

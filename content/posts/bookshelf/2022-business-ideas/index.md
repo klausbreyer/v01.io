@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://www.scribd.com/document/707181847/greenfeld-the-big-book-of-business-idea-prompts,prompt.png" >}}
 
 _The Big Book of Business Idea Prompts_ offers a collection of thought-provoking questions designed to inspire creative and innovative business ideas. Greenfeld focuses on how to spot market opportunities by asking questions that challenge the status quo. The prompts guide readers to explore areas like unmet customer needs, alternative business models, and disruptive innovations. The book encourages thinking beyond conventional solutions and helps identify unique opportunities in various industries, from tech to personal services.
 

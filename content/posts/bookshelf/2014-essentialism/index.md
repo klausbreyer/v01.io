@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3CuA0cx,title.jpg" >}}
 
 The book presents a disciplined approach to focusing on what truly matters by eliminating non-essential activities and commitments. Essentialism is about doing less but better, making deliberate choices, and designing life intentionally rather than living by default. McKeown emphasizes that clarity, trade-offs, and intentional execution are key to achieving meaningful results and avoiding distractions.
 

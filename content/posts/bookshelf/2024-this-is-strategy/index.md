@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/412WvhX,title.jpg" >}}
 
 Seth Godin’s _This is Strategy_ presents a fresh perspective on strategic thinking by combining empathy, systems thinking, and long-term positioning. Instead of focusing solely on competition, Godin emphasizes building systems that create lasting change.
 

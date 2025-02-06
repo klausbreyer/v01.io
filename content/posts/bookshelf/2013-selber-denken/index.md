@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/411X4bZ,title.jpg" >}}
 
 The book challenges conventional thinking by advocating for a more self-determined, critical approach to societal and environmental issues. Welzer argues that meaningful change starts with individual actions and a shift in perspective, rather than waiting for large-scale solutions. He highlights the importance of adapting to changing conditions, questioning privileges, and embracing small, iterative changes to drive long-term impact.
 

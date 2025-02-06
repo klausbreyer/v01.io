@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://sive.rs/n,title.jpg" >}}
 
 The book provides a framework for making intentional decisions by focusing only on things that truly excite and align with personal values. It encourages creating space by saying no to distractions, defining personal identity through self-assigned titles, and balancing focus with openness to new opportunities. Sivers advocates for exploring multiple potential futures and consciously distinguishing between work done for financial reasons and personal fulfillment.
 

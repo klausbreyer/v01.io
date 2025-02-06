@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/42IyXQM,title.jpg" >}}
 
 The book challenges our modern obsession with productivity and control, highlighting the inevitability of our limited time and the need to embrace it. Instead of constantly optimizing and planning for an ideal future, it argues for focusing on what truly matters in the present. Accepting limits and making meaningful choices without fear of missing out leads to a more fulfilling life.
 

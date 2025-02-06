@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4goYIc4,title.jpg" >}}
 
 The book provides a practical roadmap for bootstrapping and scaling a SaaS business, emphasizing a step-by-step approach to building sustainable revenue and market fit. Walling shares insights on customer development, pricing strategies, and creating defensible businesses through strategic positioning and smart execution.
 

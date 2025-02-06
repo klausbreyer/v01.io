@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/42JESVS,title.jpg" >}}
 
 The book provides a practical guide to building a personal brand that attracts opportunities instead of constantly searching for jobs. It emphasizes planting a flag by defining your unique value, telling your story authentically, and consistently sharing valuable content. By experimenting, adapting, and giving away knowledge, individuals can future-proof their careers and establish themselves as recognized experts.
 

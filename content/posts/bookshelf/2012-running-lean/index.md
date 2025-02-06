@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4aMN6hI,title.jpg" >}}
 
 The book provides a systematic approach to building and scaling startups by focusing on validated learning and continuous iteration. Maurya introduces the Lean Canvas framework and emphasizes the importance of measuring key metrics such as acquisition, activation, retention, revenue, and referrals (AARRR) to prioritize efforts and optimize growth.
 

@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4hLby5E,title.jpg" >}}
 
 The book offers an intimate look at Steve Jobs' philosophies on creativity, leadership, and personal growth. It emphasizes the power of curiosity, intuition, and the pursuit of excellence through building meaningful products with talented teams. Jobs rejected the traditional concept of a career, advocating instead for a life driven by passion and continuous learning.
 

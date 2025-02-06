@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/415fxEH,title.jpg" >}}
 
 The book explores how modern workplaces are trapped in the "hyperactive hivemind," a workflow driven by constant, unstructured digital communication that hinders productivity and focus. Instead of relying on endless email threads and instant messages, Newport argues for structured workflows, clear processes, and reducing communication overload to reclaim cognitive bandwidth and foster deep work.
 

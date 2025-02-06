@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4gy1mfH,title.jpg" >}}
 
 This book offers concise, practical wisdom for navigating life with purpose and clarity. Kevin Kelly distills decades of experience into actionable insights that emphasize the value of simplicity, respect, and embracing change. The advice touches on personal growth, relationships, leadership, and productivity, all delivered in short, memorable statements.
 

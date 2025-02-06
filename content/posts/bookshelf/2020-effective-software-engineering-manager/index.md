@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3WStYcG,title.jpg" >}}
 
 The book provides a comprehensive guide to transitioning from an individual contributor to an effective engineering manager. It emphasizes the importance of enabling teams to succeed by fostering psychological safety, clear communication, and structured processes. Through practical frameworks and actionable insights, it offers strategies for delegation, team alignment, and continuous improvement.
 

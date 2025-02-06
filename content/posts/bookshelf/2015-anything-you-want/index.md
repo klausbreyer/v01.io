@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4jGawJX,title.jpg" >}}
 
 The book offers a refreshing perspective on entrepreneurship, emphasizing simplicity, authenticity, and focusing on what truly matters. Sivers encourages building businesses that align with personal values and sharing what you have or know, potentially charging for it to ensure sustainability. His insights advocate for a customer-first approach, avoiding unnecessary complexity, and prioritizing freedom over growth.
 

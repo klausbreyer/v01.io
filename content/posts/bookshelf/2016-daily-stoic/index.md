@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3WK0BsH,title.jpg" >}}
 
 The book offers daily reflections based on Stoic philosophy, emphasizing practical wisdom, resilience, and self-discipline. Holiday distills the teachings of ancient Stoics like Marcus Aurelius, Seneca, and Epictetus into actionable lessons for modern life, encouraging a focus on perception, action, and will as the keys to personal growth and tranquility.
 

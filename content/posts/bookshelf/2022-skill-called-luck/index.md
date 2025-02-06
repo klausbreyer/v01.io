@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://www.scribd.com/document/707181846/greenfeld-a-skill-called-luck,luck.png" >}}
 
 The book explores how luck is not purely random but can be cultivated through deliberate actions, structured learning, and strategic positioning. It emphasizes experimenting with multiple small projects rather than one big effort, ensuring faster feedback and continuous improvement. By focusing on visibility, openness, and likability, and developing both selling and building skills, one can create more opportunities for "luck" to happen.
 

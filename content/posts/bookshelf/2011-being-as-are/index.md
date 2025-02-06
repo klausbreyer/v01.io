@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4jKliyJ,title.jpg" >}}
 
 The book offers a concise and profound perspective on mindfulness and self-acceptance, challenging the constant pursuit of self-improvement and external validation. It argues that true contentment comes from embracing the present moment as the only reality, rather than searching for a better version of oneself or an elusive future state of enlightenment.
 

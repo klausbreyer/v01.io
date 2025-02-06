@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/42EJw7v,title.jpg" >}}
 
 The book offers an in-depth look into the creative process, personal branding, and the evolution of design thinking through the lens of Erik Spiekermann's career. It emphasizes the importance of authenticity, iteration, and the balance between artistic intuition and strategic decision-making in building a lasting impact in the design world.
 

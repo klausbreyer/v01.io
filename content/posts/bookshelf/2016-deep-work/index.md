@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4hNQ4Vy,title.jpg" >}}
 
 The book explores the importance of focused, undistracted work in a world filled with constant distractions. Newport argues that true progress and value come from deep, concentrated effort rather than the illusion of busyness. He provides practical strategies for structuring deep work sessions, minimizing shallow tasks, and creating an environment conducive to sustained focus.
 

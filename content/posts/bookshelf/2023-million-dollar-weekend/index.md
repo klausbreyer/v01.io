@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4gwjUgc,title.jpg" >}}
 
 The book provides actionable strategies for starting and validating business ideas quickly with minimal risk. Kagan emphasizes the importance of taking action, learning from failures, and continuously iterating based on real customer feedback. His practical approach centers around overcoming fear, developing an entrepreneurial mindset, and focusing on solving real problems rather than waiting for the perfect idea.
 

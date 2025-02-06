@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/412PlKy,title.jpg" >}}
 
 Brad Stulberg’s _The Practice of Groundedness_ provides a transformative path to sustainable success, focusing on patience, presence, and balance rather than relentless hustle and over-optimization. The book challenges the modern obsession with heroic individualism and encourages a mindset shift toward steady, value-driven progress.
 

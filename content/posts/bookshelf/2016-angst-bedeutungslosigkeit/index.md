@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3EuWb2Y,title.jpg" >}}
 
 The book explores the existential challenges of modern life, emphasizing how globalization and capitalism have intensified self-comparison and the pursuit of meaning. Strenger argues that true fulfillment comes not from resolving life's contradictions, but from creatively engaging with them. He advocates for active self-acceptance and personal growth through a balance of work, relationships, and self-development.
 

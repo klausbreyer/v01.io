@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://sive.rs/u,title.jpg" >}}
 
 In _Useful Not True_, Derek Sivers challenges conventional thinking about truth, belief, and decision-making. The book emphasizes that beliefs shape emotions, which in turn drive actions. Sivers explores the fluidity of life’s meaning, suggesting that life simply is, and it’s up to us to assign meaning. He encourages readers to adopt flexible philosophies, test them, and understand that there’s no singular "right" way to approach life or work. The focus is on pragmatic decisions, self-reliance, and balancing options to avoid paralysis while acknowledging the importance of setbacks in growth.
 

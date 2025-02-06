@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3CG4fx1,title.jpg" >}}
 
 In _Tidy First_, Kent Beck explores the importance of tidying (or refactoring) code in a way that balances both structural and behavioral changes. He highlights the value of creating options for future behavior changes through thoughtful design decisions and emphasizes the importance of maintaining flexibility in software systems. The book provides practical advice on when and how to refactor code, ensuring that improvements enhance the system's overall clarity, cohesion, and future adaptability without overcomplicating the process.
 

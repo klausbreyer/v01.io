@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/415LA76,title.jpg" >}}
 
 The book offers a practical approach to coaching in everyday conversations by emphasizing curiosity and effective questioning. Stanier provides seven key questions that help managers and leaders empower their teams, stay out of the advice-giving trap, and create meaningful change through better listening and reflection.
 

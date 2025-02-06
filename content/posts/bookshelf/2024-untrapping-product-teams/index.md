@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4hsyR4c,title.jpg" >}}
 
 David Pereira's _Untrapping Product Teams_ provides actionable insights into moving beyond feature factories to truly empowered product teams. It challenges conventional ways of working and encourages focusing on value creation through collaboration, experimentation, and simplification.
 

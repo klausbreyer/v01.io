@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3QsfYCV,title.jpg" >}}
 
 The book challenges the common advice of "following your passion" and instead promotes the idea of developing rare and valuable skills to create career opportunities and control. Newport introduces the concept of "career capital"—the collection of skills and experiences that make a person uniquely valuable—and emphasizes deliberate practice, patience, and strategic decision-making to achieve long-term career satisfaction.
 

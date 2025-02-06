@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/414oBcU,title.jpg" >}}
 
 This book explores the concept of laziness as both a cultural and personal phenomenon, challenging the modern perception of constant productivity. Manfred Koch presents a historical perspective on how laziness has evolved from an esteemed state of contemplation to a source of guilt in a fast-paced society.
 

@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3CCR5RA,title.jpg" >}}
 
 In _Don’t Think of an Elephant_, Lakoff explains how language shapes our thoughts and perspectives. He argues that using the right frames is crucial to communicating effectively and influencing political or social discussions. By focusing on values rather than facts, individuals can engage in more meaningful discourse and align their messages with their identity and core beliefs. The book provides insight into how both conservatives and progressives are "hardwired" to perceive the world differently and how reframing can be a powerful tool in discussions.
 

@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3WPj8Ec,title.jpg" >}}
 
 The book challenges traditional financial planning by advocating for maximizing life experiences rather than accumulating wealth for later. Perkins argues that spending money wisely across different life stages ensures fulfillment and minimizes regret. By balancing spending, saving, and giving, one can optimize their life's trajectory to enjoy the wealth they've accumulated while they are still able to fully experience it.
 

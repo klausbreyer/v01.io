@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3Q8V6jC,title.jpg" >}}
 
 The book explores Adlerian psychology and challenges the notion that our past determines our future. It encourages embracing self-acceptance, focusing on contributing to others, and freeing oneself from the need for external validation. True happiness, according to the book, comes from building horizontal relationships and living in the present moment rather than chasing status or approval.
 

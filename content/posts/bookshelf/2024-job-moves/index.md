@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/40PHMWw,title.jpg" >}}
 
 _Job Moves_ explores the psychology behind career transitions and how to approach career changes with intentionality and purpose. The book introduces a framework that focuses on understanding the motivations driving career moves and offers strategies for identifying the root causes of dissatisfaction. Moesta emphasizes that job seekers should prioritize their values and capabilities rather than just pursuing titles or salary increases, and it encourages the exploration of future career prototypes to ensure better alignment with personal and professional growth.
 

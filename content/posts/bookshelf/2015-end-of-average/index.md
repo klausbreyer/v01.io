@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/40M5iDM,title.jpg" >}}
 
 The book challenges the concept of "average" in education, business, and society, arguing that standardized approaches overlook the unique complexities of individuals. Rose presents a compelling case for personalized approaches in work and learning, emphasizing that progress comes from embracing individuality rather than conforming to statistical norms.
 

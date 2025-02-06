@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/413aN2b,title.jpg" >}}
 
 The book offers a laid-back exploration of Zen philosophy through the lens of _The Big Lebowski_'s iconic character, The Dude. Bridges and Glassman share insights on detachment, acceptance, and mindfulness, emphasizing that life flows best when we stop clinging to expectations and embrace challenges with an open heart and mind.
 
