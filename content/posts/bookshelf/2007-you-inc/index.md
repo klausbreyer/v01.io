@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3EsrrPM,title.jpg" >}}
 
 The book provides insights into effectively marketing yourself by crafting clear, compelling stories and focusing on your impact. It emphasizes the importance of concise messaging, strategic storytelling, and mindful approaches to presentations and networking. Confidence and authenticity are key to making a lasting impression.
 

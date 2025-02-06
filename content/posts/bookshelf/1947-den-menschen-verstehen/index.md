@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4gtRkwg,title.jpg" >}}
 
 The book explores the human struggle between autonomy and dependence, emphasizing the importance of developing a productive, self-directed life based on humanistic ethics. Fromm contrasts authoritarian and humanistic ethics, arguing that true fulfillment comes from realizing one's potential and embracing responsibility for one's life. He critiques modern society's obsession with means over ends and encourages individuals to resist self-alienation by focusing on personal growth and productivity.
 

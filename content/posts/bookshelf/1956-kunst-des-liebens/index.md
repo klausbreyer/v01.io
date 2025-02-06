@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3Cix3M8,title.jpg" >}}
 
 The book explores love as an art that requires practice, discipline, and self-awareness. Fromm argues that love is not merely a fleeting emotion but a profound human capacity that demands commitment and growth. He presents love as a way to overcome the fundamental human experience of separateness, emphasizing that true love preserves individuality while fostering deep connection.
 

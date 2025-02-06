@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4aEMQkR,title.jpg" >}}
 
 The book delves into the principles of typography, offering essential guidance on how different elements like letter spacing, line spacing, and font choice impact readability and design. Spiekermann emphasizes clarity, harmony, and functionality in typography to create effective visual communication. From the use of small caps instead of bold text to optimizing word spacing and line lengths, it covers a broad range of tips to improve text presentation.
 

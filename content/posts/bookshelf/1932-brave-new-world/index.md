@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/40SKc7Z,title.jpg" >}}
 
 In _Brave New World_, Huxley explores a dystopian society where human experiences are heavily controlled, and individuality is suppressed. The story delves into the consequences of sacrificing personal freedom for societal stability. Through characters like the Savage, who challenges the system in his own way, the book highlights the importance of questioning norms and embracing the full spectrum of human experience, both positive and negative.
 

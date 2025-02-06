@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4hjgDC8,title.jpg" >}}
 
 The book introduces the concept of creating uncontested market space, or "blue oceans," where competition is irrelevant. It emphasizes cost reduction alongside value innovation, with a focus on minimizing risks rather than taking them. By using strategic tools like the strategy canvas and the four actions grid (Eliminate, Reduce, Raise, Create), businesses can find new ways to differentiate and create new demand. The book also stresses that execution should be considered part of the strategy and that true innovation lies in creating value rather than just pursuing technological advancements.
 

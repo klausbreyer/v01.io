@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/40BaWbD,title.jpg" >}}
 
 This book provides practical guidance on overcoming self-doubt and building true confidence through principles of Acceptance and Commitment Therapy (ACT). Harris argues that confidence isn't about eliminating fear but rather transforming our relationship with it, focusing on values-driven actions rather than waiting for the "perfect" moment.
 

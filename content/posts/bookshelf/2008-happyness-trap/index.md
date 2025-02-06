@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4ggPRJu,title.jpg" >}}
 
 _The Happiness Trap_ introduces Acceptance and Commitment Therapy (ACT) and presents the idea that the pursuit of happiness through the avoidance of negative emotions only intensifies them. Instead, the book emphasizes the importance of accepting and experiencing feelings without judgment. By focusing on values and committed actions, individuals can break free from the cycle of negative emotions and lead more fulfilling lives. The key is not to control or suppress emotions, but to accept them and act in alignment with personal values.
 

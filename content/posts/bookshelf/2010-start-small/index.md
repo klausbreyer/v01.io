@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/40AeY4d,title.jpg" >}}
 
 The book provides a practical guide to launching and growing a self-funded startup by focusing on small, niche markets. Walling emphasizes the importance of starting with a manageable scope, validating ideas through existing demand signals, and leveraging lean principles to build sustainable businesses without relying on outside funding.
 

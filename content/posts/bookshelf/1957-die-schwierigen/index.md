@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4hEsMBq,title.jpg" >}}
 
 The book delves into themes of identity, obedience, and the fleeting nature of time, challenging the reader to reflect on self-trust and the pursuit of personal fulfillment. Frisch portrays the struggle between freedom and structure, emphasizing that not everyone thrives in autonomy—some find purpose and productivity through obedience. His exploration of human complexity and existential reflection underscores the delicate balance between action and hesitation, confidence and doubt.
 

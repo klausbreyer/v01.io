@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3PWdr3g,title.jpg" >}}
 
 The book challenges conventional work-life paradigms by advocating for lifestyle design, automation, and mini-retirements. It emphasizes the power of controlling what, when, where, and with whom you work, rather than simply accumulating wealth. By focusing on relative income and eliminating unnecessary tasks, individuals can achieve more with less effort while living a fulfilling life.
 

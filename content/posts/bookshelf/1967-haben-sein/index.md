@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4jFchH9,title.jpg" >}}
 
 The book explores the fundamental conflict between a life driven by material possessions ("having") and one focused on authenticity, growth, and meaningful existence ("being"). It challenges the pursuit of external validation and consumerism, advocating instead for self-awareness, balance, and a shift toward living one’s values rather than accumulating knowledge or possessions superficially.
 

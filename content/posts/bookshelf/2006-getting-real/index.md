@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3PUhltI,title.jpg" >}}
 
 The book emphasizes a pragmatic approach to building software by focusing on simplicity, self-use, and embracing constraints. It advocates for creating solutions that can be realistically maintained, avoiding feature bloat, and fostering deep focus to achieve meaningful work. Practicality over perfection and prioritizing usability are key themes throughout.
 
