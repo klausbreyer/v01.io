@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://audiobook.jp-superstore.de/,title.jpg" >}}
 
 The book delves into the role of fear in personal and professional life, exploring how it drives decisions and shapes one's career path. Kraemer reflects on the weight of responsibility and the emotional challenges that come with success, questioning whether growth always aligns with personal fulfillment. His journey highlights the power of fascination over rational selling and the ongoing struggle between ambition and contentment.
 

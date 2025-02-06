@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3Q3s59c,title.jpg" >}}
 
 Seth Godin’s _This is Marketing_ challenges traditional marketing approaches by emphasizing empathy, storytelling, and the importance of meaningful change. Instead of chasing mass markets, Godin urges marketers to focus on serving specific, valuable audiences.
 

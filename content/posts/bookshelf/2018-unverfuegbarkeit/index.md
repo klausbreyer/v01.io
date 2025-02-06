@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4gtFrGA,title.jpg" >}}
 
 Hartmut Rosa's _Inavailability_ explores humanity's constant drive to make the world more accessible—through technology, money, and power. Rosa argues that true resonance, a feeling of living connection with the world, cannot be planned or forced.
 

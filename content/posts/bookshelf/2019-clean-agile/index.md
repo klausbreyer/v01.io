@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3EBNTGg,title.jpg" >}}
 
 The book provides a pragmatic perspective on Agile, emphasizing its core principles and practical application in small teams solving small problems. It challenges misconceptions about Agile transformations and highlights the importance of adaptability, continuous analysis, and expert responsibility. Agile is not a silver bullet but a mindset shift that values learning, iteration, and delivering real value.
 

@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3CCU1h4,title.jpg" >}}
 
 The book builds upon Adlerian psychology, emphasizing that true happiness comes from self-acceptance, contribution to others, and the courage to be disliked. It argues that life's meaning is found in community and relationships rather than external validation or competition. The authors encourage shifting from approval-seeking to self-defined fulfillment and embracing the present moment.
 

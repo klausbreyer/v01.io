@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4gwwtsb,title.jpg" >}}
 
 The book presents the Zettelkasten method as a powerful approach to organizing knowledge and fostering deeper thinking. It emphasizes that taking notes alone is not enough—integrating them into a continuous thinking process is key. By structuring notes around personal insights and connections rather than rigid categories, the Zettelkasten becomes a dynamic tool for developing ideas over time.
 

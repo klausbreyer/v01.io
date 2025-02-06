@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4aQbYFF,title.jpg" >}}
 
 The book presents a practical framework for reclaiming focus and energy in an increasingly distracting world. It advocates for intentional time management, prioritizing meaningful work over reactive tasks, and embracing habits that align with personal well-being rather than external demands. The authors emphasize the importance of being deliberate about what truly matters each day.
 

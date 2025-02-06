@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3CGJ8Le,title.jpg" >}}
 
 This modern adaptation of Epictetus' Stoic teachings provides timeless wisdom on resilience, self-discipline, and acceptance. It emphasizes focusing on what we can control, letting go of attachments, and cultivating inner strength to navigate life's challenges with equanimity and purpose.
 

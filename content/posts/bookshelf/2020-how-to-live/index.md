@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://sive.rs/h,title.jpg" >}}
 
 The book offers a collection of perspectives on how to live a meaningful and fulfilling life by exploring various philosophies and practical approaches. Sivers emphasizes the importance of commitment, adaptability, and self-awareness while encouraging readers to focus on mastery, embrace mistakes, and pursue meaningful challenges rather than seeking fleeting happiness.
 

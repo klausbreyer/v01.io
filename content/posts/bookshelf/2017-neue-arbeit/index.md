@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4hNcOoQ,title.jpg" >}}
 
 The book challenges traditional work models and introduces the concept of "New Work," which emphasizes self-sufficiency, meaningful work, and the pursuit of what one truly and authentically wants. Bergmann argues that industrial-age structures have suppressed individual desires, and the transition to a post-industrial society will empower people to blend paid labor with personal calling and self-production.
 

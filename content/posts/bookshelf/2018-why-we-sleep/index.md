@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/3CEkwTf,title.jpg" >}}
 
 The book explores the vital role sleep plays in our physical and mental well-being, explaining the science behind sleep cycles and how various factors like caffeine, alcohol, and light exposure affect our sleep quality. Walker emphasizes the importance of both REM and NREM sleep for memory consolidation, creativity, and overall health, offering practical advice on how to optimize sleep routines for better performance and well-being.
 

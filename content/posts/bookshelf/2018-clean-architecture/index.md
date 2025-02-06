@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4hnkqhZ,title.jpg" >}}
 
 The book provides a structured approach to designing software systems by focusing on architecture that supports flexibility, maintainability, and scalability. It emphasizes the importance of separating business rules from implementation details, ensuring that systems remain adaptable and testable. Uncle Bob outlines key design principles and practical guidelines to create systems that are resilient to change and easy to evolve over time.
 

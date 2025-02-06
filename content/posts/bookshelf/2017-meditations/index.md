@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/4gu1DjN,title.jpg" >}}
 
 This modern interpretation of Marcus Aurelius' _Meditations_ offers practical wisdom on self-discipline, resilience, and living in alignment with nature. The book emphasizes accepting the present, focusing on what can be controlled, and cultivating inner peace through reason and virtue.
 

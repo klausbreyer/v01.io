@@ -5,7 +5,7 @@ categories: ["Bookshelf"]
 draft: true
 ---
 
-{{< gallery "MISSING,title.jpg" >}}
+{{< gallery "https://amzn.to/40HgscS,title.jpg" >}}
 
 The book emphasizes that meaningful change comes from identity-based habits rather than focusing solely on outcomes. Instead of wanting something, it's about becoming the type of person who naturally does it. Behavior is a reflection of identity, and true transformation happens when actions and self-perception align. Clear highlights the importance of shaping environments to support desired habits and focusing on consistent, small improvements over time.
 
