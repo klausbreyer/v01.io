@@ -1,6 +1,6 @@
 ---
 title: "Becoming a technical Leader, Gerald M. Weinberg, 1986"
-date: 2024-05-03
+date: 1986-01-01
 social: "https://www.linkedin.com/posts/klaus-breyer_becoming-a-technical-leader-gerald-m-weinberg-activity-7192097399408869376-E0gp?"
 categories: ["Bookshelf"]
 aliases:
