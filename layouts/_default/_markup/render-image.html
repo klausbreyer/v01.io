@@ -1,4 +1,14 @@
 <p>
-    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}}
-        title="{{ . }}" {{ end }} class="markdown-image" />
+    <img
+        src="{{ .Destination | safeURL }}"
+        alt="{{ .Text }}"
+        {{
+        with
+        .Title}}
+        title="{{ . }}"
+        {{
+        end
+        }}
+        class="markdown-image"
+    />
 </p>

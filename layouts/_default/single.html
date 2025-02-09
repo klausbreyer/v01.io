@@ -1,92 +1,104 @@
-{{ define "head" }}
-{{ partial "meta.html" . }}
-{{ end }}
-
-
-{{ define "main" }}
-{{/* twitter hashtags calculation */}}
-{{ $keywords := "" }}
-{{ range (.GetTerms "tags") }}
-{{if eq (len $keywords) 0}}
-{{ $keywords = .LinkTitle }}
-{{ else }}
-{{ $keywords = printf "%s,%s" $keywords .LinkTitle }}
-{{ end }}
-{{ end }}
-
-{{ if or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
+{{ define "head" }} {{ partial "meta.html" . }} {{ end }} {{ define "main" }}
+{{/* twitter hashtags calculation */}} {{ $keywords := "" }} {{ range (.GetTerms
+"tags") }} {{if eq (len $keywords) 0}} {{ $keywords = .LinkTitle }} {{ else }}
+{{ $keywords = printf "%s,%s" $keywords .LinkTitle }} {{ end }} {{ end }} {{ if
+or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
 <div class="mb-4 breadcrump">
-    <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt; <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
+    <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt;
+    <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
 </div>
 {{ end }}
 
-<article class='{{.File.Dir }} {{.File.BaseFileName}} pt-10 print:my-0 {{partial "prose.html"}}'>
-    <h1 class="my-4 text-4xl"> {{ .Title }}</h1>
+<article
+    class='{{.File.Dir }} {{.File.BaseFileName}} pt-10 print:my-0 {{partial "prose.html"}}'
+>
+    <h1 class="my-4 text-4xl">{{ .Title }}</h1>
     {{ .Content }}
 </article>
 
-{{ if or (eq .Section " shape-up") (in (split .File.Dir "/" ) "shape-up" ) }} <div class="mb-4 text-sm breadcrump">
-    <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt; <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
+{{ if or (eq .Section " shape-up") (in (split .File.Dir "/" ) "shape-up" ) }}
+<div class="mb-4 text-sm breadcrump">
+    <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt;
+    <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
 </div>
-{{ end }}
-
-{{ with .Params.Pure}}
-{{ else }}
+{{ end }} {{ with .Params.Pure}} {{ else }}
 <div class="print:hidden">
     <aside class="pl-2 mt-10 mb-20 border-l-2 border-primary font-sharetech">
-        {{/* <h4 class="mb-2 ">Article Meta</h4> */}}
-        <ul class="space-y-2 ">
-            <li><span>Published On:</span>
+        {{/*
+        <h4 class="mb-2">Article Meta</h4>
+        */}}
+        <ul class="space-y-2">
+            <li>
+                <span>Published On:</span>
                 <time datetime='{{ .Date.Format "2006-01-02" }}'>
                     {{ .Date.Format "2006-01-02" }}
                 </time>
             </li>
             {{ if ne .Date .Lastmod }}
-            <li><span>Last Modified:</span>
+            <li>
+                <span>Last Modified:</span>
                 <time datetime='{{ .Lastmod.Format "2006-01-02" }}'>
                     {{ .Lastmod.Format "2006-01-02" }}
                 </time>
             </li>
-            {{ end }}
-            {{if .Params.Social }}
-            <li><span>Want to leave a public comment?</span> <a href="{{.Params.Social}}" class="text-primary hover:underline" target="_blank">Join the discussion on LinkedIn.</a>
+            {{ end }} {{if .Params.Social }}
+            <li>
+                <span>Want to leave a public comment?</span>
+                <a
+                    href="{{.Params.Social}}"
+                    class="text-primary hover:underline"
+                    target="_blank"
+                    >Join the discussion on LinkedIn.</a
+                >
             </li>
             {{ end }}
 
-            <li><span>Found a typo?</span> <a target="_blank" class="text-primary hover:underline" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">Make a pull
-                    request.</a>
+            <li>
+                <span>Found a typo?</span>
+                <a
+                    target="_blank"
+                    class="text-primary hover:underline"
+                    href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}"
+                    >Make a pull request.</a
+                >
             </li>
-            {{ if .Translations }}<li><span>Translation:</span>
+            {{ if .Translations }}
+            <li>
+                <span>Translation:</span>
 
                 {{ range .Translations }}
 
-                <a lang="{{.Lang}}" href="{{ .Permalink }}" class="text-primary hover:underline">
+                <a
+                    lang="{{.Lang}}"
+                    href="{{ .Permalink }}"
+                    class="text-primary hover:underline"
+                >
                     {{partial "lang.html" .Lang }} {{ .Title }}
                 </a>
 
                 {{ end }}
             </li>
-            {{ end }}
-
-
-            {{if gt (.GetTerms "categories") 0}}
-            <li><span>Categories:</span>
+            {{ end }} {{if gt (.GetTerms "categories") 0}}
+            <li>
+                <span>Categories:</span>
                 {{ range (.GetTerms "categories") }}
-                <a lang="{{.Lang}}" class="text-primary hover:underline" href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
-                {{ end }}
+                <a
+                    lang="{{.Lang}}"
+                    class="text-primary hover:underline"
+                    href="{{ .Permalink }}"
+                    >{{ .LinkTitle }}</a
+                >; {{ end }}
             </li>
-            {{ end }}
-
-            {{if gt (.GetTerms "tags") 0}}
-            <li><span>Tags: </span>
+            {{ end }} {{if gt (.GetTerms "tags") 0}}
+            <li>
+                <span>Tags: </span>
                 {{ range (.GetTerms "tags") }}
-                <a class="text-primary hover:underline" href="{{ .Permalink }}">{{ .LinkTitle }}</a>;
-                {{ end }}
+                <a class="text-primary hover:underline" href="{{ .Permalink }}"
+                    >{{ .LinkTitle }}</a
+                >; {{ end }}
             </li>
             {{ end }}
         </ul>
     </aside>
-
 </div>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}

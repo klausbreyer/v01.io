@@ -4,7 +4,10 @@
     <ul class="list-none">
         {{ range .Data.Pages }}
         <li class="mb-2">
-            <a href="{{ .Permalink }}" class="text-primary hover:text-primary-dark hover:underline">
+            <a
+                href="{{ .Permalink }}"
+                class="text-primary hover:text-primary-dark hover:underline"
+            >
                 {{ .Date.Format "2006-01-02" }} | {{ .Title }}
             </a>
         </li>

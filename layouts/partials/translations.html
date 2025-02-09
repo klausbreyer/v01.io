@@ -3,7 +3,11 @@
 <ul class="pl-5 list-disc">
     {{ range .Translations }}
     <li class="mb-1">
-        <a lang="{{.Lang}}" href="{{ .Permalink }}" class="text-primary hover:underline">
+        <a
+            lang="{{.Lang}}"
+            href="{{ .Permalink }}"
+            class="text-primary hover:underline"
+        >
             {{partial "lang.html" .Lang }} {{ .Title }}
         </a>
     </li>
