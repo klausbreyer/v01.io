@@ -2,7 +2,7 @@
 title: "Make Time, Jake Knapp, John Zeratsky, 2018"
 date: 2018-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4aQbYFF,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Neue Arbeit, neue Kultur, Frithjof Bergmann, 2017"
 date: 2017-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4hNcOoQ,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Shape Up, Ryan Singer, 2020"
 date: 2020-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://basecamp.com/shapeup,title.jpg" >}}

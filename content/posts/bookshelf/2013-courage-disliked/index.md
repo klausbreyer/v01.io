@@ -2,7 +2,7 @@
 title: "The Courage to Be Disliked, Ichiro Kishimi & Fumitake Koga, 2013"
 date: 2013-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3Q8V6jC,title.jpg" >}}

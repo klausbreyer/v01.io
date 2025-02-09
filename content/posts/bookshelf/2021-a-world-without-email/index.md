@@ -2,7 +2,7 @@
 title: "A World Without Email, Cal Newport, 2021"
 date: 2021-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/415fxEH,title.jpg" >}}

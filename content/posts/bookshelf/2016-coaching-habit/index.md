@@ -2,7 +2,7 @@
 title: "The Coaching Habit, Michael Bungay Stanier, 2016"
 date: 2016-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/415LA76,title.jpg" >}}

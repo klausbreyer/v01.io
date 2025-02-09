@@ -2,7 +2,7 @@
 title: "Clean Agile, Uncle Bob, 2019"
 date: 2019-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3EBNTGg,title.jpg" >}}

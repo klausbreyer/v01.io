@@ -2,7 +2,7 @@
 title: "The Happiness Trap, Russ Harris, 2008"
 date: 2008-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4ggPRJu,title.jpg" >}}

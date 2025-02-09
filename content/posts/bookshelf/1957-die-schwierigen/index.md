@@ -2,7 +2,7 @@
 title: "Die Schwierigen, Max Frisch, Neuausgabe 1957"
 date: 1957-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4hEsMBq,title.jpg" >}}

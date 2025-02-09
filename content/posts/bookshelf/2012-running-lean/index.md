@@ -2,7 +2,7 @@
 title: "Running Lean, Ash Maurya, 2012"
 date: 2012-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4aMN6hI,title.jpg" >}}

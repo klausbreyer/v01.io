@@ -2,7 +2,7 @@
 title: "Atomic Habits, James Clear, 2018"
 date: 2018-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/40HgscS,title.jpg" >}}

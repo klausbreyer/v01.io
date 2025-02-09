@@ -2,7 +2,7 @@
 title: "Several Short Sentences About Writing, Verlyn Klinkenborg, 2012"
 date: 2012-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/40HcMrA,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Start Small, Stay Small, Rob Walling, 2010"
 date: 2010-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/40AeY4d,title.jpg" >}}

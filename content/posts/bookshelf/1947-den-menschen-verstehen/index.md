@@ -2,7 +2,7 @@
 title: "Den Menschen verstehen, Erich Fromm, 1947"
 date: 1947-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4gtRkwg,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Unverfügbarkeit, Hartmut Rosa, 2018"
 date: 2018-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4gtFrGA,title.jpg" >}}

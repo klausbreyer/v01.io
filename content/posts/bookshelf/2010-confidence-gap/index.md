@@ -2,7 +2,7 @@
 title: "The Confidence Gap, Russ Harris, 2010"
 date: 2010-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/40BaWbD,title.jpg" >}}

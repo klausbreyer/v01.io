@@ -2,7 +2,7 @@
 title: "The 4-Hour Workweek, Tim Ferriss, 2007"
 date: 2007-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3PWdr3g,title.jpg" >}}

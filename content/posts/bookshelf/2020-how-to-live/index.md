@@ -2,7 +2,7 @@
 title: "How to Live, Derek Sivers, 2020"
 date: 2020-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://sive.rs/h,title.jpg" >}}

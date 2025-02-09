@@ -2,7 +2,7 @@
 title: "Don't Think of an Elephant, George Lakoff, 2014"
 date: 2014-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3CCR5RA,title.jpg" >}}

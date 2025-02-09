@@ -2,7 +2,7 @@
 title: "Blue Ocean Strategy, Chan Kim, Renée Mauborgne, 2005"
 date: 2005-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4hjgDC8,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Radically Condensed Instructions for Being Just as You Are, J. Matthews, 2011"
 date: 2011-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4jKliyJ,title.jpg" >}}

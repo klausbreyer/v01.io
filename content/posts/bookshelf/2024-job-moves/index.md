@@ -2,7 +2,7 @@
 title: "Job Moves, Bob Moesta, 2024"
 date: 2024-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/40PHMWw,title.jpg" >}}

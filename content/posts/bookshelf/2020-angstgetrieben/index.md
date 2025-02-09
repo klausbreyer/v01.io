@@ -2,7 +2,7 @@
 title: "Angstgetrieben., Jean Pierre Kraemer, 2020"
 date: 2020-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://audiobook.jp-superstore.de/,title.jpg" >}}

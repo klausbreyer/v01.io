@@ -2,7 +2,7 @@
 title: "Hallo ich bin Erik, Johannes Erler, 2014"
 date: 2014-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/42EJw7v,title.jpg" >}}

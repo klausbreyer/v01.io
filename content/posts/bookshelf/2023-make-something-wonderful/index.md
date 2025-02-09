@@ -2,7 +2,7 @@
 title: "Make Something Wonderful, Steve Jobs, 2023"
 date: 2023-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4hLby5E,title.jpg" >}}

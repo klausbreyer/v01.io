@@ -2,7 +2,7 @@
 title: "So Good They Can't Ignore You, Cal Newport, 2012"
 date: 2012-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3QsfYCV,title.jpg" >}}

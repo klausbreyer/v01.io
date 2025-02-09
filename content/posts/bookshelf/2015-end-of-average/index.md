@@ -2,7 +2,7 @@
 title: "The End of Average, Todd Rose, 2015"
 date: 2015-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/40M5iDM,title.jpg" >}}

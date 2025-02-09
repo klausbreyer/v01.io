@@ -2,7 +2,7 @@
 title: "Essentialism, Greg McKeown, 2014"
 date: 2014-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3CuA0cx,title.jpg" >}}

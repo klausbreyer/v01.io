@@ -2,7 +2,7 @@
 title: "The Big Book of Business Idea Prompts, Jakob Greenfeld, 2022"
 date: 2022-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://www.scribd.com/document/707181847/greenfeld-the-big-book-of-business-idea-prompts,prompt.png" >}}

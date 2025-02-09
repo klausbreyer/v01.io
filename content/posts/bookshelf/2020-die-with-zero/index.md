@@ -2,7 +2,7 @@
 title: "Die With Zero, Bill Perkins, 2020"
 date: 2020-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3WPj8Ec,title.jpg" >}}

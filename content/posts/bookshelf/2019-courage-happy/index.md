@@ -2,7 +2,7 @@
 title: "The Courage to Be Happy, Ichiro Kishimi & Fumitake Koga, 2019"
 date: 2019-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3CCU1h4,title.jpg" >}}

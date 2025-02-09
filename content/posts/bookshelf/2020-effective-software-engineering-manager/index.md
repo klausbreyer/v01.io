@@ -2,7 +2,7 @@
 title: "Become an Effective Software Engineering Manager, James Stanier, 2020"
 date: 2020-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3WStYcG,title.jpg" >}}

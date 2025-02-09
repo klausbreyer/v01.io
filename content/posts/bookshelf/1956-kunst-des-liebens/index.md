@@ -2,7 +2,7 @@
 title: "Die Kunst des Liebens, Erich Fromm, 1956"
 date: 1956-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3Cix3M8,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Ursache & Wirkung, Erik Spiekermann, 1982"
 date: 1982-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4aEMQkR,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Tidy First, Kent Beck, 2023"
 date: 2023-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3CG4fx1,title.jpg" >}}

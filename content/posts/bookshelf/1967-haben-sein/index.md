@@ -2,7 +2,7 @@
 title: "Haben oder Sein, Erich Fromm, 1967"
 date: 1967-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4jFchH9,title.jpg" >}}

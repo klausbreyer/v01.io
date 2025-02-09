@@ -2,7 +2,7 @@
 title: "Untrapping Product Teams, David Pereira, 2024"
 date: 2024-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4hsyR4c,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Faulheit, Manfred Koch, 2012"
 date: 2012-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/414oBcU,title.jpg" >}}

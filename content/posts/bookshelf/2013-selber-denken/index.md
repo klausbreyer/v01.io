@@ -2,7 +2,7 @@
 title: "Selbst denken, Harald Welzer, 2013"
 date: 2013-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/411X4bZ,title.jpg" >}}

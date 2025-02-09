@@ -2,7 +2,7 @@
 title: "Excellent Advice for Living, Kevin Kelly, 2023"
 date: 2023-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4gy1mfH,title.jpg" >}}

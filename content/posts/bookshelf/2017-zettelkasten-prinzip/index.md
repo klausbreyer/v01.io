@@ -2,7 +2,7 @@
 title: "Das Zettelkasten-Prinzip, Söhnke Ahrens, 2017"
 date: 2017-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4gwwtsb,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Getting Real, Jason Fried, David Heinemeier Hansson, 2006"
 date: 2006-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3PUhltI,title.jpg" >}}

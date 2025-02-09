@@ -2,7 +2,7 @@
 title: "You, Inc., Harry Beckwith, Christine K. Clifford, 2007"
 date: 2007-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/3EsrrPM,title.jpg" >}}

@@ -2,7 +2,7 @@
 title: "Deep Work, Cal Newport, 2016"
 date: 2016-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://amzn.to/4hNQ4Vy,title.jpg" >}}

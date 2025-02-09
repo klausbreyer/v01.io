@@ -2,7 +2,7 @@
 title: "A Skill Called Luck, Jakob Greenfeld, 2022"
 date: 2022-01-01
 categories: ["Bookshelf"]
-draft: true
+
 ---
 
 {{< gallery "https://www.scribd.com/document/707181846/greenfeld-a-skill-called-luck,luck.png" >}}

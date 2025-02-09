@@ -2,7 +2,6 @@
 title: "Brave New World, Aldous Huxley, 1932"
 date: 1932-01-01
 categories: ["Bookshelf"]
-draft: true
 ---
 
 {{< gallery "https://amzn.to/40SKc7Z,title.jpg" >}}
