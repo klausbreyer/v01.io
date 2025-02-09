@@ -1,28 +1,31 @@
 {{ define "main" }}
 <div class="container mx-auto">
-    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}  print:my-0 pt-10 {{ partial "prose.html" }}'>
-        <h1 class="">{{.Title}}</h1>
+    <article
+        class='{{ if .File }}{{ .File.Dir }} {{ .File.BaseFileName }}{{ end }} print:my-0 pt-10 {{ partial "prose.html" }}'
+    >
+        <h1 class="">{{ .Title }}</h1>
         {{ .Content }}
     </article>
 
-    {{$section_heading := .Site.GetPage "section" .Section }}
-    {{ if eq $section_heading.Title "Blog" }}
+    {{ $section_heading := .Site.GetPage "section" .Section }} {{ if eq
+    $section_heading.Title "Blog" }}
     <nav class="my-4 categories">
         <strong class="font-semibold">Categories: </strong>
-        {{ $categories := .Site.Taxonomies.categories }}
-        {{ range $categories }}
-        <a href="{{ .Page.Permalink }}" class="text-primary hover:text-primary-dark hover:underline">{{ .Page.Title }}</a>({{ .Count }});
-        {{ end }}
+        {{ $categories := .Site.Taxonomies.categories }} {{ range $categories }}
+        <a
+            href="{{ .Page.Permalink }}"
+            class="text-primary hover:text-primary-dark hover:underline"
+        >
+            {{ .Page.Title }}
+        </a>
+        ({{ .Count }}); {{ end }}
     </nav>
-    {{ end }}
-
-
-    {{ if not .Params.Pure }}
+    {{ end }} {{ if not .Params.Pure }}
     <h2 class="mt-8 mb-4 text-3xl font-semibold">Entries</h2>
-    {{ partial "entries-list.html" . }}
-    {{ end }}
-
-    {{ partial "translations.html" . }}
-    </article>
+    {{ $filteredPages := slice }} {{ range .Pages }} {{ $intersection :=
+    intersect .Params.categories (slice "Bookshelf") }} {{ if eq (len
+    $intersection) 0 }} {{ $filteredPages = $filteredPages | append . }} {{ end
+    }} {{ end }} {{ partial "entries-list.html" (dict "Pages" $filteredPages) }}
+    {{ end }} {{ partial "translations.html" . }}
 </div>
 {{ end }}

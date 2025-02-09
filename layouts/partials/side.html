@@ -22,8 +22,11 @@
                 <span class="text-text">&rsaquo;</span> {{ .Name }}
             </a>
         </li>
-        {{ end }} {{ range first 10 (where .Site.RegularPages "Type" "posts") }}
-
+        {{ end }} {{ $filteredPages := slice }} {{ range first 10 (where
+        .Site.RegularPages "Type" "posts") }} {{ $intersection := intersect
+        .Params.categories (slice "Bookshelf") }} {{ if eq (len $intersection) 0
+        }} {{ $filteredPages = $filteredPages | append . }} {{ end }} {{ end }}
+        {{ range $filteredPages }}
         <li class="">
             <a class="text-primary hover:underline" href="{{ .Permalink }}">
                 {{ .Title }}</a
