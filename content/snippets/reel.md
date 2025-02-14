@@ -1,5 +1,6 @@
 ## Podcasts
 
+- 2025: 🇩🇪 [Systemisch - Agil: Agile für interdisziplinäre Teams]({{< relref path="2025-systemisch-agil" lang="de">}})
 - 2025: 🇩🇪 [Product Masterclass: B2B SaaS bei edding – mit interdisziplinären Teams]({{< relref path="2025-product-masterclass-edding" lang="de">}})
 - 2025: 🇩🇪 [Empowered Product Teams bei edding mit Klaus Breyer](https://www.youtube.com/watch?v=TioXYWRmZZI)
 - 2023: 🇺🇸 [Building Tools for Shape Up – Klaus Breyer & Matt Lane, Co-founders of Dumplink](https://shapersbuilders.transistor.fm/episodes/building-tools-for-shape-up-klaus-breyer-matt-lane-co-founders-of-dumplink)
