@@ -9,6 +9,7 @@
 
 ## Talks
 
+- 2025: 🇺🇸 [Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations]({{< relref path="2025-alphalist-move-fast-break-silos">}})
 - 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})
 - 2022: 🇺🇸 [From Scrum to Shape Up – Grey Areas Dring Transit (Shape Up Practitioners Meetup)](https://www.youtube.com/watch?v=XEnrFbR2qso)
 - 2022: 🇺🇸 [Shape Up Experiments for a Scrum Team (CTO Craft Conference)](https://www.youtube.com/watch?v=cUTvxNkUQrg)
