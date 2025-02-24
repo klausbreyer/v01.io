@@ -1,6 +1,6 @@
 ---
 title: "Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations"
-date: 2025-02-11
+date: 2025-02-24
 categories: ["Leadership"]
 aliases:
   - "/2025-alphalist/"
