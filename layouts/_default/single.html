@@ -10,7 +10,7 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
 {{ end }}
 
 <article
-    class='{{.File.Dir }} {{.File.BaseFileName}} pt-10 print:my-0 {{partial "prose.html"}}'
+    class='{{.File.Dir }} {{.File.BaseFileName}} zprint:my-0 {{partial "prose.html"}}'
 >
     <h1 class="my-4 text-4xl">{{ .Title }}</h1>
     {{ .Content }}
@@ -23,11 +23,11 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
 </div>
 {{ end }} {{ with .Params.Pure}} {{ else }}
 <div class="print:hidden">
-    <aside class="pl-2 mt-10 mb-20 border-l-2 border-primary font-sharetech">
+    <aside class="pl-2 mt-2 mb-6 border-l-2 border-primary font-sharetech">
         {{/*
         <h4 class="mb-2">Article Meta</h4>
         */}}
-        <ul class="space-y-2">
+        <ul class="space-y-1">
             <li>
                 <span>Published On:</span>
                 <time datetime='{{ .Date.Format "2006-01-02" }}'>
