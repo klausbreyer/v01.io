@@ -1,6 +1,6 @@
 ## Podcasts
 
-- 2025: 🇩🇪 [Pixels + Profit: Stifte waren gestern, Edding goes Tech" mit Klaus Breyer](https://www.youtube.com/watch?v=yDBQf9Kuk9E)
+- 2025: 🇩🇪 [Pixels + Profit: Stifte waren gestern, Edding goes Tech]({{< relref path="2025-pixels-profits-edding-goes-tech" lang="de">}})
 - 2023: 🇺🇸 [#AgileWay: Interdisciplinary Teams](https://creators.spotify.com/pod/show/zuzuzka/episodes/Klaus-Breyer--Interdisciplinary-Teams-e2ver42)
 - 2025: 🇩🇪 [Systemisch - Agil: Agile für interdisziplinäre Teams]({{< relref path="2025-systemisch-agil" lang="de">}})
 - 2025: 🇩🇪 [Product Masterclass: B2B SaaS bei edding – mit interdisziplinären Teams]({{< relref path="2025-product-masterclass-edding" lang="de">}})
