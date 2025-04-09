@@ -43,6 +43,12 @@ As an angel investor, advisor, or coach, I provide strategic insights to founder
 
 - [Touch361](https://touch361.org/) - **Member of the Advisory Board / B2B SaaS / BI:** Technical advice on data protection and product development for a business intelligence platform that tracks every touchpoint of the customer lifecycle, both online and offline. Focused on addressing marketing and business intelligence challenges. (2019–2022)
 
+## Keynotes & Talks
+
+- [Mister Spex SE](https://www.misterspex.de/) – **Impulse Talk / Interdisciplinary Collaboration / Product & Tech**: Invited by the CTO to speak about how interdisciplinary teams can collaborate more effectively—drawing from hands-on experience with Shape Up. Focus on shared ownership, alignment across roles, and practical steps for breaking silos. (2023)
+
+- [Ringier AG](https://www.ringier.com) – **Keynote / Product Development / Shape Up in Practice**: At the anual internal tech conference, I shared hands-on insights on adopting Shape Up in real-world settings. (2022)
+
 ## Building the First Version of Products
 
 I love to prototype and craft the first version of products from scratch, bringing together product strategy and tech knowledge. Hands-on, I quickly validate to iterate a possible business models.
