@@ -1,8 +1,10 @@
 ---
 title: "Building Software Isn’t an Assembly Line. It’s a Design Process."
 date: 2025-04-15T08:51:31+02:00
-category: ["Agile"]
+categories: ["Agile"]
 social: "https://www.linkedin.com/posts/klaus-breyer_building-software-isnt-an-assembly-line-activity-7317807946921373699-BOt1?"
+aliases:
+  - /posts/2025-software-assembly-line-design-process/
 ---
 
 ![before.jpg](before.jpg)
@@ -45,4 +47,15 @@ To set up teams for success, we all (managers and people within the teams) must 
 
 Keep this in mind the next time you are unhappy with how something goes in a team.
 
-(Photo courtesy Ford Motor Co)
+---
+
+**The Move Fast and Break Silos Series:**
+
+- Chapter 1: [Building Software Isn’t an Assembly Line. It’s a Design Process.]({{< relref "2025-move-fast-break-silos-1-software-assembly-line-design-process" >}})
+- Chapter 2: Tickets Create Silos
+- Chapter 3: Slicing Work
+- Chapter 4: Aligning Teams
+- Chapter 5: Scaling Orgs
+- Chapter 6: Emancipating People
+
+Image Credits: Photo courtesy Ford Motor Co
