@@ -4,7 +4,7 @@
   <div class="grid grid-cols-1 gap-8 mb-8 sm:grid-cols-2">
     <div>
       <div class="pl-2 border-l-2 border-primary space-y-2">
-        <h3 class="text-xl font-bold">About</h3>
+        <h3 class="text-xl font-display">About</h3>
         <p>
           I am an experienced B2B SaaS CPTO with a passion for breaking down
           silos. As a startup founder and business unit lead, I bridge the gap
@@ -39,7 +39,7 @@
 
     <div>
       <div class="pl-2 border-l-2 border-primary space-y-2">
-        <h3 class="text-xl font-bold">Newsletter</h3>
+        <h3 class="text-xl font-display">Newsletter</h3>
         <p>Never miss an article on B2B SaaS product & tech leadership!</p>
 
         {{ partial "newsletter.html"}}
@@ -52,7 +52,7 @@
   </div>
 
   <nav class="pl-2 mb-8 border-l-2 border-primary">
-    <h3 class="mb-2 text-xl font-bold">Categories</h3>
+    <h3 class="mb-2 text-xl font-display">Categories</h3>
     <ul class="flex flex-wrap gap-x-2">
       {{ $categories := .Site.Taxonomies.categories }} {{ range $categories }}
 
