@@ -22,3 +22,7 @@ tailwind-build:
 cv:
 	npm i puppeteer
 	node -e "const puppeteer = require('puppeteer'); const path = require('path'); const os = require('os'); (async () => { const browser = await puppeteer.launch(); const page = await browser.newPage(); await page.goto('https://www.v01.io/pages/services/', { waitUntil: 'networkidle2' }); const filePath = path.join(os.homedir(), 'Downloads', 'cv.pdf'); await page.pdf({ path: filePath, format: 'A4', margin: { top: '1cm', bottom: '1cm', left: '1cm', right: '1cm' } }); await browser.close(); })();"
+
+dev-cv:
+	npm i puppeteer
+	node -e "const puppeteer = require('puppeteer'); const path = require('path'); const os = require('os'); (async () => { const browser = await puppeteer.launch(); const page = await browser.newPage(); await page.goto('http://localhost:1313/pages/services/', { waitUntil: 'networkidle2' }); const filePath = path.join(os.homedir(), 'Downloads', 'dev-cv.pdf'); await page.pdf({ path: filePath, format: 'A4', margin: { top: '1cm', bottom: '1cm', left: '1cm', right: '1cm' } }); await browser.close(); })();"

@@ -1,21 +1,13 @@
 {{$section_heading := .Site.GetPage "section" .Section }}
 
-<header
-    class="container grid max-w-screen-xl grid-cols-1 gap-4 print:gap-0 print:p-0 print:m-0 px-4 pt-2 mx-auto mb-4 lg:px-8"
->
-    <a
-        lang="en"
-        class="text-5xl italic font-bold uppercase sm:text-6xl hover:border-primary hover:text-primary author font-share-tech border-primary text-primary font-sharetech"
-        href="/"
-    >
+<header class="container grid max-w-screen-xl grid-cols-1 gap-4 print:gap-0 print:p-0 print:m-0 px-4 pt-2 mx-auto mb-4 lg:px-8">
+    <a lang="en" class="text-5xl italic font-bold uppercase sm:text-6xl hover:border-primary hover:text-primary author font-share-tech border-primary text-primary font-sharetech" href="/">
         Klaus Breyer
     </a>
 
-    <a
-        class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl description text-text font-sharetech print:text-black"
-    >
+    <a class="text-2xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-4xl description text-text font-sharetech print:text-black">
         <div class="flex flex-col sm:flex-row sm:justify-start sm:items-center">
-            <span>B2B SaaS Product & Tech Leadership</span>
+            <span>B2B SaaS CPTO</span>
             <span class="hidden sm:block">&nbsp;-&nbsp;</span>
             <span>Move Fast And Break Silos!</span>
         </div>
@@ -23,11 +15,7 @@
     <ul class="flex flex-wrap gap-x-5 print:hidden">
         {{ range .Site.Menus.header }}
         <li class="">
-            <a
-                lang="en"
-                class="block font-bold hover:underline text-xlfont-sharetech text-primary font-share-tech"
-                href="{{ .URL }}"
-            >
+            <a lang="en" class="block font-bold hover:underline text-xlfont-sharetech text-primary font-share-tech" href="{{ .URL }}">
                 <span class="text-text">&rsaquo;</span> {{.Name}}
             </a>
         </li>
