@@ -1,11 +1,10 @@
-{{ define "head" }}
-{{ partial "meta.html" . }}
-{{ end }}
+{{ define "head" }} {{ partial "meta.html" . }} {{ end }} {{ define "main" }}
 
-{{ define "main" }}
-<main class="container mx-auto mb-20">
-    <article class='{{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}    {{partial "prose.html"}} prose-h1:pt-10 '>
-        {{.Content}}
-    </article>
-</main>
+<div class="grid grid-cols-8 gap-2">
+  <article
+    class='col-span-full md:col-start-2 md:col-span-6 {{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}    {{partial "prose.html"}} prose-h1:pt-10 '
+  >
+    {{.Content}}
+  </article>
+</div>
 {{ end }}
