@@ -1,98 +1,77 @@
-<div
-  class="container max-w-screen-xl p-4 mx-auto font-light lg:p-8 print:hidden"
->
-  <div class="grid grid-cols-1 gap-8 mb-8 sm:grid-cols-2">
-    <div>
-      <div class="pl-2 border-l-2 border-primary space-y-2">
-        <h3 class="text-xl font-display">About</h3>
-        <p>
-          I am an experienced B2B SaaS CPTO with a passion for breaking down
-          silos. As a startup founder and business unit lead, I bridge the gap
-          between technical delivery and agile product strategy. Sometimes, I
-          invest or advise, helping leadership teams build interdisciplinary
-          teams themselves.
-        </p>
-        <p>
-          Reach me via:
-          <a
-            href="mailto:kb@v01.io?subject=v01.io"
-            class="text-primary hover:underline"
-            >E-Mail</a
-          >
-          or follow me on
-          <a
-            href="https://www.linkedin.com/in/klaus-breyer/"
-            class="text-primary hover:underline"
-            target="_blank"
-            >LinkedIn</a
-          >
-          &
-          <a
-            href="https://twitter.com/klausbreyer"
-            class="text-primary hover:underline"
-            target="_blank"
-            >Twitter</a
-          >.
-        </p>
-      </div>
+<div class="max-w-screen-2xl p-4 mx-auto print:hidden">
+  <div class="grid gap-20 grid-cols-8">
+    <div class="space-y-2 col-span-full lg:col-span-5">
+      <h3 class="text-2xl font-display">About</h3>
+      <p>
+        I am an experienced B2B SaaS CPTO with a passion for breaking down
+        silos. As a startup founder and business unit lead, I bridge the gap
+        between technical delivery and agile product strategy. Sometimes, I
+        invest or advise, helping leadership teams build interdisciplinary teams
+        themselves.
+      </p>
+      <p>
+        Reach me via:
+        <a
+          href="mailto:kb@v01.io?subject=v01.io"
+          class="text-primary hover:underline"
+          >E-Mail</a
+        >
+        or follow me on
+        <a
+          href="https://www.linkedin.com/in/klaus-breyer/"
+          class="text-primary hover:underline"
+          target="_blank"
+          >LinkedIn</a
+        >
+        &
+        <a
+          href="https://twitter.com/klausbreyer"
+          class="text-primary hover:underline"
+          target="_blank"
+          >Twitter</a
+        >.
+      </p>
     </div>
 
-    <div>
-      <div class="pl-2 border-l-2 border-primary space-y-2">
-        <h3 class="text-xl font-display">Newsletter</h3>
-        <p>Never miss an article on B2B SaaS product & tech leadership!</p>
+    <div class="col-span-full lg:col-span-3 space-y-1">
+      <h3 class="text-2xl font-display">Newsletter</h3>
+      <p>Never miss an article on B2B SaaS product & tech leadership!</p>
 
-        {{ partial "newsletter.html"}}
+      {{ partial "newsletter.html"}}
 
-        <p class="text-xs">
-          (I use MailChimp. Your data is never sold or shared.)
-        </p>
-      </div>
+      <p class="text-xs">
+        (I use MailChimp. Your data is never sold or shared.)
+      </p>
     </div>
   </div>
-
-  <nav class="pl-2 mb-8 border-l-2 border-primary">
-    <h3 class="mb-2 text-xl font-display">Categories</h3>
-    <ul class="flex flex-wrap gap-x-2">
-      {{ $categories := .Site.Taxonomies.categories }} {{ range $categories }}
-
-      <li class="">
-        <a href="{{ .Page.Permalink }}" class="text-text hover:text-primary">
-          <span class="text-primary">&rsaquo;</span>
-          {{ .Page.Title }} ({{ .Count }})
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </nav>
 </div>
 
-<div class="text-white copyright bg-footer print:hidden">
-  <div
-    class="container flex items-center justify-between max-w-screen-xl p-4 mx-auto lg:p-8"
+<div
+  class="flex items-center justify-between max-w-screen-2xl p-4 mx-auto print:hidden"
+>
+  <a
+    class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
+    href="/"
+    >{{$.Site.Copyright }}</a
   >
-    <a class="pl-2 border-l-2 hover:text-primary hover:border-primary" href="/"
-      >{{$.Site.Copyright }}</a
+  <span class="flex gap-8">
+    <a
+      href="{{ .Page.Permalink }}"
+      class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
+      target="_blank"
+      >Permalink</a
     >
-    <span class="flex gap-8">
-      <a
-        href="{{ .Page.Permalink }}"
-        class="pl-2 border-l-2 hover:text-primary hover:border-primary"
-        target="_blank"
-        >Permalink</a
-      >
-      <a
-        href="{{ .Site.BaseURL }}posts/index.xml"
-        class="pl-2 border-l-2 hover:text-primary hover:border-primary"
-        target="_blank"
-        >RSS Feed</a
-      >
-      <a
-        href="https://www.iubenda.com/privacy-policy/76651144"
-        class="pl-2 border-l-2 hover:text-primary hover:border-primary"
-        target="_blank"
-        >Imprint</a
-      >
-    </span>
-  </div>
+    <a
+      href="{{ .Site.BaseURL }}posts/index.xml"
+      class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
+      target="_blank"
+      >RSS Feed</a
+    >
+    <a
+      href="https://www.iubenda.com/privacy-policy/76651144"
+      class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
+      target="_blank"
+      >Imprint</a
+    >
+  </span>
 </div>

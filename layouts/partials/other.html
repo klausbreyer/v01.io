@@ -1,0 +1,34 @@
+<div class="grid gap-20 grid-cols-8">
+  <div class="col-span-full lg:col-span-5">
+    <h3 class="mb-2 text-2xl font-display">Other Posts</h3>
+    <ul class="grid gap-4 grid-cols-[repeat(auto-fill,minmax(32ch,1fr))]">
+      {{ range .Site.Menus.side }} {{ end }} {{ $filteredPages := slice }} {{
+      range first 10 (where .Site.RegularPages "Type" "posts") }} {{
+      $intersection := intersect .Params.categories (slice "Bookshelf") }} {{ if
+      eq (len $intersection) 0 }} {{ $filteredPages = $filteredPages | append .
+      }} {{ end }} {{ end }} {{ range $filteredPages }}
+      <li class="grid grid-rows-[1fr_auto] border-t-2 border-white font-display font-bold gap-1 pt-1">
+        <a class="uppercase text-lg text-primary leading-none  hover:underline" href="{{ .Permalink }}">
+          {{ .Title }}
+        </a>
+        <datetime datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "2006-01-02" }}</datetim>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  <nav class="col-span-full lg:col-span-3">
+    <h3 class="mb-2 text-2xl font-display">Categories</h3>
+    <ul class="flex flex-wrap gap-x-2 pt-1 border-t-2 border-white">
+      {{ $categories := .Site.Taxonomies.categories }} {{ range $categories }}
+
+      <li class="font-display font-bold">
+        <a href="{{ .Page.Permalink }}" class="uppercase text-lg text-primary hover:underline">
+          {{ .Page.Title }}
+        </a>
+        <span>— {{ .Count }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</div>
