@@ -10,7 +10,8 @@
   --color-footer2: #3d3e3d;
   --color-bg: #1e1e1e;
   --color-text: #d4d4d4;
-  --font-display: "Tanker-Regular", sans-serif;
+  --font-display: "SpaceGrotesk-Variable", sans-serif;
+  /* --font-display: "Rajdhani-Variable", sans-serif; */
   --font-serif: "BespokeSerif-Variable", serif;
   --spacing: clamp(0.25rem, 0.1667rem + 0.4167vw, 0.5rem);
   /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1280,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -30,13 +31,53 @@
   /* Step 4: 33.1776px → 48.8281px */
   --text-3xl: clamp(2.0736rem, 1.7475rem + 1.6303vw, 3.0518rem);
   /* Step 5: 39.8131px → 61.0352pzx */
-  --text-4xl: clamp(2.4883rem, 2.0462rem + 2.2106vw, 3.8147rem);
+  --text-4xl: clamp(2.4883rem, 2.0462rem + 2.2106vw, 3.3rem);
 }
 
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
 @font-face {
-  font-family: "Tanker-Regular";
-  src: url("/fonts/Tanker-Regular.woff2") format("woff2");
-  font-weight: 400;
+  font-family: "Teko-Variable";
+  src: url("/fonts/Teko-Variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
+@font-face {
+  font-family: "Rajdhani-Variable";
+  src: url("/fonts/Rajdhani-Variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
+@font-face {
+  font-family: "SpaceGrotesk-Variable";
+  src: url("/fonts/SpaceGrotesk-Variable.woff2") format("woff2");
+  font-weight: 300 700;
   font-display: swap;
   font-style: normal;
 }

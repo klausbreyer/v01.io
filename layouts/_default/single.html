@@ -10,24 +10,11 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
 {{ end }}
 
 <article
-  class='{{.File.Dir }} {{.File.BaseFileName}} zprint:my-0 {{partial "prose.html"}}'
+  class='{{.File.Dir }} {{.File.BaseFileName}} print:my-0 grid grid-cols-8 gap-2'
 >
-  <h1 class="my-4 text-3xl">{{ .Title }}</h1>
-  {{ .Content }}
-</article>
-
-{{ if or (eq .Section " shape-up") (in (split .File.Dir "/" ) "shape-up" ) }}
-<div class="mb-4 text-sm breadcrump">
-  <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt;
-  <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
-</div>
-{{ end }} {{ with .Params.Pure}} {{ else }}
-<div class="print:hidden">
-  <aside class="pl-2 mt-2 mb-6 border-l-2 border-primary font-display">
-    {{/*
-    <h4 class="mb-2">Article Meta</h4>
-    */}}
-    <ul class="space-y-1">
+  <h1 class="text-4xl font-display font-bold text-pretty col-span-full">{{ .Title }}</h1>
+  <aside class="font-display col-span-full print:hidden">
+    <ul class="flex gap-2 flex-wrap">
       <li>
         <span>Published On:</span>
         <time datetime='{{ .Date.Format "2006-01-02" }}'>
@@ -51,18 +38,7 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
           >Join the discussion on LinkedIn.</a
         >
       </li>
-      {{ end }}
-
-      <li>
-        <span>Found a typo?</span>
-        <a
-          target="_blank"
-          class="text-primary hover:underline"
-          href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}"
-          >Make a pull request.</a
-        >
-      </li>
-      {{ if .Translations }}
+      {{ end }} {{ if .Translations }}
       <li>
         <span>Translation:</span>
 
@@ -79,15 +55,19 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
         {{ end }}
       </li>
       {{ end }} {{if gt (.GetTerms "categories") 0}}
-      <li>
+      <li class="flex gap-1 flex-wrap">
         <span>Categories:</span>
+        <ul class="flex flex-wrap">
         {{ range (.GetTerms "categories") }}
-        <a
-          lang="{{.Lang}}"
-          class="text-primary hover:underline"
-          href="{{ .Permalink }}"
-          >{{ .LinkTitle }}</a
-        >; {{ end }}
+        <li class="after:content-['/'] after:mr-[.5ch] last:after:content-none">
+          <a
+            lang="{{.Lang}}"
+            class="text-primary hover:underline"
+            href="{{ .Permalink }}"
+            >{{ .LinkTitle }}</a
+          >
+        </li> {{ end }}
+      </ul>
       </li>
       {{ end }} {{if gt (.GetTerms "tags") 0}}
       <li>
@@ -100,5 +80,21 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
       {{ end }}
     </ul>
   </aside>
+  <div class="{{partial "prose.html"}} col-span-full md:col-start-2 md:col-span-6 mt-8">{{ .Content }}</div>
+  <aside class="col-span-full font-display">
+    <span>Found a typo?</span>
+    <a
+      target="_blank"
+      class="text-primary hover:underline"
+      href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}"
+      >Make a pull request.</a
+    >
+  </aside>
+</article>
+
+{{ if or (eq .Section " shape-up") (in (split .File.Dir "/" ) "shape-up" ) }}
+<div class="mb-4 text-sm breadcrump">
+  <a href="/shape-up" class="text-primary hover:underline">Shape Up</a> &gt;
+  <a class="text-text hover:underline" href="{{.Permalink}}">{{ .Title }}</a>
 </div>
-{{ end }} {{ end }}
+{{ end }} {{ with .Params.Pure}} {{ else }} {{ end }} {{ end }}
