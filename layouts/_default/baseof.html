@@ -39,12 +39,12 @@
     <div
       class="font-serif bg-bg text-text print:bg-transparent print:text-black"
     >
-      <div class="block print:hidden mb-[20vh]">
+      <div class="block print:hidden mb-12 md:mb-20">
         {{ partial "header.html" . }}
       </div>
 
       <main>
-        <div class="px-4 max-w-screen-2xl mx-auto mb-[20vh]">
+        <div class="px-4 max-w-screen-2xl mx-auto mb-12 md:mb-20">
           <div class="hidden print:block">{{ partial "header.html" . }}</div>
 
           {{ block "main" . }} {{ end }}

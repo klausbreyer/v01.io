@@ -10,8 +10,8 @@
   --color-footer2: #3d3e3d;
   --color-bg: #1e1e1e;
   --color-text: #d4d4d4;
-  --font-display: "SpaceGrotesk-Variable", sans-serif;
-  /* --font-display: "Rajdhani-Variable", sans-serif; */
+  /* --font-display: "SpaceGrotesk-Variable", sans-serif; */
+  --font-display: "Rajdhani-Variable", sans-serif;
   --font-serif: "BespokeSerif-Variable", serif;
   --spacing: clamp(0.25rem, 0.1667rem + 0.4167vw, 0.5rem);
   /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1280,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
