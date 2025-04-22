@@ -2,9 +2,11 @@
 title: "Tickets Create Silos"
 date: 2025-04-15T10:05:55+02:00
 categories: ["Agile"]
-draft: true
 image: jira.jpg
+social: https://www.linkedin.com/posts/klaus-breyer_tickets-create-silos-klaus-breyer-activity-7320453378021478400-g7-3
 ---
+
+Lets start with a quote:
 
 > Agile now means, we do half of Scrum poorly and Use Jira.
 
@@ -40,7 +42,7 @@ Scrum doesn't mention and doesn't care about:
 - Sustainable Pace
 - Metaphor
 
-# Agile became a micromanagement tool.
+## Agile became a micromanagement tool.
 
 With everything managed in one big backlog, strategic resource allocation is impossible.
 

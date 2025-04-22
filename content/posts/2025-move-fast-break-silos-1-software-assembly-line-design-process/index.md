@@ -52,7 +52,7 @@ Keep this in mind the next time you are unhappy with how something goes in a tea
 **The Move Fast and Break Silos Series:**
 
 - Chapter 1: [Building Software Isn’t an Assembly Line. It’s a Design Process.]({{< relref "2025-move-fast-break-silos-1-software-assembly-line-design-process" >}})
-- Chapter 2: Tickets Create Silos
+- Chapter 2: [Tickets Create Silos]({{< relref "2025-move-fast-break-silos-2-tickets-create-silos" >}})
 - Chapter 3: Slicing Work
 - Chapter 4: Aligning Teams
 - Chapter 5: Scaling Orgs
