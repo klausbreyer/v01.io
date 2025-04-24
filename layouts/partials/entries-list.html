@@ -1,7 +1,7 @@
 <!-- entries-list.html -->
 <ul class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
   {{ range .Pages }}
-  <li class="flex flex-col overflow-hidden text-lg">
+  <li class="flex flex-col overflow-hidden text-lg bg-footer">
     <a href="{{ .Permalink }}" class="grid hover:opacity-75">
       <!-- Bild einfügen -->
       {{/* default - what is configured sitewide */}} {{ $image := printf "%s%s"
@@ -17,7 +17,7 @@
         <img
           src="{{ $image }}"
           alt="{{ .Title }}"
-          class="object-cover w-full h-full"
+          class="object-cover w-full h-full border border-footer"
         />
         <time
           datetime='{{ .Date.Format "2006-01-02" }}'
