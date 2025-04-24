@@ -41,6 +41,16 @@ defaultContentLanguage = 'en'
   url = '/'
   weight = 1
 
+[[menu.header]]
+  name = 'Blog'
+  url = '/posts/'
+  weight = 2
+
+
+[[menu.header]]
+  name = 'Bookshelf'
+  url = '/categories/bookshelf/'
+  weight = 10
 
 [[menu.header]]
   name = 'Services'
@@ -52,15 +62,6 @@ defaultContentLanguage = 'en'
   url = '/pages/appearances/'
   weight = 50
 
-[[menu.header]]
-  name = 'Reading'
-  url = '/categories/bookshelf/'
-  weight = 66
-
-[[menu.header]]
-  name = 'Writing'
-  url = '/posts/'
-  weight = 77
 
 
 
