@@ -1,70 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{.Lang}}">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>
-            {{ block "title" . }} {{ if eq .Type "tags" }} Entries for Tag {{
-            .Title }} {{ else }} {{ .Title }}{{ if eq .Lang "de" }} (Deutsch) {{
-            end }} {{ end }} &ndash; {{ .Site.Title }} {{ end }}
-        </title>
-        <link rel="preload" href="/css/tailwind.css" as="style" />
-        <link rel="stylesheet" href="/css/tailwind.css" />
-        <link rel="icon" href="{{.Site.BaseURL}}images/favicon.jpg" />
-        <link
-            rel="apple-touch-icon"
-            href="{{.Site.BaseURL}}images/favicon.jpg"
-        />
-        {{ block "head" . }}
-        <meta name="author" content="{{.Site.Copyright}}" />
-        <meta name="description" content="{{.Site.Params.Description}}" />
-        <meta
-            property="og:image"
-            content="{{.Site.BaseURL}}{{.Site.Params.image}}"
-        />
-        {{ end }}
-        <link
-            rel="alternate"
-            type="application/rss+xml"
-            href="{{ .Site.BaseURL }}posts/index.xml"
-            title="{{.Site.Title}}"
-        />
-        {{ if eq (getenv "HUGO_ENVIRONMENT") "production" }}
-        <script
-            defer
-            src="https://cloud.umami.is/script.js"
-            data-website-id="6a962e82-7c00-43e3-bf87-f0efd37e1273"
-        ></script>
-        {{ end }}
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {{ block "title" . }} {{ if eq .Type "tags" }} Entries for Tag {{ .Title
+      }} {{ else }} {{ .Title }}{{ if eq .Lang "de" }} (Deutsch) {{ end }} {{
+      end }} &ndash; {{ .Site.Title }} {{ end }}
+    </title>
+    <link rel="preload" href="/css/tailwind.css" as="style" />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <link rel="icon" href="{{.Site.BaseURL}}images/favicon.jpg" />
+    <link rel="apple-touch-icon" href="{{.Site.BaseURL}}images/favicon.jpg" />
+    {{ block "head" . }}
+    <meta name="author" content="{{.Site.Copyright}}" />
+    <meta name="description" content="{{.Site.Params.Description}}" />
+    <meta
+      property="og:image"
+      content="{{.Site.BaseURL}}{{.Site.Params.image}}"
+    />
+    {{ end }}
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="{{ .Site.BaseURL }}posts/index.xml"
+      title="{{.Site.Title}}"
+    />
+    {{ if eq (getenv "HUGO_ENVIRONMENT") "production" }}
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="6a962e82-7c00-43e3-bf87-f0efd37e1273"
+    ></script>
+    {{ end }}
+  </head>
 
-    <body>
-        <div
-            class="font-sans bg-bg text-text print:bg-transparent print:text-black"
-        >
-            <div class="block print:hidden">{{ partial "header.html" . }}</div>
+  <body>
+    <div
+      class="font-serif bg-bg text-text print:bg-transparent print:text-black"
+    >
+      <div class="block print:hidden mb-12 md:mb-20">
+        {{ partial "header.html" . }}
+      </div>
 
-            <main>
-                <div
-                    class="container grid max-w-screen-xl grid-cols-1 gap-4 px-4 pb-4 mx-auto print:p-0 lg:px-8 sm:grid-cols-4 print:grid-cols-1"
-                >
-                    <div
-                        class="border-t-2 sm:col-span-3 print:border-t-0 border-primary"
-                    >
-                        <div class="hidden print:block">
-                            {{ partial "header.html" . }}
-                        </div>
+      <main>
+        <div class="px-4 max-w-screen-2xl mx-auto mb-12 md:mb-20">
+          <div class="hidden print:block">{{ partial "header.html" . }}</div>
 
-                        {{ block "main" . }} {{ end }}
-                    </div>
-
-                    <div class="hidden print:hidden sm:block">
-                        {{ partial "side.html" . }}
-                    </div>
-                </div>
-            </main>
-
-            <footer class="bg-footer">{{ partial "footer.html" . }}</footer>
+          {{ block "main" . }} {{ end }}
         </div>
-    </body>
+
+        <aside class="px-4 max-w-screen-2xl mx-auto mb-[10vh] print:hidden">
+          {{ partial "other.html" . }}
+        </aside>
+      </main>
+
+      <footer>{{ partial "footer.html" . }}</footer>
+    </div>
+  </body>
 </html>

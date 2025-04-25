@@ -4,6 +4,7 @@ date: 2023-09-01
 lastmod: 2024-12-10
 aliases:
   - "cv"
+  - "services"
   - "now"
 ---
 

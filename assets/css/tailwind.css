@@ -10,29 +10,92 @@
   --color-footer2: #3d3e3d;
   --color-bg: #1e1e1e;
   --color-text: #d4d4d4;
+  /* --font-display: "SpaceGrotesk-Variable", sans-serif; */
+  --font-display: "Rajdhani-Variable", sans-serif;
+  --font-serif: "BespokeSerif-Variable", serif;
+  --spacing: clamp(0.25rem, 0.1667rem + 0.4167vw, 0.5rem);
+  /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1280,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
-  --font-sharetech: "Share Tech", sans-serif;
-}
-@font-face {
-  font-family: "Share Tech";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/fonts/7cHtv4Uyi5K0OeZ7bohU8H0JmBUhfrE.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
+  /* Step -2: 11.1111px → 12.8px */
+  --text-xs: clamp(0.6944rem, 0.6593rem + 0.1759vw, 0.8rem);
+  /* Step -1: 13.3333px → 16px */
+  --text-sm: clamp(0.8333rem, 0.7778rem + 0.2778vw, 1rem);
+  /* Step 0: 16px → 20px */
+  --text-base: clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
+  /* Step 1: 19.2px → 25px */
+  --text-lg: clamp(1.2rem, 1.0792rem + 0.6042vw, 1.5625rem);
+  /* Step 2: 23.04px → 31.25px */
+  --text-xl: clamp(1.44rem, 1.269rem + 0.8552vw, 1.9531rem);
+  /* Step 3: 27.648px → 39.0625px */
+  --text-2xl: clamp(1.728rem, 1.4902rem + 1.189vw, 2.4414rem);
+  /* Step 4: 33.1776px → 48.8281px */
+  --text-3xl: clamp(2.0736rem, 1.7475rem + 1.6303vw, 3.0518rem);
+  /* Step 5: 39.8131px → 61.0352pzx */
+  --text-4xl: clamp(2.4883rem, 2.0462rem + 2.2106vw, 3.3rem);
 }
 
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
 @font-face {
-  font-family: "Share Tech Mono";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "Teko-Variable";
+  src: url("/fonts/Teko-Variable.woff2") format("woff2");
+  font-weight: 300 700;
   font-display: swap;
-  src: url(/fonts/J7aHnp1uDWRBEqV98dVQztYldFcLowEFA87Heg.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
+@font-face {
+  font-family: "Rajdhani-Variable";
+  src: url("/fonts/Rajdhani-Variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0;
+*
+* available axes:
+'wght' (range from 300.0 to 700.0
+*/
+@font-face {
+  font-family: "SpaceGrotesk-Variable";
+  src: url("/fonts/SpaceGrotesk-Variable.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 300.0wght 800.0;
+*
+* available axes:
+'wght' (range from 300.0 to 800.0'wght' (range from 300.0 to 800.0
+*/
+@font-face {
+  font-family: "BespokeSerif-Variable";
+  src: url("/fonts/BespokeSerif-Variable.woff2") format("woff2");
+  font-weight: 300 800;
+  font-display: swap;
+  font-style: normal;
 }
 
 a[href^="#"] {
