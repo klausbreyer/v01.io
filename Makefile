@@ -1,49 +1,49 @@
-# Dependencies nur einmal installieren
+# Makefile
+
+# Install dependencies (only once)
 deps:
 	bun add puppeteer
 
-# Hugo-Server & Tailwind-Watch bleiben unverändert
+# Start Hugo server and watch Tailwind CSS for changes
 start:
-	hugo server & ./tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --watch
+	hugo server & \
+	./tailwindcss -i ./assets/css/tailwind.css \
+		-o ./static/css/tailwind.css --watch
 
+# Build production site with minification
 build:
 	HUGO_ENVIRONMENT=production hugo --minify
 
+# Download the latest Tailwind CSS binary for macOS or Linux
 tailwind-download:
 ifeq ($(shell uname -s), Darwin)
-	curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-macos-arm64
+	# Download macOS ARM64 binary
+	curl -sLO \
+		https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-macos-arm64
 else ifeq ($(shell uname -s), Linux)
-	curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
+	# Download Linux x64 binary
+	curl -sLO \
+		https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
 endif
+	# Rename and make executable
 	mv tailwindcss-* tailwindcss
 	chmod +x tailwindcss
 
+# Watch for CSS changes and rebuild automatically
 watch:
-	./tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --watch
+	./tailwindcss -i ./assets/css/tailwind.css \
+		-o ./static/css/tailwind.css --watch
 
+# Build Tailwind CSS for production (minified)
 tailwind-build:
-	./tailwindcss -i ./assets/css/tailwind.css -o ./static/css/tailwind.css --minify
+	./tailwindcss -i ./assets/css/tailwind.css \
+		-o ./static/css/tailwind.css --minify
 
-# CV via Puppeteer mit bun
+# Generate PDF from a live site using the external script
 cv: deps
-	bun -e "import puppeteer from 'puppeteer'; import path from 'path'; import os from 'os'; \
-	(async()=>{ \
-	  const browser = await puppeteer.launch(); \
-	  const page = await browser.newPage(); \
-	  await page.goto('https://www.v01.io/pages/services/', { waitUntil: 'networkidle2' }); \
-	  const filePath = path.join(os.homedir(), 'Downloads', 'cv.pdf'); \
-	  await page.pdf({ path: filePath, format: 'A4', margin: { top:'1cm',bottom:'1cm',left:'1cm',right:'1cm' } }); \
-	  await browser.close(); \
-	})()"
+	# Replace URL and filename as needed
+	bun cv.mjs https://www.v01.io/pages/services/ cv.pdf
 
-# Lokale Dev-CV
+# Generate PDF from local development site
 dev-cv: deps
-	bun -e "import puppeteer from 'puppeteer'; import path from 'path'; import os from 'os'; \
-	(async()=>{ \
-	  const browser = await puppeteer.launch(); \
-	  const page = await browser.newPage(); \
-	  await page.goto('http://localhost:1313/pages/services/', { waitUntil: 'networkidle2' }); \
-	  const filePath = path.join(os.homedir(), 'Downloads', 'dev-cv.pdf'); \
-	  await page.pdf({ path: filePath, format: 'A4', margin: { top:'1cm',bottom:'1cm',left:'1cm',right:'1cm' } }); \
-	  await browser.close(); \
-	})()"
+	bun cv.mjs http://localhost:1313/pages/services/ dev-cv.pdf
