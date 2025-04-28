@@ -12,7 +12,6 @@ aliases:
 
 Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
-{{< breakbefore >}}
 
 ## Startup Exits
 
@@ -22,6 +21,7 @@ I transform innovative ideas into successful ventures through strategic planning
 
 - [Buddybrand GmbH](https://buddybrand.com/) - **Founder & CTO / Digital Agency / Social Media:** Started post-university; spearheaded the creation of Facebook apps in Germany as the first "Facebook Agency." Grew the company significantly to 35 FTE, contributing to its current status as a renowned full-service digital agency. (2010–2015)
 
+{{< breakbefore >}}
 ## Interim Management
 
 I assemble and manage interdisciplinary product and tech units, including senior leaders, to excel in remote settings. I address critical challenges and deliver substantial user value by structuring product and engineering processes, aligning with product strategy, and managing stakeholders effectively.
