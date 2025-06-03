@@ -3,7 +3,7 @@ title: "How to Slice Work - First Principles to Build The Product Process"
 date: 2025-06-02T15:05:55+02:00
 categories: ["Agile"]
 image: work.png
-# social:
+social: https://www.linkedin.com/posts/klaus-breyer_in-my-latest-blog-post-i-share-how-to-slice-activity-7335657338063802368-WdnR?
 ---
 
 Building software is [fundamentally different from manufacturing]({{< relref "2025-move-fast-break-silos-1-software-assembly-line-design-process" >}}). Software development is an exploratory and creative process where decisions are made continuously within evolving systems. Rigid assembly-line thinking focusing on ticket-driven workflows is not suited and only [creates silos]({{< relref "2025-move-fast-break-silos-2-tickets-create-silos" >}}).
@@ -51,7 +51,8 @@ Only then is there complete buy-in from all parties, and the team ends up with a
 
 ## Slicing Delivery
 
-Implement by structure, not by person. Distribute tasks based on functional areas to ensure continuity and scalability, promoting end-to-end accountability and clear ownership and fostering effective and timely Delivery.
+![cake.png](cake.png)
+Implement by structure, not by person. This means that everybody works on the same scope of the feature at the same time, starting with the most important thing first. This promotes end-to-end accountability and clear ownership and fosters effective and timely Delivery.
 
 **To put it more precisely,** never do the entire design, prepare all the APIs, and perform the integration and all the testing at the end. The team will always run out of time or need to make tradeoffs that do not align with the strategic intention.
 
