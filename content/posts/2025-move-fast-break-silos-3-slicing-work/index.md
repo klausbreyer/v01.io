@@ -71,6 +71,6 @@ Slicing work is just one piece of the puzzle. In the next chapters, I will expla
 - Chapter 1: [Building Software Isn’t an Assembly Line. It’s a Design Process.]({{< relref "2025-move-fast-break-silos-1-software-assembly-line-design-process" >}})
 - Chapter 2: [Tickets Create Silos]({{< relref "2025-move-fast-break-silos-2-tickets-create-silos" >}})
 - Chapter 3: [How to Slice Work - First Principles to Build The Product Process]({{< relref "2025-move-fast-break-silos-3-slicing-work" >}})
-- Chapter 4: Aligning Teams
+- Chapter 4: [Aligning Teams around Work - An Optimization Problem Solved by Smaller Cellss]({{< relref "2025-move-fast-break-silos-4-aligning-teams" >}})
 - Chapter 5: Scaling Orgs
 - Chapter 6: Emancipating People
