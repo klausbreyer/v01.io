@@ -2,7 +2,7 @@
 title: "How to Slice Work - First Principles to Build The Product Process"
 date: 2025-06-02T15:05:55+02:00
 categories: ["Agile"]
-image: work.png
+image: preview.png
 social: https://www.linkedin.com/posts/klaus-breyer_in-my-latest-blog-post-i-share-how-to-slice-activity-7335657338063802368-WdnR?
 ---
 
@@ -19,12 +19,12 @@ When tackling complex projects, clear objectives are not just crucial; they are 
 
 ## Slicing Problems
 
-## What is your Problem?
+### What is the Problem?
 
 ![contextoutcome.png](contextoutcome.png)
 First, let's address the most critical principle: differentiating between problems and solutions.
 
-Clearly defining your current context involves understanding your starting point, constraints, and available resources and articulating your desired outcome, specifying exactly what success looks like.
+Clearly defining your current context involves understanding your starting point, constraints, and available resources and articulating your desired outcome, specifying exactly what success looks like. For additional context (pun intended), take a look at Ryan Singer's [blog article on Framing](https://www.ryansinger.co/framing/).
 
 ### Variable Scope Guarantees Quality
 
