@@ -1,5 +1,6 @@
 ## Podcasts
 
+- 2025: 🇺🇸 [Tech Lead Journal - #224 Move Fast, Break Silos: Leadership for Interdisciplinary Teamsh]({{< relref path="2025-techlead-journal-move-fast-break-silos">}})
 - 2025: 🇩🇪 [Pixels + Profit: Stifte waren gestern, Edding goes Tech]({{< relref path="2025-pixels-profits-edding-goes-tech" lang="de">}})
 - 2023: 🇺🇸 [#AgileWay: Interdisciplinary Teams]({{< relref path="2025-agileway-agile-prague" >}})
 - 2023: 🇺🇸 [alphalist CTO Masterclass: Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations]({{< relref path="2025-alphalist-move-fast-break-silos" >}})
