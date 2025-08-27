@@ -16,7 +16,7 @@ tags:
     "Web Technologies",
     "Affiliate",
   ]
-categories: ["Meta"]
+categories: ["Personal"]
 ---
 
 ![](9783955617943.jpg)
