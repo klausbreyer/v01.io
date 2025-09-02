@@ -2,11 +2,16 @@
 title: "Französisch Polynesien – Ein Bericht."
 date: 2025-09-01
 categories: ["Travel"]
+image: "gallery/079_xxx_DJI_20250807144347_0079_D_0000_hu_1aacf97e1c8d0236.png"
 ---
 
-Heute – mal ganz offtopic – möchte ich mal wieder von einer Reise berichten. Die Reise war schon lange geplant und ein Sehnsuchtsziel mit familiärer Backstory dazu. Und es ist ein Ziel, das nicht jeder kennt – geschweige denn weiß, wo es liegt. Deshalb möchte ich euch auch mal mitnehmen auf die Reise.
+![Blick auf das Atoll – Französisch Polynesien](gallery/079_xxx_DJI_20250807144347_0079_D_0000_hu_1aacf97e1c8d0236.png)
 
-Die gewählte Form hier ist ein Excerpt meiner Gedanken, wie ich sie während meiner Reise hatte – ursprünglich veröffentlicht im privaten Familienblog, nur minimal für den Lesefluss redigiert und von für euch wahrscheinlich eher langweiligen Aktivitätsbeschreibungen erleichtert.
+Heute möchte ich von der Reise mit meiner Frau nach Französisch Polynesien berichten. Die Reise war schon lange geplant - Sehnsuchtsziel mit familiärer Backstory: Meine Schwiegereltern waren dort, als sie in unserem Alter waren und deshalb haben sie unsere Kinder liebend gerne für 3 Wochen Ferien übernommen, um uns das selbe zu erlauben.
+
+Französisch Polynesien ist ein Ziel, dass nicht jeder kennt – geschweige denn weiß, wo es überhaupt liegt. Deshalb möchte ich euch mitnehmen auf meine Reise.
+
+Die gewählte Form hier ist ein Excerpt meiner Gedanken, wie ich sie während meiner Reise hatte – ursprünglich veröffentlicht im privaten Familienblog, nur minimal für den Lesefluss redigiert und von für euch wahrscheinlich eher langweiligen Aktivitätsbeschreibungen gekürzt.
 
 Die Eckdaten:
 
@@ -33,12 +38,14 @@ Das, was man hier hat, ist irgendwie „natürlicher“. Man merkt, dass es eine
 Ein paar Beispiele:
 
 - Die meisten Gärten zur Straße hin sind tiptop gemacht – nur halt mit tropischen und fremden Elementen.
-
 - Die meisten Dinge sind aus Holz oder aus hochwertigerem Plastik als in Indonesien. Und handwerklich sehr hochwertig gearbeitet.
-
 - Genauso die Prints, die man auf den T-Shirts im Souvenirshop findet. Auf jeden Fall für das westliche Auge gemacht, aber mit ganz starken Einflüssen eben.
 
 Also vielleicht sorgt ausgerechnet das Französische, also das Westliche, dafür, dass es für uns vergleichbarer wird – und deshalb noch exotischer wirkt? Solche Gedanken beschäftigten mich.
+
+–
+
+Wale sind unglaublich majestätische Tiere. Vor allem wenn sie einem bis auf ein paar Meter nahekommen. Beim Schnorcheln im offenen Meer. Mit unglaublichen Wellen. Das war es wert, für die restliche Fahrt noch zwei weitere Stunden nur zu kotzen.
 
 –
 
@@ -61,6 +68,10 @@ Wenn so ein Atoll gerade mal eine Straße hat und alle nur mit Schrittgeschwindi
 –
 
 In der Not lernt man sich ja zu helfen. ChatGPT ist ein guter Zugang zum Internet, vor allem in Situationen wie hier, wenn das Internet schlecht ist. Weil es ist selbst mit Edge immer noch gut genug für ChatGPT, und dann kann man ChatGPT recherchieren lassen und fragt einfach die Dinge, die man wissen möchte, anstatt selbst ewig zu recherchieren und zu warten.
+
+–
+
+Die Unterkünfte, die man für die Preise von hiesigen Luxusferienzielen erhält, sind auf einem Airbnb-Niveau, das ich in Deutschland nicht ohne schlechte Rezension akzeptieren würde.
 
 –
 
