@@ -1,6 +1,6 @@
 ---
 title: "Mein Scrum ist kaputt! Folge 138: Shape Up (mit Klaus Breyer)"
-date: 2025-07-14
+date: 2025-08-29
 categories: ["Leadership"]
 image: preview.jpg
 ---
