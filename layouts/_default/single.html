@@ -9,9 +9,7 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
 </div>
 {{ end }}
 
-<article
-  class='{{.File.Dir }} {{.File.BaseFileName}} print:my-0 grid grid-cols-8 gap-2'
->
+<article class='{{.File.Dir }} {{.File.BaseFileName}} print:my-0 grid grid-cols-8 gap-2'>
   <h1 class="text-4xl font-display font-bold text-pretty col-span-full">{{ .Title }}</h1>
   <aside class="font-display col-span-full print:hidden">
     <ul class="flex gap-2 flex-wrap">
@@ -31,12 +29,7 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
       {{ end }} {{if .Params.Social }}
       <li>
         <span>Want to leave a public comment?</span>
-        <a
-          href="{{.Params.Social}}"
-          class="text-primary hover:underline"
-          target="_blank"
-          >Join the discussion on LinkedIn.</a
-        >
+        <a href="{{.Params.Social}}" class="text-primary hover:underline" target="_blank">Join the discussion on LinkedIn.</a>
       </li>
       {{ end }} {{ if .Translations }}
       <li>
@@ -44,11 +37,7 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
 
         {{ range .Translations }}
 
-        <a
-          lang="{{.Lang}}"
-          href="{{ .Permalink }}"
-          class="text-primary hover:underline"
-        >
+        <a lang="{{.Lang}}" href="{{ .Permalink }}" class="text-primary hover:underline">
           {{partial "lang.html" .Lang }} {{ .Title }}
         </a>
 
@@ -58,37 +47,46 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
       <li class="flex gap-1 flex-wrap">
         <span>Categories:</span>
         <ul class="flex flex-wrap">
-        {{ range (.GetTerms "categories") }}
-        <li class="after:content-['/'] after:mr-[.5ch] last:after:content-none">
-          <a
-            lang="{{.Lang}}"
-            class="text-primary hover:underline"
-            href="{{ .Permalink }}"
-            >{{ .LinkTitle }}</a
-          >
-        </li> {{ end }}
-      </ul>
+          {{ range (.GetTerms "categories") }}
+          <li class="after:content-['/'] after:mr-[.5ch] last:after:content-none">
+            <a lang="{{.Lang}}" class="text-primary hover:underline" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+          </li> {{ end }}
+        </ul>
       </li>
       {{ end }} {{if gt (.GetTerms "tags") 0}}
       <li>
         <span>Tags: </span>
         {{ range (.GetTerms "tags") }}
-        <a class="text-primary hover:underline" href="{{ .Permalink }}"
-          >{{ .LinkTitle }}</a
-        >; {{ end }}
+        <a class="text-primary hover:underline" href="{{ .Permalink }}">{{ .LinkTitle }}</a>; {{ end }}
       </li>
       {{ end }}
     </ul>
   </aside>
-  <div class="{{partial "prose.html"}} col-span-full md:col-start-2 md:col-span-6 mt-8">{{ .Content }}</div>
+  <div class='{{partial "prose.html"}} col-span-full md:col-start-2 md:col-span-6 mt-8'>
+    {{ .Content }}
+  </div>
+
+  {{/* Gallery section - only show if gallery folder exists with images */}}
+  {{ $galleryPath := printf "%sgallery/" .File.Dir }}
+  {{ $galleryImages := .Resources.Match "gallery/*" }}
+  {{ if $galleryImages }}
+  <div class="col-span-full md:col-start-2 md:col-span-6 mt-8">
+    <div class="flex flex-wrap gap-1 justify-start">
+      {{ range $galleryImages }}
+      {{ if eq .MediaType.MainType "image" }}
+      {{- $resized := .Fit "2000x200" -}}
+      <a href="{{ .Permalink }}" target="_blank" class="block">
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" class="b" />
+      </a>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
   <aside class="col-span-full font-display md:col-start-2 md:col-span-6 border-t-2 w-max pt-1 print:hidden">
     <span>Found a typo?</span>
-    <a
-      target="_blank"
-      class="text-primary hover:underline"
-      href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}"
-      >Make a pull request.</a
-    >
+    <a target="_blank" class="text-primary hover:underline" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">Make a pull request.</a>
   </aside>
 </article>
 
