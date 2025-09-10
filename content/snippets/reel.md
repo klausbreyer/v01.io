@@ -3,11 +3,9 @@
 
 
 - 2025: 🇩🇪 [Mein Scrum ist kaputt! Folge 138: Shape Up (mit Klaus Breyer)]({{< relref path="2025-meinscrumistkaputt" lang="de">}})
-- 2025: 🇺🇸 [alphalist CTO Masterclass: Move Fast and Break Silos - Distributed, Yet Focused - High-Impact Remote Teams]({{< relref path="2025-alphalist-distributed-yet-focused" >}})
 - 2025: 🇺🇸 [Tech Lead Journal - #224 Move Fast, Break Silos: Leadership for Interdisciplinary Teamsh]({{< relref path="2025-techlead-journal-move-fast-break-silos">}})
 - 2025: 🇩🇪 [Pixels + Profit: Stifte waren gestern, Edding goes Tech]({{< relref path="2025-pixels-profits-edding-goes-tech" lang="de">}})
 - 2025: 🇺🇸 [#AgileWay: Interdisciplinary Teams]({{< relref path="2025-agileway-agile-prague" >}})
-- 2025: 🇺🇸 [alphalist CTO Masterclass: Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations]({{< relref path="2025-alphalist-move-fast-break-silos" >}})
 - 2025: 🇩🇪 [Systemisch - Agil: Agile für interdisziplinäre Teams]({{< relref path="2025-systemisch-agil" lang="de">}})
 - 2025: 🇩🇪 [Product Masterclass: B2B SaaS bei edding – mit interdisziplinären Teams]({{< relref path="2025-product-masterclass-edding" lang="de">}})
 - 2025: 🇩🇪 [Empowered Product Teams bei edding mit Klaus Breyer](https://www.youtube.com/watch?v=TioXYWRmZZI)
@@ -17,7 +15,8 @@
 
 ## Talks
 
-- 2025: 🇺🇸 [Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations]({{< relref path="2025-alphalist-move-fast-break-silos">}})
+- 2025: 🇺🇸 [Distributed, Yet Focused - High-Impact Remote Teams]({{< relref path="2025-alphalist-distributed-yet-focused" >}})
+- 2025: 🇺🇸 [Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations]({{< relref path="2025-alphalist-move-fast-break-silos" >}})
 - 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})
 - 2022: 🇺🇸 [From Scrum to Shape Up – Grey Areas Dring Transit (Shape Up Practitioners Meetup)](https://www.youtube.com/watch?v=XEnrFbR2qso)
 - 2022: 🇺🇸 [Shape Up Experiments for a Scrum Team (CTO Craft Conference)](https://www.youtube.com/watch?v=cUTvxNkUQrg)
