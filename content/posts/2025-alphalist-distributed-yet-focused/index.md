@@ -1,26 +1,33 @@
 ---
-title: “Warum Tickets Silos schaffen und echte Kollaboration verhindern – und wie es besser geht”
-date: 2025-09-12
-categories: [“Leadership”, “Product”, “Collaboration”]
+title: "Distributed, Yet Focused - High-Impact Remote Teams"
+date: 2025-06-19
+categories: ["Leadership"]
+aliases:
+  - "/2025-alphalist-remote/"
+
 image: preview.png
 ---
 
+I taught a masterclass for CTOs of the [alphalist](https://alphalist.com) community:
 
-Heute halte ich auf der Working Products Konferenz in Hamburg einen Vortrag darüber, warum Tickets Silos schaffen – und wie es besser geht.
+**Distributed, Yet Focused – High-Impact Remote Teams**
 
-Tickets hatten ihre Berechtigung, als Teams vor allem aus Entwickler:innen bestanden und vor übergriffigem Management geschützt werden mussten. Heute geht es aber nicht mehr nur darum, Fehler zu vermeiden. In einem engen Wettbewerbsumfeld zählt Exzellenz – und der echte Mehrwert für Nutzer:innen.
+Remote work isn’t a challenge – it’s an advantage.  
+But offices create culture by accident. Remote teams need to design it on purpose.
 
-Die Shape Up Methode von Basecamp bietet dafür einen spannenden Ansatz: „fixed time, variable scope“. Indem wir den Scope flexibel anpassen, bleiben Kosten, Zeit und Qualität verlässlich.
+We’ll talked about:
 
-Das funktioniert jedoch nur, wenn Zusammenarbeit wirklich stattfindet. Wenn Tickets einseitig erstellt und dann nur „abgearbeitet“ werden, verhindert das echten Fortschritt. Besser: Entwickler:innen, Designer:innen und Produktmanagement arbeiten beim Shaping eines Projekts gemeinsam – auf Augenhöhe.
+🧭 How async communication, sync rituals, and clear expectations make the difference  
+📊 Why visibility ≠ productivity – and what to measure instead  
+🤝 How intentional culture fosters real belonging  
+💸 And why a few more great people might be better than an office lease
 
-Ich erzähle anhand eines Beispiels aus meiner Arbeit bei der edding AG, wie wir ein Legacy-Projekt mit ausgelagerter Entwicklung in ein empowered Product Team transformiert haben – vollständig remote.
+This talk is built on real experiments: from founding startups to transforming corporates, including my current work leading product and tech at edding AG. You'll get practical rituals, team habits, and leadership patterns that help distributed teams focus, connect, and perform.
 
-Mein Ziel: zeigen, wie man Silos in der eigenen Organisation aufbricht, echte Zusammenarbeit etabliert und dadurch bessere Produkte baut.
-
+---
 
 ## Slides
 
-{{< pdf src="/downloads/2025-working-products/2025-working-products.pdf" >}}
+{{< pdf src="/downloads/2025-alphalist-distributed-yet-focused/2025-alphalist-distributed-yet-focused.pdf" >}}
 
-[Download Slides](/downloads/2025-working-products/2025-working-products.pdf)
+[Download Slides](/downloads/2025-alphalist-distributed-yet-focused/2025-alphalist-distributed-yet-focused.pdf)
