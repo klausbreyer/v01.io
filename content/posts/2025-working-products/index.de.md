@@ -5,7 +5,6 @@ categories: [“Leadership”, “Product”, “Collaboration”]
 image: preview.de.png
 ---
 
-
 Heute halte ich auf der Working Products Konferenz in Hamburg einen Vortrag darüber, warum Tickets Silos schaffen – und wie es besser geht.
 
 Tickets hatten ihre Berechtigung, als Teams vor allem aus Entwickler:innen bestanden und vor übergriffigem Management geschützt werden mussten. Heute geht es aber nicht mehr nur darum, Fehler zu vermeiden. In einem engen Wettbewerbsumfeld zählt Exzellenz – und der echte Mehrwert für Nutzer:innen.
@@ -18,6 +17,9 @@ Ich erzähle anhand eines Beispiels aus meiner Arbeit bei der edding AG, wie wir
 
 Mein Ziel: zeigen, wie man Silos in der eigenen Organisation aufbricht, echte Zusammenarbeit etabliert und dadurch bessere Produkte baut.
 
+## Aufnahme
+
+{{< youtube 4ELZ0IflvRY >}}
 
 ## Slides
 
