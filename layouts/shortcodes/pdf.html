@@ -1,5 +1,7 @@
 {{ with .Get "src" }}
-<embed src="{{ . }}" type="application/pdf" width="100%" height="600px" />
+<div class="relative w-full" style="aspect-ratio: 16 / 9;">
+	<embed src="{{ . }}" type="application/pdf" class="absolute inset-0 w-full h-full" />
+</div>
 {{ else }}
 <p>Error: No PDF source provided.</p>
 {{ end }}
