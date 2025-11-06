@@ -3,9 +3,9 @@ title: "Slow Productivity, Cal Newport, 2024"
 date: 2024-01-01
 aliases:
   - /posts/2024-slow-productivity/
-categories: ["Bookshelf"]
-aliases:
   - "/posts/2024-bookshelf-slow-productivity/"
+categories: ["Bookshelf"]
+  
 ---
 
 {{< gallery "https://amzn.to/3vLpJFu,slow-productivity.png" >}}
