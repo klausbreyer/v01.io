@@ -7,9 +7,13 @@ image: preview.jpg
 ---
 I hadn’t hired anyone in a year.
 
-Then I stepped into my new role as CPTO at myo, and suddenly I was back in the game. We have a very specific stack, Elixir and Phoenix. From the beginning I was open to remote candidates from across the EU.
+Then I stepped into my new role as CPTO at [myo](https://myo.de) and now need to expand the team.
 
-We posted the job on Join, which distributes to places like Stepstone and LinkedIn. Very quickly I received a surprisingly strong wave of applications. And very quickly I started the first interviews.
+We have a very specific stack, Elixir and Phoenix, so from the beginning I was open to remote candidates from across the EU.
+
+We posted the job on Join - you can find the [job description here](https://join.com/companies/myo/15141324). They then distributes the job to places like Stepstone, LinkedIn, and probably others I’m not aware of.
+
+Very quickly I received a surprisingly strong wave of applications. And very quickly I started the first interviews.
 
 An Asian candidate living in Italy. Another Asian candidate living in Poland. Nothing unusual. I did not think twice.
 
