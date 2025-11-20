@@ -5,13 +5,13 @@ categories: ["Remote"]
 image: preview.jpg
 # social: https://www.linkedin.com/posts/klaus-breyer_in-my-latest-blog-post-i-share-how-to-slice-activity-7335657338063802368-WdnR?
 ---
-I hadn’t hired anyone in a year.
+I hadn't hired anyone in a year.
 
 Then I stepped into my new role as CPTO at [myo](https://myo.de) and now need to expand the team.
 
 We have a very specific stack, Elixir and Phoenix, so from the beginning I was open to remote candidates from across the EU.
 
-We posted the job on Join - you can find the [job description here](https://join.com/companies/myo/15141324). They then distributes the job to places like Stepstone, LinkedIn, and probably others I’m not aware of.
+We posted the job on Join - you can find the [job description here](https://join.com/companies/myo/15141324). They then distributes the job to places like Stepstone, LinkedIn, and probably others I'm not aware of.
 
 Very quickly I received a surprisingly strong wave of applications. And very quickly I started the first interviews.
 
@@ -45,11 +45,11 @@ I want to share a few real examples from my hiring pipeline. There are some surp
 
 ### LinkedIn profile pictures
 
-
 ![Example LinkedIn profile photo from a North Korean scammer: face-swapped, AI generated, with a Western landmark in the background.](preview.jpg)
 
 AI generated, often face swapped, and using Western landmarks in the background.
 
+In general, they often have very few connections or the profile is extremely new.
 
 ### The CV matches the job ad too perfectly
 
@@ -71,7 +71,22 @@ I received several applications from Poland with the last name Kowalski. Of cour
 
 Almost always something like _firstname.lastname@ outlook.com_
 
-I don’t know a single credible engineer who uses an Outlook address - WTF. 
+I don't know a single credible engineer who uses an Outlook address - WTF. 
+
+### Blogs
+
+Real developers usually have some kind of footprint. Even a tiny personal site or a blog with a single post from seven years ago helps. 
+
+Scammers don't put in that effort - yet.
+
+
+### Reliability
+
+They rarely reply when you ask for clarification on something. 
+
+And sometimes they are simply a no-show in the meeting - without any message. 
+
+(To be fair, that's almost a knockout criterion even for non-scammers.)
 
 ## So what now
 
