@@ -25,7 +25,9 @@ I already wrote about it on [LinkedIn](https://www.linkedin.com/posts/klaus-brey
 
 And it continued.
 
-More Asian candidates who underperformed in the actual conversation. They had Polish or Italian first and last names. I actively work against bias of any kind, especially racial bias. So an Asian Mateusz or Mariusz didn’t raise any flags for me. Who knows where life brings people. That was my thinking.
+More Asian candidates who underperformed in the actual conversation. They had Polish or Italian first and last names.
+
+I actively worked against bias of any kind, especially racial bias. So I continued interviewing Asian Mateusz or Mariusz - who am I to question where love falls? That was my thinking.
 
 Then I had a conversation with a recruiter (Thanks, Arjun!) who pointed out that these were very likely North Korean remote job scammers. [This YouTube video explains it extremely well.](https://www.youtube.com/watch?v=Y7x0gvfFa0Q)
 
@@ -51,7 +53,6 @@ AI generated, often face swapped, and using Western landmarks in the background.
 
 These CVs often look like direct reflections of your job advertisement. The structure, requirements, skills, and even phrasing match almost word for word. If a CV seems like it was reverse engineered to perfectly fit your job offer, be extra cautious.
 
-
 Some CVs were reverse engineered from my job description. One candidate literally bolded the requirements that I had listed.
 
 ### The CV is too good
@@ -66,7 +67,7 @@ I received several applications from Poland with the last name Kowalski. Of cour
 
 Almost always something like _firstname.lastname@ outlook.com_
 
-I don’t know a single engineer who uses an Outlook address for personal applications.
+I don’t know a single credible engineer who uses an Outlook address - WTF. 
 
 ## So what now
 
@@ -75,5 +76,3 @@ For my Elixir developer role I am now thinking about hosting the next Berlin Eli
 Honestly, I prefer the kind of interview where a candidate apologizes because their kid interrupts the call since the daycare is closed.
 
 At least that is real.
-
-
