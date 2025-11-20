@@ -15,7 +15,7 @@ We posted the job on Join - you can find the [job description here](https://join
 
 Very quickly I received a surprisingly strong wave of applications. And very quickly I started the first interviews.
 
-An Asian candidate living in Italy. Another Asian candidate living in Poland. Nothing unusual. I did not think twice.
+An Asian candidate living in Italy. Another Asian candidate living in Poland. Nothing unusual, just not up to my expectations. I did not think twice.
 
 Then I had a complete disaster of an intro call.
 
@@ -31,7 +31,7 @@ And it continued.
 
 More Asian candidates who underperformed in the actual conversation. They had Polish or Italian first and last names.
 
-I actively worked against bias of any kind, especially racial bias. So I continued interviewing Asian Mateusz or Mariusz - who am I to question where love falls? That was my thinking.
+I actively worked against bias of any kind, especially racial bias. So I continued interviewing Asian Mateusz or Mariusz - who am I to question where life leads them (or their parents)? That was my thinking.
 
 Then I had a conversation with a recruiter (Thanks, Arjun!) who pointed out that these were very likely North Korean remote job scammers. [This YouTube video explains it extremely well.](https://www.youtube.com/watch?v=Y7x0gvfFa0Q)
 
