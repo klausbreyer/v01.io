@@ -51,6 +51,16 @@ AI generated, often face swapped, and using Western landmarks in the background.
 
 In general, they often have very few connections or the profile is extremely new.
 
+
+### Stereotypical names
+
+I received several applications from Poland with the last name Kowalski. Of course you need to be careful here. But if the whole profile already feels odd, the name pattern is often another small indicator.
+
+
+### The CV is too good
+
+Capgemini, Accenture, ThoughtWorks, Deloitte all in one neat line. Everything perfectly aligned with the seniority you want. It looks impressive until it starts looking fake.
+
 ### The CV matches the job ad too perfectly
 
 ![Example CV screenshot from a North Korean scammer: resume structure, formatting, and even wording carefully tailored to mirror the job ad.](cv.png)
@@ -59,13 +69,6 @@ These CVs often look like direct reflections of your job advertisement. The stru
 
 Some CVs were reverse engineered from my job description. One candidate literally bolded the requirements that I had listed.
 
-### The CV is too good
-
-Capgemini, Accenture, ThoughtWorks, Deloitte all in one neat line. Everything perfectly aligned with the seniority you want. It looks impressive until it starts looking fake.
-
-### Stereotypical names
-
-I received several applications from Poland with the last name Kowalski. Of course you need to be careful here. But if the whole profile already feels odd, the name pattern is often another small indicator.
 
 ### Email addresses
 
