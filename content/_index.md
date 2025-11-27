@@ -2,7 +2,7 @@
 title: Home
 date: 2023-09-01
 lastmod: 2024-11-27
-summary: As a startup founder and experienced CPTO, I break silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. As an interim manager or advisor, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership.
+summary: I am an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder and business unit lead, I bridge the gap between technical delivery and agile product strategy. Sometimes, I invest or advise, helping leadership teams build interdisciplinary teams themselves.
 ---
 
 ![That's me!](/images/klaus-breyer-a-landscape.jpg)

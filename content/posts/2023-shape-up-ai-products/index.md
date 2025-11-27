@@ -1,7 +1,7 @@
 ---
 title: "Shape Up for AI Products: Prototyping while Shaping"
 date: 2023-11-16
-summary: "Exploring the synergy of Shaping and Prototyping in AI project management using Shape Up methodology."
+
 categories: ["Product"]
 tags: ["AI Development", "Project Management", "Shape Up", "Prototyping"]
 social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-for-ai-products-prototyping-while-activity-7132273349451223040-E20s"

@@ -12,8 +12,7 @@ aliases:
 
 Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
-
-## Startup Exits
+## Startup Founded / Exited
 
 I transform innovative ideas into successful ventures through strategic planning and pragmatic execution. This involves selling the product & tech vision to stakeholders, achieving product-market fit, and scaling it way beyond.
 
@@ -22,11 +21,12 @@ I transform innovative ideas into successful ventures through strategic planning
 - [Buddybrand GmbH](https://buddybrand.com/) - **Founder & CTO / Digital Agency / Social Media:** Started post-university; spearheaded the creation of Facebook apps in Germany as the first "Facebook Agency." Grew the company significantly to 35 FTE, contributing to its current status as a renowned full-service digital agency. (2010–2015)
 
 {{< breakbefore >}}
+
 ## Interim Management
 
 I assemble and manage interdisciplinary product and tech units, including senior leaders, to excel in remote settings. I address critical challenges and deliver substantial user value by structuring product and engineering processes, aligning with product strategy, and managing stakeholders effectively.
 
-- [edding AG](https://edding.com.com/) - **Head of Product & Technology / B2B SaaS / Mobility:** edding’s digital focus is on the innovative easycheck product, a cutting-edge digital driver’s license control solution with ML at its core. I am establishing B2B SaaS standards in a traditionally non-digital company while transforming easycheck from a corporate feature factory to an empowered product team, all in a fully remote setting. (2023–now)
+- [edding AG](https://edding.com.com/) - **Head of Product & Technology / B2B SaaS / Mobility:** I was responsible for easycheck, a digital driver’s license verification product with an ML core. During this time, I introduced B2B SaaS standards into a traditionally non-digital organization and transformed the product org twice: first from siloed work to an empowered product team, and later by leading the product through its [exit to Azowo](https://azowo.com/de/news/fuhrparksoftwareanbieter-azowo-gmbh-uebernimmt-das-produkt-easycheck-by-edding) (2023–2025).
 
 - [Voith Hydro Pocket](https://hydropocket.com/) - **Tech Lead / B2B SaaS / IIoT:** I led the tech unit for Voith GmbH's Hydro Pocket, establishing the team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2019–2023)
 
