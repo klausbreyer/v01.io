@@ -31,6 +31,7 @@ Klaus, leading Product & Technology at edding, shares insights from leading inte
 > Outstanding presentation! THANK YOU - very inspiring!"
 
 (Emanuel Schleussinger, CTO CHRONEXT)
+
 ## Recording
 
 {{< youtube WoUWJjmZC3Q >}}

@@ -13,7 +13,12 @@ Shape Up by Basecamp offers a fresh alternative: “fixed time, variable scope.�
 
 My goal with this talk is to share why breaking the ticket cycle is so crucial – and to show a path forward toward truly empowered, interdisciplinary collaboration.
 
-Slides
+
+## Recording
+
+{{< youtube WoUWJjmZC3Q >}}
+
+## Slides
 
 {{< pdf src="/downloads/2025-agileprague/2025-agileprague.pdf" >}}
 
