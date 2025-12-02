@@ -16,7 +16,7 @@ My goal with this talk is to share why breaking the ticket cycle is so crucial â
 
 ## Recording
 
-{{< youtube WoUWJjmZC3Q >}}
+{{< youtube 8l1l_H7la6A >}}
 
 ## Slides
 
