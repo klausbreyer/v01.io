@@ -22,10 +22,11 @@
   </nav>
   {{ end }} {{ if not .Params.Pure }}
   <h2 class="sr-only">Entries</h2>
+  {{ partial
+    "translations.html" . }}
   {{ $filteredPages := slice }} {{ range .Pages }} {{ $intersection := intersect
   .Params.categories (slice "Bookshelf") }} {{ if eq (len $intersection) 0 }} {{
   $filteredPages = $filteredPages | append . }} {{ end }} {{ end }} {{ partial
-  "entries-list.html" (dict "Pages" $filteredPages) }} {{ end }} {{ partial
-  "translations.html" . }}
+  "entries-list.html" (dict "Pages" $filteredPages) }} {{ end }} 
 </div>
 {{ end }}

@@ -1,16 +1,14 @@
+<div class="mb-4 text-lg font-semibold" >
+    Translations: 
 {{ if .Translations }}
-<h4 class="mb-2 text-lg font-semibold">Translations</h4>
-<ul class="pl-5 list-disc">
     {{ range .Translations }}
-    <li class="mb-1">
         <a
             lang="{{.Lang}}"
             href="{{ .Permalink }}"
-            class="text-primary hover:underline"
+            class="text-primary hover:underline mb-2 "
         >
             {{partial "lang.html" .Lang }} {{ .Title }}
-        </a>
-    </li>
+            </a>
     {{ end }}
-</ul>
 {{ end }}
+</div>
