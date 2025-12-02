@@ -1,5 +1,5 @@
 ---
-title: "Tickets Create Silos"
+title: "Agile Prague 2025: Tickets Create Silos"
 date: 2025-09-16
 categories: ["Leadership", "Product", "Collaboration"]
 image: preview.jpg
@@ -15,6 +15,6 @@ My goal with this talk is to share why breaking the ticket cycle is so crucial �
 
 Slides
 
-{{< pdf src=”/downloads/2025-agileprague/2025-agileprague.pdf” >}}
+{{< pdf src="/downloads/2025-agileprague/2025-agileprague.pdf" >}}
 
 [Download Slides](/downloads/2025-agileprague/2025-agileprague.pdf)

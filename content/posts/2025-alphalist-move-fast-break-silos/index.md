@@ -1,5 +1,5 @@
 ---
-title: "Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations"
+title: "alphalist: Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations"
 date: 2025-02-24
 categories: ["Leadership"]
 aliases:
@@ -31,6 +31,9 @@ Klaus, leading Product & Technology at edding, shares insights from leading inte
 > Outstanding presentation! THANK YOU - very inspiring!"
 
 (Emanuel Schleussinger, CTO CHRONEXT)
+## Recording
+
+{{< youtube WoUWJjmZC3Q >}}
 
 ## Slides
 

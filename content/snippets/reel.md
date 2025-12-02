@@ -14,7 +14,10 @@
 - 2015: 🇩🇪 [WhatsApp für Unternehmen – Macht das Sinn?](https://superdev.club/podcasts/shape-up/)
 
 ## Talks
-
+- 2025: 🇺🇸 [ML Week Europe: Bridging the AI-UX Gap in B2B SaaS through Interdisciplinary Collaboration]({{< relref path="2025-mlweek" >}})
+- 2025: 🇺🇸 [CodeTalks Hamburg: Move Fast and break Silos - Interdisciplinary Teams That Work]({{< relref path="2025-codetalks" >}})
+- 2025: 🇺🇸 [Agile Prague 2025: Tickets Create Silos]({{< relref path="2025-agileprague" >}})
+- 2025: 🇩🇪 [Working Products 2025: Warum Tickets Silos schaffen und echte Kollaboration verhindern – und wie es besser geht]({{< relref path="2025-working-products" lang="de">}})
 - 2025: 🇺🇸 [Distributed, Yet Focused - High-Impact Remote Teams]({{< relref path="2025-alphalist-distributed-yet-focused" >}})
 - 2025: 🇺🇸 [Move Fast and Break Silos - Leading Interdisciplinary Teams and Organizations]({{< relref path="2025-alphalist-move-fast-break-silos" >}})
 - 2023: 🇩🇪 [Shape Up: Die Kunst ständiger Risikominimierung in agiler Softwareentwicklung]({{< relref path="2023-shape-up-risikominimierung-agile-softwareentwicklung-talk" lang="de">}})

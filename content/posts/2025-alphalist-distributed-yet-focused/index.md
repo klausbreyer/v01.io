@@ -1,5 +1,5 @@
 ---
-title: "Distributed, Yet Focused - High-Impact Remote Teams"
+title: "alphalist: Distributed, Yet Focused - High-Impact Remote Teams"
 date: 2025-06-19
 categories: ["Leadership"]
 aliases:
@@ -25,6 +25,10 @@ We’ll talked about:
 This talk is built on real experiments: from founding startups to transforming corporates, including my current work leading product and tech at edding AG. You'll get practical rituals, team habits, and leadership patterns that help distributed teams focus, connect, and perform.
 
 ---
+## Recording
+
+{{< youtube RQdBasFtLDs >}}
+
 
 ## Slides
 
