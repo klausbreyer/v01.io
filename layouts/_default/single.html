@@ -10,9 +10,9 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
 {{ end }}
 
 <article class='{{.File.Dir }} {{.File.BaseFileName}} print:my-0 grid grid-cols-8 gap-2'>
-  <h1 class="text-4xl font-display font-bold text-pretty col-span-full">{{ .Title }}</h1>
-  <aside class="font-display col-span-full print:hidden">
-    <ul class="flex gap-2 flex-wrap">
+  <h1 class="col-span-full text-4xl font-bold font-display text-pretty">{{ .Title }}</h1>
+  <aside class="col-span-full font-display print:hidden">
+    <ul class="flex flex-wrap gap-2">
       <li>
         <span>Published On:</span>
         <time datetime='{{ .Date.Format "2006-01-02" }}'>
@@ -44,7 +44,7 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
         {{ end }}
       </li>
       {{ end }} {{if gt (.GetTerms "categories") 0}}
-      <li class="flex gap-1 flex-wrap">
+      <li class="flex flex-wrap gap-1">
         <span>Categories:</span>
         <ul class="flex flex-wrap">
           {{ range (.GetTerms "categories") }}
@@ -67,24 +67,34 @@ or (eq .Section "shape-up") (in (split .File.Dir "/") "shape-up") }}
   </div>
 
   {{/* Gallery section - only show if gallery folder exists with images */}}
-  {{ $galleryPath := printf "%sgallery/" .File.Dir }}
-  {{ $galleryImages := .Resources.Match "gallery/*" }}
+  {{ $galleryImages := where (.Resources.Match "gallery/*") "MediaType.MainType" "image" }}
+
   {{ if $galleryImages }}
-  <div class="col-span-full md:col-start-2 md:col-span-6 mt-8">
+
+  {{ $withExif := where $galleryImages ".Exif.Date" "!=" nil }}
+  {{ $withExif = sort $withExif ".Exif.Date" "asc" }}
+
+  {{ $withoutExif := where $galleryImages ".Exif.Date" "==" nil }}
+  {{ $withoutExif = sort $withoutExif ".Name" "asc" }}
+
+  {{ $sortedImages := slice }}
+  {{ $sortedImages = $sortedImages | append $withExif }}
+  {{ $sortedImages = $sortedImages | append $withoutExif }}
+
+  <div class="col-span-full mt-8 md:col-start-2 md:col-span-6">
     <div class="flex flex-wrap gap-1 justify-start">
-      {{ range $galleryImages }}
-      {{ if eq .MediaType.MainType "image" }}
-      {{- $resized := .Fit "2000x200" -}}
+      {{ range $sortedImages }}
+      {{- $resized := .Fit "2000x2000" -}}
       <a href="{{ .Permalink }}" target="_blank" class="block">
-        <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" class="b" />
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" />
       </a>
-      {{ end }}
       {{ end }}
     </div>
   </div>
+
   {{ end }}
 
-  <aside class="col-span-full font-display md:col-start-2 md:col-span-6 border-t-2 w-max pt-1 print:hidden">
+  <aside class="col-span-full pt-1 w-max border-t-2 font-display md:col-start-2 md:col-span-6 print:hidden">
     <span>Found a typo?</span>
     <a target="_blank" class="text-primary hover:underline" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">Make a pull request.</a>
   </aside>
