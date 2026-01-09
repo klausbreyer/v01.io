@@ -38,6 +38,6 @@ Klaus, leading Product & Technology at edding, shares insights from leading inte
 
 ## Slides
 
-{{< pdf src="/downloads/2025-alphalist-move-fast-break-silos/2025-02-alphalist-move-fast-and-break-silos.pdf" >}}
+{{< pdf src="2025-02-alphalist-move-fast-and-break-silos.pdf" >}}
 
-[Download Slides](/downloads/2025-alphalist-move-fast-break-silos/2025-02-alphalist-move-fast-and-break-silos.pdf)
+[Download Slides](2025-02-alphalist-move-fast-and-break-silos.pdf)

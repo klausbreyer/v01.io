@@ -20,6 +20,6 @@ My goal with this talk is to share why breaking the ticket cycle is so crucial â
 
 ## Slides
 
-{{< pdf src="/downloads/2025-agileprague/2025-agileprague.pdf" >}}
+{{< pdf src="2025-agileprague.pdf" >}}
 
-[Download Slides](/downloads/2025-agileprague/2025-agileprague.pdf)
+[Download Slides](2025-agileprague.pdf)

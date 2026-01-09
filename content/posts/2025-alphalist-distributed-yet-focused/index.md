@@ -32,6 +32,6 @@ This talk is built on real experiments: from founding startups to transforming c
 
 ## Slides
 
-{{< pdf src="/downloads/2025-alphalist-distributed-yet-focused/2025-alphalist-distributed-yet-focused.pdf" >}}
+{{< pdf src="2025-alphalist-distributed-yet-focused.pdf" >}}
 
-[Download Slides](/downloads/2025-alphalist-distributed-yet-focused/2025-alphalist-distributed-yet-focused.pdf)
+[Download Slides](2025-alphalist-distributed-yet-focused.pdf)

@@ -22,6 +22,6 @@ Machine Learning adds complexity to product design—not just in implementation,
 
 ## Slides
 
-{{< pdf src="/downloads/2025-mlweek/2025-mlweek.pdf" >}}
+{{< pdf src="2025-mlweek.pdf" >}}
 
-[Download Slides](/downloads/2025-mlweek/2025-mlweek.pdf)
+[Download Slides](2025-mlweek.pdf)

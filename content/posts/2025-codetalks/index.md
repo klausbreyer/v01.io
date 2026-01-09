@@ -18,8 +18,14 @@ Everything is based on practical experience from startup exits to corporate tran
 
 ---
 
-### Slides
+## Recording
 
-{{< pdf src="/downloads/2025-codetalks/2025-codetalks.pdf" >}}
+{{< youtube dhwLTnnotvw >}}
 
-[Download Slides](/downloads/2025-codetalks/2025-codetalks.pdf)
+---
+
+## Slides
+
+{{< pdf src="2025-codetalks.pdf" >}}
+
+[Download Slides](2025-codetalks.pdf)
