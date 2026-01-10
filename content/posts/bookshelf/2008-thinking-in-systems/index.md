@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-thinking-in-systems/"
 ---
 
-{{< gallery "https://amzn.to/3lZmQf0,systems.png" >}}
+{{< gallery "https://amzn.to/3lZmQf0,title.jpg" >}}
 
 In the labyrinth of modern business operations, it's often the unseen forces that dictate the flow of progress and setbacks alike. Just as the natural world thrives on the interconnectedness of its myriad components, so too do organizations operate within the framework of systems—both subtle and overt. The book "Thinking in Systems: A Primer" by Donella H. Meadows provides profound insights into this phenomenon, challenging us to look beyond individual elements to the connections and purposes that bind them.
 Systems in Design and Application

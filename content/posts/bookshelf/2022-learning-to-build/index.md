@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-learning-to-build/"
 ---
 
-{{< gallery "https://amzn.to/3lJ6Nll,learning-build.png" >}}
+{{< gallery "https://amzn.to/3lJ6Nll,title.jpg" >}}
 
 In the dynamic world of product development, mastering the art of customer interviews is crucial for unearthing genuine needs and fostering innovation. Bob Moesta's book, _Learning to Build_, serves as an indispensable guide, packed with nuanced strategies that enhance our understanding of what customers truly desire, beyond mere surface-level interactions.
 

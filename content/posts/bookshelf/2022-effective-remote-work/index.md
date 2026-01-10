@@ -22,4 +22,4 @@ Through a detailed examination of remote work challenges and solutions, Stanier'
 
 (It is focused on engineers, but my wife also took a lot out of it for their job to digitally transform government work.)
 
-{{< gallery "https://amzn.to/3z5WxqO,remote.png" >}}
+{{< gallery "https://amzn.to/3z5WxqO,title.jpg" >}}

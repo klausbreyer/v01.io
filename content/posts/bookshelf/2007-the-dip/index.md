@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-the-dip/"
 ---
 
-{{< gallery "https://amzn.to/40uteL1,dip.png" >}}
+{{< gallery "https://amzn.to/40uteL1,title.jpg" >}}
 
 Imagine you're running a marathon. The beginning is exhilarating, the crowd's energy is infectious, and your adrenaline is pumping. But soon, you hit "the wall," a point where every fiber of your being screams for you to stop. This is your Dip — a test of perseverance and commitment.
 
