@@ -10,7 +10,7 @@ categories: ["Open Source"]
 ---
 
 Der 3D Drucker (Prusa) in meinem Kleiderschrank (Pax) hat jetzt einen Livestream auf Twitch. [https://www.twitch.tv/prusapax](https://www.twitch.tv/prusapax)
-![](Artboard-Copy-1024x576.png)Das komplette Setup
+![](Artboard-Copy-1024x576.de.png)Das komplette Setup
 
 ## Wie es dazu kam - Background Story
 
@@ -33,7 +33,7 @@ Meistens drucke ich am Wochenende. In den Clips könnt habe ich ein paar Aufnahm
 - Um Dateien schnell aus der iCloud mit Octopi zu synchronisieren, habe ich mir [ein eigenes Mac OS Command](https://github.com/klausbreyer/octoprint-sync) gebaut und ins Dock gezogen.
 - Wenn ich von Unterwegs eingreifen muss, kann ich mich per VPN in mein Heimnetzwerk verbinden und via OctoPi den Druck abbrechen (oder starten).
 
-![](Screenshot-2022-03-08-at-09.55.28-1-1024x567.png)
+![](Screenshot-2022-03-08-at-09.55.28-1-1024x567.de.png)
 
 Auslastung des Raspberry Pi 1 Modell B mit einem 1280x720 Twich Stream
 
@@ -45,4 +45,4 @@ Auslastung des Raspberry Pi 1 Modell B mit einem 1280x720 Twich Stream
 - Die Lampe ist eine [NÄVLINGE](https://www.ikea.com/de/de/p/naevlinge-wand-klemmspot-led-schwarz-10408273/) von IKEA.
 - Das komplette Setup (Drucker mit Octopi + Lampe + Twitch Raspberry Pi) hängt an einer [TRÅDFRI Steckdose, funkgesteuert](https://www.ikea.com/de/de/p/tradfri-steckdose-funkgesteuert-00377314/) mit [TRÅDFRI Kabelloser Dimmer](https://www.ikea.com/de/de/p/tradfri-kabelloser-dimmer-weiss-70408595/). Beides hängt an einem [TRÅDFRI Gateway](https://www.ikea.com/de/de/p/tradfri-gateway-weiss-40337806/). So kann ich über die entsprechende iOS App alles auch vom Computer aus einschalten, wenn ich z.b. neue Dateien auf den Octopi syncen will.
 
-![](IMG_4618-edited-scaled.jpg)Und so ist das ganze von außen: "Und wie sie sehen, sehen sie nichts."
+![](IMG_4618-edited-scaled.de.jpg)Und so ist das ganze von außen: "Und wie sie sehen, sehen sie nichts."
