@@ -3,6 +3,7 @@ title: "I've Got Time, Paul Loomans, 2017"
 date: 2017-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/3N5UUUj,title.jpg" >}}

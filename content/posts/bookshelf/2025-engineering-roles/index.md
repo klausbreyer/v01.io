@@ -3,6 +3,7 @@ title: "Engineering Role Descriptions, Stephan Schmidt, 2025"
 date: 2025-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://leanpub.com/engineeringroledescriptions,title.jpg" >}}

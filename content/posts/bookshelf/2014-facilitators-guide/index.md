@@ -3,6 +3,7 @@ title: "Facilitator's Guide to Participatory Decision-Making, Sam Kaner, 2014"
 date: 2014-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4qqBgAQ,title.jpg" >}}

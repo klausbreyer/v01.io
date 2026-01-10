@@ -3,6 +3,7 @@ title: "The Almanack of Naval Ravikant, Eric Jorgenson, 2021"
 date: 2021-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4qMcr2g,title.jpg" >}}

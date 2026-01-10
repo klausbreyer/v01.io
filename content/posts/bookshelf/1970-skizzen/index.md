@@ -3,6 +3,7 @@ title: "Skizzen, Max Frisch, Uwe Johnson"
 date: 1970-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/49pVrb2,title.jpg" >}}

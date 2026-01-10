@@ -3,6 +3,7 @@ title: "The Decision Book, Mikael Krogerus, Roman Tschaeppeler"
 date: 2011-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4aSzweV,title.jpg" >}}

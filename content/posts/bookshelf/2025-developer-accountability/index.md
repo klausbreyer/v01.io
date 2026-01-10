@@ -3,6 +3,7 @@ title: "Developer Accountability, Stephan Schmidt, 2025"
 date: 2025-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://leanpub.com/developeraccountability,title.jpg" >}}

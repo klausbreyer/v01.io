@@ -3,6 +3,7 @@ title: "The Crux, Richard Rumelt, 2023"
 date: 2023-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4jBoiOb,title.jpg" >}}

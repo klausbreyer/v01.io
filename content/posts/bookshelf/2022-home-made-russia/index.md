@@ -3,6 +3,7 @@ title: "Home Made Russia, Damon Murry, 2022"
 date: 2022-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/45NQVlx,title.jpg" >}}

@@ -3,6 +3,7 @@ title: "Rewilding Software Engineering, Simon Wardley, Girba Tudor, 2025"
 date: 2025-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://medium.com/feenk/rewilding-software-engineering-900ca95ebc8c,title.jpg" >}}

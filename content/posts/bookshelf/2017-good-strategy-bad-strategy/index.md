@@ -3,6 +3,7 @@ title: "Good Strategy Bad Strategy, Richard Rumelt, 2017"
 date: 2017-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/3LwdioF,title.jpg" >}}

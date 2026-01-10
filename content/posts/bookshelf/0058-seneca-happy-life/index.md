@@ -3,6 +3,7 @@ title: "Seneca, Vom glücklichen Leben (On the Happy Life)"
 date: 0058-01-01
 
 categories: ["Bookshelf"]
+tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4qfEGXn,title.jpg" >}}
