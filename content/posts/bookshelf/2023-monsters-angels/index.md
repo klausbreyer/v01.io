@@ -5,7 +5,7 @@ date: 2023-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4qJTTj3,title.jpg" >}}
 
 In _When Monsters Roar and Angels Sing_, Hartmut Rosa explores how metal music creates resonance—deep, meaningful connections—in a world that often feels alienating. The book examines resonance axes: social (with other people), physical (with things, materials), with ourselves (body, psyche, memories), and vertical/existential (existence, life, world, nature, cosmos). Metal music provides a stable resonance axis, allowing people to "fearlessly dance on the existential rift."
 

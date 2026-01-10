@@ -5,7 +5,7 @@ date: 2025-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4aOkI0X,title.jpg" >}}
 
 In _From Project to Product Mode_, Sebastian Borggrewe and Thomas Hartmann outline seven challenges for shifting from project to product mode: segmentation (homogeneous customer segments), pricing (individual requests highly priced), product discovery (filters ideas), prioritization (long-term value generation), product orgs (empowered PMs and cross-functional teams), push vs. pull (validated opportunities), and standardization through configuration. The book provides a framework for leading this transformation.
 

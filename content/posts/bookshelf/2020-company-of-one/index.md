@@ -7,7 +7,7 @@ aliases:
   - "/posts/2024-bookshelf-company-of-one/"
 ---
 
-{{< gallery "https://amzn.to/4d4Z7zP,company-of-one.png" >}}
+{{< gallery "https://amzn.to/4d4Z7zP,title.jpg" >}}
 
 In an era dominated by start-ups striving for exponential growth, the concept of staying small as a 'Company of One' offers a refreshing paradigm shift. My exploration into Paul Jarvis's compelling book, alongside insightful tangents from Cal Newport and David Epstein, has led to profound realizations about business growth and personal fulfillment in the tech and product space.
 

@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-plays-well-with-others/"
 ---
 
-{{< gallery "https://amzn.to/3L0VDCo,plays.png" >}}
+{{< gallery "https://amzn.to/3L0VDCo,title.jpg" >}}
 
 ## The Challenge of Effective Listening
 

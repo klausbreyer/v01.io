@@ -5,7 +5,7 @@ date: 2024-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/3YxFSZP,title.jpg" >}}
 
 In _Meditations for Mortals_, Oliver Burkeman explores imperfectionism—the idea that your own limitations are not obstacles. Don't fight them, but accept them to live fully. Only when you no longer expect perfectionism can you engage with full energy. The book covers being finite, taking action, letting go, and showing up imperfectly.
 

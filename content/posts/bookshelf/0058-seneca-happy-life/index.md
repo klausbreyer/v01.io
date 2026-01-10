@@ -1,11 +1,11 @@
 ---
 title: "Seneca, Vom glücklichen Leben (On the Happy Life)"
-date: 58-01-01
+date: 0058-01-01
 
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4qfEGXn,title.jpg" >}}
 
 In _Vom glücklichen Leben_ (On the Happy Life), Seneca explores Stoic philosophy on living well. The book covers choosing the right path, not the most traveled; virtue over pleasure; the highest good lies in judgment itself; moderation in pleasure brings joy to virtue, not pleasure itself; no claim to perfection ("I am no wise man, only better than the bad—day by day reduce mistakes"); and that if wealth is important to you, you are its slave—if it's not important, you are master of wealth.
 

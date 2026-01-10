@@ -5,7 +5,7 @@ date: 2017-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/3LwdioF,title.jpg" >}}
 
 In _Good Strategy Bad Strategy_, Richard Rumelt argues that strategy is discovering the critical factors in a situation and designing a way of coordinating and focusing actions to deal with those factors. Good strategy has a kernel with three elements: diagnosis (defining the nature of the challenge), guiding policy (overall approach to cope with obstacles), and coherent action (coordinated steps). Bad strategy is long on goals and short on policy and action.
 

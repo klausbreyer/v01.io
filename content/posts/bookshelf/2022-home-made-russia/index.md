@@ -5,7 +5,7 @@ date: 2022-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/45NQVlx,title.jpg" >}}
 
 In _Home Made Russia_, Damon Murry documents the incredible inventiveness and human warmth of people making things work with limited resources. The book shows how people care for each other, make things beautiful together, and find creative solutions—sometimes simply "because I can." It's a deeply personal book that captures not just a printed museum but a printed feeling—something you must recommend to others, and when you feel that, you already know exactly who to recommend it to.
 

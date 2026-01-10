@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-demand-side-sales/"
 ---
 
-{{< gallery "https://amzn.to/3kIZj0V,demand-sales.png" >}}
+{{< gallery "https://amzn.to/3kIZj0V,title.jpg" >}}
 
 Imagine you're walking through a bookstore, browsing the shelves without a clear idea of what you want. You aren't actively looking for anything specific, but you're open to finding something that could address an unspoken need or curiosity. This is the essence of passive looking in sales, a concept explored in Bob Moesta's "Demand-Side Sales 101." This book challenges the traditional approach to sales, advocating for understanding customer struggles as opportunities for progress rather than mere transactions.
 

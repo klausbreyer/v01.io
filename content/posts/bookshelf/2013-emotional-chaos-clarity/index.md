@@ -5,7 +5,7 @@ date: 2013-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/3NbnjZ6,title.jpg" >}}
 
 In _Emotional Chaos to Clarity_, Phillip Moffitt explores how emotional chaos of the untrained mind results from reactive mind states—their pushing and pulling affects our mood and makes us lose perspective. The goal is developing a "don't know mind" that responds wisely to whatever you encounter in life. The book covers mindfulness meditation, distinguishing experience from interpretation, making skillful decisions, and cultivating loving-kindness and compassion.
 

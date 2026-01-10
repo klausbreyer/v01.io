@@ -5,7 +5,7 @@ date: 2011-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4aSzweV,title.jpg" >}}
 
 In _The Decision Book_, Mikael Krogerus and Roman Tschaeppeler provide 50 models for strategic thinking. The book covers various decision-making frameworks including the rubber band model (what's holding me? what is pulling me?), the consequences model (knowledge increases over time, consequences of decisions go down—but the goal isn't to postpone decisions, because no decision is also a decision; important: make decisions early), stop-rule (say when you'll turn back—before!), personal performance model (3 axes: want to/have to/able to), and black swan (you can't derive the future from the past).
 

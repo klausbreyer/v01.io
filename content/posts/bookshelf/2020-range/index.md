@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-range/"
 ---
 
-{{< gallery "https://amzn.to/3LgttE7,range.png" >}}
+{{< gallery "https://amzn.to/3LgttE7,title.jpg" >}}
 
 In the professional world, the debate between specializing early versus diversifying experiences rages on. David Epstein's "Range: Why Generalists Triumph in a Specialized World," offers compelling insights into this ongoing discussion, suggesting that a broad array of experiences can be more advantageous than early specialization in many fields.
 

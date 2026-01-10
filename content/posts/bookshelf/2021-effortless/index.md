@@ -5,7 +5,7 @@ date: 2021-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4br75VC,title.jpg" >}}
 
 In _Effortless_, Greg McKeown argues that trying too hard makes it harder to get the results you want. The book introduces the "effortless inversion": asking "what if this could be easy?" and finding the simplest way to achieve a result. McKeown explores how to make essential things enjoyable, rest properly, notice what matters, take effortless action, and achieve effortless results.
 

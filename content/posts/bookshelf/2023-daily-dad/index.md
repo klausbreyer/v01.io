@@ -5,7 +5,7 @@ date: 2023-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4sOr8Uq,title.jpg" >}}
 
 In _Daily Dad_, Ryan Holiday provides daily meditations on fatherhood, drawing from Stoic philosophy and his own experiences as a parent. The book covers teaching children to question things, showing courage (it only takes 20 seconds of bravery—it's not as bad as you imagine), accepting mortality (everyone will die—wife, children, etc.—so rejoice every day they're still here), and the importance of loving their mother as the best thing you can do for your children.
 

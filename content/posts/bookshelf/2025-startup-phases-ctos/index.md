@@ -5,7 +5,7 @@ date: 2025-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://leanpub.com/StartupPhasesCTO,title.jpg" >}}
 
 In _Startup Phases For CTOs_, Stephan Schmidt outlines the core phases startups go through and what CTOs should focus on in each: ideation (generate ideas, talk to potential customers, resist coding and building castles in the sky), prototype (sell early, sell often), MVP (make something people want, start from scratch, stick with mainstream frameworks), PMF (B2B: sales can sell without huge rebates or free software development; 90% onboarding is configuration, not development), traction, hyper growth (replace things that might break, break up modulith into microservices, focus on security, monitoring, observability), and cash cow (focus on costs and margins).
 

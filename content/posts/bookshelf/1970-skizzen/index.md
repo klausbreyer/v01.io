@@ -5,7 +5,7 @@ date: 1970-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/49pVrb2,title.jpg" >}}
 
 In _Skizzen_ (Sketches), Max Frisch and Uwe Johnson explore themes of relationships, recognition, and self-understanding. The book includes observations about how people relate to each other, the importance of being recognized for intelligence rather than beauty, and how people can be linked to making others happy—which, when it fails, causes distress because everything is related to oneself.
 

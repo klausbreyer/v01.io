@@ -5,7 +5,7 @@ date: 2025-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://leanpub.com/developeraccountability,title.jpg" >}}
 
 In _Developer Accountability_, Stephan Schmidt provides practical techniques for holding developers accountable. The book covers starting with "anything left?" and otherwise "what about X?", using the "echo technique" to make expectations clear, ensuring commitments come from the team, and making teams accountable rather than individuals (when the team is ready for it).
 

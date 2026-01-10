@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-are-your-lights-on/"
 ---
 
-{{< gallery "https://amzn.to/3Xn9g1Y,lights-on.png" >}}
+{{< gallery "https://amzn.to/3Xn9g1Y,title.jpg" >}}
 
 Solving a problem is easy. The hard part is about figuring out / defining the problem!
 In this "problem-space" (pun intended) is my recent book recommendation (from 1990 - but its wisdom is not old.)

@@ -8,7 +8,7 @@ aliases:
   - "/posts/2024-bookshelf-indistractable/"
 ---
 
-{{< gallery "https://amzn.to/3xVjDmF,indistractable.png" >}}
+{{< gallery "https://amzn.to/3xVjDmF,title.jpg" >}}
 
 Nir Eyal, the same author who wrote "Hooked" on creating addictive products, now explores how we can fortify ourselves against such hooks and take control of our lives - again.
 

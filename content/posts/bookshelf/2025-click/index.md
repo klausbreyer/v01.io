@@ -5,7 +5,7 @@ date: 2025-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/3Yu1XZk,title.jpg" >}}
 
 In _Click_, Jake Knapp and John Zeratsky provide a practical framework for building products that actually work—products that "click" with customers. The book introduces the founding hypothesis framework and a two-day foundation sprint process to help teams identify the right customer, problem, approach, and differentiation before building anything. It's a systematic approach to avoid the common pitfalls of unclear markets, fake problems, long-shot approaches, and differentiation that nobody cares about.
 

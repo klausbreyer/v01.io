@@ -5,7 +5,7 @@ date: 1967-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/49SRlbR,title.jpg" >}}
 
 In _Ansichten eines Clowns_ (The Clown's Views), Heinrich Böll tells the story of Hans Schnier, a clown who has lost everything—his partner Marie, his career, his family. The book explores themes of loss, alienation, and the gap between appearance and reality. Through the clown's perspective, Böll critiques post-war German society, the Catholic Church, and bourgeois values.
 

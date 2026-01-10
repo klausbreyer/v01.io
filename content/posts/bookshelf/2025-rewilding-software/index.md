@@ -5,7 +5,7 @@ date: 2025-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://medium.com/feenk/rewilding-software-engineering-900ca95ebc8c,title.jpg" >}}
 
 In _Rewilding Software Engineering_, Simon Wardley and Girba Tudor explore software engineering as a decision-making process about systems that are too large for us to fully grasp. The book introduces "holdable development": constantly create new micro tools synthesizing new information which we then codify into our model of the system. Software engineering can be seen as primarily a decision-making activity about continuously changing systems.
 

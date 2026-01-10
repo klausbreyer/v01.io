@@ -5,7 +5,7 @@ date: 2014-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4qqBgAQ,title.jpg" >}}
 
 In _Facilitator's Guide to Participatory Decision-Making_, Sam Kaner provides a comprehensive guide to facilitating group decisions. The book covers the divergent zone (amplify diverse perspectives, suspend judgment, encourage full participation), groan zone (promote mutual understanding, help people "hang in there," normalize the struggle to integrate other perspectives), and convergent zone (foster inclusive solutions, strengthen good ideas, prioritize chart writing). Core values: full participation, mutual understanding, inclusive solutions, shared responsibility.
 

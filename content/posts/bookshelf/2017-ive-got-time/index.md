@@ -5,7 +5,7 @@ date: 2017-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/3N5UUUj,title.jpg" >}}
 
 In _I've Got Time_, Paul Loomans introduces the concept of "timesurfing"—being present and aware in each moment rather than rushing through time. The book explores why we're stressed (interconnected layers of time, emotions, self-image, and the outside world), how to do one thing at a time and finish what you're doing, create breathers between activities, give full attention to drop-ins, and transform "gnawing rats" (things you avoid) into "white sheep" (things you've befriended).
 

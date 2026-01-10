@@ -5,7 +5,7 @@ date: 2021-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4jI7YeM,title.jpg" >}}
 
 In _Is This Anything_, Jerry Seinfeld shares insights from his decades in comedy, covering the craft of writing jokes, performing, and understanding what makes people laugh. The book includes observations about human nature, relationships, and the creative process.
 

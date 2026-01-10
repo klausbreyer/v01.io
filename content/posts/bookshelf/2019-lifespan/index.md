@@ -5,7 +5,7 @@ date: 2019-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/49gDa16,title.jpg" >}}
 
 In _Lifespan_, David Sinclair argues that aging is a disease—a loss of information. The book explores longevity research, covering diet (more vegetables, legumes, whole grains; less meat, dairy, and sugar), intermittent fasting (skip breakfast, late lunch on 16:8 diet, or 75% fewer calories 2 days per week), exercise (HIIT), cold exposure, and supplements like metformin, resveratrol, and NMN.
 

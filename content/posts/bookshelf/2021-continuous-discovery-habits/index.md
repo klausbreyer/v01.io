@@ -5,7 +5,7 @@ date: 2021-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/3YxG9fj,title.jpg" >}}
 
 In _Continuous Discovery Habits_, Teresa Torres provides a practical framework for product teams to maintain weekly touchpoints with customers, conducting small research activities in pursuit of desired outcomes. The book emphasizes that discovery is a mindset—outcome-oriented, customer-centric, collaborative, visual, experimental, and continuous—rather than just a set of tactics.
 

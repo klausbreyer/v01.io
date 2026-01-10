@@ -9,7 +9,7 @@ aliases:
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/4awern7,transformed.png" >}}
+{{< gallery "https://amzn.to/4awern7,title.jpg" >}}
 
 Imagine a tech company that, at its surface, seems like any other, selling products and maintaining a market presence. Yet, underneath this facade, it operates not as a conventional business but as a forward-thinking, technology-driven powerhouse. This scenario isn't just a theoretical framework—it's the core argument Marty Cagan presents in his 2024 book, "Transformed." Cagan posits that the essence of a modern tech company lies not in what it sells but in how it operates.
 

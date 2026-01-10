@@ -5,7 +5,7 @@ date: 2023-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4jBoiOb,title.jpg" >}}
 
 In _The Crux_, Richard Rumelt focuses on identifying the crux—a narrow attention to a critical issue that, when solved, makes other puzzle pieces fall into place. The book introduces challenge-based strategy, distinguishing between choice challenges (selecting from alternatives), engineering/design challenges (building to specification using models), and gnarly challenges (no alternatives, no models—must be designed). Good strategy isolates the crux, forms an embedded solvable problem, then solves it.
 

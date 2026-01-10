@@ -6,7 +6,7 @@ aliases:
   - "/posts/2023-bookshelf-save-haven/"
 ---
 
-{{< gallery "https://amzn.to/3MWq38X,haven.png" >}}
+{{< gallery "https://amzn.to/3MWq38X,title.jpg" >}}
 
 In "Safe Haven: Investing for Financial Storms", Mark Spitznagel skillfully marries philosophical wisdom with the practicalities of investing. Spitznagel's distinctive perspective on risk management underlines the essentiality of minimizing losses.
 

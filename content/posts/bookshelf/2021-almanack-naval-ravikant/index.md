@@ -5,7 +5,7 @@ date: 2021-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/4qMcr2g,title.jpg" >}}
 
 In _The Almanack of Naval Ravikant_, Eric Jorgenson compiles Naval's wisdom on wealth, happiness, and building startups. The book covers owning equity instead of renting out your time, finding specific knowledge at the edge of knowledge, using leverage (capital, people, products with no marginal cost), and learning to sell and build. It also explores happiness as a learnable skill, being present in the moment, and removing the feeling that something is missing from your life.
 

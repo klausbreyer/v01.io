@@ -5,7 +5,7 @@ date: 1954-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://amzn.to/49MXcAl,title.jpg" >}}
 
 In _The Doors of Perception_, Aldous Huxley documents his experience with mescaline and explores altered states of consciousness. The book examines how perception changes under the influence of psychedelics, revealing aspects of reality normally filtered out by the brain. Huxley reflects on the nature of consciousness, the role of the brain as a reducing valve, and how psychedelics can open "doors of perception" to experiences beyond ordinary awareness.
 

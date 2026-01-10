@@ -5,7 +5,7 @@ date: 2025-01-01
 categories: ["Bookshelf"]
 ---
 
-{{< gallery "https://amzn.to/,title.jpg" >}}
+{{< gallery "https://leanpub.com/engineeringroledescriptions,title.jpg" >}}
 
 In _Engineering Role Descriptions_, Stephan Schmidt provides guidance on creating clear role descriptions for engineering teams. The book covers why roles matter (develops features and products), responsibilities (responsible for quality and security, responsible for developing and mentoring junior developers), what they own (architecture, code, and long-term maintenance; co-owns development process), and success criteria (being professional, solving problems on their own, timely delivery of features, platform stability).
 
