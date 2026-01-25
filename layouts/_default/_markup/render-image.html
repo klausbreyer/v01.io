@@ -1,14 +1,31 @@
+{{- $destination := .Destination | safeURL -}}
+{{- $imageSrc := $destination -}}
+{{- $page := .Page -}}
+
+{{- /* Check if destination is a relative path (not starting with / or http) */ -}}
+{{- if and (not (hasPrefix $destination "/")) (not (hasPrefix $destination "http")) -}}
+  {{- /* Try to find image in page resources */ -}}
+  {{- $imageName := path.Base $destination -}}
+  {{- $resource := $page.Resources.GetMatch $imageName -}}
+  {{- if $resource -}}
+    {{- $imageSrc = $resource.RelPermalink -}}
+  {{- else -}}
+    {{- /* Fallback: construct path relative to page directory */ -}}
+    {{- $langPath := "" -}}
+    {{- if ne $page.Lang "en" -}}
+      {{- $langPath = printf "%s/" $page.Lang -}}
+    {{- end -}}
+    {{- $imageSrc = printf "/%s%s%s" $langPath $page.File.Dir $imageName -}}
+  {{- end -}}
+{{- end -}}
+
 <p>
     <img
-        src="{{ .Destination | safeURL }}"
+        src="{{ $imageSrc }}"
         alt="{{ .Text }}"
-        {{
-        with
-        .Title}}
+        {{- with .Title -}}
         title="{{ . }}"
-        {{
-        end
-        }}
+        {{- end -}}
         class="markdown-image"
     />
 </p>

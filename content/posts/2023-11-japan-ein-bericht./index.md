@@ -14,9 +14,10 @@ tags:
   ]
 aliases:
   - /travel/japan-a-report/2570
+image: japan.jpg
 ---
 
-![](/images/japan.jpg)
+![](japan.jpg)
 
 From August 6th to 19th, 2023, I was in Japan with my wife Julia. We had quite a few stops in the short 14 days. But we thought: Why should we travel Japan differently than how Japanese people travel Europe?
 
