@@ -14,6 +14,7 @@ tags:
     "Photography",
   ]
 aliases: /travel/thailand-a-report/2122
+image: thai.jpg
 ---
 
 I spent the last 3 weeks traveling through Thailand – and together with my wife, I collected a lot of pictures and super deep philosophical impressions that I brought back with me.

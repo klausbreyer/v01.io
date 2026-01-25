@@ -14,6 +14,7 @@ tags:
     "Fotografie",
   ]
 aliases: /in-eigener-sache/raja-ampat-ein-bericht/2503
+image: raja.jpg
 ---
 
 ![](raja.jpg)

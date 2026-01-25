@@ -5,9 +5,10 @@ draft: false
 categories: ["Travel"]
 tags: ["Bali", "Java", "Indonesien", "Reiseerfahrung", "Kultur", "Fotografie"]
 aliases: /reise/bali-reisebericht/2033
+image: bali.jpg
 ---
 
-![](/images/bali.jpg)
+![](bali.jpg)
 
 **Ich war die letzten Wochen auf Bali und Java unterwegs und wollte hier meine Bilder und Gedanken teilen. Um die Bilder in voller Größe zu sehen, einfach drauf klicken. Um auf die Gedanken einzugehen, bitte mich anschreiben oder ein Kommentar hinterlassen. :) **
 

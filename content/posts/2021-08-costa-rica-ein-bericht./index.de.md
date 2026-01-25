@@ -5,6 +5,7 @@ draft: false
 categories: ["Travel"]
 tags: ["Costa Rica", "Erfahrungen", "Reisetagebuch", "Natur", "Kultur"]
 aliases: /reise/costa-rica-ein-bericht/2463
+image: "costa.jpg"
 ---
 
 ![](costa.jpg)

@@ -11,6 +11,8 @@ tags:
 "Kultur",
 "Reiseberichte"
   ]
+
+image: sulawesi.jpg
 ---
 
 ![](sulawesi.jpg)

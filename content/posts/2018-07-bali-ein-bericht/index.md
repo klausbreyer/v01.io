@@ -6,6 +6,7 @@ categories: ["Travel"]
 tags:
   ["Bali", "Java", "Indonesia", "Travel Experience", "Culture", "Photography"]
 aliases: /travel/bali-travel-report/2033
+image: bali.jpg
 ---
 
 ![](bali.jpg)

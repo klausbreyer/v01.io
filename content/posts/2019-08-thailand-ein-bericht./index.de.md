@@ -14,6 +14,7 @@ tags:
     "Fotografie",
   ]
 aliases: /reise/thailand-ein-bericht/2122
+image: thai.jpg
 ---
 
 Ich war die letzten 3 Wochen in Thailand unterwegs – und habe dabei gemeinsam mit meiner Frau eine Menge Bilder und super deepe philosophische Eindrücke gesammelt und mitgebracht.

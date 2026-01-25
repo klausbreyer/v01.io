@@ -11,6 +11,8 @@ tags:
 "Culture",
 "Travel Reports"
   ]
+
+image: sulawesi.jpg
 ---
 
 ![](sulawesi.jpg)
