@@ -4,8 +4,6 @@ date: 2020-03-16
 draft: false
 categories: ["Personal"]
 tags: ["Life", "Pandemic", "Reflection", "Berlin", "Family"]
-aliases:
-  -
 ---
 
 Go for a run one more time, while you still can. No matter how unsporty you look doing it. That seemed to be today's motto.

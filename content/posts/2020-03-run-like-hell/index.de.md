@@ -4,8 +4,6 @@ date: 2020-03-16
 draft: false
 categories: ["Personal"]
 tags: ["Leben", "Pandemie", "Reflexion", "Berlin", "Familie"]
-aliases:
-  -
 ---
 
 Nochmal laufen gehen, solange man kann. Egal was für eine unsportliche Figur einer dabei macht. Das schien heute das Motto.
