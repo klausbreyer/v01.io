@@ -1,6 +1,6 @@
 ---
 title: "Field Notes: Workflow Principles"
-date: 2026-04-23
+date: 2026-04-23T08:27:16+02:00
 categories: ["Agile"]
 ---
 
