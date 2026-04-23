@@ -2,7 +2,10 @@
 title: "Field Notes: Workflow Principles"
 date: 2026-04-23T08:27:16+02:00
 categories: ["Agile"]
+image: image.png
 ---
+
+![image.png](image.png)
 
 Developers and designers each had **four tickets in progress at the same time** - and by "in progress," I mean actually in progress: including tickets in review and tickets in testing.
 
