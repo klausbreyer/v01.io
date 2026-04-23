@@ -1,3 +1,7 @@
+## Before writing or editing a blog post
+
+**Re-read this `CLAUDE.md` from disk first, every time.** Klaus edits it directly in his editor between turns to refine conventions (frontmatter, style rules, dash policy, categories, etc.), so the version loaded earlier in the conversation may be stale. This applies to any task that creates or modifies files under `content/posts/`. Not required for unrelated tasks (git, layout, config, conversation).
+
 ## About the site
 
 Personal site and blog of **Klaus Breyer** (CPTO, Berlin). Built with **Hugo** + **TailwindCSS**, deployed from `main`. Base URL: `https://www.v01.io/`. Two languages: `en` (default) and `de`.
@@ -66,6 +70,16 @@ Rules and options:
 - End with a small takeaway or a call to reflection, not a hard sell.
 - German posts follow the same structure, with gendered forms (`Entwickler:innen`, `Nutzer:innen`).
 - **Never use em dash (—, U+2014) or en dash (–, U+2013) in new posts.** Use a plain hyphen `-` with spaces around it, or restructure the sentence. This applies to both English and German posts. (Older posts still contain dashes; leave existing text alone unless the user asks for a cleanup.)
+
+## Reviewing / revising a post
+
+Whenever going through an article again (re-reading, revising, polishing, or on request from Klaus), always check for:
+- **Correct, complete sentences** - no fragments left from an edit, no dangling clauses, subject and verb agree, punctuation closes cleanly.
+- **Spelling and typos** - in both English and German. Check German umlauts (ä/ö/ü/ß) are correct and not mangled (e.g. no stray `ae`/`oe`/`ue` where the umlaut belongs).
+- Consistency of tense and person within a paragraph.
+- The dash rule above still holds.
+
+Fix what's clearly wrong. Flag anything ambiguous instead of silently rewriting voice.
 
 ## Common shortcodes
 
