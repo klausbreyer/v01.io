@@ -7,6 +7,7 @@ deps:
 # Start Hugo server and watch Tailwind CSS for changes
 start:
 	hugo server & \
+	(sleep 2 && open http://localhost:1313/) & \
 	./tailwindcss -i ./assets/css/tailwind.css \
 		-o ./static/css/tailwind.css --watch
 
