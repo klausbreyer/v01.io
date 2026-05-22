@@ -447,8 +447,7 @@ In the [next post]({{< relref "2026-ai-transformation-workshop" >}}) I will expl
 - PM figures out what moves the number. Engineers build it, ship it, measure if it worked, repeat. Coordination async, no two-week planning cycle in between.
 - "Does it get messy? Yes. Figured out completely? No. But three weeks in, sharper decisions and more ownership than in years."
 
-*Andreas Stryz (CTO at FINN), I killed Scrum at FINN*  
-*[earlier: AI-native engineering org](https://www.linkedin.com/posts/andreasstryz_engineeringleadership-ai-orgdesign-share-7455542713841565696-YLA1)*
+*[Andreas Stryz (CTO at FINN) on LinkedIn, I killed Scrum at FINN](https://www.linkedin.com/posts/andreasstryz_engineeringleadership-ai-orgdesign-share-7455542713841565696-YLA1)*
 
 ## The manager as information router is dead.
 
