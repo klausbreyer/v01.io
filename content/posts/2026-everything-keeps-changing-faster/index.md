@@ -25,7 +25,7 @@ This post is that keynote, written down. Each thesis, my speaker notes , and the
 
 (If you want me to give this talk to your team, just reach out and we can arrange something)
 
-In the next post I will explain the concrete workshop format: how we mapped our process to find the friction we want gone and the judgment we want to keep, so both become deliberate decisions rather than defaults.
+In the [next post]({{< relref "2026-ai-transformation-workshop" >}}) I will explain the concrete workshop format: how we mapped our process to find the friction we want gone and the judgment we want to keep, so both become deliberate decisions rather than defaults.
 
 # Act 1: Why now?
 
