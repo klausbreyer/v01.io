@@ -1,8 +1,10 @@
 ---
 title: "Everything Keeps Changing. Faster."
-date: 2026-05-22
+date: 2026-05-22T09:00:00+02:00
 categories: ["AI", "Leadership", "Engineering"]
 image: preview.png
+aliases:
+  - /posts/2026-shit-is-changing-fast/
 ---
 
 This week I ran a workshop with my team. 
@@ -23,7 +25,7 @@ This post is that keynote, written down. Each thesis, my speaker notes , and the
 
 (If you want me to give this talk to your team, just reach out and we can arrange something)
 
-In the next post I will explain the concrete workshop format: how we mapped our process to find the friction we want gone and the judgment we want to keep, so both become deliberate decisions rather than defaults.
+In the [next post]({{< relref "2026-flowstorming-workshop" >}}) I explain the concrete workshop format: how we mapped our process to find the friction we want gone and the judgment we want to keep, so both become deliberate decisions rather than defaults.
 
 # Act 1: Why now?
 
