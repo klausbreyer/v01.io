@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="13">
+  <!--
+    Empty AI Automation Map template (axes only).
+    Y-axis: value chain (top = user-visible, bottom = internal mechanics).
+    X-axis: AI automation level. Set this up, then place every station onto it.
+  -->
+
+  <rect width="1600" height="1100" fill="#fafbfc"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#1a2540">AI Automation Map: the empty board</text>
+  <text x="40" y="62" font-size="13" fill="#5a6478">Set up the two axes first, then place every station onto the grid.</text>
+
+  <!-- Plot frame -->
+  <line x1="200" y1="110" x2="200" y2="980" stroke="#1a2540" stroke-width="2"/>
+  <line x1="200" y1="980" x2="1400" y2="980" stroke="#1a2540" stroke-width="2"/>
+
+  <!-- Column separators -->
+  <g stroke="#d9dde3" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="400" y1="110" x2="400" y2="980"/>
+    <line x1="600" y1="110" x2="600" y2="980"/>
+    <line x1="800" y1="110" x2="800" y2="980"/>
+    <line x1="1000" y1="110" x2="1000" y2="980"/>
+    <line x1="1200" y1="110" x2="1200" y2="980"/>
+  </g>
+
+  <!-- X-axis labels -->
+  <g font-size="12" fill="#1a2540" text-anchor="middle">
+    <text x="300" y="1005" font-weight="700">1. Fully Manual</text>
+    <text x="300" y="1023" fill="#5a6478">no AI in the loop</text>
+    <text x="500" y="1005" font-weight="700">2. AI Sparring</text>
+    <text x="500" y="1023" fill="#5a6478">chat, copy-paste</text>
+    <text x="700" y="1005" font-weight="700">3. AI-Assisted</text>
+    <text x="700" y="1023" fill="#5a6478">inline, tab-complete</text>
+    <text x="900" y="1005" font-weight="700">4. Vibe Coding</text>
+    <text x="900" y="1023" fill="#5a6478">human steers agent</text>
+    <text x="1100" y="1005" font-weight="700">5. Agentic + Review</text>
+    <text x="1100" y="1023" fill="#5a6478">agent ships PR, human reviews</text>
+    <text x="1300" y="1005" font-weight="700">6. Fully Automated</text>
+    <text x="1300" y="1023" fill="#5a6478">human as failsafe</text>
+  </g>
+  <text x="800" y="1055" font-size="13" font-weight="700" fill="#1a2540" text-anchor="middle">AI Automation Level →</text>
+
+  <!-- Y-axis labels -->
+  <g font-size="12" fill="#5a6478" text-anchor="end">
+    <text x="190" y="135" font-weight="700" fill="#1a2540">User-visible</text>
+    <text x="190" y="555" fill="#5a6478">Mid: Build &amp; Review</text>
+    <text x="190" y="965" font-weight="700" fill="#1a2540">Deep: Discovery, Ideas</text>
+  </g>
+  <text x="40" y="555" font-size="13" font-weight="700" fill="#1a2540" text-anchor="middle" transform="rotate(-90 40 555)">Value Chain ↑</text>
+
+  <!-- User Anchor -->
+  <g>
+    <rect x="700" y="92" width="200" height="34" rx="17" fill="#ffffff" stroke="#1a2540" stroke-width="2"/>
+    <text x="800" y="115" text-anchor="middle" font-weight="700" font-size="14" fill="#1a2540">User gets value</text>
+  </g>
+
+</svg>

@@ -2,22 +2,20 @@
 title: "AI Transformation Workshop for Product Development Lifecycles"
 date: 2026-05-22T10:00:00+02:00
 categories: ["Agile", "AI", "Collaboration"]
-image: workshop-arc.png
+image: flow-map.jpg
 ---
 
 In the [previous post]({{< relref "2026-everything-keeps-changing-faster" >}}) I shared the keynote that opened our two-day team offsite: a barrage of theses on how AI changes the product development lifecycle.
 
-A keynote does not change how a team works. This post is the other half: the concrete workshop format we used to turn "interesting" into "what do *we* actually change on Monday".
+A keynote does not change how a team works. 
+
+This post is the other half: the concrete workshop format we used to turn "interesting" into "what do *we* actually change on Monday".
 
 ## Motivation
 
-The theses came from my bubble. They were not answers for us.
+Nowadays, there is no standard process to copy anymore, so the only thing that helps is mapping our own flow and deciding, station by station, what to *deliberately* keep human and where there is potential to automate more with AI.
 
-There is no standard process to copy anymore. Every decision is more individual now, so importing someone else's playbook is exactly the wrong move. The only thing that helps is looking honestly at our own flow and deciding, station by station, what to keep human and what to hand to AI.
-
-So the workshop had one job: map our real process, find the friction, run small experiments against it, and walk out with commitments that have an owner and a date.
-
-And one strong intention: get the whole team into doing. Too many offsites end with two inspiring days and a hundred open to-dos that nobody touches afterwards. I wanted the opposite. In every experiment we kept pushing each other to actually finish something, small and concrete, that you could use the very next morning. Not a plan to build it later. The thing itself.
+And one intention above all: get the whole team into doing. Not two inspiring days and a hundred open to-dos, but something small and concrete finished in every experiment, usable the next morning.
 
 ## The basic flow
 
@@ -26,41 +24,36 @@ And one strong intention: get the whole team into doing. Too many offsites end w
 Two days, four phases:
 
 - **Strategy** - Flow Storming, then Flow Mapping. See how we work today.
-- **Setup** - pick the experiments, form groups, agree the rules.
+- **Setup** - pick the experiments, form groups, agree on the rules.
 - **Experimenting** - hands-on, the bulk of the time. Try real things, not theory.
-- **Commit** - presentations, then Flow Synthesis. Decide what sticks.
-
-One rule held everything together: the output is not slides. Every group writes into a shared Confluence page as they go. That page is the single source of truth afterwards.
+- **Commit** - presentations, then Flow Synthesis to decide as a team what sticks.
 
 ## Flow Storming
 
 A sober look at how we work today. No solutions yet, just an honest picture.
 
-We split into two teams: one mapped our cycle work, the other our reactive work. Each team drew its flow as 10 to 15 stations, from "an idea comes in" to "we learned what happened". Short titles per station, not sentences.
+We split into two teams: one mapped our feature development cycle work, the other our reactive work. Each team drew its flow as 10 to 15 stations, from "an idea comes in" to "we learned what happened". Short titles per station, not sentences.
 
-A station is a state the work is in, not a calendar entry. Plenty of meeting formats came up here (dailies, refinements, retros), and we deliberately hung them to the side. They are how we coordinate, not where the work sits, and rethinking our meetings was not the focus this time.
+The two teams drew their flows in parallel breakout sessions. 
 
-The two teams drew their flows in parallel breakout sessions right at the start:
-
-{{< gallery "process1.png,process1.png|process2.png,process2.png" >}}
-
-Then we walked the flow and marked the friction with colored dots:
+Then the team walked the flow and marked the friction with colored dots, the core task of this phase:
 
 - **Red** - bottleneck: work waits or capacity is tight.
 - **Blue** - coordination friction: handovers, specs, rubber-stamp reviews.
 - **Green** - judgment friction: architecture, taste, ownership.
 
-The split matters. Blue friction is what you want to automate away. Green friction is what you protect.
+The split matters. Blue friction is what you want to automate away. Green is where human judgment matters, so you protect it, want to keep it, or sometimes still need to introduce more of it.
+
+{{< gallery "process1.png,process1.png|process2.png,process2.png" >}}
+
 
 ## Flow Mapping
 
-This is where it gets concrete. We borrow the idea from Wardley Mapping: every station from both flows gets a position on one shared 2D map, and the position itself carries meaning. Two axes.
+This is where it gets concrete. I borrowed the idea from [Wardley Mapping](https://www.wardleymaps.com/): every station from both flows gets a position on one shared 2D map, and the position itself carries meaning. Two axes.
 
-**The vertical axis is the value chain.** Top is what the user directly sees and values, a shipped release, a feature in their hands. Bottom is the deep internal work nobody outside ever notices: discovery, ideas, refinement, architecture. A station sits high when it is close to the user and low when it is plumbing. That is the standard Wardley convention.
+**The vertical axis is the value chain.** Top is what the user directly sees and values, a shipped release, a feature in their hands. Bottom is the deep internal work where ideas start.
 
 **The horizontal axis is the AI automation level**, in six concrete steps from fully human to fully machine:
-
-![The six AI automation levels, from Fully Manual to Fully Automated](automation-levels.png)
 
 1. **Fully Manual** - no AI in the loop at all.
 2. **AI Sparring** - you bounce ideas in a chat window, copy-paste in and out.
@@ -69,56 +62,80 @@ This is where it gets concrete. We borrow the idea from Wardley Mapping: every s
 5. **Agentic + Review** - the agent ships a PR, a human reviews it.
 6. **Fully Automated** - it runs on its own, the human is only the failsafe.
 
-These six steps are the heart of the exercise. They turn a vague "should we use more AI here?" into a precise question: "this station is at level 2 today, do we want it at level 4?"
+![The empty map: the two axes you set up before placing any station](flow-map-empty.svg)
 
 The mapping itself, step by step:
 
 - Each group presents its flow in five minutes. Clarifying questions only, no debate.
-- We place every station onto the shared map, keeping the friction colors from Flow Storming. A red bottleneck or blue coordination point stays marked.
-- For each station we ask two things: where does it sit today, and where should it sit next?
-- We draw an arrow from the current spot to the target spot.
-
-The result is decision-ready. Red and blue friction sitting near the manual end of the axis is exactly what we want to push to the right, toward automation. Green judgment friction we deliberately leave where it is, sometimes even keep fully manual on purpose. Architecture and tech strategy, for instance, we never want automated. The movement arrows then become the direct input for which experiments we run next.
+- We place every station onto the shared map, keeping the friction colors from Flow Storming. 
 
 ![Our flow map on the whiteboard: every station placed by user visibility and AI automation level, with movement arrows](flow-map.jpg)
 
-The whiteboard is the working artifact, and that is fine during the session. Afterwards it pays to clean it into a proper map you can actually share and revisit. Here is my version of ours: same two axes, every station placed, friction marked, and the red arrows showing where each one should move.
+Note: 
+Meeting formats came up a lot (dailies, refinements, retros), but we parked them: they were not the focus this time.
 
-![A cleaned-up version of the flow map as a proper Wardley-style diagram](flow-map-clean.svg)
 
 ## Experiment time
 
 This is where most of the two days went.
 
-From the map we had a set of candidate experiments. Some prepared upfront, some added on the spot, each one pointing at a real red or blue mark on the flow. We dot-voted and formed small groups of one to three people around the winners.
+The map is the perfect starting point to define experiments. 
 
-Every experiment followed the same shape:
+The stations where we sit on a bottleneck, or on friction we would like to get rid of, are the candidates to innovate on.
 
-- **Diagnosis** - one honest sentence about the real situation.
+So we ran a brainstorming phase where everyone could propose experiments. They all had to follow the same structure.
+
+- **Diagnosis** - What are we addressing here?
 - **Hypothesis** - "if we do X, then Y".
-- **Artifact target** - the concrete thing you walk out with: a rules file, a prototype, a pilot, a verdict.
+- **Artifact target** - the concrete thing you walk out with.
 
-The themes ranged across the whole lifecycle: AI guidelines for what output is acceptable, getting small tickets agent-ready, a shared Design.md, a cloud coding environment that non-engineers can use too, AI review tooling, a prototyping base for product and design, and more.
+Then we voted on the experiments and formed groups around the winners, making sure each group was interdisciplinary and small, usually two to three people.
+
+A few examples: 
+
+- AI code review tools - run a few candidates on the same PRs, then pick one.
+- Cloud agent coding environments - so even non-engineers could ship a small change without a local setup.
+- Trying Linear - run real work through it and compare it against Jira.
+- A shared design.md - one design-token file ready to use from tomorrow.
 
 Two rules kept it moving:
 
 - **Unblock yourselves.** No permission needed for anything reversible.
 - **Build experience, do not dwell on theory.** Make it concrete.
 
-Each slot ran the same way: first 15 minutes to write the diagnosis, the middle block to build, the last 15 minutes to capture results. Results closed with a guiding policy in a strict format: "We will X, by Y, and deliberately not Z." The "deliberately not Z" is mandatory, because deciding what *not* to do is the harder half.
+Each slot ran the same way: first 15 minutes to write the diagnosis, the middle block to build, the last 15 minutes to capture results. We had three such slots, each two to three hours long.
 
-Groups then presented. The presentation was never the point, the discussion was: where does this touch your work, where does it conflict, what do you adopt? Every commitment landed on the shared page with a name and a date. No owner, no date, no commitment.
+## Presentations
+
+Groups then presented, 15 minutes each. (That was genuinely tight, so keep an eye on the clock!)
+
+Each presentation closed on two points:
+
+- **Guiding policy** - a strict format: "We will X, by Y, and deliberately not Z." The "deliberately not Z" is mandatory, to actually change something. 
+- **Coherent action** - is anything still open to actually pull it off, and who does it by when?
+
+
 
 ## Flow Synthesis at the end
 
-We closed by pulling the map from day one back up, now seen through everything the experiments taught us.
+We closed by pulling the XY map from day one back up and walking it station by station:
 
-Station by station: did the experiment actually move it? Mark where it sits today. Where should it go next? Draw the arrow. Anything that surprised us gets noted.
+- **Did it move?** - for each experiment, mark where the station sits now.
+- **Where next?** - draw the arrow to where it should go from here.
+- **Surprises** - note anything that turned out differently than expected. 
 
-That is the whole loop. We started with a map built on opinion and ended with a map corrected by evidence, plus a set of commitments we own.
+This is highly rewarding, because it is the moment the team sees what it accomplished over the two days. 
 
-## What we walked out with
 
-Not a framework. Our own updated map of how we build, a handful of running experiments, and concrete commitments with owners and dates.
 
-The format is reusable, and the theses behind it are in the [first post]({{< relref "2026-everything-keeps-changing-faster" >}}). If you want help running something like this with your team, just reach out.
+## Conclusion
+
+The whole team was happy, mostly because they finally had time to work on concrete things, away from the daily grind.
+
+They thanked me for the steady push to actually deliver something usable the next day.
+
+(I think that matters for anyone running something like this with their own team: keep reminding everyone that we are here to change things, not to do desk research.)
+
+The example below shows how it can look in the end. (It is a fictional one I drew up beforehand, not our team's result.)
+
+![A fictional, cleaned-up example of the flow map as a proper Wardley-style diagram](flow-map-clean.svg)
