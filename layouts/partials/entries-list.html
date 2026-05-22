@@ -13,7 +13,7 @@
       }} {{ end }} {{ $image = printf "%s%s%s%s" .Site.BaseURL $langPath
       .File.Dir .Params.image }} {{ end }}
 
-      <div class="relative h-48">
+      <div class="relative aspect-video">
         <img
           src="{{ $image }}"
           alt="{{ .Title }}"

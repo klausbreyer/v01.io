@@ -101,6 +101,7 @@ Defined in `layouts/shortcodes/`:
 
 1. Create folder `content/posts/YYYY-slug/` (add `MM-` only if the post is a dated personal/travel piece).
 2. Put images in that same folder. Use `preview.jpg` for the social card when possible.
+   - **Any image referenced in a post must physically live inside that post's folder.** When an image comes from somewhere else (Downloads, the Obsidian vault, a slide export), copy the file into `content/posts/YYYY-slug/` first, then reference it with a relative path. Never link to a file outside the folder.
 3. Create `index.md` (English) and/or `index.de.md` (German). Do not create empty stubs for a language that isn't written.
 4. Use the frontmatter shape above. Always quote the title. Categories is always a list.
 5. Reference images with relative paths (`![alt](preview.jpg)`), internal posts with `{{< relref "other-slug" >}}`.

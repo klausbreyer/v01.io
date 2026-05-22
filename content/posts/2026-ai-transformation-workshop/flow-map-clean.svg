@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="13">
+  <!--
+    AI Automation Map Based on Wardley Maps.
+    Y-axis: value chain (top = user-visible, bottom = internal mechanics).
+    X-axis: AI automation level.
+    Every dependency arrow points to a station higher up the value chain.
+    Dev Work is a single "In Progress" station. Observability is a post-release satellite.
+  -->
+
+  <defs>
+    <style>
+      /* White halo behind every label so crossing arrows stay readable. */
+      text { paint-order: stroke; stroke: #fafbfc; stroke-width: 4px; stroke-linejoin: round; }
+    </style>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6478"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6478"/>
+    </marker>
+    <marker id="arrowPurple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6478"/>
+    </marker>
+    <marker id="arrowGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5a6478"/>
+    </marker>
+    <marker id="moveArrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c62828"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="1100" fill="#fafbfc"/>
+
+  <!-- Title -->
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#1a2540">AI Automation Map Based on Wardley Maps</text>
+  <text x="40" y="62" font-size="13" fill="#5a6478">Value chain (top = visible to user, bottom = internal mechanics) × AI automation.</text>
+
+  <!-- Plot frame -->
+  <line x1="200" y1="110" x2="200" y2="980" stroke="#1a2540" stroke-width="2"/>
+  <line x1="200" y1="980" x2="1400" y2="980" stroke="#1a2540" stroke-width="2"/>
+
+  <!-- Column separators -->
+  <g stroke="#d9dde3" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="400" y1="110" x2="400" y2="980"/>
+    <line x1="600" y1="110" x2="600" y2="980"/>
+    <line x1="800" y1="110" x2="800" y2="980"/>
+    <line x1="1000" y1="110" x2="1000" y2="980"/>
+    <line x1="1200" y1="110" x2="1200" y2="980"/>
+  </g>
+
+  <!-- X-axis labels -->
+  <g font-size="12" fill="#1a2540" text-anchor="middle">
+    <text x="300" y="1005" font-weight="700">1. Fully Manual</text>
+    <text x="300" y="1023" fill="#5a6478">no AI in the loop</text>
+    <text x="500" y="1005" font-weight="700">2. AI Sparring</text>
+    <text x="500" y="1023" fill="#5a6478">chat, copy-paste</text>
+    <text x="700" y="1005" font-weight="700">3. AI-Assisted</text>
+    <text x="700" y="1023" fill="#5a6478">inline, tab-complete</text>
+    <text x="900" y="1005" font-weight="700">4. Vibe Coding</text>
+    <text x="900" y="1023" fill="#5a6478">human steers agent</text>
+    <text x="1100" y="1005" font-weight="700">5. Agentic + Review</text>
+    <text x="1100" y="1023" fill="#5a6478">agent ships PR, human reviews</text>
+    <text x="1300" y="1005" font-weight="700">6. Fully Automated</text>
+    <text x="1300" y="1023" fill="#5a6478">human as failsafe</text>
+  </g>
+  <text x="800" y="1055" font-size="13" font-weight="700" fill="#1a2540" text-anchor="middle">AI Automation Level →</text>
+
+  <!-- Y-axis labels -->
+  <g font-size="12" fill="#5a6478" text-anchor="end">
+    <text x="190" y="135" font-weight="700" fill="#1a2540">User-visible</text>
+    <text x="190" y="555" fill="#5a6478">Mid: Build &amp; Review</text>
+    <text x="190" y="965" font-weight="700" fill="#1a2540">Deep: Discovery, Ideas</text>
+  </g>
+  <text x="40" y="555" font-size="13" font-weight="700" fill="#1a2540" text-anchor="middle" transform="rotate(-90 40 555)">Value Chain ↑</text>
+
+  <!-- User Anchor -->
+  <g>
+    <rect x="700" y="92" width="200" height="34" rx="17" fill="#ffffff" stroke="#1a2540" stroke-width="2"/>
+    <text x="800" y="115" text-anchor="middle" font-weight="700" font-size="14" fill="#1a2540">User gets value</text>
+  </g>
+  <g fill="none" stroke="#1a2540" stroke-width="1.2" opacity="0.45" stroke-dasharray="2 4">
+    <line x1="800" y1="126" x2="1300" y2="244"/>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- Edges (below nodes) -->
+  <!-- ============================================================ -->
+
+  <!-- All flow edges share one uniform style; every step moves up the value chain. -->
+  <g fill="none" stroke="#5a6478" stroke-width="1.8" opacity="0.8">
+    <!-- Cycle stream -->
+    <path d="M 500,916 L 500,898" marker-end="url(#arrowGrey)"/>       <!-- Problem -> Grooming -->
+    <path d="M 508,872 L 530,846" marker-end="url(#arrowGrey)"/>       <!-- Grooming -> Discovery -->
+    <path d="M 527,831 L 316,789" marker-end="url(#arrowGrey)"/>       <!-- Discovery -> Selection -->
+    <path d="M 313,783 L 484,742" marker-end="url(#arrowGrey)"/>       <!-- Selection -> Framing -->
+    <path d="M 487,735 L 316,694" marker-end="url(#arrowGrey)"/>       <!-- Framing -> Shaping -->
+    <path d="M 300,676 L 300,658" marker-end="url(#arrowGrey)"/>       <!-- Shaping -> Architecture -->
+    <path d="M 300,628 L 300,610" marker-end="url(#arrowGrey)"/>       <!-- Architecture -> Cycle Kickoff -->
+    <path d="M 312,588 L 386,553" marker-end="url(#arrowGrey)"/>       <!-- Cycle Kickoff -> Weekly Refinement -->
+    <path d="M 400,532 L 400,514" marker-end="url(#arrowGrey)"/>       <!-- Weekly Refinement -> Pickup -->
+
+    <!-- Reactive stream -->
+    <path d="M 510,920 L 608,831" marker-end="url(#arrowGrey)"/>       <!-- Problem -> Triage -->
+    <path d="M 622,806 L 638,656" marker-end="url(#arrowGrey)"/>       <!-- Triage -> Reactive Refinement -->
+    <path d="M 629,633 L 414,506" marker-end="url(#arrowGrey)"/>       <!-- Reactive Refinement -> Pickup -->
+
+    <!-- Shared dev pipeline -->
+    <path d="M 414,496 L 684,453" marker-end="url(#arrowGrey)"/>       <!-- Pickup -> In Progress -->
+    <path d="M 700,436 L 700,418" marker-end="url(#arrowGrey)"/>       <!-- In Progress -> PR Review -->
+    <path d="M 714,401 L 1184,356" marker-end="url(#arrowGrey)"/>      <!-- PR Review -> Merge -->
+
+    <!-- Release pipeline -->
+    <path d="M 1186,352 L 816,308" marker-end="url(#arrowGrey)"/>      <!-- Merge -> Staging QA -->
+    <path d="M 814,305 L 1284,260" marker-end="url(#arrowGrey)"/>      <!-- Staging QA -> Production Release -->
+    <path d="M 1286,256 L 1016,213" marker-end="url(#arrowGrey)"/>     <!-- Production Release -> Release Notes -->
+    <path d="M 986,209 L 416,163" marker-end="url(#arrowGrey)"/>       <!-- Release Notes -> Cycle Closing -->
+
+    <!-- Production Release -> Observability (post-release feedback) -->
+    <path d="M 1287,251 L 714,205" marker-end="url(#arrowGrey)"/>      <!-- Production Release -> Observability -->
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- Nodes -->
+  <!-- ============================================================ -->
+
+  <!-- Movement arrows (target state); drawn before node labels so labels stay on top -->
+  <g fill="none" stroke="#c62828" stroke-width="2.2" opacity="0.45">
+    <path d="M 717,402 C 850,387 950,387 1085,402" marker-end="url(#moveArrow)"/>
+    <path d="M 816,306 C 950,291 1000,291 1085,306" marker-end="url(#moveArrow)"/>
+    <path d="M 1015,210 C 1130,195 1180,195 1285,210" marker-end="url(#moveArrow)"/>
+    <path d="M 555,834 C 650,819 750,819 885,834" marker-end="url(#moveArrow)"/>
+  </g>
+
+  <g font-size="12" font-weight="700" fill="#1a2540">
+
+    <!-- Cycle Closing (top of chain) -->
+    <circle cx="400" cy="162" r="11" fill="#1a2540"/>
+    <text x="388" y="166" text-anchor="end">Cycle Closing</text>
+
+    <!-- Observability / Incident Detection (post-release satellite) -->
+    <circle cx="700" cy="200" r="11" fill="#1a2540"/>
+    <text x="720" y="204">Observability / Incident Detection</text>
+
+    <!-- Release Notes -->
+    <circle cx="1000" cy="210" r="11" fill="#1a2540"/>
+    <text x="1020" y="214">Release Notes</text>
+
+    <!-- Production Release -->
+    <circle cx="1300" cy="258" r="11" fill="#1a2540"/>
+    <text x="1316" y="262">Production Release</text>
+
+    <!-- Staging QA -->
+    <circle cx="800" cy="306" r="11" fill="#1a2540"/>
+    <text x="820" y="310">Staging QA</text>
+
+    <!-- Merge + Staging Deploy -->
+    <circle cx="1200" cy="354" r="11" fill="#1a2540"/>
+    <text x="1220" y="358">Merge + Staging Deploy</text>
+
+    <!-- PR Review (combined) -->
+    <circle cx="700" cy="402" r="11" fill="#1a2540"/>
+    <text x="722" y="406">PR Review</text>
+
+    <!-- In Progress (Dev Work): single node -->
+    <circle cx="700" cy="450" r="11" fill="#1a2540"/>
+    <text x="722" y="454">In Progress</text>
+
+    <!-- Pickup / ToDo (combined) -->
+    <circle cx="400" cy="498" r="11" fill="#1a2540"/>
+    <text x="378" y="502" text-anchor="end">Pickup / ToDo</text>
+
+    <!-- Weekly Refinement -->
+    <circle cx="400" cy="546" r="11" fill="#1a2540"/>
+    <text x="388" y="550" text-anchor="end">Weekly Refinement</text>
+
+    <!-- Cycle Kickoff -->
+    <circle cx="300" cy="594" r="11" fill="#1a2540"/>
+    <text x="288" y="598" text-anchor="end">Cycle Kickoff</text>
+
+    <!-- Reactive Refinement -->
+    <circle cx="640" cy="640" r="11" fill="#1a2540"/>
+    <text x="660" y="644">Reactive Refinement</text>
+
+    <!-- Architecture / Tech Strategy -->
+    <circle cx="300" cy="642" r="11" fill="#1a2540"/>
+    <text x="288" y="646" text-anchor="end">Architecture / Tech Strategy</text>
+
+    <!-- Shaping -->
+    <circle cx="300" cy="690" r="11" fill="#1a2540"/>
+    <text x="288" y="694" text-anchor="end">Shaping</text>
+
+    <!-- Framing -->
+    <circle cx="500" cy="738" r="11" fill="#1a2540"/>
+    <text x="488" y="742" text-anchor="end">Framing</text>
+
+    <!-- Opportunity Selection -->
+    <circle cx="300" cy="786" r="11" fill="#1a2540"/>
+    <text x="288" y="790" text-anchor="end">Opportunity Selection</text>
+
+    <!-- Triage + Ticket -->
+    <circle cx="620" cy="820" r="11" fill="#1a2540"/>
+    <text x="640" y="824">Triage + Ticket</text>
+
+    <!-- Discovery / Research -->
+    <circle cx="540" cy="834" r="11" fill="#1a2540"/>
+    <text x="528" y="838" text-anchor="end">Discovery / Research</text>
+
+    <!-- Opportunity Grooming -->
+    <circle cx="500" cy="882" r="11" fill="#1a2540"/>
+    <text x="520" y="886">Opportunity Grooming</text>
+
+    <!-- Problem In -->
+    <circle cx="500" cy="930" r="14" fill="#1a2540"/>
+    <text x="520" y="934" font-weight="700">Problem In</text>
+  </g>
+
+  <text x="800" y="82" font-size="12" fill="#c62828" opacity="0.7" text-anchor="middle">red arrows = movement hypothesis (where will this station drift in the next year?)</text>
+
+</svg>
