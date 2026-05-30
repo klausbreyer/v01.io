@@ -2,7 +2,7 @@
 title: "Template: Impact-Appetite-Tierlist - Roadmapping for Empowered Product Teams"
 date: 2024-12-09T14:12:45+01:00
 image: matrix-full@1x.png
-categories: ["Remote"]
+categories: ["Product"]
 social: https://www.linkedin.com/posts/klaus-breyer_template-impact-appetite-tierlist-klaus-activity-7271907996408905728-oixw?
 ---
 

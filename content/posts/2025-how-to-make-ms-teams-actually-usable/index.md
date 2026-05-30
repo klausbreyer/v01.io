@@ -1,9 +1,7 @@
 ---
 title: "How to Make MS Teams Actually Usable (by Emulating Slack)"
 date: 2025-04-25T08:27:12+02:00
-categories: [
-    "Remote"
-]
+categories: ["Productivity"]
 image: channels.png
 ---
 

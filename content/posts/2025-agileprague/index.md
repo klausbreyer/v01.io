@@ -1,7 +1,7 @@
 ---
 title: "Agile Prague 2025: Tickets Create Silos"
 date: 2025-09-16
-categories: ["Leadership", "Product", "Collaboration"]
+categories: ["Speaking"]
 image: preview.jpg
 ---
 

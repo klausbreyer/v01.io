@@ -1,7 +1,7 @@
 ---
 title: "Systemisch Agil: Agile für interdisziplinäre Teams"
 date: 2025-02-11
-categories: ["Agile"]
+categories: ["Speaking"]
 image: header.de.jpg
 social: https://systemisch-agil.podigee.io/94-new-episode
 ---

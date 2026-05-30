@@ -1,7 +1,7 @@
 ---
 title: "Everything Keeps Changing. Faster."
 date: 2026-05-22T09:00:00+02:00
-categories: ["AI", "Leadership", "Engineering"]
+categories: ["Speaking"]
 image: preview.png
 social: https://www.linkedin.com/posts/klaus-breyer_everything-keeps-changing-faster-klaus-share-7463521865660194816-VZ8t
 aliases:

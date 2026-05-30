@@ -1,7 +1,7 @@
 ---
 title: "CodeTalks Hamburg: Move Fast and break Silos - Interdisciplinary Teams That Work"
 date: 2025-11-06
-categories: ["Leadership", "Product", "Collaboration"]
+categories: ["Speaking"]
 image: preview.jpg
 ---
 

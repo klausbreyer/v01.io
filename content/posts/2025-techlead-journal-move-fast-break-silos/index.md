@@ -1,7 +1,7 @@
 ---
 title: "Tech Lead Journal - #224 Move Fast, Break Silos: Leadership for Interdisciplinary Teams"
 date: 2025-07-14
-categories: ["Leadership"]
+categories: ["Speaking"]
 image: preview.jpg
 ---
 

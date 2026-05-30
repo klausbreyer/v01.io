@@ -1,7 +1,7 @@
 ---
 title: "Pixels + Profit: Stifte waren gestern, Edding goes Tech"
 date: 2025-03-27
-categories: ["Leadership"]
+categories: ["Speaking"]
 image: preview.de.jpg
 ---
 
