@@ -15,7 +15,7 @@ tags:
     "Sublime Text",
     "iTerm",
   ]
-categories: ["Open Source"]
+categories: ["Engineering"]
 ---
 
 ![](2017-01-16-source-code-pro.png)
