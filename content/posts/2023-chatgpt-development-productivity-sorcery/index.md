@@ -9,7 +9,7 @@ tags:
   - Strategy
   - Org
 social: "https://www.linkedin.com/posts/klaus-breyer_how-i-use-chatgpt-to-enhance-my-productivity-activity-7125392286569385984-a3_8"
-categories: ["Product"]
+categories: ["AI"]
 ---
 
 I recently found out that not everyone in tech is using ChatGPT daily. That surprised me. Software development is a fast-paced game. It's not just about cranking out code; it's about solving problems efficiently. And ChatGPT has been a game-changer for me in that regard.

@@ -1,7 +1,7 @@
 ---
 title: "#AgileWay - Interdisciplinary Teams"
 date: 2025-03-18
-categories: ["Leadership"]
+categories: ["Speaking"]
 image: preview.jpg
 ---
 

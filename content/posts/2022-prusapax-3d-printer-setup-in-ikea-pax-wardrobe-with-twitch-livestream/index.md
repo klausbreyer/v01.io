@@ -6,7 +6,7 @@ publishdate: 2022-03-15T08:07:07+01:00
 lastmod: 2022-08-02T14:50:43+02:00
 draft: false
 tags: ["prusapax", "prusa", "pax", "ikea", "twitch", "3d printing"]
-categories: ["Open Source"]
+categories: ["Personal", "Open Source"]
 ---
 
 The 3D printer (Prusa) in my closet (Pax) now has a live stream on Twitch. [https://www.twitch.tv/prusapax](https://www.twitch.tv/prusapax)

@@ -1,7 +1,7 @@
 ---
 title: "Product Development Lifecycle AI Transformation Workshop"
 date: 2026-05-22T10:00:00+02:00
-categories: ["Agile", "AI", "Collaboration"]
+categories: ["Speaking"]
 image: flow-map.jpg
 social: https://www.linkedin.com/posts/klaus-breyer_everything-keeps-changing-faster-klaus-share-7463521865660194816-VZ8t
 aliases:

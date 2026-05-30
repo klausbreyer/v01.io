@@ -1,7 +1,7 @@
 ---
 title: "alphalist: Distributed, Yet Focused - High-Impact Remote Teams"
 date: 2025-06-19
-categories: ["Leadership"]
+categories: ["Speaking"]
 aliases:
   - "/2025-alphalist-remote/"
 

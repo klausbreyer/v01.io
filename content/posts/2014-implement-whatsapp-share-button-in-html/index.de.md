@@ -8,7 +8,7 @@ draft: false
 tags: ["facebook", "whatsapp"]
 aliases:
   - /posts/den-whatsapp-share-button-in-html-implementieren/
-categories: ["Product"]
+categories: ["Engineering"]
 ---
 
 WhatsApp bietet neuerdings (Dieser Artikel wurde 2014 geschrieben) einen Share Button. Buzzfeed testet ihn schon seit Anfang an, hatte ihn jetzt aber jüngst wieder entfernt. Der Button bietet die sehr praktische Möglichkeit, einen Artikel über WhatsApp zu teilen. Das hat mich natürlich sehr interessiert und ich habe mir den Button mal etwas genauer angeschaut. :)

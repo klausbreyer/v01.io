@@ -1,7 +1,7 @@
 ---
 title: "ML Week Europe: Bridging the AI-UX Gap in B2B SaaS through Interdisciplinary Collaboration"
 date: 2025-11-18
-categories: ["AI", "Product", "Collaboration"]
+categories: ["Speaking"]
 image: preview.jpg
 
 ---

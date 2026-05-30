@@ -1,7 +1,7 @@
 ---
 title: "Leading Eng Berlin 2024"
 date: 2024-11-05
-categories: ["Leadership"]
+categories: ["Speaking"]
 image: leading-eng-2.jpg
 
 ---

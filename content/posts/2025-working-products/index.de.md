@@ -1,7 +1,7 @@
 ---
 title: "Working Products 2025: Warum Tickets Silos schaffen und echte Kollaboration verhindern – und wie es besser geht"
 date: 2025-09-12
-categories: ["Leadership", "Product", "Collaboration"]
+categories: ["Speaking"]
 image: preview.de.png
 ---
 
