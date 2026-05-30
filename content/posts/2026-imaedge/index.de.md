@@ -2,10 +2,10 @@
 title: "imaedge: Originalfotos gemeinsam sammeln"
 date: 2026-05-30
 categories: ["Open Source", "Travel"]
-image: preview.png
+image: preview.de.png
 ---
 
-![imaedge Homepage Vorschau](preview.png)
+![imaedge Homepage Vorschau](preview.de.png)
 
 Weil wir inzwischen in Zeiten leben, in denen man schneller eine Lösung gebaut hat, als man sich lange über das Problem aufregt, habe ich [imaedge](https://www.imaedge.org/) gebaut.
 
