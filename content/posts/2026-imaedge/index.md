@@ -1,7 +1,7 @@
 ---
 title: "imaedge: Collecting Original Photos Together"
 date: 2026-05-30
-categories: ["Open Source", "Travel"]
+categories: ["Open Source", "Travel", "Shipped"]
 image: preview.png
 ---
 
