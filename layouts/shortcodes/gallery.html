@@ -1,9 +1,33 @@
-<p class="flex flex-wrap gap-2 {{.Get 1}}  ">
+{{- $class := "" -}}
+{{- $folder := "" -}}
+{{- $size := "2000x200" -}}
+{{- if .IsNamedParams -}}
+	{{- $class = .Get "class" -}}
+	{{- $folder = .Get "folder" -}}
+	{{- with .Get "size" -}}{{- $size = . -}}{{- end -}}
+{{- else -}}
+	{{- with .Get 1 -}}{{- $class = . -}}{{- end -}}
+{{- end -}}
 
-	{{ range (split (.Get 0) "|") }}
-	{{ $imageParts := split . "," }}
-	<a href="{{ index $imageParts 0 }}" target="_blank" class="block">
-		<img src="{{ index $imageParts 1 }}" class="max-w-xs transition-shadow duration-300 rounded print:shadow-none shadow-lg hover:shadow-2xl" />
-	</a>
-	{{ end }}
+<p class="flex flex-wrap gap-2 {{ $class }}">
+	{{- if $folder -}}
+		{{- $pattern := printf "%s/*" $folder -}}
+		{{- range .Page.Resources.Match $pattern -}}
+			{{- if eq .MediaType.MainType "image" -}}
+				{{- $resized := .Fit $size -}}
+				<a href="{{ .Permalink }}" target="_blank" class="block">
+					<img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" class="max-w-xs transition-shadow duration-300 rounded print:shadow-none shadow-lg hover:shadow-2xl" />
+				</a>
+			{{- end -}}
+		{{- end -}}
+	{{- else -}}
+		{{- range (split (.Get 0) "|") -}}
+			{{- if . -}}
+				{{- $imageParts := split . "," -}}
+				<a href="{{ index $imageParts 0 }}" target="_blank" class="block">
+					<img src="{{ index $imageParts 1 }}" class="max-w-xs transition-shadow duration-300 rounded print:shadow-none shadow-lg hover:shadow-2xl" />
+				</a>
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
 </p>
