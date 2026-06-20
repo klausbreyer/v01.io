@@ -94,39 +94,7 @@ I think all the tourists who were in Toraja could be seen at the funeral. So not
 
 Oh – and Julia seems to be a highly coveted target for local tourists.
 
-![](toraja/2024-07-25_09-10-41.jpg)
-![](toraja/2024-07-25_09-50-53.jpg)
-![](toraja/2024-07-25_12-57-41.jpg)
-![](toraja/2024-07-25_14-22-51.jpg)
-![](toraja/2024-07-25_15-16-32.jpg)
-![](toraja/2024-07-25_16-34-51.jpg)
-![](toraja/2024-07-26_09-51-07.jpg)
-![](toraja/2024-07-26_10-47-51.jpg)
-![](toraja/2024-07-26_10-51-58.jpg)
-![](toraja/2024-07-26_11-04-56.jpg)
-![](toraja/2024-07-26_11-48-42.jpg)
-![](toraja/2024-07-26_12-22-18.jpg)
-![](toraja/2024-07-26_12-37-08.jpg)
-![](toraja/2024-07-26_15-36-48.jpg)
-![](toraja/2024-07-26_15-43-45.jpg)
-![](toraja/2024-07-26_15-47-35.jpg)
-![](toraja/2024-07-26_15-48-52.jpg)
-![](toraja/2024-07-26_15-49-39.jpg)
-![](toraja/2024-07-26_15-55-50.jpg)
-![](toraja/2024-07-26_15-57-04.jpg)
-![](toraja/2024-07-26_16-10-14.jpg)
-![](toraja/2024-07-26_16-34-58.jpg)
-![](toraja/2024-07-27_11-07-12.jpg)
-![](toraja/2024-07-27_11-09-04.jpg)
-![](toraja/2024-07-27_13-33-50.jpg)
-![](toraja/2024-07-27_14-07-51.jpg)
-![](toraja/2024-07-27_16-31-56.jpg)
-![](toraja/2024-07-27_17-02-24.jpg)
-![](toraja/2024-07-28_10-50-33.jpg)
-![](toraja/2024-07-28_11-41-45.jpg)
-![](toraja/2024-07-28_18-59-49.jpg)
-![](toraja/2024-07-29_10-06-25.jpg)
-![](toraja/2024-07-29_10-53-28.jpg)
+{{< gallery folder="toraja" >}}
 
 ## Rammang Rammang
 
@@ -148,26 +116,7 @@ After we had dealt very much with the end (i.e., dying) in the last few days in 
 
 A nice end to the tour, with the beginning, so to speak.
 
-![](rammang/2024-07-29_18-03-18.jpg)
-![](rammang/2024-07-30_09-06-41.jpg)
-![](rammang/2024-07-30_09-44-26.jpg)
-![](rammang/2024-07-30_09-56-20.jpg)
-![](rammang/2024-07-30_10-04-38.jpg)
-![](rammang/2024-07-30_10-40-16.jpg)
-![](rammang/2024-07-30_11-20-55.jpg)
-![](rammang/2024-07-30_11-22-41.jpg)
-![](rammang/2024-07-30_12-00-08.jpg)
-![](rammang/2024-07-30_12-02-27.jpg)
-![](rammang/2024-07-30_12-06-09.jpg)
-![](rammang/2024-07-30_12-06-53.jpg)
-![](rammang/2024-07-30_12-18-01.jpg)
-![](rammang/2024-07-30_12-43-04.jpg)
-![](rammang/2024-07-30_12-48-11.jpg)
-![](rammang/2024-07-30_13-04-25.jpg)
-![](rammang/2024-07-30_14-41-38.jpg)
-![](rammang/2024-07-30_14-49-42.jpg)
-![](rammang/2024-07-30_14-50-18.jpg)
-![](rammang/2024-07-30_14-50-21.jpg)
+{{< gallery folder="rammang" >}}
 
 ## Bangka
 
@@ -191,23 +140,4 @@ But it feels good. We've experienced everything here that we set out to do. Now 
 
 In our case, it's always not just a farewell from here but also simultaneously a joy for what's at home – namely our wonderful children!
 
-![](bangka/2024-07-31_15-17-28.jpg)
-![](bangka/2024-07-31_18-08-00.jpg)
-![](bangka/2024-07-31_18-18-39.jpg)
-![](bangka/2024-08-01_07-16-43.jpg)
-![](bangka/2024-08-01_09-34-17.jpg)
-![](bangka/2024-08-01_11-55-09.jpg)
-![](bangka/2024-08-01-IMG_7457.JPG)
-![](bangka/2024-08-01-IMG_7535.PNG)
-![](bangka/2024-08-03_09-29-01.jpg)
-![](bangka/2024-08-03_10-39-02.jpg)
-![](bangka/2024-08-04_15-43-34.jpg)
-![](bangka/2024-08-05_18-02-30.jpg)
-![](bangka/2024-08-06_16-23-22.jpg)
-![](bangka/2024-08-06_16-24-56.jpg)
-![](bangka/2024-08-06_16-30-06.jpg)
-![](bangka/2024-08-06_16-32-54.jpg)
-![](bangka/2024-08-06_16-33-36.jpg)
-![](bangka/2024-08-06_16-36-29.jpg)
-![](bangka/2024-08-06_17-18-44.jpg)
-![](bangka/2024-08-07_10-22-32.jpg)
+{{< gallery folder="bangka" >}}
