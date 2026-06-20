@@ -1,7 +1,8 @@
 ---
-title: "How I Do Job Interviews in 2026"
+title: "Our Interview Runs on Real Code. One Candidate Already Quit."
 date: 2026-06-11
 categories: ["Engineering"]
+image: preview.png
 ---
 
 This morning, one of our engineers spent 45 minutes with a candidate.
@@ -55,6 +56,8 @@ A few things in there I wouldn't skip anymore:
 **Team fit comes at the end.** Two to three more people from the team, explicitly including PM and design. Our engineers don't work in a silo, so engineering isn't the only voice in the decision either.
 
 **The full timeline is set on day one.** Candidates usually have a job, often several parallel processes, sometimes a family. A process that drips along in installments ("we'll get back to you") is disrespectful of their time. All appointments go in the calendar on day one, on both sides. Rescheduling is explicitly fine.
+
+![Our Interview Runs on Real Code](preview.png)
 
 ## The task: real tech debt, not a puzzle
 
