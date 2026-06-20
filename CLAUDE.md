@@ -52,7 +52,7 @@ image: preview.jpg
 Rules and options:
 - **title**: always quoted. Title case for English, sentence/title-ish for German. Colons, em dashes, and question marks are fine.
 - **date**: either a plain `YYYY-MM-DD` or a full RFC3339 timestamp with offset (`2025-01-23T08:33:12+01:00`). Both are in use — prefer plain date unless the time of day matters.
-- **categories**: always a YAML list, even with one entry. Common values (by frequency): `Bookshelf`, `Personal`, `Open Source`, `Product`, `Engineering`, `Agile`, `Travel`, `Leadership`, `Productivity`, `Remote`, `AI`, `Collaboration`. Multi-category is fine: `["Leadership", "Product", "Collaboration"]`.
+- **categories**: always a YAML list with **exactly one entry**. Pick the single most fitting category. Common values (by frequency): `Bookshelf`, `Personal`, `Open Source`, `Product`, `Engineering`, `Agile`, `Travel`, `Leadership`, `Productivity`, `Remote`, `AI`, `Collaboration`. Only use multiple categories if Klaus explicitly asks for it.
 - **image**: path to the social/preview image relative to the post folder. Often `preview.jpg` / `preview.png` / `preview.de.jpg`, sometimes the hero image itself.
 - **social** (optional): URL to the LinkedIn post / podcast episode / external canonical where this piece was also shared.
 - **aliases** (optional): list of old URLs that should redirect here. Used when renaming a post.
