@@ -3,6 +3,7 @@ title: "Field Notes: Trunk-Based Development Makes Problems Painfully Visible"
 date: 2026-07-05
 categories: ["Engineering"]
 image: preview.png
+social: https://www.linkedin.com/posts/klaus-breyer_my-team-discussed-whether-to-move-away-from-share-7479822093304512512-0c-9
 ---
 
 A few months ago, the team had a thorough discussion about our git workflow. Trunk-based development vs. a more traditional branching model with a long-lived secondary branch. The team was split. People had good arguments on both sides.
