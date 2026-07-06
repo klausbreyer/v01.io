@@ -3,6 +3,14 @@ title: "Our Interview Runs on Real Code. One Candidate Already Quit."
 date: 2026-06-11
 categories: ["Engineering"]
 image: preview.png
+linkedin: |
+  We stopped doing algorithm puzzles in interviews.
+
+  Instead, candidates work in our actual codebase. Real code, real tech debt, real documentation. They pair with one of our engineers, record a video walking through their decisions, and meet PM and design in a team-fit round.
+
+  One candidate already quit mid-process. They realized it wasn't their turf. That's exactly how it should work. Better to find out during the interview than during probation.
+
+  The whole thing simulates working together, not applying. If it's a match after that, it tends to hold.
 ---
 
 This morning, one of our engineers spent 45 minutes with a candidate.
