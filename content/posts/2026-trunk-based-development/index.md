@@ -4,6 +4,18 @@ date: 2026-07-05
 categories: ["Engineering"]
 image: preview.png
 social: https://www.linkedin.com/posts/klaus-breyer_my-team-discussed-whether-to-move-away-from-share-7479822093304512512-0c-9
+linkedin: |
+  My team discussed whether to move away from trunk-based development to a branching model with a long-lived secondary branch.
+
+  I had a strong opinion: No.
+
+  "Every process in a company is a reminder of a mistake someone once made." I don't want to optimize for avoiding mistakes through process. I want to optimize for speed, trust, and end-to-end ownership.
+
+  Heavy branching models are often reactions to past failures. They feel safe. But they create risk-averse cultures, slow down feedback, and shift responsibility from people to process.
+
+  Trunk-based development makes problems painfully visible. And that's the point. It forces you to invest in the things that actually make shipping safe: feature flags, tests, observability, small increments.
+
+  That discussion was months ago. We stuck with it. Right call.
 ---
 
 A few months ago, the team had a thorough discussion about our git workflow. Trunk-based development vs. a more traditional branching model with a long-lived secondary branch. The team was split. People had good arguments on both sides.
