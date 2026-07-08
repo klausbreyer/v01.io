@@ -3,6 +3,7 @@ title: "Our Interview Runs on Real Code. One Candidate Already Quit."
 date: 2026-06-11
 categories: ["Engineering"]
 image: preview.png
+social: https://www.linkedin.com/posts/klaus-breyer_we-stopped-doing-algorithm-puzzles-or-artificial-share-7480616512278573056-MTW8/
 linkedin: |
   We stopped doing algorithm puzzles in interviews.
 
