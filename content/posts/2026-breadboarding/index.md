@@ -1,5 +1,5 @@
 ---
-title: "Sticky Notes Over Figma: Breadboarding as Inclusive Way to Shape Software"
+title: "Sticky Notes Over Figma: Breadboarding as an Inclusive Way to Shape Software"
 date: 2026-07-06
 draft: true
 categories: ["Product"]
@@ -23,13 +23,13 @@ Breadboarding flips this. The name comes from electronics: a breadboard is a pro
 
 In Shape Up, breadboarding works the same way. You start with a blank slate. Pink stickies for places (pages, containers), yellow stickies for affordances (buttons, inputs, copy), arrows for interactions. That is the entire notation. No wireframe tool, no design expertise required. You figure out the components and their connections before anyone commits to building the real thing.
 
-## Engineers Go Into the Lead
+## Engineers Take the Lead
 
 This is the part that surprises people: in a breadboarding session, engineers naturally take the lead. Not because they are in charge, but because they are closest to what is technically possible and what is not.
 
 The flow through an application is shaped by technical realities. Can we send emails at this point? Do we have this data available? Can we run these two things in parallel or does one depend on the other? Engineers know this. When they develop the interaction flow from scratch on a whiteboard, they are actively shaping the solution, not just receiving it.
 
-When I was an engineer myself and got handed 30 or 40 Figma screens, I gave a little bit of feedback, sure. But I was not really part of the solution. I always discovered things during implementation that had not been considered from a technical perspective. Parts that nobody thought through, because I just assumed they would work.
+When I was an engineer myself and got handed 30 or 40 Figma screens, I gave a little bit of feedback, sure. But I was not really part of the solution. I always discovered things during implementation that had not been considered from a technical perspective. Parts nobody thought through, because everyone just assumed they would work.
 
 If you develop the flow together, in this deliberately cheap format, that stops happening.
 

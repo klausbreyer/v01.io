@@ -30,7 +30,7 @@ You need slack in the system. Not Slack the tool, slack as in spare capacity. Pe
 
 In my team of about 10 people, we always have people inside a cycle (working on a shaped, timeboxed problem) and people outside the cycle (handling bugs, support escalations, small improvements, infrastructure work).
 
-David Heinemeier Hansson describes a similar setup at Basecamp: reactive work runs as a separate concern alongside project work. The people outside the cycle operate in Kanban style. We do a regular refinement of our reactive work once a week. No framing, no shaping, no appetite discussions. Just triage, prioritize, and work through the queue.
+David Heinemeier Hansson describes a similar setup at Basecamp: reactive work runs as a separate concern alongside project work. The people outside the cycle operate in Kanban style. We refine our reactive work once a week. No framing, no shaping, no appetite discussions. Just triage, prioritize, and work through the queue.
 
 This is not second-class work. It is essential. Someone needs to keep the lights on, fix the things that break, and handle the requests that cannot wait six weeks.
 
@@ -54,7 +54,7 @@ The key insight is that you plan for this explicitly. It is not a failure to hav
 
 **Kanban** is for everything else. Bug fixes, small improvements, infrastructure tasks, support requests, compliance items. Things that are important but do not justify the framing and shaping overhead. Things that need to happen on a flexible timeline.
 
-But here is the catch: if you run your Kanban without strict WIP limits, you end up with exactly the mess that Shape Up is designed to prevent. An ever-growing backlog of "someday" items that nobody triages, nobody prioritizes, and nobody deletes. That backlog becomes a graveyard of good intentions, and every refinement session turns into an archaeological dig.
+One catch, though: if you run your Kanban without strict WIP limits, you end up with exactly the mess that Shape Up is designed to prevent. An ever-growing backlog of "someday" items that nobody triages, nobody prioritizes, and nobody deletes. That backlog becomes a graveyard of good intentions, and every refinement session turns into an archaeological dig.
 
 Enforce WIP limits ruthlessly. If the board is full, something has to leave before something new enters. This is not optional. Without it, your Kanban side becomes a dumping ground, and the clarity you gained from Shape Up on the strategic side gets undermined by chaos on the operational side.
 

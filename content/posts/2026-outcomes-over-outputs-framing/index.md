@@ -1,5 +1,5 @@
 ---
-title: "Everyone Wants Outcomes Over Outputs. Here Is How You Do It by Framing Problems."
+title: "Everyone Wants Outcomes Over Outputs. Framing Problems Is How You Get There."
 date: 2026-07-06
 draft: true
 categories: ["Product"]
@@ -50,7 +50,7 @@ A stakeholder says: "We need a Kanban board in the product." If you take that at
 
 That is a completely different problem with completely different solutions. A notification. A status email. A dashboard widget. Many of them simpler and faster to build than a Kanban board.
 
-Teresa Torres calls this pattern explicitly "solutions in disguise" in her opportunity mapping framework. And Donald Gause and Gerald Weinberg wrote in *Are Your Lights On*: "Don't mistake a solution method for a problem definition."
+Teresa Torres calls this pattern "solutions in disguise" in her opportunity mapping framework. And Donald Gause and Gerald Weinberg wrote in *Are Your Lights On?*: "Don't mistake a solution method for a problem definition."
 
 > "So much complexity in software comes from trying to make one thing do two things."
 > (Ryan Singer, Shape Up)

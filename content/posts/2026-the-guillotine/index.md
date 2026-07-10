@@ -34,7 +34,7 @@ Then you draw the guillotine line. If your appetite runs out after scope five ou
 
 The alternative is what most teams do: plan everything, build in parallel, integrate at the end, and then scramble when time runs out. At that point, the engineers are making the tradeoffs. They cut corners on quality, skip testing, or rush the integration. The result is something that technically ships but is fragile, incomplete in unpredictable ways, and often does not even make sense as a whole because the tradeoffs were not made by the people who understand the problem.
 
-With the guillotine approach, the tradeoffs are made upfront, during shaping, by product, design, and engineering together. Ryan Singer calls this the scope hammer: "Can we ship without this?" If the appetite runs out, you stop. What you have shipped is a coherent, quality product. Just less of it.
+With the guillotine approach, the tradeoffs are made upfront, during shaping, by product, design, and engineering together. Ryan Singer calls this scope hammering: "Can we ship without this?" If the appetite runs out, you stop. What you have shipped is a coherent, quality product. Just less of it.
 
 ## The Discipline It Requires
 
@@ -52,7 +52,7 @@ And it requires that each scope is end-to-end. Not "prepare all APIs" and then "
 
 The guillotine forces a conversation that most teams avoid: what is actually essential, and what just feels essential?
 
-David Heinemeier Hansson organizes Basecamp's delivery around epicenter, stretch, and integration, implying the same principle: core first, periphery last.
+David Heinemeier Hansson organizes Basecamp's delivery around epicenter, stretch, and integration. Same principle: core first, periphery last.
 
 A welcome page feels important. A dashboard feels important. But if the core feature works without them, they are not essential. They are nice. And "nice" goes at the end of the timeline, behind the guillotine line.
 

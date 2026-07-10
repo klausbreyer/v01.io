@@ -9,7 +9,7 @@ linkedin: |
 
   The reality is that most of the uncertainty lives before those columns. Figuring out what to build, in what order, with what dependencies. No ticket system helps you with that.
 
-  And here is the uncomfortable part: AI makes this worse. If AI tools make engineers 3x faster at execution, the bottleneck shifts. The limiting factor is no longer "how fast can we code this." It is "are we coding the right thing."
+  And AI makes this worse, not better. If AI tools make engineers 3x faster at execution, the bottleneck shifts. The limiting factor is no longer "how fast can we code this." It is "are we coding the right thing."
 
   The whiteboard session where you figure out what to build becomes the most valuable meeting in your sprint.
 ---
@@ -41,7 +41,7 @@ A good scope is not a task. It is a capability. Something the user can do after 
 
 The difference matters because of time. If you have a fixed appetite (say, four weeks) and you organize by capability, you can always stop after each one and still have shipped something useful. If you organize by layer, you can only ship when all layers are done. And if you run out of time, you have a half-finished API, half-finished screens, and nothing that works.
 
-## The Guillotine Test: Organize by Capability, Not by Person
+## The Guillotine Test
 
 When a team presents their delivery plan to me, I always do the same check: can I cut from the back?
 
@@ -63,7 +63,7 @@ None of this happens in Jira. It happens on a whiteboard, a Miro board, a piece 
 
 ## AI Makes This Worse, Not Better
 
-Here is the uncomfortable part: AI-assisted development makes the "finding the work" problem even more important.
+AI-assisted development makes the "finding the work" problem even more important, not less.
 
 If AI tools make engineers 3x or 5x faster at execution, the bottleneck shifts. The limiting factor is no longer "how fast can we code this." It is "are we coding the right thing." Building the wrong feature faster does not help anyone. Shipping unnecessary capabilities in half the time is not progress.
 

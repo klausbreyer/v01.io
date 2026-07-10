@@ -14,7 +14,7 @@ linkedin: |
   The art is finding the right altitude. Strategic decisions early. Tactical decisions pushed to delivery. The ambiguity is the feature.
 ---
 
-If I say to an image generator: "Draw me a painting from M.C. Escher where a male person stands in front of a conference crowd, geometric architecture structures" then the model has enough information to produce something that fulfills my intent. I did not specify that there needs to be a staircase. I could not even describe that weird Escher thing. But the prompt was good enough.
+If I say to an image generator: "Draw me a painting from M.C. Escher where a male person stands in front of a conference crowd, geometric architecture structures", then the model has enough information to produce something that fulfills my intent. I did not specify that there needs to be a staircase. I could not even describe that weird Escher thing. But the prompt was good enough.
 
 ![AI-generated Escher-style conference scene](preview.png)
 
@@ -44,9 +44,9 @@ The worst case is a team that receives a fully specified solution and then disco
 
 With a well-shaped solution, you have stickies on a board. Changing direction costs you five minutes of rearranging.
 
-## The Ambiguity is the Feature
+## The Ambiguity Is the Feature
 
-Fight the details, but diffuse the time bombs. That is the tension in shaping. You do not want to over-specify, but you do need to address the things that could blow up during delivery. The trick is knowing which is which.
+Fight the details, but defuse the time bombs. That is the tension in shaping. You do not want to over-specify, but you do need to address the things that could blow up during delivery. The trick is knowing which is which.
 
 As Ryan Singer describes the designer's role: you need an architect who builds the foundation with interactions and user flows, not an interior designer.
 
