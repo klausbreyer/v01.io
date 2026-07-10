@@ -46,7 +46,7 @@ Marty Cagan puts it sharply in *Transformed*: "Push decisions down. Do not push 
 
 ## Why Engineers Need to Want This
 
-Here is the uncomfortable truth: if an engineer's job is just executing tickets, an AI can do that job. As Nikhyl Singhal describes on the Lenny Podcast: "The PM job used to be carrying information from A to B. Builders will have the time of their lives. Everyone needs a builder mindset." Writing code from a specification is exactly what AI coding agents are getting good at. The ticket executor role is being automated away.
+Here is the uncomfortable truth: if an engineer's job is just executing tickets, an AI can do that job. As Nikhyl Singhal describes on Lenny's Podcast: "The PM job used to be carrying information from A to B. Builders will have the time of their lives. Everyone needs a builder mindset." Writing code from a specification is exactly what AI coding agents are getting good at. The ticket executor role is being automated away.
 
 What AI cannot do is sit in a shaping session, understand the business context, push back on a product decision because of a technical constraint nobody else sees, or make a scope tradeoff mid-cycle because the team discovered something unexpected. That requires judgment, ownership, and deep context. That is the co-creator role.
 
@@ -66,4 +66,4 @@ The team delivers with more autonomy and more focus. No waiting for approvals. N
 
 Everyone is doing what they are best at. The PM provides context and makes strategic decisions. The team provides execution and makes tactical decisions. Nobody is a bottleneck.
 
-And, let's be frank here: if an engineer cannot own delivery, this person is maybe in the wrong job.
+And, let's be frank here: if an engineer cannot own delivery, maybe they are in the wrong job.

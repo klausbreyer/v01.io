@@ -16,10 +16,10 @@ linkedin: |
   Before any meeting, ask: what is the smallest group that has all the context needed to make this decision? Start there.
 ---
 
-![Brooks' Law: communication lines grow exponentially](preview.png)
+![Brooks' Law: lines of communication grow with team size](preview.png)
 (Source: [Liminal Arc - Lines of Communication and Team Size](https://www.liminalarc.co/2018/02/lines-of-communication-team-size-applying-brooks-law/))
 
-Three people have three lines of communication. Seven people have 21. That is Brooks' Law: communication scales exponentially, not linearly.
+Three people have three lines of communication. Seven people have 21. That is Brooks' Law: communication overhead grows much faster than headcount.
 
 This single insight should change how you staff every phase of product development.
 
@@ -43,7 +43,7 @@ I always try to have the minimum amount of people necessary at every step:
 
 ## You Don't Need Everyone's Opinion
 
-People will say: "But we need everyone's input." No, you do not. You need the right input at the right time. The rest of the team can give feedback asynchronously. They can review architecture decision records. They can look at the shaped solution on the board. But they do not need to be in every session.
+People will say: "But we need everyone's input." No, you don't. You need the right input at the right time. The rest of the team can give feedback asynchronously. They can review architecture decision records. They can look at the shaped solution on the board. But they do not need to be in every session.
 
 Including more people feels inclusive. It feels democratic. But it slows everything down. And worse, it diffuses ownership. When everyone is responsible, nobody is responsible.
 
