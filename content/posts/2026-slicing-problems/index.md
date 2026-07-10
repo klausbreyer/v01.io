@@ -43,7 +43,7 @@ Sometimes the dependency is real. You genuinely need someone from another team b
 
 In that case, do not manage the dependency from the outside. Pull the person in. Make them a temporary part of the team for the duration of the cycle. Block their time. Include them in the shaping sessions so they understand the context and can contribute meaningfully.
 
-This is more disruptive than a polite cross-team request, yes. But it is honest about the cost. A dependency that you "manage" from a distance is a dependency that can fail silently. A person who is part of your team for four weeks is a resource you can count on.
+This is more disruptive than a polite cross-team request, yes. But it is honest about the cost. A dependency that you "manage" from a distance is a dependency that can fail silently. A person who is part of your team for four weeks is someone you can count on.
 
 ## The Problem With Parallel Teams
 
