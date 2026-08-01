@@ -1,5 +1,5 @@
 ---
-title: "franken.domains: Every Dictionary .com Is Taken. Here Is What's Left."
+title: "franken.domains: Stitched-Together Domains, Because Every Dictionary .com Is Taken"
 date: 2026-08-01
 categories: ["Engineering"]
 image: preview.jpg
