@@ -2,7 +2,6 @@
 title: "2023 Homepage Relaunch"
 
 date: 2023-01-13T17:26:22+01:00
-draft: false
 image: "2023-relaunch.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_2023-relaunch-klaus-breyer-cto-writing-activity-7019586130656272384-Yl7H"
 categories: ["Personal"]

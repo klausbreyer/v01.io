@@ -4,7 +4,6 @@ title: "mobile batch upload - Wordpress Plugin"
 date: 2017-11-04T13:32:43+01:00
 publishdate: 2017-11-04T13:32:43+01:00
 lastmod: 2020-05-15T12:01:15+02:00
-draft: false
 tags:
   [
     "mobile",

@@ -1,7 +1,6 @@
 ---
 title: "Jedem Anfang liegt ein Ende inne"
 date: 2015-07-01
-draft: false
 categories: ["Personal"]
 tags:
   [

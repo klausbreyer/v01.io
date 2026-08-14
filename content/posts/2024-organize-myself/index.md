@@ -1,5 +1,4 @@
 ---
-draft: false
 title: "Bicycle for my Mind - How I Organize Myself and My Knowledge"
 date: 2024-04-15
 image: "obsidian-linkedin.png"

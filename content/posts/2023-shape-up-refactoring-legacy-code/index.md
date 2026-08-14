@@ -1,7 +1,6 @@
 ---
 title: "Refactoring Legacy Code in Shape Up: The Dilemma"
 date: 2023-10-27
-draft: false
 tags:
   [
     "Refactoring",

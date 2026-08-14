@@ -1,7 +1,6 @@
 ---
 title: "What’s in My Bag – 2018 Edition"
 date: 2018-01-14
-draft: false
 categories: ["Personal"]
 tags: ["Gadgets", "Reisen", "Ausrüstung", "Technik", "Empfehlungen"]
 aliases: /in-eigener-sache/whats-in-my-bag-2018-edition/2008

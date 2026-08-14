@@ -1,7 +1,6 @@
 ---
 title: "Open sourcing dumplink: Intuitive Task Grouping and Risk Visualization"
 date: 2024-05-31
-draft: false
 tags:
   - shapeup
   - product

@@ -1,7 +1,6 @@
 ---
 title: "Wachstumsschmerzen: Learnings eines Millennial Unternehmers"
 date: 2016-09-07
-draft: false
 categories: ["Personal"]
 tags:
   [

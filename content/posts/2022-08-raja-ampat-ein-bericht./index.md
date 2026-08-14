@@ -1,7 +1,6 @@
 ---
 title: "Raja Ampat – A Report."
 date: 2022-08-07
-draft: false
 categories: ["Travel"]
 tags:
   [

@@ -1,7 +1,6 @@
 ---
 title: "Erkältung – Burn Out des kleinen Mannes"
 date: 2016-08-20
-draft: false
 categories: ["Personal"]
 tags:
   [

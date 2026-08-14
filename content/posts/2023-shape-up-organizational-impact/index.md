@@ -4,7 +4,6 @@ title: "Ripples of Shape Up: An Organizational Deep Dive"
 date: 2023-09-15T10:56:00+02:00
 lastmod: 2023-09-14T08:31:00+02:00
 
-draft: false
 tags:
   - shapeup
   - process

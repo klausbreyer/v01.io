@@ -1,7 +1,6 @@
 ---
 title: "Costa Rica – Ein Bericht."
 date: 2021-08-09
-draft: false
 categories: ["Travel"]
 tags: ["Costa Rica", "Erfahrungen", "Reisetagebuch", "Natur", "Kultur"]
 aliases: /reise/costa-rica-ein-bericht/2463

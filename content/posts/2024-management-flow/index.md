@@ -1,5 +1,4 @@
 ---
-draft: false
 title: "Flow & Reflection: My Approach to Team Management"
 date: 2024-04-05
 author: "Klaus Breyer"

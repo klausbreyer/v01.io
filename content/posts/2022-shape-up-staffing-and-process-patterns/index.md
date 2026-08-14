@@ -4,7 +4,6 @@ title: "Shape Up staffing and process patterns v2"
 date: 2022-12-16T10:39:57+01:00
 publishdate: 2022-12-16T10:39:57+01:00
 lastmod: 2023-01-20T14:44:00+01:00
-draft: false
 tags:
   - scrum
   - shapeup

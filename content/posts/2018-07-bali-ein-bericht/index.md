@@ -1,7 +1,6 @@
 ---
 title: "Bali – A Report"
 date: 2018-07-24
-draft: false
 categories: ["Travel"]
 tags:
   ["Bali", "Java", "Indonesia", "Travel Experience", "Culture", "Photography"]

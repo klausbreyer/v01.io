@@ -1,7 +1,6 @@
 ---
 title: "Generation Schlachtzug – was vom Raiden im Kinderzimmer blieb."
 date: 2014-06-01
-draft: false
 categories: ["Personal"]
 tags:
   [

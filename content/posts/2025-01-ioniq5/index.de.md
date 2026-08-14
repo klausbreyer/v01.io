@@ -1,7 +1,6 @@
 ---
 title: "Hyundai IONIQ5 – Nach 3 Jahren."
 date: 2025-01-31
-draft: false
 categories: ["Personal"]
 tags:
   [

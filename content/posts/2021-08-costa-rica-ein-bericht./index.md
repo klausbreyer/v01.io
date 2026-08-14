@@ -1,7 +1,6 @@
 ---
 title: "Costa Rica – A Report."
 date: 2021-08-09
-draft: false
 categories: ["Travel"]
 tags: ["Costa Rica", "Experiences", "Travel Diary", "Nature", "Culture"]
 aliases: /travel/costa-rica-a-report/2463

@@ -1,7 +1,6 @@
 ---
 title: "Ich bin wieder ein Teemensch geworden"
 date: 2014-02-06
-draft: false
 categories: ["Personal"]
 tags:
   [

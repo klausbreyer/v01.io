@@ -1,7 +1,6 @@
 ---
 title: "Growing Pains: Learnings of a Millennial Entrepreneur"
 date: 2016-09-07
-draft: false
 categories: ["Personal"]
 tags:
   [
