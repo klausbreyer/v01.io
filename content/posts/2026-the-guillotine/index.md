@@ -32,9 +32,9 @@ Then you draw the guillotine line. If your appetite runs out after scope five ou
 
 ## Why This Works
 
-The alternative is what most teams do: plan everything, build in parallel, integrate at the end, and then scramble when time runs out. At that point, the engineers are making the tradeoffs. They cut corners on quality, skip testing, or rush the integration. The result is something that technically ships but is fragile, incomplete in unpredictable ways, and often does not even make sense as a whole because the tradeoffs were not made by the people who understand the problem.
+The alternative is what most teams do: plan everything, build in parallel, integrate at the end, and then scramble when time runs out. At that point, the engineers are making the tradeoffs. They cut corners on quality, skip testing, or rush the integration. The result is something that technically ships but is fragile, incomplete in unpredictable ways, and often does not even make sense as a whole because the people who understand the problem did not make the tradeoffs.
 
-With the guillotine approach, the tradeoffs are made upfront, during shaping, by product, design, and engineering together. Ryan Singer calls this scope hammering: "Can we ship without this?" If the appetite runs out, you stop. What you have shipped is a coherent, quality product. Just less of it.
+With the guillotine approach, product, design, and engineering make the tradeoffs upfront, during shaping. Ryan Singer calls this scope hammering: "Can we ship without this?" If the appetite runs out, you stop. What you have shipped is a coherent, quality product. Just less of it.
 
 ## The Discipline It Requires
 

@@ -16,7 +16,7 @@ linkedin: |
 
 ![The PM in the classic double diamond](preview.png)
 
-In my mental model, the product manager is primarily responsible for context. They frame the problem, they provide strategic direction, they bridge the gap between what the business needs and what the team builds. That is it.
+In my mental model, the product manager is primarily responsible for context. They frame the problem, they provide strategic direction, they connect what the business needs with what the team builds. That is it.
 
 In reality, I have to push every team I work with towards this model. Because the default is always the same: the PM ends up in the middle of everything, signing off on designs, approving tickets, checking implementations. And then everyone wonders why things are slow.
 
@@ -24,7 +24,7 @@ In reality, I have to push every team I work with towards this model. Because th
 
 In most product organizations, the PM sits at the center of everything. They write the PRD. They review the designs. They approve the tickets. They check the implementation. They are in every standup, every demo, every decision.
 
-The result: the PM becomes the bottleneck. Nothing moves without them. Engineers wait for approvals. Designers wait for feedback. And the PM is stretched so thin across all these checkpoints that they cannot do the work that actually matters: understanding the market, talking to customers, and deciding what problems to solve next.
+The result: the PM becomes the bottleneck. Nothing moves without them. Engineers wait for approvals. Designers wait for feedback. And the PM is stretched so thin across all these checkpoints that they cannot do the work that matters: understanding the market, talking to customers, and deciding what problems to solve next.
 
 ## What the PM Should Actually Do
 
@@ -46,7 +46,7 @@ Marty Cagan puts it sharply in *Transformed*: "Push decisions down. Do not push 
 
 ## Why Engineers Need to Want This
 
-Here is the uncomfortable truth: if an engineer's job is just executing tickets, an AI can do that job. As Nikhyl Singhal describes on Lenny's Podcast: "The PM job used to be carrying information from A to B. Builders will have the time of their lives. Everyone needs a builder mindset." Writing code from a specification is exactly what AI coding agents are getting good at. The ticket executor role is being automated away.
+Here is the uncomfortable truth: if an engineer's job is just executing tickets, an AI can do that job. As Nikhyl Singhal describes on Lenny's Podcast: "The PM job used to be carrying information from A to B. Builders will have the time of their lives. Everyone needs a builder mindset." Writing code from a specification is exactly what AI coding agents are getting good at. AI is automating the ticket executor role away.
 
 What AI cannot do is sit in a shaping session, understand the business context, push back on a product decision because of a technical constraint nobody else sees, or make a scope tradeoff mid-cycle because the team discovered something unexpected. That requires judgment, ownership, and deep context. That is the co-creator role.
 
@@ -56,11 +56,11 @@ But it requires a change in mindset. Some engineers are used to someone else mak
 
 Stephan Schmidt argues the same in *Developer Accountability*: commitment must come from the team, and you push decisions to those who can best make them.
 
-The shaping process helps with this transition. If engineers are already part of defining the solution, they naturally take more ownership of delivering it. They shaped it, they understand the intent, they decide how to build it.
+The shaping process helps with this transition. If engineers are already part of defining the solution, they take more ownership of delivering it. They shaped it, they understand the intent, they decide how to build it.
 
 ## Everyone Does What They Are Best At
 
-When this works, the PM is free to look ahead. While the team delivers one cycle, the PM is already framing the next problem, talking to customers, analyzing what the last cycle taught them. They are not stuck in the weeds of the current delivery.
+When this works, the PM is free to look ahead. While the team delivers one cycle, the PM is already framing the next problem, talking to customers, analyzing what the last cycle taught them. They are not stuck in the details of the current delivery.
 
 The team delivers with more autonomy and more focus. No waiting for approvals. No context switches to explain things to the PM. Just building, scope by scope, with the full picture in their heads from the shaping sessions.
 
