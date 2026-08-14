@@ -1,43 +1,58 @@
-# Makefile
+TAILWIND := ./tailwindcss
+
+.PHONY: deps start build hugo-install tailwind-install tailwind-download watch tailwind-build cv dev-cv
 
 # Install dependencies (only once)
 deps:
 	bun add puppeteer
 
+# Install Hugo through Homebrew if the formula is not installed yet
+hugo-install:
+	@command -v brew >/dev/null 2>&1 || { \
+		echo "Homebrew is required to install Hugo: https://brew.sh"; \
+		exit 1; \
+	}
+	@brew list --formula hugo >/dev/null 2>&1 || brew install hugo
+
+# Download Tailwind CSS if the local standalone binary is missing
+tailwind-install:
+	@if [ ! -x "$(TAILWIND)" ]; then \
+		case "$$(uname -s)-$$(uname -m)" in \
+			Darwin-arm64) platform="macos-arm64" ;; \
+			Darwin-x86_64) platform="macos-x64" ;; \
+			Linux-aarch64|Linux-arm64) platform="linux-arm64" ;; \
+			Linux-x86_64) platform="linux-x64" ;; \
+			*) echo "Unsupported platform: $$(uname -s) $$(uname -m)"; exit 1 ;; \
+		esac; \
+		echo "Installing Tailwind CSS for $$platform..."; \
+		curl -fsSL \
+			-o "$(TAILWIND)" \
+			"https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-$$platform"; \
+		chmod +x "$(TAILWIND)"; \
+	fi
+
 # Start Hugo server and watch Tailwind CSS for changes
-start:
+start: hugo-install tailwind-install
 	hugo server & \
 	(sleep 2 && open http://localhost:1313/) & \
-	./tailwindcss -i ./assets/css/tailwind.css \
+	$(TAILWIND) -i ./assets/css/tailwind.css \
 		-o ./static/css/tailwind.css --watch
 
 # Build production site with minification
-build:
+build: hugo-install
 	HUGO_ENVIRONMENT=production hugo --minify
 
-# Download the latest Tailwind CSS binary for macOS or Linux
-tailwind-download:
-ifeq ($(shell uname -s), Darwin)
-	# Download macOS ARM64 binary
-	curl -sLO \
-		https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-macos-arm64
-else ifeq ($(shell uname -s), Linux)
-	# Download Linux x64 binary
-	curl -sLO \
-		https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
-endif
-	# Rename and make executable
-	mv tailwindcss-* tailwindcss
-	chmod +x tailwindcss
+# Backwards-compatible alias
+tailwind-download: tailwind-install
 
 # Watch for CSS changes and rebuild automatically
-watch:
-	./tailwindcss -i ./assets/css/tailwind.css \
+watch: tailwind-install
+	$(TAILWIND) -i ./assets/css/tailwind.css \
 		-o ./static/css/tailwind.css --watch
 
 # Build Tailwind CSS for production (minified)
-tailwind-build:
-	./tailwindcss -i ./assets/css/tailwind.css \
+tailwind-build: tailwind-install
+	$(TAILWIND) -i ./assets/css/tailwind.css \
 		-o ./static/css/tailwind.css --minify
 
 # Generate PDF from a live site using the external script
