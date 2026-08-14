@@ -14,6 +14,9 @@ defaultContentLanguage = 'en'
   [languages.de]
   [languages.en]
 
+[permalinks]
+  posts = '/posts/:year/:month/:contentbasename/'
+
 
 [sitemap]
   changefreq = 'monthly'
@@ -69,4 +72,3 @@ defaultContentLanguage = 'en'
   name = 'Blogposts'
   url = '/posts/'
   weight = 60
-
