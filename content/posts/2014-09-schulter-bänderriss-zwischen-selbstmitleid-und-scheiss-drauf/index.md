@@ -1,7 +1,6 @@
 ---
 title: "Shoulder Ligament Rupture: Between Self-Pity and Screw It!"
 date: 2014-09-30
-draft: false
 categories: ["Personal"]
 tags:
   [

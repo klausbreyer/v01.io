@@ -4,7 +4,6 @@ title: "Weltweites Entwickler Sourcing: Gründe und Prozess dafür"
 date: 2016-08-02T08:21:37+02:00
 publishdate: 2016-08-02T08:21:37+02:00
 lastmod: 2023-11-23T08:21:37+02:00
-draft: false
 tags: ["developer sourcing", "remote work", "global talent", "hiring process"]
 aliases:
   - "/posts/weltweites-entwickler-sourcing-grunde-und-prozess-dafur/"

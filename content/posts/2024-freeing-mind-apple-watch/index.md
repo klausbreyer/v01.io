@@ -1,7 +1,6 @@
 ---
 title: "Freeing My Mind from Work Thoughts on the Go with the Apple Watch"
 date: 2024-05-16T15:39:19+02:00
-draft: false
 categories: ["Productivity"]
 ---
 

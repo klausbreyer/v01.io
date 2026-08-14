@@ -4,7 +4,6 @@ title: "Prototyping Case Study:  Fillter.me"
 date: 2022-09-27T10:13:38+02:00
 publishdate: 2022-09-27T10:13:38+02:00
 lastmod: 2022-10-07T16:10:30+02:00
-draft: false
 tags: ["agile", "startup", "Prototyping", "casestudy", "fillter.me"]
 aliases:
   - "/posts/prototyping-case-study-fillterme/"

@@ -1,7 +1,6 @@
 ---
 title: "Generation Raid – What Remained from Raiden in the Children's Room"
 date: 2014-06-01
-draft: false
 categories: ["Personal"]
 tags:
   [

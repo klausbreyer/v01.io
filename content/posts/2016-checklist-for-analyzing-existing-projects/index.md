@@ -4,7 +4,6 @@ title: "Checklist for Analyzing Existing Projects"
 date: 2016-02-21T11:22:55+01:00
 publishdate: 2016-02-21T11:22:55+01:00
 lastmod: 2023-04-14T17:46:29+02:00
-draft: false
 tags:
   [
     "Project Analysis",

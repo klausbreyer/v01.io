@@ -4,7 +4,6 @@ title: "Vom Status Quo zur Vision: Roadmap-Vorlage für Startups - mit Booster-S
 date: 2017-01-05T08:47:46+01:00
 publishdate: 2017-01-05T08:47:46+01:00
 lastmod: 2021-06-29T10:39:17+02:00
-draft: false
 tags:
   [
     "Roadmap",

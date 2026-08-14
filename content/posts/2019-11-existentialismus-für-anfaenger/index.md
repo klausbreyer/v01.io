@@ -1,7 +1,6 @@
 ---
 title: "Existentialism for Beginners"
 date: 2019-11-20
-draft: false
 categories: ["Personal"]
 tags: ["Existentialism", "Life", "Philosophy", "Parenthood", "Thoughts"]
 aliases: /personal/existentialism-for-beginners/2452

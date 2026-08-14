@@ -13,7 +13,6 @@ tags:
   - Decision-making
   - Product Strategy
 
-draft: false
 image: "preview.de.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-die-kunst-st%C3%A4ndiger-risikominimierung-activity-7064498077511868416-_t9i"
 categories: ["Speaking"]

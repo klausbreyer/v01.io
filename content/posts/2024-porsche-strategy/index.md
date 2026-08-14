@@ -1,7 +1,6 @@
 ---
 title: "Driving Innovation Like Porsche: The Stair-Step Method of Product & Tech Innovation"
 date: 2024-05-27
-draft: false
 categories: ["Product"]
 ---
 

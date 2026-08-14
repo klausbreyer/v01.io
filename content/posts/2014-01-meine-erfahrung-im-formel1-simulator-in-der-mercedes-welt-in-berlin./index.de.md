@@ -1,7 +1,6 @@
 ---
 title: "Meine Erfahrung im Formel1-Simulator in der Mercedes-Welt in Berlin."
 date: 2014-01-13
-draft: false
 categories: ["Personal"]
 tags:
   ["Formel1", "Simulator", "Mercedes", "Erfahrungen", "Berlin", "Technologie"]

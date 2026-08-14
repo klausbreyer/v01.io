@@ -4,7 +4,6 @@ title: "PrusaPax"
 date: 2022-03-15T08:07:07+01:00
 publishdate: 2022-03-15T08:07:07+01:00
 lastmod: 2022-08-02T14:50:43+02:00
-draft: false
 tags: ["prusapax", "prusa", "pax", "ikea", "twitch", "3d printing"]
 categories: ["Personal", "Open Source"]
 ---

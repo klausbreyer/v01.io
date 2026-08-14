@@ -4,7 +4,6 @@ title: "File organization and folder structures for companies"
 date: 2014-04-01T21:13:34+02:00
 publishdate: 2014-04-01T21:13:34+02:00
 lastmod: 2023-02-10T14:45:52+01:00
-draft: false
 tags:
   [
     "File Organization",

@@ -1,7 +1,6 @@
 ---
 title: "Coding Test Equivalent for Product Management - How to Hire for an Empowered Remote Product Team"
 date: 2024-05-24
-draft: false
 image: "homework-assignment.png"
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7199742454575579136/"
 categories: ["Product"]

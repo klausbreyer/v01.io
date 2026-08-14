@@ -4,7 +4,6 @@ title: "Monospaced Fonts: Schriftarten für Programmierer"
 date: 2017-01-16T09:08:10+01:00
 publishdate: 2017-01-16T09:08:10+01:00
 lastmod: 2021-06-29T10:40:27+02:00
-draft: false
 tags:
   [
     "monospaced fonts",

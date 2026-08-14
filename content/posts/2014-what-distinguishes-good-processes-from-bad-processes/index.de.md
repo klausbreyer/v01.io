@@ -4,7 +4,6 @@ title: "Was gute Prozesse von schlechten Prozessen unterscheidet"
 date: 2014-01-15T09:24:58+01:00
 publishdate: 2014-01-15T09:24:58+01:00
 lastmod: 2021-06-29T10:37:44+02:00
-draft: false
 tags: ["processes", "workflow", "goals"]
 aliases:
   - /posts/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/

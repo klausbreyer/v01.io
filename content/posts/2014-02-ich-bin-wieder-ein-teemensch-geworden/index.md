@@ -1,7 +1,6 @@
 ---
 title: "I've Become a Tea Person Again"
 date: 2014-02-06
-draft: false
 categories: ["Personal"]
 tags:
   [

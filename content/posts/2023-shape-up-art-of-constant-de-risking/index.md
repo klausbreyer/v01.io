@@ -3,7 +3,6 @@ title: "The Art of Constant De-Risking: How Shape Up Revolutionizes Agile Softwa
 
 publishdate: 2023-03-15T09:22:00+01:00
 lastmod: 2023-03-17T08:17:00+01:00
-draft: false
 tags:
   - shapeup
   - scrum

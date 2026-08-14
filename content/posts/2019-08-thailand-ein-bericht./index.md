@@ -1,7 +1,6 @@
 ---
 title: "Thailand – A Report"
 date: 2019-08-04
-draft: false
 categories: ["Travel"]
 tags:
   [

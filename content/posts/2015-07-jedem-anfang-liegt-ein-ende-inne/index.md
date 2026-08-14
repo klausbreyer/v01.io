@@ -1,7 +1,6 @@
 ---
 title: "Every Beginning Contains an End"
 date: 2015-07-01
-draft: false
 categories: ["Personal"]
 tags:
   [

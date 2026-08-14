@@ -4,7 +4,6 @@ title: "Wie man unter Zeitdruck ein Software-Projekt mit einer völlig fremden C
 date: 2016-08-23T09:20:28+02:00
 publishdate: 2016-08-23T09:20:28+02:00
 lastmod: 2021-06-29T10:40:28+02:00
-draft: false
 tags:
   [
     "software project",

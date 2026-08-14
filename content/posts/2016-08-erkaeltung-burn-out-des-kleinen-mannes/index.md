@@ -1,7 +1,6 @@
 ---
 title: "Cold – The Little Man's Burn Out"
 date: 2016-08-20
-draft: false
 categories: ["Personal"]
 tags: ["Cold", "Health", "Psychology", "Man Flu", "Reflection", "No Man's Sky"]
 aliases: /in-eigener-sache/erkaeltung-burn-out-des-kleinen-mannes/1726

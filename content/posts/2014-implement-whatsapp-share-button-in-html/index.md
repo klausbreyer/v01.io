@@ -4,7 +4,6 @@ title: "Implement the WhatsApp Share Button in HTML"
 date: 2014-02-21T18:18:00+01:00
 publishdate: 2014-02-21T18:18:00+01:00
 lastmod: 2023-02-10T14:17:00+01:00
-draft: false
 tags: ["facebook", "whatsapp"]
 social: "https://www.linkedin.com/posts/klaus-breyer_implement-the-whatsapp-share-button-in-html-activity-7031170679047663616-ui0i"
 categories: ["Engineering"]

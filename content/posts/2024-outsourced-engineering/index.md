@@ -4,7 +4,6 @@ title: "Outsourced Engineering: Painting By Numbers Kills Product Innovation"
 date: 2024-04-26
 lastmod: 2024-05-03
 social: "https://www.linkedin.com/feed/update/urn:li:share:7189534698568642562/"
-draft: false
 categories: ["Engineering"]
 ---
 

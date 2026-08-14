@@ -3,7 +3,6 @@ title: "Unbundling Shape Up: Principles for Product Teams"
 
 date: 2023-12-05
 
-draft: false
 tags:
   - shapeup
   - risk management

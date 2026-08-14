@@ -1,7 +1,6 @@
 ---
 title: "Family Financial Organization"
 date: 2017-12-27
-draft: false
 categories: ["Personal"]
 tags:
   [

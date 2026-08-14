@@ -1,7 +1,6 @@
 ---
 title: "Facebook Preferred Marketing Developer Summit in San Francisco"
 date: 2013-05-09
-draft: false
 categories: ["Travel"]
 tags:
   [

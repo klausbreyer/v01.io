@@ -1,7 +1,6 @@
 ---
 title: "Iterative Architecture During Feature Shaping with Feedback Loops"
 date: 2024-05-14
-draft: false
 image: "shaping-architecture-feedback-loop.png"
 social: "https://www.linkedin.com/posts/klaus-breyer_architectural-feedback-loops-while-shaping-activity-7196091918395543553-ovxW?"
 categories: ["Engineering"]

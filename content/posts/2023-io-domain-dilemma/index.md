@@ -2,7 +2,6 @@
 title: "The .io Dilemma: Navigating Ethical Concerns in Domain Choice"
 
 date: 2023-04-14T6:49:22+02:00
-draft: false
 tags:
   [
     "EthicalConcerns",

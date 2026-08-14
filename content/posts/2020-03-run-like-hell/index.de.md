@@ -1,7 +1,6 @@
 ---
 title: "Run like hell"
 date: 2020-03-16
-draft: false
 categories: ["Personal"]
 tags: ["Leben", "Pandemie", "Reflexion", "Berlin", "Familie"]
 ---
