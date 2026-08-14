@@ -16,7 +16,7 @@ linkedin: |
 
 I find Jira horrible. Not because of the UI (though that too), but because of what it does to your thinking. Jira is built to account for work: to do, in progress, done. Three columns. This assumes you already know what the work is.
 
-Ryan Singer describes this in *Beyond To-Dos*: "When work is packaged into todos, the brain switches off." The reality is that most of the uncertainty lives before those columns. Figuring out what to build, in what order, with what dependencies. That is the actual hard part. And no ticket system in the world helps you with it.
+Ryan Singer describes this in *Beyond To-Dos*: "When work is packaged into todos, the brain switches off." The reality is that most of the uncertainty lives before those columns. Figuring out what to build, in what order, with what dependencies. That is the hard part. And no ticket system helps you with it.
 
 ## The Cake Mistake
 
@@ -53,7 +53,7 @@ This is impossible to do if your plan is a list of Jira tickets sorted by sprint
 
 ## Finding Work Happens on a Whiteboard
 
-The actual scoping process looks like this: you take the shaped solution (stickies, arrows, interaction flows) and you extract capabilities from it. What can the user do here? What is a shippable unit? Then you draw the dependencies.
+The scoping process looks like this: you take the shaped solution (stickies, arrows, interaction flows) and you extract capabilities from it. What can the user do here? What is a shippable unit? Then you draw the dependencies.
 
 Then you arrange them on a timeline. Unknowns and high-risk items go first, because you want to learn early what could blow up. Low-risk, easy items go last, because they are the ones you cut if time runs out.
 
@@ -67,7 +67,7 @@ AI-assisted development makes the "finding the work" problem even more important
 
 If AI tools make engineers 3x or 5x faster at execution, the bottleneck shifts. The limiting factor is no longer "how fast can we code this." It is "are we coding the right thing." Building the wrong feature faster does not help anyone. Shipping unnecessary capabilities in half the time is not progress.
 
-The proportion of your process that should be dedicated to scoping, shaping, and finding the right work goes up, not down, as execution gets cheaper. The whiteboard session where you figure out what to build becomes the most valuable meeting in your sprint. Not the standup. Not the retro. The scoping session.
+The share of your process spent on scoping, shaping, and finding the right work goes up, not down, as execution gets cheaper. The whiteboard session where you figure out what to build becomes the most valuable meeting in your sprint. Not the standup. Not the retro. The scoping session.
 
 Jira will track whatever you put into it. AI will build whatever you tell it to. Neither of them will tell you if you are working on the right thing.
 

@@ -22,7 +22,7 @@ Shaping a software solution should work exactly like this.
 
 ## Enough to Guide, Not Enough to Constrain
 
-A shaped solution needs to contain the right instructions so the delivery team can build what was intended. But it must not over-specify, because we all know what happens when you over-specify a prompt: the details are often wrong, the output is rigid, and it does not feel right.
+A shaped solution needs to contain the right instructions so the delivery team can build what you intended. But it must not over-specify, because we all know what happens when you over-specify a prompt: the details are often wrong, the output is rigid, and it does not feel right.
 
 The same applies to software. If you hand a team 40 Figma screens and detailed tickets, you have over-specified. The team loses flexibility. If your estimates turn out wrong (and they will), there is no room to adjust. You have locked yourself into a specific implementation before the real work even started.
 
@@ -34,7 +34,7 @@ On the other hand, if your shaping is too vague, the team has no guard rails. Re
 
 The art of shaping is finding the right altitude. You want to make the strategic decisions early: What is the core flow? What are the places, the affordances, the interactions? Where are the risks?
 
-But you deliberately push the tactical decisions down the road. Where exactly is the button located? What color does it have? What is the exact copy? These decisions belong in the delivery phase, where the team can make them autonomously, with full context from actually building the thing.
+But you deliberately push the tactical decisions down. Where exactly is the button located? What color does it have? What is the exact copy? These decisions belong in the delivery phase, where the team can make them autonomously, with full context from building the thing.
 
 ## Why This Matters for Delivery
 

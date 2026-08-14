@@ -27,7 +27,7 @@ This single insight should change how you staff every phase of product developme
 
 With three people, everyone talks to two others. Three communication lines. Manageable. Productive. Fast decisions.
 
-Add four more people and you jump to 21 lines. Every person is now coordinating with six others. Meetings get longer. Alignment takes more effort. Decisions slow down. Not because the people are bad, but because the communication overhead eats into the time available for actual work.
+Add four more people and you jump to 21 lines. Every person is now coordinating with six others. Meetings get longer. Alignment takes more effort. Decisions slow down. Not because the people are bad, but because the communication overhead eats into the time for actual work.
 
 This is not a theoretical problem. Every team I have worked with has experienced this. The standup that takes 45 minutes. The Slack thread with 12 participants and no resolution. The alignment meeting that needs a follow-up alignment meeting.
 
@@ -49,7 +49,7 @@ Including more people feels inclusive. It feels democratic. But it slows everyth
 
 ## The Practical Rule
 
-Before any meeting, any shaping session, any framing discussion, ask: what is the smallest group that has all the context needed to make this decision? Start with that group. If they discover they are missing context, they can pull someone in. But the default should be small, not large.
+Before any meeting, any shaping session, any framing discussion, ask: what is the smallest group that has all the context to make this decision? Start with that group. If they discover they are missing context, they can pull someone in. But the default should be small, not large.
 
 Will Larson makes a similar point in *An Elegant Puzzle*: a team needs at least four people to function, a manager should have six to eight engineers, and innovation requires slack. The sizing matters.
 

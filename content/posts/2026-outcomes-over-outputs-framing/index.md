@@ -20,11 +20,11 @@ linkedin: |
 
 ## A Concrete Example
 
-At Myo, we build a tool that helps relatives of care home residents apply for social insurance coverage. Until an application is approved, the care home waits for their money. This can take 12 to 18 months. So faster applications mean faster payments, less interest cost, and better cashflow for the care home.
+At myo, we build a tool that helps relatives of care home residents apply for social insurance coverage. Until an application is approved, the care home waits for their money. This can take 12 to 18 months. So faster applications mean faster payments, less interest cost, and better cashflow for the care home.
 
-One problem we identified: social authorities often send follow-up letters with additional requests. The relatives receive these letters and are overwhelmed. They thought the application was done. Now there is a list of things they still need to provide, and they do not know where to start.
+One problem we identified: social authorities often send follow-up letters with additional requests. These letters overwhelm the relatives. They thought the application was done. Now there is a list of things they still need to provide, and they do not know where to start.
 
-The feature request would be: "Build a follow-up section in the application." But that is already a solution. The actual desired outcome we framed was this:
+The feature request would be: "Build a follow-up section in the application." But that is already a solution. The desired outcome we framed was this:
 
 > Follow-up letters no longer trigger uncertainty or frustration. They feel actionable. Relatives understand that follow-ups are normal and know what is concretely required.
 
@@ -42,11 +42,11 @@ If I had framed it as "build a follow-up feature," the team would have started s
 
 By framing it as an outcome ("follow-ups no longer trigger frustration"), the team has room to find the right solution. Maybe it is a feature in the application. Maybe it is a better notification. Maybe it is a simple explainer email. Maybe it is all three. The frame does not prescribe the solution. It defines what success looks like.
 
-This also makes the frame useful as an acceptance check throughout the process. During shaping, you can ask: does this solution actually make follow-ups feel actionable? During delivery, you can ask: will this implementation reduce the frustration? After shipping, you can measure: did the number of reassurance calls go down?
+This also makes the frame useful as an acceptance check throughout the process. During shaping, you can ask: does this solution make follow-ups feel actionable? During delivery, you can ask: will this implementation reduce the frustration? After shipping, you can measure: did the number of reassurance calls go down?
 
 ## The "Solution in Disguise" Trap
 
-A stakeholder says: "We need a Kanban board in the product." If you take that at face value, you start building a Kanban board. But if you dig deeper and ask what they actually want to achieve, it turns out they just want to be informed when the status of something changes.
+A stakeholder says: "We need a Kanban board in the product." If you take that at face value, you start building a Kanban board. But if you dig deeper and ask what they want to achieve, it turns out they just want to be informed when the status of something changes.
 
 That is a completely different problem with completely different solutions. A notification. A status email. A dashboard widget. Many of them simpler and faster to build than a Kanban board.
 

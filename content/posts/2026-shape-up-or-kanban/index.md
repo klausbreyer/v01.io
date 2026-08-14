@@ -32,7 +32,7 @@ In my team of about 10 people, we always have people inside a cycle (working on 
 
 David Heinemeier Hansson describes a similar setup at Basecamp: reactive work runs as a separate concern alongside project work. The people outside the cycle operate in Kanban style. We refine our reactive work once a week. No framing, no shaping, no appetite discussions. Just triage, prioritize, and work through the queue.
 
-This is not second-class work. It is essential. Someone needs to keep the lights on, fix the things that break, and handle the requests that cannot wait six weeks.
+This is not second-class work. It is essential. Someone needs to keep the system running, fix the things that break, and handle the requests that cannot wait six weeks.
 
 ## The Optimization Trap
 
@@ -46,7 +46,7 @@ If the only people who can handle it are inside a cycle, you have to pull them o
 
 There is no universal ratio. It depends on the maturity of your product, the stability of your codebase, and the volume of reactive work. In some phases, you might have half your team in cycles and half on Kanban. In others, you might run two cycles in parallel with just one or two people on reactive duty.
 
-The key insight is that you plan for this explicitly. It is not a failure to have people outside of cycles. It is a design choice. You are deliberately allocating resources to keep the system healthy while investing in the big improvements.
+The key insight is that you plan for this explicitly. It is not a failure to have people outside of cycles. It is a design choice. You deliberately allocate resources to keep the system healthy while investing in the big improvements.
 
 ## What Goes Where
 
@@ -56,6 +56,6 @@ The key insight is that you plan for this explicitly. It is not a failure to hav
 
 One catch, though: if you run your Kanban without strict WIP limits, you end up with exactly the mess that Shape Up is designed to prevent. An ever-growing backlog of "someday" items that nobody triages, nobody prioritizes, and nobody deletes. That backlog becomes a graveyard of good intentions, and every refinement session turns into an archaeological dig.
 
-Enforce WIP limits ruthlessly. If the board is full, something has to leave before something new enters. This is not optional. Without it, your Kanban side becomes a dumping ground, and the clarity you gained from Shape Up on the strategic side gets undermined by chaos on the operational side.
+Enforce WIP limits ruthlessly. If the board is full, something has to leave before something new enters. This is not optional. Without it, your Kanban side becomes a dumping ground, and chaos on the operational side undermines the clarity you gained from Shape Up on the strategic side.
 
 The two processes complement each other. Shape Up gives you focus and predictability on the big bets. Kanban gives you flexibility and responsiveness on the daily realities. But only if you keep both sides clean. Trying to force everything into one system is where teams get stuck. And letting one side rot while you optimize the other is just as bad.
