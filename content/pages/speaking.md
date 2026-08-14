@@ -17,7 +17,7 @@ Klaus is an experienced B2B SaaS CPTO with a passion for breaking down silos. As
 
 He has founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace) and have built corporate startup business units for [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS).
 
-Based in Berlin, Klaus brings extensive international experience and enjoys working with diverse teams—mostly, but not exclusively, in remote environments. He is also a [speaker](pages/speaking), [blogger](posts), and [book author]({{< relref path="2015-practical-guide-facebook-development">}}).
+Based in Berlin, Klaus brings extensive international experience and enjoys working with diverse teams—mostly, but not exclusively, in remote environments. He is also a [speaker](pages/speaking), [blogger](posts), and [book author]({{< relref path="/posts/2015/01/practical-guide-facebook-development/">}}).
 
 His philosophy: Move Fast And Break Silos.
 
@@ -37,7 +37,7 @@ Sein Motto: Move Fast and Break Silos.
 
 Er hat die Startups [Buddybrand](https://www.buddybrand.com/) (Digitalagentur) und [BuzzBird](https://www.buzzbird.de/) (Influencer/B2B-Marktplatz) gegründet und geleitet sowie Corporate-Startups und Business Units für [Voith](https://voith.com) (IoT/B2B SaaS) und [edding](https://www.edding.com/de-de/) (B2B SaaS) aufgebaut.
 
-Klaus lebt in Berlin, verfügt über umfangreiche internationale Erfahrung und arbeitet bevorzugt mit diversen Teams – meist, aber nicht ausschließlich, in Remote-Umgebungen. Zudem ist er [Speaker](pages/speaking), [Blogger](posts) und [Buchautor]({{< relref path="2015-practical-guide-facebook-development">}}).
+Klaus lebt in Berlin, verfügt über umfangreiche internationale Erfahrung und arbeitet bevorzugt mit diversen Teams – meist, aber nicht ausschließlich, in Remote-Umgebungen. Zudem ist er [Speaker](pages/speaking), [Blogger](posts) und [Buchautor]({{< relref path="/posts/2015/01/practical-guide-facebook-development/">}}).
 
 ### Short Bio
 

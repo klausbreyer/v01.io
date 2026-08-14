@@ -52,7 +52,7 @@ As an angel investor, advisor, or coach, I provide strategic insights to founder
 
 I love to prototype and craft the first version of products from scratch, bringing together product strategy and tech knowledge. Hands-on, I quickly validate to iterate a possible business models.
 
-- [dump.link]({{< relref "/posts/2024-dumplink-open-source/" >}}): Co-founded and developed an open-source tool for Shape Up teams to streamline project management through intuitive task grouping and risk visualization. (2023-2024)
+- [dump.link]({{< relref "/posts/2024/05/dumplink-open-source/" >}}): Co-founded and developed an open-source tool for Shape Up teams to streamline project management through intuitive task grouping and risk visualization. (2023-2024)
 
 - [fillter.me](https://www.fillter.me/): Co-founded and developed a tool to streamline communication for social media creators. (2021–2023)
 
