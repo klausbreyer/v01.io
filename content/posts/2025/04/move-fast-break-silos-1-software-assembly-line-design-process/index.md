@@ -1,7 +1,7 @@
 ---
 title: "Building Software Isn’t an Assembly Line. It’s a Design Process."
 date: 2025-04-15T08:51:31+02:00
-categories: ["Agile"]
+categories: ["Process"]
 social: "https://www.linkedin.com/posts/klaus-breyer_building-software-isnt-an-assembly-line-activity-7317807946921373699-BOt1?"
 aliases:
   - /posts/2025-software-assembly-line-design-process/

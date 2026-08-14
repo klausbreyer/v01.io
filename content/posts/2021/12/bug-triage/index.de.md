@@ -20,7 +20,7 @@ aliases:
   - /de/posts/bug-triage/
   - /posts/bug-triage/
   - /posts/2021-bug-triage/
-categories: ["Agile"]
+categories: ["Process"]
 ---
 
 In jedem Projekt kommt immer wieder die Frage nach der Priorisierung des Backlogs auf. Am Ende ist es in meiner Erfahrung allerdings nicht ein einziges Kriterium, und auch keine zweidimensionale Matrix, die man nutzen kann um einen Bug als Trivial / Minor / Major / Critical einzuordnen. Sondern es sind vielmehr unterschiedliche Aspekte, von denen nicht jedes auf jeden Ticket-Typ passt. Denn: Visuelle Bugs sind anders zu betrachten als Technical Debt und ein Produkt kurz vor Release ist eine andere Situation als beim Start der Entwicklung.

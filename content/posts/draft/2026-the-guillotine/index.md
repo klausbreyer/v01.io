@@ -2,7 +2,7 @@
 title: "The Guillotine: Why You Should Always Be Able to Cut Scope From the Back"
 date: 2026-07-06
 draft: true
-categories: ["Agile"]
+categories: ["Process"]
 image: preview.png
 linkedin: |
   Here is the check I do with every delivery plan: I start at the end and work backwards. Can we cut the last scope and still ship something meaningful? Yes? Good. Can we cut one more?

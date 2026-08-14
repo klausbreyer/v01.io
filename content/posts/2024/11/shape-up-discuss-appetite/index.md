@@ -4,7 +4,7 @@ date: 2024-11-13T15:32:04+01:00
 aliases:
   - /posts/2024-shape-up-discuss-appetite/
 social: https://www.linkedin.com/posts/klaus-breyer_one-question-that-changes-everything-in-shape-activity-7262476423909490688-i8k9
-categories: ["Agile"]
+categories: ["Process"]
 ---
 
 Let me share a recent story from a real project.

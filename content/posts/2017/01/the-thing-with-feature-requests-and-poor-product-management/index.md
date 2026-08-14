@@ -9,7 +9,7 @@ lastmod: 2021-06-29T10:39:17+02:00
 tags:
   [
     "facebook",
-    "agile",
+    "process",
     "deployment",
     "feature request",
     "product management",

@@ -3,7 +3,7 @@ title: "Tickets Create Silos"
 date: 2025-04-15T10:05:55+02:00
 aliases:
   - /posts/2025-move-fast-break-silos-2-tickets-create-silos/
-categories: ["Agile"]
+categories: ["Process"]
 image: jira.jpg
 social: https://www.linkedin.com/posts/klaus-breyer_tickets-create-silos-klaus-breyer-activity-7320453378021478400-g7-3
 ---

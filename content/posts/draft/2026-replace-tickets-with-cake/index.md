@@ -2,7 +2,7 @@
 title: "How to Replace Tickets With Pieces of Cake"
 date: 2026-07-06
 draft: true
-categories: ["Agile"]
+categories: ["Process"]
 image: cake-photo.png
 linkedin: |
   Jira is built to account for work: to do, in progress, done. This assumes you already know what the work is.

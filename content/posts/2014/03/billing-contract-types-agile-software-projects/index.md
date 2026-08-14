@@ -8,7 +8,7 @@ publishdate: 2014-03-01T11:26:47+01:00
 lastmod: 2023-01-10T14:58:38+01:00
 tags:
   [
-    "Agile",
+    "Process",
     "Contracts",
     "Billing",
     "Software Development",
@@ -16,7 +16,7 @@ tags:
   ]
 
 social: "https://www.linkedin.com/posts/klaus-breyer_billing-and-contract-types-in-agile-software-activity-7036240860795019264-VPK7"
-categories: ["Agile"]
+categories: ["Process"]
 ---
 
 A topic that people prefer to avoid talking about: Contracts and billing. After all, what is the most sensible way to bill agile software projects? Especially when the effort amounts to 100 or more billing days, it is almost impossible to find a fair price. In the worst case, you try to plan an already very complex project even more difficult and go massively with conception in advance. But some typical situations can already be used as a guideline.

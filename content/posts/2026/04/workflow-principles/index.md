@@ -3,7 +3,7 @@ title: "Field Notes: Workflow Principles"
 date: 2026-04-23T08:27:16+02:00
 aliases:
   - /posts/2026-workflow-principles/
-categories: ["Agile"]
+categories: ["Process"]
 image: image.png
 ---
 

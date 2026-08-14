@@ -13,7 +13,7 @@ tags:
   - org
 image: "2023-09-20-shape-up-agency.png?"
 social: "https://www.linkedin.com/posts/klaus-breyer_redefining-client-work-the-agencys-guide-activity-7110913038588760064-pMSy"
-categories: ["Agile"]
+categories: ["Process"]
 ---
 
 Two different agency worlds. In the first, designers and developers hustle, juggling multiple client projects, always feeling the pressure of looming deadlines. In the second, there's a noticeable contrast. There is a structured flow, with teams confidently navigating client work.
