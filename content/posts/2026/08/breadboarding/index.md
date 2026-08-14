@@ -5,6 +5,7 @@ aliases:
   - /posts/2026-breadboarding/
 categories: ["Agile"]
 image: breadboard-myo-example.png
+social: "https://www.linkedin.com/posts/klaus-breyer_anyone-else-know-this-one-a-designer-produces-share-7494003921141645312-i8Sc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAgxNB8BYBPrpFvlkjhI6QZumj7S4ohtBWI"
 linkedin: |
   Anyone else know this one?
 
