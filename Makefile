@@ -6,13 +6,16 @@ TAILWIND := ./tailwindcss
 deps:
 	bun add puppeteer
 
-# Install Hugo through Homebrew if the formula is not installed yet
+# Install Hugo through Homebrew if it is not already available
 hugo-install:
-	@command -v brew >/dev/null 2>&1 || { \
-		echo "Homebrew is required to install Hugo: https://brew.sh"; \
+	@if command -v hugo >/dev/null 2>&1; then \
+		exit 0; \
+	elif command -v brew >/dev/null 2>&1; then \
+		brew install hugo; \
+	else \
+		echo "Hugo is required: https://gohugo.io/installation/"; \
 		exit 1; \
-	}
-	@brew list --formula hugo >/dev/null 2>&1 || brew install hugo
+	fi
 
 # Download Tailwind CSS if the local standalone binary is missing
 tailwind-install:
