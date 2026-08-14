@@ -2,7 +2,7 @@
 title: "Slicing Problems, or the Wizardry of Parallelizing Work Without Dependencies"
 date: 2026-07-06
 draft: true
-categories: ["Agile"]
+categories: ["Process"]
 image: preview.png
 linkedin: |
   "We need to coordinate with team X." The moment this sentence appears during shaping, you have a problem. Not a coordination problem. A slicing problem.

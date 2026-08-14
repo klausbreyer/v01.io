@@ -2,7 +2,7 @@
 title: "Shape Up or Kanban? Both!"
 date: 2026-07-06
 draft: true
-categories: ["Agile"]
+categories: ["Process"]
 image: preview.png
 linkedin: |
   "What about bugs? What about urgent requests?" The most common question when introducing Shape Up.

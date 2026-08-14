@@ -3,7 +3,7 @@ title: "Aligning Teams around Work - An Optimization Problem Solved by Smaller C
 date: 2025-06-06T08:05:55+02:00
 aliases:
   - /posts/2025-move-fast-break-silos-4-aligning-teams/
-categories: ["Agile"]
+categories: ["Process"]
 image: preview.png
 social: https://www.linkedin.com/posts/klaus-breyer_after-discussing-how-to-slice-work-last-time-activity-7336652814032527361-3sml?
 ---

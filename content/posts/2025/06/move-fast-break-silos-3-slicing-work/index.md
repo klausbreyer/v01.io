@@ -3,7 +3,7 @@ title: "How to Slice Work - First Principles to Build The Product Process"
 date: 2025-06-02T15:05:55+02:00
 aliases:
   - /posts/2025-move-fast-break-silos-3-slicing-work/
-categories: ["Agile"]
+categories: ["Process"]
 image: preview.png
 social: https://www.linkedin.com/posts/klaus-breyer_in-my-latest-blog-post-i-share-how-to-slice-activity-7335657338063802368-WdnR?
 ---
