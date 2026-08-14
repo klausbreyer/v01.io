@@ -5,3 +5,4 @@ public
 static/css/tailwind.css
 tailwindcss
 node_modules
+.claude/worktrees
