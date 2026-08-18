@@ -1,0 +1,20 @@
+{{- $page := . -}}
+{{- $image := printf "%s%s" $page.Site.BaseURL $page.Site.Params.image -}}
+
+{{- /* Prefer the first page image over the site-wide fallback. */ -}}
+{{- range first 1 ($page.Resources.ByType "image") -}}
+  {{- $image = .Permalink -}}
+{{- end -}}
+
+{{- /* Resolve an explicit image through Hugo so translations can share it. */ -}}
+{{- with $imageName := $page.Params.image -}}
+  {{- $resource := $page.Resources.GetMatch $imageName -}}
+  {{- if not $resource -}}
+    {{- $resource = resources.Get (printf "%s%s" $page.File.Dir $imageName) -}}
+  {{- end -}}
+  {{- with $resource -}}
+    {{- $image = .Permalink -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $image -}}

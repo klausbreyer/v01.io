@@ -4,10 +4,10 @@ date: 2025-09-13
 aliases:
   - /posts/2025-polynesia/
 categories: ["Travel"]
-image: "preview.de.jpg"
+image: "preview.jpg"
 ---
 
-![Blick auf das Atoll – Französisch Polynesien](preview.de.jpg)
+![Blick auf das Atoll – Französisch Polynesien](preview.jpg)
 
 Heute möchte ich von der Reise mit meiner Frau nach Französisch Polynesien berichten. Die Reise war schon lange geplant - Sehnsuchtsziel mit familiärer Backstory: Meine Schwiegereltern waren dort, als sie in unserem Alter waren und deshalb haben sie unsere Kinder liebend gerne für 3 Wochen Ferien übernommen, um uns das selbe zu erlauben.
 

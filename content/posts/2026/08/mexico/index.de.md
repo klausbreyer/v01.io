@@ -4,7 +4,7 @@ date: 2026-08-18
 aliases:
   - /posts/2026-mexico/
 categories: ["Travel"]
-image: preview.de.jpg
+image: preview.jpg
 linkedin: |
   14 Tagen Mexiko: Mexico City, die Nebelwälder von Oaxaca, mitten hinein ins Guelaguetza-Fest, Cenoten-Tauchen in Tulum und zum Runterkommen Club Med Cancún.
 
@@ -15,7 +15,7 @@ linkedin: |
   Kommentar: https://www.v01.io/de/posts/2026/08/mexico/
 ---
 
-![Guelaguetza-Fest in Oaxaca](preview.de.jpg)
+![Guelaguetza-Fest in Oaxaca](preview.jpg)
 
 Heute möchte ich von der Reise mit meiner Frau nach Mexiko berichten. Wie schon bei [Französisch-Polynesien]({{< relref "polynesia" >}}) ist die gewählte Form wieder ein Excerpt meiner Gedanken, wie ich sie während der Reise hatte: ursprünglich veröffentlicht im privaten Familienblog, nur minimal für den Lesefluss redigiert und um die für euch wahrscheinlich eher langweiligen Aktivitätsbeschreibungen gekürzt.
 

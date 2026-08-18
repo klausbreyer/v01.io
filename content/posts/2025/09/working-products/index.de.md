@@ -4,7 +4,7 @@ date: 2025-09-12
 aliases:
   - /posts/2025-working-products/
 categories: ["Speaking"]
-image: preview.de.png
+image: preview.png
 ---
 
 Heute halte ich auf der Working Products Konferenz in Hamburg einen Vortrag darüber, warum Tickets Silos schaffen – und wie es besser geht.

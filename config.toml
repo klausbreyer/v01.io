@@ -30,6 +30,16 @@ defaultContentLanguage = 'en'
   description = "Startup founder & experienced CPTO, breaking silos by empowering organizations to seamlessly integrate product and technology while enabling leadership teams to cultivate a culture of interdisciplinary collaboration. Focusing on B2B SaaS, I help companies bridge the gap between technical excellence, agile product development, and impactful leadership as an interim manager or advisor."
   image = 'images/klaus-breyer.jpg'
 
+# Keep post images next to their content while making unsuffixed resources
+# available to German-only page bundles through Hugo's asset pipeline.
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    source = 'content/posts'
+    target = 'assets/posts'
+
 [privacy]
   [privacy.youtube]
     privacyEnhanced = true

@@ -4,7 +4,7 @@ date: 2025-03-27
 aliases:
   - /posts/2025-pixels-profits-edding-goes-tech/
 categories: ["Speaking"]
-image: preview.de.jpg
+image: preview.jpg
 ---
 
 Ich erzähle bei Samuel Lottner und Sebastian Kolb im [Pixels + Profit](https://www.linkedin.com/company/pixels-profit/) Podcast, wie wir B2B SaaS bei edding machen bzw. eine ganze Business Unit transformiert haben – bei einem Mittelständler, den man vor allem für physische Produkte kennt.
