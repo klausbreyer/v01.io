@@ -4,10 +4,10 @@ date: 2026-05-30
 aliases:
   - /posts/2026-imaedge/
 categories: ["Open Source", "Shipped"]
-image: preview.de.png
+image: preview.png
 ---
 
-![imaedge Homepage Vorschau](preview.de.png)
+![imaedge Homepage Vorschau](preview.png)
 
 Weil wir inzwischen in Zeiten leben, in denen man schneller eine Lösung gebaut hat, als man sich lange über das Problem aufregt, habe ich [imaedge](https://www.imaedge.org/) gebaut.
 
