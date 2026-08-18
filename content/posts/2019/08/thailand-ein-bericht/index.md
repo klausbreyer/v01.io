@@ -1,5 +1,5 @@
 ---
-title: "Thailand – A Report"
+title: "Thailand - Travel Report"
 date: 2019-08-04
 categories: ["Travel"]
 tags:
