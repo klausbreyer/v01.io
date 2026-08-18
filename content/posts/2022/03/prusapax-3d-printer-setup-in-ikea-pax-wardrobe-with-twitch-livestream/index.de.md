@@ -11,7 +11,7 @@ categories: ["Personal", "Open Source"]
 ---
 
 Der 3D Drucker (Prusa) in meinem Kleiderschrank (Pax) hat jetzt einen Livestream auf Twitch. [https://www.twitch.tv/prusapax](https://www.twitch.tv/prusapax)
-![](Artboard-Copy-1024x576.de.png)Das komplette Setup
+![](Artboard-Copy-1024x576.png)Das komplette Setup
 
 ## Wie es dazu kam - Background Story
 

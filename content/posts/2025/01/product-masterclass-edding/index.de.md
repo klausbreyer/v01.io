@@ -4,7 +4,7 @@ date: 2025-01-29
 aliases:
   - /posts/2025-product-masterclass-edding/
 categories: ["Speaking"]
-image: preview.de.jpg
+image: preview.jpg
 social: https://www.linkedin.com/events/warumnicht-digitalefirmenkeined7287516741629321216/comments/
 ---
 

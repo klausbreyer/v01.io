@@ -4,7 +4,7 @@ date: 2025-08-29
 aliases:
   - /posts/2025-meinscrumistkaputt/
 categories: ["Speaking"]
-image: preview.de.jpg
+image: preview.jpg
 ---
 
 Ich war im Podcast [Mein Scrum ist kaputt!](https://meinscrumistkaputt.de/shape-up-mit-klaus-breyer/) zu Gast und habe über eine tatsächliche Alternative gesprochen: Shape Up!
