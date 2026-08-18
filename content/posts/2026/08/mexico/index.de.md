@@ -1,6 +1,6 @@
 ---
 title: "Mexico – A Report."
-date: 2026-08-14
+date: 2026-08-18
 draft: true
 aliases:
   - /posts/2026-mexico/
@@ -30,7 +30,7 @@ Die Eckdaten:
 - 25.-29.07.2026: Club Med Cancún
 - 29.-30.07.2026: Rückflug CUN → YYZ → AMS → HAM
 
-\-
+## Reise
 
 In Mexico City angekommen, mussten wir erst mal unsere Koffer öffnen. Ich habe das gar nicht gecheckt und dachte, es geht um Sprengstoff. Als sich die Kontrolleurin etwas fragend die Drohne angeschaut hat, habe ich ihr erklärt, was das ist. Sie wollte wissen, was die Drohne kostet. Ich habe sie mal auf 200 Dollar geschätzt. Erst später habe ich verstanden, dass es eigentlich der Zoll war und sie nach wertvollen Sachen gesucht hat. So richtige Uniformen hatten die aber auch nicht an, nur Warnwesten.
 
@@ -56,16 +56,6 @@ Einmal, abends, in den Bergen wollte ich dann noch ein romantisches Kaminfeuer a
 
 \-
 
-Grundsätzlich ist es hier viel, viel bunter als in Berlin. Die Häuser sind einfach wahnsinnig schön angemalt, überall hängen Girlanden, und die Alebrijes (geschnitzte und bemalte Holzfiguren) leuchten in so kräftigen Farben. Ich finde, uns fehlt Farbe in Deutschland.
-
-Was ebenfalls auffällt: wahnsinnig viele Polizisten, Soldaten und Nationalgardisten, die alle in offenen Pick-ups mit einer Bank hinten drauf transportiert werden. (Das Militär kontrolliert stark wegen des Drogentraffics Richtung USA.) Und diese starken Geschwindigkeitshügel auf den Straßen, die hier Reductores genannt werden.
-
-\-
-
-Das Konzept der Mototaxis in San José: Man bestellt sie über eine WhatsApp-Nummer, dann holen sie einen innerhalb von Minuten ab und fahren einen, wohin man möchte. Das Dorf ist nicht groß, trotzdem läuft man 20 Minuten von einem Ende zum anderen. Ich will mir nicht vorstellen, wie busy die WhatsApp-Zentrale ist. Die Fahrer sind alle relativ lustig und hören zum Teil laute Metal-Musik. Taugt mir.
-
-\-
-
 Der Abschied von San José del Pacífico fiel schwer. Wir wussten vorher nicht genau, was uns erwartet, aber wir wurden übertroffen (ist das nicht immer so?!). So viel Ruhe, so viele nette und hilfsbereite Menschen, denen ihre Kultur sehr am Herzen liegt, die sie aber trotzdem gerne mit uns Fremden teilen, ohne dass es sich wie ein Sellout anfühlt (für uns und für sie).
 
 Obwohl wir hier keine großen Programmpunkte hatten, haben die Rituale und vor allem viel Zeit uns sehr viel gebracht. Allein die Vorstellung, dass man nachmittags mehrere Stunden Zeit hat, seine Gedanken zu sortieren.
@@ -73,24 +63,6 @@ Obwohl wir hier keine großen Programmpunkte hatten, haben die Rituale und vor a
 \-
 
 In Oaxaca City sind wir dann mitten in das größte Fest des Jahres hineingeraten: die Guelaguetza. Das erklärte im Nachhinein auch, warum die Zimmersuche so schwierig war. Delegationen aus allen Regionen des Bundesstaats reisen an, um lokale Tänze zu zeigen. Wir haben uns die Parade angeschaut, uns treiben lassen (Julia hat Mezcal probiert und natürlich gekauft) und abends die verschiedenen Arten von Mole ausprobiert.
-
-\-
-
-Ich frage ChatGPT nur noch: "Was soll ich essen?" Dazu ein Bild der Karte. Julia gibt immer sehr komplizierten Kontext. Ich könnte genauso gut würfeln. Allerdings empfiehlt es mir einfach immer das für die Region Typische, was ich gut finde. Ich will ja etwas Neues ausprobieren.
-
-Schon krass, wie sehr sich Reisen vom letzten auf dieses Jahr verändert hat dank ChatGPT. Vor einem Regal voller scharfer Soßen habe ich bestimmt 15 Minuten mit ChatGPT gestanden, um herauszufinden, welche ich kaufen soll.
-
-Grundsätzlich eine sehr angenehme Küche. Bisher noch nie Gurken gehabt (ich hasse Gurken). Und ich habe sogar Avocado lieben gelernt. Hier ist es schwer, drum herumzukommen, deshalb habe ich es gleich von Anfang an ausprobiert.
-
-\-
-
-Ein paar kleinere Beobachtungen:
-
-- Mülleimer fehlen überall, vermutlich weil die Leute sonst ihren privaten Hausmüll darin entsorgen würden.
-- Die Stromzähler hängen außen am Haus. Superpraktisch. Hätte ich bei uns auch gerne.
-- Die Spiegel hängen alle zu niedrig für mich, und im Taxi hänge ich auf der Rückbank mit dem Kopf im Dachhimmel.
-- Jede Bad-Armatur ist gefühlt anders als die andere. Mal dreht man nach rechts, mal nach links. Mal ist links warm, mal rechts. Auf einer Toilette habe ich eine Reihe aus vier Waschbecken entdeckt, bei der jede einzelne Armatur ein anderer Typ war.
-- Generell wird viel improvisiert. Die Radkappen von unserem Bus waren nur mit Kabelbindern befestigt. Ich mag das. Genau mein Style. (Oder vielleicht auch als zusätzlicher Diebstahlschutz. Man weiß es nicht.)
 
 \-
 
@@ -106,11 +78,7 @@ Tulum hat uns etwas rätselhaft zurückgelassen. Irgendwie ist es kein richtiger
 
 Jedenfalls ist Tulum als Touristenspot auf dem Hypecycle schon wieder auf dem absteigenden Ast. Das ändert natürlich nichts daran, wie toll die Cenoten dort zum Tauchen sind. Aber irgendwie muss man dort auch nicht länger bleiben.
 
-\-
-
-Generell ein Muster in Mexiko: Alle sind super nett, alle super bemüht, den Tourismus anzukurbeln. Uns hat hier noch niemand abgezockt. (Außer der Tankwart, der hatte einmal die Uhr nicht zurückgestellt vom Roller vor mir.)
-
-Der Besitzer des Tauchshops in Tulum wollte noch nicht mal Geld dafür haben, dass er Julias Backplate neu eingefädelt hat, obwohl wir darauf bestanden haben. (Wir haben ihm dann unser restliches Kleingeld für die Kaffeekasse dagelassen.)
+Der Besitzer des Tauchshops in Tulum wollte übrigens noch nicht mal Geld dafür haben, dass er Julias Backplate neu eingefädelt hat, obwohl wir darauf bestanden haben. (Wir haben ihm dann unser restliches Kleingeld für die Kaffeekasse dagelassen.)
 
 \-
 
@@ -130,4 +98,20 @@ Was für ein wunderbares Land. Wir hatten unglaublich schöne Erlebnisse, eine p
 
 Vor der Reise hatte ich ein bisschen Sorge, dass es so werden könnte wie damals in [Japan]({{< relref "japan-ein-bericht" >}}), wo wir in sehr kurzer Zeit unglaublich viele Stopps hatten. Diesmal hat es sich komplett anders angefühlt. Vielleicht liegt das daran, dass ChatGPT einem mittlerweile unglaublich dabei hilft, sich in fremden Ländern zurechtzufinden. Vielleicht haben wir aber auch einfach dazugelernt und versuchen nicht mehr, möglichst viele Dinge in möglichst wenig Zeit hineinzupressen.
 
-Wenn ihr noch etwas wissen möchtet, fragt mich gerne :)
+## Beobachtungen
+
+- Grundsätzlich ist es hier viel, viel bunter als in Berlin. Die Häuser sind einfach wahnsinnig schön angemalt, überall hängen Girlanden, und die Alebrijes (geschnitzte und bemalte Holzfiguren) leuchten in so kräftigen Farben. Ich finde, uns fehlt Farbe in Deutschland.
+- Wahnsinnig viele Polizisten, Soldaten und Nationalgardisten, die alle in offenen Pick-ups mit einer Bank hinten drauf transportiert werden. (Das Militär kontrolliert stark wegen des Drogentraffics Richtung USA.)
+- Starke Geschwindigkeitshügel auf den Straßen, die hier Reductores genannt werden.
+- Die Mototaxis in San José bestellt man über eine WhatsApp-Nummer, dann holen sie einen innerhalb von Minuten ab und fahren einen, wohin man möchte. Ich will mir nicht vorstellen, wie busy die WhatsApp-Zentrale ist. Die Fahrer sind alle relativ lustig und hören zum Teil laute Metal-Musik. Taugt mir.
+- Alle sind super nett, alle super bemüht, den Tourismus anzukurbeln. Uns hat hier noch niemand abgezockt. (Außer der Tankwart, der hatte einmal die Uhr nicht zurückgestellt vom Roller vor mir.)
+- Ich frage ChatGPT nur noch: "Was soll ich essen?" Dazu ein Bild der Karte. Julia gibt immer sehr komplizierten Kontext. Ich könnte genauso gut würfeln. Allerdings empfiehlt es mir einfach immer das für die Region Typische, was ich gut finde.
+- Schon krass, wie sehr sich Reisen vom letzten auf dieses Jahr verändert hat dank ChatGPT. Vor einem Regal voller scharfer Soßen habe ich bestimmt 15 Minuten mit ChatGPT gestanden, um herauszufinden, welche ich kaufen soll.
+- Grundsätzlich eine sehr angenehme Küche. Bisher noch nie Gurken gehabt (ich hasse Gurken). Und ich habe sogar Avocado lieben gelernt. Hier ist es schwer, drum herumzukommen, deshalb habe ich es gleich von Anfang an ausprobiert.
+- Mülleimer fehlen überall, vermutlich weil die Leute sonst ihren privaten Hausmüll darin entsorgen würden.
+- Die Stromzähler hängen außen am Haus. Superpraktisch. Hätte ich bei uns auch gerne.
+- Die Spiegel hängen alle zu niedrig für mich, und im Taxi hänge ich auf der Rückbank mit dem Kopf im Dachhimmel.
+- Jede Bad-Armatur ist gefühlt anders als die andere. Mal dreht man nach rechts, mal nach links. Mal ist links warm, mal rechts. Auf einer Toilette habe ich eine Reihe aus vier Waschbecken entdeckt, bei der jede einzelne Armatur ein anderer Typ war.
+- Generell wird viel improvisiert. Die Radkappen von unserem Bus waren nur mit Kabelbindern befestigt. Ich mag das. Genau mein Style. (Oder vielleicht auch als zusätzlicher Diebstahlschutz. Man weiß es nicht.)
+
+Wenn ihr noch etwas wissen möchtet, fragt mich gerne :) 🇲🇽
