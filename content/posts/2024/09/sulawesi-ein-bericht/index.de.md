@@ -1,5 +1,5 @@
 ---
-title: "Sulawesi – Ein Bericht."
+title: "Sulawesi - Reisebericht"
 date: 2024-09-08
 aliases:
   - /posts/2024-09-sulawesi-ein-bericht/

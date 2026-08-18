@@ -1,5 +1,5 @@
 ---
-title: "Mexico – A Report."
+title: "Mexico - Travel Report"
 date: 2026-08-18
 aliases:
   - /posts/2026-mexico/

@@ -1,5 +1,5 @@
 ---
-title: "Raja Ampat – A Report."
+title: "Raja Ampat - Travel Report"
 date: 2022-08-07
 categories: ["Travel"]
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Costa Rica – Ein Bericht."
+title: "Costa Rica - Reisebericht"
 date: 2021-08-09
 categories: ["Travel"]
 tags: ["Costa Rica", "Erfahrungen", "Reisetagebuch", "Natur", "Kultur"]

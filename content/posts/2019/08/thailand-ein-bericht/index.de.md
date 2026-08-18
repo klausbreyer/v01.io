@@ -1,5 +1,5 @@
 ---
-title: "Thailand – Ein Bericht."
+title: "Thailand - Reisebericht"
 date: 2019-08-04
 categories: ["Travel"]
 tags:

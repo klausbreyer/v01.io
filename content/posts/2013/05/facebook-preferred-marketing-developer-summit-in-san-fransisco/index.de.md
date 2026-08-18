@@ -1,5 +1,5 @@
 ---
-title: "Facebook Preferred Marketing Developer Summit in San Francisco"
+title: "San Francisco - Reisebericht"
 date: 2013-05-09
 aliases:
   - /posts/2013-05-facebook-preferred-marketing-developer-summit-in-san-fransisco/
