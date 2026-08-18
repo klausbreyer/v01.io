@@ -3,7 +3,7 @@ title: "imaedge: Collecting Original Photos Together"
 date: 2026-05-30
 aliases:
   - /posts/2026-imaedge/
-categories: ["Open Source", "Travel", "Shipped"]
+categories: ["Open Source", "Shipped"]
 image: preview.png
 ---
 
