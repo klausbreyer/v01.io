@@ -1,5 +1,5 @@
 ---
-title: "French Polynesia – A Report."
+title: "Französisch-Polynesien - Reisebericht"
 date: 2025-09-13
 aliases:
   - /posts/2025-polynesia/

@@ -1,5 +1,5 @@
 ---
-title: "Dominikanische Republik / Sein Name war Oscar: Die Geschichte des Mojito Grande."
+title: "Dominikanische Republik - Reisebericht"
 date: 2014-10-19
 categories: ["Travel"]
 tags:

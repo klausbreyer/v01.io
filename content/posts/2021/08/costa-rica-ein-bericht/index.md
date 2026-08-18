@@ -1,5 +1,5 @@
 ---
-title: "Costa Rica – A Report."
+title: "Costa Rica - Travel Report"
 date: 2021-08-09
 categories: ["Travel"]
 tags: ["Costa Rica", "Experiences", "Travel Diary", "Nature", "Culture"]

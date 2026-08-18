@@ -1,5 +1,5 @@
 ---
-title: "Bali – A Report"
+title: "Bali - Travel Report"
 date: 2018-07-24
 categories: ["Travel"]
 tags:

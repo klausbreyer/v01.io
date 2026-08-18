@@ -1,5 +1,5 @@
 ---
-title: "Bali – Ein Bericht."
+title: "Bali - Reisebericht"
 date: 2018-07-24
 categories: ["Travel"]
 tags: ["Bali", "Java", "Indonesien", "Reiseerfahrung", "Kultur", "Fotografie"]

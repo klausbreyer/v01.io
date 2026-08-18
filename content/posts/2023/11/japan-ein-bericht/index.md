@@ -1,5 +1,5 @@
 ---
-title: "Japan – A Report"
+title: "Japan - Travel Report"
 date: 2023-11-13
 categories: ["Travel"]
 tags:
