@@ -43,8 +43,6 @@ The rest follows from how we travel:
 - Comments, a newsletter, and statistics, all counted and stored on your server, with no cookie and no stored IP.
 - English and German, for now.
 
-![The gallery on a phone, where the pictures come from](mobile-tiles.jpg)
-
 ## What it is not
 
 There are no roles, no permission matrix, no plugins, no themes marketplace. Everybody with an account is an admin. I built it for people who trust each other, because that is who writes a blog together. A part of Texttile is right when nothing is left to take away.
