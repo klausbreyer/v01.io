@@ -22,7 +22,7 @@ linkedin: |
 
 <video autoplay muted playsinline preload="metadata" poster="writing-poster.jpg" width="1080" height="1080" style="max-width:100%;height:auto">
   <source src="writing.mp4" type="video/mp4">
-  <img src="preview.png" alt="Two screens, one entry: one person writes, the other reads along and can take over">
+  <img src="writing-poster.jpg" alt="Two screens, one entry: one person writes, the other reads along and can take over">
 </video>
 
 Since our honeymoon in 2015, my wife and I blog about every trip we take. For the people at home, for ourselves later, and by now for our children. In [Polynesia]({{< relref "polynesia" >}}) in 2025 we spent three weeks and kept one journal between us. We took turns writing. Whoever was not writing added pictures.
