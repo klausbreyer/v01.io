@@ -20,7 +20,7 @@ linkedin: |
   The long version: https://www.v01.io/posts/2026/08/texttile/
 ---
 
-<video autoplay muted playsinline preload="metadata" poster="preview.png" width="1080" height="1080" style="max-width:100%;height:auto">
+<video autoplay muted playsinline preload="metadata" poster="writing-poster.jpg" width="1080" height="1080" style="max-width:100%;height:auto">
   <source src="writing.mp4" type="video/mp4">
   <img src="preview.png" alt="Two screens, one entry: one person writes, the other reads along and can take over">
 </video>
