@@ -32,7 +32,7 @@ So after [Mexico]({{< relref "mexico" >}}) this year I did what every programmer
 
 Most blog engines give an entry one author and a lock. Texttile gives it company. Two people can have the same entry open. One of them has the text and types, the other watches the words arrive and can take the text over with one tap. The gallery is never locked: both of you drag pictures into place at the same time, and you see each other doing it. An entry is text and tiles. That is the name.
 
-![The editor: text on the left, the tiles of the gallery on the right](backend.png)
+![The editor: text on the left, the tiles of the gallery on the right](backend.jpg)
 
 The rest follows from how we travel:
 
@@ -43,7 +43,7 @@ The rest follows from how we travel:
 - Comments, a newsletter, and statistics, all counted and stored on your server, with no cookie and no stored IP.
 - English and German, for now.
 
-![The gallery on a phone, where the pictures come from](mobile-tiles.png)
+![The gallery on a phone, where the pictures come from](mobile-tiles.jpg)
 
 ## What it is not
 
