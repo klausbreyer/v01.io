@@ -8,9 +8,11 @@ image: preview.png
 linkedin: |
   Every programmer ships a CMS once. Here is mine.
 
-  My wife and I have blogged about every trip since our honeymoon. One of us writes, the other reads along and adds the pictures from the phone. WordPress never got that part: one author, one lock, and a plugin nobody maintains.
+  My wife and I have blogged about every trip since our honeymoon. One of us writes, the other reads along and adds the photos and videos from the phone. But WordPress never got that part. There eis only support for one author, and a bunch of plugins nobody maintains.
 
-  So I wrote Texttile. Two people in the same entry at the same time, gallery included. Elixir, one Docker container, SQLite inside, nothing loaded from outside. Open source.
+  So I wrote Texttile. Two people in the same entry at the same time, photos and videos as first class citziens included. 
+  
+  Technically we are speaking of Elixir, one Docker container, SQLite inside, nothing loaded from outside. 100% Open source.
 
   The demo on the homepage starts a real blog for you for 24 hours, and you can keep it. Link in the first comment.
 
@@ -19,15 +21,15 @@ linkedin: |
   The long version: https://www.v01.io/posts/2026/08/texttile/
 ---
 
-Since our honeymoon in 2015, my wife and I have blogged about every trip we take. For the people at home, for ourselves later, and by now for our children. In [Polynesia]({{< relref "polynesia" >}}) in 2025 we spent three weeks and kept one journal between us. We took turns writing. Whoever was not writing added pictures.
+Since our honeymoon in 2015, my wife and I have blogged about every trip we take. For the people at home, for ourselves later, and by now for our children. In [Polynesia]({{< relref "polynesia" >}}) in 2025 we spent three weeks and kept one journal between us. We took turns writing. Whoever was not writing added photos and videos.
 
-The text was never the hard part. The photos were. Picking them was work. Getting them out of the phone and into the CMS was the real pain: on the phone, on a slow line, far from home. And the CMS was WordPress: updates every few weeks, a plugin its author had abandoned, and bots at the login page around the clock.
+The text was never the hard part. The photos and videos were. Picking them was work. Getting them out of the phone and into the CMS was the real pain: on the phone, on a slow line, far from home. And the CMS was WordPress: updates every few weeks, a plugin its author had abandoned, and bots at the login page around the clock. 
 
 So after [Mexico]({{< relref "mexico" >}}) this year I did what every programmer apparently has to do once. I wrote my own CMS. It is called Texttile, it is open source, and it is written in Elixir.
 
 ## What it does differently
 
-Most blog engines give an entry one author and a lock. Texttile gives it company. Two people can have the same entry open. One of them has the text and types, the other watches the words arrive and can take the text over with one tap. The gallery is never locked: both of you drag pictures into place at the same time, and you see each other doing it. An entry is text and tiles. That is the name.
+Most blog engines give an entry one author and a lock. Texttile gives it company. Two people can have the same entry open. One of them has the text and types, the other watches the words arrive and can take the text over with one tap. The gallery is never locked: both of you drag tiles into place at the same time, and you see each other doing it. A tile is a photo or a video, and the gallery treats them the same. An entry is text and tiles. That is the name.
 
 ![Your screen: you write while the other person reads along](writing-you.png)
 
@@ -39,6 +41,7 @@ Travel shaped the rest:
 
 - Texttile loads nothing from outside. No CDN, no tracker, no captcha, no hosted font, no cookie banner. A reader's browser talks to your server and nothing else.
 - It stays light enough for a slow line: small pages, little JavaScript, and pictures only as large as the screen asks for.
+- Videos come from your own server. Drop one in and Texttile converts it once, with ffmpeg, into one MP4 every browser plays, with a poster frame. One at a time, at the lowest priority, so the blog stays quick while it works. No YouTube embed, no player from anywhere else.
 - Texttile stores your Markdown byte for byte. A version diff shows real edits and nothing else.
 - One container, one folder. Phoenix, LiveView and SQLite live in one Docker image. Everything is in `/data`. Move that directory and you move the blog.
 - Comments, a newsletter, and statistics stay on your server. Texttile uses no cookies and stores no IP addresses.
