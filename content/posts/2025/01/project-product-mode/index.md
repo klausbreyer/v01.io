@@ -1,11 +1,11 @@
 ---
 title: "From Project to Product Mode, Sebastian Borggrewe, Thomas Hartmann, 2025"
 date: 2025-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2025-project-product-mode/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4aOkI0X,title.jpg" >}}

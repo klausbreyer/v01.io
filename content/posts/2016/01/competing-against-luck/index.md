@@ -1,6 +1,7 @@
 ---
 title: "Competing Against Luck, Clayton M. Christensen, 2016"
 date: 2016-01-01
+read_year: 2024
 
 aliases:
   - /posts/2024-competing-against-luck/

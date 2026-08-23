@@ -56,6 +56,7 @@ Rules and options:
 - **image**: path to the social/preview image relative to the post folder. Often `preview.jpg` / `preview.png` / `preview.de.jpg`, sometimes the hero image itself.
 - **social** (optional): URL to the LinkedIn post / podcast episode / external canonical where this piece was also shared.
 - **aliases** (optional): list of old URLs that should redirect here. Used when renaming a post.
+- **read_year** (optional, Bookshelf only): year in which the book was read. Keep this separate from `date`, which records the book's publication year.
 - **draft: false** (optional): rarely set explicitly.
 - **tags** (optional, rare): YAML list; most posts only use categories.
 

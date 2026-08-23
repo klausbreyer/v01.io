@@ -1,11 +1,11 @@
 ---
 title: "The Doors of Perception, Aldous Huxley"
 date: 1954-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/1954-doors-perception/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/49MXcAl,title.jpg" >}}

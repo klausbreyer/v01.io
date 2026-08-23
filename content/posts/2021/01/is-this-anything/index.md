@@ -1,11 +1,11 @@
 ---
 title: "Is This Anything, Jerry Seinfeld, 2021"
 date: 2021-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2021-is-this-anything/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4jI7YeM,title.jpg" >}}

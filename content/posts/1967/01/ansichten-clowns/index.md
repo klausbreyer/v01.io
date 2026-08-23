@@ -1,11 +1,11 @@
 ---
 title: "Ansichten eines Clowns, Heinrich Böll, 1967"
 date: 1967-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/1967-ansichten-clowns/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/49SRlbR,title.jpg" >}}

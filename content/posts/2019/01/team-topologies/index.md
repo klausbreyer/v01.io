@@ -1,6 +1,7 @@
 ---
 title: "Team Topologies, Skelton & Pais, 2019"
 date: 2019-01-01
+read_year: 2024
 social: "https://www.linkedin.com/posts/klaus-breyer_team-topologies-skelton-pais-2019-klaus-activity-7211252754739068928-6P49?"
 categories: ["Bookshelf"]
 aliases:

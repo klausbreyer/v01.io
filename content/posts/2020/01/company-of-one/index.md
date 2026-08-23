@@ -1,6 +1,7 @@
 ---
 title: "Company of One, Jeff Jarvis, 2020"
 date: 2020-01-01
+read_year: 2024
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7188071594987073536/"
 categories: ["Bookshelf"]
 aliases:

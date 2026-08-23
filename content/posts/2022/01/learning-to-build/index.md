@@ -1,6 +1,7 @@
 ---
 title: "Learning to Build, Bob Moesta, 2022"
 date: 2022-01-01
+read_year: 2023
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2023-bookshelf-learning-to-build/"
