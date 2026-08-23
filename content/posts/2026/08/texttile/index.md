@@ -8,9 +8,9 @@ image: preview.png
 linkedin: |
   Every programmer ships a CMS once. Here is mine.
 
-  My wife and I have blogged about every trip since our honeymoon. One of us writes, the other reads along and adds the photos and videos from the phone. But WordPress never got that part. There eis only support for one author, and a bunch of plugins nobody maintains.
+  My wife and I have blogged about every trip since our honeymoon. One of us writes, the other reads along and adds the photos and videos from the phone. But WordPress never got that part. There is only support for one author, a bunch of plugins nobody maintains, and every video had to go to YouTube because WordPress does not compress video.
 
-  So I wrote Texttile. Two people in the same entry at the same time, photos and videos as first class citziens included. 
+  So I wrote Texttile. Two people in the same entry at the same time, photos and videos as first class citizens included. 
   
   Technically we are speaking of Elixir, one Docker container, SQLite inside, nothing loaded from outside. 100% Open source.
 
@@ -23,7 +23,7 @@ linkedin: |
 
 Since our honeymoon in 2015, my wife and I have blogged about every trip we take. For the people at home, for ourselves later, and by now for our children. In [Polynesia]({{< relref "polynesia" >}}) in 2025 we spent three weeks and kept one journal between us. We took turns writing. Whoever was not writing added photos and videos.
 
-The text was never the hard part. The photos and videos were. Picking them was work. Getting them out of the phone and into the CMS was the real pain: on the phone, on a slow line, far from home. And the CMS was WordPress: updates every few weeks, a plugin its author had abandoned, and bots at the login page around the clock. 
+The text was never the hard part. The photos and videos were. Picking them was work. Getting them out of the phone and into the CMS was the real pain: on the phone, on a slow line, far from home. And the CMS was WordPress: updates every few weeks, a plugin its author had abandoned, and bots at the login page around the clock. And every video had to go to YouTube, because WordPress did not compress video. 
 
 So after [Mexico]({{< relref "mexico" >}}) this year I did what every programmer apparently has to do once. I wrote my own CMS. It is called Texttile, it is open source, and it is written in Elixir.
 
