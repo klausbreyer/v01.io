@@ -1,6 +1,7 @@
 ---
 title: "Radical Candor, Kim Scott, 2019"
 date: 2019-01-01
+read_year: 2024
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7205824112785539073/"
 categories: ["Bookshelf"]
 aliases:

@@ -1,6 +1,7 @@
 ---
 title: "Effective Remote Work, James Stanier, 2022"
 date: 2022-01-01
+read_year: 2023
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2023-bookshelf-effective-remote-work/"

@@ -1,11 +1,11 @@
 ---
 title: "Daily Dad, Ryan Holiday, 2023"
 date: 2023-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2023-daily-dad/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4sOr8Uq,title.jpg" >}}

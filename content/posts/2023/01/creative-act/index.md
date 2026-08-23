@@ -1,6 +1,7 @@
 ---
 title: "The Creative Act, Rick Rubin, 2023"
 date: 2023-01-01
+read_year: 2024
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2024-bookshelf-creative-act/"

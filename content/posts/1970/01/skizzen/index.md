@@ -1,11 +1,11 @@
 ---
 title: "Skizzen, Max Frisch, Uwe Johnson"
 date: 1970-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/1970-skizzen/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/49pVrb2,title.jpg" >}}

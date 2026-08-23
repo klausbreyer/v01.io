@@ -1,6 +1,7 @@
 ---
 title: "Algorithms to Live By, Christian & Griffiths, 2017"
 date: 2017-01-01
+read_year: 2024
 social: "https://www.linkedin.com/feed/update/urn:li:activity:7216345857518899200/"
 categories: ["Bookshelf"]
 aliases:

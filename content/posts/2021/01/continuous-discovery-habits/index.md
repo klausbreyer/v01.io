@@ -1,11 +1,11 @@
 ---
 title: "Continuous Discovery Habits, Teresa Torres, 2021"
 date: 2021-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2021-continuous-discovery-habits/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/3YxG9fj,title.jpg" >}}

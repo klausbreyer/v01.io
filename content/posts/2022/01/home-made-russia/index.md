@@ -1,11 +1,11 @@
 ---
 title: "Home Made Russia, Damon Murry, 2022"
 date: 2022-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2022-home-made-russia/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/45NQVlx,title.jpg" >}}

@@ -1,6 +1,7 @@
 ---
 title: "The Dip, Seth Godin, 2007"
 date: 2007-01-01
+read_year: 2023
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2023-bookshelf-the-dip/"

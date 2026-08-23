@@ -1,12 +1,12 @@
 ---
 title: "Seneca, Vom glücklichen Leben (On the Happy Life)"
 date: 0058-01-01
+read_year: 2025
 url: /posts/0058/01/seneca-happy-life/
 aliases:
   - /posts/bookshelf/0058-seneca-happy-life/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4qfEGXn,title.jpg" >}}

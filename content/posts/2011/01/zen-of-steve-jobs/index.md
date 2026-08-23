@@ -1,6 +1,7 @@
 ---
 title: "The Zen of Steve Jobs, 2011"
 date: 2011-01-01
+read_year: 2023
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2023-bookshelf-zen-of-steve-jobs/"

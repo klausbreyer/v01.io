@@ -1,6 +1,7 @@
 ---
 title: "Demand-Side Sales 101, Bob Moesta, 2020"
 date: 2020-01-01
+read_year: 2023
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2023-bookshelf-demand-side-sales/"
