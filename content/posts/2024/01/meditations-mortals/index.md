@@ -1,11 +1,11 @@
 ---
 title: "Meditations for Mortals, Oliver Burkeman, 2024"
 date: 2024-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2024-meditations-mortals/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/3YxFSZP,title.jpg" >}}

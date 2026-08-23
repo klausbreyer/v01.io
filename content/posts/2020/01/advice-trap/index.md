@@ -1,6 +1,7 @@
 ---
 title: "Advice Trap, Michael Bungay Stanier, 2020"
 date: 2020-01-01
+read_year: 2024
 categories: ["Bookshelf"]
 aliases:
   - "/posts/2024-bookshelf-advice-trap/"

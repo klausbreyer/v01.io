@@ -1,11 +1,11 @@
 ---
 title: "Emotional Chaos to Clarity, Phillip Moffitt, 2013"
 date: 2013-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2013-emotional-chaos-clarity/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/3NbnjZ6,title.jpg" >}}

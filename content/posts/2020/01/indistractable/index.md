@@ -1,6 +1,7 @@
 ---
 title: "Indistractable, Nir Eyal, 2020"
 date: 2020-01-01
+read_year: 2024
 social: "https://www.linkedin.com/posts/klaus-breyer_indistractable-nir-eyal-2020-klaus-breyer-activity-7190608289976475648-Loh3"
 categories: ["Bookshelf"]
 aliases:

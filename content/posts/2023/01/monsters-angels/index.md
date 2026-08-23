@@ -1,11 +1,11 @@
 ---
 title: "When Monsters Roar and Angels Sing, Hartmut Rosa, 2023"
 date: 2023-01-01
+read_year: 2025
 aliases:
   - /posts/bookshelf/2023-monsters-angels/
 
 categories: ["Bookshelf"]
-tags: ["read2025"]
 ---
 
 {{< gallery "https://amzn.to/4qJTTj3,title.jpg" >}}
