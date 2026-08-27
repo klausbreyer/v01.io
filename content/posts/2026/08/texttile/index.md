@@ -1,6 +1,6 @@
 ---
 title: "Texttile, a blog engine for people who write together"
-date: 2026-08-27
+date: 2026-08-28
 aliases:
   - /posts/2026-texttile/
 categories: ["Engineering"]
