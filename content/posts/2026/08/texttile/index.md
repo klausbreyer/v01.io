@@ -6,11 +6,11 @@ aliases:
 categories: ["Engineering"]
 image: preview.png
 linkedin: |
-  Every programmer ships a CMS once. Here is mine.
+  Every programmer ships a CMS once. Here is mine: Hello World!
 
   My wife and I have blogged about every trip since our honeymoon 10 years ago. We took turns writing, but both had photos and videos on their phones. Every day they had to be sent back and forth and sorted. But WordPress never got that part. Not the mobile editing experience, not the video support, not the gallery, and definitely not the "together" part. You are limited to one author per entry (but you get a bunch of plugins nobody maintains and constant bot attacks on your wp-admin).
 
-  So I wrote Texttile. Multiple people in the same entry at the same time, with photos and videos (with proper compression!) treated as first-class citizens.
+  So I wrote Texttile. Multiple people in the same entry at the same time, uploading and sorting photos AND videos, treated as first-class citizens.
 
   Under the hood: Elixir, one Docker container, SQLite inside, nothing loaded from outside. 100% open source.
 
@@ -29,7 +29,9 @@ I built [imaedge](https://imaedge.org) for that part first, and we tried it on t
 
 What was still missing was bringing it together with the text. The family blog ran on WordPress, but WordPress never got this. Not the mobile editing experience, not the video support, not the gallery, and definitely not the "together" part. You are limited to one author per entry (but you get a bunch of plugins nobody maintains and constant bot attacks on your wp-admin).
 
-So after Mexico, with the gallery proven, I did what every programmer apparently has to do once. I wrote my own CMS. It is called Texttile, it is open source, and it is written in Elixir.
+So after Mexico, with the gallery proven, I did what every programmer apparently has to do once. I wrote my own CMS. It is called Texttile, it is open source, and it is written in Elixir. 
+
+It allows multiple people in the same entry at the same time, uploading and sorting photos AND videos, treated as first-class citizens.
 
 ## What it does differently
 

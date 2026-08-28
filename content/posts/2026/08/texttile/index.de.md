@@ -6,11 +6,11 @@ aliases:
 categories: ["Engineering"]
 image: preview.png
 linkedin: |
-  Jede:r Programmierer:in baut einmal im Leben ein CMS. Hier ist meins.
+  Jede:r Programmierer:in baut einmal im Leben ein CMS. Hier ist meins: Hello World!
 
   Meine Frau und ich bloggen über jede Reise, seit unserer Hochzeitsreise vor 10 Jahren. Wir haben uns beim Schreiben abgewechselt, aber Fotos und Videos hatten beide auf dem Handy. Jeden Tag mussten sie hin und her geschickt und sortiert werden. Aber genau das hat WordPress nie hinbekommen. Nicht das mobile Schreiben, nicht die Videos, nicht die Galerie, und ganz sicher nicht das "Zusammen". Du bist auf eine:n Autor:in pro Eintrag begrenzt (dafür bekommst du einen Haufen Plugins, die niemand pflegt, und ständige Bot-Attacken auf dein wp-admin).
 
-  Also habe ich Texttile geschrieben. Mehrere Leute gleichzeitig im selben Eintrag, mit Fotos und Videos (ordentlich komprimiert!) als gleichberechtigten Inhalten.
+  Also habe ich Texttile geschrieben. Mehrere Leute gleichzeitig im selben Eintrag, die Fotos UND Videos hochladen und sortieren, als gleichberechtigte Inhalte.
 
   Unter der Haube: Elixir, ein Docker-Container, SQLite drin, nichts wird von außen geladen. 100% Open Source.
 
@@ -29,6 +29,8 @@ Für diesen Teil habe ich zuerst [imaedge](https://imaedge.org) gebaut, und wir 
 Was noch fehlte: das Ganze mit dem Text zusammenzubringen. Der Familienblog lief auf WordPress, aber WordPress hat das nie hinbekommen. Nicht das mobile Schreiben, nicht die Videos, nicht die Galerie, und ganz sicher nicht das "Zusammen". Du bist auf eine:n Autor:in pro Eintrag begrenzt (dafür bekommst du einen Haufen Plugins, die niemand pflegt, und ständige Bot-Attacken auf dein wp-admin).
 
 Also habe ich nach Mexiko, mit bewährter Galerie, getan, was anscheinend jede:r Programmierer:in einmal tun muss. Ich habe mein eigenes CMS geschrieben. Es heißt Texttile, es ist Open Source, und es ist in Elixir geschrieben.
+
+Mehrere Leute können gleichzeitig im selben Eintrag arbeiten und Fotos UND Videos hochladen und sortieren, als gleichberechtigte Inhalte.
 
 ## Was es anders macht
 
