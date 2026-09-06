@@ -1,5 +1,5 @@
 ---
-title: "SMB Olek, eine Apple-TV-App, die einfach abspielt, was auf dem NAS liegt"
+title: "SMB Olek, eine Apple-TV-App, die direkt von der SMB-Freigabe streamt"
 date: 2026-09-06
 categories: ["Shipped"]
 image: preview.png
