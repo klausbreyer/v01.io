@@ -1,6 +1,8 @@
 ---
 title: "Datenschutz für SMB Olek"
 date: 2026-09-06
+aliases:
+  - /pages/smb-olek-datenschutz/
 ---
 
 SMB Olek spielt Videos von deinen SMB-Freigaben auf Apple TV ab. Ich betreibe dafür keinen Videoserver und erhalte keine Kopie deiner Mediathek.
