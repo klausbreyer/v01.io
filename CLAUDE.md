@@ -32,7 +32,7 @@ Files inside the folder:
 - `index.de.md` — German version
 - If a post is **German-only**, use only `index.de.md` (no English stub). Same for English-only: just `index.md`.
 - Images live alongside the markdown in the same folder, referenced with relative paths: `![alt](preview.jpg)` or `![alt](./bonbonbon.jpg)`.
-- Language-specific images get the language suffix: `preview.jpg` (en) / `preview.de.jpg` (de), `header.de.jpg`.
+- Preview images are shared by translations and use an unsuffixed filename such as `preview.jpg` or `preview.png`.
 - PDFs for talk slides: `YYYY-slug.pdf` or `YYYY-slug.de.pdf`, rendered with the `pdf` shortcode.
 - Galleries go in a `gallery/` subfolder inside the post folder (see `2025-polynesia/gallery/`).
 
@@ -53,7 +53,7 @@ Rules and options:
 - **title**: always quoted. Title case for English, sentence/title-ish for German. Colons, em dashes, and question marks are fine.
 - **date**: either a plain `YYYY-MM-DD` or a full RFC3339 timestamp with offset (`2025-01-23T08:33:12+01:00`). Both are in use — prefer plain date unless the time of day matters.
 - **categories**: always a YAML list with **exactly one entry**. Pick the single most fitting category. Common values (by frequency): `Bookshelf`, `Personal`, `Open Source`, `Product`, `Engineering`, `Agile`, `Travel`, `Leadership`, `Productivity`, `Remote`, `AI`, `Collaboration`. Only use multiple categories if Klaus explicitly asks for it.
-- **image**: path to the social/preview image relative to the post folder. Often `preview.jpg` / `preview.png` / `preview.de.jpg`, sometimes the hero image itself.
+- **image**: path to the social/preview image relative to the post folder. Often `preview.jpg` / `preview.png`, sometimes the hero image itself.
 - **social** (optional): URL to the LinkedIn post / podcast episode / external canonical where this piece was also shared.
 - **aliases** (optional): list of old URLs that should redirect here. Used when renaming a post.
 - **read_year** (optional, Bookshelf only): year in which the book was read. Keep this separate from `date`, which records the book's publication year.
