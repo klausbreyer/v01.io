@@ -19,6 +19,9 @@ Email: [kb@v01.io](mailto:kb@v01.io)
 
 Responsible for the content according to § 18 (2) MStV (German Interstate Media Treaty): Klaus Breyer, address as above.
 
+## App Privacy Policies
+
+
 ## Privacy Policy of v01.io
 
 This site collects some personal data from its users.
