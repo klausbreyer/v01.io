@@ -21,7 +21,6 @@ Responsible for the content according to § 18 (2) MStV (German Interstate Media
 
 ## App Privacy Policies
 
-- [Datenschutz für SMB Olek (Deutsch)]({{< relref path="/pages/smb-olek-datenschutz" lang="de" >}})
 
 ## Privacy Policy of v01.io
 
