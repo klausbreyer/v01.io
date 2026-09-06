@@ -3,7 +3,7 @@ title: "Texttile, a multiplayer blog engine for people who write together"
 date: 2026-08-28
 aliases:
   - /posts/2026-texttile/
-categories: ["Engineering"]
+categories: ["Shipped"]
 image: preview.png
 linkedin: |
   Every programmer ships a CMS once. Here is mine! Hello World.
