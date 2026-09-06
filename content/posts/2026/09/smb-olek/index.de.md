@@ -8,7 +8,7 @@ linkedin: |
 
   Warum? Jede App, die ich ausprobiert habe, war entweder nervig kompliziert oder wollte noch einen weiteren Server auf dem Pi.
 
-  (Und die großen Dateien, 15 GB Raja Ampat, liefen entweder gar nicht an oder ruckelten alle paar Sekunden.)
+  (Und die ganz großen Dateien liefen entweder gar nicht an oder ruckelten alle paar Sekunden.)
 
   Also habe ich SMB Olek geschrieben (sprich: Samba Olek. Ich hoffe, ihr versteht den Witz).
 
@@ -39,7 +39,7 @@ Also habe ich getan, was ich ein paar Wochen zuvor mit [Texttile]({{< relref "/p
 
 ## Was es macht
 
-Gerät auswählen, Freigabe öffnen, Ordner öffnen, Video abspielen. Das ist die ganze App.
+Netzwerkgerät auswählen, Freigabe öffnen, Ordner öffnen, Video abspielen. Das ist die ganze App.
 
 - Der Apple TV findet SMB-Server im lokalen Netzwerk per Bonjour. Wenn deiner sich nicht meldet, trägst du Host und Freigabe von Hand ein.
 - Freigaben und Unterordner werden direkt durchsucht. Ordner ohne Videos verschwinden, sobald sie vollständig gescannt sind. Backups und AppleDouble-Kram bleiben verborgen.
@@ -60,7 +60,7 @@ Gerät auswählen, Freigabe öffnen, Ordner öffnen, Video abspielen. Das ist di
 
 Keine Mediathek. Keine Cover aus dem Internet. Kein Metadaten-Scraping. Kein Server auf dem Pi. Kein Konto, keine Analytics, keine Werbung. Die Oberfläche ist schwarz und weiß und zeigt deine Ordnernamen, sonst nichts.
 
-Ich habe es für eine Couch und einen Ordner gebaut. Ein Produkt ist fertig, wenn man nichts mehr wegnehmen kann.
+Ich habe es für eine Couch und einen Ordner gebaut (auch wenn es mehrere kann). Ein Produkt ist fertig, wenn man nichts mehr wegnehmen kann.
 
 ![Das Icon: ein brennender Fernseher](icon.png)
 
@@ -74,7 +74,7 @@ Und die 15-GB-Datei? Spielt, spult, läuft weiter.
 
 ## Probier es aus
 
-[SMB Olek ist im App Store](https://apps.apple.com/de/app/id6809174802). 12,99 Euro einmalig, kein Abo. Die Oberfläche ist vorerst Deutsch.
+[SMB Olek ist im App Store](https://apps.apple.com/de/app/id6809174802). 12,99 Euro einmalig, kein Abo.
 
 Du brauchst eine SMB-2- oder SMB-3-Freigabe mit eigenen Videos. Die App bringt keine Filme mit und braucht kein Konto. Für geschützte Freigaben nutzt du die Zugangsdaten deines Servers.
 
