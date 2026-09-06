@@ -3,7 +3,7 @@ title: "Texttile, eine Blog-Engine für Leute, die zusammen schreiben"
 date: 2026-08-28
 aliases:
   - /posts/2026-texttile/
-categories: ["Engineering"]
+categories: ["Shipped"]
 image: preview.png
 linkedin: |
   Jede:r Programmierer:in baut einmal im Leben ein CMS. Hier ist meins: Hello World!
