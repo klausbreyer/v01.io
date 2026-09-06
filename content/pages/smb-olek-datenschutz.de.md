@@ -32,7 +32,7 @@ Du kannst den lokalen Netzwerkzugriff in den Einstellungen des Apple TV entziehe
 
 ## Support-Anfragen
 
-Wenn du an kb@v01.io schreibst, verarbeite ich deine E-Mail-Adresse, den Nachrichteninhalt und die von dir mitgeschickten Angaben zur Bearbeitung deiner Anfrage. Zum Empfang und Versand nutze ich einen E-Mail-Dienstleister. Bitte sende keine Kennwörter oder privaten Videos mit, die für deine Anfrage nicht erforderlich sind.
+Wenn du an kb@v01.io schreibst, verarbeite ich deine E-Mail-Adresse, den Nachrichteninhalt und die von dir mitgeschickten Angaben zur Bearbeitung deiner Anfrage. Zum Empfang und Versand nutze ich Google Workspace. Dabei verarbeitet Google die E-Mail-Daten für die Bereitstellung des Dienstes. Eine Verarbeitung außerhalb der EU bzw. des EWR, insbesondere in den USA, ist möglich. Google beschreibt die vorgesehenen Schutzmaßnahmen für internationale Datenübermittlungen, einschließlich Standardvertragsklauseln, im [Cloud Data Processing Addendum](https://cloud.google.com/terms/data-processing-addendum/). Bitte sende keine Kennwörter oder privaten Videos mit, die für deine Anfrage nicht erforderlich sind.
 
 Anfragen zu deinem Kauf oder zur Nutzung der App bearbeite ich auf Grundlage von Art. 6 Abs. 1 Buchst. b DSGVO. Bei anderen Anfragen ist Art. 6 Abs. 1 Buchst. f DSGVO die Grundlage. Mein berechtigtes Interesse ist, dein Anliegen zu beantworten.
 
