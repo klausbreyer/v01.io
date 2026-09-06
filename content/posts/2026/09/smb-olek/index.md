@@ -8,7 +8,7 @@ linkedin: |
 
   Why? Every app I tried was either annoyingly complicated or wanted yet another server running on the Pi.
 
-  (And the big files, 15 GB of Raja Ampat, either did not start at all or stuttered every few seconds.)
+  (And the big files either did not start at all or stuttered every few seconds.)
 
   So I wrote SMB Olek (say it out loud: Samba Olek. I hope you get the joke).
 
@@ -40,7 +40,7 @@ So I did what I had done with [Texttile]({{< relref "/posts/2026/08/texttile/" >
 
 ## What it does
 
-Pick a device, open a share, open a folder, play a video. That is the whole app.
+Pick a network device, open a share, open a folder, play a video. That is the whole app.
 
 - The Apple TV finds SMB servers in the local network via Bonjour. If yours does not announce itself, you enter host and share by hand.
 - Shares and subfolders are browsed directly. Folders without videos disappear once they are fully scanned. Backups and AppleDouble clutter stay hidden.
@@ -61,7 +61,7 @@ Pick a device, open a share, open a folder, play a video. That is the whole app.
 
 No media library. No cover art from the internet. No metadata scraping. No server on the Pi. No account, no analytics, no ads. The interface is black and white and shows your folder names, nothing else.
 
-I built it for one couch and one folder. A product is done when there is nothing left to take away.
+I built it for one couch and one folder (though it supports multiple). A product is done when there is nothing left to take away.
 
 ![The icon: a burning television](icon.png)
 
@@ -75,7 +75,7 @@ And the 15 GB file? Plays, seeks, keeps playing.
 
 ## Try it
 
-[SMB Olek is in the App Store](https://apps.apple.com/de/app/id6809174802). 12.99 EUR once, no subscription. The interface is German for now.
+[SMB Olek is in the App Store](https://apps.apple.com/de/app/id6809174802). 12.99 EUR once, no subscription.
 
 You need an SMB 2 or SMB 3 share with your own videos. The app brings no films and needs no account. For protected shares you use the credentials of your server.
 
