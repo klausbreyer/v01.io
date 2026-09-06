@@ -1,7 +1,9 @@
 ---
 title: "Privacy for SMB Olek"
 date: 2026-09-06
-slug: smb-olek-privacy
+aliases:
+  - /pages/smb-olek-privacy/
+  - /pages/smb-olek-datenschutz/
 ---
 
 SMB Olek plays videos from your SMB shares on Apple TV. I do not operate a video server for the app and do not receive a copy of your media library.
