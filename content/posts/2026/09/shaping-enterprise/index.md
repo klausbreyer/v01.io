@@ -15,13 +15,15 @@ linkedin: |
 
 My notes on this book fit on two napkins and two notebook pages. That says something about the book, in both directions.
 
-There is a new Shape Up book, and it is written by a practitioner. [Shaping Enterprise](https://amzn.to/4x82oHv) by [Michael Backes](https://www.linkedin.com/in/michaelbackes/) is a field guide for running Shape Up in B2B product organisations. That is exactly the gap I care about. The original [Shape Up](https://basecamp.com/shapeup), free to read online, was written for a small, opinionated, product-led company. Most of us run it in places with sales teams, enterprise customers, delivery commitments and dependencies between teams. A book about that was overdue.
+There is a new Shape Up book, and it is written by an enterprise practitioner. [Shaping Enterprise](https://amzn.to/4x82oHv) by [Michael Backes](https://www.linkedin.com/in/michaelbackes/) is a field guide for running Shape Up in B2B product organisations. That is exactly the gap I care about. The original [Shape Up](https://basecamp.com/shapeup), free to read online, was written for a small, opinionated, product-led company. Most of us run it in places with sales teams, enterprise customers, delivery commitments and dependencies between teams. A book about that was overdue.
 
 ## First, the honest part
 
 Honest verdict: a lot of very good, applicable advice, but it has a teeny tiny little bit of AI smell. Without the generic fillers here and there I would have loved it even more.
 
-But nevertheless I really like the advice and applied some of it already to my product operating model at [myo](https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered. So here is the part I kept, in a nutshell.
+But nevertheless I really like the advice and applied some of it already to my product operating model at [myo](https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered!
+
+So here is the part I kept, in a nutshell.
 
 ## Roadmap, betting table, cycles: three layers, three questions
 
