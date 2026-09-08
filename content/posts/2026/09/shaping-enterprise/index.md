@@ -4,19 +4,17 @@ date: 2026-09-08
 categories: ["Bookshelf", "Product"]
 image: preview.jpg
 linkedin: |
-  There is a new Shape Up book, written by practitioner Michael Backes: "Shaping Enterprise".
+  There is a new Shape Up book, written by practitioner Michael Backes.
 
   I just read it. A few things that stuck:
 
-  - Thematic roadmap, betting table, cycles. Three layers, three different questions. And the roadmap is not the same document as customer commitments.
-  - A two-horizon betting table: triage what is already running, and select what starts in six weeks. That gives sales and marketing time to align.
-  - Appetite in people times weeks. Scope conservatively and let the team pick the nice-to-haves.
-  - Kanban is externally driven work, Shape Up is internally controlled work. People are shared, the processes are not.
+  - Thematic roadmap, betting table, cycles. Three layers, three different questions.
+  - A two-horizon betting table: triage what is running, select what starts in six weeks.
+  - Appetite in people times weeks. Scope conservatively, let the team pick the nice-to-haves.
+  - Kanban is externally driven work, Shape Up is internally controlled work.
   - Shape Up is not a process change. It is a cultural change.
 
-  Honest verdict: it could have been a little bit shorter, and some parts have a lot of AI smell. But this is complaining on a very high level. I am super happy that we have another Shape Up book, one that covers a field the original left uncovered: everything beyond a small, opinionated, product-led company.
-
-  Full notes in the post.
+  Honest verdict: it could have been a little bit shorter and some parts have a lot of AI smell, but this is complaining on a very high level. I am super happy that we have another Shape Up book that covers a field uncovered by the original book, which was written for a small, opinionated, product-led company.
 ---
 
 ![Shaping Enterprise by Michael Backes, with my notes on a napkin and a notebook page](preview.jpg)
