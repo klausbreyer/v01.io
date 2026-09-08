@@ -39,7 +39,9 @@ The most useful structure in the book is the separation into three layers:
 - **Betting table**: which of these now.
 - **Cycles**: the how.
 
-The point that stuck with me: a thematic roadmap is not a list of commitments with a delivery schedule. Those are two different documents for two different purposes. You do not have to throw them into one, and in an enterprise context you should not. The roadmap tells the company where you are heading. The commitment list tells a customer what they get by when.
+The point that stuck with me: a thematic roadmap is not a list of commitments with a delivery schedule. The book differentiates between thematic roadmaps (we are focusing on this problem this quarter) and delivery commitments (we are delivering this by then, once the work is more concrete and shaped).
+
+That is the classical problem versus solution differentiation, like in framing and shaping. I love it.
 
 A nice side effect is what it does to sales. If sales talks about customer problems, and they know which problems the product organisation tackles next, they can sell direction without selling dates.
 
