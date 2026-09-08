@@ -27,9 +27,9 @@ My notes on this book fit on a napkin and one notebook page. That says something
 
 ## First, the honest part
 
-The book could have been a third of the length. And it would have done it good if it had been written with a bit less AI and a bit more focus on actual learnings. Many chapters repeat the same idea in slightly different words, and the generic advice drowns out the specific experience that clearly sits behind it.
+With all respect, I want to say something positive first. There are quite some good learnings in this book, and I have already applied several of them in my daily Shape Up practice.
 
-That is a pity, because the specific experience is worth reading. So here is the part I would have kept, in a nutshell.
+That said, it carries a lot of AI-speak. It could have been a third of the length, and I would have loved it even more without the generic filler and with more focus on the actual learnings. The specific experience behind the book is worth reading. So here is the part I kept, in a nutshell.
 
 ## Roadmap, betting table, cycles: three layers, three questions
 
@@ -68,19 +68,6 @@ The Shape Up pitch gets an extension for organisations that need to justify a be
 - **Marketing blurb**: how you would announce it.
 - **Business framing**: why now. Strategic context (why the business cares), jobs-to-be-done context (why customers care), market and competitive context.
 
-Then the pitch itself follows a structure I find complete without being bloated:
-
-- Problem statement
-- Appetite
-- Solution overview
-- Rabbit holes
-- No-gos
-- Dependencies and risks
-- Success criteria and validation
-- Post-launch metrics
-
-The last two are the enterprise addition, and they are the ones most teams skip. If you cannot say what you will measure after launch, you are not betting, you are hoping.
-
 ## Two horizons on the betting table
 
 This is the idea I will use most. The betting table works in two horizons:
@@ -112,7 +99,7 @@ Technical proposal writing, by the way, belongs in the cooldown. That is when en
 
 ## It is a cultural change, not a process change
 
-The book is at its best when it stops explaining Shape Up and starts listing where it goes wrong. Two lines I underlined:
+Two lines I underlined:
 
 - Shape Up is not a process change. It is a cultural change.
 - Shaping does not mean avoiding spec details. It means deciding which details matter at this altitude.
@@ -125,10 +112,12 @@ And the common mistakes in the first ninety days:
 - Under-investing in shaping.
 - Not protecting the boundaries.
 
-Every one of these I have seen, or done. The first ninety days are not about running perfect cycles. They are about shaping better, so that the fitting work ends up in the cycle instead of being left over at the end.
+The first ninety days are not about running perfect cycles. They are about shaping better, so that the fitting work ends up in the cycle instead of being left over at the end.
 
 ## Should you read it?
 
 If you run Shape Up in a B2B organisation, yes, with a pencil and permission to skim. The two-horizon betting table, the enterprise pitch structure, the people times weeks appetite and the Kanban definition are worth the price alone.
 
-If you are new to Shape Up, read the original first. This book assumes you already know why you are shaping, and it is at its weakest when it tries to explain that part again.
+Often I read books simply to reflect on my own situation. Strategic challenge? Read a standard work on strategy like [Good Strategy Bad Strategy]({{< relref "/posts/2017/01/good-strategy-bad-strategy/" >}}). DevOps challenge? Read [Accelerate](https://www.amazon.com/dp/1942788339). Shape Up in an enterprise context? This one does that job.
+
+If you are new to Shape Up, read the original first. This book assumes you already know why you are shaping.
