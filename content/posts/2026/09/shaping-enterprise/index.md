@@ -4,19 +4,11 @@ date: 2026-09-08
 categories: ["Bookshelf", "Product"]
 image: preview.jpg
 linkedin: |
-  There is a new Shape Up book, written by practitioner Michael Backes.
-
-  I just read it. A few things that stuck:
-
-  - Thematic roadmap, betting table, cycles. Three layers, three different questions.
-  - A two-horizon betting table: triage what is running, select what starts in six weeks.
-  - Appetite in people times weeks. Scope conservatively, let the team pick the nice-to-haves.
-  - Kanban is externally driven work, Shape Up is internally controlled work.
-  - Shape Up is not a process change. It is a cultural change.
+  There is a new Shape Up book, written by enterprise practitioner Michael Backes.
 
   Honest verdict: a lot of very good, applicable advice, but it also reads like a lot of it was written with AI. It could have been a little bit shorter, and I would have loved it even more without the generic filler.
 
-  But nevertheless I really like the advice and applied some of it already to my product operating model at myo (https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered.
+  But nevertheless I really like the advice and applied some of it already to my product operating model at myo (https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered!
 ---
 
 ![Shaping Enterprise by Michael Backes, with my notes on two napkins and two notebook pages](preview.jpg)
@@ -60,11 +52,11 @@ But never let the cycle quietly grow.
 
 The book measures appetite in people times weeks, not in weeks alone. Two people for four weeks is a different bet than four people for four weeks, and the betting table should see that difference.
 
-There is a second point on scoping: if more was shaped than fits the time, the team gets demotivated. It is better to scope conservatively and let the team pick the nice-to-haves themselves. Shaping conservatively is not a lack of ambition. It is how you keep the team in control of the scope.
+There is a second point on scoping: if you shape more than fits the time, the team gets demotivated. It is better to scope conservatively and let the team pick the nice-to-haves themselves. Shaping conservatively is not a lack of ambition. It is how you keep the team in control of the scope.
 
 ## The enterprise pitch
 
-The Shape Up pitch gets an extension for organisations that need to justify a bet to more than a founder. The pitch is wrapped in a business framing that qualifies the bet before anyone reads the solution:
+The Shape Up pitch gets an extension for organisations that need to justify a bet to more than a founder. The book wraps the pitch in a business framing that qualifies the bet before anyone reads the solution:
 
 - **Summary**: revenue potential, cost savings, effort in people and weeks, strategic value, risk level or confidence, ROI.
 - **Marketing blurb**: how you would announce it.
@@ -85,7 +77,7 @@ The catch: to work in this mode you need clear rules for changing horizon one. I
 
 The book gives the cleanest definition I have read for the two-process question. **Kanban is externally driven work. Shape Up is internally controlled work.** Everything that comes in from outside, from support, from customers, from legal, runs on a board. Everything the company decides to invest in runs in cycles.
 
-People are shared across both processes. The processes are not mixed. That is the setup I recommend as well, and it is good to see the same conclusion from another practitioner.
+The same people work in both processes. The processes stay separate. That is the setup I recommend as well, and it is good to see the same conclusion from another practitioner.
 
 ## Dependencies and things that do not fit
 
@@ -114,7 +106,7 @@ And the common mistakes in the first ninety days:
 - Under-investing in shaping.
 - Not protecting the boundaries.
 
-The first ninety days are not about running perfect cycles. They are about shaping better, so that the fitting work ends up in the cycle instead of being left over at the end.
+The first ninety days are not about running perfect cycles. They are about shaping better, so the work fits the cycle and nothing spills over at the end.
 
 ## Should you read it?
 
