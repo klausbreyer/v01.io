@@ -19,9 +19,9 @@ linkedin: |
   But nevertheless I really like the advice and applied some of it already to my product operating model at myo (https://myo.de).
 ---
 
-![Shaping Enterprise by Michael Backes, with my notes on a napkin and a notebook page](preview.jpg)
+![Shaping Enterprise by Michael Backes, with my notes on two napkins and two notebook pages](preview.jpg)
 
-My notes on this book fit on a napkin and one notebook page. That says something about the book, in both directions.
+My notes on this book fit on two napkins and two notebook pages. That says something about the book, in both directions.
 
 There is a new Shape Up book, and it is written by a practitioner. [Shaping Enterprise](https://amzn.to/4x82oHv) by Michael Backes is a field guide for running Shape Up in B2B product organisations. That is exactly the gap I care about. The original [Shape Up]({{< relref "/posts/2020/01/shape-up/" >}}) was written for a small, opinionated, product-led company. Most of us run it in places with sales teams, enterprise customers, delivery commitments and dependencies between teams. A book about that was overdue.
 
