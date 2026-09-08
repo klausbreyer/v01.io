@@ -54,7 +54,7 @@ More important than the exact numbers is the rule behind it: **appetite beats th
 1. Sacrifice the cooldown.
 2. Make the appetite smaller and keep a buffer.
 
-What you do not do is quietly let the cycle grow.
+But never let the cycle quietly grow.
 
 ## Appetite is people times weeks
 
