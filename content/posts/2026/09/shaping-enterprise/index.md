@@ -23,7 +23,7 @@ linkedin: |
 
 My notes on this book fit on two napkins and two notebook pages. That says something about the book, in both directions.
 
-There is a new Shape Up book, and it is written by a practitioner. [Shaping Enterprise](https://amzn.to/4x82oHv) by [Michael Backes](https://www.linkedin.com/in/michaelbackes/) is a field guide for running Shape Up in B2B product organisations. That is exactly the gap I care about. The original [Shape Up]({{< relref "/posts/2020/01/shape-up/" >}}) was written for a small, opinionated, product-led company. Most of us run it in places with sales teams, enterprise customers, delivery commitments and dependencies between teams. A book about that was overdue.
+There is a new Shape Up book, and it is written by a practitioner. [Shaping Enterprise](https://amzn.to/4x82oHv) by [Michael Backes](https://www.linkedin.com/in/michaelbackes/) is a field guide for running Shape Up in B2B product organisations. That is exactly the gap I care about. The original [Shape Up](https://basecamp.com/shapeup), free to read online, was written for a small, opinionated, product-led company. Most of us run it in places with sales teams, enterprise customers, delivery commitments and dependencies between teams. A book about that was overdue.
 
 ## First, the honest part
 
@@ -60,7 +60,7 @@ But never let the cycle quietly grow.
 
 The book measures appetite in people times weeks, not in weeks alone. Two people for four weeks is a different bet than four people for four weeks, and the betting table should see that difference.
 
-There is a second point on scoping that I wrote down twice: if more was shaped than fits the time, the team gets demotivated. It is better to scope conservatively and let the team pick the nice-to-haves themselves. Shaping conservatively is not a lack of ambition. It is how you keep the team in control of the scope.
+There is a second point on scoping: if more was shaped than fits the time, the team gets demotivated. It is better to scope conservatively and let the team pick the nice-to-haves themselves. Shaping conservatively is not a lack of ambition. It is how you keep the team in control of the scope.
 
 ## The enterprise pitch
 
@@ -122,4 +122,4 @@ If you run Shape Up in a B2B organisation, yes, with a pencil and permission to 
 
 Often I read books simply to reflect on my own situation. Strategic challenge? Read a standard work on strategy like [Good Strategy Bad Strategy]({{< relref "/posts/2017/01/good-strategy-bad-strategy/" >}}). New leadership role? Back to the basics with [Become a Great Engineering Leader]({{< relref "/posts/2024/01/becoming-engineering-leader/" >}}). Shape Up in an enterprise context? This one does that job.
 
-If you are new to Shape Up, read the original first. This book assumes you already know why you are shaping.
+If you are new to Shape Up, read [the original]({{< relref "/posts/2020/01/shape-up/" >}}) first. This book assumes you already know why you are shaping.
