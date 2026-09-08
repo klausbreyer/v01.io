@@ -1,5 +1,5 @@
 ---
-title: "Shaping Enterprise: What I Took From the Book, and What I Would Have Cut"
+title: "Shaping Enterprise: What I Took Out of the New Shape Up Book"
 date: 2026-09-08
 categories: ["Product"]
 image: preview.jpg
