@@ -118,6 +118,6 @@ The first ninety days are not about running perfect cycles. They are about shapi
 
 If you run Shape Up in a B2B organisation, yes, with a pencil and permission to skim. The two-horizon betting table, the enterprise pitch structure, the people times weeks appetite and the Kanban definition are worth the price alone.
 
-Often I read books simply to reflect on my own situation. Strategic challenge? Read a standard work on strategy like [Good Strategy Bad Strategy]({{< relref "/posts/2017/01/good-strategy-bad-strategy/" >}}). Stepping into a leadership role? Read [Become a Great Engineering Leader]({{< relref "/posts/2024/01/becoming-engineering-leader/" >}}). Shape Up in an enterprise context? This one does that job.
+Often I read books simply to reflect on my own situation. Strategic challenge? Read a standard work on strategy like [Good Strategy Bad Strategy]({{< relref "/posts/2017/01/good-strategy-bad-strategy/" >}}). New leadership role? Back to the basics with [Become a Great Engineering Leader]({{< relref "/posts/2024/01/becoming-engineering-leader/" >}}). Shape Up in an enterprise context? This one does that job.
 
 If you are new to Shape Up, read the original first. This book assumes you already know why you are shaping.
