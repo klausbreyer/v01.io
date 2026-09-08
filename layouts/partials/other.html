@@ -2,11 +2,11 @@
   <div class="lg:col-span-5">
     <h3 class="mb-2 text-2xl font-display">Other Posts</h3>
     <ul class="grid gap-4 grid-cols-[repeat(auto-fill,minmax(32ch,1fr))]">
-      {{ range .Site.Menus.side }} {{ end }} {{ $filteredPages := slice }} {{
-      range first 10 (where .Site.RegularPages "Type" "posts") }} {{
-      $intersection := intersect .Params.categories (slice "Bookshelf") }} {{ if
-      eq (len $intersection) 0 }} {{ $filteredPages = $filteredPages | append .
-      }} {{ end }} {{ end }} {{ range $filteredPages }}
+      {{/* Hide posts whose only category is Bookshelf. Posts with Bookshelf plus another category stay listed. */}}
+      {{ $filteredPages := slice }} {{ range first 10 (where .Site.RegularPages "Type" "posts") }}
+      {{ $cats := .Params.categories | default slice }}
+      {{ $bookshelfOnly := and (eq (len $cats) 1) (in $cats "Bookshelf") }}
+      {{ if not $bookshelfOnly }} {{ $filteredPages = $filteredPages | append . }} {{ end }} {{ end }} {{ range $filteredPages }}
       <li class="grid grid-rows-[1fr_auto] border-t-2 border-white font-display font-bold gap-1 pt-1">
         <a class="uppercase text-lg text-primary leading-none  hover:underline" href="{{ .Permalink }}">
           {{ .Title }}
