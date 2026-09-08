@@ -14,9 +14,9 @@ linkedin: |
   - Kanban is externally driven work, Shape Up is internally controlled work.
   - Shape Up is not a process change. It is a cultural change.
 
-  Honest verdict: a lot of very good, applicable advice, but it also reads like a lot of it was written with AI.
+  Honest verdict: a lot of very good, applicable advice, but it also reads like a lot of it was written with AI. It could have been a little bit shorter, and I would have loved it even more without the generic filler.
 
-  But nevertheless I really like the advice and applied some of it already to my product operating model at myo (https://myo.de).
+  But nevertheless I really like the advice and applied some of it already to my product operating model at myo (https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered.
 ---
 
 ![Shaping Enterprise by Michael Backes, with my notes on two napkins and two notebook pages](preview.jpg)
