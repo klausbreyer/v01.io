@@ -36,7 +36,7 @@ tailwind-install:
 
 # Start Hugo server (including drafts) and watch Tailwind CSS for changes
 start: hugo-install tailwind-install
-	hugo server -D & \
+	hugo server -D --poll 500ms & \
 	(sleep 2 && open http://localhost:1313/) & \
 	$(TAILWIND) -i ./assets/css/tailwind.css \
 		-o ./static/css/tailwind.css --watch

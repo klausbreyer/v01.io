@@ -97,6 +97,10 @@ Whenever going through an article again (re-reading, revising, polishing, or on 
 - **Spelling and typos** - in both English and German. Check German umlauts (ä/ö/ü/ß) are correct and not mangled (e.g. no stray `ae`/`oe`/`ue` where the umlaut belongs).
 - Consistency of tense and person within a paragraph.
 - The dash rule above still holds.
+- **Plain English pass**: run the `plain-english` skill in edit mode on the post (passive voice, abstract subjects, banned LLM vocabulary, hedge stacks, reflex lists).
+- **Style comparison**: read the three most recent published posts under `content/posts/` (by date) and compare voice, paragraph length, use of lists, headings, and how own posts are linked. Align the new post to them. Report differences that are a judgment call instead of silently changing voice.
+
+Do both of these every time, for every proofread, revision, or final pass before a post is done, without being asked.
 
 Fix what's clearly wrong. Flag anything ambiguous instead of silently rewriting voice.
 
@@ -125,3 +129,4 @@ Defined in `layouts/shortcodes/`:
 4. Use the frontmatter shape above. Always quote the title. Categories is always a list with one entry.
 5. Reference images with relative paths (`![alt](preview.jpg)`), internal posts with `{{< relref "/posts/YYYY/MM/slug/" >}}`.
 6. Don't set `draft: false` unless there's a reason - absence is fine.
+7. Before finishing, do the plain English pass and the style comparison from "Reviewing / revising a post".

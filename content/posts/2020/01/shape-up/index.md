@@ -8,7 +8,7 @@ categories: ["Bookshelf"]
 
 {{< gallery "https://basecamp.com/shapeup,title.jpg" >}}
 
-The book introduces a practical framework for managing product development with a focus on shaping work before execution, setting clear time boundaries, and empowering teams with ownership. Shape Up encourages avoiding backlogs, making bets instead of plans, and embracing uncertainty through structured but flexible processes.
+The book, [free to read online at basecamp.com/shapeup](https://basecamp.com/shapeup), introduces a practical framework for managing product development with a focus on shaping work before execution, setting clear time boundaries, and empowering teams with ownership. Shape Up encourages avoiding backlogs, making bets instead of plans, and embracing uncertainty through structured but flexible processes.
 
 **Top 3 Learnings:**
 
