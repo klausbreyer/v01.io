@@ -6,9 +6,11 @@ image: preview.jpg
 linkedin: |
   There is a new Shape Up book, written by enterprise practitioner Michael Backes.
 
-  Honest verdict: a lot of very good, applicable advice, but it has a teeny tiny little bit of AI smell. Without the generic fillers here and there I would have loved it even more.
+  I really like the advice and applied some of it already to my product operating model at myo (https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered!
 
-  But nevertheless I really like the advice and applied some of it already to my product operating model at myo (https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered!
+  That said: it has a teeny tiny little bit of AI smell. Without the generic fillers here and there I would have loved it even more.
+
+  But most of all, thank you Michael for the book!
 ---
 
 ![Shaping Enterprise by Michael Backes, with my notes on two napkins and two notebook pages](preview.jpg)
@@ -19,9 +21,11 @@ There is a new Shape Up book, and it is written by an enterprise practitioner. [
 
 ## First, the honest part
 
-Honest verdict: a lot of very good, applicable advice, but it has a teeny tiny little bit of AI smell. Without the generic fillers here and there I would have loved it even more.
+I really like the advice and applied some of it already to my product operating model at [myo](https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered!
 
-But nevertheless I really like the advice and applied some of it already to my product operating model at [myo](https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered!
+That said: it has a teeny tiny little bit of AI smell. Without the generic fillers here and there I would have loved it even more.
+
+But most of all, thank you Michael for the book!
 
 So here is the part I kept, in a nutshell.
 
