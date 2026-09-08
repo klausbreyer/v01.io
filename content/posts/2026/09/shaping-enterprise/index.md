@@ -14,7 +14,9 @@ linkedin: |
   - Kanban is externally driven work, Shape Up is internally controlled work.
   - Shape Up is not a process change. It is a cultural change.
 
-  Honest verdict: it could have been a little bit shorter and some parts have a lot of AI smell, but this is complaining on a very high level. I am super happy that we have another Shape Up book that covers a field uncovered by the original book, which was written for a small, opinionated, product-led company.
+  Honest verdict: a lot of very good, applicable advice, but it also reads like a lot of it was written with AI.
+
+  But nevertheless I really like the advice and applied some of it already to my product operating model at myo (https://myo.de).
 ---
 
 ![Shaping Enterprise by Michael Backes, with my notes on a napkin and a notebook page](preview.jpg)
@@ -25,9 +27,9 @@ There is a new Shape Up book, and it is written by a practitioner. [Shaping Ente
 
 ## First, the honest part
 
-With all respect, I want to say something positive first. There are quite some good learnings in this book, and I have already applied several of them in my daily Shape Up practice. I am super happy that we have another Shape Up book, one that covers a field the original left uncovered.
+Honest verdict: a lot of very good, applicable advice, but it also reads like a lot of it was written with AI. It could have been a little bit shorter, and I would have loved it even more without the generic filler.
 
-That said, it could have been a little bit shorter, and some parts have a lot of AI smell. I would have loved it even more without the generic filler and with more focus on the actual learnings. But this is complaining on a very high level. So here is the part I kept, in a nutshell.
+But nevertheless I really like the advice and applied some of it already to my product operating model at [myo](https://myo.de). I am super happy that we have another Shape Up book, one that covers a field the original left uncovered. So here is the part I kept, in a nutshell.
 
 ## Roadmap, betting table, cycles: three layers, three questions
 
