@@ -1,20 +1,20 @@
 ---
 title: "Shaping Enterprise: What I Took Out of the New Shape Up Book"
 date: 2026-09-08
-categories: ["Product"]
+categories: ["Bookshelf", "Product"]
 image: preview.jpg
 linkedin: |
-  I read "Shaping Enterprise" by Michael Backes, a field guide to Shape Up in B2B product organisations.
+  There is a new Shape Up book, written by practitioner Michael Backes: "Shaping Enterprise".
 
-  Honest verdict: it could be a third of the length, and it reads like a lot of it was written with AI. Less generic advice and more actual learnings would have done it good.
-
-  But the learnings that are in there are very good. A few that stuck:
+  I just read it. A few things that stuck:
 
   - Thematic roadmap, betting table, cycles. Three layers, three different questions. And the roadmap is not the same document as customer commitments.
   - A two-horizon betting table: triage what is already running, and select what starts in six weeks. That gives sales and marketing time to align.
   - Appetite in people times weeks. Scope conservatively and let the team pick the nice-to-haves.
   - Kanban is externally driven work, Shape Up is internally controlled work. People are shared, the processes are not.
   - Shape Up is not a process change. It is a cultural change.
+
+  Honest verdict: it could have been a little bit shorter, and some parts have a lot of AI smell. But this is complaining on a very high level. I am super happy that we have another Shape Up book, one that covers a field the original left uncovered: everything beyond a small, opinionated, product-led company.
 
   Full notes in the post.
 ---
@@ -23,13 +23,13 @@ linkedin: |
 
 My notes on this book fit on a napkin and one notebook page. That says something about the book, in both directions.
 
-[Shaping Enterprise](https://amzn.to/4x82oHv) by Michael Backes is a field guide for running Shape Up in B2B product organisations. That is exactly the gap I care about. The original [Shape Up]({{< relref "/posts/2020/01/shape-up/" >}}) was written for a small, opinionated, product-led company. Most of us run it in places with sales teams, enterprise customers, delivery commitments and dependencies between teams. A book about that was overdue.
+There is a new Shape Up book, and it is written by a practitioner. [Shaping Enterprise](https://amzn.to/4x82oHv) by Michael Backes is a field guide for running Shape Up in B2B product organisations. That is exactly the gap I care about. The original [Shape Up]({{< relref "/posts/2020/01/shape-up/" >}}) was written for a small, opinionated, product-led company. Most of us run it in places with sales teams, enterprise customers, delivery commitments and dependencies between teams. A book about that was overdue.
 
 ## First, the honest part
 
-With all respect, I want to say something positive first. There are quite some good learnings in this book, and I have already applied several of them in my daily Shape Up practice.
+With all respect, I want to say something positive first. There are quite some good learnings in this book, and I have already applied several of them in my daily Shape Up practice. I am super happy that we have another Shape Up book, one that covers a field the original left uncovered.
 
-That said, it carries a lot of AI-speak. It could have been a third of the length, and I would have loved it even more without the generic filler and with more focus on the actual learnings. The specific experience behind the book is worth reading. So here is the part I kept, in a nutshell.
+That said, it could have been a little bit shorter, and some parts have a lot of AI smell. I would have loved it even more without the generic filler and with more focus on the actual learnings. But this is complaining on a very high level. So here is the part I kept, in a nutshell.
 
 ## Roadmap, betting table, cycles: three layers, three questions
 
