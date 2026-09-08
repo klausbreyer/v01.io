@@ -3,6 +3,7 @@ title: "Shaping Enterprise: What I Took Out of the New Shape Up Book"
 date: 2026-09-08
 categories: ["Bookshelf", "Product"]
 image: preview.jpg
+social: https://www.linkedin.com/feed/update/urn:li:activity:7502989806138966017/
 linkedin: |
   There is a new Shape Up book, written by enterprise practitioner Michael Backes.
 
