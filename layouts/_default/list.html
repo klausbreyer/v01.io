@@ -24,9 +24,10 @@
   <h2 class="sr-only">Entries</h2>
   {{ partial
     "translations.html" . }}
-  {{ $filteredPages := slice }} {{ range .Pages }} {{ $intersection := intersect
-  .Params.categories (slice "Bookshelf") }} {{ if eq (len $intersection) 0 }} {{
-  $filteredPages = $filteredPages | append . }} {{ end }} {{ end }} {{ partial
+  {{/* Hide posts whose only category is Bookshelf. Posts with Bookshelf plus another category stay listed. */}}
+  {{ $filteredPages := slice }} {{ range .Pages }} {{ $cats := .Params.categories | default slice }}
+  {{ $bookshelfOnly := and (eq (len $cats) 1) (in $cats "Bookshelf") }}
+  {{ if not $bookshelfOnly }} {{ $filteredPages = $filteredPages | append . }} {{ end }} {{ end }} {{ partial
   "entries-list.html" (dict "Pages" $filteredPages) }} {{ end }} 
 </div>
 {{ end }}
