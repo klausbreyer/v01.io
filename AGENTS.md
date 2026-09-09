@@ -4,6 +4,7 @@
 
 - Never use em dashes (U+2014) or en dashes (U+2013) in any output: not in posts, commit messages, PR descriptions, or chat. Use a plain hyphen `-` with spaces around it, commas, colons, parentheses, or separate sentences instead.
 - Never create a Git commit unless the user explicitly asks for it.
+- Work directly in this repository, not in a Git worktree. This overrides the global worktree instructions. Check out branches here with `git checkout`, do not create worktrees under `../worktrees/`.
 - Never start a dev server on port 1313. That port is reserved for Klaus' own Hugo server. Use a different port, for example `hugo server -D --port 1314`.
 
 ## Before writing or editing a blog post
