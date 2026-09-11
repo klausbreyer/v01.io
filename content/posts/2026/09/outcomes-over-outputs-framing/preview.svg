@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1050" width="2000" height="1050">
+<rect width="2000" height="1050" fill="#fff"/>
+<style>text{font-family:"Space Grotesk","Helvetica Neue",Helvetica,Arial,sans-serif;text-anchor:middle;fill:#000}.h{font-size:48px;font-weight:700;letter-spacing:.12em}.s{font-size:34px;fill:#555}.q{font-size:34px;font-weight:700}.b{font-size:30px}.m{font-size:34px;fill:#555}.x{font-size:120px;font-weight:700;fill:#000}</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#000"/></marker>
+</defs>
+
+<!-- left: feature request -->
+<rect x="200" y="160" width="600" height="150" rx="12" fill="#fff" stroke="#000" stroke-width="4"/>
+<text class="q" x="500" y="225">“Build a follow-up section</text>
+<text class="q" x="500" y="270">in the application.”</text>
+
+<line x1="500" y1="310" x2="500" y2="552" stroke="#000" stroke-width="4" marker-end="url(#a)"/>
+
+<rect x="350" y="560" width="300" height="110" rx="12" fill="#000" stroke="#000" stroke-width="4"/>
+<text class="b" x="500" y="626" fill="#fff" style="fill:#fff">Follow-up section</text>
+
+<text class="h" x="500" y="820">FEATURE REQUEST</text>
+<text class="s" x="500" y="878">One solution, locked in</text>
+<text class="s" x="500" y="922">before the problem is understood</text>
+
+<!-- divider -->
+<line x1="1000" y1="140" x2="1000" y2="960" stroke="#ddd" stroke-width="2" stroke-dasharray="10 12"/>
+
+<!-- right: desired outcome -->
+<rect x="1200" y="160" width="600" height="150" rx="12" fill="#fff" stroke="#000" stroke-width="4"/>
+<text class="q" x="1500" y="225">“Follow-up letters</text>
+<text class="q" x="1500" y="270">feel actionable.”</text>
+
+<g stroke="#000" stroke-width="4" fill="none" marker-end="url(#a)">
+<line x1="1500" y1="310" x2="1148" y2="552"/>
+<line x1="1500" y1="310" x2="1383" y2="552"/>
+<line x1="1500" y1="310" x2="1617" y2="552"/>
+<line x1="1500" y1="310" x2="1852" y2="552"/>
+</g>
+
+<g fill="#fff" stroke="#000" stroke-width="4">
+<rect x="1040" y="560" width="200" height="110" rx="12"/>
+<rect x="1280" y="560" width="200" height="110" rx="12"/>
+<rect x="1520" y="560" width="200" height="110" rx="12"/>
+<rect x="1760" y="560" width="200" height="110" rx="12" stroke-dasharray="14 12"/>
+</g>
+<text class="b" x="1140" y="606">Feature in</text>
+<text class="b" x="1140" y="644">the app</text>
+<text class="b" x="1380" y="606">Better</text>
+<text class="b" x="1380" y="644">notification</text>
+<text class="b" x="1620" y="606">Explainer</text>
+<text class="b" x="1620" y="644">email</text>
+<text class="m" x="1860" y="632" style="font-size:44px">?</text>
+
+<text class="h" x="1500" y="820">DESIRED OUTCOME</text>
+<text class="s" x="1500" y="878">Many solutions, the frame</text>
+<text class="s" x="1500" y="922">defines what success looks like</text>
+</svg>
