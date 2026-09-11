@@ -1,10 +1,11 @@
 ---
-title: "Houston, We Have a Solution - What Was the Problem Again?"
+title: "Houston, We Have a Solution! .. What Was the Problem Again?"
 date: 2026-09-11
 categories: ["Product"]
 image: preview.png
+social: https://lnkd.in/p/dPVjvk4V
 linkedin: |
-  Houston, we have a solution - what was the problem again?
+  Houston, we have a solution! .. what was the problem again?
 
   "We need a follow-up feature for the letters the relatives get from the social welfare office." It could have been a real request at myo (https://myo.de). Except that we do not have feature requests like this. The request sounds reasonable. But it is also a solution in disguise.
 
@@ -83,3 +84,5 @@ The frame should be a small, strong nugget. Not a PRD. Not a long document. Thre
 ![The case manager attaches the letters from the social welfare office, and the agent adds the requested fields to the application](follow-up-agent.png)
 
 The obvious solution would have been a form builder, so our case managers can click together a follow-up form by hand for every letter. In the end, it was neither a follow-up section nor a form builder. It became an agent that lets our case managers attach the follow-up letters from the authorities. Nobody would have written that into a feature request. It came out of the outcome, together with the creative minds on my team.
+
+Houston, we have a solution. And this time, we know what the problem was.
