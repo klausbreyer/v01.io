@@ -45,7 +45,8 @@ Files inside the folder:
 - If a post is **German-only**, use only `index.de.md` (no English stub). Same for English-only: just `index.md`.
 - Images live alongside the markdown in the same folder, referenced with relative paths: `![alt](preview.jpg)` or `![alt](./bonbonbon.jpg)`.
 - Keep every post image in its post bundle under `content/posts/...`. Never move post images to `static`, `assets`, or another shared directory.
-- Preview images are shared by translations and use an unsuffixed filename such as `preview.jpg` or `preview.png`. Do not create language-suffixed preview copies such as `preview.de.jpg`.
+- Preview images are shared by translations and use an unsuffixed filename such as `preview.jpg` or `preview.png`. Do not create language-suffixed preview copies such as `preview.de.jpg` for bilingual posts.
+- **German-only posts are the exception**: every image or PDF in a bundle that has only `index.de.md` must carry the `.de` suffix (`preview.de.jpg`, `header.de.jpg`, `2025-slug.de.pdf`). Hugo assigns unsuffixed resources to the English version of a bundle and drops them when no English version exists. Reference the file without the suffix anyway (`image: preview.jpg`, `![alt](header.jpg)`), Hugo strips the language code from the resource name. Do not work around this with a `module.mounts` entry that mounts `content/posts` as assets: that makes the dev server treat every post edit as an asset change, so dates, moves and new posts do not show up in lists until a restart.
 - PDFs for talk slides: `YYYY-slug.pdf` or `YYYY-slug.de.pdf`, rendered with the `pdf` shortcode.
 - Galleries go in a `gallery/` subfolder inside the post folder (see `2025/09/polynesia/gallery/`).
 

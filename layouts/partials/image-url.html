@@ -9,9 +9,6 @@
 {{- /* Resolve an explicit image through Hugo so translations can share it. */ -}}
 {{- with $imageName := $page.Params.image -}}
   {{- $resource := $page.Resources.GetMatch $imageName -}}
-  {{- if not $resource -}}
-    {{- $resource = resources.Get (printf "%s%s" $page.File.Dir $imageName) -}}
-  {{- end -}}
   {{- with $resource -}}
     {{- $image = .Permalink -}}
   {{- end -}}

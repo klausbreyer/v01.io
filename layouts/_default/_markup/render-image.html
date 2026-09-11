@@ -7,9 +7,6 @@
   {{- /* Try to find image in page resources */ -}}
   {{- $imageName := path.Base $destination -}}
   {{- $resource := $page.Resources.GetMatch $imageName -}}
-  {{- if not $resource -}}
-    {{- $resource = resources.Get (printf "%s%s" $page.File.Dir $imageName) -}}
-  {{- end -}}
   {{- if $resource -}}
     {{- $imageSrc = $resource.RelPermalink -}}
   {{- else -}}
