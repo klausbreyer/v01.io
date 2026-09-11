@@ -1,7 +1,6 @@
 ---
 title: "Everyone Wants Outcomes Over Outputs. Framing Problems Is How You Get There."
-date: 2026-07-06
-draft: true
+date: 2026-09-11
 categories: ["Product"]
 image: preview.png
 linkedin: |
@@ -14,7 +13,7 @@ linkedin: |
   Every time someone says "we need X," check if X is already a solution. Ask: what problem does the user have today that will no longer exist? Frame that. Not X.
 ---
 
-![Framing context and outcomes](preview.png)
+![Feature request locks in one solution, a desired outcome opens up many](preview.svg)
 
 "We need to build a follow-up feature for the letters." That is a feature request. It tells you what to build, but not what problem you are solving. And if you start shaping from a feature request, you have already locked yourself into a solution before you understood the problem.
 
