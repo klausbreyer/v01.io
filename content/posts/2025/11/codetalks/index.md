@@ -28,6 +28,6 @@ Everything is based on practical experience from startup exits to corporate tran
 
 ## Slides
 
-{{< pdf src="2025-codetalks.pdf" >}}
+{{< pdf src="2025-codetalks.pdf?v=ec9d105e07f3" >}}
 
-[Download Slides](2025-codetalks.pdf)
+[Download Slides](2025-codetalks.pdf?v=ec9d105e07f3)

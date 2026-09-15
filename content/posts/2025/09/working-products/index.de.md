@@ -25,6 +25,6 @@ Mein Ziel: zeigen, wie man Silos in der eigenen Organisation aufbricht, echte Zu
 
 ## Slides
 
-{{< pdf src="2025-working-products.de.pdf" >}}
+{{< pdf src="2025-working-products.de.pdf?v=0b345f8e6495" >}}
 
-[Download Slides](2025-working-products.de.pdf)
+[Download Slides](2025-working-products.de.pdf?v=0b345f8e6495)
