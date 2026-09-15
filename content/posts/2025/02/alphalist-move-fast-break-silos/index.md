@@ -35,7 +35,7 @@ Klaus, leading Product & Technology at edding, shares insights from leading inte
 
 ## Recording
 
-{{< youtube 4ELZ0IflvRY >}}
+{{< youtube MAN4TSUXkso >}}
 
 ## Slides
 
