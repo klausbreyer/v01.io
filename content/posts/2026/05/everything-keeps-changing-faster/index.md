@@ -23,9 +23,9 @@ Some of these theses contradict each other, and that is on purpose.
 
 At the moment (and in the future), there is no single right answer anymore - every decision becomes far more individual.
 
-This post is that keynote, written down. Each thesis, my speaker notes , and the source linked so you can go deeper. 
+This post is that keynote, written down. Each thesis, my speaker notes, and the source linked so you can go deeper.
 
-(If you want me to give this talk to your team, just reach out and we can arrange something)
+(If you want me to give this talk to your team, just reach out and we can arrange something.)
 
 In the [next post]({{< relref "/posts/2026/05/product-development-lifecycle-ai-transformation-workshop/" >}}) I will explain the concrete workshop format: how we mapped our process to find the friction we want gone and the judgment we want to keep, so both become deliberate decisions rather than defaults.
 
@@ -318,8 +318,6 @@ In the [next post]({{< relref "/posts/2026/05/product-development-lifecycle-ai-t
 2. SREs / Infra / Security / Systems. 
 3. Adults. 
 4. Hot People.
-
-![There will only be four jobs left](img-hotperson-satc.png)
 
 - Product Eng / Vibe Coder / PM / Slop Cannon: the high-velocity generalist. PMs and designers included.
 - SRE / Infra / Security / Systems: whoever keeps it stable, secure, integrated will be scarce.

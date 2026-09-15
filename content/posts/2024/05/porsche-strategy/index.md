@@ -6,9 +6,7 @@ aliases:
 categories: ["Product"]
 ---
 
-![porsche](porsche.jpg)
-
-The picture above is from a YouTube video in which [I learned about Porsche's strategy](https://www.youtube.com/watch?v=k0OZ2hhoEkY) for managing innovation. They use a decimal point system for model releases. Instead of launching entirely new cars, Porsche introduces a ".1" model with an updated design but the previous generation's engine. A few years later, they release a ".2" model with the same body and interior but a new engine.
+In a YouTube video, [I learned about Porsche's strategy](https://www.youtube.com/watch?v=k0OZ2hhoEkY) for managing innovation. They use a decimal point system for model releases. Instead of launching entirely new cars, Porsche introduces a ".1" model with an updated design but the previous generation's engine. A few years later, they release a ".2" model with the same body and interior but a new engine.
 
 This strategy reduces risks by always using one proven major component. It keeps customers happy with familiar yet advanced models and avoids issues [typical of entirely new (re-) launches]({{< relref "/posts/2024/05/sonos/" >}}).
 
@@ -26,7 +24,7 @@ In that case, I will not use entirely new experimental technologies that no team
 
 Often, developers refactor large parts while changing the functionality simultaneously, resulting in chaos.
 
-(This is the most crucial rule for refactoring, and everyone almost always ignores it. It is so tempting. I get it. But it needs strong leadership to enforce it.)
+(This is the most important rule for refactoring, and everyone almost always ignores it. It is so tempting. I get it. But it needs strong leadership to enforce it.)
 
 In such a case, the team needs test coverage to ensure the experience remains the same while innovating on the tech side (or using this opportunity to build test coverage).
 
@@ -34,7 +32,7 @@ In such a case, the team needs test coverage to ensure the experience remains th
 
 ![stairstep](stairstep.png)
 
-This creates a nice staircase—product innovation with proven technology. Improve technology without changing something for the customer.
+This creates a staircase: product innovation with proven technology. Improve technology without changing something for the customer.
 
 Of course, it is essential to have at least a rough direction for the following product innovation to innovate the tech accordingly in the right direction.
 
