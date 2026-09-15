@@ -21,7 +21,7 @@ Mein Ziel: zeigen, wie man Silos in der eigenen Organisation aufbricht, echte Zu
 
 ## Aufnahme
 
-{{< youtube 4ELZ0IflvRY >}}
+{{< youtube jY_0u4_UU1g >}}
 
 ## Slides
 

@@ -22,7 +22,7 @@ Everything is based on practical experience from startup exits to corporate tran
 
 ## Recording
 
-{{< youtube dhwLTnnotvw >}}
+{{< youtube n2ru4Hn5_jQ >}}
 
 ---
 
