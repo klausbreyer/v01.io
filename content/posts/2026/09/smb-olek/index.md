@@ -1,6 +1,6 @@
 ---
 title: "SMB Olek, an Apple TV app that streams straight from your SMB share"
-date: 2026-09-06
+date: 2026-09-17
 categories: ["Shipped"]
 image: preview.png
 linkedin: |
@@ -20,7 +20,7 @@ linkedin: |
   The German version: https://www.v01.io/de/posts/2026/09/smb-olek/
 ---
 
-Our travel videos live on a Raspberry Pi in the hallway. One Samba share, one folder per trip: [Costa Rica]({{< relref "/posts/2021/08/costa-rica-ein-bericht/" >}}), [Japan]({{< relref "/posts/2023/11/japan-ein-bericht/" >}}), [Sulawesi]({{< relref "/posts/2024/09/sulawesi-ein-bericht/" >}}), [Polynesia]({{< relref "/posts/2025/09/polynesia/" >}}), [Raja Ampat]({{< relref "/posts/2022/08/raja-ampat-ein-bericht/" >}}).
+Our travel videos live on a Raspberry Pi. One Samba share, a travel folder, one file per trip: [Costa Rica]({{< relref "/posts/2021/08/costa-rica-ein-bericht/" >}}), [Japan]({{< relref "/posts/2023/11/japan-ein-bericht/" >}}), [Sulawesi]({{< relref "/posts/2024/09/sulawesi-ein-bericht/" >}}), [Polynesia]({{< relref "/posts/2025/09/polynesia/" >}}), [Raja Ampat]({{< relref "/posts/2022/08/raja-ampat-ein-bericht/" >}}).
 
 I wanted to watch them on the couch. So I built an Apple TV app.
 
@@ -51,7 +51,7 @@ Pick a network device, open a share, open a folder, play a video. That is the wh
 
 ![The network screen: one Raspberry Pi, found via Bonjour](network.png)
 
-![The share: one folder per trip](share.png)
+![The share: a few folders, travel among them](share.png)
 
 ![The travel folder with thumbnails. Raja Ampat 2022 is 14.82 GB](travel.png)
 
@@ -65,17 +65,9 @@ I built it for one couch and one folder (though it supports multiple). A product
 
 ![The icon: a burning television](icon.png)
 
-## Why native
-
-Swift and SwiftUI, two decoders behind one player. AVFoundation handles HEVC and H.264 with hardware decoding. When it cannot read a format, ProRes for example, the app switches to VLC's decoder (TVVLCKit) and the same file plays. The thumbnails fall back the same way.
-
-The SMB part is libsmb2 with a thin Swift wrapper and one patch. Unpatched libsmb2 fails on guest sessions over SMB 3.1.1, because it signs the tree connect without a session key. The patch reads the guest flags the server sends. It does not loosen signing or encryption requirements. If the server demands them for a guest, the connection is refused, as it should be. SMB 2.0.2 through 3.1.1 are tested against the Pi.
-
-And the 15 GB file? Plays, seeks, keeps playing.
-
 ## Try it
 
-[SMB Olek is in the App Store](https://apps.apple.com/de/app/id6809174802). 12.99 EUR once, no subscription.
+[SMB Olek is in the App Store](https://apps.apple.com/de/app/smb-olek/id6809174802). 12.99 EUR once, no subscription.
 
 You need an SMB 2 or SMB 3 share with your own videos. The app brings no films and needs no account. For protected shares you use the credentials of your server.
 
