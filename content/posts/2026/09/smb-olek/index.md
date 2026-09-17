@@ -1,0 +1,71 @@
+---
+title: "SMB Olek, an Apple TV app that streams straight from your SMB share"
+date: 2026-09-17
+categories: ["Shipped"]
+image: preview.png
+linkedin: |
+  I wanted to watch our travel videos from the Raspberry Pi SMB share on the couch. So I built an Apple TV app.
+
+  Why? Every app I tried was either annoyingly complicated or wanted yet another server running on the Pi. I wanted something dead simple that just does the job: playing videos from a local SMB share.
+
+  So I wrote SMB Olek (spoken: Samba Olek - I hope you get the joke 🔥).
+
+  Version 1.0 just arrived in the App Store. Link in the first comment.
+
+  The long version: https://www.v01.io/posts/2026/09/smb-olek/
+  The German version: https://www.v01.io/de/posts/2026/09/smb-olek/
+social: "https://lnkd.in/p/devA6cTu"
+---
+
+Our travel videos live on a Raspberry Pi. One Samba share, a travel folder, one file per trip: [Costa Rica]({{< relref "/posts/2021/08/costa-rica-ein-bericht/" >}}), [Japan]({{< relref "/posts/2023/11/japan-ein-bericht/" >}}), [Sulawesi]({{< relref "/posts/2024/09/sulawesi-ein-bericht/" >}}), [Polynesia]({{< relref "/posts/2025/09/polynesia/" >}}), [Raja Ampat]({{< relref "/posts/2022/08/raja-ampat-ein-bericht/" >}}).
+
+I wanted to watch them on the couch. So I built an Apple TV app.
+
+## Why?
+
+Every app I tried was either annoyingly complicated or wanted yet another server.
+
+Complicated, because the same app also serves five other use cases: a movie library with cover art from the internet, subtitles, a music player, cloud storage, playlists. Getting to my one folder took more clicks than watching the video.
+
+Another server, because Plex, Jellyfin and friends want a daemon on the Pi or the NAS that indexes, transcodes and updates itself. I do not want to run a media server. I have a folder.
+
+And the big files. The Raja Ampat cut is 15 GB. It either did not start at all, or it stuttered every few seconds.
+
+So I did what I had done with [Texttile]({{< relref "/posts/2026/08/texttile/" >}}) a few weeks earlier. I built the small thing myself. It is called SMB Olek. Say it out loud: Samba Olek. I hope you get the joke.
+
+![SMB Olek: plays videos from your SMB shares](preview.png)
+
+## What it does
+
+Pick a network device, open a share, open a folder, play a video. That is the whole app.
+
+- The Apple TV finds SMB servers in the local network via Bonjour. If yours does not announce itself, you enter host and share by hand.
+- Shares and subfolders are browsed directly. Folders without videos disappear once they are fully scanned. Backups and AppleDouble clutter stay hidden.
+- Every video gets a thumbnail, rendered from a frame of the file itself. Nothing is fetched from the internet.
+- Playback streams byte ranges straight from the share. No copying, no waiting for a download. Seeking jumps to the byte offset and continues from there, also beyond 4 GiB.
+- The remote does what you expect: play and pause, ten seconds left and right, back closes the video. The controls fade out after four seconds.
+- Passwords go into the Keychain. The app never writes to the share.
+
+![The network screen: one Raspberry Pi, found via Bonjour](network.png)
+
+![The share: a few folders, travel among them](share.png)
+
+![The travel folder with thumbnails. Raja Ampat 2022 is 14.82 GB](travel.png)
+
+![Playback with the compact controls: time, title, progress](player.jpg)
+
+## What it is not
+
+No media library. No cover art from the internet. No metadata scraping. No server on the Pi. No account, no analytics, no ads. The interface is black and white and shows your folder names, nothing else.
+
+I built it for one couch and one folder (though it supports multiple). A product is done when there is nothing left to take away.
+
+![The icon: a burning television](icon.png)
+
+## Try it
+
+[SMB Olek is in the App Store](https://apps.apple.com/de/app/smb-olek/id6809174802). 12.99 EUR once, no subscription.
+
+You need an SMB 2 or SMB 3 share with your own videos. The app brings no films and needs no account. For protected shares you use the credentials of your server.
+
+How do your videos get from the NAS to the TV?
