@@ -46,21 +46,13 @@ Pick a network device, open a share, open a folder, play a video. That is the wh
 - The remote does what you expect: play and pause, ten seconds left and right, back closes the video. The controls fade out after four seconds.
 - Passwords go into the Keychain. The app never writes to the share.
 
-![The network screen: one Raspberry Pi, found via Bonjour](network.png)
-
-![The share: a few folders, travel among them](share.png)
-
-![The travel folder with thumbnails. Raja Ampat 2022 is 14.82 GB](travel.png)
-
-![Playback with the compact controls: time, title, progress](player.jpg)
+{{< gallery folder="screens" >}}
 
 ## What it is not
 
 No media library. No cover art from the internet. No metadata scraping. No server on the Pi. No account, no analytics, no ads. The interface is black and white and shows your folder names, nothing else.
 
 I built it for one couch and one folder (though it supports multiple). A product is done when there is nothing left to take away.
-
-![The icon: a burning television](icon.png)
 
 ## Try it
 

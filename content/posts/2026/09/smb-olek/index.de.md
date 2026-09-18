@@ -45,21 +45,13 @@ Netzwerkgerät auswählen, Freigabe öffnen, Ordner öffnen, Video abspielen. Da
 - Die Fernbedienung tut, was man erwartet: Play und Pause, zehn Sekunden links und rechts, Zurück schließt das Video. Die Steuerung blendet sich nach vier Sekunden aus.
 - Kennwörter landen im Schlüsselbund. Die App schreibt nie auf die Freigabe.
 
-![Der Netzwerk-Bildschirm: ein Raspberry Pi, gefunden per Bonjour](network.png)
-
-![Die Freigabe: ein paar Ordner, travel darunter](share.png)
-
-![Der travel-Ordner mit Vorschaubildern. Raja Ampat 2022 hat 14,82 GB](travel.png)
-
-![Wiedergabe mit der kompakten Steuerung: Zeit, Titel, Fortschritt](player.jpg)
+{{< gallery folder="screens" >}}
 
 ## Was es nicht ist
 
 Keine Mediathek. Keine Cover aus dem Internet. Kein Metadaten-Scraping. Kein Server auf dem Pi. Kein Konto, keine Analytics, keine Werbung. Die Oberfläche ist schwarz und weiß und zeigt deine Ordnernamen, sonst nichts.
 
 Ich habe es für eine Couch und einen Ordner gebaut (auch wenn es mehrere kann). Ein Produkt ist fertig, wenn man nichts mehr wegnehmen kann.
-
-![Das Icon: ein brennender Fernseher](icon.png)
 
 ## Probier es aus
 
