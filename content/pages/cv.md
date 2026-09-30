@@ -42,7 +42,7 @@ I build and lead product and tech units inside larger companies, including their
 
 - [edding AG](https://www.edding.com/) - **Head of Product & Technology / B2B SaaS / Mobility:** I was responsible for easycheck, a digital driver’s license verification product with an ML core, and its 10 FTE product and tech team. During this time, I introduced B2B SaaS standards into a traditionally non-digital organization and transformed the product org twice: first from siloed work to an empowered product team, and later by leading the product through its [exit to Azowo](https://azowo.com/de/news/fuhrparksoftwareanbieter-azowo-gmbh-uebernimmt-das-produkt-easycheck-by-edding) (2023-2025).
 
-- [Voith Hydro Pocket](https://hydropocket.com/) - **Head of Technology / B2B SaaS / IIoT:** I led the tech unit for Voith GmbH's Hydro Pocket, establishing the 10 FTE team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2019-2023)
+- [Voith Hydro Pocket](https://hydropocket.com/) - **Head of Technology / B2B SaaS / IIoT:** I led the tech unit for Voith GmbH's Hydro Pocket, establishing the 10 FTE team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2021-2023)
 
 - [Native Studios UG](https://www.native-studios.com/) - **Tech Lead & Evangelist / B2B SaaS / Video:** Developed initial prototypes to secure investors and customers for a B2B solution focused on user-generated content, bridging social media and the corporate world. Later led product development and technology advocacy, driving the initial product roadmap and securing early investors. (2016-2019)
 
@@ -68,7 +68,7 @@ As an angel investor or advisor, I challenge founders on product strategy and te
 
 - [Vitalfunktion GmbH](https://www.whatsinmymeds.de/) - **Angel Investor & Member of the Advisory Board / B2C / Pharma Tech:** I invested in and advised the founder of an app on medication intolerances, managing thousands of MAUs and a B2B version for healthcare professionals. (2018-2025)
 
-- [Touch361](https://touch361.org/) - **Member of the Advisory Board / B2B SaaS / BI:** Technical advice on data protection and product development for a business intelligence platform that tracks every touchpoint of the customer lifecycle, both online and offline. Focused on addressing marketing and business intelligence challenges. (2019-2022)
+- [Touch361](https://touch361.org/) - **Member of the Advisory Board / B2B SaaS / BI:** Technical advice on data protection and product development for a business intelligence platform that tracks every touchpoint of the customer lifecycle, both online and offline. Focused on addressing marketing and business intelligence challenges. (2019-2023)
 
 ## Mentoring
 
