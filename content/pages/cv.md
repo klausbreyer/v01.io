@@ -12,11 +12,23 @@ aliases:
 
 Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
+## Timeline
+
+| | | |
+|---|---|---|
+| 2025-Now | [myo GmbH](https://www.myo.de/) | CPTO & Shareholder |
+| 2026 | [Carfax Europe](https://www.carfax.eu/) | Consultant, Shape Up |
+| 2023-2025 | [edding AG](https://www.edding.com/) | Head of Product & Technology, Exit |
+| 2024-2025 | [Ray Sono](https://www.raysono.com/) | Consultant, IT Strategy |
+| 2019-2023 | [Voith Hydro Pocket](https://hydropocket.com/) | Head of Technology |
+| 2016-2018 | [BuzzBird GmbH](https://www.buzzbird.de/) | Founder & CPTO, Exit |
+| 2010-2015 | [Buddybrand GmbH](https://buddybrand.com/) | Founder & CTO |
+
 ## Founder & Shareholder
 
 I take ideas from pitch to product-market fit and beyond: selling the product and tech vision to stakeholders, building the first team, and scaling what works.
 
-- [myo GmbH](https://www.myo.de/) - **CPTO & Shareholder / B2B SaaS / Health:** Pivoted myo (25 FTE, around 500 customers) from its legacy product to formfix, digital workflows for care homes. Made the stack bet on Elixir and launched the new product within six weeks, then convinced the board to measure us on product-market-fit KPIs instead of growth goals for the old product. Merged engineers from three legacy engineering stacks into one fullstack team, scaled it with the right hires, and transformed the working methods to [Shape Up]({{< relref path="tags/shapeup" >}}) with a complete product operating model. (2025-Now)
+- [myo GmbH](https://www.myo.de/) - **CPTO & Shareholder / B2B SaaS / Health:** Pivoted myo (30 FTE, around 500 customers) from its legacy product to formfix, digital workflows for care homes. Made the stack bet on Elixir and launched the new product within six weeks, then convinced the board to measure us on product-market-fit KPIs instead of growth goals for the old product. Merged engineers from three legacy engineering stacks into one fullstack team, scaled it with the right hires, and transformed the working methods to [Shape Up]({{< relref path="tags/shapeup" >}}) with a complete product operating model. (2025-Now)
 
 - [BuzzBird GmbH](https://www.buzzbird.de/) - **Founder & CPTO / B2B Marketplace / Social Media:** We launched with the vision of creating a platform for programmatically booking social media influencers, similar to Google Ads. With a unit of 25 FTE, our ML-driven matching algorithm promoted transparency and data-driven insights. Successfully exited to ProSiebenSat.1. (2016-2018)
 
@@ -28,9 +40,9 @@ I take ideas from pitch to product-market fit and beyond: selling the product an
 
 I build and lead product and tech units inside larger companies, including their senior leaders, mostly remote. I structure product and engineering processes, align them with the product strategy, and manage the stakeholders around the unit.
 
-- [edding AG](https://www.edding.com/) - **Head of Product & Technology / B2B SaaS / Mobility:** I was responsible for easycheck, a digital driver’s license verification product with an ML core. During this time, I introduced B2B SaaS standards into a traditionally non-digital organization and transformed the product org twice: first from siloed work to an empowered product team, and later by leading the product through its [exit to Azowo](https://azowo.com/de/news/fuhrparksoftwareanbieter-azowo-gmbh-uebernimmt-das-produkt-easycheck-by-edding) (2023-2025).
+- [edding AG](https://www.edding.com/) - **Head of Product & Technology / B2B SaaS / Mobility:** I was responsible for easycheck, a digital driver’s license verification product with an ML core, and its 10 FTE product and tech team. During this time, I introduced B2B SaaS standards into a traditionally non-digital organization and transformed the product org twice: first from siloed work to an empowered product team, and later by leading the product through its [exit to Azowo](https://azowo.com/de/news/fuhrparksoftwareanbieter-azowo-gmbh-uebernimmt-das-produkt-easycheck-by-edding) (2023-2025).
 
-- [Voith Hydro Pocket](https://hydropocket.com/) - **Head of Technology / B2B SaaS / IIoT:** I led the tech unit for Voith GmbH's Hydro Pocket, establishing the team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2019-2023)
+- [Voith Hydro Pocket](https://hydropocket.com/) - **Head of Technology / B2B SaaS / IIoT:** I led the tech unit for Voith GmbH's Hydro Pocket, establishing the 10 FTE team and implementing the [Shape Up method]({{< relref path="tags/shapeup" >}}) in a fully remote setting. The product focused on enhancing hydropower plant efficiency and reliability with actionable data. Industry awards recognized its success. (2019-2023)
 
 - [Native Studios UG](https://www.native-studios.com/) - **Tech Lead & Evangelist / B2B SaaS / Video:** Developed initial prototypes to secure investors and customers for a B2B solution focused on user-generated content, bridging social media and the corporate world. Later led product development and technology advocacy, driving the initial product roadmap and securing early investors. (2016-2019)
 
