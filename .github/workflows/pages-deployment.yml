@@ -30,10 +30,9 @@ jobs:
         run: make build
 
       - name: Publish Page
-        uses: cloudflare/pages-action@v1 # https://github.com/cloudflare/pages-action
+        uses: cloudflare/wrangler-action@v3 # replaces the removed cloudflare/pages-action
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: v01-hugo
-          directory: public
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: pages deploy public --project-name=v01-hugo
