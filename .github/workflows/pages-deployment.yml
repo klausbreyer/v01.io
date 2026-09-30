@@ -35,4 +35,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          packageManager: npm # the repo's bun.lock would make the action pick bun, which the runner lacks
           command: pages deploy public --project-name=v01-hugo
