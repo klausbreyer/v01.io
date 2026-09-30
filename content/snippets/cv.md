@@ -1,7 +1,7 @@
-I am an experienced B2B SaaS CPTO with a passion for breaking down silos. As a startup founder and business unit lead, I bridge the gap between technical delivery and agile product strategy. Sometimes, I invest or advise, helping leadership teams build interdisciplinary teams themselves.
+I am a CPTO for B2B SaaS companies that need to get from a legacy product or a first idea to product-market fit. I set the product and tech strategy, build the team, and ship. I founded two startups (one exit to ProSiebenSat.1), built corporate startups for Voith and edding (one exit), and I am currently CPTO and shareholder at [myo](https://www.myo.de/), where we build formfix, digital workflows for care homes.
 
-I founded and led the startups [Buddybrand](https://www.buddybrand.com/) (digital agency) and [BuzzBird](https://www.buzzbird.de/) (B2B marketplace), built corporate startups and business units for Voith [Voith](https://voith.com) (IoT / B2B SaaS) and [edding](https://www.edding.com/de-de/) (B2B SaaS), and I am currently CPTO at [myo](https://www.myo.de/) where we build B2B software for care homes with a focus on digital workflows and communication with relatives.
+**Skills:** product strategy, product operating model, Shape Up, team building and hiring, remote leadership, org transformation, IT strategy, Elixir, TypeScript, Go, ML products, AI-assisted development, exits.
 
-Based in Berlin, I have extensive experience and prefer to work with diverse teams – mostly but not limited to remote environments. I am also a [speaker]({{< relref path="/pages/speaking" >}}), [blogger]({{< relref path="/posts" >}}), and [book author]({{< relref path="/posts/2015/01/practical-guide-facebook-development/">}}).
+Based in Berlin, remote by default. I am also a [speaker]({{< relref path="/pages/speaking" >}}), [blogger]({{< relref path="/posts" >}}), and [book author]({{< relref path="/posts/2015/01/practical-guide-facebook-development/">}}).
 
 Move Fast And Break Silos!
