@@ -6,6 +6,7 @@ publishdate: 2014-02-21T18:18:00+01:00
 lastmod: 2021-06-29T10:40:30+02:00
 tags: ["facebook", "whatsapp"]
 aliases:
+  - /../2014/02/21/den-neuen-whatsapp-share-button-implementieren/
   - /posts/den-whatsapp-share-button-in-html-implementieren/
   - /posts/2014-implement-whatsapp-share-button-in-html/
 categories: ["Engineering"]

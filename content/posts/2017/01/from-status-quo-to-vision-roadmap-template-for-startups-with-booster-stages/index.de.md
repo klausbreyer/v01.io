@@ -17,6 +17,7 @@ tags:
   ]
 
 aliases:
+  - /../2017/01/05/vom-jetzt-zur-vision-roadmap-vorlage-fuer-startups-mit-booster-stages/
   - "/posts/vom-status-quo-zur-vision-roadmap-vorlage-fur-startups-mit-booster-stages/"
   - /posts/2016-from-status-quo-to-vision-roadmap-template-for-startups-with-booster-stages/
 categories: ["Product"]

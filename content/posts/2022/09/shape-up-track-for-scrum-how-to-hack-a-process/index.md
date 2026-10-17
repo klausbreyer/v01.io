@@ -14,6 +14,7 @@ tags:
 
 Social: "https://www.linkedin.com/posts/klaus-breyer_shape-up-track-for-scrum-how-to-hack-a-activity-7004381835472318464-EtFX"
 aliases:
+  - /2022/09/23/shape-up-track-for-scrum-or-how-to-experiment-with-the-process/
   - "/posts/shape-up-track-for-scrum-how-to-hack-a-process/"
   - /posts/2022-shape-up-track-for-scrum-how-to-hack-a-process/
 categories: ["Speaking"]

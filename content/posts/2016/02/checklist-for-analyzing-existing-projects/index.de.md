@@ -16,6 +16,7 @@ tags:
   ]
 
 aliases:
+  - /../2016/02/21/checkliste-zur-uebernahme-bestehender-projekte/
   - /de/posts/checkliste-zur-analyse-bestehender-projekte/
   - /posts/checkliste-zur-analyse-bestehender-projekte/
   - /posts/2016-checklist-for-analyzing-existing-projects/

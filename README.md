@@ -5,20 +5,22 @@
 The canonical site is `https://www.v01.io/`. Keep the apex-to-www redirect at
 the hosting provider, with the request path and query string preserved.
 
-Old WordPress paths are listed in `data/legacy_redirects.json`, grouped by their
-current destination. The English home template publishes a static `index.html`
-for each path through `layouts/partials/legacy-redirects.html`. These files work
-on Cloudflare Pages and static hosting at Bunny without a Worker or `_redirects`
-support. They do not appear in navigation, feeds, or sitemaps.
+Old paths are stored as `aliases` in the destination article's front matter.
+Aliases for categories, tags, and other overview pages live in their `_index.md`.
+Hugo generates static redirect pages that work on Cloudflare Pages and Bunny
+without a Worker or `_redirects` support.
 
-For future article moves, add `aliases` in the article's front matter as usual.
-Both Hugo aliases and the legacy paths use `layouts/partials/redirect.html`.
+In German content, use `/../old-path/` for a legacy URL at the domain root.
+Hugo otherwise prefixes aliases with `/de/`. Existing language-specific aliases
+keep their usual form.
+
+All aliases use `layouts/partials/redirect.html`.
 JavaScript preserves the full query string and fragment and replaces the history
 entry. Without JavaScript, a meta refresh and link still reach the destination,
 but do not preserve the query string or fragment. These are HTML redirects,
 not HTTP 301 responses.
 
-The legacy list covers all 262 website paths from `v01.io-workers`. Destinations
+The aliases cover all 262 website paths from `v01.io-workers`. Destinations
 point directly to current pages, including German translations. Removed tags
 lead to `/tags/`. The retired `/v01-fund/` page leads to `/`, and the removed
 startup CTO article leads to `/tags/cto/`. `/consulting/` leads to the CV,

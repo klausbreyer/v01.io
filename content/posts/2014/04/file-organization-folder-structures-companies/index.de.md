@@ -13,6 +13,7 @@ tags:
   ]
 
 aliases:
+  - /../2014/04/01/dateiorganisation-und-ordnerstrukturen-in-unternehmen/
   - /posts/dateiorganisation-und-ordnerstrukturen-in-unternehmen/
   - /posts/2014-file-organization-folder-structures-companies/
 categories: ["Productivity"]

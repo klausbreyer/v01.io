@@ -16,6 +16,7 @@ tags:
     "Affiliate",
   ]
 aliases:
+  - /../2015/01/11/praxishandbuch-facebook-entwicklung/
   - "/posts/praxishandbuch-facebook-entwicklung/"
   - /posts/2015-practical-guide-facebook-development/
 categories: ["Product"]

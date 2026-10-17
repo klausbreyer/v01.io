@@ -16,6 +16,7 @@ tags:
     "OPML",
   ]
 aliases:
+  - /2015/08/18/enex-to-opml-evernote-export/
   - /de/posts/enex-to-opml-evernote-export/
   - /posts/enex-to-opml-evernote-export/
   - /posts/2015-enex-to-opml-evernote-export/

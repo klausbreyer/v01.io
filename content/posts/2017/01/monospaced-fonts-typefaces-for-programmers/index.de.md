@@ -15,6 +15,7 @@ tags:
     "iTerm",
   ]
 aliases:
+  - /../2017/01/16/monospaced-fonts-schriftarten-fuer-programmier/
   - "/posts/monospaced-fonts-schriftarten-fur-programmierer/"
   - /posts/2017-monospaced-fonts-typefaces-for-programmers/
 categories: ["Engineering"]

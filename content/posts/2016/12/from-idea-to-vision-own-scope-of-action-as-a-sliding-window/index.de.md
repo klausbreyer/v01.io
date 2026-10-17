@@ -17,6 +17,7 @@ tags:
   ]
 
 aliases:
+  - /../2016/12/21/von-der-idee-zur-vision-der-eigene-handlungsspielraum-als-sliding-window/
   - "/posts/von-der-idee-zur-vision-der-eigene-handlungsspielraum-als-sliding-window/"
   - /posts/2016-from-idea-to-vision-own-scope-of-action-as-a-sliding-window/
 categories: ["Product"]

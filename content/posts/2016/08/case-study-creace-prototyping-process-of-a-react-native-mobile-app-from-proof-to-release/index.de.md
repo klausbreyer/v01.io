@@ -20,6 +20,7 @@ tags:
   ]
 
 aliases:
+  - /../2016/08/29/projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release/
   - "/posts/projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release/"
   - /posts/2016-case-study-creace-prototyping-process-of-a-react-native-mobile-app-from-proof-to-release/
 ---

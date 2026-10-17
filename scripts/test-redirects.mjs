@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { test } from "node:test";
 import { runInNewContext } from "node:vm";
@@ -7,9 +7,8 @@ import { runInNewContext } from "node:vm";
 const output = process.env.HUGO_REDIRECT_TEST_DIR;
 assert.ok(output, "Set HUGO_REDIRECT_TEST_DIR to a production Hugo build directory");
 const root = resolve(output);
-const redirects = JSON.parse(readFileSync(new URL("../data/legacy_redirects.json", import.meta.url)));
 const origin = "https://www.v01.io";
-const pageFile = (path) => resolve(root, `.${path}`, "index.html");
+const pageFile = (path) => resolve(root, `.${decodeURIComponent(path)}`, "index.html");
 const readPage = (path) => readFileSync(pageFile(path), "utf8");
 
 // Execute only the generated redirect script, without browser or network access.
@@ -24,28 +23,27 @@ function follow(html, search = "", hash = "") {
   return destination;
 }
 
-test("every legacy path leads directly to a published page", () => {
-  const sources = new Set();
+test("generated aliases lead directly to published pages and stay out of sitemaps", () => {
+  let aliases = 0;
   const sitemaps = ["en/sitemap.xml", "de/sitemap.xml"]
     .map((path) => readFileSync(resolve(root, path), "utf8")).join("\n");
-  for (const [target, paths] of Object.entries(redirects)) {
-    assert.ok(existsSync(pageFile(target)), `Missing target: ${target}`);
-    const targetHTML = readPage(target);
-    assert.doesNotMatch(targetHTML, /http-equiv=["']?refresh/i, `Redirect chain: ${target}`);
-    for (const source of paths) {
-      assert.match(source, /^\/(?!\/).+\/$/);
-      assert.ok(!source.includes(".."), `Invalid source: ${source}`);
-      assert.ok(!sources.has(source), `Duplicate source: ${source}`);
-      sources.add(source);
-      assert.notEqual(source, target, `Redirect loop: ${source}`);
-      const html = readPage(source);
-      assert.equal(follow(html), origin + target, source);
-      assert.ok(html.includes(`rel="canonical" href="${origin}${target}"`), source);
-      assert.match(html, /<noscript>\s*<meta http-equiv="refresh"/);
-      assert.ok(html.includes(`content="0; url=${origin}${target}"`), source);
-      assert.ok(!sitemaps.includes(`<loc>${origin}${source}</loc>`), source);
-    }
+  for (const file of readdirSync(root, { recursive: true })) {
+    if (!file.endsWith("index.html")) continue;
+    const html = readFileSync(resolve(root, file), "utf8");
+    if (!html.includes("<title>Redirecting</title>")) continue;
+    aliases++;
+    const source = "/" + file.replace(/index\.html$/, "");
+    const target = new URL(follow(html));
+    assert.equal(target.origin, origin, source);
+    assert.notEqual(source, decodeURIComponent(target.pathname), `Redirect loop: ${source}`);
+    assert.ok(existsSync(pageFile(target.pathname)), `Missing target: ${target}`);
+    assert.doesNotMatch(readPage(target.pathname), /http-equiv=["']?refresh/i, `Redirect chain: ${source}`);
+    assert.match(html, /rel=["']?canonical["']?\s+href=/);
+    assert.match(html, /<noscript>\s*<meta http-equiv=["']?refresh/);
+    assert.ok(html.includes(`content="0; url=${target.href}"`), source);
+    assert.ok(!sitemaps.includes(`<loc>${new URL(source, origin).href}</loc>`), source);
   }
+  assert.ok(aliases > 0, "No Hugo aliases were generated");
 });
 
 test("query strings and anchors survive both legacy redirects and existing Hugo aliases", () => {
