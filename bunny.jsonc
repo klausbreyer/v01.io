@@ -1,0 +1,8 @@
+{
+  "sites": {
+    "name": "v01-io",
+    "dir": "public",
+    "build": "make tailwind-build && make build",
+    "spa": false
+  }
+}

@@ -1,18 +1,26 @@
+name: Deploy to Bunny
+
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+concurrency:
+  group: bunny-production
+  cancel-in-progress: false
 
 jobs:
   deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     permissions:
       contents: read
       deployments: write
-    name: Deploy to Cloudflare
+    name: Deploy to Bunny
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Download Tailwind
         run: make tailwind-download
@@ -29,11 +37,10 @@ jobs:
       - name: Build
         run: make build
 
-      - name: Publish Page
-        uses: cloudflare/wrangler-action@v3 # replaces the removed cloudflare/pages-action
+      - name: Publish site
+        uses: BunnyWay/actions/deploy-site@931a74b9c45ea9f9f01435fbbf1649830e67d3b3 # deploy-site_0.1.2
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          packageManager: npm # the repo's bun.lock would make the action pick bun, which the runner lacks
-          command: pages deploy public --project-name=v01-hugo
+          site: v01-io
+          directory: public
+          api_key: ${{ secrets.BUNNYNET_API_KEY }}
+          cli_version: "0.19.0"
