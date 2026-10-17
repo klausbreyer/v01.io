@@ -42,7 +42,7 @@ route so requests can reach Pages. Both settings are managed outside this reposi
   Bunny's `{{path}}` includes the query string. Serve the Hugo output on `www`
   with directory index resolution (`/path/` serves `/path/index.html`).
 
-### Validation
+### Local build
 
 Build into a temporary directory so the local preview output stays untouched:
 
@@ -50,5 +50,4 @@ Build into a temporary directory so the local preview output stays untouched:
 redirect_tmp=$(mktemp -d)
 HUGO_RESOURCEDIR="$redirect_tmp/resources" hugo --environment production --minify \
   --destination "$redirect_tmp/public" --cacheDir "$redirect_tmp/cache" --noBuildLock
-HUGO_REDIRECT_TEST_DIR="$redirect_tmp/public" node --test scripts/test-redirects.mjs
 ```
