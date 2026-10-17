@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <script>
+      // Keep tracking parameters, repeated query keys, and anchors intact.
+      const target = new URL({{ .Permalink }});
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      window.location.replace(target.href);
+    </script>
+    <noscript>
+      <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+    </noscript>
+  </head>
+  <body>
+    <a href="{{ .Permalink }}">Continue to the page</a>
+  </body>
+</html>

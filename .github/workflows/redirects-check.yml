@@ -1,0 +1,29 @@
+name: Check redirects
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  redirects:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Build and check redirect destinations
+        env:
+          HUGO_RESOURCEDIR: ${{ runner.temp }}/hugo-resources
+          HUGO_REDIRECT_TEST_DIR: ${{ runner.temp }}/hugo-public
+        run: |
+          hugo --environment production --minify --destination "$HUGO_REDIRECT_TEST_DIR" --noBuildLock
+          node --test scripts/test-redirects.mjs

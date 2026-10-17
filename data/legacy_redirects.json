@@ -1,0 +1,454 @@
+{
+  "/": [
+    "/v01-fund/"
+  ],
+  "/categories/engineering/": [
+    "/category/blog/engineering/",
+    "/category/engineering/"
+  ],
+  "/categories/leadership/": [
+    "/category/blog/organisation/",
+    "/category/organisation/"
+  ],
+  "/categories/open-source/": [
+    "/category/open-source/"
+  ],
+  "/categories/product/": [
+    "/category/blog/product/",
+    "/category/product/"
+  ],
+  "/de/posts/2014/01/what-distinguishes-good-processes-from-bad-processes/": [
+    "/2014/01/15/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/"
+  ],
+  "/de/posts/2014/02/implement-whatsapp-share-button-in-html/": [
+    "/2014/02/21/den-neuen-whatsapp-share-button-implementieren/"
+  ],
+  "/de/posts/2014/03/billing-contract-types-agile-software-projects/": [
+    "/2014/03/01/abrechnung-und-vertragsarten-bei-agilen-softwareprojekten/"
+  ],
+  "/de/posts/2014/04/file-organization-folder-structures-companies/": [
+    "/2014/04/01/dateiorganisation-und-ordnerstrukturen-in-unternehmen/"
+  ],
+  "/de/posts/2015/01/practical-guide-facebook-development/": [
+    "/2015/01/11/praxishandbuch-facebook-entwicklung/"
+  ],
+  "/de/posts/2015/12/is-the-street-of-june-17th-closed-de/": [
+    "/2015/12/08/ist-die-strase-des-17-juni-gesperrt-de/"
+  ],
+  "/de/posts/2016/02/checklist-for-analyzing-existing-projects/": [
+    "/2016/02/21/checkliste-zur-uebernahme-bestehender-projekte/"
+  ],
+  "/de/posts/2016/08/case-study-creace-prototyping-process-of-a-react-native-mobile-app-from-proof-to-release/": [
+    "/2016/08/29/projektstudie-creace-prototyping-prozess-einer-react-native-mobile-app-von-proof-bis-release/"
+  ],
+  "/de/posts/2016/08/developer-sourcing-with-stack-overflow/": [
+    "/2016/08/09/entwickler-sourcing-mit-stack-overflow/"
+  ],
+  "/de/posts/2016/08/managing-software-project-under-time-pressure-with-unknown-codebase/": [
+    "/2016/08/23/wie-man-unter-zeitdruck-ein-software-projekt-mit-einer-voellig-fremden-codebase-uebernimmt-und-am-laufen-haelt/"
+  ],
+  "/de/posts/2016/08/worldwide-developer-sourcing-reasons-and-process/": [
+    "/2016/08/02/weltweites-entwickler-sourcing-gruende-dafuer-und-der-prozess/"
+  ],
+  "/de/posts/2016/12/from-idea-to-vision-own-scope-of-action-as-a-sliding-window/": [
+    "/2016/12/21/von-der-idee-zur-vision-der-eigene-handlungsspielraum-als-sliding-window/"
+  ],
+  "/de/posts/2016/12/the-new-x-for-y-about-startups-that-want-to-be-platforms/": [
+    "/2016/12/20/das-neue-x-fuer-y-ueber-startups-die-plattformen-sein-wollen/"
+  ],
+  "/de/posts/2017/01/from-status-quo-to-vision-roadmap-template-for-startups-with-booster-stages/": [
+    "/2017/01/05/vom-jetzt-zur-vision-roadmap-vorlage-fuer-startups-mit-booster-stages/"
+  ],
+  "/de/posts/2017/01/interview-leitfaden-engineer-developer-job-interviews/": [
+    "/2017/01/18/meine-interview-fragen-fuer-bewerbungsgespraeche/"
+  ],
+  "/de/posts/2017/01/monospaced-fonts-typefaces-for-programmers/": [
+    "/2017/01/16/monospaced-fonts-schriftarten-fuer-programmier/"
+  ],
+  "/de/posts/2017/01/the-thing-with-feature-requests-and-poor-product-management/": [
+    "/2017/01/11/die-sache-mit-feature-request-und-schlechtem-produkt-management/"
+  ],
+  "/de/posts/2021/12/bug-triage/": [
+    "/2021/12/23/bug-triage/"
+  ],
+  "/de/tags/familie/": [
+    "/tag/familie/"
+  ],
+  "/de/tags/finanzen/": [
+    "/tag/finanzen/"
+  ],
+  "/de/tags/philosophie/": [
+    "/tag/philosophie/"
+  ],
+  "/pages/cv/": [
+    "/consulting/"
+  ],
+  "/pages/speaking/": [
+    "/reel/"
+  ],
+  "/posts/": [
+    "/category/blog/",
+    "/category/blog/marketing/",
+    "/category/marketing/"
+  ],
+  "/posts/2015/08/enex-to-opml-evernote-export/": [
+    "/2015/08/18/enex-to-opml-evernote-export/"
+  ],
+  "/posts/2017/11/mobile-batch-upload-wordpress-plugin/": [
+    "/2017/11/04/mobile-batch-upload-wordpress-plugin/"
+  ],
+  "/posts/2017/12/trello-changelog/": [
+    "/2017/12/23/trello-changelog/"
+  ],
+  "/posts/2018/04/zettel-v10-shopping-list-prototyping-google-spreadsheet/": [
+    "/2018/04/28/zettel-v1-0-shopping-list-prototyping-as-google-spreadsheet/"
+  ],
+  "/posts/2020/05/second-system-effect/": [
+    "/2020/05/04/second-system-effect/"
+  ],
+  "/posts/2020/12/pocket-highlights/": [
+    "/2020/12/31/pocket-highlights/"
+  ],
+  "/posts/2022/03/prusapax-3d-printer-setup-in-ikea-pax-wardrobe-with-twitch-livestream/": [
+    "/2022/03/15/prusapax/"
+  ],
+  "/posts/2022/06/unixtimestamp-workflow/": [
+    "/2022/08/19/v4-0-6-release/",
+    "/2022/08/15/v4-0-3-release-background-story/",
+    "/2022/06/10/unixtime-app/"
+  ],
+  "/posts/2022/09/prototyping-case-study-fillterme/": [
+    "/2022/09/27/prototyping-case-study-fillter-me/"
+  ],
+  "/posts/2022/09/shape-up-track-for-scrum-how-to-hack-a-process/": [
+    "/2022/09/23/shape-up-track-for-scrum-or-how-to-experiment-with-the-process/"
+  ],
+  "/posts/2022/12/shape-up-staffing-and-process-patterns/": [
+    "/2022/12/16/shape-up-staffing-and-process-patterns/"
+  ],
+  "/tags/": [
+    "/tag/conference/",
+    "/tag/apple/",
+    "/tag/instant-messenger/",
+    "/tag/marketing/",
+    "/tag/offline/",
+    "/tag/service-design-tag/",
+    "/tag/marktforschung/",
+    "/tag/influencer/",
+    "/tag/seo/",
+    "/tag/customer-journey/",
+    "/tag/media/",
+    "/tag/social-media/",
+    "/tag/content/",
+    "/tag/content-marketing/",
+    "/tag/social-tag/",
+    "/tag/custom-tab/",
+    "/tag/digitales-marketing/",
+    "/tag/crowdfounding/",
+    "/tag/manager/",
+    "/tag/prozess/",
+    "/tag/prozesse/",
+    "/tag/workflow-tag/",
+    "/tag/ziele/",
+    "/tag/projektmanagement/",
+    "/tag/sprint/",
+    "/tag/jira/",
+    "/tag/wireframe/",
+    "/tag/google-maps/",
+    "/tag/ios/",
+    "/tag/iphone/",
+    "/tag/nike/",
+    "/tag/agentur/",
+    "/tag/content-strategy/",
+    "/tag/content-testing/",
+    "/tag/content-wireframe/",
+    "/tag/kanban/",
+    "/tag/linear-design/",
+    "/tag/responsive-webdesign-prozess/",
+    "/tag/engineer/",
+    "/tag/produkt/",
+    "/tag/airplay/",
+    "/tag/architektur/",
+    "/tag/bewerbungsgespraech/",
+    "/tag/bewerbungsprozess/",
+    "/tag/bose/",
+    "/tag/browser/",
+    "/tag/business-model-canvas/",
+    "/tag/cashflow/",
+    "/tag/change-management/",
+    "/tag/chrome/",
+    "/tag/cloud/",
+    "/tag/code/",
+    "/tag/connected-home/",
+    "/tag/connectedcar/",
+    "/tag/cronjobs/",
+    "/tag/cryptocurrencies/",
+    "/tag/customer-development/",
+    "/tag/data-science/",
+    "/tag/digitale-transformation/",
+    "/tag/domain/",
+    "/tag/enex/",
+    "/tag/feedly/",
+    "/tag/firefox/",
+    "/tag/frontend/",
+    "/tag/ftp/",
+    "/tag/geschaeftsidee/",
+    "/tag/geschaeftsmodell/",
+    "/tag/git/",
+    "/tag/google-drive/",
+    "/tag/hackaton/",
+    "/tag/html5/",
+    "/tag/icloud/",
+    "/tag/ide/",
+    "/tag/internet-of-things/",
+    "/tag/ipad/",
+    "/tag/js/",
+    "/tag/karriere/",
+    "/tag/konto/",
+    "/tag/linkedin/",
+    "/tag/liquid-admin/",
+    "/tag/macbook/",
+    "/tag/markt/",
+    "/tag/node/",
+    "/tag/offlinefirst/",
+    "/tag/prescriptive-analytics/",
+    "/tag/produkte/",
+    "/tag/produktentwicklung/",
+    "/tag/produktivitaet/",
+    "/tag/projekte-2/",
+    "/tag/prototype-fund/",
+    "/tag/react/",
+    "/tag/router/",
+    "/tag/s3/",
+    "/tag/safari/",
+    "/tag/san-fransisco/",
+    "/tag/seed/",
+    "/tag/sourcing/",
+    "/tag/spotify/",
+    "/tag/stack/",
+    "/tag/stellenanzeige/",
+    "/tag/strategie/",
+    "/tag/symfony/",
+    "/tag/telekom/",
+    "/tag/timemachine/",
+    "/tag/twitter/",
+    "/tag/uber/",
+    "/tag/unternehmer/",
+    "/tag/webrtc/",
+    "/tag/wifi/",
+    "/tag/wlan/",
+    "/tag/zielsetzung/",
+    "/tag/zukunft/",
+    "/tag/methods/",
+    "/tag/ideation/",
+    "/tag/problem-solution-fit/",
+    "/tag/product-market-fit/",
+    "/tag/scale/",
+    "/tag/tools/",
+    "/tag/frameworks/",
+    "/tag/directory/",
+    "/tag/prototypingdirectory/",
+    "/tag/launch/",
+    "/tag/slack/",
+    "/tag/github/",
+    "/tag/aws/",
+    "/tag/gsuite/",
+    "/tag/google-cloud/",
+    "/tag/stripe/",
+    "/tag/gumroad/",
+    "/tag/paddle/",
+    "/tag/payment/",
+    "/tag/nonprofit/",
+    "/tag/rsvp/",
+    "/tag/indiehacking/",
+    "/tag/sports/",
+    "/tag/bootstrapping/",
+    "/tag/product-first/",
+    "/tag/market-first/",
+    "/tag/market/",
+    "/tag/distribution/",
+    "/tag/creativity/",
+    "/tag/cloudlog/",
+    "/tag/tool/",
+    "/tag/sdk/",
+    "/tag/slow-business/",
+    "/tag/slowbusiness/",
+    "/tag/climatetech/",
+    "/tag/greentech/",
+    "/tag/productmanagement/",
+    "/tag/raspberry-pi/",
+    "/tag/opensource/",
+    "/tag/webcam/",
+    "/tag/usb/",
+    "/tag/infra/",
+    "/tag/cloudflare/",
+    "/tag/tunnel/",
+    "/tag/html/",
+    "/tag/fillter-me/"
+  ],
+  "/tags/api/": [
+    "/tag/api/"
+  ],
+  "/tags/berlin/": [
+    "/tag/berlin/"
+  ],
+  "/tags/bug/": [
+    "/tag/bug/"
+  ],
+  "/tags/business-model/": [
+    "/tag/business-model/"
+  ],
+  "/tags/casestudy/": [
+    "/tag/casestudy/"
+  ],
+  "/tags/changelog/": [
+    "/tag/changelog/"
+  ],
+  "/tags/cto/": [
+    "/2018/01/12/was-macht-eigentlich-ein-startup-cto/",
+    "/tag/cto/"
+  ],
+  "/tags/deployment/": [
+    "/tag/deployment/"
+  ],
+  "/tags/development/": [
+    "/tag/development/"
+  ],
+  "/tags/editor/": [
+    "/tag/editor/"
+  ],
+  "/tags/engineeringorg/": [
+    "/tag/engineeringorg/"
+  ],
+  "/tags/entrepreneurship/": [
+    "/tag/entrepreneurship/"
+  ],
+  "/tags/evernote/": [
+    "/tag/evernote/"
+  ],
+  "/tags/facebook/": [
+    "/tag/facebook/"
+  ],
+  "/tags/feature-request/": [
+    "/tag/feature-request/"
+  ],
+  "/tags/freelance/": [
+    "/tag/freelance/"
+  ],
+  "/tags/google-spreadsheet/": [
+    "/tag/google-spreadsheet/"
+  ],
+  "/tags/google/": [
+    "/tag/google/"
+  ],
+  "/tags/hosting/": [
+    "/tag/hosting/"
+  ],
+  "/tags/hr/": [
+    "/tag/hr/"
+  ],
+  "/tags/ikea/": [
+    "/tag/ikea/"
+  ],
+  "/tags/interview/": [
+    "/tag/interview/"
+  ],
+  "/tags/javascript/": [
+    "/tag/javascript/"
+  ],
+  "/tags/job-interview/": [
+    "/tag/job-interview/"
+  ],
+  "/tags/messenger/": [
+    "/tag/messenger/"
+  ],
+  "/tags/mobile/": [
+    "/tag/mobile/"
+  ],
+  "/tags/mvp/": [
+    "/tag/mvp/"
+  ],
+  "/tags/opml/": [
+    "/tag/opml/"
+  ],
+  "/tags/org/": [
+    "/tag/org/"
+  ],
+  "/tags/pax/": [
+    "/tag/pax/"
+  ],
+  "/tags/php/": [
+    "/tag/php/"
+  ],
+  "/tags/plugin/": [
+    "/tag/plugin/"
+  ],
+  "/tags/process/": [
+    "/tag/agile/",
+    "/tag/process/"
+  ],
+  "/tags/product-management/": [
+    "/tag/product-management/"
+  ],
+  "/tags/product/": [
+    "/tag/product/"
+  ],
+  "/tags/productivity/": [
+    "/tag/productivity/"
+  ],
+  "/tags/project/": [
+    "/tag/project/"
+  ],
+  "/tags/prototyping/": [
+    "/tag/prototyping/"
+  ],
+  "/tags/prusa/": [
+    "/tag/prusa/"
+  ],
+  "/tags/react-native/": [
+    "/tag/react-native/"
+  ],
+  "/tags/roadmap/": [
+    "/tag/roadmap/"
+  ],
+  "/tags/scrum/": [
+    "/tag/scrum/"
+  ],
+  "/tags/shapeup/": [
+    "/shape-up/",
+    "/tag/shapeup/"
+  ],
+  "/tags/software-engineering/": [
+    "/tag/software-engineering/"
+  ],
+  "/tags/stack-overflow/": [
+    "/tag/stack-overflow/"
+  ],
+  "/tags/startup/": [
+    "/tag/startup/"
+  ],
+  "/tags/strategy/": [
+    "/tag/strategy/"
+  ],
+  "/tags/testing/": [
+    "/tag/testing/"
+  ],
+  "/tags/twitch/": [
+    "/tag/twitch/"
+  ],
+  "/tags/unixtime.app/": [
+    "/category/unixtime-app/"
+  ],
+  "/tags/ux/": [
+    "/tag/ux/"
+  ],
+  "/tags/whatsapp/": [
+    "/tag/whatsapp/"
+  ],
+  "/tags/wordpress/": [
+    "/tag/wordpress/"
+  ],
+  "/tags/youtube/": [
+    "/tag/youtube/"
+  ]
+}
