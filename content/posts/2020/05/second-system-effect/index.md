@@ -16,6 +16,7 @@ tags:
   ]
 social: "https://www.linkedin.com/posts/klaus-breyer_second-system-effect-klaus-breyer-cto-activity-7026098934729048064-zxtt"
 aliases:
+  - /2020/05/04/second-system-effect/
   - /posts/second-system-effect/
   - /posts/2020-second-system-effect/
 categories: ["Product"]

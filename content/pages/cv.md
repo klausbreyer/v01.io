@@ -3,6 +3,7 @@ title: CV
 date: 2023-09-01
 lastmod: 2026-09-30
 aliases:
+  - /consulting/
   - "cv"
   - "services"
   - "now"

@@ -6,6 +6,7 @@ publishdate: 2016-08-02T08:21:37+02:00
 lastmod: 2023-11-23T08:21:37+02:00
 tags: ["developer sourcing", "remote work", "global talent", "hiring process"]
 aliases:
+  - /../2016/08/02/weltweites-entwickler-sourcing-gruende-dafuer-und-der-prozess/
   - "/posts/weltweites-entwickler-sourcing-grunde-und-prozess-dafur/"
   - /posts/2016-worldwide-developer-sourcing-reasons-and-process/
 categories: ["Engineering"]

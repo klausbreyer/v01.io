@@ -6,6 +6,7 @@ publishdate: 2016-12-20T08:56:00+01:00
 lastmod: 2021-06-29T10:42:57+02:00
 tags: ["data analysis", "business insights", "data-driven decisions"]
 aliases:
+  - /../2016/12/20/das-neue-x-fuer-y-ueber-startups-die-plattformen-sein-wollen/
   - /posts/das-neue-x-fur-y-startups-die-plattformen-sein-wollen/
   - /posts/2016-the-new-x-for-y-about-startups-that-want-to-be-platforms/
 categories: ["Product"]

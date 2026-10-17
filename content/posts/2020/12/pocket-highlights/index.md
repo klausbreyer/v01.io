@@ -6,6 +6,7 @@ publishdate: 2020-12-31T17:26:22+01:00
 lastmod: 2021-01-02T13:56:48+01:00
 tags: ["Pocket", "Roam Research", "note-taking", "open source"]
 aliases:
+  - /2020/12/31/pocket-highlights/
   - "/posts/pocket-highlights/"
   - /posts/2020-pocket-highlights/
 categories: ["Open Source"]

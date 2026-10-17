@@ -16,6 +16,9 @@ tags:
 image: "unixtime.app-workflow.png"
 
 aliases:
+  - /2022/08/19/v4-0-6-release/
+  - /2022/08/15/v4-0-3-release-background-story/
+  - /2022/06/10/unixtime-app/
   - /posts/2022-unixtimeapp-v03-initial-release-fulltext-timestamp-conversion/
   - /posts/2022-unixtimeapp-v403-release--background-story/
   - /posts/2022-unixtimeapp-v406-release/

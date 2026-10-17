@@ -6,6 +6,7 @@ publishdate: 2017-12-23T13:31:53+01:00
 lastmod: 2020-05-15T12:01:18+02:00
 tags: ["Trello", "changelog", "script", "agile sprints", "npm", "Open Source"]
 aliases:
+  - /2017/12/23/trello-changelog/
   - "/posts/trello-changelog/"
   - /posts/2017-trello-changelog/
 categories: ["Open Source"]

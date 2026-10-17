@@ -6,6 +6,7 @@ publishdate: 2017-01-18T08:58:10+01:00
 lastmod: 2021-06-29T10:40:26+02:00
 tags: ["interview", "hr", "job interview"]
 aliases:
+  - /../2017/01/18/meine-interview-fragen-fuer-bewerbungsgespraeche/
   - "/posts/interview-leitfaden-fur-software-engineer-developer-bewerbungsgesprache/"
   - /posts/2017-interview-leitfaden-engineer-developer-job-interviews/
 categories: ["Leadership"]

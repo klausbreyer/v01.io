@@ -17,6 +17,7 @@ tags:
     "impact",
   ]
 aliases:
+  - /../2021/12/23/bug-triage/
   - /de/posts/bug-triage/
   - /posts/bug-triage/
   - /posts/2021-bug-triage/

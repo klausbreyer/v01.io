@@ -14,6 +14,7 @@ tags:
     "roadmap",
   ]
 aliases:
+  - /../2017/01/11/die-sache-mit-feature-request-und-schlechtem-produkt-management/
   - "/posts/die-sache-mit-den-feature-requests-bei-schlechtem-produkt-management/"
   - /posts/2017-the-thing-with-feature-requests-and-poor-product-management/
 categories: ["Product"]

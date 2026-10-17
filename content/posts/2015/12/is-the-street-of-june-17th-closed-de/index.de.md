@@ -21,6 +21,7 @@ tags:
   ]
 
 aliases:
+  - /../2015/12/08/ist-die-strase-des-17-juni-gesperrt-de/
   - "/posts/ist-die-strasse-des-17-juni-gesperrt-de/"
   - /posts/2015-is-the-street-of-june-17th-closed-de/
 categories: ["Open Source"]

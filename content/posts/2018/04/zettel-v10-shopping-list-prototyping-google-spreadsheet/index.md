@@ -6,6 +6,7 @@ publishdate: 2018-04-28T13:30:56+02:00
 lastmod: 2020-05-15T12:01:19+02:00
 tags: ["shopping list", "prototyping", "Google Spreadsheet", "grocery shopping"]
 aliases:
+  - /2018/04/28/zettel-v1-0-shopping-list-prototyping-as-google-spreadsheet/
   - "/posts/zettel-v10-shopping-list-prototyping-google-spreadsheet/"
   - /posts/2018-zettel-v10-shopping-list-prototyping-google-spreadsheet/
 categories: ["Open Source"]

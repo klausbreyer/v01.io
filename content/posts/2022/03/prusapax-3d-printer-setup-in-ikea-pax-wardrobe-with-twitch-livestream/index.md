@@ -3,6 +3,7 @@ title: "PrusaPax: 3D Printer Setup in IKEA Pax Wardrobe with Twitch Livestream"
 
 date: 2022-03-15T08:07:07+01:00
 aliases:
+  - /2022/03/15/prusapax/
   - /posts/2022-prusapax-3d-printer-setup-in-ikea-pax-wardrobe-with-twitch-livestream/
 publishdate: 2022-03-15T08:07:07+01:00
 lastmod: 2022-08-02T14:50:43+02:00

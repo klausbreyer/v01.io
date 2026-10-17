@@ -16,6 +16,7 @@ tags:
   ]
 
 aliases:
+  - /../2016/08/09/entwickler-sourcing-mit-stack-overflow/
   - "/posts/entwickler-sourcing-mit-stack-overflow/"
   - /posts/2016-developer-sourcing-with-stack-overflow/
 categories: ["Engineering"]

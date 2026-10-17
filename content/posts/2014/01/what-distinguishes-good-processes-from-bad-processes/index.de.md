@@ -6,6 +6,7 @@ publishdate: 2014-01-15T09:24:58+01:00
 lastmod: 2021-06-29T10:37:44+02:00
 tags: ["processes", "workflow", "goals"]
 aliases:
+  - /../2014/01/15/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/
   - /posts/was-gute-prozesse-von-schlechten-prozessen-unterscheidet/
   - /posts/2014-what-distinguishes-good-processes-from-bad-processes/
 categories: ["Productivity"]

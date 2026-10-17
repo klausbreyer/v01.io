@@ -20,6 +20,7 @@ tags:
     "feedback",
   ]
 aliases:
+  - /2017/11/04/mobile-batch-upload-wordpress-plugin/
   - "/posts/mobile-batch-upload-wordpress-plugin/"
   - /posts/2017-mobile-batch-upload-wordpress-plugin/
 categories: ["Open Source"]

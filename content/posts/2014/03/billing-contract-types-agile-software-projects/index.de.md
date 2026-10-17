@@ -14,6 +14,7 @@ tags:
   ]
 
 aliases:
+  - /../2014/03/01/abrechnung-und-vertragsarten-bei-agilen-softwareprojekten/
   - /posts/abrechnung-und-vertragsarten-bei-agilen-softwareprojekten/
   - /posts/2014-billing-contract-types-agile-software-projects/
 categories: ["Process"]

@@ -15,6 +15,7 @@ tags:
   ]
 
 aliases:
+  - /../2016/08/23/wie-man-unter-zeitdruck-ein-software-projekt-mit-einer-voellig-fremden-codebase-uebernimmt-und-am-laufen-haelt/
   - "/posts/wie-man-unter-zeitdruck-ein-software-projekt-mit-einer-vollig-fremden-codebase-ubernimmt-und-am-laufen-halt/"
   - /posts/2016-managing-software-project-under-time-pressure-with-unknown-codebase/
 categories: ["Engineering"]
