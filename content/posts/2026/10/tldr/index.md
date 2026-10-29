@@ -4,9 +4,12 @@ date: 2026-10-29
 categories: ["Open Source", "Shipped"]
 image: preview.png
 linkedin: |
-  Videos with clickbait titles annoy me. And my YouTube feed often has more interesting videos than I have time for. To sort them out, I used to ask Gemini via the API (it can watch YouTube videos) to summarize the videos for me. But that was always a bit of a hassle, because the Gemini app can't do it. So I built myself a little service, and you are welcome to use it too. It is called tldr.tf, tokens are on me! It is open source, so you can host it yourself if you like.
+  Videos with clickbait titles annoy me. And my YouTube feed often has more interesting videos than I have time for. To sort them out, I used to ask Gemini via the API (it can watch YouTube videos) to summarize the videos for me. But that was always a bit of a hassle, because the Gemini app can't do it.
 
-  Just paste a link. Get a summary. Curious to hear your feedback :)
+  So I built myself a little service, and you are welcome to use it too. It is called tldr.tf, and it is open source too, if you would rather host it yourself.
+
+  Just paste a link. Get a summary. Tokens are on me!
+  I don't track anything there, so you have to tell me yourself what you use it for and what you think. Curious to hear your feedback :)
 
   Try it: https://tldr.tf
   The long version: https://www.v01.io/posts/2026/10/tldr/

@@ -4,9 +4,12 @@ date: 2026-10-29
 categories: ["Open Source", "Shipped"]
 image: preview.png
 linkedin: |
-  Mich nerven ja Videos mit Clickbait-Titel. Und oft habe ich in meinem YouTube-Feed mehr interessante Videos, als ich Zeit habe. Um da auszusieben, habe ich in der Vergangenheit immer Gemini via API angefragt (das kann YouTube-Videos anschauen), damit es mir die Videos zusammenfasst. Das war aber immer etwas umständlich, weil das über die Gemini-App nicht geht. Also habe ich mir einen kleinen Service gebaut, den ihr gerne auch nutzen könnt. Er heißt tldr.tf, Tokens gehen auf mich! Ist Open Source, wer mag, kann es auch selbst hosten.
+  Mich nerven ja Videos mit Clickbait-Titeln. Und oft habe ich in meinem YouTube-Feed mehr interessante Videos, als ich Zeit habe. Um da auszusieben, habe ich in der Vergangenheit immer Gemini via API angefragt (kann YouTube-Videos anschauen), damit es mir die Videos zusammenfasst. Das war aber immer etwas umständlich, weil das über die Gemini-App nicht geht.
 
-  Einfach Link rein. Zusammenfassung raus. Bin gespannt auf euer Feedback :)
+  Also habe ich mir einen kleinen Service gebaut, den ihr gerne auch nutzen könnt. Er heißt tldr.tf, ist aber auch Open Source, wer es selbst hosten mag.
+
+  Einfach Link rein. Zusammenfassung raus. Tokens gehen auf mich!
+  Ich tracke da nichts, also müsst ihr mir selbst sagen, wofür ihr es verwendet und wie ihr es findet. Bin gespannt auf euer Feedback :)
 
   Ausprobieren: https://tldr.tf
   Die lange Version: https://www.v01.io/de/posts/2026/10/tldr/
