@@ -37,8 +37,6 @@ Also habe ich einen kleinen Service drumherum gebaut. Er heißt [tldr.tf](https:
 
 Eine Webseite dauert ein paar Sekunden. Ein langes Video dauert bis zu einer Minute.
 
-![tldr.tf auf dem Handy](phone.png)
-
 ## Was es nicht ist
 
 Es gibt keinen Account, keinen Verlauf und keine Datenbank. Ich speichere weder die Links noch die Zusammenfassungen, und ich tracke nicht, wer es benutzt. Wenn ich wissen soll, wofür du es verwendest, musst du es mir sagen.

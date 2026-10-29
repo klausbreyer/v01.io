@@ -38,8 +38,6 @@ So I built a small service around it. It is called [tldr.tf](https://tldr.tf), a
 
 A web page takes a few seconds. A long video takes up to a minute.
 
-![tldr.tf on a phone](phone.png)
-
 ## What it is not
 
 There is no account, no history and no database. I do not store the links or the summaries, and I do not track who uses it. If you want me to know what you use it for, you have to tell me.
