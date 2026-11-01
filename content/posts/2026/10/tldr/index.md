@@ -9,6 +9,7 @@ linkedin: |
   So I built myself a little service, and you are welcome to use it too. It is called tldr.tf, and it is open source too, if you would rather host it yourself.
 
   Just paste a link. Get a summary. Tokens are on me!
+  (There are also iOS / Mac Shortcuts and a Chrome extension.)
   I don't track anything there, so you have to tell me yourself what you use it for and what you think. Curious to hear your feedback :)
 
   Try it: https://tldr.tf
@@ -38,11 +39,13 @@ So I built a small service around it. It is called [tldr.tf](https://tldr.tf), a
 
 A web page takes a few seconds. A long video takes up to a minute.
 
+You do not have to paste anything. The [Chrome extension](https://chromewebstore.google.com/detail/jnhafnmghjfpcbmijehgdoiekilggkdj) summarizes the open page in a side panel, or a link you right-click. The [Apple Shortcut](https://tldr.tf/shortcut) puts tldr into the share menu on the Mac and the iPhone.
+
 ## What it is not
 
 There is no account, no history and no database. I do not store the links or the summaries, and I do not track who uses it. If you want me to know what you use it for, you have to tell me.
 
-PDFs and other files do not work yet. Private and age restricted videos do not work either, because Google does not show them to the model. There is no browser extension and no app.
+PDFs and other files do not work yet. Private and age restricted videos do not work either, because Google does not show them to the model. There is no app.
 
 A product is done when there is nothing left to take away.
 

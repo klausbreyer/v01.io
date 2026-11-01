@@ -9,6 +9,7 @@ linkedin: |
   Also habe ich mir einen kleinen Service gebaut, den ihr gerne auch nutzen könnt. Er heißt tldr.tf, ist aber auch Open Source, wer es selbst hosten mag.
 
   Einfach Link rein. Zusammenfassung raus. Tokens gehen auf mich!
+  (Gibt auch iOS / Mac Shortcuts und eine Chrome Extension.)
   Ich tracke da nichts, also müsst ihr mir selbst sagen, wofür ihr es verwendet und wie ihr es findet. Bin gespannt auf euer Feedback :)
 
   Ausprobieren: https://tldr.tf
@@ -37,11 +38,13 @@ Also habe ich einen kleinen Service drumherum gebaut. Er heißt [tldr.tf](https:
 
 Eine Webseite dauert ein paar Sekunden. Ein langes Video dauert bis zu einer Minute.
 
+Du musst nichts einfügen. Die [Chrome-Erweiterung](https://chromewebstore.google.com/detail/jnhafnmghjfpcbmijehgdoiekilggkdj) fasst die offene Seite in einer Seitenleiste zusammen, oder einen Link per Rechtsklick. Der [Apple-Kurzbefehl](https://tldr.tf/shortcut) bringt tldr ins Teilen-Menü auf dem Mac und dem iPhone.
+
 ## Was es nicht ist
 
 Es gibt keinen Account, keinen Verlauf und keine Datenbank. Ich speichere weder die Links noch die Zusammenfassungen, und ich tracke nicht, wer es benutzt. Wenn ich wissen soll, wofür du es verwendest, musst du es mir sagen.
 
-PDFs und andere Dateien gehen noch nicht. Private und altersbeschränkte Videos gehen auch nicht, weil Google sie dem Modell nicht zeigt. Es gibt keine Browser-Erweiterung und keine App.
+PDFs und andere Dateien gehen noch nicht. Private und altersbeschränkte Videos gehen auch nicht, weil Google sie dem Modell nicht zeigt. Es gibt keine App.
 
 Ein Produkt ist fertig, wenn man nichts mehr wegnehmen kann.
 
