@@ -33,8 +33,9 @@
         <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
         {{ end }}
       </div>
-      <h3 class="mt-2.5 min-h-[2lh] text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
-      <p class="mt-0.5 text-sm leading-snug text-[#c4c4c4]">{{ $authors }}</p>
+      {{/* Author first, one line, so author lines and title tops align across a row. */}}
+      <p class="mt-2.5 truncate text-[0.8125rem] leading-snug text-[#c4c4c4]">{{ $authors }}</p>
+      <h3 class="mt-0.5 text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
     </a>
   </li>
   {{ end }}
