@@ -1,0 +1,16 @@
+{{/*
+  Two-column list page: post rows on the left, the category table in a sticky right rail.
+  Phones get the scrolling filter row above the list instead.
+  Params: "Page", "Pages", "All" (unfiltered list URL), "Active" (current category or "").
+*/}}
+{{/* The title row spans the list column, so the translation link sits at the list's right edge. */}}
+<div class="grid gap-x-8 lg:grid-cols-12"><div class="lg:col-span-8">{{ partial "page-title.html" .Page }}</div></div>
+<div class="lg:hidden">{{ partial "category-filter.html" (dict "Page" .Page "All" .All "Active" .Active) }}</div>
+<div class="mt-8 grid items-start gap-x-8 lg:mt-12 lg:grid-cols-12">
+  <div class="lg:col-span-8">
+    {{ partial "post-list.html" (dict "Pages" .Pages "Years" true) }}
+  </div>
+  <aside class="sticky top-8 hidden lg:col-span-3 lg:col-start-10 lg:block [&_nav_ul]:lg:mt-[17px] [&_nav_li:first-child]:border-t-[#4a4a4a]">
+    {{ partial "category-list.html" (dict "Page" .Page "Active" .Active) }}
+  </aside>
+</div>

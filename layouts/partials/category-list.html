@@ -1,0 +1,30 @@
+{{/*
+  Category index with counts: a ruled table, two columns on phones.
+  Each column opens and closes on its own rule: rows carry a bottom rule, the first row of each column a top rule.
+  Bookshelf is left out: it has its own slot in the main nav.
+  Accepts the page context, or a dict with "Page", "Active" (current category title)
+  and "Big" (heading sized like the year rows it sits next to on list pages).
+*/}}
+{{ $page := . }}{{ $active := "" }}{{ $big := false }}
+{{ if reflect.IsMap . }}{{ $page = .Page }}{{ $active = .Active }}{{ $big = .Big }}{{ end }}
+{{ $count := 0 }}{{ range $page.Site.Taxonomies.categories }}{{ if ne (lower .Page.Title) "bookshelf" }}{{ $count = add $count 1 }}{{ end }}{{ end }}
+{{ $rows := div (add $count 1) 2 }}
+{{ $i := 0 }}
+<nav aria-label="Categories">
+  <h2 class="font-display {{ if $big }}text-[1.625rem] font-bold lg:text-[2rem]{{ else }}text-[1.375rem] font-semibold lg:text-[1.625rem]{{ end }} leading-none tracking-tight text-strong">Categories</h2>
+  {{/* Phones: two columns that read top to bottom, alphabetically. */}}
+  <ul class="mt-4 grid grid-flow-col grid-cols-2 gap-x-10 font-display text-[0.9375rem] lg:block lg:text-[1.0625rem]" style="grid-template-rows: repeat({{ $rows }}, auto)">
+    {{ range $page.Site.Taxonomies.categories.Alphabetical }}
+    {{ if ne (lower .Page.Title) "bookshelf" }}
+    {{ $is := eq .Page.Title $active }}
+    <li class="border-b border-line {{ if eq $i 0 }}border-t{{ else if eq $i $rows }}border-t lg:border-t-0{{ end }}">
+      <a href="{{ .Page.Permalink }}" class="group flex items-baseline justify-between gap-4 py-2.5 {{ if $big }}lg:py-2.5{{ else }}lg:py-[0.93rem]{{ end }}" {{ if $is }}aria-current="page"{{ end }}>
+        <span class="{{ if $is }}text-primary{{ else }}text-text group-hover:text-primary{{ end }} transition-colors">{{ .Page.Title }}</span>
+        <span class="text-sm text-muted tabular-nums">{{ .Count }}</span>
+      </a>
+    </li>
+    {{ $i = add $i 1 }}
+    {{ end }}
+    {{ end }}
+  </ul>
+</nav>

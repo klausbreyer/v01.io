@@ -16,7 +16,7 @@
 			{{- if eq .MediaType.MainType "image" -}}
 				{{- $resized := .Fit $size -}}
 				<a href="{{ .Permalink }}" target="_blank" class="block">
-					<img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" class="max-w-xs transition-shadow duration-300 rounded print:shadow-none shadow-lg hover:shadow-2xl" />
+					<img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" class="max-w-xs transition-opacity hover:opacity-80" />
 				</a>
 			{{- end -}}
 		{{- end -}}
@@ -25,7 +25,7 @@
 			{{- if . -}}
 				{{- $imageParts := split . "," -}}
 				<a href="{{ index $imageParts 0 }}" target="_blank" class="block">
-					<img src="{{ index $imageParts 1 }}" class="max-w-xs transition-shadow duration-300 rounded print:shadow-none shadow-lg hover:shadow-2xl" />
+					<img src="{{ index $imageParts 1 }}" class="max-w-xs transition-opacity hover:opacity-80" />
 				</a>
 			{{- end -}}
 		{{- end -}}

@@ -4,18 +4,27 @@
 @plugin '@tailwindcss/forms';
 
 @theme {
-  --color-primary: var(--color-rose-600);
+  /* Surfaces and text, tuned for long reading on true black. */
+  --color-bg: #000;
+  --color-surface: #0f0f0f;
+  --color-line: #262626;
+  --color-strong: #fff;
+  --color-text: #ececec;
+  --color-muted: #b8b8b8;
+  /* Brand accent: links, logo, focus and active states only. */
+  --color-primary: #ff5a78;
+  /* Filled buttons: darker so white text passes AA. */
+  --color-primary-strong: #e11d48;
   --color-dark: var(--color-rose-900);
-  --color-footer: #252526;
-  --color-footer2: #3d3e3d;
-  --color-bg: #1e1e1e;
-  --color-text: #d4d4d4;
-  /* --font-display: "SpaceGrotesk-Variable", sans-serif; */
-  --font-display: "Rajdhani-Variable", sans-serif;
-  --font-serif: "BespokeSerif-Variable", serif;
-  --spacing: clamp(0.25rem, 0.1667rem + 0.4167vw, 0.5rem);
-  /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1280,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  /* Legacy names still referenced by older markup. */
+  --color-footer: var(--color-surface);
+  --color-footer2: #1c1c1c;
 
+  --font-display: "SpaceGrotesk-Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "ProseDigits", "BespokeSerif-Variable", ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* Fluid type scale. @link https://utopia.fyi/type/calculator?c=320,16,1.2,1280,20,1.25,5,2 */
   /* Step -2: 11.1111px → 12.8px */
   --text-xs: clamp(0.6944rem, 0.6593rem + 0.1759vw, 0.8rem);
   /* Step -1: 13.3333px → 16px */
@@ -30,8 +39,73 @@
   --text-2xl: clamp(1.728rem, 1.4902rem + 1.189vw, 2.4414rem);
   /* Step 4: 33.1776px → 48.8281px */
   --text-3xl: clamp(2.0736rem, 1.7475rem + 1.6303vw, 3.0518rem);
-  /* Step 5: 39.8131px → 61.0352pzx */
+  /* Step 5: 39.8131px → 61.0352px */
   --text-4xl: clamp(2.4883rem, 2.0462rem + 2.2106vw, 3.3rem);
+}
+
+/* One page container shared by header, content, lists and footer. */
+@utility container-site {
+  width: 100%;
+  max-width: 76rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  @media (width >= 48rem) {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Reading measure for articles and the home bio (about 68 characters). */
+@utility measure {
+  max-width: 42rem;
+}
+
+/* Article images break out of the reading column on wide screens. */
+@utility media {
+  margin-block: 2rem !important;
+  @media (width >= 64rem) {
+    margin-inline: var(--breakout-offset);
+  }
+}
+
+/*
+  Breakout track: 10 of the 12 grid columns, centered on the 42rem reading column.
+  --grid-w is the container's content width (container max 76rem minus 2 x 2.5rem padding).
+*/
+:root {
+  --grid-w: calc(min(100vw, 76rem) - 5rem);
+  --breakout-w: calc((var(--grid-w) - 22rem) * 10 / 12 + 18rem);
+  --breakout-offset: calc((42rem - var(--breakout-w)) / 2);
+}
+
+/* Raw video embeds in posts follow the same breakout track as images. */
+.prose > video {
+  display: block;
+  width: 100%;
+  margin-block: 2rem;
+  outline: 1px solid #333;
+  outline-offset: 0;
+  @media (width >= 64rem) {
+    width: var(--breakout-w);
+    max-width: none !important;
+    margin-inline: var(--breakout-offset);
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: dark;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-primary);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+  }
 }
 
 /**
@@ -80,6 +154,18 @@
   font-weight: 300 700;
   font-display: swap;
   font-style: normal;
+}
+
+/*
+  The serif only has old-style figures (no lnum feature), so "B2B" or "Sat.1" read like letters.
+  Digits in prose come from Source Serif 4 (SIL OFL), a digits-only subset with lining figures.
+*/
+@font-face {
+  font-family: "ProseDigits";
+  src: url("/fonts/SourceSerif4-Digits.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+  unicode-range: U+0030-0039;
 }
 
 /**

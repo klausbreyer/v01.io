@@ -1,33 +1,46 @@
-<!-- entries-list.html -->
-<ul class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-  {{ range .Pages }}
-  <li class="flex flex-col overflow-hidden text-lg bg-footer">
-    <a href="{{ .Permalink }}" class="grid hover:opacity-75">
-      {{ $image := partial "image-url.html" . }}
-
-      <div class="relative aspect-video">
-        <img
-          src="{{ $image }}"
-          alt="{{ .Title }}"
-          class="object-cover w-full h-full border border-footer"
-        />
-        <time
-          datetime='{{ .Date.Format "2006-01-02" }}'
-          class="absolute px-3 py-1 text-base text-white rounded shadow-sm bg-footer top-2 right-2"
-        >
-          {{ if eq (.Date.Format "01-02") "01-01" }}
-            {{ .Date.Format "2006" }}
+{{/*
+  Bookshelf cover wall, one block per publication year.
+  Book post titles read "Title, Author[, Author], Year": tiles show the first author, then the title.
+  Covers are never cropped: they fill the column width and stand on the bottom edge of a tall box.
+  Params: "Pages".
+*/}}
+{{ range (.Pages.GroupByDate "2006") }}
+<section class="mt-24 first:mt-0">
+  <h2 class="border-b border-[#4a4a4a] pb-4 font-display text-[1.375rem] font-semibold lg:text-[1.625rem] leading-none tracking-tight text-strong tabular-nums">{{ .Key }}</h2>
+  <ul class="mt-8 grid grid-cols-2 gap-x-5 gap-y-12 overflow-hidden sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6">
+    {{ range .Pages.ByTitle }}
+    {{ $image := partial "image-url.html" . }}
+    {{ $parts := split .Title ", " }}
+    {{ $title := index $parts 0 }}
+    {{ $rest := after 1 $parts }}
+    {{ with $rest }}{{ if findRE `^\d{4}$` (index (last 1 .) 0) }}{{ $rest = first (sub (len .) 1) . }}{{ end }}{{ end }}
+    {{ $authors := "" }}
+    {{/* Several authors: "Surname et al.", so the line never wraps and titles share one top line. */}}
+    {{ with $rest }}{{ $authors = index . 0 }}{{ if gt (len .) 1 }}{{ $authors = printf "%s et al." (index (last 1 (split $authors " ")) 0) }}{{ end }}{{ end }}
+    <li>
+      <a href="{{ .Permalink }}" class="group block font-display">
+        {{/* Covers stand on a shelf: a 2:3 box, uncropped, on a hairline that runs to the container edge in every row (the list clips it). */}}
+        <div class="relative flex aspect-[2/3] items-end after:absolute after:-bottom-px after:left-0 after:-right-[100vw] after:h-px after:bg-line">
+          {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
+          {{/* No cover image: a typeset cover, never an empty frame. */}}
+          <div class="flex aspect-[2/3] w-full flex-col justify-between bg-[#1f1c1a] p-4 text-center">
+            <span class="mt-[15%] font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
+            <span class="h-px w-6 self-center bg-[#5a5450]"></span>
+            <span class="text-[0.625rem] uppercase tracking-[0.14em] text-[#c4c4c4]">{{ index (split $authors " et al.") 0 }}</span>
+          </div>
           {{ else }}
-            {{ .Date.Format "Jan 02, 2006" }}
+          <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-auto max-w-full outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
           {{ end }}
-        </time>
-      </div>
-      <div class="grid justify-between p-2">
-        <h3 class="font-bold font-display uppercase text-lg text-primary">
-          {{ .Title }}
-        </h3>
-      </div>
-    </a>
-  </li>
-  {{ end }}
-</ul>
+        </div>
+        {{/*
+          Captions hang 12px under the shelf rule. Every title reserves exactly two lines,
+          so the author line sits at the same place under every book on the site.
+        */}}
+        <h3 class="mt-3 line-clamp-2 min-h-[2lh] hyphens-auto break-words text-[1rem] font-medium leading-snug text-balance text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
+        <p class="mt-1 truncate text-sm leading-snug text-[#dcdcdc]">{{ $authors }}</p>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

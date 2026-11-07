@@ -1,27 +1,28 @@
+{{/* Mailchimp sign-up: one email field and a labelled submit button. */}}
 <div id="mc_embed_signup">
   <form
     action="https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0"
     method="post"
     id="mc-embedded-subscribe-form"
     name="mc-embedded-subscribe-form"
-    class="flex flex-wrap validate"
+    class="flex validate"
     target="_self"
   >
+    <label for="mce-EMAIL" class="sr-only">Email address</label>
     <input
       type="email"
       value=""
       name="EMAIL"
-      class="required !border-0 email grow max-w-52 text-footer font-display"
+      class="required email h-11 min-w-0 grow border border-[#5c5c5c] border-e-0 bg-bg px-3.5 font-display text-[1rem] text-strong placeholder:text-muted focus:border-primary focus:ring-0"
       id="mce-EMAIL"
       required=""
-      placeholder="yourname@example.com"
+      placeholder="you@example.com"
     />
-    <input
+    <button
       type="submit"
-      value="Subscribe"
       name="subscribe"
       id="mc-embedded-subscribe"
-      class="px-4 py-2 font-bold text-white cursor-pointer bg-primary button hover:opacity-90"
-    />
+      class="button h-11 shrink-0 cursor-pointer bg-primary-strong px-5 font-display text-[1rem] font-semibold text-white transition-opacity hover:opacity-90"
+    >Subscribe</button>
   </form>
 </div>

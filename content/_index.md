@@ -7,16 +7,4 @@ aliases:
   - /v01-fund/
 ---
 
-![That's me!](/images/klaus-breyer-a-landscape.jpg)
-
 {{% include file="content/snippets/cv.md" %}}
-
-## Welcome Guide
-
-If this is your first visit, here's a guide to what you'll find on this site:
-
-- **[Speaking](/pages/appearances/)** - Bio for Event Organizers and a summary of past talks.
-
-- **[Reading](/categories/bookshelf/)** - My virtual bookshelf, where I share summaries and insights from the books I've read.
-
-- **[Writing](/posts/)** - Explore my blog posts categorized under Business, Code, Management, Meta, Open Source, and Product.
