@@ -4,13 +4,13 @@
   Covers are never cropped: they fill the column width and stand on the bottom edge of a tall box.
   Params: "Pages".
 */}}
-<ul class="grid grid-cols-3 gap-x-4 gap-y-8 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6">
+<ul class="grid grid-cols-3 gap-x-4 gap-y-10 lg:gap-y-16 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6">
   {{ $year := "" }}
   {{ range .Pages }}
   {{ $y := .Date.Format "2006" }}
   {{ if ne $y $year }}
   {{ $year = $y }}
-  <li class="col-span-full -mb-4 border-b border-line pb-4 font-display text-[1.625rem] lg:text-[2rem] font-bold leading-none tracking-tight text-strong tabular-nums [&:not(:first-child)]:mt-4">{{ $y }}</li>
+  <li class="col-span-full -mb-4 border-b border-line pb-4 font-display text-[1.625rem] lg:text-[2rem] font-bold leading-none tracking-tight text-strong tabular-nums [&:not(:first-child)]:mt-12">{{ $y }}</li>
   {{ end }}
   {{ $image := partial "image-url.html" . }}
   {{ $parts := split .Title ", " }}
@@ -25,9 +25,9 @@
         {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
         {{/* No cover image: a typeset cover, so it reads as an edition, not a broken image. */}}
         {{/* No cover image: a typeset cover with a hairline edge and a spine strip, so it still reads as a book. */}}
-        <div class="flex aspect-[2/3] w-full flex-col items-center justify-center gap-3 border border-[#262626] bg-[#111] p-4 text-center">
+        <div class="flex aspect-[2/3] w-full flex-col items-center justify-center gap-4 bg-[#141414] p-4 text-center outline outline-1 -outline-offset-1 outline-[#3a3a3a]">
           <span class="font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
-          <span class="text-xs leading-snug text-muted text-balance">{{ index (split $authors " et al.") 0 }}</span>
+          <span class="size-1.5 rounded-full bg-primary"></span>
         </div>
         {{ else }}
         <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
