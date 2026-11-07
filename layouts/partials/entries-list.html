@@ -25,16 +25,16 @@
         {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
         {{/* No cover image: a typeset cover, so it reads as an edition, not a broken image. */}}
         {{/* No cover image: a typeset cover with a hairline edge and a spine strip, so it still reads as a book. */}}
-        <div class="flex aspect-[2/3] w-full flex-col justify-between border-s-[6px] border-s-[#3a3a3a] bg-[#262626] p-4 text-center">
-          <span class="font-serif text-base leading-tight text-strong">{{ $title }}</span>
-          <span class="text-[0.6875rem] uppercase tracking-[0.12em] text-[#cfcfcf]">{{ $authors }}</span>
+        <div class="flex aspect-[2/3] w-full flex-col items-center justify-center gap-3 border border-[#262626] bg-[#111] p-4 text-center">
+          <span class="font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
+          <span class="text-xs leading-snug text-muted text-balance">{{ index (split $authors " et al.") 0 }}</span>
         </div>
         {{ else }}
         <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
         {{ end }}
       </div>
-      <h3 class="mt-2.5 line-clamp-3 text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
-      <p class="mt-0.5 truncate text-[0.8125rem] leading-snug text-[#b5b5b5]">{{ $authors }}</p>
+      <h3 class="mt-2.5 min-h-[2lh] text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
+      <p class="mt-0.5 text-[0.8125rem] leading-snug text-[#b5b5b5]">{{ $authors }}</p>
     </a>
   </li>
   {{ end }}

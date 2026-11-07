@@ -25,6 +25,6 @@
     {{ end }}
   </ul>
   {{ with .More }}
-  <a href="{{ . }}" class="mt-4 inline-block font-display text-[0.9375rem] text-strong transition-colors hover:text-primary">{{ $.MoreLabel | default "All posts" }} &rarr;</a>
+  <a href="{{ . }}" class="group mt-5 inline-block font-display text-[0.9375rem] font-medium text-strong transition-colors hover:text-primary">{{ $.MoreLabel | default "All posts" }} <span class="text-primary">&rarr;</span></a>
   {{ end }}
 </section>
