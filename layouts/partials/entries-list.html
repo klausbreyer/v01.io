@@ -5,9 +5,9 @@
   Params: "Pages".
 */}}
 {{ range (.Pages.GroupByDate "2006") }}
-<section class="mt-10 first:mt-0">
+<section class="mt-20 first:mt-0">
   <h2 class="border-b border-line pb-4 font-display text-[1.625rem] font-bold leading-none tracking-tight text-strong tabular-nums lg:text-[2rem]">{{ .Key }}</h2>
-  <ul class="mt-5 grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-12">
+  <ul class="mt-5 grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-10">
     {{ range .Pages.ByTitle }}
     {{ $image := partial "image-url.html" . }}
     {{ $parts := split .Title ", " }}
@@ -22,9 +22,10 @@
         <div class="flex aspect-[2/3] items-end">
           {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
           {{/* No cover image: a typeset cover, never an empty frame. */}}
-          <div class="flex aspect-[2/3] w-full flex-col items-center justify-center gap-4 bg-[#141414] p-4 text-center outline outline-1 -outline-offset-1 outline-[#3a3a3a]">
-            <span class="font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
-            <span class="size-1.5 rounded-full bg-primary"></span>
+          <div class="flex aspect-[2/3] w-full flex-col justify-between bg-[#141414] p-4 text-center outline outline-1 -outline-offset-1 outline-[#3a3a3a]">
+            <span class="mt-[15%] font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
+            <span class="size-1.5 self-center rounded-full bg-primary"></span>
+            <span class="text-[0.625rem] uppercase tracking-[0.14em] text-[#c4c4c4]">{{ index (split $authors " et al.") 0 }}</span>
           </div>
           {{ else }}
           <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />

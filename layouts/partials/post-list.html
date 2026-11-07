@@ -18,7 +18,7 @@
     {{ end }}
     <li class="border-b border-line last:border-b-0">
       <a href="{{ .Permalink }}" class="group grid gap-x-4 gap-y-0.5 py-3 sm:grid-cols-[7rem_minmax(0,1fr)] sm:gap-y-1 sm:py-3.5">
-        <time class="text-sm text-muted tabular-nums sm:pt-[0.2rem] {{ if $years }}sm:pe-3 sm:text-right{{ end }}" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (cond $years "Jan 2" "Jan 2, 2006") }}</time>
+        <time class="text-sm text-muted tabular-nums sm:pt-[0.2rem]" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (cond $years "Jan 2" "Jan 2, 2006") }}</time>
         <span class="text-base font-medium leading-snug text-strong transition-colors sm:pe-6 group-hover:text-primary">{{/* Keep hyphenated words together. */}}{{ .Title | htmlEscape | replaceRE `(\S+-\S+)` `<span class="whitespace-nowrap">$1</span>` | safeHTML }}</span>
       </a>
     </li>
