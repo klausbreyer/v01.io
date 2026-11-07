@@ -17,7 +17,7 @@
       {{ end }}
       {{ range .Translations }}
       <li class="before:content-['·'] before:mx-2.5">
-        <a lang="{{.Lang}}" href="{{ .Permalink }}" class="underline-offset-4 transition-colors hover:text-strong hover:underline">{{ if eq .Lang "de" }}Auf Deutsch lesen{{ else }}Read in English{{ end }}</a>
+        <a lang="{{.Lang}}" href="{{ .Permalink }}" class="text-primary transition-colors hover:text-strong">{{ if eq .Lang "de" }}Auf Deutsch lesen{{ else }}Read in English{{ end }}</a>
       </li>
       {{ end }}
       {{ with .Params.Social }}
