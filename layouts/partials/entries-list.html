@@ -32,9 +32,14 @@
           <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
           {{ end }}
         </div>
-        {{/* Title first (two lines reserved), then the author on one line, so authors share a line across each row. */}}
-        <h3 class="mt-3 line-clamp-2 min-h-[2lh] text-[1rem] font-medium leading-snug text-balance text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
-        <p class="mt-1 truncate text-[0.8125rem] leading-snug text-[#d4d4d4]">{{ $authors }}</p>
+        {{/*
+          Title first, then the author on one line. The title block reserves two lines with the
+          title at its bottom, so each title sits on its author and authors share a line per row.
+        */}}
+        <div class="mt-3 flex min-h-[2lh] items-end text-[1rem] leading-snug">
+          <h3 class="line-clamp-2 font-medium text-balance text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
+        </div>
+        <p class="mt-1 truncate text-sm leading-snug text-[#dcdcdc]">{{ $authors }}</p>
       </a>
     </li>
     {{ end }}
