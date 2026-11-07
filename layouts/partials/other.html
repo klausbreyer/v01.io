@@ -19,6 +19,6 @@
     {{ end }}
   {{ end }}
 {{ end }}
-<div class="measure mx-auto border-t border-line pt-8">
+<div class="measure mx-auto">
   {{ partial "post-list.html" (dict "Title" $title "Pages" (first 5 $list) "More" $more "MoreLabel" $moreLabel) }}
 </div>

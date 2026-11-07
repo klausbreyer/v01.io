@@ -1,3 +1,4 @@
+{{/* Mailchimp sign-up: one email field and a compact arrow button, so the field keeps its width in narrow columns. */}}
 <div id="mc_embed_signup">
   <form
     action="https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0"
@@ -15,14 +16,15 @@
       class="required email h-11 min-w-0 grow border border-[#3f3f3f] border-e-0 bg-bg px-3.5 font-display text-sm text-strong placeholder:text-muted focus:border-primary focus:ring-0"
       id="mce-EMAIL"
       required=""
-      placeholder="Email address"
+      placeholder="you@example.com"
     />
-    <input
+    <button
       type="submit"
-      value="Subscribe"
       name="subscribe"
       id="mc-embedded-subscribe"
-      class="button h-11 shrink-0 cursor-pointer bg-primary-strong px-5 font-display text-sm font-semibold text-white transition-opacity hover:opacity-90"
-    />
+      aria-label="Subscribe"
+      title="Subscribe"
+      class="button flex h-11 w-12 shrink-0 cursor-pointer items-center justify-center bg-primary-strong font-display text-lg font-semibold text-white transition-opacity hover:opacity-90"
+    >&rarr;</button>
   </form>
 </div>
