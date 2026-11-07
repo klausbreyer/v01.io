@@ -14,14 +14,14 @@
   </a>
 
   <nav aria-label="Main" class="-ms-0 print:hidden">
-    <ul class="flex gap-x-6 text-[0.9375rem] font-medium leading-none md:gap-x-7">
+    <ul class="flex gap-x-6 text-base font-medium leading-none sm:text-[0.9375rem] md:gap-x-7">
       {{ range .Site.Menus.header }}
       {{ $active := hasPrefix $current .URL }}
       <li>
         <a
           lang="en"
           href="{{ .URL }}"
-          class="block py-3.5 sm:-my-2 sm:py-2 {{ if $active }}text-strong underline decoration-primary decoration-1 underline-offset-[7px]{{ else }}text-[#b5b5b5] hover:text-strong{{ end }} transition-colors"
+          class="block py-3.5 sm:-my-2 sm:py-2 {{ if $active }}text-strong underline decoration-primary decoration-1 underline-offset-[7px]{{ else }}text-[#cfcfcf] hover:text-strong sm:text-[#b5b5b5]{{ end }} transition-colors"
           {{ if $active }}aria-current="page"{{ end }}
         >{{ .Name }}</a>
       </li>
