@@ -82,8 +82,8 @@
   display: block;
   width: 100%;
   margin-block: 2rem;
-  outline: 1px solid rgb(255 255 255 / 0.1);
-  outline-offset: -1px;
+  outline: 1px solid #333;
+  outline-offset: 0;
   @media (width >= 64rem) {
     width: var(--breakout-w);
     max-width: none !important;
