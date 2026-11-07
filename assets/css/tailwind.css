@@ -94,6 +94,8 @@
 @layer base {
   html {
     color-scheme: dark;
+    /* Lining figures everywhere, so "B2B" and numbers sit on the baseline in the serif too. */
+    font-variant-numeric: lining-nums;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
