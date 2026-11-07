@@ -10,7 +10,7 @@
   <span class="font-display text-[0.9375rem] text-muted tabular-nums">{{ . }}</span>
   {{ else }}
   {{ range $page.Translations }}
-  <a lang="{{ .Lang }}" href="{{ .Permalink }}" class="font-display text-[0.9375rem] text-[#bdbdbd] transition-colors hover:text-strong">{{ .Title }} &rarr;</a>
+  <a lang="{{ .Lang }}" href="{{ .Permalink }}" class="font-display text-[0.9375rem] text-[#bdbdbd] transition-colors hover:text-strong">{{ .Title }} <span class="text-primary">&rarr;</span></a>
   {{ end }}
   {{ end }}
 </header>
