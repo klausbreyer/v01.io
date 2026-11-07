@@ -5,9 +5,9 @@
   Params: "Pages".
 */}}
 {{ range (.Pages.GroupByDate "2006") }}
-<section class="mt-14 first:mt-0">
+<section class="mt-10 first:mt-0">
   <h2 class="border-b border-line pb-4 font-display text-[1.625rem] font-bold leading-none tracking-tight text-strong tabular-nums lg:text-[2rem]">{{ .Key }}</h2>
-  <ul class="mt-6 grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-14">
+  <ul class="mt-5 grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-12">
     {{ range .Pages.ByTitle }}
     {{ $image := partial "image-url.html" . }}
     {{ $parts := split .Title ", " }}
@@ -31,7 +31,7 @@
           {{ end }}
         </div>
         {{/* Author first, one line, so author lines and title tops align across a row. */}}
-        <p class="mt-2.5 truncate text-[0.8125rem] leading-snug text-[#c4c4c4]">{{ $authors }}</p>
+        <p class="mt-2.5 truncate text-[0.8125rem] leading-snug text-[#d0d0d0]">{{ $authors }}</p>
         <h3 class="mt-0.5 text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
       </a>
     </li>
