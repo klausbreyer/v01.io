@@ -9,7 +9,7 @@
   <div class="lg:col-span-8">
     {{ partial "post-list.html" (dict "Pages" .Pages "Years" true) }}
   </div>
-  <aside class="sticky top-8 hidden lg:col-span-3 lg:col-start-10 lg:block">
-    {{ partial "category-list.html" (dict "Page" .Page "Active" .Active "Big" true) }}
+  <aside class="sticky top-8 hidden lg:col-span-3 lg:col-start-10 lg:block lg:pt-[0.375rem]">
+    {{ partial "category-list.html" (dict "Page" .Page "Active" .Active) }}
   </aside>
 </div>
