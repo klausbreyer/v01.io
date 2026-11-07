@@ -29,7 +29,7 @@
             <span class="text-[0.625rem] uppercase tracking-[0.14em] text-[#c4c4c4]">{{ index (split $authors " et al.") 0 }}</span>
           </div>
           {{ else }}
-          <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
+          <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-auto max-w-full outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
           {{ end }}
         </div>
         {{/*
