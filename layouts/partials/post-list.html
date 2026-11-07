@@ -17,7 +17,7 @@
     <li class="border-b border-line pb-4 pt-14 first:pt-0 text-[1.375rem] font-semibold lg:text-[1.625rem] leading-none tracking-tight text-strong tabular-nums">{{ $y }}</li>
     {{ end }}
     <li class="border-b border-line">
-      <a href="{{ .Permalink }}" class="group grid gap-x-4 gap-y-2 py-2.5 sm:grid-cols-[7rem_minmax(0,1fr)] sm:gap-y-1 sm:py-3.5">
+      <a href="{{ .Permalink }}" class="group grid gap-x-4 gap-y-1.5 py-3.5 sm:grid-cols-[7rem_minmax(0,1fr)] sm:gap-y-1 sm:py-3.5">
         <time class="text-sm text-muted tabular-nums sm:pt-[0.2rem]" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (cond $years "Jan 2" "Jan 2, 2006") }}</time>
         <span class="text-base font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{/* Keep hyphenated words together. */}}{{ .Title | htmlEscape | replaceRE `(\S+-\S+)` `<span class="whitespace-nowrap">$1</span>` | safeHTML }}</span>
       </a>
