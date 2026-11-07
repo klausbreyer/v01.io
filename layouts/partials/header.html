@@ -1,23 +1,27 @@
-{{/* Site header: name on the left, primary navigation on the right. The current section is white. */}}
+{{/*
+  Site header. Desktop: name left, navigation right on one line.
+  Phones: name on its own row, navigation below with full-height tap targets.
+  The current section is white with a rose underline.
+*/}}
 {{ $current := .RelPermalink }}
-<header class="container-site flex items-baseline justify-between gap-x-4 py-5 md:py-8 font-display print:px-0 print:py-0">
+<header class="container-site flex flex-col gap-y-1 pt-5 pb-1 font-display sm:flex-row sm:items-baseline sm:justify-between sm:gap-x-6 sm:py-8 print:px-0 print:py-0">
   <a
     lang="en"
     href="/"
-    class="shrink-0 text-[0.9375rem] font-bold tracking-tight min-[400px]:text-base sm:text-lg text-strong leading-none hover:text-primary transition-colors print:text-black"
+    class="shrink-0 text-lg font-bold leading-none tracking-tight text-strong transition-colors hover:text-primary print:text-black"
   >
     Klaus Breyer<span class="text-primary">.</span>
   </a>
 
-  <nav aria-label="Main" class="print:hidden">
-    <ul class="-my-3 flex shrink-0 gap-x-2.5 font-medium text-sm leading-none min-[400px]:gap-x-4 min-[400px]:text-[0.9375rem] sm:gap-x-5 md:-my-2 md:gap-x-7">
+  <nav aria-label="Main" class="-ms-0 print:hidden">
+    <ul class="flex gap-x-6 text-[0.9375rem] font-medium leading-none md:gap-x-7">
       {{ range .Site.Menus.header }}
       {{ $active := hasPrefix $current .URL }}
       <li>
         <a
           lang="en"
           href="{{ .URL }}"
-          class="block py-3 md:py-2 {{ if $active }}text-strong underline decoration-primary decoration-1 underline-offset-[7px]{{ else }}text-[#b5b5b5] hover:text-strong{{ end }} transition-colors"
+          class="block py-3.5 sm:-my-2 sm:py-2 {{ if $active }}text-strong underline decoration-primary decoration-1 underline-offset-[7px]{{ else }}text-[#b5b5b5] hover:text-strong{{ end }} transition-colors"
           {{ if $active }}aria-current="page"{{ end }}
         >{{ .Name }}</a>
       </li>
