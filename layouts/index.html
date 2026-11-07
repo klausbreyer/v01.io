@@ -8,11 +8,11 @@
 {{ $posts := partial "visible-posts.html" .Site.RegularPages }}
 <div class="container-site">
   <div class="grid items-stretch gap-x-8 lg:grid-cols-12">
-    <div class="lg:col-span-8">
-      <h1 class="measure font-display text-[1.875rem] font-bold leading-[1.1] tracking-tight text-strong text-balance sm:text-3xl sm:leading-[1.08]">
+    <div class="lg:col-span-7">
+      <h1 class="font-display text-[1.875rem] font-bold leading-[1.1] tracking-tight text-strong text-balance sm:text-3xl sm:leading-[1.08]">
         B2B SaaS product and tech leadership.
       </h1>
-      <div class='{{partial "prose.html"}} home-bio measure mt-6 sm:mt-8 [&>p:last-child]:mb-0 {{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}'>
+      <div class='{{partial "prose.html"}} home-bio mt-6 sm:mt-8 [&>p:last-child]:mb-0 {{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}'>
         {{/*
           Home shows the CV snippet's intro only: the skills list stays on the CV page,
           and the closing tagline lives in the footer.

@@ -1,14 +1,13 @@
 {{/*
   Site footer: newsletter sign-up and a quiet link row.
+  The sign-up is one stacked block everywhere (heading, sentence, form):
+  in the reading column on single pages, on the container's left edge elsewhere.
   Lists above end on their own closing rule, so the sign-up is separated by space only.
-  On single pages the sign-up stays in the reading column, stacked;
-  elsewhere it spans the grid with the sentence left and the form right.
 */}}
 {{ $single := .IsPage }}
 {{ $h := "font-display text-[1.375rem] font-semibold leading-none tracking-tight text-strong lg:text-[1.625rem]" }}
 <div class="container-site">
-  {{ if $single }}
-  <section class="measure mx-auto pt-4">
+  <section class="{{ if $single }}measure mx-auto pt-4{{ else }}pt-6 md:pt-8{{ end }}">
     <h2 class="{{ $h }}">Newsletter</h2>
     <p class="mt-3 text-base leading-relaxed">Get new posts on product and tech leadership by email.</p>
     <div class="mt-5 max-w-[22.5rem]">
@@ -16,20 +15,8 @@
       <p class="mt-2.5 font-display text-[0.8125rem] text-muted">Sent via Mailchimp. Never shared.</p>
     </div>
   </section>
-  {{ else }}
-  <section class="grid gap-x-8 gap-y-5 pt-6 md:pt-8 lg:grid-cols-12 lg:items-start">
-    <div class="lg:col-span-7">
-      <h2 class="{{ $h }}">Newsletter</h2>
-      <p class="mt-3 text-base leading-relaxed">Get new posts on product and tech leadership by email.</p>
-    </div>
-    <div class="max-w-[22.5rem] lg:col-span-3 lg:col-start-10 lg:mt-1">
-      {{ partial "newsletter.html" }}
-      <p class="mt-2.5 font-display text-[0.8125rem] text-muted">Sent via Mailchimp. Never shared.</p>
-    </div>
-  </section>
-  {{ end }}
 
-  <div class="mt-10 md:mt-14 flex flex-wrap items-center gap-x-6 gap-y-1 border-t border-line py-8 [&>a]:py-3 sm:gap-y-3 sm:[&>a]:py-0 font-display text-sm text-muted">
+  <div class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-1 border-t border-line py-8 font-display text-sm text-muted md:mt-14 [&>a]:py-3 sm:gap-y-3 sm:[&>a]:py-0">
     <span class="w-full sm:me-auto sm:w-auto">&copy; {{ now.Year }} {{ .Site.Copyright }}. Move fast and break silos.</span>
     <a href="mailto:kb@v01.io?subject=v01.io" class="text-[#b5b5b5] transition-colors hover:text-strong">Email</a>
     <a href="https://www.linkedin.com/in/klaus-breyer/" target="_blank" rel="noopener" class="text-[#b5b5b5] transition-colors hover:text-strong">LinkedIn</a>
