@@ -31,7 +31,7 @@
 
   <div class="mt-8 grid items-start gap-x-8 gap-y-10 lg:mt-20 lg:grid-cols-12">
     <div class="lg:col-span-8">
-      {{ partial "post-list.html" (dict "Title" "Latest posts" "Pages" (first 9 $posts) "More" "/posts/") }}
+      {{ partial "post-list.html" (dict "Title" "Latest posts" "Pages" (first 10 $posts) "More" "/posts/") }}
     </div>
     <div class="lg:col-span-3 lg:col-start-10">{{ partial "category-list.html" . }}</div>
   </div>

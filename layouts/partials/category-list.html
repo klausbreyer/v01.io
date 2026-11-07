@@ -15,7 +15,7 @@
     {{ if ne (lower .Page.Title) "bookshelf" }}
     {{ $is := eq .Page.Title $active }}
     <li class="border-t border-line">
-      <a href="{{ .Page.Permalink }}" class="group flex items-baseline justify-between gap-4 py-2.5 {{ if $big }}lg:py-2.5{{ else }}lg:py-[0.95rem]{{ end }}" {{ if $is }}aria-current="page"{{ end }}>
+      <a href="{{ .Page.Permalink }}" class="group flex items-baseline justify-between gap-4 py-2.5 {{ if $big }}lg:py-2.5{{ else }}lg:py-[0.93rem]{{ end }}" {{ if $is }}aria-current="page"{{ end }}>
         <span class="{{ if $is }}text-primary{{ else }}text-text group-hover:text-primary{{ end }} transition-colors">{{ .Page.Title }}</span>
         <span class="text-sm text-muted tabular-nums">{{ .Count }}</span>
       </a>
