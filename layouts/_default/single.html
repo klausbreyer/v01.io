@@ -2,32 +2,32 @@
 
 <article class='{{.File.Dir }} {{.File.BaseFileName}} container-site print:px-0'>
   <header class="measure mx-auto">
-    <h1 class="font-display text-[1.875rem] font-bold leading-[1.1] tracking-tight text-strong text-balance sm:text-3xl sm:leading-[1.08] print:text-black">{{ .Title }}</h1>
+    <h1 class="font-display text-4xl font-bold leading-none text-strong text-balance print:text-black">{{ .Title }}</h1>
 
     {{/* One quiet meta line for posts: date, category, translation, discussion. Pages (CV, imprint) have none. */}}
     {{ if eq .Type "posts" }}
     <ul class="mt-5 flex flex-wrap items-baseline gap-y-1 font-display text-base text-[#b3b3b3] print:hidden">
-      <li>
+      <li class="after:mx-2.5 after:content-['·'] last:after:content-none">
         <time class="tabular-nums" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "January 2, 2006" }}</time>
       </li>
       {{ range (.GetTerms "categories") }}
-      <li class="flex items-baseline before:mx-2.5 before:content-['·']">
+      <li class="flex items-baseline after:mx-2.5 after:content-['·'] last:after:content-none">
         <a lang="{{.Lang}}" href="{{ .Permalink }}" class="text-primary transition-colors hover:text-strong">{{ .LinkTitle }}</a>
       </li>
       {{ end }}
       {{ range .Translations }}
-      <li class="flex items-baseline before:mx-2.5 before:content-['·']">
-        <a lang="{{.Lang}}" href="{{ .Permalink }}" class="transition-colors hover:text-primary">{{ if eq .Lang "de" }}Auf Deutsch lesen{{ else }}Read in English{{ end }}</a>
+      <li class="flex items-baseline after:mx-2.5 after:content-['·'] last:after:content-none">
+        <a lang="{{.Lang}}" href="{{ .Permalink }}" class="text-primary transition-colors hover:text-strong">{{ if eq .Lang "de" }}Auf Deutsch lesen{{ else }}Read in English{{ end }}</a>
       </li>
       {{ end }}
       {{ with .Params.Social }}
-      <li class="flex items-baseline before:mx-2.5 before:content-['·']">
+      <li class="flex items-baseline after:mx-2.5 after:content-['·'] last:after:content-none">
         <a href="{{ . }}" target="_blank" rel="noopener" class="text-primary transition-colors hover:text-strong">Discuss on LinkedIn</a>
       </li>
       {{ end }}
       {{ range (.GetTerms "tags") }}
-      <li class="flex items-baseline before:mx-2.5 before:content-['·']">
-        <a href="{{ .Permalink }}" class="hover:text-strong transition-colors">#{{ .LinkTitle }}</a>
+      <li class="flex items-baseline after:mx-2.5 after:content-['·'] last:after:content-none">
+        <a href="{{ .Permalink }}" class="text-primary transition-colors hover:text-strong">#{{ .LinkTitle }}</a>
       </li>
       {{ end }}
     </ul>
@@ -53,9 +53,9 @@
   </div>
   {{ end }}
 
-  <p class="measure mx-auto mt-12 font-display text-sm text-muted print:hidden">
+  <p class="measure mx-auto mt-12 font-display text-[0.9375rem] font-medium text-muted print:hidden">
     Found a typo?
-    <a target="_blank" rel="noopener" class="text-strong transition-colors hover:text-primary" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">Suggest an edit on GitHub <span class="text-primary">&rarr;</span></a>
+    <a target="_blank" rel="noopener" class="text-primary transition-colors hover:text-strong" href="{{.Site.Params.Repo}}{{.File.Dir}}{{.File.BaseFileName}}.{{.File.Ext}}">Suggest an edit on GitHub <span class="text-primary">&rarr;</span></a>
   </p>
 </article>
 {{ end }}

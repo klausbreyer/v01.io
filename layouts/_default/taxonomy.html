@@ -9,10 +9,10 @@
   {{ partial "page-title.html" (dict "Page" . "Aside" (printf "%d books" (len $books))) }}
   <div class="mt-12">{{ partial "entries-list.html" (dict "Pages" $books) }}</div>
   {{ else if eq .Kind "term" }}
-  {{ partial "list-layout.html" (dict "Page" . "Pages" .Pages "All" ("/posts/" | relLangURL) "Active" .Title) }}
+  {{ partial "list-layout.html" (dict "Page" . "Pages" .Pages "Active" .Title) }}
   {{ else }}
   {{ partial "page-title.html" . }}
-  <div class="mt-12 lg:w-1/3">{{ partial "category-list.html" . }}</div>
+  <div class="mt-12 lg:w-1/3">{{ partial "category-list.html" (dict "Page" . "Title" false) }}</div>
   {{ end }}
 </div>
 {{ end }}

@@ -1,27 +1,28 @@
 {{/*
-  Site header. Desktop: name left, navigation right on one line.
+  Site header, loud on purpose: name and navigation in bold uppercase rose.
+  Desktop: name left, navigation right on one baseline.
   Phones: name on its own row, navigation below with full-height tap targets.
-  The current section is white with a rose underline.
+  The current section turns white.
 */}}
 {{ $current := .RelPermalink }}
-<header class="container-site flex flex-col gap-y-1 pt-5 pb-1 font-display sm:flex-row sm:items-baseline sm:justify-between sm:gap-x-6 sm:py-8 print:px-0 print:py-0">
+<header class="container-site flex flex-col gap-y-1 pt-6 font-display font-bold uppercase leading-none sm:flex-row sm:flex-wrap sm:items-baseline sm:justify-between sm:gap-x-6 sm:pt-7 print:px-0 print:py-0">
   <a
     lang="en"
     href="/"
-    class="shrink-0 text-lg font-bold leading-none tracking-tight text-strong transition-colors hover:text-primary print:text-black"
+    class="shrink-0 text-4xl text-primary transition-colors hover:text-strong print:text-black"
   >
-    Klaus Breyer<span class="text-primary">.</span>
+    Klaus Breyer
   </a>
 
-  <nav aria-label="Main" class="-ms-0 print:hidden">
-    <ul class="flex gap-x-6 text-base font-medium leading-none sm:text-[0.9375rem] md:gap-x-7">
+  <nav aria-label="Main" class="print:hidden">
+    <ul class="flex flex-wrap gap-x-3 text-xl sm:gap-x-4">
       {{ range .Site.Menus.header }}
       {{ $active := hasPrefix $current .URL }}
       <li>
         <a
           lang="en"
           href="{{ .URL }}"
-          class="block py-3.5 sm:-my-2 sm:py-2 {{ if $active }}text-strong underline decoration-primary decoration-1 underline-offset-[7px]{{ else }}text-[#cfcfcf] hover:text-strong sm:text-[#b5b5b5]{{ end }} transition-colors"
+          class="block py-3 sm:py-1 {{ if $active }}text-strong{{ else }}text-primary hover:text-strong{{ end }} transition-colors"
           {{ if $active }}aria-current="page"{{ end }}
         >{{ .Name }}</a>
       </li>

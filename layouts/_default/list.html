@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container-site">
   {{ if eq .Section "posts" }}
-  {{ partial "list-layout.html" (dict "Page" . "Pages" (partial "visible-posts.html" .Pages) "All" .RelPermalink "Active" "") }}
+  {{ partial "list-layout.html" (dict "Page" . "Pages" (partial "visible-posts.html" .Pages) "Active" "") }}
   {{ else }}
   {{ partial "page-title.html" . }}
   {{ if trim (plainify .Content) " \n" }}

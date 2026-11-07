@@ -11,16 +11,14 @@
   --color-strong: #fff;
   --color-text: #ececec;
   --color-muted: #b8b8b8;
-  /* Brand accent: links, logo, focus and active states only. */
-  --color-primary: #ff5a78;
-  /* Filled buttons: darker so white text passes AA. */
-  --color-primary-strong: #e11d48;
+  /* Brand accent, loud on purpose: every link, the header, buttons and focus. Hover and active states turn white. */
+  --color-primary: #e11d48;
   --color-dark: var(--color-rose-900);
   /* Legacy names still referenced by older markup. */
   --color-footer: var(--color-surface);
   --color-footer2: #1c1c1c;
 
-  --font-display: "SpaceGrotesk-Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Rajdhani-Variable", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "ProseDigits", "BespokeSerif-Variable", ui-serif, Georgia, serif;
   --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
 

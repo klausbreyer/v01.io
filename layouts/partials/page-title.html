@@ -5,12 +5,12 @@
 {{ $page := . }}{{ $aside := "" }}
 {{ if reflect.IsMap . }}{{ $page = .Page }}{{ $aside = .Aside }}{{ end }}
 <header class="flex flex-wrap items-baseline justify-between gap-x-8 gap-y-2">
-  <h1 class="font-display text-3xl font-bold leading-[1.08] tracking-tight text-strong">{{ $page.Title }}</h1>
+  <h1 class="font-display text-4xl font-bold leading-none text-strong">{{ $page.Title }}</h1>
   {{ with $aside }}
-  <span class="font-display text-[0.9375rem] text-muted tabular-nums">{{ . }}</span>
+  <span class="font-display text-base font-medium text-muted tabular-nums">{{ . }}</span>
   {{ else }}
   {{ range $page.Translations }}
-  <a lang="{{ .Lang }}" href="{{ .Permalink }}" class="font-display text-[0.9375rem] text-[#bdbdbd] transition-colors hover:text-strong">{{ .Title }} <span class="text-primary">&rarr;</span></a>
+  <a lang="{{ .Lang }}" href="{{ .Permalink }}" class="font-display text-base font-medium text-primary transition-colors hover:text-strong">{{ .Title }} <span class="text-primary">&rarr;</span></a>
   {{ end }}
   {{ end }}
 </header>
