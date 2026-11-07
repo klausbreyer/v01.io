@@ -158,15 +158,14 @@
 
 /*
   The serif only has old-style figures (no lnum feature), so "B2B" or "Sat.1" read like letters.
-  Digits in prose come from Space Grotesk instead, scaled to sit with the serif's lowercase.
+  Digits in prose come from Source Serif 4 (SIL OFL), a digits-only subset with lining figures.
 */
 @font-face {
   font-family: "ProseDigits";
-  src: url("/fonts/SpaceGrotesk-Variable.woff2") format("woff2");
+  src: url("/fonts/SourceSerif4-Digits.woff2") format("woff2");
   font-weight: 300 700;
   font-display: swap;
   unicode-range: U+0030-0039;
-  size-adjust: 92%;
 }
 
 /**
