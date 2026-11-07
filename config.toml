@@ -40,18 +40,13 @@ defaultContentLanguage = 'en'
 
 
 [[menu.header]]
-  name = 'Start'
-  url = '/'
-  weight = 1
-
-[[menu.header]]
   name = 'Blog'
   url = '/posts/'
   weight = 2
 
 [[menu.header]]
   name = 'CV'
-  url = '/pages/services/'
+  url = '/pages/cv/'
   weight = 5
 
 [[menu.header]]
@@ -62,7 +57,7 @@ defaultContentLanguage = 'en'
 
 [[menu.header]]
   name = 'Speaking'
-  url = '/pages/appearances/'
+  url = '/pages/speaking/'
   weight = 50
 
 

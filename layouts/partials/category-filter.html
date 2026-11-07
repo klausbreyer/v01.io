@@ -1,0 +1,18 @@
+{{/*
+  Filter row shared by the blog index and category pages. Scrolls sideways instead of wrapping.
+  Params: "Page" (context), "All" (URL of the unfiltered list), "Active" (current category title or "").
+*/}}
+{{ $active := .Active }}
+{{ $on := "text-strong underline decoration-primary decoration-2 underline-offset-[7px]" }}
+{{ $off := "text-muted transition-colors hover:text-strong" }}
+<nav aria-label="Categories" class="-mx-5 mt-8 overflow-x-auto px-5 [scrollbar-width:none] md:mx-0 md:px-0">
+  <div class="flex w-max gap-x-5 whitespace-nowrap pb-2 font-display text-[0.9375rem]">
+    <a href="{{ .All }}" class="{{ if not $active }}{{ $on }}{{ else }}{{ $off }}{{ end }}" {{ if not $active }}aria-current="page"{{ end }}>All</a>
+    {{ range .Page.Site.Taxonomies.categories.Alphabetical }}
+    {{ if ne (lower .Page.Title) "bookshelf" }}
+    {{ $is := eq .Page.Title $active }}
+    <a href="{{ .Page.Permalink }}" class="{{ if $is }}{{ $on }}{{ else }}{{ $off }}{{ end }}" {{ if $is }}aria-current="page"{{ end }}>{{ .Page.Title }}</a>
+    {{ end }}
+    {{ end }}
+  </div>
+</nav>

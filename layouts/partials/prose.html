@@ -1,18 +1,17 @@
-
-{{/* https://tailwindcss.com/docs/typography-plugin */}} max-w-none prose
-text-base prose-invert prose-headings:text-text print:prose-headings:text-bg
-prose-headings:font-display prose-h2:text-2xl prose-headings:font-normal
-prose-headings:mb-0 prose-headings:mt-6 prose-h1:mt-0 
-
-print:prose-em:text-white prose-p:text-text prose-p:my-2 print:prose-p:text-bg
-prose-p:font-light prose-ol:my-1.5 prose-ol:text-text print:prose-ol:text-bg
-prose-ul:my-1.5 prose-ul:text-text print:prose-ul:text-bg prose-li:text-text
-print:prose-li:text-bg prose-li:font-light prose-strong:text-text prose-li:my-0.5
-print:prose-strong:text-bg prose-strong:font-semibold prose-code:font-normal
-prose-code:bg-footer2 prose-a:text-primary prose-a:no-underline
-hover:prose-a:underline prose-a:font-light prose-img:my-0 prose-img:border
-prose-img:border-text marker:text-text print:marker:text-bg
-
-pose-blockquote:bg-footer prose-blockquote:my-0 prose-blockquote:py-0
-
-prose-hr:border-1 prose-hr:border-text prose-hr:my-8
+{{/* Shared typography for rendered Markdown. https://tailwindcss.com/docs/typography-plugin */}} max-w-none prose prose-invert text-[0.96875rem] sm:text-base text-text leading-[1.65]
+prose-headings:font-display prose-headings:text-strong prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-balance
+prose-h1:text-2xl prose-h1:mt-0 prose-h1:mb-4
+prose-h2:text-[clamp(1.5rem,1.2rem+0.8vw,2rem)] prose-h2:leading-tight prose-h2:mt-11 md:prose-h2:mt-14 prose-h2:mb-4
+prose-h3:text-[1.25rem] prose-h3:font-semibold prose-h3:leading-snug prose-h3:mt-10 prose-h3:mb-3
+prose-h4:text-base prose-h4:mt-8 prose-h4:mb-2
+prose-p:text-text prose-p:my-5
+prose-ul:my-5 prose-ol:my-5 prose-li:text-text prose-li:my-1.5 prose-li:ps-1 marker:text-muted
+prose-strong:text-strong prose-strong:font-semibold prose-em:text-text
+prose-a:text-primary prose-a:font-normal prose-a:underline prose-a:decoration-primary/40 prose-a:decoration-1 prose-a:underline-offset-[0.2em] hover:prose-a:decoration-primary
+prose-code:font-mono prose-code:text-[0.85em] prose-code:font-normal prose-code:text-strong prose-code:bg-footer2 prose-code:rounded-sm prose-code:px-[0.3em] prose-code:py-[0.1em] prose-code:before:content-none prose-code:after:content-none
+prose-pre:bg-surface prose-pre:border prose-pre:border-line prose-pre:rounded-none prose-pre:text-[0.8em] prose-pre:leading-relaxed
+prose-img:my-0 prose-img:mx-auto prose-img:outline prose-img:outline-1 prose-img:-outline-offset-1 prose-img:outline-white/10
+prose-blockquote:border-s-2 prose-blockquote:border-primary prose-blockquote:ps-5 prose-blockquote:text-text prose-blockquote:font-normal prose-blockquote:not-italic prose-blockquote:my-8
+prose-hr:border-line prose-hr:my-14
+prose-table:text-[0.85em] prose-table:font-display prose-thead:border-line prose-tr:border-line prose-th:text-strong prose-td:text-text prose-td:align-top prose-td:py-2.5
+print:prose-headings:text-black print:prose-p:text-black print:prose-li:text-black print:prose-strong:text-black print:prose-td:text-black print:marker:text-black

@@ -1,32 +1,38 @@
-<!-- entries-list.html -->
-<ul class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+{{/*
+  Bookshelf cover wall, grouped by publication year like the blog list.
+  Book post titles read "Title, Author[, Author], Year": tiles show the title and the authors.
+  Covers are never cropped: they fill the column width and stand on the bottom edge of a tall box.
+  Params: "Pages".
+*/}}
+<ul class="grid grid-cols-3 gap-x-4 gap-y-8 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 xl:grid-cols-7">
+  {{ $year := "" }}
   {{ range .Pages }}
-  <li class="flex flex-col overflow-hidden text-lg bg-footer">
-    <a href="{{ .Permalink }}" class="grid hover:opacity-75">
-      {{ $image := partial "image-url.html" . }}
-
-      <div class="relative aspect-video">
-        <img
-          src="{{ $image }}"
-          alt="{{ .Title }}"
-          class="object-cover w-full h-full border border-footer"
-        />
-        <time
-          datetime='{{ .Date.Format "2006-01-02" }}'
-          class="absolute px-3 py-1 text-base text-white rounded shadow-sm bg-footer top-2 right-2"
-        >
-          {{ if eq (.Date.Format "01-02") "01-01" }}
-            {{ .Date.Format "2006" }}
-          {{ else }}
-            {{ .Date.Format "Jan 02, 2006" }}
-          {{ end }}
-        </time>
+  {{ $y := .Date.Format "2006" }}
+  {{ if ne $y $year }}
+  {{ $year = $y }}
+  <li class="col-span-full -mb-4 border-b border-line pb-4 font-display text-[1.625rem] lg:text-[2rem] font-bold leading-none tracking-tight text-strong tabular-nums [&:not(:first-child)]:mt-10">{{ $y }}</li>
+  {{ end }}
+  {{ $image := partial "image-url.html" . }}
+  {{ $parts := split .Title ", " }}
+  {{ $title := index $parts 0 }}
+  {{ $rest := after 1 $parts }}
+  {{ with $rest }}{{ if findRE `^\d{4}$` (index (last 1 .) 0) }}{{ $rest = first (sub (len .) 1) . }}{{ end }}{{ end }}
+  {{ $authors := delimit ($rest | default slice) ", " }}
+  <li>
+    <a href="{{ .Permalink }}" class="group block font-display">
+      <div class="flex aspect-[1/1.6] items-end justify-start">
+        {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
+        {{/* No cover image: a typeset cover, so it reads as an edition, not a broken image. */}}
+        {{/* No cover image: a typeset cover with a hairline edge and a spine strip, so it still reads as a book. */}}
+        <div class="flex aspect-[2/3] w-full border-s-[6px] border-s-[#2a2a2a] bg-[#1c1c1c] p-3.5 outline outline-1 -outline-offset-1 outline-white/15">
+          <span class="font-serif text-sm leading-tight text-strong">{{ $title }}</span>
+        </div>
+        {{ else }}
+        <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
+        {{ end }}
       </div>
-      <div class="grid justify-between p-2">
-        <h3 class="font-bold font-display uppercase text-lg text-primary">
-          {{ .Title }}
-        </h3>
-      </div>
+      <h3 class="mt-2.5 line-clamp-2 text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
+      <p class="mt-0.5 truncate text-[0.8125rem] leading-snug text-[#b5b5b5]">{{ $authors }}</p>
     </a>
   </li>
   {{ end }}

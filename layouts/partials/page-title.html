@@ -1,0 +1,16 @@
+{{/*
+  List page heading with an aside on the H1 baseline: the translation link, or a count.
+  Accepts the page context, or a dict with "Page" and "Aside" (text shown instead of the translation link).
+*/}}
+{{ $page := . }}{{ $aside := "" }}
+{{ if reflect.IsMap . }}{{ $page = .Page }}{{ $aside = .Aside }}{{ end }}
+<header class="flex flex-wrap items-baseline justify-between gap-x-8 gap-y-2">
+  <h1 class="font-display text-3xl font-bold leading-[1.08] tracking-tight text-strong">{{ $page.Title }}</h1>
+  {{ with $aside }}
+  <span class="font-display text-[0.9375rem] text-muted tabular-nums">{{ . }}</span>
+  {{ else }}
+  {{ range $page.Translations }}
+  <a lang="{{ .Lang }}" href="{{ .Permalink }}" class="font-display text-[0.9375rem] text-[#bdbdbd] transition-colors hover:text-strong">{{ .Title }} &rarr;</a>
+  {{ end }}
+  {{ end }}
+</header>

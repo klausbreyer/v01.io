@@ -4,24 +4,25 @@
     method="post"
     id="mc-embedded-subscribe-form"
     name="mc-embedded-subscribe-form"
-    class="flex flex-wrap validate"
+    class="flex validate"
     target="_self"
   >
+    <label for="mce-EMAIL" class="sr-only">Email address</label>
     <input
       type="email"
       value=""
       name="EMAIL"
-      class="required !border-0 email grow max-w-52 text-footer font-display"
+      class="required email h-11 min-w-0 grow border border-[#3f3f3f] border-e-0 bg-bg px-3.5 font-display text-sm text-strong placeholder:text-muted focus:border-primary focus:ring-0"
       id="mce-EMAIL"
       required=""
-      placeholder="yourname@example.com"
+      placeholder="you@example.com"
     />
     <input
       type="submit"
       value="Subscribe"
       name="subscribe"
       id="mc-embedded-subscribe"
-      class="px-4 py-2 font-bold text-white cursor-pointer bg-primary button hover:opacity-90"
+      class="button h-11 shrink-0 cursor-pointer bg-primary-strong px-5 font-display text-sm font-semibold text-white transition-opacity hover:opacity-90"
     />
   </form>
 </div>

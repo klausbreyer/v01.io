@@ -1,0 +1,30 @@
+{{/*
+  The site's one list pattern: hairline rows with a date gutter and the title.
+  On phones the date sits above the title.
+  Params: "Title" (heading, optional), "Pages", "More" (URL for a closing link, optional),
+          "MoreLabel" (text of that link, default "All posts"),
+          "Years" (bool: a year row starts each year and the dates drop the year).
+*/}}
+{{ $years := .Years }}
+{{ $year := "" }}
+<section>
+  {{ with .Title }}<h2 class="font-display text-[1.375rem] lg:text-[1.625rem] font-semibold leading-none tracking-tight text-strong">{{ . }}</h2>{{ end }}
+  <ul class="{{ if .Title }}mt-4{{ end }} {{ if not $years }}border-t border-line{{ end }} font-display">
+    {{ range .Pages }}
+    {{ $y := .Date.Format "2006" }}
+    {{ if and $years (ne $y $year) }}
+    {{ $year = $y }}
+    <li class="border-b border-line pb-4 pt-16 first:pt-0 text-[1.625rem] lg:text-[2rem] font-bold leading-none tracking-tight text-strong tabular-nums">{{ $y }}</li>
+    {{ end }}
+    <li class="border-b border-line last:border-b-0">
+      <a href="{{ .Permalink }}" class="group grid gap-x-4 gap-y-0.5 py-3 {{ if $years }}sm:grid-cols-[4.5rem_minmax(0,1fr)]{{ else }}sm:grid-cols-[7rem_minmax(0,1fr)]{{ end }} sm:gap-y-1 sm:py-3.5">
+        <time class="text-sm text-muted tabular-nums sm:pt-0.5" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (cond $years "Jan 2" "Jan 2, 2006") }}</time>
+        <span class="text-base font-medium leading-snug text-strong transition-colors sm:pe-6 group-hover:text-primary">{{ .Title }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ with .More }}
+  <a href="{{ . }}" class="mt-4 inline-block font-display text-[0.9375rem] text-strong transition-colors hover:text-primary">{{ $.MoreLabel | default "All posts" }} &rarr;</a>
+  {{ end }}
+</section>

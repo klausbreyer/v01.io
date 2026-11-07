@@ -1,31 +1,27 @@
-{{$section_heading := .Site.GetPage "section" .Section }}
-
-<header
-  class="flex leading-none items-baseline flex-wrap gap-3 font-display font-bold uppercase max-w-screen-2xl print:p-0 print:m-0 px-4 pt-4 mx-auto mb-4"
->
+{{/* Site header: name on the left, primary navigation on the right. The current section is white. */}}
+{{ $current := .RelPermalink }}
+<header class="container-site flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 pt-5 pb-3 md:py-8 font-display print:px-0 print:py-0">
   <a
     lang="en"
-    class="text-4xl hover:border-primary hover:text-primary author border-primary text-primary"
     href="/"
+    class="shrink-0 text-lg font-bold tracking-tight text-strong leading-none hover:text-primary transition-colors print:text-black"
   >
-    Klaus Breyer
+    Klaus Breyer<span class="text-primary">.</span>
   </a>
 
-  <p class="grid gap-1 self-center md:grow md:shrink-0">
-    <span>B2B SaaS Product & Tech Leadership<br /></span>
-    <span>Move Fast And Break Silos!</span>
-  </p>
-
-  <ul
-    class="flex flex-wrap text-xl gap-x-2 md:flex-nowrap print:hidden"
-  >
-    {{ range .Site.Menus.header }}
-    <li>
-      <a lang="en" class="hover:underline text-primary" href="{{ .URL }}">
-        {{.Name}}
-      </a>
-    </li>
-    {{ end }}
-  </ul>
-
+  <nav aria-label="Main" class="print:hidden">
+    <ul class="-ms-0 flex gap-x-5 font-medium text-[0.9375rem] leading-none md:gap-x-7">
+      {{ range .Site.Menus.header }}
+      {{ $active := hasPrefix $current .URL }}
+      <li>
+        <a
+          lang="en"
+          href="{{ .URL }}"
+          class="block py-3 md:py-2 {{ if $active }}text-strong underline decoration-primary decoration-1 underline-offset-[7px]{{ else }}text-[#b5b5b5] hover:text-strong{{ end }} transition-colors"
+          {{ if $active }}aria-current="page"{{ end }}
+        >{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
 </header>
