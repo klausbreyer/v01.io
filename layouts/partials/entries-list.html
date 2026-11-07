@@ -5,7 +5,7 @@
   Params: "Pages".
 */}}
 {{ range (.Pages.GroupByDate "2006") }}
-<section class="mt-16 first:mt-0">
+<section class="mt-20 first:mt-0">
   <h2 class="border-b border-line pb-4 font-display text-[1.375rem] font-semibold lg:text-[1.625rem] leading-none tracking-tight text-strong tabular-nums">{{ .Key }}</h2>
   <ul class="mt-5 grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-10">
     {{ range .Pages.ByTitle }}
