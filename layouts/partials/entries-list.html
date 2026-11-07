@@ -7,7 +7,7 @@
 {{ range (.Pages.GroupByDate "2006") }}
 <section class="mt-20 first:mt-0">
   <h2 class="border-b border-line pb-4 font-display text-[1.375rem] font-semibold lg:text-[1.625rem] leading-none tracking-tight text-strong tabular-nums">{{ .Key }}</h2>
-  <ul class="mt-5 grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-10">
+  <ul class="mt-5 grid grid-cols-3 gap-x-4 gap-y-10 overflow-hidden sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-10">
     {{ range .Pages.ByTitle }}
     {{ $image := partial "image-url.html" . }}
     {{ $parts := split .Title ", " }}
@@ -19,8 +19,8 @@
     {{ with $rest }}{{ $authors = index . 0 }}{{ if gt (len .) 1 }}{{ $authors = printf "%s et al." (index (last 1 (split $authors " ")) 0) }}{{ end }}{{ end }}
     <li>
       <a href="{{ .Permalink }}" class="group block font-display">
-        {{/* Covers stand on a shared bottom edge in a 2:3 box, uncropped. */}}
-        <div class="flex aspect-[2/3] items-end">
+        {{/* Covers stand on a shelf: a 2:3 box, uncropped, on a hairline that runs through the column gap. */}}
+        <div class="relative flex aspect-[2/3] items-end after:absolute after:-bottom-px after:left-0 after:-right-4 after:h-px after:bg-line lg:after:-right-6">
           {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
           {{/* No cover image: a typeset cover, never an empty frame. */}}
           <div class="flex aspect-[2/3] w-full flex-col justify-between bg-[#1f1c1a] p-4 text-center">
@@ -32,9 +32,9 @@
           <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
           {{ end }}
         </div>
-        {{/* Author first, one line, so author lines and title tops align across a row. */}}
-        <p class="mt-3 truncate text-[0.8125rem] leading-snug text-[#d4d4d4]">{{ $authors }}</p>
-        <h3 class="mt-1 line-clamp-2 text-[1rem] font-medium leading-snug text-balance text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
+        {{/* Title first, then the author on one line. */}}
+        <h3 class="mt-3 line-clamp-2 text-[1rem] font-medium leading-snug text-balance text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
+        <p class="mt-1 truncate text-[0.8125rem] leading-snug text-[#d4d4d4]">{{ $authors }}</p>
       </a>
     </li>
     {{ end }}
