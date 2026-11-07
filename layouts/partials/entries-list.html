@@ -1,42 +1,41 @@
 {{/*
-  Bookshelf cover wall, grouped by publication year like the blog list.
-  Book post titles read "Title, Author[, Author], Year": tiles show the title and the authors.
+  Bookshelf cover wall, one block per publication year.
+  Book post titles read "Title, Author[, Author], Year": tiles show the first author, then the title.
   Covers are never cropped: they fill the column width and stand on the bottom edge of a tall box.
   Params: "Pages".
 */}}
-<ul class="grid grid-cols-3 gap-x-4 gap-y-10 lg:gap-y-16 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6">
-  {{ $year := "" }}
-  {{ range .Pages }}
-  {{ $y := .Date.Format "2006" }}
-  {{ if ne $y $year }}
-  {{ $year = $y }}
-  <li class="col-span-full -mb-4 border-b border-line pb-4 font-display text-[1.625rem] lg:text-[2rem] font-bold leading-none tracking-tight text-strong tabular-nums [&:not(:first-child)]:mt-12">{{ $y }}</li>
-  {{ end }}
-  {{ $image := partial "image-url.html" . }}
-  {{ $parts := split .Title ", " }}
-  {{ $title := index $parts 0 }}
-  {{ $rest := after 1 $parts }}
-  {{ with $rest }}{{ if findRE `^\d{4}$` (index (last 1 .) 0) }}{{ $rest = first (sub (len .) 1) . }}{{ end }}{{ end }}
-  {{ $authors := "" }}
-  {{ with $rest }}{{ $authors = index . 0 }}{{ if gt (len .) 1 }}{{ $authors = printf "%s et al." $authors }}{{ end }}{{ end }}
-  <li>
-    <a href="{{ .Permalink }}" class="group block font-display">
-      <div class="flex aspect-[1/1.6] items-end justify-start">
-        {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
-        {{/* No cover image: a typeset cover, so it reads as an edition, not a broken image. */}}
-        {{/* No cover image: a typeset cover with a hairline edge and a spine strip, so it still reads as a book. */}}
-        <div class="flex aspect-[2/3] w-full flex-col items-center justify-center gap-4 bg-[#141414] p-4 text-center outline outline-1 -outline-offset-1 outline-[#3a3a3a]">
-          <span class="font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
-          <span class="size-1.5 rounded-full bg-primary"></span>
+{{ range (.Pages.GroupByDate "2006") }}
+<section class="mt-14 first:mt-0">
+  <h2 class="border-b border-line pb-4 font-display text-[1.625rem] font-bold leading-none tracking-tight text-strong tabular-nums lg:text-[2rem]">{{ .Key }}</h2>
+  <ul class="mt-6 grid grid-cols-3 gap-x-4 gap-y-10 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-14">
+    {{ range .Pages.ByTitle }}
+    {{ $image := partial "image-url.html" . }}
+    {{ $parts := split .Title ", " }}
+    {{ $title := index $parts 0 }}
+    {{ $rest := after 1 $parts }}
+    {{ with $rest }}{{ if findRE `^\d{4}$` (index (last 1 .) 0) }}{{ $rest = first (sub (len .) 1) . }}{{ end }}{{ end }}
+    {{ $authors := "" }}
+    {{ with $rest }}{{ $authors = index . 0 }}{{ if gt (len .) 1 }}{{ $authors = printf "%s et al." $authors }}{{ end }}{{ end }}
+    <li>
+      <a href="{{ .Permalink }}" class="group block font-display">
+        {{/* Covers stand on a shared bottom edge in a 2:3 box, uncropped. */}}
+        <div class="flex aspect-[2/3] items-end">
+          {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
+          {{/* No cover image: a typeset cover, never an empty frame. */}}
+          <div class="flex aspect-[2/3] w-full flex-col items-center justify-center gap-4 bg-[#141414] p-4 text-center outline outline-1 -outline-offset-1 outline-[#3a3a3a]">
+            <span class="font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
+            <span class="size-1.5 rounded-full bg-primary"></span>
+          </div>
+          {{ else }}
+          <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
+          {{ end }}
         </div>
-        {{ else }}
-        <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-full object-contain object-bottom outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
-        {{ end }}
-      </div>
-      {{/* Author first, one line, so author lines and title tops align across a row. */}}
-      <p class="mt-2.5 truncate text-[0.8125rem] leading-snug text-[#c4c4c4]">{{ $authors }}</p>
-      <h3 class="mt-0.5 text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
-    </a>
-  </li>
-  {{ end }}
-</ul>
+        {{/* Author first, one line, so author lines and title tops align across a row. */}}
+        <p class="mt-2.5 truncate text-[0.8125rem] leading-snug text-[#c4c4c4]">{{ $authors }}</p>
+        <h3 class="mt-0.5 text-sm font-medium leading-snug text-strong transition-colors group-hover:text-primary">{{ $title }}</h3>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

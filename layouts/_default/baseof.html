@@ -46,11 +46,11 @@
 
     {{/* End-of-page navigation on single pages only; list pages carry their own. */}}
     {{ if .IsPage }}
-    <aside class="container-site mt-20 md:mt-24 print:hidden">
+    <aside class="container-site mt-16 print:hidden">
       {{ partial "other.html" . }}
     </aside>
     {{ end }}
 
-    <footer class="mt-12 md:mt-16 print:hidden">{{ partial "footer.html" . }}</footer>
+    <footer class="mt-16 print:hidden">{{ partial "footer.html" . }}</footer>
   </body>
 </html>
