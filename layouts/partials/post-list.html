@@ -1,0 +1,30 @@
+{{/*
+  The site's one list pattern: hairline rows with a date gutter and the title.
+  On phones the date sits above the title.
+  Params: "Title" (heading, optional), "Pages", "More" (URL for a closing link, optional),
+          "MoreLabel" (text of that link, default "All posts"),
+          "Years" (bool: a year row starts each year and the dates drop the year).
+*/}}
+{{ $years := .Years }}
+{{ $year := "" }}
+<section>
+  {{ with .Title }}<h2 class="font-display text-[1.375rem] lg:text-[1.625rem] font-semibold leading-none tracking-tight text-strong">{{ . }}</h2>{{ end }}
+  <ul class="{{ if .Title }}mt-4{{ end }} {{ if not $years }}border-t border-line{{ end }} font-display">
+    {{ range .Pages }}
+    {{ $y := .Date.Format "2006" }}
+    {{ if and $years (ne $y $year) }}
+    {{ $year = $y }}
+    <li class="border-b border-[#4a4a4a] pb-4 pt-14 first:pt-0 text-[1.375rem] font-semibold lg:text-[1.625rem] leading-none tracking-tight text-strong tabular-nums">{{ $y }}</li>
+    {{ end }}
+    <li class="border-b border-line">
+      <a href="{{ .Permalink }}" class="group grid gap-x-4 gap-y-1.5 py-3.5 sm:grid-cols-[7rem_minmax(0,1fr)] sm:items-baseline sm:gap-y-1 sm:py-3.5">
+        <time class="text-[0.9375rem] font-medium text-muted tabular-nums" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (cond $years "Jan 2" "Jan 2, 2006") }}</time>
+        <span class="text-[1.0625rem] font-medium leading-snug text-primary sm:text-base transition-colors group-hover:text-strong">{{/* Plain wrapping; the last two words and hyphenated words stay together, so no word sits alone on the last line. */}}{{ .Title | htmlEscape | replaceRE `\s+(\S+)$` "&nbsp;$1" | replaceRE `(\S+-\S+)` `<span class="whitespace-nowrap">$1</span>` | safeHTML }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ with .More }}
+  <a href="{{ . }}" class="group mt-5 inline-block font-display text-base font-medium text-primary transition-colors hover:text-strong">{{ $.MoreLabel | default "All posts" }} <span class="text-primary">&rarr;</span></a>
+  {{ end }}
+</section>

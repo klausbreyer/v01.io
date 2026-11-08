@@ -1,0 +1,13 @@
+{{/*
+  Returns all blog posts except those whose only category is Bookshelf.
+  Posts with Bookshelf plus another category stay listed.
+  Usage: {{ $posts := partial "visible-posts.html" .Site.RegularPages }}
+*/}}
+{{ $visible := slice }}
+{{ range where . "Type" "posts" }}
+  {{ $cats := .Params.categories | default slice }}
+  {{ if not (and (eq (len $cats) 1) (in $cats "Bookshelf")) }}
+    {{ $visible = $visible | append . }}
+  {{ end }}
+{{ end }}
+{{ return $visible }}

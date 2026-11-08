@@ -1,8 +1,39 @@
 {{ define "head" }} {{ partial "meta.html" . }} {{ end }} {{ define "main" }}
 
-<div class="grid grid-cols-8 gap-2">
-  <article class='col-span-full md:col-start-2 md:col-span-6 {{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}    {{ end }}    {{partial "prose.html"}} prose-h1:pt-10 '>
-    {{.Content}}
-  </article>
+{{/*
+  Home, two rows on the 12-column grid:
+  1. intro and bio, with the portrait on the right (desktop only);
+  2. latest posts and the category table, starting on one line.
+*/}}
+{{ $posts := partial "visible-posts.html" .Site.RegularPages }}
+<div class="container-site">
+  <div class="grid items-stretch gap-x-8 lg:grid-cols-12">
+    <div class="lg:col-span-7">
+      <h1 class="font-display text-4xl font-bold leading-none text-strong text-balance">
+        B2B SaaS product and tech leadership.
+      </h1>
+      <div class='{{partial "prose.html"}} home-bio mt-6 sm:mt-8 [&>p:last-child]:mb-0 {{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}'>
+        {{/*
+          Home shows the CV snippet's intro only: the skills list stays on the CV page,
+          and the closing tagline lives in the footer.
+        */}}
+        {{ .Content | replaceRE `\s*<p>Move Fast And Break Silos!</p>\s*$` "" | replaceRE `<p><strong>Skills:</strong>.*?</p>\s*` "" | safeHTML }}
+      </div>
+    </div>
+    <img
+      src="/images/klaus-breyer.jpg"
+      alt="Portrait of Klaus Breyer"
+      width="1024"
+      height="1024"
+      class="hidden h-[calc(100%-1rem)] min-h-0 w-full object-cover object-[57%_50%] outline outline-1 -outline-offset-1 outline-white/10 lg:col-span-3 lg:col-start-10 lg:mb-4 lg:mt-2 lg:block"
+    />
+  </div>
+
+  <div class="mt-14 grid items-start gap-x-8 gap-y-14 lg:mt-20 lg:grid-cols-12">
+    <div class="lg:col-span-8">
+      {{ partial "post-list.html" (dict "Title" "Latest posts" "Pages" (first 10 $posts) "More" "/posts/") }}
+    </div>
+    <div class="lg:col-span-3 lg:col-start-10">{{ partial "category-list.html" . }}</div>
+  </div>
 </div>
 {{ end }}

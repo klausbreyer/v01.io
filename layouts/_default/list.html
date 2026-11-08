@@ -1,33 +1,13 @@
 {{ define "main" }}
-<div class="container mx-auto">
-  <article
-    class="{{ if .File }}{{ .File.Dir }} {{ .File.BaseFileName }}{{ end }}"
-  >
-    <h1 class="text-4xl font-bold font-display mb-8">{{ .Title }}</h1>
-    {{ .Content }}
-  </article>
-
-  {{ $section_heading := .Site.GetPage "section" .Section }} {{ if eq
-  $section_heading.Title "Blog" }}
-  <nav class="my-4 categories">
-    <strong class="font-semibold">Categories: </strong>
-    {{ $categories := .Site.Taxonomies.categories }} {{ range $categories }}
-    <a
-      href="{{ .Page.Permalink }}"
-      class="text-primary hover:text-primary-dark hover:underline"
-    >
-      {{ .Page.Title }}
-    </a>
-    ({{ .Count }}); {{ end }}
-  </nav>
-  {{ end }} {{ if not .Params.Pure }}
-  <h2 class="sr-only">Entries</h2>
-  {{ partial
-    "translations.html" . }}
-  {{/* Hide posts whose only category is Bookshelf. Posts with Bookshelf plus another category stay listed. */}}
-  {{ $filteredPages := slice }} {{ range .Pages }} {{ $cats := .Params.categories | default slice }}
-  {{ $bookshelfOnly := and (eq (len $cats) 1) (in $cats "Bookshelf") }}
-  {{ if not $bookshelfOnly }} {{ $filteredPages = $filteredPages | append . }} {{ end }} {{ end }} {{ partial
-  "entries-list.html" (dict "Pages" $filteredPages) }} {{ end }} 
+<div class="container-site">
+  {{ if eq .Section "posts" }}
+  {{ partial "list-layout.html" (dict "Page" . "Pages" (partial "visible-posts.html" .Pages) "Active" "") }}
+  {{ else }}
+  {{ partial "page-title.html" . }}
+  {{ if trim (plainify .Content) " \n" }}
+  <div class="{{ partial "prose.html" }} measure mt-8">{{ .Content }}</div>
+  {{ end }}
+  <div class="mt-12 lg:w-2/3">{{ partial "post-list.html" (dict "Pages" .Pages) }}</div>
+  {{ end }}
 </div>
 {{ end }}

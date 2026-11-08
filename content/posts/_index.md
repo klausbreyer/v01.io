@@ -1,5 +1,5 @@
 ---
-title: English Blogposts
+title: Blog
 date: 2017-03-23
 aliases:
   - /category/blog/

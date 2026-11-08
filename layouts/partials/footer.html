@@ -1,83 +1,26 @@
-<div class="max-w-screen-2xl p-4 mx-auto print:hidden">
-  <div class="grid gap-20 lg:grid-cols-8">
-    <div class="space-y-2 lg:col-span-5 grid gap-4 md:grid-cols-[1fr_3fr]">
-      <img
-        src="/images/klaus-breyer-headshot-small.jpg"
-        alt="Portrait Klaus Breyer"
-        class="aspect-square max-w-60 w-full"
-      />
-      <div class="space-y-2">
-        <h3 class="text-2xl font-display">About</h3>
-        <p class="border-t-2 border-white pt-1">
-          I am an experienced B2B SaaS CPTO with a passion for breaking down
-          silos. As a startup founder, I bridge the gap
-          between technical delivery and agile product strategy. Sometimes, I
-          invest or advise, helping leadership teams build interdisciplinary
-          teams themselves.
-        </p>
-        <p>
-          Reach me via:
-          <a
-            href="mailto:kb@v01.io?subject=v01.io"
-            class="text-primary hover:underline"
-            >E-Mail</a
-          >
-          or follow me on
-          <a
-            href="https://www.linkedin.com/in/klaus-breyer/"
-            class="text-primary hover:underline"
-            target="_blank"
-            >LinkedIn</a
-          >
-          &
-          <a
-            href="https://twitter.com/klausbreyer"
-            class="text-primary hover:underline"
-            target="_blank"
-            >Twitter</a
-          >.
-        </p>
-      </div>
+{{/*
+  Site footer: newsletter sign-up and a quiet link row.
+  The sign-up is one stacked block everywhere (heading, sentence, form):
+  in the reading column on single pages, on the container's left edge elsewhere.
+  Lists above end on their own closing rule, so the sign-up is separated by space only.
+*/}}
+{{ $single := .IsPage }}
+{{ $h := "font-display text-[1.375rem] font-semibold leading-none tracking-tight text-strong lg:text-[1.625rem]" }}
+<div class="container-site">
+  <section class="{{ if $single }}measure mx-auto{{ end }} pt-6 md:pt-8">
+    <h2 class="{{ $h }}">Newsletter</h2>
+    <p class="mt-3 text-base leading-relaxed">Get new posts on product and tech leadership by email.</p>
+    <div class="mt-5 max-w-[22.5rem]">
+      {{ partial "newsletter.html" }}
+      <p class="mt-2.5 font-display text-[0.9375rem] font-medium text-[#c8c8c8]">Sent via Mailchimp. Never shared.</p>
     </div>
+  </section>
 
-    <div class="col-span-full lg:col-span-3 space-y-1">
-      <h3 class="text-2xl font-display">Newsletter</h3>
-      <p class="border-t-2 border-white pt-1">
-        Never miss an article on B2B SaaS product & tech leadership!
-      </p>
-
-      {{ partial "newsletter.html"}}
-
-      <p class="text-xs">
-        (I use MailChimp. Your data is never sold or shared.)
-      </p>
-    </div>
+  <div class="mt-14 flex flex-wrap items-center gap-x-6 gap-y-1 border-t border-line py-8 font-display text-[0.9375rem] font-medium text-muted md:mt-20 [&>a]:py-3 sm:gap-y-3 sm:[&>a]:py-0">
+    <span class="w-full sm:me-auto sm:w-auto">&copy; {{ now.Year }} {{ .Site.Copyright }}. Move fast and break silos.</span>
+    <a href="mailto:kb@v01.io?subject=v01.io" class="text-primary transition-colors hover:text-strong">Email</a>
+    <a href="https://www.linkedin.com/in/klaus-breyer/" target="_blank" rel="noopener" class="text-primary transition-colors hover:text-strong">LinkedIn</a>
+    <a href="{{ .Site.BaseURL }}posts/index.xml" class="text-primary transition-colors hover:text-strong">RSS</a>
+    <a href="{{ .Site.BaseURL }}pages/imprint/" class="text-primary transition-colors hover:text-strong">Imprint</a>
   </div>
-</div>
-
-<div
-  class="flex flex-wrap items-center gap-4 max-w-screen-2xl p-4 mx-auto print:hidden"
->
-  <a
-    class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
-    href="/"
-    >{{$.Site.Copyright }}</a
-  >
-  <a
-    href="{{ .Page.Permalink }}"
-    class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
-    target="_blank"
-    >Permalink</a
-  >
-  <a
-    href="{{ .Site.BaseURL }}posts/index.xml"
-    class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
-    target="_blank"
-    >RSS Feed</a
-  >
-  <a
-    href="{{ .Site.BaseURL }}pages/imprint/"
-    class="border-t-2 pt-1 font-display font-bold text-primary uppercase border-white text-lg leading-none"
-    >Imprint</a
-  >
 </div>
