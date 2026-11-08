@@ -54,16 +54,10 @@ Sein Motto: Move Fast and Break Silos.
 
 Pictures of me you can use without asking:
 
-- Headshot
-  - [400 × 400](/images/klaus-breyer-headshot-small.jpg)
-  - [2287 × 2287](/images/klaus-breyer-headshot.jpg)
-- Full A
-  - [280 × 280](/images/klaus-breyer-a-small.jpg)
-  - [4370 × 4370](/images/klaus-breyer-a-full.jpg)
-- Full B
-  - [204 × 280](/images/klaus-breyer-b-small.jpg)
-  - [3761 × 5163](/images/klaus-breyer-b-full.jpg)
-- Speaking A
-  - [1200 × 1600](/images/SpeakingA.jpg)
-- Speaking B
-  - [1600 × 1200](/images/SpeakingB.jpg)
+| Photo | Small | Full size |
+| --- | --- | --- |
+| Headshot | [400 × 400](/images/klaus-breyer-headshot-small.jpg) | [2287 × 2287](/images/klaus-breyer-headshot.jpg) |
+| Full A | [280 × 280](/images/klaus-breyer-a-small.jpg) | [4370 × 4370](/images/klaus-breyer-a-full.jpg) |
+| Full B | [204 × 280](/images/klaus-breyer-b-small.jpg) | [3761 × 5163](/images/klaus-breyer-b-full.jpg) |
+| Speaking A | | [1200 × 1600](/images/SpeakingA.jpg) |
+| Speaking B | | [1600 × 1200](/images/SpeakingB.jpg) |

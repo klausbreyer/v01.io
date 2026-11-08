@@ -7,7 +7,7 @@
     {{/* One quiet meta line for posts: date, category, translation, discussion. Pages (CV, imprint) have none. */}}
     {{ if eq .Type "posts" }}
     <ul class="mt-5 flex flex-wrap items-baseline gap-y-1 font-display text-base text-[#b3b3b3] print:hidden">
-      <li class="after:mx-2.5 after:content-['·'] last:after:content-none">
+      <li class="flex items-baseline after:mx-2.5 after:content-['·'] last:after:content-none">
         <time class="tabular-nums" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "January 2, 2006" }}</time>
       </li>
       {{ range (.GetTerms "categories") }}
