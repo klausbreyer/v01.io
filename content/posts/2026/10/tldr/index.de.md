@@ -24,7 +24,7 @@ Das hat funktioniert, war aber jedes Mal umständlich: Terminal öffnen, die Anf
 
 Also habe ich einen kleinen Service drumherum gebaut. Er heißt [tldr.tf](https://tldr.tf) und ist Open Source. Link rein, Zusammenfassung raus.
 
-![tldr.tf mit einer Zusammenfassung von Theos Video "How To Give Claude Unlimited Usage"](preview.png)
+![tldr.tf mit einer Zusammenfassung von Theos Video "I'm addicted to Claude Code (i get it now)"](screenshot.png)
 
 ## Was es macht
 

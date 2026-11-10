@@ -25,7 +25,7 @@ That worked, but it was a hassle every time: open a terminal, find the request, 
 
 So I built a small service around it. It is called [tldr.tf](https://tldr.tf), and it is open source. Paste a link, get a summary.
 
-![tldr.tf with a summary of Theo's video "How To Give Claude Unlimited Usage"](preview.png)
+![tldr.tf with a summary of Theo's video "I'm addicted to Claude Code (i get it now)"](screenshot.png)
 
 ## What it does
 
