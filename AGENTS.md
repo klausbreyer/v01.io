@@ -11,6 +11,10 @@
 
 **Re-read this `AGENTS.md` from disk first, every time.** Klaus edits it directly in his editor between turns to refine conventions (frontmatter, style rules, dash policy, categories, etc.), so the version loaded earlier in the conversation may be stale. This applies to any task that creates or modifies files under `content/posts/`. Not required for unrelated tasks (git, layout, config, conversation).
 
+## LinkedIn text in every reply
+
+While working on a blog post, end every reply with the full current LinkedIn text of that post (the `linkedin` block from its frontmatter) as a copyable text block. Do this in every reply, even when the text did not change. If the post has no `linkedin` text yet, say so.
+
 ## About the site
 
 Personal site and blog of **Klaus Breyer** (CPTO, Berlin). Built with **Hugo** + **TailwindCSS**, deployed from `main`. Base URL: `https://www.v01.io/`. Two languages: `en` (default) and `de`.
