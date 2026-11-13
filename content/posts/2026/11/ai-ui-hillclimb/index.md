@@ -13,6 +13,7 @@ linkedin: |
   But it lets non-designers who vibe build better looking products. We simply cannot prompt the AI the way a designer could.
 
   Blog article in the comments.
+social: https://lnkd.in/p/d63qxAG2
 ---
 
 I am not a designer. When I vibe an interface together with AI, it works. It also looks vibed.
