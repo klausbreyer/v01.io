@@ -69,7 +69,7 @@ image: preview.jpg
 ```
 
 Rules and options:
-- **title**: always quoted. Title case for English, sentence/title-ish for German. Colons and question marks are fine. No em or en dashes.
+- **title**: always quoted. Title case for English, sentence/title-ish for German. Colons and question marks are fine. No em or en dashes. For a new title, or when Klaus asks for title variants, follow `HEADLINE.md` in the repo root.
 - **date**: either a plain `YYYY-MM-DD` or a full RFC3339 timestamp with offset (`2025-01-23T08:33:12+01:00`). Both are in use - prefer plain date unless the time of day matters. The date determines the URL, so it must match the `YYYY/MM/` folders.
 - **categories**: always a YAML list with **exactly one entry**. Pick the single most fitting category. Values in use (by frequency): `Bookshelf`, `Engineering`, `Product`, `Personal`, `Process`, `Travel`, `Open Source`, `Speaking`, `Leadership`, `Productivity`, `Remote`, `AI`, `Shipped`. Use `Shipped` for launch posts about something Klaus built and released (an app, a tool, a service). Only use multiple categories if Klaus explicitly asks for it.
 - **image**: path to the social/preview image relative to the post folder. Often `preview.jpg` / `preview.png`, sometimes the hero image itself.
@@ -133,3 +133,4 @@ Defined in `layouts/shortcodes/`:
 5. Reference images with relative paths (`![alt](preview.jpg)`), internal posts with `{{< relref "/posts/YYYY/MM/slug/" >}}`.
 6. Don't set `draft: false` unless there's a reason - absence is fine.
 7. Before finishing, do the plain English pass and the style comparison from "Reviewing / revising a post".
+8. Before a draft is published, check its title against `HEADLINE.md` and offer better variants if the title is only a label.

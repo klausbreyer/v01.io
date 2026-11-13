@@ -1,5 +1,5 @@
 ---
-title: "How We Work Now"
+title: "How We Work Now: Replace Consensus With Context"
 date: 2026-11-13
 categories: ["Process"]
 image: preview.jpg
