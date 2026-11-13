@@ -1,7 +1,6 @@
 ---
 title: "How We Work Now"
-date: 2026-11-05
-draft: true
+date: 2026-11-13
 categories: ["Process"]
 image: preview.jpg
 linkedin: |
