@@ -7,6 +7,7 @@ linkedin: |
   I compressed my 20-minute talk from code.talks last week even further, and added more context on my sources and inspirations. (Thank you, Sander Hoogendoorn, John Cutler, Claus Höfele and Ryan Singer.)
 
   Link to the blog post in the comments.
+social: https://lnkd.in/p/drf3FfCB
 ---
 
 This is the long version of my [talk at code.talks]({{< relref "/posts/2026/11/codetalks/" >}}) in Hamburg: how I am transforming my current team at [myo](https://myo.de). What worked for us, what did not, and what we are still figuring out.
