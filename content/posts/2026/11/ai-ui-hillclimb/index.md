@@ -1,5 +1,5 @@
 ---
-title: "AI UI - How to Improve Every Interface with Hillclimb"
+title: "AI UI - Brute Force Hillclimbing Works Frighteningly Well"
 date: 2026-11-13
 categories: ["AI"]
 image: preview.jpg
@@ -10,9 +10,9 @@ linkedin: |
 
   Still, without human input, without your taste, the AI would never have arrived at the good typeface and the basic layout.
 
-  But it lets non-designers who vibe build good products. We cannot prompt the AI the way a designer could.
+  But it lets non-designers who vibe build better looking products. We simply cannot prompt the AI the way a designer could.
 
-  The long version, with the prompt and more before and after: https://www.v01.io/posts/2026/11/ai-ui-hillclimb/
+  Blog article in the comments.
 ---
 
 I am not a designer. When I vibe an interface together with AI, it works. It also looks vibed.
