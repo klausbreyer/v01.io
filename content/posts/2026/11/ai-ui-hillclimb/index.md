@@ -76,6 +76,16 @@ Look at the fields. As a non-designer, I did not know that an input with only an
 
 The other is a photo book tool. This is the print page:
 
-![The print page of the photo book tool before and after the hillclimb](photobook.jpg)
+{{< rawhtml >}}
+<figure class="media" aria-label="The print page of the photo book tool before and after the hillclimb">
+  <div style="position:relative;overflow:hidden;aspect-ratio:2400/1500">
+    <img src="photobook.jpg" alt="Before: the original print page" style="display:block;width:100%;max-width:none;margin:0" />
+  </div>
+  <div style="position:relative;overflow:hidden;aspect-ratio:2864/1500;border-top:3px solid #000">
+    <img src="photobook-after.png" alt="After: the updated print page with checks above separate book and cover downloads" style="display:block;width:100%;max-width:none;margin:0" />
+    <span style="position:absolute;bottom:0;left:0;background:#000;color:#fff;padding:0.2em 0.65em;font:bold clamp(10px,1.2vw,16px)/1.5 sans-serif;letter-spacing:0.08em">AFTER</span>
+  </div>
+</figure>
+{{< /rawhtml >}}
 
 Pick the interface you are least proud of, and give it a few hours.
