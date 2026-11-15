@@ -1,7 +1,7 @@
 ---
 title: "BUMM, or the State of AI After GPT 6 Astra"
 date: 2026-09-09
-categories: ["Open Source"]
+categories: ["Open Source", "AI"]
 image: preview.png
 social: https://lnkd.in/p/g4Pewc3m
 linkedin: |

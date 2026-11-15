@@ -1,7 +1,7 @@
 ---
 title: "Wachstumsschmerzen: Learnings eines Millennial Unternehmers"
 date: 2016-09-07
-categories: ["Personal"]
+categories: ["Leadership"]
 tags:
   [
     "Millennials",

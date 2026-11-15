@@ -2,7 +2,7 @@
 title: "Shaping Is Like a Good Prompt: Enough to Guide, Not Enough to Constrain"
 date: 2026-07-06
 draft: true
-categories: ["Product"]
+categories: ["Process"]
 image: preview.png
 linkedin: |
   If I say to an image generator: "Draw me a painting from M.C. Escher where a male person stands in front of a conference crowd, geometric architecture structures" - the model produces something that fulfills my intent. I did not specify a staircase. But the prompt was good enough.

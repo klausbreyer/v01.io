@@ -3,7 +3,7 @@ title: "To-Do ≠ To-Think"
 date: 2025-01-23T08:33:12+01:00
 aliases:
   - /posts/2025-to-think/
-categories: ["Leadership"]
+categories: ["Productivity"]
 social: https://www.linkedin.com/posts/klaus-breyer_to-do-to-think-klaus-breyer-activity-7288098145001988098-cbx0?
 ---
 

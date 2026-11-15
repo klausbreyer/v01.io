@@ -9,7 +9,7 @@ aliases:
   - /../2016/08/02/weltweites-entwickler-sourcing-gruende-dafuer-und-der-prozess/
   - "/posts/weltweites-entwickler-sourcing-grunde-und-prozess-dafur/"
   - /posts/2016-worldwide-developer-sourcing-reasons-and-process/
-categories: ["Engineering"]
+categories: ["Remote"]
 ---
 
 ## Globale Talentakquise: Ein Muss in der heutigen Zeit

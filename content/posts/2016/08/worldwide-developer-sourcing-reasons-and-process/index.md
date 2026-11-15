@@ -7,7 +7,7 @@ aliases:
 publishdate: 2016-08-02T08:21:37+02:00
 lastmod: 2021-06-29T10:40:29+02:00
 tags: ["developer sourcing", "remote work", "global talent", "hiring process"]
-categories: ["Engineering"]
+categories: ["Remote"]
 ---
 
 Due to an acute shortage of skilled workers in Berlin, I am currently conducting job interviews with Javascript developers from around the world. I can think of few reasons why one should only search in their own city, and even fewer reasons to have all personnel sitting in your own office.

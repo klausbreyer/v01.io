@@ -11,7 +11,7 @@ tags:
   - Productivity Strategies
 image: "2023-12-11-henry-ford.jpg"
 social: "https://www.linkedin.com/posts/klaus-breyer_knowledge-works-disruption-and-the-future-activity-7139954703341084673-OSwj?"
-categories: ["Productivity"]
+categories: ["Process"]
 ---
 
 ![](2023-12-11-henry-ford.jpg)

@@ -4,7 +4,7 @@ title: "Projektstudie: creAce - Prototyping-Prozess einer React Native Mobile Ap
 date: 2016-08-29T18:30:16+02:00
 publishdate: 2016-08-29T18:30:16+02:00
 lastmod: 2021-07-21T16:36:45+02:00
-categories: ["Product"]
+categories: ["Process"]
 tags:
   [
     "React Native",
