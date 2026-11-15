@@ -9,7 +9,7 @@ social: "https://www.linkedin.com/posts/klaus-breyer_what-distinguishes-good-pro
 aliases:
   - /posts/what-distinguishes-good-processes-from-bad-processes/
   - /posts/2014-what-distinguishes-good-processes-from-bad-processes/
-categories: ["Productivity"]
+categories: ["Process"]
 ---
 
 Far too often, processes are set up to avoid mistakes - not a good approach. The initiator of a process probably has nothing wrong in mind. He wants to increase quality or productivity but wants to do this by thinking for others. Then long checklists are created, defining what has to be agreed with whom and by when... you know the drill.

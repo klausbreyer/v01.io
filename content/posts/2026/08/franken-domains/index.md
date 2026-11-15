@@ -3,7 +3,7 @@ title: "franken.domains: Stitched-Together Domains, Because Every Dictionary .co
 date: 2026-08-01
 aliases:
   - /posts/2026-franken-domains/
-categories: ["Engineering"]
+categories: ["Shipped"]
 image: preview.jpg
 linkedin: |
   New side project: https://franken.domains/

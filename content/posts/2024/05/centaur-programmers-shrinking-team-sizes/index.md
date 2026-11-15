@@ -5,7 +5,7 @@ aliases:
   - /posts/2024-centaur-programmers-shrinking-team-sizes/
 image: "centaur.jpg"
 # social: "https://www.linkedin.com/posts/klaus-breyer_shape-ups-organizational-impact-klaus-activity-7105845252837498880-YFVg"
-categories: ["Engineering"]
+categories: ["Leadership", "AI"]
 ---
 
 ![Centaur](centaur.webp)

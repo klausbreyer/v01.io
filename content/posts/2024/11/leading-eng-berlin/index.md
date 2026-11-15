@@ -3,7 +3,7 @@ title: "Leading Eng Berlin 2024"
 date: 2024-11-05
 aliases:
   - /posts/2024-leading-eng-berlin/
-categories: ["Speaking"]
+categories: ["Personal"]
 image: leading-eng-2.jpg
 ---
 ![Leading Eng Berlin 2024 Conference](leading-eng-2.jpg)

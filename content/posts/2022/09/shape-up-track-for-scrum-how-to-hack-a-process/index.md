@@ -17,7 +17,7 @@ aliases:
   - /2022/09/23/shape-up-track-for-scrum-or-how-to-experiment-with-the-process/
   - "/posts/shape-up-track-for-scrum-how-to-hack-a-process/"
   - /posts/2022-shape-up-track-for-scrum-how-to-hack-a-process/
-categories: ["Speaking"]
+categories: ["Process"]
 ---
 
 Not everybody on our team was happy with the overhead of Scrum. But it isn't easy to change a development process for an (otherwise) stable team.

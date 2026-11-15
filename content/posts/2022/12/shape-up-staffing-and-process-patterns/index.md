@@ -18,7 +18,7 @@ aliases:
   - "/posts/shape-up-staffing-and-process-patterns/"
   - /posts/20221216shape-up-staffing-and-process-patterns
   - /posts/2022-shape-up-staffing-and-process-patterns/
-categories: ["Speaking"]
+categories: ["Process"]
 ---
 
 ## Shape Up staffing and process patterns
