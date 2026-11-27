@@ -11,16 +11,16 @@ aliases:
 
 {{% include file="content/snippets/cv.md" %}}
 
-Reach out to me via [E-Mail](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
+Reach out to me via [Email](mailto:kb@v01.io?subject=v01.io/services) or [LinkedIn](https://www.linkedin.com/in/klaus-breyer/).
 
 ## Timeline
 
 | | | |
 |---|---|---|
-| 2025-Now | [myo GmbH](https://www.myo.de/) | CPTO & Shareholder |
 | 2026 | [Carfax Europe](https://www.carfax.eu/) | Consultant, Shape Up |
-| 2023-2025 | [edding AG](https://www.edding.com/) | Head of Product & Technology, Exit |
+| 2025-Now | [myo GmbH](https://www.myo.de/) | CPTO & Shareholder |
 | 2024-2025 | [Ray Sono](https://www.raysono.com/) | Consultant, IT Strategy |
+| 2023-2025 | [edding AG](https://www.edding.com/) | Head of Product & Technology, Exit |
 | 2019-2023 | [Voith Hydro Pocket](https://hydropocket.com/) | Head of Technology |
 | 2016-2018 | [BuzzBird GmbH](https://www.buzzbird.de/) | Founder & CPTO, Exit |
 | 2010-2015 | [Buddybrand GmbH](https://buddybrand.com/) | Founder & CTO |

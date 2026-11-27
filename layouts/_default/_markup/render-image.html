@@ -15,13 +15,25 @@
   {{- end -}}
 {{- end -}}
 
-<p class="media">
+{{- if .IsBlock -}}
+<figure class="prose-figure">
+  <a href="{{ $imageSrc }}" target="_blank" rel="noopener" class="block">
     <img
-        src="{{ $imageSrc }}"
-        alt="{{ .Text }}"
-        {{- with .Title -}}
-        title="{{ . }}"
-        {{- end -}}
-        class="markdown-image"
+      src="{{ $imageSrc }}"
+      alt="{{ .Text }}"
+      {{- with .Title }} title="{{ . }}"{{- end }}
+      class="markdown-image"
     />
-</p>
+  </a>
+  {{- with .Text }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>
+{{- else -}}
+<img
+  src="{{ $imageSrc }}"
+  alt="{{ .Text }}"
+  {{- with .Title }} title="{{ . }}"{{- end }}
+  class="markdown-image"
+/>
+{{- end -}}

@@ -7,7 +7,7 @@
   {{ $books := slice }}
   {{ range .Pages }}{{ $cats := .Params.categories | default slice }}{{ if eq (len $cats) 1 }}{{ $books = $books | append . }}{{ end }}{{ end }}
   {{ partial "page-title.html" (dict "Page" . "Aside" (printf "%d books" (len $books))) }}
-  <div class="mt-12">{{ partial "entries-list.html" (dict "Pages" $books) }}</div>
+  <div class="mt-5 sm:mt-7">{{ partial "entries-list.html" (dict "Pages" $books) }}</div>
   {{ else if eq .Kind "term" }}
   {{ partial "list-layout.html" (dict "Page" . "Pages" .Pages "Active" .Title) }}
   {{ else }}

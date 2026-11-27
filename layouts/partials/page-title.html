@@ -1,16 +1,21 @@
 {{/*
-  List page heading with an aside on the H1 baseline: the translation link, or a count.
-  Accepts the page context, or a dict with "Page" and "Aside" (text shown instead of the translation link).
+  List page heading with an aside aligned to the container right edge: a consistent language switch or count.
+  Accepts the page context, or a dict with "Page" and "Aside".
 */}}
 {{ $page := . }}{{ $aside := "" }}
 {{ if reflect.IsMap . }}{{ $page = .Page }}{{ $aside = .Aside }}{{ end }}
-<header class="flex flex-wrap items-baseline justify-between gap-x-8 gap-y-2">
-  <h1 class="font-display text-4xl font-bold leading-none text-strong">{{ $page.Title }}</h1>
+<header class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2">
+  <h1 class="font-display text-4xl font-bold leading-[1.02] tracking-[-0.015em] text-strong">{{ $page.Title }}</h1>
   {{ with $aside }}
-  <span class="font-display text-base font-medium text-muted tabular-nums">{{ . }}</span>
+  <span class="font-display text-[1rem] font-semibold text-muted tabular-nums">{{ . }}</span>
   {{ else }}
   {{ range $page.Translations }}
-  <a lang="{{ .Lang }}" href="{{ .Permalink }}" class="font-display text-base font-medium text-primary transition-colors hover:text-strong">{{ .Title }} <span class="text-primary">&rarr;</span></a>
+  {{ $label := cond (eq .Lang "de") "Auf Deutsch" "In English" }}
+  <a
+    lang="{{ .Lang }}"
+    href="{{ .Permalink }}"
+    class="group inline-flex items-center gap-1.5 font-display text-[1rem] font-semibold text-primary transition-colors hover:text-strong sm:text-[1.0625rem]"
+  ><span class="underline decoration-primary/40 decoration-1 underline-offset-[0.22em] group-hover:decoration-strong">{{ $label }}</span><span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">&rarr;</span></a>
   {{ end }}
   {{ end }}
 </header>
