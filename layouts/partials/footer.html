@@ -1,26 +1,24 @@
 {{/*
-  Site footer: newsletter sign-up and a quiet link row.
-  The sign-up is one stacked block everywhere (heading, sentence, form):
-  in the reading column on single pages, on the container's left edge elsewhere.
-  Lists above end on their own closing rule, so the sign-up is separated by space only.
+  Site footer: unified 8/4 12-column newsletter band and quiet colophon row across every page.
+  Newsletter form aligns pixel-for-pixel with the right-hand Categories column and Home portrait.
 */}}
-{{ $single := .IsPage }}
-{{ $h := "font-display text-[1.375rem] font-semibold leading-none tracking-tight text-strong lg:text-[1.625rem]" }}
 <div class="container-site">
-  <section class="{{ if $single }}measure mx-auto{{ end }} pt-6 md:pt-8">
-    <h2 class="{{ $h }}">Newsletter</h2>
-    <p class="mt-3 text-base leading-relaxed">Get new posts on product and tech leadership by email.</p>
-    <div class="mt-5 max-w-[22.5rem]">
+  <section class="grid items-start gap-x-10 gap-y-5 border-t border-line pt-8 md:pt-11 lg:grid-cols-12 lg:gap-x-12">
+    <div class="lg:col-span-8">
+      <h2 class="font-display text-[1.375rem] font-bold leading-none tracking-[-0.01em] text-strong lg:text-[1.5rem]">Newsletter</h2>
+      <p class="mt-2 font-display text-[1.0625rem] font-medium leading-[1.42] text-[#d0d0d0] text-pretty">Get new posts on product and tech leadership by email.</p>
+    </div>
+    <div class="lg:col-span-4">
       {{ partial "newsletter.html" }}
-      <p class="mt-2.5 font-display text-[0.9375rem] font-medium text-[#c8c8c8]">Sent via Mailchimp. Never shared.</p>
+      <p class="mt-2 font-display text-[0.9375rem] font-medium text-[#b4b4b4]">Sent via Mailchimp. Never shared.</p>
     </div>
   </section>
 
-  <div class="mt-14 flex flex-wrap items-center gap-x-6 gap-y-1 border-t border-line py-8 font-display text-[0.9375rem] font-medium text-muted md:mt-20 [&>a]:py-3 sm:gap-y-3 sm:[&>a]:py-0">
-    <span class="w-full sm:me-auto sm:w-auto">&copy; {{ now.Year }} {{ .Site.Copyright }}. Move fast and break silos.</span>
+  <div class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-line py-6 font-display text-[0.9375rem] font-semibold text-[#b4b4b4] md:mt-12 [&>a]:py-1 sm:[&>a]:py-0">
+    <span class="w-full font-medium sm:me-auto sm:w-auto">&copy; {{ now.Year }} {{ .Site.Copyright }}. Move fast and break silos.</span>
     <a href="mailto:kb@v01.io?subject=v01.io" class="text-primary transition-colors hover:text-strong">Email</a>
     <a href="https://www.linkedin.com/in/klaus-breyer/" target="_blank" rel="noopener" class="text-primary transition-colors hover:text-strong">LinkedIn</a>
-    <a href="{{ .Site.BaseURL }}posts/index.xml" class="text-primary transition-colors hover:text-strong">RSS</a>
-    <a href="{{ .Site.BaseURL }}pages/imprint/" class="text-primary transition-colors hover:text-strong">Imprint</a>
+    <a href='{{ "posts/index.xml" | relURL }}' class="text-primary transition-colors hover:text-strong">RSS</a>
+    <a href='{{ "pages/imprint/" | relURL }}' class="text-primary transition-colors hover:text-strong">Imprint</a>
   </div>
 </div>

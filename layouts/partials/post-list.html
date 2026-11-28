@@ -1,30 +1,49 @@
 {{/*
-  The site's one list pattern: hairline rows with a date gutter and the title.
-  On phones the date sits above the title.
-  Params: "Title" (heading, optional), "Pages", "More" (URL for a closing link, optional),
-          "MoreLabel" (text of that link, default "All posts"),
-          "Years" (bool: a year row starts each year and the dates drop the year).
+  The site's one list pattern: clean hairline rows with a compact tabular date gutter and crisp title.
+  Uses a compact left date column on both mobile and desktop for high scanning density.
+  Shows full years consistently whenever a non-grouped list spans multiple years; omits the redundant
+  current year only when all items share the current year (such as Home latest posts).
 */}}
 {{ $years := .Years }}
 {{ $year := "" }}
+{{ $mobileLimit := .MobileLimit | default 0 }}
+{{ $currentYear := now.Format "2006" }}
+{{ $hasOlderYear := false }}
+{{ if not $years }}
+  {{ range .Pages }}
+    {{ if ne (.Date.Format "2006") $currentYear }}{{ $hasOlderYear = true }}{{ end }}
+  {{ end }}
+{{ end }}
 <section>
-  {{ with .Title }}<h2 class="font-display text-[1.375rem] lg:text-[1.625rem] font-semibold leading-none tracking-tight text-strong">{{ . }}</h2>{{ end }}
-  <ul class="{{ if .Title }}mt-4{{ end }} {{ if not $years }}border-t border-line{{ end }} font-display">
-    {{ range .Pages }}
-    {{ $y := .Date.Format "2006" }}
+  {{ with .Title }}
+  <h2 class="pb-3 font-display text-[1.375rem] font-bold leading-none tracking-[-0.01em] text-strong lg:text-[1.5rem]">{{ . }}</h2>
+  {{ end }}
+  <ul class="{{ if not $years }}border-t border-line{{ end }} font-display">
+    {{ range $idx, $p := .Pages }}
+    {{ $y := $p.Date.Format "2006" }}
     {{ if and $years (ne $y $year) }}
     {{ $year = $y }}
-    <li class="border-b border-[#4a4a4a] pb-4 pt-14 first:pt-0 text-[1.375rem] font-semibold lg:text-[1.625rem] leading-none tracking-tight text-strong tabular-nums">{{ $y }}</li>
+    <li class="border-b border-line-strong pb-3 pt-9 first:pt-0 text-[1.375rem] font-bold leading-none tracking-[-0.01em] text-strong tabular-nums lg:text-[1.5rem]">{{ $y }}</li>
     {{ end }}
-    <li class="border-b border-line">
-      <a href="{{ .Permalink }}" class="group grid gap-x-4 gap-y-1.5 py-3.5 sm:grid-cols-[7rem_minmax(0,1fr)] sm:items-baseline sm:gap-y-1 sm:py-3.5">
-        <time class="text-[0.9375rem] font-medium text-muted tabular-nums" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (cond $years "Jan 2" "Jan 2, 2006") }}</time>
-        <span class="text-[1.0625rem] font-medium leading-snug text-primary sm:text-base transition-colors group-hover:text-strong">{{/* Plain wrapping; the last two words and hyphenated words stay together, so no word sits alone on the last line. */}}{{ .Title | htmlEscape | replaceRE `\s+(\S+)$` "&nbsp;$1" | replaceRE `(\S+-\S+)` `<span class="whitespace-nowrap">$1</span>` | safeHTML }}</span>
+    {{ $dateLabel := $p.Date.Format "Jan 2" }}
+    {{ if and (not $years) $hasOlderYear }}
+      {{ $dateLabel = $p.Date.Format "Jan 2, 2006" }}
+    {{ end }}
+    <li class="border-b border-line {{ if and $mobileLimit (ge $idx $mobileLimit) }}hidden md:block{{ end }}">
+      <a
+        href="{{ $p.RelPermalink }}"
+        class="group grid items-baseline gap-x-2 py-2.5 transition-colors sm:gap-x-4 sm:py-2.5 {{ if and (not $years) $hasOlderYear }}grid-cols-[5.5rem_minmax(0,1fr)] sm:grid-cols-[6.75rem_minmax(0,1fr)]{{ else }}grid-cols-[3rem_minmax(0,1fr)] sm:grid-cols-[4.25rem_minmax(0,1fr)]{{ end }}"
+      >
+        <time class="whitespace-nowrap text-[0.9375rem] font-semibold text-muted tabular-nums transition-colors group-hover:text-[#d0d0d0] sm:text-[1rem]" datetime='{{ $p.Date.Format "2006-01-02" }}'>{{ $dateLabel }}</time>
+        <span class="pr-2 text-[1.0625rem] font-semibold leading-[1.3] text-[#ededed] text-pretty transition-colors group-hover:text-primary sm:text-[1.125rem]">{{/* Prevent stray leading hyphens, orphaned domain extensions like ".com", or split version names like "GPT 6". */}}{{ $p.Title | htmlEscape | replaceRE `\s+-\s+` "&nbsp;- " | replaceRE `\s+(\.\S+)` "&nbsp;$1" | replaceRE `\b([A-Z]{2,5})\s+(\d+\b)` "$1&nbsp;$2" | replaceRE `(\S+-\S+)` `<span class="whitespace-nowrap">$1</span>` | safeHTML }}</span>
       </a>
     </li>
     {{ end }}
   </ul>
   {{ with .More }}
-  <a href="{{ . }}" class="group mt-5 inline-block font-display text-base font-medium text-primary transition-colors hover:text-strong">{{ $.MoreLabel | default "All posts" }} <span class="text-primary">&rarr;</span></a>
+  <a
+    href="{{ . }}"
+    class="group mt-5 inline-flex items-center gap-1.5 font-display text-[1.0625rem] font-bold text-primary transition-colors hover:text-strong"
+  ><span class="underline decoration-primary/40 decoration-1 underline-offset-[0.22em] group-hover:decoration-strong">{{ $.MoreLabel | default "All posts" }}</span><span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">&rarr;</span></a>
   {{ end }}
 </section>

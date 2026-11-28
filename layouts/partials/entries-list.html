@@ -1,43 +1,65 @@
 {{/*
-  Bookshelf cover wall, one block per publication year.
-  Book post titles read "Title, Author[, Author], Year": tiles show the first author, then the title.
-  Covers are never cropped: they fill the column width and stand on the bottom edge of a tall box.
-  Params: "Pages".
+  Bookshelf cover wall grouped by publication year with horizontal section rules and shelf baselines.
+  Every cover fills 100% of its column width at its natural aspect ratio, resting on a hairline rule
+  under each cover row, with clean off-white titles and muted author captions below.
 */}}
 {{ range (.Pages.GroupByDate "2006") }}
-<section class="mt-24 first:mt-0">
-  <h2 class="border-b border-[#4a4a4a] pb-4 font-display text-[1.375rem] font-semibold lg:text-[1.625rem] leading-none tracking-tight text-strong tabular-nums">{{ .Key }}</h2>
-  <ul class="mt-8 grid grid-cols-2 gap-x-5 gap-y-12 overflow-hidden sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 lg:gap-x-6">
+{{ $count := len .Pages }}
+<section class="mt-12 first:mt-0 lg:mt-16">
+  <header class="flex items-baseline justify-between gap-4 border-b border-line-strong pb-3">
+    <h2 class="font-display text-[1.375rem] font-bold leading-none tracking-[-0.01em] text-strong tabular-nums lg:text-[1.5rem]">{{ .Key }}</h2>
+    <span class="font-display text-[0.9375rem] font-semibold text-muted tabular-nums">{{ $count }} {{ if eq $count 1 }}book{{ else }}books{{ end }}</span>
+  </header>
+  <ul class="mt-6 grid grid-cols-2 gap-x-5 gap-y-8 overflow-hidden sm:grid-cols-3 sm:gap-x-5 sm:gap-y-9 md:grid-cols-4 lg:mt-7 lg:grid-cols-6 lg:gap-x-6 lg:gap-y-10">
     {{ range .Pages.ByTitle }}
-    {{ $image := partial "image-url.html" . }}
+    {{ $page := . }}
+    {{ $image := "" }}
+    {{ range first 1 ($page.Resources.ByType "image") }}{{ $image = .RelPermalink }}{{ end }}
+    {{ with $imageName := $page.Params.image }}
+      {{ with $page.Resources.GetMatch $imageName }}{{ $image = .RelPermalink }}{{ end }}
+    {{ end }}
     {{ $parts := split .Title ", " }}
-    {{ $title := index $parts 0 }}
+    {{ $title := index (split (index $parts 0) ": ") 0 }}
     {{ $rest := after 1 $parts }}
     {{ with $rest }}{{ if findRE `^\d{4}$` (index (last 1 .) 0) }}{{ $rest = first (sub (len .) 1) . }}{{ end }}{{ end }}
     {{ $authors := "" }}
-    {{/* Several authors: "Surname et al.", so the line never wraps and titles share one top line. */}}
     {{ with $rest }}{{ $authors = index . 0 }}{{ if gt (len .) 1 }}{{ $authors = printf "%s et al." (index (last 1 (split $authors " ")) 0) }}{{ end }}{{ end }}
+    {{ $isFallback := eq $image "" }}
+    {{ $isLandscapeNote := in $image "shaping-enterprise" }}
+    {{ if and (eq $authors "") $isLandscapeNote }}{{ $authors = "Michael Backes" }}{{ end }}
     <li>
-      <a href="{{ .Permalink }}" class="group block font-display">
-        {{/* Covers stand on a shelf: a 2:3 box, uncropped, on a hairline that runs to the container edge in every row (the list clips it). */}}
-        <div class="relative flex aspect-[2/3] items-end after:absolute after:-bottom-px after:left-0 after:-right-[100vw] after:h-px after:bg-line">
-          {{ if eq $image (printf "%s%s" .Site.BaseURL .Site.Params.image) }}
-          {{/* No cover image: a typeset cover, never an empty frame. */}}
-          <div class="flex aspect-[2/3] w-full flex-col justify-between bg-[#1f1c1a] p-4 text-center">
-            <span class="mt-[15%] font-serif text-base leading-tight text-strong text-balance">{{ $title }}</span>
-            <span class="h-px w-6 self-center bg-[#5a5450]"></span>
-            <span class="text-[0.625rem] uppercase tracking-[0.14em] text-[#c4c4c4]">{{ index (split $authors " et al.") 0 }}</span>
+      <a href="{{ .RelPermalink }}" class="group block font-display">
+        <div class="relative flex aspect-[5/8] w-full items-end justify-start after:absolute after:-bottom-px after:left-0 after:-right-[100vw] after:h-px after:bg-line">
+          {{ if $isFallback }}
+          {{/* Typographic fallback jacket: reads as an intentional editorial cover with title only. */}}
+          <div class="flex aspect-[2/3] w-full flex-col justify-between bg-[#0c0c0c] p-3.5 text-left outline outline-1 -outline-offset-1 outline-white/[0.16] transition-colors group-hover:outline-primary/60">
+            <div>
+              <span aria-hidden="true" class="block h-[2px] w-7 bg-primary"></span>
+              <p aria-hidden="true" class="mt-3 font-display text-[1.0625rem] font-bold leading-[1.12] tracking-[-0.01em] text-strong text-pretty sm:text-[1.125rem]">{{ $title }}</p>
+            </div>
+          </div>
+          {{ else if $isLandscapeNote }}
+          <div class="aspect-[2/3] w-full overflow-hidden outline outline-1 -outline-offset-1 outline-white/[0.14] transition-colors group-hover:outline-primary/60">
+            <img
+              src="{{ $image }}"
+              alt=""
+              loading="lazy"
+              class="h-full w-full origin-center scale-[1.58] object-cover object-[4%_34%] transition-opacity duration-150 group-hover:opacity-85"
+            />
           </div>
           {{ else }}
-          <img src="{{ $image }}" alt="" loading="lazy" class="h-auto max-h-full w-auto max-w-full outline outline-1 -outline-offset-1 outline-white/15 transition-opacity duration-200 group-hover:opacity-80" />
+          <img
+            src="{{ $image }}"
+            alt=""
+            loading="lazy"
+            class="h-auto w-full max-h-full object-contain outline outline-1 -outline-offset-1 outline-white/[0.14] transition-opacity duration-150 group-hover:opacity-85"
+          />
           {{ end }}
         </div>
-        {{/*
-          Captions hang 12px under the shelf rule. Every title reserves exactly two lines,
-          so the author line sits at the same place under every book on the site.
-        */}}
-        <h3 class="mt-3 line-clamp-2 min-h-[2lh] hyphens-auto break-words text-[1rem] font-medium leading-snug text-balance text-primary transition-colors group-hover:text-strong">{{ $title }}</h3>
-        <p class="mt-1 truncate text-[0.9375rem] font-medium leading-snug text-[#dcdcdc]">{{ $authors }}</p>
+        <h3 class="mt-3 text-[0.9375rem] font-semibold leading-[1.26] text-[#ededed] text-pretty transition-colors group-hover:text-primary sm:text-[1rem] sm:leading-[1.28]">{{ $title }}</h3>
+        {{ with $authors }}
+        <p class="mt-0.5 truncate text-[0.875rem] font-medium leading-snug text-muted sm:mt-1">{{ . }}</p>
+        {{ end }}
       </a>
     </li>
     {{ end }}

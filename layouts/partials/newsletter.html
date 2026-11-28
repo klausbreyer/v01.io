@@ -1,28 +1,30 @@
-{{/* Mailchimp sign-up: one email field and a labelled submit button. */}}
+{{/* Mailchimp sign-up: persistent accessible label, 44px touch targets, and signature bold red submit CTA. */}}
 <div id="mc_embed_signup">
   <form
     action="https://v01.us17.list-manage.com/subscribe/post?u=cfd815a1237e74355cd80711b&amp;id=6be736aa2f&amp;f_id=009b62e0f0"
     method="post"
     id="mc-embedded-subscribe-form"
     name="mc-embedded-subscribe-form"
-    class="flex validate"
+    class="validate"
     target="_self"
   >
-    <label for="mce-EMAIL" class="sr-only">Email address</label>
-    <input
-      type="email"
-      value=""
-      name="EMAIL"
-      class="required email h-11 min-w-0 grow border border-[#5c5c5c] border-e-0 bg-bg px-3.5 font-display text-[1rem] text-strong placeholder:text-muted focus:border-primary focus:ring-0"
-      id="mce-EMAIL"
-      required=""
-      placeholder="you@example.com"
-    />
-    <button
-      type="submit"
-      name="subscribe"
-      id="mc-embedded-subscribe"
-      class="button h-11 shrink-0 cursor-pointer bg-primary px-5 font-display text-[1rem] font-semibold text-white transition-opacity hover:opacity-90"
-    >Subscribe</button>
+    <label for="mce-EMAIL" class="mb-1 block font-display text-[0.9375rem] font-semibold leading-none text-[#b8b8b8]">Email address</label>
+    <div class="flex items-stretch border-b border-[#666666] transition-colors focus-within:border-primary">
+      <input
+        type="email"
+        value=""
+        name="EMAIL"
+        class="required email h-11 min-w-0 grow border-0 bg-transparent px-0 font-display text-[1rem] font-medium text-strong placeholder:text-[#a8a8a8] focus:ring-0"
+        id="mce-EMAIL"
+        required=""
+        placeholder="you@example.com"
+      />
+      <button
+        type="submit"
+        name="subscribe"
+        id="mc-embedded-subscribe"
+        class="button inline-flex h-11 shrink-0 cursor-pointer items-center bg-primary px-3.5 font-display text-[0.9375rem] font-bold uppercase tracking-[0.04em] text-black transition-colors hover:bg-primary-soft"
+      >Subscribe</button>
+    </div>
   </form>
 </div>

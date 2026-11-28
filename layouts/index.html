@@ -1,39 +1,57 @@
 {{ define "head" }} {{ partial "meta.html" . }} {{ end }} {{ define "main" }}
 
 {{/*
-  Home, two rows on the 12-column grid:
-  1. intro and bio, with the portrait on the right (desktop only);
-  2. latest posts and the category table, starting on one line.
+  Home, unified 8/4 12-column grid shared with Blog, Categories, Articles, Speaking, CV, and Footer:
+  1. intro and bio (8 cols) with a portrait locked to the 4-col sidebar track on desktop,
+     and a deliberate wide editorial portrait below the headline on mobile;
+  2. latest posts (8 cols) and the category index (4 cols), separated by a hairline rule.
 */}}
 {{ $posts := partial "visible-posts.html" .Site.RegularPages }}
 <div class="container-site">
-  <div class="grid items-stretch gap-x-8 lg:grid-cols-12">
-    <div class="lg:col-span-7">
-      <h1 class="font-display text-4xl font-bold leading-none text-strong text-balance">
-        B2B SaaS product and tech leadership.
-      </h1>
-      <div class='{{partial "prose.html"}} home-bio mt-6 sm:mt-8 [&>p:last-child]:mb-0 {{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}'>
+  <section class="grid items-start gap-x-10 gap-y-6 lg:grid-cols-12 lg:gap-x-12">
+    <div class="lg:col-span-8">
+      <div class="flex items-start justify-between gap-4 lg:block">
+        <h1 class="font-display text-[1.75rem] font-bold leading-[1.04] tracking-[-0.015em] text-strong text-balance sm:text-4xl">
+          B2B SaaS product and tech leadership.
+        </h1>
+        <div class="mt-[0.1875rem] w-[4.25rem] shrink-0 overflow-hidden sm:w-[5.5rem] lg:hidden">
+          <img
+            src="/images/klaus-breyer.jpg"
+            alt="Portrait of Klaus Breyer"
+            width="1024"
+            height="1024"
+            class="aspect-square w-full origin-[52%_32%] scale-[1.6] object-cover object-center brightness-[0.86] contrast-[1.05] saturate-[0.88]"
+          />
+        </div>
+      </div>
+      <div class='{{partial "prose.html"}} home-bio mt-3 text-[0.96875rem] leading-[1.52] sm:mt-6 sm:text-base sm:leading-[1.62] [&>p]:my-2.5 [&>p]:text-pretty sm:[&>p]:my-4 [&>p:last-child]:mb-0 {{ if .File }}{{.File.Dir }} {{.File.BaseFileName}}{{ end }}'>
         {{/*
           Home shows the CV snippet's intro only: the skills list stays on the CV page,
           and the closing tagline lives in the footer.
         */}}
-        {{ .Content | replaceRE `\s*<p>Move Fast And Break Silos!</p>\s*$` "" | replaceRE `<p><strong>Skills:</strong>.*?</p>\s*` "" | safeHTML }}
+        {{ .Content | replaceRE `\s*<p>Move Fast And Break Silos!</p>\s*$` "" | replaceRE `<p><strong>Skills:</strong>.*?</p>\s*` "" | replaceRE `book author` `book&nbsp;author` | safeHTML }}
       </div>
     </div>
-    <img
-      src="/images/klaus-breyer.jpg"
-      alt="Portrait of Klaus Breyer"
-      width="1024"
-      height="1024"
-      class="hidden h-[calc(100%-1rem)] min-h-0 w-full object-cover object-[57%_50%] outline outline-1 -outline-offset-1 outline-white/10 lg:col-span-3 lg:col-start-10 lg:mb-4 lg:mt-2 lg:block"
-    />
-  </div>
-
-  <div class="mt-14 grid items-start gap-x-8 gap-y-14 lg:mt-20 lg:grid-cols-12">
-    <div class="lg:col-span-8">
-      {{ partial "post-list.html" (dict "Title" "Latest posts" "Pages" (first 10 $posts) "More" "/posts/") }}
+    <div class="hidden lg:col-span-4 lg:mt-1 lg:block">
+      <div class="overflow-hidden">
+        <img
+          src="/images/klaus-breyer.jpg"
+          alt="Portrait of Klaus Breyer"
+          width="1024"
+          height="1024"
+          class="aspect-[4/5.3] w-full origin-[54%_38%] scale-[1.15] object-cover object-center brightness-[0.84] contrast-[1.05] saturate-[0.88]"
+        />
+      </div>
     </div>
-    <div class="lg:col-span-3 lg:col-start-10">{{ partial "category-list.html" . }}</div>
+  </section>
+
+  <div class="mt-4 border-t border-line pt-4 lg:mt-9 lg:pt-8">
+    <div class="grid items-start gap-x-10 gap-y-7 lg:grid-cols-12 lg:gap-x-12 lg:gap-y-12">
+      <div class="lg:col-span-8">
+        {{ partial "post-list.html" (dict "Title" "Latest posts" "Pages" (first 10 $posts) "MobileLimit" 5 "More" "/posts/") }}
+      </div>
+      <div class="border-t border-line pt-6 lg:col-span-4 lg:border-0 lg:pt-0">{{ partial "category-list.html" . }}</div>
+    </div>
   </div>
 </div>
 {{ end }}

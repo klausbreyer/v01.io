@@ -1,6 +1,5 @@
 {{/*
-  End-of-page navigation for single pages. On a post: more posts from its category,
-  never the post itself, in the article column. Elsewhere: the latest posts.
+  End-of-page navigation for single pages: matches the exact 8-column reading track pixel-for-pixel.
 */}}
 {{ $posts := partial "visible-posts.html" .Site.RegularPages }}
 {{ $title := "Latest posts" }}
@@ -19,6 +18,8 @@
     {{ end }}
   {{ end }}
 {{ end }}
-<div class="measure mx-auto">
-  {{ partial "post-list.html" (dict "Title" $title "Pages" (first 5 $list) "More" $more "MoreLabel" $moreLabel) }}
+<div class="grid lg:grid-cols-12 lg:gap-x-12">
+  <div class="lg:col-span-8">
+    {{ partial "post-list.html" (dict "Title" $title "Pages" (first 5 $list) "More" $more "MoreLabel" $moreLabel) }}
+  </div>
 </div>
