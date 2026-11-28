@@ -4,7 +4,7 @@ TAILWIND := ./tailwindcss
 
 # Install dependencies (only once)
 deps:
-	bun add puppeteer
+	npm install
 
 # Install Hugo through Homebrew if it is not already available
 hugo-install:
@@ -61,8 +61,8 @@ tailwind-build: tailwind-install
 # Generate PDF from a live site using the external script
 cv: deps
 	# Replace URL and filename as needed
-	bun cv.mjs https://www.v01.io/pages/services/ cv.pdf
+	node cv.mjs https://www.v01.io/pages/services/ cv.pdf
 
 # Generate PDF from local development site
 dev-cv: deps
-	bun cv.mjs http://localhost:1313/pages/services/ dev-cv.pdf
+	node cv.mjs http://localhost:1313/pages/services/ dev-cv.pdf
