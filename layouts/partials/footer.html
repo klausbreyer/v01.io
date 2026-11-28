@@ -18,7 +18,7 @@
     <span class="w-full font-medium sm:me-auto sm:w-auto">&copy; {{ now.Year }} {{ .Site.Copyright }}. Move fast and break silos.</span>
     <a href="mailto:kb@v01.io?subject=v01.io" class="text-primary transition-colors hover:text-strong">Email</a>
     <a href="https://www.linkedin.com/in/klaus-breyer/" target="_blank" rel="noopener" class="text-primary transition-colors hover:text-strong">LinkedIn</a>
-    <a href="{{ .Site.BaseURL }}posts/index.xml" class="text-primary transition-colors hover:text-strong">RSS</a>
-    <a href="{{ .Site.BaseURL }}pages/imprint/" class="text-primary transition-colors hover:text-strong">Imprint</a>
+    <a href='{{ "posts/index.xml" | relURL }}' class="text-primary transition-colors hover:text-strong">RSS</a>
+    <a href='{{ "pages/imprint/" | relURL }}' class="text-primary transition-colors hover:text-strong">Imprint</a>
   </div>
 </div>

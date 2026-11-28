@@ -31,7 +31,7 @@
     {{ end }}
     <li class="border-b border-line {{ if and $mobileLimit (ge $idx $mobileLimit) }}hidden md:block{{ end }}">
       <a
-        href="{{ $p.Permalink }}"
+        href="{{ $p.RelPermalink }}"
         class="group grid items-baseline gap-x-2 py-2.5 transition-colors sm:gap-x-4 sm:py-2.5 {{ if and (not $years) $hasOlderYear }}grid-cols-[5.5rem_minmax(0,1fr)] sm:grid-cols-[6.75rem_minmax(0,1fr)]{{ else }}grid-cols-[3rem_minmax(0,1fr)] sm:grid-cols-[4.25rem_minmax(0,1fr)]{{ end }}"
       >
         <time class="whitespace-nowrap text-[0.9375rem] font-semibold text-muted tabular-nums transition-colors group-hover:text-[#d0d0d0] sm:text-[1rem]" datetime='{{ $p.Date.Format "2006-01-02" }}'>{{ $dateLabel }}</time>

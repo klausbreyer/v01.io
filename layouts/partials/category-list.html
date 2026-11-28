@@ -33,7 +33,7 @@
     {{ $is := eq .Page.Title $active }}
     <li>
       <a
-        href="{{ .Page.Permalink }}"
+        href="{{ .Page.RelPermalink }}"
         class="group relative flex items-baseline justify-between gap-x-3 py-1.5 transition-colors {{ if $title }}lg:py-1.5 lg:leading-[1.35]{{ end }} {{ if $is }}lg:before:absolute lg:before:-left-3 lg:before:top-1/2 lg:before:h-3.5 lg:before:w-[2px] lg:before:-translate-y-1/2 lg:before:bg-primary{{ end }}"
         {{ if $is }}aria-current="page"{{ end }}
       >

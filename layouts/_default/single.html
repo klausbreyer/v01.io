@@ -14,15 +14,15 @@
     <div class="min-w-0 lg:col-span-8">
       <h1 class="font-display font-bold leading-[1.04] tracking-[-0.015em] text-strong text-balance print:text-black {{ if $isPost }}text-[2.125rem] sm:text-[2.5rem] lg:text-[2.75rem]{{ else }}text-4xl{{ end }}">{{ .Title }}</h1>
 
-      {{/* Metadata row for blog posts: date and red category link on the left, red language switch right-aligned with arrow. */}}
+      {{/* Metadata row for blog posts: quiet editorial metadata directly under H1, no competing rule above the grid. */}}
       {{ if $isPost }}
-      <ul class="mt-2.5 flex flex-wrap items-baseline gap-x-4 gap-y-1 border-b border-line pb-3.5 font-display text-[1rem] text-muted sm:mt-4 sm:pb-5 print:hidden">
+      <ul class="mt-2.5 flex flex-wrap items-baseline gap-x-4 gap-y-1 font-display text-[1rem] text-muted sm:mt-4 print:hidden">
         <li>
           <time class="font-semibold tabular-nums" datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format "Jan 2, 2006" }}</time>
         </li>
         {{ range (.GetTerms "categories") }}
         <li>
-          <a lang="{{.Lang}}" href="{{ .Permalink }}" class="font-semibold text-primary underline decoration-primary/40 decoration-1 underline-offset-[0.22em] transition-colors hover:text-strong hover:decoration-strong">{{ .LinkTitle }}</a>
+          <a lang="{{.Lang}}" href="{{ .RelPermalink }}" class="font-semibold text-primary underline decoration-primary/40 decoration-1 underline-offset-[0.22em] transition-colors hover:text-strong hover:decoration-strong">{{ .LinkTitle }}</a>
         </li>
         {{ end }}
         {{ with .Params.Social }}
@@ -32,12 +32,12 @@
         {{ end }}
         {{ range (.GetTerms "tags") }}
         <li>
-          <a href="{{ .Permalink }}" class="text-muted transition-colors hover:text-primary">#{{ .LinkTitle }}</a>
+          <a href="{{ .RelPermalink }}" class="text-muted transition-colors hover:text-primary">#{{ .LinkTitle }}</a>
         </li>
         {{ end }}
         {{ range .Translations }}
         <li class="ms-auto">
-          <a lang="{{.Lang}}" href="{{ .Permalink }}" class="group inline-flex items-center gap-1 font-semibold text-primary transition-colors hover:text-strong"><span class="underline decoration-primary/40 decoration-1 underline-offset-[0.22em] group-hover:decoration-strong">{{ if eq .Lang "de" }}Auf Deutsch{{ else }}In English{{ end }}</span><span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">&rarr;</span></a>
+          <a lang="{{.Lang}}" href="{{ .RelPermalink }}" class="group inline-flex items-center gap-1 font-semibold text-primary transition-colors hover:text-strong"><span class="underline decoration-primary/40 decoration-1 underline-offset-[0.22em] group-hover:decoration-strong">{{ if eq .Lang "de" }}Auf Deutsch{{ else }}In English{{ end }}</span><span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">&rarr;</span></a>
         </li>
         {{ end }}
       </ul>
@@ -53,7 +53,7 @@
   {{ end }}
 
   {{ if $hasToc }}
-  <details class="article-toc group {{ if not $isPost }}mt-3 border-t {{ end }}border-b border-line lg:hidden print:hidden">
+  <details class="article-toc group mt-4 border-y border-line lg:hidden print:hidden">
     <summary class="flex w-full cursor-pointer list-none items-center justify-between py-2.5 font-display text-[1rem] font-semibold text-[#e0e0e0] transition-colors hover:text-strong [&::-webkit-details-marker]:hidden">
       <span>On this page</span>
       <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4 shrink-0 text-primary transition-transform group-open:rotate-180"><path d="M3.5 6L8 10.5L12.5 6" stroke-linecap="square" /></svg>
@@ -64,7 +64,7 @@
   </details>
   {{ end }}
 
-  <div class="mt-4 grid items-start gap-x-10 gap-y-6 {{ if $isPost }}lg:mt-9{{ else }}lg:mt-10{{ end }} lg:grid-cols-12 lg:gap-x-12">
+  <div class="{{ if $hasToc }}mt-5{{ else }}mt-6{{ end }} grid items-start gap-x-10 gap-y-6 lg:mt-10 lg:grid-cols-12 lg:gap-x-12">
     <div class="min-w-0 lg:col-span-8">
       <div class='{{partial "prose.html"}} [&>*:first-child]:mt-0'>
         {{ if $isCv }}
@@ -89,7 +89,7 @@
         {{ range $galleryImages }}
         {{ if eq .MediaType.MainType "image" }}
         {{- $resized := .Fit "2000x200" -}}
-        <a href="{{ .Permalink }}" target="_blank" class="block">
+        <a href="{{ .RelPermalink }}" target="_blank" class="block">
           <img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" loading="lazy" class="h-[200px] w-auto outline outline-1 -outline-offset-1 outline-white/12" />
         </a>
         {{ end }}

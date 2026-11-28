@@ -15,7 +15,7 @@
 		{{- range .Page.Resources.Match $pattern -}}
 			{{- if eq .MediaType.MainType "image" -}}
 				{{- $resized := .Fit $size -}}
-				<a href="{{ .Permalink }}" target="_blank" class="block">
+				<a href="{{ .RelPermalink }}" target="_blank" class="block">
 					<img src="{{ $resized.RelPermalink }}" alt="{{ .Name }}" class="max-w-xs transition-opacity hover:opacity-80" />
 				</a>
 			{{- end -}}

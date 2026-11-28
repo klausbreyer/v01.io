@@ -73,6 +73,21 @@
   margin-block: 2rem;
 }
 
+/* Lead figures/videos at the top of an article or Speaking page align optically with the cap-height of On this page. */
+.prose > figure.prose-figure:first-child,
+.prose > p:first-child:has(> img),
+.prose > video:first-child {
+  margin-top: 0;
+}
+
+@media (width >= 64rem) {
+  .prose > figure.prose-figure:first-child,
+  .prose > p:first-child:has(> img),
+  .prose > video:first-child {
+    margin-top: 0.25rem;
+  }
+}
+
 .prose > figure.prose-figure > a {
   display: block;
   text-decoration: none;
@@ -349,18 +364,10 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* Speaking hero photo: top-aligned with the cap-height of the On this page rail, toned to match the portrait. */
+/* Speaking hero photo: tight bottom rhythm and desaturated stage tone matching the portrait. */
 .page-speaking .prose > figure.prose-figure:first-child,
 .page-speaking .prose > p:first-child:has(> img) {
-  margin-top: 0;
   margin-bottom: 1.5rem;
-}
-
-@media (width >= 64rem) {
-  .page-speaking .prose > figure.prose-figure:first-child,
-  .page-speaking .prose > p:first-child:has(> img) {
-    margin-top: 0.25rem;
-  }
 }
 
 .page-speaking .prose > figure.prose-figure:first-child > figcaption {
@@ -429,6 +436,7 @@
 @layer base {
   html {
     color-scheme: dark;
+    scrollbar-gutter: stable;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;

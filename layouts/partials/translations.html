@@ -4,7 +4,7 @@
     {{ range .Translations }}
         <a
             lang="{{.Lang}}"
-            href="{{ .Permalink }}"
+            href="{{ .RelPermalink }}"
             class="text-primary hover:underline mb-2 "
         >
             {{partial "lang.html" .Lang }} {{ .Title }}

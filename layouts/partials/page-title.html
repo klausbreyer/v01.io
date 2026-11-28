@@ -13,7 +13,7 @@
   {{ $label := cond (eq .Lang "de") "Auf Deutsch" "In English" }}
   <a
     lang="{{ .Lang }}"
-    href="{{ .Permalink }}"
+    href="{{ .RelPermalink }}"
     class="group inline-flex items-center gap-1.5 font-display text-[1rem] font-semibold text-primary transition-colors hover:text-strong sm:text-[1.0625rem]"
   ><span class="underline decoration-primary/40 decoration-1 underline-offset-[0.22em] group-hover:decoration-strong">{{ $label }}</span><span aria-hidden="true" class="transition-transform group-hover:translate-x-0.5">&rarr;</span></a>
   {{ end }}
